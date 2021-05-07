@@ -1,10 +1,9 @@
 title: Teatro 700
 email: vedph@unive.it
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /
 
-# Build settings
 markdown: kramdown
+permalink: pretty
 
 collections:
   personaggi:
