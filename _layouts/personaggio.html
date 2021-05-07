@@ -11,7 +11,7 @@ layout: default
     {% for opera in site.opere %}
       {% for personaggio in opera.personaggi %}
         {% if page.title == personaggio %}
-          <li><a href="{{ opera.url }}">{{ opera.title }}</a></li>
+          <li><a href="{{ site.baseurl }}{{ opera.url }}">{{ opera.title }}</a></li>
         {% endif %}
       {% endfor %}
     {% endfor %}

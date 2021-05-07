@@ -11,7 +11,7 @@ layout: default
     {% for personaggio in page.personaggi %}
       {% for p in site.personaggi %}
         {% if p.title == personaggio %}
-          <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+          <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
       {% endfor %}
     {% endfor %}

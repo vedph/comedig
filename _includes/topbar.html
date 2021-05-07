@@ -13,7 +13,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opere</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             {% for opera in site.opere %}
-              <li><a class="dropdown-item" href="{{ opera.url }}">{{ opera.title }}</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}{{ opera.url }}">{{ opera.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
@@ -21,7 +21,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personaggi</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             {% for personaggio in site.personaggi %}
-              <li><a class="dropdown-item" href="{{ personaggio.url }}">{{ personaggio.title }}</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}{{ personaggio.url }}">{{ personaggio.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
