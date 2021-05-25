@@ -4,6 +4,7 @@ layout: default
 
 <div class="container">
   <h1>{{ page.title }}</h1>
+  <h2>{{ page.subtitle }}</h2>
   {{ page.description }}
 
   <h2>Lista personaggi</h2>
@@ -16,5 +17,70 @@ layout: default
       {% endfor %}
     {% endfor %}
   </ul>
+
+  <ul class="nav nav-tabs" role="tablist" id="tab">
+    {% for language in page.languages %}
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="{{ language }}-tab" data-bs-toggle="tab" data-bs-target="#{{ language }}" type="button" role="tab" aria-controls="{{ language }}" aria-selected="true">Versione in {{ site.languages[language] }}</button>
+      </li>
+    {% endfor %}
+
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="compare-tab" data-bs-toggle="tab" data-bs-target="#compare" type="button" role="tab" aria-controls="compare" aria-selected="true">Compara le versioni</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="tabContent">
+    {% for language in page.languages %}
+      <div class="tab-pane fade show" id="{{ language }}" role="tabpanel" aria-labelledby="{{ language }}-tab">
+	<script>showVersion("{{language}}");</script>
+      </div>
+    {% endfor %}
+    <div class="tab-pane fade show active" id="compare" role="tabpanel" aria-labelledby="compare-tab">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Seleziona</option>
+                  <option value="1">Russo</option>
+                  <option value="2">Tedesco</option>
+                  <option value="3">Italiano</option>
+		  <option value="3">Facsimile RU</option>
+		  <option value="3">Facsimile GE</option>
+                </select>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Seleziona</option>
+                  <option value="1">Russo</option>
+                  <option value="2">Tedesco</option>
+                  <option value="3">Italiano</option>
+                  <option value="3">Facsimile RU</option>
+                  <option value="3">Facsimile GE</option>
+			</select>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 

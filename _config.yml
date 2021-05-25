@@ -10,3 +10,8 @@ collections:
     output: true
   opere:
     output: true
+
+languages:
+  it: Italiano
+  de: Tedesco
+  ru: Russo
