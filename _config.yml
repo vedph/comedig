@@ -8,8 +8,6 @@ permalink: pretty
 collections:
   personaggi:
     output: true
-  opere:
-    output: true
 
 languages:
   it: Italiano

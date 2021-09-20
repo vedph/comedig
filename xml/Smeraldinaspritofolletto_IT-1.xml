@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Smeraldina kikimora</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="it">Italian</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface type="ru">
+         <graphic xml:id="smer-1" url="esempio.jpg"/>
+         <graphic xml:id="smer-2" url="esempio.jpg"/>
+         <graphic xml:id="smer-3" url="esempio.jpg"/>
+         <graphic xml:id="smer-4" url="esempio.jpg"/>
+      </surface>
+      <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+   </facsimile>
+   <text>
+      <front>
+         <pb n="1"/>
+         <head>Smeraldina kikimora.</head>
+         <head>Commedia italiana allestita a San Pietroburgo nell’anno <date when="1733">1733</date></head>
+         <div type="preface">
+            <head>ARGOMENTO.</head>
+            <p>Silvio, marito di Smeraldina, si è innamorato di Diana e le promette di sposarla,
+               dicendo di essere libero. Questo lo spinge a uccidere la moglie. Perciò egli la porta
+               in un bosco, ordina a un sicario di ucciderla, e se ne va. Il sicario, mosso a
+               compassione dall’innocente, le risparmia la vita e la lascia nel bosco. Disperata,
+               Smeraldina si affida al dio degli inferi Plutone, il quale le dona come servo uno
+               spirito folletto con il potere di farle assumere qualsiasi sembianza e di farla
+               parlare in qualsiasi lingua. Su questo si basa l’intreccio di tutta la commedia.</p>
+         </div>
+         <castList>
+            <head>PERSONAGGI.</head>
+            <castItem>
+               <role xml:id="plutone">Plutone,</role>
+               <roleDesc>Dio degli inferi</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="minosse">Minosse,</role>
+               <roleDesc>suoi giudici</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="radamante">Radamante,</role>
+               <roleDesc>suoi giudici</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="pantalone">Pantalone,</role>
+               <roleDesc>padre di Diana</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="diana">Diana</role>
+            </castItem>
+            <castGroup>
+               <castItem>
+                  <role xml:id="arlecchino">Arlecchino</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella">Brighella</role>
+               </castItem>
+               <roleDesc>suoi servitori</roleDesc>
+            </castGroup>
+            <castItem>
+               <role xml:id="dottore">Dottore</role>
+               <roleDesc>padre di Smeraldina, moglie di Silvio che si è innamorato di
+                  Diana</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="silvio">Silvio</role>
+               <roleDesc>innamorato di Diana</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="odoardo">Odoardo</role>
+               <roleDesc>promesso sposo di Diana</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="sicario">Sicario</role>
+            </castItem>
+            <castItem>
+               <role xml:id="soldati">Soldati</role>
+            </castItem>
+            <castItem>
+               <role xml:id="folletti">Folletti</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>L’azione si svolge a Bologna.</p>
+         </set>
+      </front>
+      <body>
+         <div type="act" n="1">
+            <head>ATTO PRIMO</head>
+            <div type="scene">
+               <stage>LA SCENA IN UN CAMPO DI NOTTE.</stage>
+               <ab>SILVIO entra dicendo a Smeraldina che deve morire, lei gli domanda il motivo.
+                  Silvio le racconta che il motivo è il suo nuovo amore per Diana. Smeraldina cerca
+                  di impietosirlo. Alla fine Silvio ordina al sicario di ucciderla e se ne va. Il
+                  sicario vuole eseguire il suo ordine; ma Smeraldina, con le sue lacrime e
+                  suppliche, fa sì che il sicario le risparmi la vita a patto che ella non si faccia
+                  più vedere da Silvio; il sicario se ne va. Smeraldina piange la sua disgrazia, e
+                  si affida agli degli inferi che vogliono vendicarla. E è così che appare</ab>
+               <ab>Plutone sul suo trono con Minosse e Radamante suoi giudici, davanti ai quali la
+                  spaventata Smeraldina accusa il marito. Plutone, compiangendo la povera
+                  Smeraldina, su consiglio dei suoi giudici fa venire uno spirito al quale ordina di
+                  obbedire in tutto e per tutto a questa donna, e di renderla invisibile, quando lei
+                  lo vorrà, così come di trasformarla, e di darle modo di parlare in qualunque
+                  lingua le possa piacere e ne possa aver bisogno. Lo spirito glielo promette e
+                  porta via Smeraldina attraverso l’aria. Plutone, Radamante e Minosse e se ne
+                  vanno. La scena cambia mostrando la città.</ab>
+               <ab>PANTALONE esce dicendo ad Arlecchino che ha sistemato la questione che aveva in
+                  tribunale e lo rimprovera di non aver portato la candela per la lanterna.
+                  Arlecchino si scusa perché aveva fretta. Poi arriva</ab>
+               <ab>SMERALDINA, trasformata in venditore di candele, che dopo molti giochi che
+                  convengono al teatro, gli vende una candela e se ne va. Arlecchino vuole
+                  accenderla, ma la candela si trasforma in un fuoco d’artificio. Pantalone e
+                  Arlecchino si spaventano e se ne vanno.</ab>
+            </div>
+            <div type="scene">
+               <stage>LA SCENA MOSTRA LA CAMERA DI DIANA.</stage>
+               <ab> DIANA si lamenta che Silvio non va a trovarla; al che Smeraldina nelle sembianze
+                  di un nobile romano, la saluta. Diana, sorpresa, gli chiede chi l’ha fatta entrare
+                  in casa sua a un’ora così inappropriata. Lei gli dice che è stato Arlecchino a
+                  farlo entrare. Diana gli chiede che cosa è venuto a fare. Smeraldina risponde di
+                  essere venuto per dichiararle il suo amore. Diana, vedendolo così bello, si
+                  innamora di lui, ma ha paura che suo padre li veda. Accorgendosi della sua
+                  preoccupazione, Smeraldina le dice di avere un anello che può renderlo invisibile
+                  a tutti tranne che a lei. Diana si rallegra e di due si promettono il loro amore
+                  eterno.</ab>
+               <ab>PANTALONE entra e dice che aveva sentito qualcuno nella camera di Diana; ma, non
+                  vedendo nessuno, si meraviglia. Per spaventarlo Smeraldina gli spegne la candela;
+                  Pantalone chiama</ab>
+               <ab>BRIGHELLA e Arlecchino che entrano con le candele; Smeraldina le spegne.
+                  Pantalone è furibondo e grida che c’è qualcuno nella camera e di aver sentito
+                  qualcuno parlare affettuosamente con sua figlia. Ordina a Brighella e Arlecchino
+                  di cercare ovunque. Smeraldina e Diana se ne vanno. Arlecchino e Brighella, dopo
+                  qualche scherzo teatrale, escono e tornano con Smeraldina trasformata in una nana,
+                  la quale racconta della sfortunate disgrazie toccate a Smeraldina, figlia del
+                  Dottore, che il marito la fatto uccidere. Pantalone è dispiaciuto per questo e si
+                  meraviglia che Silvio, pur essendo sposato, gli abbia chiesto in sposa sua figlia
+                  Diana. Dopo molti scherzi scenici, nuovamente la scena cambia tutta in una volta.
+                  Tutti si spaventano a causa di ciò e se ne vanno.</ab>
+            </div>
+            <div type="scene">
+               <stage>LA SCENA MOSTRA LA CITTÀ DI GIORNO.</stage>
+               <ab>Il DOTTORE entra e chiede a Silvio dov’è sua figlia. Silvio risponde che l’aveva
+                  portata con sé [6] in un campo, ma una volta arrivati in una foresta, lei l’aveva
+                  lasciato. Lui in seguito aveva scoperto che lei era scappata con l’amante con cui
+                  viveva. Il Dottore non può credere che sua figlia abbia potuto fare una cosa del
+                  genere. Silvio gli assicura che questa è la verità, di cui il Dottore si può
+                  informare se vuole e se ne va. Il Dottore è lasciato nella disperazione. In questo
+                  momento entra</ab>
+               <ab> SMERALDINA vestita da un gondoliere, che racconta al Dottore come Silvio abbia
+                  ucciso la povera Smeraldina per amore di Diana, la figlia di Pantalone, e afferma
+                  di averlo visto con i propri occhi. Il Dottore piange la sorte di sua figlia. Il
+                  finto gondoliere promette di aiutarlo se vuole denunciare Silvio. Il Dottore lo
+                  ringrazia per questo. Smeraldina gli dice di aspettare lì per un po’. Il Dottore
+                  rimane e arriva</ab>
+               <ab> PANTALONE, a cui il Dottore racconta della morte di Smeraldina e dell’amore di
+                  Silvio per Diana. Pantalone gli risponde che per quanto riguarda l’amore di Diana
+                  è una bugia. Il Dottore ribatte che il gondoliere ne è testimone. Pantalone
+                  risponde che il gondoliere è un bugiardo, al che Smeraldina, travestita da
+                  kikimora, si burla dei vecchi facendo numerosi scherzi divertenti. Alla fine i
+                  vecchi si spaventano e se ne vanno. Smeraldina esce volando per l’aria. ODOARDO
+                  entra, seguito da Arlecchino che porta il suo baule. Odoardo si rallegra di vedere
+                  la sua amata patria; Arlecchino chiede da dove viene. Odoardo risponde di essere
+                  originario di questa città e di essere tornato da un per l’Europa con l’intenzione
+                  di sposarsi. </ab>
+               <ab> SMERALDINA, trasformata in uno spirito invisibile, fa uno scherzo divertente ad
+                  Arlecchino e Odoardo e i due escono. Il DOTTORE entra accusando Silvio di aver
+                  ucciso sua figlia. Silvio lo nega e così cominciano a litigare. </ab>
+               <ab>[7] SMERALDINA, nelle sembianze del sicario, sostiene che Silvio ha ucciso
+                  Smeraldina ed è stato lui stesso a eseguire l’ordine di Silvio. Silvio si
+                  arrabbia. Il Dottore lo minaccia ed esce. Silvio afferra la spada per uccidere il
+                  finto assassino che toccandolo lo incanta, e gli dice che resterà immobile finché
+                  non lo tocca qualcun altro, il quale starà così immobile al posto suo; dopodiché
+                  esce e arriva</ab>
+               <ab>BRIGHELLA che, vedendo Silvio e non sapendo cosa fosse successo, vuole
+                  abbracciarlo a nome di un certo uomo e gli parla; ma vedendo che Silvio non gli
+                  risponde lo tira per mano; Silvio torna a muoversi mentre Brighella rimane
+                  immobile al posto suo. In questo momento arriva</ab>
+               <ab> PANTALONE che gli chiede notizie di Silvio, e vedendo Brighella muto lo tocca.
+                  Brighella se ne va meravigliandosi, Pantalone rimane incantato e arriva Il DOTTORE
+                  che, volendogli raccontare di Silvio, lo tira per mano. Pantalone viene liberato
+                  dall’incantesimo e se ne va; Il Dottore rimane immobile al posto suo e arriva</ab>
+               <ab>ODOARDO e la stessa cosa succede con lui; Il Dottore se ne va e Odoardo rimane
+                  incantato. Arriva</ab>
+               <ab>ARLECCHINO che, vedendo il suo compaesano, vuole farsi pagare per avergli portato
+                  il suo baule; ma vedendo che non risponde gli dà una botta. Odoardo viene
+                  disincantato e va via, mentre Arlecchino rimane al posto suo e arriva</ab>
+               <ab>SMERALDINA trasformata in uno spirito, e toglie l’incantesimo. Seguono molti
+                  scherzi adatti al teatro. Poi Smeraldina incanta di nuovo Arlecchino e se ne va. </ab>
+               <ab> Arriva un giovane e robusto imbianchino e dice che il suo padrone gli ha
+                  ordinato di portare la pittura a Pantalone, ma non sa dove si trova la sua casa.
+                  Vede Arlecchino e glielo chiede. Vedendo che Arlecchino non risponde, lo tira per
+                  la manica. Arlecchino viene disincantato, mentre il ragazzo rimane immobile.
+                  Arlecchino si meraviglia dell’accaduto e pensa che nel vaso dell’imbianchino ci
+                  sia qualcosa da mangiare. Quando capisce che si tratta di una tintura rossa,
+                  dipinge l’imbianchino e con questo divertente scherzo si conclude</ab>
+               <ab> il primo atto.</ab>
+            </div>
+         </div>
+         <div type="act" n="2">
+            <head>ATTO SECONDO.</head>
+            <div type="scene">
+               <ab>PANTALONE entra dicendo che vuole chiedere al Dottore se ha avuto qualche
+                  informazione su sua figlia Smeraldina; e bussa al portone del suo cortile.</ab>
+               <ab>SMERALDINA, nelle sembianze del Dottore, chiede cosa desidera. Pantalone risponde
+                  che vuole dirgli una sola parola. Smeraldina riprende il proposito di Pantalone di
+                  proferire quell’UNICA PAROLA, e tesse un elogio di QUELLA PAROLA con una lunga
+                  tirata che annoia Pantalone. Alla fine Smeraldina esce e Pantalone,
+                  meravigliandosi dell’eloquenza del Dottore, rimane, ed entra</ab>
+               <ab>Il DOTTORE. Pantalone gli chiede se non abbia dimenticato qualcosa a favore di
+                  quell’UNICA. Il Dottore gli risponde che non capisce la sua domanda. Pantalone
+                  ridendo dice che non gli ha permesso di pronunciare nemmeno una sola parola. Il
+                  Dottore giura che non hanno mai parlato e che anzi lui lo vede per la prima volta.
+                  Pantalone si confonde e alla fine gli chiede se ha avuto notizie di sua figlia che
+                  Silvio ha detto che fosse scappata. Il Dottore risponde che sa per certo che
+                  Silvio l’ha uccisa. In questo momento entra</ab>
+               <ab>SMERALDINA, nei panni di una donna napoletana, chiede ai vecchi se conoscono
+                  Silvio e racconta di essere sua moglie, abbandonata [9] con molti figli. Venuta a
+                  sapere che in questa città Silvio aveva sposato un’altra, vuole smascherarlo e
+                  denunciarlo per tale infedeltà. Sorpresi, i vecchi provano pietà per la donna e le
+                  fanno molte domande, dopodiché Smeraldina va via. I vecchi rimangono perplessi del
+                  fatto che Silvio, non accontentandosi di una moglie a Napoli e avendo sposato
+                  un’altra a Bologna, ne voglia prendere una terza. Per poterlo trovare e accusare
+                  delle terribili azioni compiute, escono.</ab>
+               <ab>ARLECCHINO entra con una scatola e dice che gliel’ha data Silvio come regalo per
+                  Diana; e quindi bussa al suo portone. </ab>
+               <ab>DIANA esce. Arlecchino la saluta da parte di Silvio e le consegna la scatola, ma
+                  Diana rifiuta di accettarla.</ab>
+               <ab>SMERALDINA, trasformata in uno spirito, dice di voler fare uno scherzo ad
+                  Arlecchino, e per questo tocca la scatola ed esce. Diana ordina ad Arlecchino di
+                  dire al suo padrone che sa cosa ha fatto e deve tornarsene dalla sua vecchia
+                  moglie; minaccia Arlecchino con un bastone dicendo che bastonerà se torna da lei.
+                  Arlecchino ride dell’accoglienza riservata al regalo di Silvio e vuole vedere cosa
+                  c’è nella scatola; apre la scatola, ma è rattristato da ciò che vi trova, e scappa
+                  via.</ab>
+               <ab>ODOARDO, dopo aver fatto i complimenti alla figlia di Pantalone ne chiede la
+                  mano; Pantalone gliela promette; al che</ab>
+               <ab>entra SILVIO e rimprovera Pantalone di non mantenere la sua parola, dicendo che
+                  non può dare ad un altro ciò che gli spetta, e che ha promesso di dare Diana a
+                  lui, e che lei deve essere sua moglie. Pantalone lo accusa di bigamia. Furibondo,
+                  Silvio dice che sua moglie è morta e che vuole sposare Diana. Odoardo difende il
+                  futuro suocero. Silvio, arrabbiatissimo, afferra la sua spada; e così fa anche
+                  Odoardo iniziando a combattere. A quel punto arriva</ab>
+               <ab> SMERALDINA, trasformata in un nobile. Si mette dalla parte di Odoardo, combatte
+                  contro Silvio e lo disarma. Odoardo e Pantalone ringraziano il finto nobile ed
+                  escono. Smeraldina chiama Silvio traditore ed se ne va. Silvio, in preda alla
+                  rabbia, esce anche lui. Pantalone, colpito dal coraggio del nobile sconosciuto,
+                  rimane. Entra</ab>
+               <ab>IL DOTTORE, al quale Pantalone racconta tutto quello che ha sentito sul conto di
+                  Silvio, e quello che gli è successo. Decidono di sporgere denuncia contro Silvio e
+                  arriva</ab>
+               <ab>SMERALDINA, nelle sembianze di un notaio, saluta i vecchi e racconta loro che
+                  Silvio, dopo aver ucciso sua moglie Smeraldina, cosa di cui è testimone, è venuto
+                  da lui e l’ha costretto a preparare un contratto di matrimonio con Diana, figlia
+                  di Pantalone. Gli dà la bozza del contratto ed esce. I vecchi, irritati da questa
+                  notizia, dicono che vogliono portare il documento in tribunale ma prima lo
+                  vogliono leggere; quando cominciano a leggere tutto comincia a cambiare ed
+                  escono.</ab>
+               <ab>SILVIO entra e dice che non ha pace, che è costantemente tormentato dalla sua
+                  coscienza, e che vede sempre sua moglie Smeraldina davanti ai suoi occhi. Teme che
+                  il cielo lo punisca per il suo crimine. A questo punto</ab>
+               <ab>entra SMERALDINA in veste di Diana. Silvio vuole parlarle del suo amore. Diana lo
+                  accusa di essere un poligamo tiranno, di aver lasciato una moglie con i figli a
+                  Napoli e di aver ucciso l’altra. Silvio vorrebbe giustificarsi, ma Diana, in preda
+                  alla rabbia, estrae un pugnale per ucciderlo. Ma entrano</ab>
+               <ab>PANTALONE con il Dottore e i soldati. I vecchi, vedendo la falsa Diana brandire
+                  il pugnale davanti a Silvio, le chiedono che cosa sia successo. Silvio vorrebbe
+                  rispondere, ma Diana lo [11] interrompe dicendo di aver tolto il pugnale a Silvio
+                  che la stava minacciando per estorcerle il consenso al matrimonio. I vecchi
+                  rimproverano Silvio per la sua crudeltà e ordinano ai soldati di portarlo via per
+                  ordine di giudici. Silvio vuole difendersi ma invano perché i soldati lo prendono
+                  e lo portano i prigione. I vecchi, soddisfatti di quello che hanno fatto,
+                  escono.</ab>
+            </div>
+            <div type="scene">
+               <stage>LA SCENA MOSTRA LA CAMERA DI DIANA.</stage>
+               <ab> SMERARLDINA, nelle sembianze di uno spirito, è seduta sul letto con Diana, e i
+                  due parlano del loro amore. Poi arriva Pantalone con Brighella e Arlecchino, e
+                  Pantalone ordina ai servitori di ascoltare ciò che le due persone stanno dicendo
+                  nella stanza. I servitori fanno molti lazzi scenici; alla fine si convincono che
+                  ci sia qualcuno nella stanza accanto. Escono per prendere le armi e tornano per
+                  uccidere il finto amante di Diana. In questo momento la scenografia comincia a
+                  mutare e così finisce il secondo atto.</ab>
+            </div>
+            <div type="act" n="3">
+               <head>ATTO TERZO</head>
+               <div type="scene">
+                  <ab>DIANA entra spaventata nel vedere il suo cortile trasformato in una foresta e
+                     chiede spiegazioni a Smeraldina, la quale le risponde che l’ha fatto per farla
+                     divertire. Diana la ringrazia e le chiede di fare in modo che si possano
+                     sposare quel giorno stesso. Smeraldina finge di essere contenta e, per essere
+                     sicura della fedeltà della sua promessa sposa, le chiede di aspettare un po’
+                     lì, indicandole un certo posto dove Diana andrà prima che Smeraldina torni.
+                     Diana obbedisce. Smeraldina scrive sugli alberi che le stelle promettono che la
+                     sua sfortuna finirà quel giorno e che l’innocenza trionferà. Poi va via.
+                     Arrivano i vecchi molto spaventati di trovarsi in un bosco uscendo dal cortile.
+                     Sono però molto contenti che Silvio venga presto punito per aver ucciso
+                     Smeraldina e per quello che voleva fare a Diana. Nel frattempo</ab>
+                  <ab>entrano BRIGHELLA e Arlecchino, spaventati anche loro per la trasformazione
+                     del cortile. Raccontano ai vecchi che hanno sentito che il processo di Silvio
+                     sta per aver luogo a breve. Vedono poi una lettera sugli alberi e vogliono
+                     leggerla, la qual cosa porta a svariati scherzi teatrali. Dopodiché il bosco si
+                     trasforma in un tribunale e tutti spaventati vogliono fuggire via, ma</ab>
+                  <ab>SMERALDINA, nelle vesti di un giudice, li costringe a rimanere e dice loro che
+                     quello è il luogo in cui ascoltare Silvio e giudicarlo. I vecchi, Arlecchino e
+                     Brighella si guardano, meravigliandosi che Smeraldina abbia portato Silvio [13]
+                     in manette e sorvegliato dai soldati. Smeraldina gli chiede perché ha ordinato
+                     di uccidere Smeraldina; Silvio nega. Allora tutti si sollevano contro di lui;
+                     alla fine Silvio confessa e dice che il motivo era il suo amore per Diana, e
+                     chiede perdono per le sue azioni malvagie. Smeraldina, fingendosi implacabile,
+                     sentenzia la pena di morte. A questo segue un altro mutamento di scena, e tutti
+                     escono.</ab>
+               </div>
+               <div type="scene">
+                  <stage>LA SCENA MOSTRA LA CITTÀ.</stage>
+                  <ab>ODOARDO dice di aver sentito che Silvio è stato condannato a morte. Nel
+                     frattempo</ab>
+                  <ab>arrivano i vecchi e i loro servitori e, dopo alcuni scherzi che convengono al
+                     teatro e che hanno a che fare con la paura di ciò che avevano visto, cominciano
+                     a raccontare a Odoardo quanto è accaduto. Anche Odoardo si meraviglia. Nel
+                     frattempo decidono di organizzare il suo matrimonio con Diana quello stesso
+                     giorno. Pantalone dice che, dato che la sua casa è infestata, bisogna cercarne
+                     un’altra e chiede al Dottore di prestargli la sua. Il Dottore accetta
+                     volentieri, ma Odoardo suggerisce, dato che nelle vicinanze si trova una
+                     rispettabile locanda, di ordinare al padrone di imbandire la tavola come si
+                     deve, e che il matrimonio si tenga lì. Pantalone approva e ordina a Brighella e
+                     ad Arlecchino di andare alla locanda. I due partono per eseguire l’ordine. I
+                     vecchi e Odoardo, dopo aver disquisito sulle faccende di Silvio, se ne
+                     vanno.</ab>
+               </div>
+               <div type="scene">
+                  <stage>LA SCENA MOSTRA LA LOCANDA.</stage>
+                  <ab>ARLECCHINO e Brighella entrano e dicono di essere venuti ad eseguire l’ordine
+                     del loro padrone, ma non vedono nessuno. Al che entra</ab>
+                  <ab>PANTALONE chiede a loro se hanno fatto quello che è stato loro ordinato; i due
+                     gli rispondono che [14] non hanno visto nessuno lì, e dopo alcuni scherzi che
+                     convengono al teatro cominciano a gridare a voce altra se c’è qualcuno là.</ab>
+                  <ab>SMERALDINA entra ed esce molte volte nei panni di vari servi e serve della
+                     locanda, lamentandosi incessantemente dell’infedeltà di Silvio e compiangendo
+                     la crudele sorte di Smeraldina. Ella si uniforma a tutti questi caratteri
+                     attraverso le lingue proprie di quei paesi dai quali finge di provenire, e fa
+                     tutto ciò cantando, ballando e facendo molti lazzi che convengono al teatro,
+                     dopodiché mostra il tavolo con tutto pronto ed esce. Arlecchino, Brighella e
+                     Pantalone si avvicinano al tavolo che si trasforma in fuochi d’artificio e
+                     tutti spaventati corrono via.</ab>
+               </div>
+               <div type="scene">
+                  <stage>LA SCENA MOSTRA LA CAMERA DI DIANA</stage>
+                  <ab>DIANA pensa a ciò che le ha promesso il suo amante invisibile. Nel
+                     frattempo</ab>
+                  <ab>PANTALONE esce raccontando al Dottore e Odoardo quello che gli era successo
+                     nella locanda, e che aveva deciso di maritare sua figlia nella speranza di
+                     liberarsi da queste cose strane che gli erano capitate. Ordina a sua figlia di
+                     dare la sua mano a Odoardo. Diana non obbedisce. Pantalone si infuria e vuole
+                     sapere il motivo. Diana confessa di aver dato il suo cuore a un cavaliere
+                     nobile e bello. Pantalone vuole picchiarla, ma in quel momento arriva</ab>
+                  <ab>SMERALDINA trasformata in un nobile, impedisce al Pantalone a picchiare sua
+                     figlia, dicendosi il promesso sposo di Diana.</ab>
+                  <ab>Pantalone gli chiede chi gli avrebbe dato il permesso. Smeraldina risponde: IL
+                     NOSTRO MUTUO CONSENSO. Dopo molte discussioni il finto cavaliere dice ai vecchi
+                     che prima di prendere Diana in moglie aveva sollecitato i giudici a costringere
+                     Silvio a confessare i suoi crimini e dichiarare l’innocenza di Smeraldina.
+                     Questi allora lo faranno giustiziare. Nel frattempo ordina alla guardia dei
+                     soldati di portare</ab>
+                  <ab>SILVIO che confessa tutto e chiede perdono. Tutti lo condannano per la sua
+                     condotta; egli confessa la verità, promette di cambiare la sua vita e comincia
+                     a piangere per la morte di Smeraldina. Alla fine Smeraldina dice a Diana che
+                     non può sposarla perché anche lei è femmina e vuole darle un altro uomo che
+                     possa prendere il suo cuore e il suo letto. Detto questo, le porta Odoardo, si
+                     fa riconoscere da Silvio, suo marito, e dal Dottore, suo padre. Racconta loro
+                     di come il sicario, commosso dalle sue lacrime, le abbia risparmiato la vita e
+                     di come le sia apparso Plutone, grazie al quale lei ha potuto assumere tutti i
+                     diversi caratteri e compiere i molti prodigi che essi avevano visto. Silvio si
+                     rallegra di vedere sua moglie viva; è pentito, maledice se stesso per quanto è
+                     accaduto, e si riconcilia con i vecchi. In questo modo finisce la</ab>
+                  <ab>Commedia.</ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
