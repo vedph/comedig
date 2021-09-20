@@ -124,7 +124,21 @@ const Teatro700 = {
     const elmTabUl = document.getElementById("tab");
     const elmTabContentUl = document.getElementById("tabContent");
 
-    for (let version of work.versions) {
+    const elmCompareA = document.getElementById("compareA");
+    const elmCompareB = document.getElementById("compareB");
+
+    function showBody(versionId, body) {
+      const elm = document.getElementById(body);
+      while (elm.firstChild) elm.firstChild.remove();
+
+      CETEIcean.domToHTML5(work.versions[versionId], data => {
+        document.getElementById(body).appendChild(data);
+      });
+    }
+    elmCompareA.onchange = e => showBody(e.target.value, "bodyA");
+    elmCompareB.onchange = e => showBody(e.target.value, "bodyB");
+
+    work.versions.forEach((version, pos) => {
       const language = this.runXPath(work.xmlDoc, ".//tei:language", version).iterateNext().textContent;
 
       const li = document.createElement("li");
@@ -160,7 +174,17 @@ const Teatro700 = {
       CETEIcean.domToHTML5(version, data => {
         document.getElementById(language).appendChild(data);
       });
-    }
+
+      for (let elm of [ elmCompareA, elmCompareB]) {
+        const option = document.createElement("option");
+        option.textContent = language;
+        option.value = pos;
+        elm.appendChild(option);
+      }
+    });
+
+    showBody(0, "bodyA");
+    showBody(0, "bodyB");
   }
 };
 
