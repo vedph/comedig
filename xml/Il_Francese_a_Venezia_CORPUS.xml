@@ -71,20 +71,20 @@
       </teiHeader>
       <facsimile>
          <surface type="ru">
-            <graphic xml:id="fran-1" url="imgs/001frantsuz.tiff"/>
-            <graphic xml:id="fran-2" url="imgs/002frantsuz.tiff"/>
-            <graphic xml:id="fran-3" url="imgs/003frantsuz.tiff"/>
-            <graphic xml:id="fran-4" url="imgs/004frantsuz.tiff"/>
-            <graphic xml:id="fran-5" url="imgs/005frantsuz.tiff"/>
-            <graphic xml:id="fran-6" url="imgs/006frantsuz.tiff"/>
-            <graphic xml:id="fran-7" url="imgs/007frantsuz.tiff"/>
-            <graphic xml:id="fran-8" url="imgs/008frantsuz.tiff"/>
-            <graphic xml:id="fran-9" url="imgs/009frantsuz.tiff"/>
-            <graphic xml:id="fran-10" url="imgs/010frantsuz.tiff"/>
-            <graphic xml:id="fran-11" url="imgs/011frantsuz.tiff"/>
-            <graphic xml:id="fran-12" url="imgs/012frantsuz.tiff"/>
-            <graphic xml:id="fran-13" url="imgs/013frantsuz.tiff"/>
-            <graphic xml:id="fran-14" url="imgs/014frantsuz.tiff"/>
+            <graphic xml:id="fran-1" url="/imgs/001rufrantsuz.webp"/>
+            <graphic xml:id="fran-2" url="/imgs/002rufrantsuz.webp"/>
+            <graphic xml:id="fran-3" url="/imgs/003rufrantsuz.webp"/>
+            <graphic xml:id="fran-4" url="/imgs/004rufrantsuz.webp"/>
+            <graphic xml:id="fran-5" url="/imgs/005rufrantsuz.webp"/>
+            <graphic xml:id="fran-6" url="/imgs/006rufrantsuz.webp"/>
+            <graphic xml:id="fran-7" url="/imgs/007rufrantsuz.webp"/>
+            <graphic xml:id="fran-8" url="/imgs/008rufrantsuz.webp"/>
+            <graphic xml:id="fran-9" url="/imgs/009rufrantsuz.webp"/>
+            <graphic xml:id="fran-10" url="/imgs/010rufrantsuz.webp"/>
+            <graphic xml:id="fran-11" url="/imgs/011rufrantsuz.webp"/>
+            <graphic xml:id="fran-12" url="/imgs/012rufrantsuz.webp"/>
+            <graphic xml:id="fran-13" url="/imgs/013rufrantsuz.webp"/>
+            <graphic xml:id="fran-14" url="/imgs/014rufrantsuz.webp"/>
          </surface>
       </facsimile>
       <text>
@@ -498,16 +498,16 @@
       </teiHeader>
       <facsimile>
          <surface type="ge">
-            <graphic xml:id="frant-1" url="imgs/001frantzose.tiff"/>
-            <graphic xml:id="frant-2" url="imgs/002frantzose.tiff"/>
-            <graphic xml:id="frant-3" url="imgs/003frantzose.tiff"/>
-            <graphic xml:id="frant-4" url="imgs/004frantzose.tiff"/>
-            <graphic xml:id="frant-5" url="imgs/005frantzose.tiff"/>
-            <graphic xml:id="frant-6" url="imgs/006frantzose.tiff"/>
-            <graphic xml:id="frant-7" url="imgs/007frantzose.tiff"/>
-            <graphic xml:id="frant-8" url="imgs/008frantzose.tiff"/>
-            <graphic xml:id="frant-9" url="imgs/009frantzose.tiff"/>
-            <graphic xml:id="frant-10" url="imgs/010frantzose.tiff"/>
+            <graphic xml:id="frant-1" url="/imgs/001defrantzose.webp"/>
+            <graphic xml:id="frant-2" url="/imgs/002defrantzose.webp"/>
+            <graphic xml:id="frant-3" url="/imgs/003defrantzose.webp"/>
+            <graphic xml:id="frant-4" url="/imgs/004defrantzose.webp"/>
+            <graphic xml:id="frant-5" url="/imgs/005defrantzose.webp"/>
+            <graphic xml:id="frant-6" url="/imgs/006defrantzose.webp"/>
+            <graphic xml:id="frant-7" url="/imgs/007defrantzose.webp"/>
+            <graphic xml:id="frant-8" url="/imgs/008defrantzose.webp"/>
+            <graphic xml:id="frant-9" url="/imgs/009defrantzose.webp"/>
+            <graphic xml:id="frant-10" url="/imgs/010defrantzose.webp"/>
          </surface>
       </facsimile>
       <text>

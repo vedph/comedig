@@ -39,13 +39,15 @@ const Teatro700 = {
           if (ns == "tei") return "http://www.tei-c.org/ns/1.0";
     });
   },
+
   //Extract work and castlist elements from a XML doc
   processDoc(xmlDoc) {
+
     const work = {
       xmlDoc,
       title: "",
       versions: [],
-      // TODO characters: [],
+      facsimiles: [],
     };
 
     try {
@@ -58,38 +60,15 @@ const Teatro700 = {
     const teiResult = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:TEI", xmlDoc);
     for (let a = teiResult.iterateNext(); a; a = teiResult.iterateNext()) {
       work.versions.push(a);
-    }
 
-    /* TODO
-    const castListResult = this.runXPath(xmlDoc, "/tei:TEI//tei:castList/tei:castItem", xmlDoc);
-    for (let a = castListResult.iterateNext(); a; a = castListResult.iterateNext()) {
-      const name = this.runXPath(xmlDoc, "./tei:role", a).iterateNext().textContent;
-
-      let description = "";
-      try {
-        description = this.runXPath(xmlDoc, "./tei:roleDesc", a).iterateNext().textContent;
-      } catch(e) {}
-
-      work.characters.push({
-        name,
-        description,
-      });
-    }
-
-    const castGroupResult = this.runXPath(xmlDoc, "/tei:TEI//tei:castList/tei:castGroup", xmlDoc);
-    for (let a = castGroupResult.iterateNext(); a; a = castGroupResult.iterateNext()) {
-      let description = "";
-      try {
-        description = this.runXPath(xmlDoc, "./tei:roleDesc", a).iterateNext().textContent;
-      } catch(e) {}
-
-      const castListResult = this.runXPath(xmlDoc, "./tei:castItem", a);
-      for (let a = castListResult.iterateNext(); a; a = castListResult.iterateNext()) {
-        const name = this.runXPath(xmlDoc, "./tei:role", a).iterateNext().textContent;
-        work.characters.push({name, description });
+      const language = this.runXPath(xmlDoc, ".//tei:language", a).iterateNext().textContent;
+      const facsimileResult = this.runXPath(xmlDoc, ".//tei:facsimile//tei:graphic", a);
+      const facsimile = { language, images: [] };
+      for (let i = facsimileResult.iterateNext(); i; i = facsimileResult.iterateNext()) {
+        facsimile.images.push("/teatro700" + i.getAttribute("url"));
       }
+      work.facsimiles.push(facsimile);
     }
-    */
 
     this.works.push(work);
   },
@@ -127,13 +106,39 @@ const Teatro700 = {
     const elmCompareA = document.getElementById("compareA");
     const elmCompareB = document.getElementById("compareB");
 
-    function showBody(versionId, body) {
+    const showBody = (value, body)  => {
       const elm = document.getElementById(body);
       while (elm.firstChild) elm.firstChild.remove();
 
-      CETEIcean.domToHTML5(work.versions[versionId], data => {
-        document.getElementById(body).appendChild(data);
-      });
+      if (value.startsWith("version-")) {
+        const versionId = parseInt(value.slice(8), 10);
+        CETEIcean.domToHTML5(work.versions[versionId], data => {
+          document.getElementById(body).appendChild(data);
+        });
+        return;
+      }
+
+      if (value.startsWith("facsimile-")) {
+        const div = document.createElement("div");
+        div.setAttribute("id", "openseadragon");
+        div.setAttribute("style", "height: 600px;");
+        elm.appendChild(div);
+
+        const images = [];
+        const facsimileId = parseInt(value.slice(10), 10);
+        work.facsimiles[facsimileId].images.forEach(img => images.push({
+          type: 'image',
+          url:  img
+        }));
+
+        OpenSeadragon({
+          id: "openseadragon",
+          prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+          tileSources: images,
+          sequenceMode: true,
+        });
+        return;
+      }
     }
     elmCompareA.onchange = e => showBody(e.target.value, "bodyA");
     elmCompareB.onchange = e => showBody(e.target.value, "bodyB");
@@ -169,6 +174,11 @@ const Teatro700 = {
 
       if (!CETEIcean) {
         CETEIcean = new CETEI();
+        CETEIcean.addBehaviors({"tei":{
+         "graphic": function(elt) {
+           // No images
+         }
+        }});
       }
 
       CETEIcean.domToHTML5(version, data => {
@@ -178,13 +188,24 @@ const Teatro700 = {
       for (let elm of [ elmCompareA, elmCompareB]) {
         const option = document.createElement("option");
         option.textContent = language;
-        option.value = pos;
+        option.value = `version-${pos}`;
         elm.appendChild(option);
       }
     });
 
-    showBody(0, "bodyA");
-    showBody(0, "bodyB");
+    work.facsimiles.forEach((facsimile, pos) => {
+      for (let elm of [ elmCompareA, elmCompareB]) {
+        if (facsimile.images.length > 0) {
+          const option = document.createElement("option");
+          option.textContent = `Facsimile ${facsimile.language}`;
+          option.value = `facsimile-${pos}`;
+          elm.appendChild(option);
+        }
+      }
+    });
+
+    showBody("version-0", "bodyA");
+    showBody("version-0", "bodyB");
   }
 };
 
