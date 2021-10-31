@@ -4,19 +4,9 @@ layout: default
 
 <div class="container">
   <h1 id="workTitle">Loading...</h1>
-  <h2>TODO page subtitle</h2>
-  TODO page description
 
-  <!-- TODO h2>Lista personaggi</h2>
-  <ul>
-    {% for personaggio in page.personaggi %}
-      {% for p in site.personaggi %}
-        {% if p.title == personaggio %}
-          <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </ul -->
+  <h2>Lista personaggi</h2>
+  <ul id="agentWorkList"></ul>
 
   <ul class="nav nav-tabs" role="tablist" id="tab">
     <li class="nav-item" role="presentation">

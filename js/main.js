@@ -8,6 +8,7 @@ var CETEIcean;
 
 const Teatro700 = {
   works: [],
+  agents: [],
 
   // everything starts here, with the processing of the XML files.
   async init() {
@@ -15,9 +16,12 @@ const Teatro700 = {
       await this.processXmlFile(xmlFile);
     }
 
+    await this.importPeople();
+
     this.populateMenu();
 
     this.maybeShowWork();
+    this.maybeShowAgent();
   },
 
   // Here it processes a single XML file.
@@ -28,7 +32,7 @@ const Teatro700 = {
     const parser = new DOMParser();
     const doc = parser.parseFromString(xmlData, "text/xml");
 
-    this.processDoc(doc);
+    this.processDoc(xmlFile, doc);
   },
 
   //a query xpath is executed using a TEI ns
@@ -39,9 +43,10 @@ const Teatro700 = {
   },
 
   //Extract work and castlist elements from a XML doc
-  processDoc(xmlDoc) {
+  processDoc(xmlFile, xmlDoc) {
 
     const work = {
+      url: new URL(xmlFile, window.location),
       xmlDoc,
       title: "",
       versions: [],
@@ -73,6 +78,11 @@ const Teatro700 = {
 
   // Let's populate the menu with the list of works.
   populateMenu() {
+    this.populateMenuWorks();
+    this.populateMenuAgents();
+  },
+
+  populateMenuWorks() {
     const elm = document.getElementById("menuWorks");
     for (let workId in this.works) {
       const work = this.works[workId];
@@ -82,6 +92,21 @@ const Teatro700 = {
       elmA.setAttribute("class", "dropdown-item");
       elmA.setAttribute("href", "/teatro700/work?id=" + workId);
       elmA.textContent = work.title;
+      elmLi.appendChild(elmA);
+      elm.appendChild(elmLi);
+    }
+  },
+
+  populateMenuAgents() {
+    const elm = document.getElementById("menuAgents");
+    for (let agentId in this.agents) {
+      const agent = this.agents[agentId];
+
+      const elmLi = document.createElement("li");
+      const elmA = document.createElement("a");
+      elmA.setAttribute("class", "dropdown-item");
+      elmA.setAttribute("href", "/teatro700/agent?id=" + agentId);
+      elmA.textContent = agent.name;
       elmLi.appendChild(elmA);
       elm.appendChild(elmLi);
     }
@@ -204,6 +229,114 @@ const Teatro700 = {
 
     showBody("version-0", "bodyA");
     showBody("version-0", "bodyB");
+
+    const agentWorkList = document.getElementById("agentWorkList");
+    this.agents.forEach((agent, agentId) => {
+      let match = false;
+      agent.seeAlso.forEach(seeAlso => {
+        if (seeAlso.pathname === work.url.pathname) match = true;
+      });
+
+      if (match) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = agent.name;
+        a.href = "/teatro700/agent?id=" + agentId;
+        li.appendChild(a);
+        agentWorkList.appendChild(li);
+      }
+    });
+  },
+
+  maybeShowAgent() {
+    if (!location.pathname.startsWith("/teatro700/agent")) {
+      return;
+    }
+
+    const urlParam = new URLSearchParams(location.search);
+    const agentId = urlParam.get("id");
+    const agent = this.agents[agentId];
+
+    document.getElementById("agentTitle").textContent = agent.name;
+
+    const agentWorkList = document.getElementById("agentWorkList");
+    this.works.forEach((work, workId) => {
+      let match = false;
+      agent.seeAlso.forEach(seeAlso => {
+        if (seeAlso.pathname === work.url.pathname) match = true;
+      });
+
+      if (match) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = work.title;
+        a.href = "/teatro700/work?id=" + workId;
+        li.appendChild(a);
+        agentWorkList.appendChild(li);
+      }
+    });
+  },
+
+  async importPeople() {
+    const store = await new Promise(resolve => {
+      rdfstore.create({
+        communication: {
+          parsers: {},
+          precedences: ["text/n3", "text/turtle", "application/rdf+xml", "text/html", "application/json"] }
+        },
+        (err, store) => {
+          if (err) {
+            alert("Unable to create a RDF store:" + err);
+            resolve(null);
+            return;
+          }
+
+          resolve(store);
+        });
+    });
+
+    if (!store) return;
+
+    const rdfData = await fetch("../rdf/people.rdf").then(r => r.text());
+    await new Promise(resolve => {
+      store.load("text/turtle", rdfData, (err, results) => {
+        if (err) {
+          alert("Unable to import a RDF document:" + err);
+        }
+        resolve();
+      });
+    });
+
+    const results = await new Promise(resolve => {
+      var query = `
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?name ?seeAlso WHERE {
+  ?o a foaf:Agent ;
+     foaf:name ?name ;
+     rdfs:seeAlso ?seeAlso .
+}`;
+      store.execute(query, (err, results) => {
+        if (err) {
+          alert("Unable to exec a SPARQL query:" + err);
+          resolve([]);
+        }
+        resolve(results);
+      });
+    });
+
+    results.forEach(result => {
+      const agent = this.agents.find(a => a.name === result.name.value);
+      if (agent) {
+        agent.seeAlso.push(new URL(result.seeAlso.value, window.location));
+        return;
+      }
+
+      this.agents.push({
+        name: result.name.value,
+        seeAlso: [ new URL(result.seeAlso.value, window.location) ],
+      });
+    });
   }
 };
 

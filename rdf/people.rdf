@@ -1,0 +1,12 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://njh.me/#arlecchino>
+  a foaf:Agent ;
+  foaf:name "Arlecchino" ;
+  rdfs:seeAlso </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino>, </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino_it>, </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino_ge> .
+
+<http://njh.me/#aurealia>
+  a foaf:Agent ;
+  foaf:name "Aurelia" ;
+  rdfs:seeAlso </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino>, </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino_it>, </teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml#arlecchino_ge> .

@@ -5,10 +5,6 @@ baseurl: /teatro700
 markdown: kramdown
 permalink: pretty
 
-collections:
-  personaggi:
-    output: true
-
 languages:
   it: Italiano
   de: Tedesco
