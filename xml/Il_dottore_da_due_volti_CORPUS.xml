@@ -1,0 +1,1034 @@
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il dottore dai due volti</title>
+                <respStmt>
+                    <resp>Transcription, translation, and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Una spiegazione utile per le tre versioni di questo testo -->
+                <p>I documenti delle versioni russa e tedesca sono preservate in diversi archivi.
+                    Per questa edizione rimandiamo alla descrizione dei facsimili per ogni
+                    documento</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Докторъ o двухъ лицахъ</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Goettingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Goettingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (30b)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="12">12 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="doct-1" url="/imgs/Il_dottore_dai_due_volti/001doktor.jpg"/>
+                <graphic xml:id="doct-2" url="/imgs/Il_dottore_dai_due_volti/002doktor.jpg"/>
+                <graphic xml:id="doct-3" url="/imgs/Il_dottore_dai_due_volti/003doktor.jpg"/>
+                <graphic xml:id="doct-4" url="/imgs/Il_dottore_dai_due_volti/004doktor.jpg"/>
+                <graphic xml:id="doct-5" url="/imgs/Il_dottore_dai_due_volti/005doktor.jpg"/>
+                <graphic xml:id="doct-6" url="/imgs/Il_dottore_dai_due_volti/006doktor.jpg"/>
+                <graphic xml:id="doct-7" url="/imgs/Il_dottore_dai_due_volti/007doktor.jpg"/>
+                <graphic xml:id="doct-8" url="/imgs/Il_dottore_dai_due_volti/0008doktor.jpg"/>
+                <graphic xml:id="doct-9" url="/imgs/Il_dottore_dai_due_volti/009doktor.jpg"/>
+                <graphic xml:id="doct-10" url="/imgs/Il_dottore_dai_due_volti/010doktor.jpg"/>
+                <graphic xml:id="doct-11" url="/imgs/Il_dottore_dai_due_volti/011doktor.jpg"/>
+                <graphic xml:id="doct-12" url="/imgs012doktor.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#doct-1" n="1"/>
+                <head type="main">ДОКТОРЪ O ДВУХЪ ЛИЦАХЪ.</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1734">1734 года.</date></head>
+                <pb facs="#doct-2" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+                    <p rend="indent">ДОКТОРЪ прïѣжжаетъ въ Медïоланъ, чтобъ же-<lb/> ниться на Дïанѣ
+                        дочери панталоновои, согла-<lb/> сившись съ нимъ о cемъ бракѣ чрезъ письмо.
+                        Сïе при-<lb/> нуждаетъ Сïлвïя ея любовника, по согласïю своея<lb/> невѣсты,
+                        нарядить Арлекïна въ Доктора. Прочее<lb/> все видимо быть имѣетъ въ
+                        комедïи.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone">ПАНТАЛОНЪ,</role>
+                        <roleDesc>отецъ Дïанинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana">ДІАНА,</role>
+                        <roleDesc>дочь его.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="smeraldina">СМЕРАЛДÏНА,</role>
+                        <roleDesc>тетка ея.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore">ДОКТОРЪ.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella">БРІГЕЛЛЪ,</role>
+                        <roleDesc>слуга его.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio">СІЛВІИ и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo">ОДОАРДЪ</role>
+                        </castItem>
+                        <roleDesc>други.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="aurealia">АУРЕЛІЯ,</role>
+                        <roleDesc>влюбившаяся въ Одоарда.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino">АРЛЕКІНЪ,</role>
+                        <roleDesc>слуга Сïлвïевъ.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Дѣиствïе это въ <placeName>Медïоланѣ</placeName>.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#doct-3" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+                    <p rend="indent">СIЛВIИ выходитъ говоря Одоарду своему дру-<lb/> гу о своеи
+                        страсти къ Дïанѣ, которую Панталонъ,<lb/> отецъ ея, отдалъ подъ охранение
+                        Смералдïнѣ при-<lb/> казавъ, чтобъ еи позволенïя не давать ни съ кѣмъ<lb/>
+                        говорить. Одоардъ обѣщается ему въ томъ помо-<lb/> гать, и сталъ ему такъ же
+                        сказывать о взаимном<lb/> своеи любви между Аурелïею. Сïлвïи находитъ<lb/>
+                        одну перчатку, которую онъ подымаетъ. Между<lb/> тѣмъ Арлекïнъ приходитъ
+                        кричя, что городъ весь<lb/> окруженъ. Любовники спрашиваютъ у него съ
+                        прилѣ-<lb/> жанïемъ, что отъ когобъ былъ окруженъ городъ? Арле-<lb/> кïнъ
+                        показавъ себя такова, чтобъ ему прошену<lb/> быть, по томъ сказываетъ, что
+                        городъ окруженъ<lb/> весь стѣнами, а видя одну перчатку въ рукахъ Сïл-<lb/>
+                        вïевыхъ, говоритъ, что эта перчатка его, и что<lb/> онъ Сïлвïи долженъ быль
+                        дожидаться, покабъ онъ<lb/> ему свое посольство отправилъ. Сïлвïи не
+                        разу-<lb/> мѣетъ тутъ ничего. Арлекïнъ ему сказываетъ,<lb/> что онъ
+                        встрѣтился на дорогѣ съ Дïаною, которая<lb/> была съ Смералдïною, и которая
+                        ему дала перчат-<lb/> ку, чтобъ отдать ему Сïлвïю, что она учинила<lb/>
+                        такъ, что того не видала Смералдïна. Сïлвïи обра-<lb/> довавшись требуетъ у
+                        него оныя перчатки. Арле-<lb/> кïнъ думая, что перчатка, которая въ рукахъ
+                        сïл-<lb/> вïевыхъ, та самая была, сталь смѣяться надъ нимъ.<lb/> По томъ
+                        узнавши, что то не та самая, началъ<lb/> оную искать; а нашедъ отдалъ
+                        Сïлвïю, которои<lb/> цѣлуя оную, сыскалъ въ неи одно письмецо отъ не-<lb/>
+                        вѣсты своея, чрезъ которое она его увѣщеваетъ,<lb/> чтобъ онъ притворился
+                        быть Докторомъ, дабы<lb/> тѣмъ наити случаи видѣться имъ съ собою.
+                        Сïлвïи<lb/> и Одоардъ уговариваютъ Арлекïна, чтобъ притво-<lb/>
+                        <fw type="sig" place="bottom">Ш2</fw><fw type="catch" place="bottom">риться</fw>
+                        <pb facs="#doct-4" n="4"/>
+                        <fw type="pageNum">4</fw> риться Докторомъ. Арлекïнъ противится тому,<lb/>
+                        по томъ соглашается, да и пошли всѣ.</p>
+                    <p rend="indent">ДОКТОРЪ выходя говоритъ Брïгеллу, что онъ при-<lb/> былъ въ
+                        Медïоланъ; для того, чтобъ жениться на дочери<lb/> Панталона, съ котoрымъ
+                        онъ уговорился о томъ<lb/> чрезъ письма. Брïгеллъ сказываетъ, что онъ
+                        знаетъ,<lb/> гдѣ живетъ Панталонъ, да и сталъ стучаться<lb/> у воротъ
+                        панталоновыхъ. Панталонъ выходить съ<lb/> лицомъ подозрительнымъ, и которои
+                        имѣя недру-<lb/> говъ кричитъ: <hi rend="uppercase">ЗА РУЖЬЕ</hi>; по томъ
+                        выглядываетъ въ<lb/> окно, и спрашиваетъ, кто тамъ? а невѣря двумъ<lb/>
+                        человѣкамъ незнаемымъ, послѣ нѣкоторыхъ вопро-<lb/> совъ, беретъ письмо
+                        вѣрительное, которое ему от-<lb/> даетъ Докторъ; сталъ онъ оное читать;
+                        призналъ<lb/> онъ его за своего зятя; просить у него прощенïя;<lb/> на
+                        конецъ обнимаетъ его. На то Смералдïна прихо-<lb/> дить въ великомъ смятенïи
+                        своего духа, и гово-<lb/> рить, что Дïана будучи на торгу, гдѣ два
+                        чело-<lb/> вѣка ссорилися имѣя пïстолеты въ рукахъ, и что<lb/> одинъ изъ
+                        нихъ выстрѣлилъ; а его дочь … Пан-<lb/> талонъ перебивая у нея рѣчь часто,
+                        спрашиваетъ,<lb/> что его дочь поранена, или убита; Смералдïна ему<lb/>
+                        говорить, что нѣтъ; но однакожъ она въ половину<lb/> мертва со страху отъ
+                        того выстрѣла, да и пошла<lb/> прочь сама. Панталонъ и Докторъ стали
+                        быть<lb/> въ великомъ отчаянïи о томъ, говорятъ они, чтобъ<lb/> призвать
+                        Доктора. На то Дïана приходить оперши-<lb/> ся на Смералдïну. Панталонъ ея
+                        утѣшаетъ; по<lb/> томъ кажетъ еи жениха. Дïана видя Доктора спра-<lb/>
+                        шиваетъ у него, что не въ правду ли онъ еи женихъ?<lb/> Панталонъ еи
+                        отвѣчаетъ, что то въ правду. Та<lb/> у него спрашиваетъ, что нѣтъ ли какова
+                        средства,<lb/> которымъ бы можно было пресѣчь сеи бракъ. Пан-<lb/>
+                        <fw type="catch" place="bottom">талонъ</fw>
+                        <pb facs="#doct-5" n="5"/>
+                        <fw type="pageNum">5</fw> талонъ еи говорить, что нѣтъ. Тутъ Дïана при-<lb/>
+                        творилася, что будто стала чювствовать великую<lb/> болѣзнь, того ради пошла
+                        прочь. Смералдïна, Док-<lb/> торъ, и Брïгеллъ чиня Панталону тѣжъ
+                        вопросы,<lb/> дѣлаютъ игрушку приличную театру, да и пошли.<lb/> Панталонъ
+                        остался въ великомъ смущенïи; а прихо-<lb/> дить Сïлвïи нарядяся въ
+                        практïка, и показывается;<lb/> что будто онъ съ кѣмъ говорить, что онъ не
+                        пре-<lb/> минетъ ему услужить, и что онъ знаетъ, что<lb/> такъ учонои, и
+                        искуснои человѣкъ, какъ тотъ,<lb/> наидетъ свое щастïе въ семь городѣ, гдѣ
+                        толь<lb/> часто болѣзни приключаются, по томъ кланяется<lb/> Панталону,
+                        которому онъ сказываетъ о прибытïи<lb/> одного иностраннаго Доктора, которои
+                        чюдеса дѣ-<lb/> лаетъ. Панталонъ его просить, чтобъ онъ его<lb/> привелъ, по
+                        тому что у него дочь больна. Сïлвïи,<lb/> чтобъ ему услужить, кличетъ
+                        Арлекïна. Арлекïнъ <lb/> изъ внутри притворяется, что будто пишетъ ре-<lb/>
+                        цепты, дабы дать зрѣнïе одному глухому, жизнь,<lb/> одному мертвому. По томъ
+                        выходить; изъ того<lb/> произходятъ многïе шутки съ Панталономъ. На<lb/>
+                        конецъ старикъ призываетъ свою дочь, которая вы-<lb/> ходить съ Смералдïною
+                        притворялся быть больною.<lb/> Арлекïнъ у нея спрашиваетъ смѣшно о
+                        болѣзняхъ<lb/> ея, на которыя приказываетъ онъ лекарства дураче-<lb/> скïя.
+                        По томъ ему Панталонъ говорить, что онъ бо-<lb/> ленъ и самъ удушьемъ, и что
+                        онъ на силу можетъ ды-<lb/> хать. Арлекïнъ говорить, что онъ то скоро
+                        вылѣ-<lb/> читъ; и взявъ мѣхъ хочетъ ему надуть духу,<lb/> что причиняетъ
+                        игрушку своиственную театру,<lb/> которою кончится дѣиствïе первое.</p>
+                </div>
+                <fw type="sig" place="bottom">Ш3</fw>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+                <pb facs="#doct-6" n="6"/>
+                <fw type="pageNum">6</fw>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <p rend="indent">БРIГЕЛЛЪ выходить думая о свадьбѣ своего<lb/> господина. Тутъ
+                        Дïана и Смералдïна пришли. Брï-<lb/> геллъ хочетъ имъ говорить; но тѣ его не
+                        слуша-<lb/> ютъ, говоря между собою о своемъ Докторѣ. Но<lb/> то Арлекïнъ
+                        приходить, и видя Дïану, спрашиваетъ<lb/> у нeя что полезно ли еи лекарство
+                        его. Дïана ему<lb/> говорить, что еи легче стало; однако она пришла<lb/> въ
+                        великое смущенïе чрезъ одинъ сонь, въ которомъ<lb/> она видѣла, что будто
+                        одна бѣдная козачка гото-<lb/> ва была съѣдена быть отъ волка, ежелибъ
+                        одинъ<lb/> Орелъ не подспѣшилъ еи на помощь. Арлекïнъ еи<lb/> толкуетъ сонъ
+                        говоря, что козачка значить ея са-<lb/> мую, которая будучи больна, была бы
+                        съѣдена отъ<lb/> смерти, которую изображалъ волкъ, безъ его по-<lb/> мощи
+                        подъ образомъ Орла. Брïгеллъ его просить,<lb/> чтобъ онъ ему такъ же
+                        разтолковалъ одинъ сонъ,<lb/> въ которомъ ему показалось, что будто онъ
+                        ви-<lb/> дѣлъ одного Кавалера, которои влюбившися въ<lb/> одну дѣвицу
+                        помолвленую за другова, и чтобъ до-<lb/> стать за себя оную, нарядилъ своего
+                        слугу въ Док-<lb/> тора, которои и нарядился такъ, не смотря на то,<lb/> что
+                        онъ будетъ битъ чрезъ жениха тоя дѣвицы.<lb/> Арлекïнъ видя, что онъ описанъ
+                        самъ симъ сномъ,<lb/> спрашиваетъ у него очюнь часто, что въ правду ли<lb/>
+                        то было во снѣ. Брïгеллъ ему отвѣчаетъ, что въ<lb/> правду. Арлекïнъ
+                        говорить, что онъ ему тотъ<lb/> разтолкуетъ чрезъ другои сонъ, которои ему
+                        видѣл-<lb/> ся, и которои кажется быть послѣдованïемъ его<lb/> сна, въ
+                        которомъ онъ видѣлъ, что господинъ того<lb/> Доктора наряжонаго, ходить по
+                        городу ищучи того<lb/> слугу женихова, чтобъ еro застрѣлить изъ пïсто-<lb/>
+                        лета. Брïгеллъ у него такъ же спрашиваетъ, что<lb/>
+                        <fw type="catch" place="bottom">въ правду</fw>
+                        <pb facs="#doct-7" n="7"/>
+                        <fw type="pageNum">7</fw> въ правду ли бы то былъ сонъ, да и пошолъ
+                        прочь.<lb/> Арлекïнъ говорить женщинамъ, что и онъ умѣетъ<lb/> сны видѣть,
+                        когда захочетъ, да такъ же пошолъ<lb/> прочь. Дïана и Смералдïна смѣючися
+                        надъ скорымъ<lb/> вымысломъ Докторовымъ пошлижъ и сами.</p>
+                    <p rend="indent">АУРЕЛІЯ выходить говоря о своеи любви къ<lb/> Одоарду; а видя
+                        его, что онъ выходилъ отъ Дïаны,<lb/> стала его называть невѣрнымъ, и
+                        неблагодарнымъ,<lb/> да и пошла прочь не выслушавши его. Одоардъ сталъ<lb/>
+                        быть о томъ въ отчаянïи. Сïлвïи къ нему прихо-<lb/> дитъ, и говоритъ, что
+                        его вымыслъ весьма уда-<lb/> ченъ. Одоардъ ему отвѣчаетъ, что его дѣла
+                        очюнь<lb/> худы, да и сказываетъ, что ему случилось съ Ау-<lb/> релïею.
+                        Сïлвïи его утѣшаетъ говоря ему, что<lb/> гнѣвъ его невѣсты, есть знакъ
+                        великïя къ нему ея<lb/> любви, которои поидетъ все еи розказать, какъ
+                        то<lb/> было, да и сталъ у воротъ ея стучаться. Аурелïя вы-<lb/> ходить.
+                        Сïлвïи еи говорить, что онъ есть причиною,<lb/> мнимыя одоардовы невѣрности.
+                        Аурелïя осердив-<lb/> шись стала ихъ бить обоихъ, да и ушла сама.<lb/>
+                        Арлекïнъ, которои то видѣлъ изъ дали, сталъ смѣ- яться надъ ними, и называть
+                        трусами, для того,<lb/> что они дались бить себя однои женщинѣ; объ-<lb/>
+                        являетъ себя имъ въ защитника, и говорить, что<lb/> онъ отмстить за
+                        безчестïе, которое имъ учинила<lb/> Аурелïя, да и сталъ стучаться у нея.
+                        Аурелïя вы-<lb/> ходить. Арлекïнъ гордымъ голосомъ объявляетъ<lb/> себя быть
+                        защитника тѣхъ двухъ особъ, кото-<lb/> рыхъ она била. Аурелïя притворяся
+                        смирною гово-<lb/> рить, что она очюнь печальна, для того, что она<lb/> не
+                        знала, что эти господа, были подъ его покрови-<lb/> тельствомъ. Арлекïнъ еще
+                        пуще показываетъ себя<lb/> быть спесивымъ, что причиняетъ игрушку смѣш-<lb/>
+                        <fw type="catch" place="bottom">ную</fw>
+                        <pb facs="#doct-8" n="8"/>
+                        <fw type="pageNum">8</fw> ную; на конецъ Аурелïя стала бить и защитника<lb/>
+                        такъ же, да и ушла. Арлекïнъ сталъ быть печа-<lb/> ленъ; любовники надъ нимъ
+                        такъ же стали смѣяться.<lb/> Между тѣмъ Аурелïя выходить показываяся,
+                        что<lb/> будто посылаетъ она одно письмо съ слугою къ лю-<lb/> безному
+                        своему Горацïю, да и пошла прочь. Одоардъ<lb/> пришолъ отъ того въ ревность.
+                        Арлекïнъ вырвавъ<lb/> письмо изъ рукъ слуги того, сталъ его бить.
+                        Сïлвïи<lb/> обѣщается Одоарду помирить его съ его невѣс-<lb/> тою, а
+                        Арлекïнъ просить, чтобъ онъ еще продолжилъ<lb/> быть на нѣсколько Докторомъ,
+                        дабы тѣмъ обма-<lb/> нуть Панталона. Арлекïнъ сказавъ ему, что онъ<lb/>
+                        роздѣлся бояся побои, обѣщается опять нарядить-<lb/> ся. Любовники прочь
+                        пошли. Арлекïнъ говорить, что<lb/> уже онъ усталь отъ того чина, и когда онъ
+                        хотѣлъ<lb/> поити прочь; тогда Панталонъ приходить. Арлекïнъ<lb/> изпужався
+                        того, что старикъ на него смотритъ<lb/> съ удивленïемъ, говорить ему, что
+                        онъ братъ род-<lb/> нои того Доктора, которои, для того что онъ<lb/> ему
+                        подобенъ, да убогъ, толь его ненавидитъ,<lb/> что онъ принужденъ бѣжать отъ
+                        него, дабы не былъ<lb/> убитъ. Панталонъ о немъ сожалѣетъ, обѣщая его<lb/>
+                        помирить съ своимъ братомъ, и хочетъ его взять<lb/> къ себѣ. Арлекïнъ
+                        притворяяся все, что будто онъ<lb/> брата своего боится, проситъ Панталона,
+                        чтобъ<lb/> онъ благоволилъ прежде поговорить о немъ брату<lb/> его. Старикъ
+                        ему и вторично обѣщается. Арле-<lb/> кïнъ пошолъ, да и возвращается
+                        нарядившись въ До-<lb/> ктора. Панталонъ, послѣ комплïментовъ, проситъ<lb/>
+                        его, чтобъ онъ изволилъ просить брата своего хо-<lb/> рошаго Маргарïта.
+                        Арлекïнъ услышавъ сïe имя, при-<lb/> творяется быть злымъ, извиняется въ
+                        томъ ста-<lb/> рику, и говорить ему, что онъ конечно не хочетъ<lb/> его
+                        видѣть, по тому что ему не возможно быть<lb/> вмѣстѣ съ нимъ. Панталонъ его
+                        проситъ, чтобъ<lb/>
+                        <fw type="catch" place="bottom">онъ</fw>
+                        <pb facs="#doct-9" n="9"/>
+                        <fw type="pageNum">9</fw> онъ пожаловалъ простилъ его для него.
+                        Арлекïнъ<lb/> на прозьбу его склонился. Старикъ ему за то бла-<lb/>
+                        годарить, да и повелъ его къ себѣ въ домъ. Брï-<lb/> геллъ выходя говорить,
+                        что онъ оставилъ своего<lb/> господина на торгу. Панталонъ возвращается
+                        го-<lb/> воря, что онъ заперъ Доктора въ своеи камерѣ, и<lb/> что онъ хочетъ
+                        итьти искать хорошаго Маргарïта,<lb/> брата его, чтобъ его представить
+                        оному. Брïгеллъ<lb/> пришолъ въ любопытство, чтобъ видѣть, чѣмъ бы то<lb/>
+                        имѣло окончиться, сталъ одаль. Арлекïнъ въ своемъ<lb/> платьѣ выскочилъ въ
+                        окно, чтобъ наити своего го-<lb/> сподина, Панталонъ возвращается; радуется,
+                        что<lb/> онъ его нашолъ, и говорить ему то, что онъ учи-<lb/> нилъ съ
+                        Докторомъ братомъ его, которои ему<lb/> приказалъ, привести его предъ себя.
+                        Арлекïнъ го-<lb/> ворить, что онъ тому не вѣритъ, зная, что тотъ<lb/> очюнь
+                        къ нему золъ. Панталонъ ему сказываетъ<lb/> все противное; и что для вящшïя
+                        безопасности,<lb/> онъ хочетъ поити еще съ нимъ поговорить, а чтобъ<lb/> онъ
+                        его тутъ ждалъ, да и пошолъ къ себѣ. Арлекïнъ<lb/> сталь быть въ
+                        затрудненïи, и говорить, что не<lb/> надлежитъ терять времени, да и вскочилъ
+                        опять<lb/> въ окно, въ домъ къ Панталону. Брïгеллъ стоитъ<lb/> удивляяся о
+                        смѣлости Арлекïновои, что тотъ по-<lb/> казывается двѣмя особами разными въ
+                        одно время,<lb/> да и видитъ, что выходить Панталонъ съ Арлекï-<lb/> номъ
+                        наряжонымъ въ Доктора. Панталонъ не видя<lb/> тутъ мнимаго брата докторова,
+                        опечалился, и<lb/> проситъ прощенïя у Доктора, что онъ его обезпо-<lb/>
+                        коилъ, и что, можетъ быть, братъ его ушолъ<lb/> бояся отъ него битъ быть.
+                        Арлекïнъ показываетъ<lb/> себя злымъ, и говоритъ, что его братъ великои<lb/>
+                        плутъ. На то подходить Брïгеллъ, и хочетъ от-<lb/> крыть старику о
+                        плутовствѣ Арлекïновѣ. Арле-<lb/> кïнъ перебивая его рѣчь многажды, сталъ
+                        его бить,<lb/> и кончитъ тѣмъ Дѣиствïе второе.</p>
+                </div>
+                <pb facs="#doct-10" n="10"/>
+                <fw type="pageNum">10</fw>
+                <div type="act" n="3">
+                    <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ отъ Панталона очюнь въ<lb/> великомъ
+                        затрудненïи, что какъ бы ему казаться<lb/> двѣма особами въ одно время.
+                        Роздѣлся онъ, и<lb/> далъ свое платье докторское подъ охраненïе. А
+                        прихо-<lb/> дить Панталонъ, которои сталь его бранить, что<lb/> онъ ушолъ не
+                        дождавшись его, по тому что Докторъ<lb/> его братъ вышелъ было его простить
+                        и взять къ себѣ.<lb/> Арлекïнъ извиняется говоря, что онъ того ради
+                        ушолъ,<lb/> понеже увидѣлъ Брïгелла, котораго онъ называетъ<lb/> напастнымъ
+                        шпïономъ. Панталонъ его увѣряетъ паки,<lb/> что касается до его брата, да и
+                        повелъ его къ себѣ.</p>
+                    <p rend="indent">БРÏГЕЛЛЪ выходитъ и сказываетъ Доктору своему<lb/> господину о
+                        дурачествѣ панталоновомъ, для того<lb/> что онъ вѣритъ одному Доктору самому
+                        прямому<lb/> плуту. На то Панталонъ приходить, котораго<lb/> Докторъ
+                        увѣщеваетъ, чтобъ онъ остерегся отъ лож-<lb/> наго Доктора, которои
+                        показываетъ себя двѣмя<lb/> особами разными, будучи одинъ только.
+                        Панта-<lb/> лонъ смѣется надъ нимъ, и надъ Брïгелломъ, кото-<lb/> раго онъ
+                        называетъ шпïономъ. Докторъ и Брïгеллъ<lb/> содержать то, что они ему
+                        сказали, и обязуются<lb/> ему то доказать. Пантaлонъ все надъ ними
+                        смѣет-<lb/> ся, да и хочетъ итьти искать Доктора говоря,<lb/> что онъ заперъ
+                        въ домѣ хорошаго Маргарïта брата<lb/> его, и пошолъ.</p>
+                    <p rend="indent">АРЛЕКIНЪ выскочивъ изъ окна панталонова,<lb/> взявъ свое платье
+                        докторское. На то старикъ при-<lb/> ходить обрадовавшись, что онъ его
+                        увидѣлъ.<lb/> Говоритѣ ему, что братъ его дожидается въ его<lb/>
+                        панталоновои камерѣ. Арлекïнъ притворяется, что<lb/> будто онъ его прощаетъ,
+                        и говорить, что онъ хо-<lb/> четъ поити его пожурить. Панталонъ остался.<lb/>
+                        <fw type="catch" place="bottom">Докторъ</fw>
+                        <pb facs="#doct-11" n="11"/>
+                        <fw type="pageNum">11</fw> Докторъ и Брïгеллъ возвращаются, говоря, что<lb/>
+                        Докторъ, и хорошеи Маргарïтъ, только одна осо-<lb/> ба. Панталонъ содержитъ
+                        противное, и чтобъ ихъ<lb/> въ томъ побѣдить, кличетъ онъ Доктора.
+                        Арлекïнъ<lb/> въ Докторѣ выглядываетъ въ окно, и говорить Пан-<lb/> талону,
+                        что ему своего брата невозможно изпра-<lb/> вить, и что онъ его хочетъ
+                        конечно согнать отъ себя.<lb/> Панталонъ по прошенïю Доктора и Брïгелла
+                        кличетъ<lb/> хорошаго Маргарïта, которои былъ тотъ же Арле-<lb/> кïнъ въ
+                        своемъ платьѣ. Докторъ и Брïгеллъ дивят-<lb/> ся искуству его, и стали
+                        просить Панталона, чтобъ<lb/> онъ обоихъ кликнулъ вмѣстѣ. Панталонъ
+                        про-<lb/> сить о томъ своего Доктора, которои, по нѣко-<lb/> торыхъ
+                        отговоркахъ, говорить, что онъ то учи-<lb/> нитъ съ такимъ уговоромъ, да бы
+                        хорошеи Марга-<lb/> рïтъ сталъ въ окнѣ ниже его, для того онъ ему<lb/>
+                        меньшои братъ, и невѣжа. Они соглашаются на то.<lb/> Арлекïнъ кличетъ
+                        хорошаго Маргарïта, и чрезъ одну<lb/> игрушку приличную Театру, показываетъ
+                        себя<lb/> двѣмя особами купно, да и спрятался. Что прину-<lb/> дило
+                        Панталона называть Доктора и Брïгелла без-<lb/> дѣльниками, которые со
+                        стыдомъ пошли прочь.<lb/> На то Арлекïнъ приходитъ, и говорить
+                        Панталону,<lb/> что онъ конечно не хочетъ имѣть своего брата<lb/> у себя, и
+                        проситъ его, чтобъ онъ согналъ его отъ<lb/> себя. Панталонъ пошолъ къ себѣ,
+                        чтобъ угодить<lb/> Доктору. Арлекïнъ скинул съ себя платье, и вско-<lb/>
+                        чилъ въ окно. Брïгеллъ, которои съ Докторомъ все<lb/> то видѣлъ, взялъ то
+                        платье докторское, и на себя<lb/> надѣлъ. Между тѣмъ Панталонъ приходитъ съ
+                        Арле-<lb/> кïномъ мнимымъ хорошимъ Маргарïтомъ, которому<lb/> онъ
+                        приказываетъ по повелѣнïю брата его Доктора,<lb/> чтобъ онъ близко не ходилъ
+                        сего двора. Брïгеллъ<lb/>
+                        <fw type="catch" place="bottom">пошолъ</fw>
+                        <pb facs="#doct-12" n="12"/>
+                        <fw type="pageNum">12</fw> пошолъ нарядяся въ Доктора. Арлекïнъ видя,
+                        что<lb/> его перемудрили, хочетъ уити. Панталонъ осер-<lb/> дяся за
+                        насмѣшку, хочетъ его убить. Любовники<lb/> до того не допускаютъ его.
+                        Сказываютъ они ста-<lb/> рику, всему тому причину. Сïлвïи объявляетъ
+                        что<lb/> Дïана уже его жена. Панталонъ видя, что тому<lb/> нельзя помощи,
+                        соглашается на то. Одоардъ кли-<lb/> четъ Аурелïю, съ которои онъ мирится. А
+                        сочета-<lb/> нïемъ Арлекïновымъ съ Смералдïною кончится<lb/>
+                        <hi rend="indent">КОМЕДIЯ.</hi></p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Der Artzt in zweyerley Gestalt</title>
+            <respStmt>
+               <resp>Transcription and encoding by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digital images</resp>
+               <name>The Goettingen State and University Library</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Göttingen</settlement>
+                  <repository>The Goettingen State and University Library</repository>
+                  <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (30a) RARA</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <measure unit="pages" quantity="10">10 pages of source
+                              material</measure>
+                           <height unit="cm">18,9</height>
+                           <width unit="cm">14,6</width>
+                           <depth unit="cm">0,1</depth>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ge">German</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface type="ge">
+         <graphic xml:id="arzt-1" url="/imgs/Il_dottore_dai_due_volti/001arzt.jpg"/>
+         <graphic xml:id="arzt-2" url="/imgs/Il_dottore_dai_due_volti/002arzt.jpg"/>
+         <graphic xml:id="arzt-3" url="/imgs/Il_dottore_dai_due_volti/003arzt.jpg"/>
+         <graphic xml:id="arzt-4" url="/imgs/Il_dottore_dai_due_volti/004arzt.jpg"/>
+         <graphic xml:id="arzt-5" url="/imgs/Il_dottore_dai_due_volti/005arzt.jpg"/>
+         <graphic xml:id="arzt-6" url="/imgs/Il_dottore_dai_due_volti/006arzt.jpg"/>
+         <graphic xml:id="arzt-7" url="/imgs/Il_dottore_dai_due_volti/007arzt.jpg"/>
+         <graphic xml:id="arzt-8" url="/imgs/Il_dottore_dai_due_volti/008arzt.jpg"/>
+         <graphic xml:id="arzt-9" url="/imgs/Il_dottore_dai_due_volti/010arzt.jpg"/>
+         <graphic xml:id="arzt-10" url="/imgs/Il_dottore_dai_due_volti/011arzt.jpg"/>
+      </surface>
+      <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+   </facsimile>
+   <text>
+      <front>
+         <pb facs="#arzt-1" n="1"/>
+         <head type="main">Der Artzt in zweyerley Geſtalt</head>
+         <head type="sub">welche<lb/>
+            <date when="1734">1734.</date><lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an
+            dem<lb/> Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/> vorgeſtellet worden.</head>
+         <pb facs="#arzt-2" n="2"/>
+         <div type="preface">
+            <head>Jnhalt.</head>
+            <p rend="indent">Der Doctor koͤmmt nach Mayland, um eine Heyrath mit<lb/> Pantalons Tochter zu
+               treffen, welche er bereits vorher durch<lb/> Briefe richtig gemacht; Solches
+               noͤthiget den Silvio, ihren<lb/> Liebhaber, mit Einwilligung ſeiner Geliebten, den
+               Arlequin als<lb/> einen Artzt zuverkleiden. Die Ausfuͤhrung des Stuͤckes ſelbst<lb/>
+               wird das uͤbrige zeigen.</p>
+         </div>
+         <castList>
+            <head>Perſonen.</head>
+            <castItem>
+               <role xml:id="pantalone_ge">Pantalon</role>
+               <roleDesc>Vater der Diana</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="diana_ge">Diana</role>
+            </castItem>
+            <castItem>
+               <role xml:id="smeraldina_ge">Smeraldina</role>
+               <roleDesc>ihre Verwandte.</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="dottore_ge">Der Doctor</role>
+            </castItem>
+            <castItem>
+               <role xml:id="brighella_ge">Brighella</role>
+               <roleDesc>deſſen Diener.</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="silvio_ge">Silvio</role>
+            </castItem>
+            <castItem>
+               <role xml:id="odoardo_ge">Odoardo</role>
+            </castItem>
+            <castItem>
+               <role xml:id="aurealia_ge">Aurelia,</role>
+               <roleDesc>die in den Odoardo verliebt iſt.</roleDesc>
+            </castItem>
+            <castItem>
+               <role xml:id="arlecchino_ge">Arlequin,</role>
+               <roleDesc>Diener des Silvio.</roleDesc>
+            </castItem>
+         </castList>
+         <set>
+            <p>Der Schau-Platz iſt in <placeName>Mayland</placeName>.</p>
+         </set>
+      </front>
+      <body>
+         <div type="act" n="1">
+            <head>Erſte Handlung.</head>
+            <p rend="indent">Silvio trit auf, eroͤffnet dem Odoardo, ſeinem<lb/> Freunde, wie er in die Diana
+               verliebt ſey, und bekla-<lb/> get ſich, daß ihr Vater die Smeraldina zur Huͤterin
+               ge-<lb/> ſetzet, mit Befehl, daß ſie ſelbige mit Niemand ſpre-<lb/> chen laſſen
+               ſollte. Odoardo verſpricht ihm allen Bey-<lb/> ſtand und vertrauet ihm zugleich die
+               Liebe, ſo er mit<lb/> der Aurelia unterhaͤlt. Silvio findet, einen Hand-<lb/> Schuh
+               auf der Erde und hebt ihn auf. Jndeſſen<lb/> koͤmmt der Arlequin und ſchreyet, die
+               gantze Stadt ſey<lb/> umringet. Die Liebhaber fragen mit Bestuͤrtzung von<lb/> wem
+               ſie umringet ſey? Arlequin antwortet: von der<lb/> Mauer, und wie er den Hand-Schuh
+               in der Hand des<lb/> Silvio ſiehet, ſagt er, der Hand-Schuh gehoͤre ihm zu,<lb/> und
+               er ſollte wiſſen, daß er als ein Geſandter, kaͤme.<lb/> Silvio weiß nicht, was das
+               heiſſen ſoll. Arlequin ſagt, er<lb/> habe die Diana nebſt der Smeraldina angetroffen, welche<lb/>
+               <fw type="sig" place="bottom">( * )</fw><fw type="catch" place="bottom">ihm-</fw>
+               <pb facs="#arzt-3" n="3"/>
+                <fw type="pageNum">3</fw> ihm dieſen Hand-Schuh an ihn zu beſtellen gegeben,<lb/>
+               ohne daß es die Smeraldina gemercket. Silvio iſt erfreut,<lb/> und fodert ihn.
+               Arlequin glaubt, daß der Hand-Schuh,<lb/> den Silvio an der Hand hat, eben derſelbige
+               ſey. Endlich<lb/> findet er den rechten und giebt ihm dem Silvio. Dieſer<lb/> kuͤſſet
+               ihn und findet einen Brief von ſeiner Geliebten dar-<lb/> inne, in welchem ſie ihm
+               den Rath giebt, er ſolle ſich<lb/> als einen Artzt verkleiden, damit er Gelegenheit
+               haͤtte,<lb/> ſie zu ſprechen. Silvio und Odoardo kommen mit<lb/> dem Arlequin
+               uͤberein, daß er ſich als einen Artzt ſollte ver-<lb/> kleiden laſſen. Sie gehen alle
+               ab.</p>
+            <p rend="indent">Der Doctor trit auf, und ſagt zu dem Brighella,<lb/> er ſey hierher nach Mayland
+               gekommen, die Heyrath<lb/> mit Pantalons Tochter zu vollziehen, die er bereits
+               durch<lb/> Briefe ſchon geſchloſſen. Brighella ſagt, er wiſſe, wo<lb/> Pantalon wohne
+               und klopfet an deſſen Hauß an. Panta-<lb/> lon koͤmmt heraus, und weil er jene beyden
+               nicht kennet,<lb/> glaubt er, ſie ſtelleten ihn nach, ſchreyet nach Huͤlffe,<lb/> und
+               laufft in das Hauß. Endlich koͤmmt er doch wie-<lb/> der an das Fenſter, und nimmt
+               endlich den Credit-Brief<lb/> von dem Doctor. Wie er denſelben geleſſen, erkennet
+               er<lb/> den Doctor fuͤr ſeinen Schwieger-Sohn, bittet um Ver-<lb/> zeihung und
+               umarmet ihn. Hierauf koͤmmt die Smeral-<lb/> dina gantz beſtuͤrtzt, und ſagt zu dem
+               Pantalon, ſie ſey mit<lb/> ſeiner Tochter auf dem Marckte geweſen, als ſich
+               gleich<lb/> zwey Perſonen mit Piſtolen duelliret, davon die eine<lb/> Kugel die Diana
+               - - - Pantalon unterbricht ihre Rede und<lb/> fragt, ob ſeine Tochter verwundet oder
+               todt waͤre?<lb/> Smeraldina antwortet nein, ſondern Diana ſey fuͤr ſchre-<lb/> cken
+               uͤber den Schuß in Ohnmacht gefallen. Sie geht<lb/> fort. Pantalon und der Doctor
+               ſtellen ſich gantz verzweif-<lb/> felnd an uͤber dieſe Nachricht und ſagen, ſie
+               wollten ei-<lb/> nen Artzt hohlen. Hierauf koͤmmt die Diana in der<lb/>
+               <fw type="catch" place="bottom">Sme-</fw>
+               <pb facs="#arzt-4" n="4"/>
+               <fw type="pageNum">4</fw> Smeraldina Arm liegend. Pantalon troͤſtet ſie, und
+               zei-<lb/> get ihr den angekommenen Braͤutigam. Wie Diana<lb/> den Doctor ſiehet,
+               fragt ſie ob er wuͤrcklich ihr Braͤuti-<lb/> gam ſey? Pantalon antwortet mit Ja. Sie
+               fragt, ob<lb/> keine Moͤglichkeit waͤre, dieſe Heyrath ruͤckgaͤngig zu<lb/> machen?
+               Pantalon ſagt nein. Diana ſtellet ſich hierauf,<lb/> als ob ſie von Schmertzen
+               uͤberfallen wuͤrde, und retiri-<lb/> ret ſich. Smeraldina, der Doctor und Brighella
+               thun al-<lb/> lerley Fragen an den Pantalon und gehen weg. Pantalon<lb/> bleibt gantz
+               verwirrt. Hierauf koͤmmt Silvio, als ein<lb/> Practicus, thut als ob er mit einem
+               anderen ſpreche und<lb/> ſagt, er wuͤrde nicht unterlaſſen ihn zu dienen und er
+               ſey<lb/> uͤberzeuget, daß ein Mann von ſeinen Meriten und Wiſ-<lb/> ſenſchafften ſein
+               Gluͤck unfehlbar in dieſer Stadt machen<lb/> wuͤrde, in welcher der Krancken ſo viele
+               waͤren. Er gruͤſ-<lb/> ſet den Pantalon und ſagt zu ihm, es ſey ein fremder<lb/>
+               Medicus angekommen, der Wunder in ſeinen Curen thaͤ-<lb/> te. Pantalon bittet ihn, er
+               moͤchte ihn zu ihm ſchicken;<lb/> weil ſeine Tochter ſehr kranck waͤre. Silvio rufft
+               den Ar-<lb/> lequin. Arlequin trit herein und prahlet, er wolle durch<lb/> ein
+               eintzig Recept einen Tauben und einem Todten, das<lb/> Gehoͤr und Leben wiedergeben.
+               Nachdem allerley Poſ-<lb/> ſen mit dem Pantalon vorgefallen, rufft dieser ſeine
+               Toch-<lb/> ter, welche mit der Smeraldina herauskoͤmmt, und ſich<lb/> kranck ſtellet.
+               Arlequin fragt, auf eine laͤcherliche Art,<lb/> nach den Umstaͤnden ihrer Kranckheit
+               und verordnet ihr<lb/> allerley abgeſchmacktte Mittel. Pantalon ſagt, ſie habe<lb/>
+               kurtzen Athen. Arlequin antwortet, er wolle ihr helffen<lb/> und nimmt einen
+               Blaſe-Balg und will ihr friſchen Athen<lb/> einblaſen. Dieſes verurſachet mancherley
+               Poſſen, mit<lb/> welchen ſich die erſte Handlung beſchließet.</p>
+         </div>
+         <fw type="sig" place="bottom">* 2</fw>
+         <fw type="catch" place="bottom">An-</fw>
+         <pb facs="#arzt-5" n="5"/>
+          <fw type="pageNum">5</fw>
+         <div type="act" n="2">
+            <head>Andere Handlung.</head>
+            <p rend="indent">Brighella trit auf und freuet ſich uͤber die Heyrath<lb/> ſeines Herrn. Diana und
+               Smeraldina kommen dazu. Bri-<lb/> ghella will mit der Diana ſprechen, ſie aber giebt
+               ihm<lb/> kein Gehoͤr, ſondern redet von dem Medico, der ſie cu-<lb/> riret. Arlequin
+               trit herein, und wie er die Diana ge-<lb/> wahr wird, fragt er ſie, wie ſie ſich
+               befinde? Diana<lb/> antwortet, ſie befinde ſich etwas beſſer; allein ein Traum<lb/>
+               habe ſie ſehr beſtuͤrtzt gemacht, in welchem ihr vorge-<lb/> kommen, als ob eine arme
+               Ziege in Gefahr geweſen,<lb/> von einem Wolff gefreſſen zu werden, woferne ihr
+               nicht<lb/> ein Adler zu Huͤlffe gekommen. Arlequin erklaͤret ihr<lb/> den Traum und
+               ſagt, die Ziege bedeute ſie ſelbst; indem<lb/> ſie kranck waͤre, ſey ſie in Gefahr
+               von dem Tode, wel-<lb/> cher der Wolff waͤre, gefreſſen zu werden, wo ferne<lb/> er,
+               als der Adler, ihr nicht zu Huͤlffe kaͤme. Brighella<lb/> bittet ihn, ihm auch einen
+               Traum auszulegen, in wel-<lb/> chem ihn vorgekommen, als ob ein Cavalier, der in
+               ein<lb/> Frauenzimmer, welches an einen andern verſprochen ge-<lb/> weſen, verliebt
+               worden, und um zu ſeinem Zwecke zu<lb/> kommen, habe er ſeinen Diener als einen
+               Medicum an-<lb/> gekleidet, und der Diener habe gewagt, von dem Braͤu-<lb/> tigam
+               auſgepruͤgelt zu werden. Wie ſich Arlequin hier-<lb/> inne abgemahlet findet, fragt
+               er den Brighella zu ver-<lb/> ſchiedenen mahlen, ob er dieſen Traum wuͤrcklich
+               ge-<lb/> habt? und wie dieſer mit ja antwortet, ſagt Arlequin<lb/> er habe gleichfals
+               einen Traum gehabt, welcher ſowohl<lb/> die Deutung, als die Fortſetzung von dem
+               ſeinigen ent-<lb/> hielte und erzehlet, er habe geſehen, wie der Herr des<lb/>
+               verkleideten Medici den Diener des vermeynten Braͤu-<lb/> tigams in der Stadt
+               aufgeſucht, um ihm eine Kugel vor<lb/> den Kopff zugeben. Brighella fragt ihn, ob das ein<lb/>
+               <fw type="sig" place="bottom">***</fw><fw type="catch">Traum</fw>
+               <pb facs="#arzt-6" n="6"/>
+                <fw type="pageNum">6</fw> Traum ſey? und gehet fort. Arlequin ſagt zu dem Frau-<lb/>
+               enzimmer, er wiſſe ſich ſchon zu helffen, wenn er woll-<lb/> te, und gehet ab. Diana
+               und Smeraldina bewundern den<lb/> unverhofften Einfall des Medici und retiriren
+               ſich.</p>
+            <p rend="indent">Aurelia trit auf und ſpricht von ihrer Liebe zu dem<lb/> Odoardo, wie ſie ihn aber
+               von der Diana herauskommen ſie-<lb/> het, wirfft ſie ihm ſeine Untreue und
+               Undanckbarkeit vor<lb/> und begiebt ſich weg, ohne ihn anzuhoͤren. Odoardo iſt<lb/>
+               gantz auſſer ſich, und als Silvio koͤmmt und ihn fraget,<lb/> wie ſeine Sachen
+               stuͤnden? antwortet er, ſehr ſchlecht,<lb/> und erzehlet ihm, was ſich mit der
+               Aurelia zugetragen.<lb/> Silvio troͤſtet ihn und ſagt, daß der Zorn ſeiner
+               Gelieb-<lb/> ten ein Zeichen ihrer Liebe waͤre; er wolle ſie ſchon zu<lb/>
+               beſaͤnfftigen ſuchen. Er klopfet an. Aurelia koͤmmt<lb/> heraus: Silvio ſagt zu ihr,
+               daß er Urſache an der ver-<lb/> meynten Untreue ihres Liebhabers waͤre. Aurelia
+               koͤmmt<lb/> voller Zorn heraus, ſchlaͤgt ſie alle beyde weg und re-<lb/> tiriret
+               ſich. Arlequin, der von ferne zugeſehen, trit her-<lb/> vor und ſagt, die Liebhaber
+               waͤren verzagte Haaſen,<lb/> weil ſie ſich von einem Frauenzimmer ſchlagen
+               laſſen;<lb/> Er wolle dieſen ſchimpff ſchon raͤchen, und rufft die<lb/> Aurelia
+               heraus. Aurelia koͤmmt. Arlequin thut trotzig und<lb/> ſagt, er ſey der Beſchuͤtzer
+               der zwey Perſonen, die ſie<lb/> geſchlagen. Aurelia ſtellet ſich, als ob ſie um
+               Verzeihung<lb/> bitte, und ſagt, ſie waͤre uͤber den Zufall ſehr beſtuͤrtzt;<lb/>
+               weil ſie nicht gewuſt, daß dieſe beyden Herren<lb/> ſeine Creaturen waͤren. Arlequin
+               thut noch immer trotzig; zu-<lb/> letzt aber pruͤgelt Aurelia den Beſchuͤtzer
+               ebenfals und<lb/> retiriret ſich. Arlequin iſt voller Verdruß uͤber die Schlaͤ-<lb/>
+               ge, ſo er bekommen. Die Liebhaber lachen ihn aus. Au-<lb/> relia koͤmmt zuruͤck, und
+               giebt ihren Bedienten einen<lb/> Brief, mit Befehl denſelben ihren geliebten Horatio
+               ein-<lb/> zuhaͤndigen, und gehet weg. Odoardo bezeiget hieruͤber<lb/>
+               <fw type="catch" place="bottom">ſeine</fw>
+               <pb facs="#arzt-7" n="7"/>
+                <fw type="pageNum">7</fw> ſeine Eiferſucht. Arlequin reiſſet dem Diener den
+               Brief<lb/> aus der Hand und jagt ihn fort. Silvio verſpricht, dem<lb/> Odoardo, ihn
+               mit ſeiner Geliebten wieder auszuſöhnen<lb/> und ermahnet den Arlequin, nicht
+               abzulaſſen, den Pantalon,<lb/> als ein Medicus, fernerhin zu betruͤgen. Arlequin
+               verſpricht<lb/> es, befuͤrchtet aber wieder Schlaͤge, weil er ſich ausge-<lb/>
+               kleidet. Die Liebhaber gehen ab. Arlequin ſagt, er ſey<lb/> dieſes Amt uͤberdruͤßig
+               und indem er weggehen will,<lb/> koͤmmt der Pantalon. Arlequin iſt bestuͤrtzt und
+               ſagt zu<lb/> dem Alten, er ſey der Bruder des Medici, der bey ihm<lb/> logire, und
+               habe, weil er ihm aͤhnlich und<lb/> arm waͤre, muͤſſen die Flucht nehmen; weil
+               er<lb/> ſonst Schlaͤge bekommen. Pantalon, beklaget ihn, und<lb/> ſagt er wolle
+               ſeinen Bruder zu frieden ſtellen und mit<lb/> ihm dahin gehen. Arlequin ſtellet ſich
+               immer furchtſam<lb/> an und bittet den Pantalon, er moͤchte mit ſeinem Bru-<lb/> der
+               alleine ſprechen. Pantalon verſpricht ihn zu ſuchen.<lb/> Arlequin gehet weg, und
+               koͤmmt als ein Medicus geklei-<lb/> det wieder zuruͤck. Nach einigen Complimenten
+               bittet<lb/> ihn Pantalon, ſeinen Bruder Belle Marguarite zu pardo-<lb/> niren.
+               Arlequin entſchuldiget ſich und ſagt, er wolle ihn<lb/> durchaus nicht ſehen; weil es
+               unmoͤglich waͤre, daß ſie<lb/> beyſammen leben koͤnnten. Pantalon haͤlt an, ihm
+               dieſe<lb/> Gefaͤlligkeit nicht zu verſagen. Arlequin laͤſſet ſich bewe-<lb/> gen. Der
+               Alte bedancket ſich und gehet mit ihm nach<lb/> Hauſe.</p>
+            <p>Brighella trit auf und ſaget, er habe ſeinen Herrn<lb/> auf dem Marcke
+               zuruͤckgelaſſen. Pantalon koͤmmt zuruͤck<lb/> und ſagt, er habe den Medicum in ſeinem
+               Zimmer ver-<lb/> ſchloſſen, und wolle, nunmehro deſſen Bruder Belle<lb/> Marguarite
+               ſuchen, um ihm denſelben zu preſentiren.<lb/> Brighella iſt neugierig das Ende von
+               dieſem Spiele mit<lb/> anzuſehen, und begiebt ſich auf die Seite. Arlequin ſteiget<lb/>
+               <fw type="catch" place="bottom">zum</fw>
+               <pb facs="#arzt-8" n="8"/>
+                <fw type="pageNum">8</fw> zum Fenſter heraus um ſeinen Herrn aufzuſuchen. Pan-<lb/>
+               talon koͤmmt zuruͤck und bezeuget ſich erfreuet, daß er ihn<lb/> angetroffen und
+               erzehlet ihm, was er mit ſeinem Bru-<lb/> der vorgenommen, welcher ihm befohlen, ihn
+               zu ihm zu<lb/> bringen. Arlequin antwortet, er wuͤrde es nicht thun,<lb/> ſein Bruder
+               waͤre allzu erzuͤrnet wieder ihn. Pantalon<lb/> verſichert ihm das Gegentheil und
+               ſagt, er wolle ihm<lb/> von der Gewißheit uͤberfuͤhren und ihn herhohlen; er<lb/>
+               ſollte nur hier warten. Er gehet ab. Arlequin weiß nicht<lb/> was er machen ſoll und
+               ſteiget endlich durch das Fenſter<lb/> wieder in das Hauß. Brighella verwundert ſich
+               uͤber Ar-<lb/> lequins Verwegenheit, und daß er zwey Perſonen zugleich<lb/>
+               vorſtellen koͤnnte. Pantalon koͤmmt mit dem verkleideten<lb/> Arlequin wieder
+               zuruͤck, und da er den vermeyhnten Bru-<lb/> der des Medici nicht findet,
+               entſchuldiget er ſich bey dem<lb/> Arlequin, als dem Medico und ſagt, ſein Bruder
+               muͤſſe<lb/> aus Furcht fuͤr den Schlaͤgen, weggelauffen ſeyn. Ar-<lb/> lequin ſtellet
+               ſich gantz boͤſe und ſagt, ſein Bruder waͤre<lb/> ein Canaille. Hierauf trit der
+               Pantalon hervor und will<lb/> dem Alten die Betruͤgerey entdecken. Allein
+               Arlequin<lb/> faͤllt ihm immer in die Rede, jagt ihn endlich weg und<lb/>
+               beſchlieſſet hiermit die andere Handlung.</p>
+         </div>
+         <div type="act" n="3">
+            <head>Dritte Handlung</head>
+            <p rend="indent">Arlequin koͤmmt aus dem Hauſe des Pantalons und<lb/> bezeuget ſich ſehr verdruͤßlich,
+               daß er zwey Perſonen zu-<lb/> gleich ſpielen muß. Er kleidet ſich aus und legt
+               ſeinen<lb/> Habit bey Seite. Pantalon koͤmmt und ſchmaͤhlet, daß<lb/> er
+               weggelauffen, ohne zu warten biß ſein Bruder der<lb/> Medicus gekommen, ihn
+               pardoniret und wieder zu ſich<lb/> genommen. Arlequin entſchuldiget ſich und ſaget,
+               er ha-<lb/> be ſich weggemacht; weil er den Brighella gemercket,<lb/> der ein
+               gefaͤhrlicher Spion waͤre, Pantalon verſichert<lb/>
+               <fw type="catch" place="bottom">ihn</fw>
+               <pb facs="#arzt-9" n="9"/>
+                <fw type="pageNum">9</fw> ihn er wolle ſich von neuem bey ſeinem Bruder um ſeine
+               Ver-<lb/> ſoͤhnung bemuͤhen und gehet in ſein Hauß.</p>
+            <p rend="indent">Brighella trit auf und beſchwehret ſich gegen den Doctor, ſeinem Hrn.<lb/> uͤber die
+               Schwachheit des Pantalons, der ſich von einem vermeynten<lb/> Medico bey der Nase
+               herum fuͤhren laſſe. Pantalon koͤmmt und<lb/> der Doctor ſagt zu ihm, er ſolle ſich
+               vor den vermeynten Medico in<lb/> acht nehmen, der zwey Perſonen zugleich vorſtelle.
+               Pantalon mocqui-<lb/> ret ſich uͤber ihn und ſagt der Brighella, ſein Bedienter ſey
+               ein Spi-<lb/> on. Der Doctor und Brighella behaupten daß es wahr ſey, was ſie<lb/>
+               vorgegeben und ſagen, ſie wollten es ihm gleich weiſen. Pantalon<lb/> lacht ſie aus
+               und gehet weg, um ſeines Medici Bruder, Belle<lb/> Marguarite den er in ein Zimmer
+               verſchloſſen. Der Doctor und<lb/> Brighella treten auf die Seite.</p>
+            <p rend="indent">Arlequin ſpringt zu Pantalons Fenſter heraus und laͤſt ſich ſeinen<lb/> Habit
+               wiedergeben. Der Alte koͤmmt und bezeuget ſich ſehr erfreut,<lb/> daß er ihn
+               angetroffen; ſein Bruder warte in dem Zimmer auf<lb/> ihn. Arlequin ſtellet ſich als
+               ob er ſeiner ſeits, ſeinem Bruder ſchon<lb/> vergeben, und ſagt er muͤſſe hingehen
+               und ihn auf beſſere Wege<lb/> bringen. Pantalon bleibt. Der Doctor und Brighella
+               treten her-<lb/> vor und ſagen, der Medicus und Bella Marguarite waͤren eine<lb/>
+               Perſon. Pantalon behauptet das Gegentheil, und ſie zuuͤberfuͤhren,<lb/> rufft er den
+               Medicum an das Fenſter. Arlequin koͤmmt als der Me-<lb/> dicus an das Fenſter und
+               ſagt zu dem Pantalon, ſein Bruder ſey nicht<lb/> zu beſſern und er wolle ihn durchaus
+               aus dem Hauſe jagen. Auf<lb/> Bitte des Doctors und des Brighella ruffet Pantalon den
+               Bella Margua-<lb/> rite. Arlequin guckt in ſeiner ordentlichen Kleidung heraus.
+               Der<lb/> Doctor und Brighella verwundern ſich uͤber die Geſchicklichkeit ſei-<lb/>
+               ner Perſon, und erſuchen den Pantalon, er ſolle beyde zugleich her-<lb/> aus ſehen
+               laſſen. Pantalon bittet den Medicum hierum, welcher<lb/> es ihm auch mit dieſer
+               Bedingung verſpricht, daß Belle Marguarite<lb/> unter ihm zum Fenſter heraus ſehen
+               muͤſte; weil er juͤnger und ein<lb/> Ignorant waͤre. Sie ſtehen ihm dieſe Bedingung
+               zu. Arlequin<lb/> rufft Belle Marguarite, ſpielet wiederum beyde Perſonen zugleich,<lb/>
+               <fw type="catch" place="bottom">und</fw>
+               <pb facs="#arzt-10" n="10"/>
+                <fw type="pageNum">10</fw> und retiriret ſich. Pantalon nennet hieraus den Doctor und
+               Bri-<lb/> ghella Betruͤger und beyde gehen gantz verwirrt von ihm weg.<lb/> Arlequin
+               koͤmmt heraus und ſagt zu dem Pantalon, er wolle durchaus<lb/> ſeinen Bruder nicht
+               bey ſich haben und er ſolle ihn aus dem Hau-<lb/> ſe jagen. Pantalon gehet hinein um
+               ſolches zu bewerktſtelligen.<lb/> Arlequin laͤſſet seinen Habit fahren und ſteiget
+               zum Fenſter hinein,<lb/> Brighella der nebſt dem Doctor alles mit angeſehen, nimmt
+               den<lb/> Habit und ziehet ſich ihn an. Pantalon koͤmmt mit dem Arlequin<lb/> als dem
+               vermeynten Belle Marguarite zuruͤck und befiehlet ihm,<lb/> auf Ordre ſeines Bruders,
+               nicht wieder an ſein Hauß zu kom-<lb/> men. Brighella trit als der Medicus hervor.
+               Arlquin ſiehet ſich<lb/> gefangen und will fortlauffen. Pantalon will ihn umbringen,
+               allein<lb/> die Liebhaber kommen dazwiſchen, wiederſetzen ſich und erzehlen<lb/> die
+               Urſache dieſer Werkleidung. Silvio erklaͤret, daß er die Diana<lb/> bereits
+               geheyrathet. Wie Pantalon merktet, daß bey der Sache<lb/> nicht mehr zu thun ſey,
+               giebt er ſeine Einwilligung. Odoardo<lb/> rufft die Aurelia welche ſich mit ihm
+               verſoͤhnet. Arlequin verlo-<lb/> bet ſich mit der Smeraldina und dieſes iſt das Ende
+               des gantzen<lb/> Spiels.</p>
+         </div>
+      </body>
+   </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Il dottore dai due volti</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#doct-1" n="1"/>
+                <head type="main">IL DOTTORE DAI DUE VOLTI</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN
+                    PIETROBURGO<lb/><date when="1734">nell'anno 1734.</date></head>
+                <pb facs="#doct-2" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">Il Dottore arriva a Milano per sposare Diana, figlia di Pantalone, con il quale aveva
+                        preso accordi per lettera. Ciò costringe Silvio, innamorato di Diana, ad accordarsi
+                        con la fidanzata e a travestire Arlecchino da Dottore. Ciò che accade si vedrà nella
+                        commedia.</p>
+                </div>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE,</role>
+                        <roleDesc>padre di Diana.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_it">DIANA,</role>
+                        <roleDesc>sua figlia.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>zia di lei.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_it">DOTTORE.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_it">BRIGHELLA,</role>
+                        <roleDesc>suo servitore.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_it">SILVIO,</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_it">ODOARDO</role>
+                        </castItem>
+                        <roleDesc>amici.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="aurealia_it">AUREALIA,</role>
+                        <roleDesc>innamorata di Odoardo_it.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                        <roleDesc>servitore di Silvio_it.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a <placeName>Milano</placeName>.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#doct-3" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <p rend="indent">SILVIO entra in scena raccontando all’amico Odoardo della sua passione
+                        per Diana che il padre Pantalone ha affidato a Smeraldina, ordinandole di non
+                        permettere alla figlia di parlare con nessuno. Odoardo gli promette di aiutarlo e gli
+                        racconta dell’amore reciproco tra lui e Aurelia. Silvio trova un guanto e lo
+                        raccoglie. Intanto arriva Arlecchino gridando che tutta la città è circondata. Gli
+                        innamorati gli chiedono con interesse chi avrebbe circondato la città. Arlecchino
+                        esita un attimo facendosi desiderare e poi risponde che la città è circondata dalle
+                        mura. Vedendo il guanto nella mano di Silvio dice che quello gli appartiene e che
+                        Silvio avrebbe dovuto sapere che Arlecchino sarebbe venuto con un’ambasciata. Silvio
+                        non capisce nulla. Arlecchino racconta che ha incontrato per strada Diana
+                        accompagnata da Smeraldina e che la ragazza gli ha dato il guanto da consegnare a
+                        Silvio e l’ha fatto senza che Smeraldina se ne accorgesse. Molto felice, Silvio
+                        chiede ad Arlecchino di consegnargli il guanto. Arlecchino, pensando che il guanto
+                        nella mano di Silvio sia lo stesso che gli ha dato Diana, inizia a ridere di Silvio.
+                        Quando si rende conto che è un altro, cerca il guanto e lo consegna a Silvio che lo
+                        bacia scoprendo dentro una lettera, in cui la sua fidanzata gli suggerisce di
+                        vestirsi da Dottore per poterlo incontrare. Silvio e Odoardo convincono Arlecchino a
+                        fingere <pb facs="#doct-4" n="4"/> di essere il Dottore. Arlecchino prima rifiuta, poi
+                        accetta e tutti se ne vanno.</p>
+                    <p rend="indent">IL DOTTORE entra dicendo a Brighella di essere arrivato a Milano per
+                        sposare la figlia di Pantalone, con il quale si è già messo d’accordo per lettera.
+                        Brighella risponde di sapere dove abita Pantalone e bussa al suo portone. Esce
+                        Pantalone e, avendo dei nemici, grida insospettito: <hi rend="uppercase">AL
+                            FUCILE</hi>, poi si affaccia alla finestra e chiede chi è. All’inizio non crede ai
+                        due sconosciuti ma, dopo aver posto alcune domande, prende la lettera di credito del
+                        Dottore e comincia a leggerla. Poi riconosce il Dottore come suo genero, gli chiede
+                        perdono e alla fine lo abbraccia. Al quel punto arriva Smeraldina e, con grande
+                        sconforto, racconta che Diana si trovava al mercato, dove due uomini stavano
+                        litigando con le pistole in mano. Uno di loro aveva sparato e sua figlia …
+                        Interrompendo più volte il racconto di Smeraldina, Pantalone le chiede se sua figlia
+                        fosse stata ferita o uccisa. Smeraldina risponde di no, ma che è mezza morta dalla
+                        paura, e se ne va. In grande disperazione, Pantalone e il Dottore decidono di
+                        chiamare un Dottore. In quel momento entra Diana appoggiandosi a Smeraldina.
+                        Pantalone la consola, poi le mostra il suo fidanzato. Osservando il Dottore, Diana
+                        chiede se è davvero il suo futuro sposo. Pantalone risponde di sì. Allora Diana gli
+                        chiede se c’è un modo di interrompere il fidanzamento. Pantalone <pb facs="#doct-5" n="5"/>
+                        risponde di no. Allora Diana finge di sentirsi molto male e se ne va. Smeraldina, il
+                        Dottore e Brighella fanno molte domande a Pantalone e, facendo uno scherzo scenico,
+                        escono. Pantalone rimane molto confuso quando arriva Silvio vestito da medico
+                        praticante. Fa come se stesse parlando con qualcun altro al quale racconta di non
+                        voler perdere l’occasione di servire quel dottore perché è certo che una persona così
+                        dotta ed esperta in medicina farà grande fortuna in quella città dove capitano così
+                        tante malattie. Poi saluta Pantalone e gli racconta dell’arrivo di un Dottore
+                        straniero che fa veri miracoli. Pantalone gli chiede di condurre quel medico a casa
+                        sua perché sua figlia è malata. Per servirlo, Silvio chiama Arlecchino. Arlecchino,
+                        da fuori scena, finge di scrivere le ricette per rendere la vista a un sordo e la
+                        vita a un morto. Dopodiché entra in scena e fa molti scherzi teatrali con Pantalone.
+                        Alla fine il vecchio chiama sua figlia che entra con Smeraldina fingendosi malata.
+                        Arlecchino in un modo buffo le chiede dei suoi sintomi e le prescrive dei medicinali
+                        ridicoli. Poi Pantalone gli dice di avere il fiato corto e di respirare con fatica.
+                        Arlecchino gli risponde che lo può guarire molto velocemente. Prende una borsa a
+                        soffietto e vuole gonfiarlo, il che crea un lazzo divertente con il quale si conclude
+                        il primo atto.</p>
+                </div>
+                <pb facs="#doct-6" n="6"/>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <p rend="indent">BRIGHELLA entra pensando alle nozze del suo signore. Poi arrivano Diana e Smeraldina.
+                        Brighella vorrebbe dire loro qualcosa, ma quelle non lo ascoltano continuando a
+                        parlare tra di loro del loro Dottore. Al che arriva Arlecchino e, vedendo Diana, le
+                        chiede se la sua medina le è stata utile. Diana gli risponde che si sente meglio, ma
+                        che è stata turbata da un sogno, in cui una povera capra stava per essere divorata da
+                        un lupo se un’Aquila non fosse accorsa in suo aiuto. Arlecchino interpreta il sogno,
+                        dicendo che la capra è Diana stessa, che essendo malata, sarebbe stata mangiata dalla
+                        morte, rappresentata dal lupo, senza il suo aiuto, rappresentato dall’Aquila. Anche
+                        Brighella chiede ad Arlecchino di interpretare un suo sogno, nel quale gli sembra di
+                        aver visto un Cavaliere che, innamorato di una ragazza, promessa però a un altro, per
+                        ottenerla, fa travestire un suo servitore da Dottore. Arlecchino, accorgendosi che
+                        con quel sogno viene descritto lui stesso, domanda a Brighella se avesse veramente
+                        sognato quello che gli ha raccontato. Brighella risponde di sì. Allora Arlecchino
+                        risponde che gli spiegherà il suo sogno con un altro che ha fatto lui e che sembra
+                        essere il seguito di quello di Brighella. Arlecchino racconta di aver visto il
+                        padrone del presunto Dottore andare in giro per la città cercando il servitore del
+                        promesso sposo per ucciderlo con la pistola. Brighella gli chiede se è davvero <pb facs="#doct-7" n="7"/> un sogno o una cosa vera ed esce. Arlecchino dice alle donne che
+                        anche lui può avere sogni quando vuole e se ne va. Diana e Smeraldina, ridendo della
+                        prontezza di spirito del Dottore, escono.</p>
+                    <p rend="indent">AURELIA entra parlando del suo amore per Odoardo ma, vedendolo uscire dalla casa di
+                        Diana, comincia a chiamarlo infedele e ingrato e va via senza ascoltarlo. Odoardo si
+                        dispera. Entra Silvio e gli racconta che la sua idea [del travestimento di Arlecchino
+                        da Dottore] è stata ottima, ma Odoardo ribatte che i suoi affari vanno invece male e
+                        gli racconta cosa è appena successo con Aurelia. Silvio lo consola dicendogli che la
+                        rabbia della sua fidanzata è il segno del grande affetto che gli porta e che lui ora
+                        andrà dalla ragazza per raccontarle tutta la verità. Bussa al suo portone e Aurelia
+                        esce. Silvio le spiega di essere la ragione della presunta infedeltà del suo
+                        fidanzato. Infuriata, Aurelia inizia a picchiarli entrambi e se ne va. Arlecchino,
+                        che ha visto la scena da lontano, comincia a ridere dei due innamorati chiamandoli
+                        vigliacchi perché si sono fatti bastonare da una donna. Si proclama il loro
+                        protettore, promette di vendicare l’offesa subita e bussa al portone. Aurelia esce.
+                        Sicuro di sé, Arlecchino si presenta come il difensore di quelle due persone che lei
+                        ha bastonato. Aurelia finge di essere ubbidiente, dice che le dispiace e che non
+                        sapeva che i due signori fossero sotto la sua protezione. Arlecchino si mostra ancora
+                        più presuntuoso, il che dà origine a uno scherzo divertente. <pb facs="#doct-8" n="8"/>
+                        Alla fine Aurelia comincia a picchiare il protettore e se ne va. Arlecchino è triste,
+                        gli innamorati ridono di lui. Nel frattempo esce Aurelia e finge di voler mandare un
+                        servitore con una lettera al suo gentile Orazio, e se ne va via. Odoardo è geloso.
+                        Arlecchino strappa la lettera dalle mani del servitore e comincia a picchiarlo.
+                        Silvio promette a Odoardo di riportare la pace fra lui e la fidanzata e chiede ad
+                        Arlecchino di continuare a fingere di essere il Dottore per ingannare Pantalone.
+                        Arlecchino rispondere che si è tolto i vestiti del Dottore perché temeva di essere
+                        bastonato ma promette di indossarli di nuovo. Gli innamorati se ne vanno. Arlecchino
+                        dice di essere stanco di fingere di essere il Dottore e vuole andare via, ma in quel
+                        momento arriva Pantalone. Arlecchino si spaventa perché il vecchio lo guarda in modo
+                        sospettoso. Gli dice di essere il fratello del Dottore, il quale, dato che Arlecchino
+                        gli assomiglia tanto ed è povero, lo odia così tanto che egli fu costretto a fuggire
+                        per non essere da lui ucciso. Dispiaciuto, Pantalone gli promette di farlo
+                        riappacificare con suo fratello e vuole prenderlo a vivere in casa sua. Arlecchino
+                        finge di aver paura di suo fratello e chiede a Pantalone di parlargli prima. Il
+                        vecchio glielo promette. Arlecchino va via e torna vestito da Dottore. Pantalone,
+                        dopo alcuni convenevoli, gli chiede di perdonare suo fratello, il buon Margarito.
+                        Arlecchino, udendo quel nome, finge di arrabbiarsi, si scusa di questo con il vecchio
+                        e gli dice che non vuole vedere il fratello e che gli è impossibile trovarsi nello
+                        stesso posto con lui. Il vecchio cerca di convincerlo <pb facs="#doct-9" n="9"/> a
+                        perdonare il fratello per il bene di Pantalone. Alla fine il finto Dottore
+                        acconsente. Il vecchio lo ringrazia e lo porta a casa sua. Arriva Brighella dicendo
+                        che ha lasciato il suo padrone al mercato. Pantalone torna raccontando che ha chiuso
+                        il Dottore nella sua camera e sta andando a cercare il buon Margarito, suo fratello,
+                        per presentarglielo. Brighella si incuriosisce di come andrà a finire la faccenda e
+                        si mette un po’ in disparte. Arlecchino, con il suo abito, esce dalla finestra per
+                        andare a cercare il suo padrone. Pantalone torna e si rallegra di averlo incontrato.
+                        Gli racconta quello che ha detto al Dottore, suo fratello, il quale gli ha ordinato
+                        di condurlo da lui. Arlecchino si finge incredulo perché sa che suo fratello è in
+                        collera con lui. Pantalone lo nega ma, per essere più sicuri, andrà a parlare con il
+                        Dottore un’altra volta. Chiede ad Arlecchino di aspettarlo là e va via. Arlecchino è
+                        in difficoltà, dice che non c’è tempo da perdere ed entra dalla finestra nella casa
+                        di Pantalone. Brighella ammira l’abilità di Arlecchino di mostrarsi due persone
+                        distinte nello stesso tempo e vede Pantalone uscire dalla casa con Arlecchino vestito
+                        da Dottore. Pantalone, non vedendo più il falso fratello del Dottore, è dispiaciuto e
+                        chiede scusa al Dottore per averlo disturbato. Dice che forse suo fratello è andato
+                        via per paura di essere da lui bastonato. Arlecchino si mostra furioso e dice che suo
+                        fratello è una grande canaglia. Al che arriva Brighella e vuole svelare al vecchio
+                        l’inganno. Arlecchino, interrompendolo, comincia a picchiarlo e così si conclude
+                        l’Atto secondo.</p>
+                </div>
+                <pb facs="#doct-10" n="10"/>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <p rend="indent">ARLECCHINO esce dalla casa di Pantalone. Si trova in grande difficoltà per come
+                        riuscire a portare avanti il piano di essere due persone nello stesso tempo. Si
+                        spoglia e nasconde il vestito da Dottore. Arriva Pantalone e lo rimprovera per
+                        essersene andato via senza averlo aspettato perché suo fratello Dottore era disposto
+                        a perdonarlo e a prenderlo a vivere con lui. Arlecchino si scusa e spiega di essere
+                        andato via perché ha visto Brighella, una spia molto pericolosa. Pantalone lo
+                        assicura che suo fratello vuole riappacificarsi con lui e lo conduce a casa.</p>
+                    <p rend="indent">BRIGHELLA entra in scena e racconta al Dottore, suo padrone, della stoltezza di
+                        Pantalone che ha creduto a un Dottore impostore. Al che arriva Pantalone e il vero
+                        Dottore gli raccomanda di stare attento al falso Dottore che si presenta come due
+                        persone diverse essendo in realtà una sola. Pantalone ride di loro, accusando
+                        Brighella di essere una spia. Il Dottore e Brighella dicono che questo non è vero e
+                        glielo dimostreranno. Pantalone continua a ridere e vuole andare a cercare il Dottore
+                        perché ha chiuso in casa il buon Margarito, suo fratello, e se ne va.</p>
+                    <p rend="indent">ARLECCHINO salta dalla finestra indossando l’abito da Dottore. Al che arriva
+                        Pantalone e si rallegra di vederlo perché gli vuole dire che suo fratello lo aspetta
+                        in camera in casa sua. Arlecchino finge di aver perdonato il fratello e dice di
+                        volere andar subito a parlargli. Pantalone resta. <pb facs="#doct-11" n="11"/> Il Dottore e
+                        Brighella tornano dicendo che il Dottore e il buon Margarito sono una sola persona.
+                        Pantalone sostiene il contrario e per dimostrarglielo chiama il Dottore. Arlecchino
+                        da Dottore si affaccia alla finestra e dice a Pantalone che suo fratello è
+                        incorreggibile e che lo vuole mandare via. Pantalone, su richiesta del Dottore e di
+                        Brighella, chiama il buon Margarito, che non è altro che Arlecchino nel proprio
+                        abito. Il vero Dottore e Brighella ammirano la sua abilità e chiedono a Pantalone di
+                        chiamare entrambi i fratelli insieme. Pantalone chiede al falso Dottore di esaudire
+                        questo desiderio, e questi, dopo alcune scuse, acconsente a condizione che il buon
+                        Margarito stia alla finestra sotto la sua, perché è il fratello più piccolo ed è un
+                        ignorante. Tutti acconsentono. Arlecchino chiama il buon Margarito, e con un lazzo
+                        scenico, si mostra con due volti e poi si nasconde. Ciò costringe Pantalone a
+                        chiamare il Dottore e Brighella fannulloni, i quali, vergognandosi, se ne vanno. A
+                        questo punto arriva Arlecchino che dice a Pantalone di non voler avere suo fratello
+                        con sé e chiede di mandarlo via. Pantalone entra in casa sua per accontentare il
+                        fasullo Dottore. Arlecchino si spoglia dell’abito da Dottore ed entra in casa dalla
+                        finestra. Brighella, che con il Dottore, ha visto tutto, prende l’abito del Dottore e
+                        lo indossa. Nel frattempo Pantalone entra con Arlecchino nelle vesti del falso
+                        Margarito ordinandogli di non avvicinarsi più a quella casa per volontà di suo
+                        fratello. <pb facs="#doct-12" n="12"/> Entra Brighella vestito da Dottore. Arlecchino
+                        capisce сhe questa è la fine del suo inganno e vuole scappare via. Pantalone si
+                        arrabbia per essere stato preso in giro e vuole ucciderlo. Gli innamorati non lo
+                        permettono. Raccontano al vecchio la ragione di tutto l’accaduto. Silvio dice che
+                        Diana è già diventata sua moglie. Pantalone capisce che non c’è più niente da fare e
+                        acconsente. Odoardo chiama Aurelia e i due fanno pace. Con il matrimonio di
+                        Arlecchino e Smeraldina finisce la COMMEDIA.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

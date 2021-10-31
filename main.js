@@ -1,9 +1,7 @@
 // List of the XML files to be processed.
 const XMLFiles = [
-  "/teatro700/xml/arlekin_i_smeraldina_ljubovniki.xml",
-  "/teatro700/xml/Smeraldinaspritofolletto_IT-1.xml",
-  "/teatro700/xml/esempio_corpus.xml",
-  "/teatro700/xml/Il_Francese_a_Venezia_CORPUS.xml"
+  "/teatro700/xml/Il_Francese_a_Venezia_CORPUS.xml",
+  "/teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml",
 ];
 
 var CETEIcean;
