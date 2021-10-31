@@ -297,7 +297,7 @@ const Teatro700 = {
 
     if (!store) return;
 
-    const rdfData = await fetch("../rdf/people.rdf").then(r => r.text());
+    const rdfData = await fetch("/teatro700/rdf/people.rdf").then(r => r.text());
     await new Promise(resolve => {
       store.load("text/turtle", rdfData, (err, results) => {
         if (err) {
