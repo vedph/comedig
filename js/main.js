@@ -2,6 +2,7 @@
 const XMLFiles = [
   "/teatro700/xml/Il_Francese_a_Venezia_CORPUS.xml",
   "/teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml",
+  "/teatro700/xml/La_nascita_di_Arlecchino_1733.xml",
 ];
 
 var CETEIcean;
