@@ -1,0 +1,798 @@
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le fortunate disgrazie di Arlecchino</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Elena Barchielli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                  >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le fortunate disgrazie di Arlecchino fu allestita dai comici italiani a San
+               Pietroburgo nel 1734. La rivalità tra Brighella e Arlecchino per Smeraldina, oggetto
+               di desiderio di entrambi, è motivo principale anche delle Disgrâces d’Arlequin,
+               rappresentato al Téâtre de Rester alla Foire S. Germain nel marzo 1721 sotto la forma
+               dell’opéra-comique in tre atti, in cui l’elemento magico fu del tutto assente. La
+               commedia assomiglia allo scenario Le mettamorfosi di Arlecchino recitato a Dresda nel
+               carnevale del 1753 dai comici italiani attivi alla corte di Augusto III di
+               Sasssonia.</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse  biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni  versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Напасти счастливые Арлекину</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV 8250, (34b) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="11">11 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="Napasti-1" url="001napas.jpg"/>
+            <graphic xml:id="Napasti-2" url="002napas.jpg"/>
+            <graphic xml:id="Napasti-3" url="003napas.jpg"/>
+            <graphic xml:id="Napasti-4" url="004napas.jpg"/>
+            <graphic xml:id="Napasti-5" url="005napas.jpg"/>
+            <graphic xml:id="Napasti-6" url="006napas.jpg"/>
+            <graphic xml:id="Napasti-7" url="007napas.jpg"/>
+            <graphic xml:id="Napasti-8" url="008napas.jpg"/>
+            <graphic xml:id="Napasti-9" url="009napas.jpg"/>
+            <graphic xml:id="Napasti-10" url="010napas.jpg"/>
+            <graphic xml:id="Napasti-11" url="011napas.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#Napasti-1" n="1"/>
+            <head type="main">НАПАСТИ ЩАСТЛИВЫЯ<lb/> АРЛЕКIНУ </head>
+            <head type="sub">КОМЕДIЯ ИТАЛIАНСКАЯ, <lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1734">1734 года.</date>
+            </head>
+            <pb facs="#Napasti-2" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЪ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent"> Брïгеллъ влюбившися въ Смералдïну, хочетъ по-<lb/> губить Арлекїна
+                  противника своего; для сего<lb/> онъ пришедъ на берегъ морскои, оставилъ его<lb/>
+                  тамъ одного. Арлекїнъ будучи близко того, чтобъ<lb/> ему съѣдену быть отъ чудовиша
+                  морскаго, спасся<lb/> чрезъ одного Волхва, которои ему далъ полови-<lb/> ну своея
+                  силы. Арлекїнъ обрадовавшися о томъ,<lb/> всячески вредитъ своему непрїятелю, и
+                  Смерал-<lb/> дїнѣ, которая по томъ будетъ его жена. Любовь<lb/> Сïлвïева и
+                  Одоардова къ Дïанѣ, и Аурелїѣ, прїобщена<lb/> только для завязанїя Комедїи.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                  <roleDesc> отецъ Дïанинъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ru">ДIАНА,</role>
+                  <roleDesc>дочь его.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                  <roleDesc> служащая.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                  <roleDesc>отецъ Аурелïинъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ru">АУРЕЛIЯ,</role>
+                  <roleDesc>дочь его.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ru">CIЛВIИ и</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ru">ОДОАРДЪ</role>
+                     <roleDesc>друзья.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                  <roleDesc>любовники Смералдïнины,</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКІНЪ,</role>
+                  <roleDesc>противники между собою.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="mago_ru">Одинъ Волхвъ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="notaio_ru">Одинъ Нотарїи.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="sicari_ru">Два Сïкарїя, или бердышеносца.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="guardie_ru">Приставы приказные.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="boia_ru">Одинъ Палачъ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="vagabondo_ru">Одинъ Волочага.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="mostro_marino_ru">Одно Чудовище морское.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="varie_trasformazioni_ru">Mногїя преображенїя.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Дѣиствïе въ Палермѣ.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#Napasti-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВIЕ ПЕРВОЕ</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ЛѢСЪ ПРИМОРСКОИ.</stage>
+               <p rend="indent"> АРЛЕКIНЪ выходитъ кричя, чтобъ ему помогли<lb/> противъ Брїгеллы,
+                  которои ему грозитъ, что<lb/> онъ его убьетъ, ежели онъ не будетъ смиренъ.<lb/>
+                  Говоритъ, что онъ привелъ Арлекїна на сїе мѣсто,<lb/> дабы его убить, для того что
+                  онъ Арлекїнъ ему<lb/> противникъ; и сїе бы онъ Брїгеллъ скоро могъ учи-<lb/> нить,
+                  ежели бы нѣкоторои остатокъ въ немъ жа-<lb/> лости, и человѣчества не
+                  препятствовали ему, и не<lb/> привелибъ его къ тому, чтобъ ему жизнь
+                  даровать.<lb/> Привязываетъ онъ Арлекїна къ каменнои горѣ, ко-<lb/> торая была на
+                  берегу моря, да и пошолъ самъ съ<lb/> своими людьми. Арлекїнъ остался привязанъ, и
+                  видя<lb/> что его морское чудовище хочетъ поглотить,<lb/> послѣ многихъ игрушекъ
+                  приличныхъ Театру,<lb/> кричитъ прося помощи. Тогда Волхвъ приходитъ,<lb/> которои
+                  оборачиваетъ оное чудовище въ каменную<lb/> гору; выводитъ изъ страха Арлекїна, и
+                  говоритъ<lb/> ему, что онъ знаетъ всю причину его нещастїя,<lb/> которое ему
+                  приключается отъ ревности Брїгел-<lb/> ловои. Арлекїнъ поблагодаривши ему,
+                  проситъ,<lb/> чтобъ онъ благоволилъ его развязать, для того<lb/> что уже онъ весь
+                  оледенѣлъ съ стужи. Волхвъ<lb/> призываетъ двухъ дїаволовъ, которымъ онъ при-<lb/>
+                  казываетъ развязать Арлекїна, и платье на него<lb/> надѣть. Для сего преображаетъ
+                  онъ каменную гору<lb/> паки въ чудовище, которое выблевало изъ своего<lb/> зѣва
+                  платье Арлекїну; но Арлекїнъ жестоко испу-<lb/> жавшися удивляется о томъ, что онъ
+                  видитъ; и<lb/> видя, что онъ чисто одѣтъ, даемыя ему отъ<lb/> Волхва денги
+                  принимаетъ, такъ же и алмазныя<lb/>
+                  <fw type="sig" place="bottom">Ъ 2</fw>
+                  <fw type="catch" place="bottom">вещи.</fw>
+                  <pb facs="#Napasti-4" n="4"/>
+                  <fw type="pageNum">4</fw> вещи. Послѣ сего даетъ ему Волхвъ половину<lb/> своея
+                  дѣиствительныя палочки, чрезъ которую<lb/> Волхвъ обѣщаетъ ему помощь, и въ
+                  служенїе весь<lb/> адъ, купно и все, чегобъ онъ ни пожелалъ. По томъ<lb/> Волхвъ
+                  прочь пошолъ. Арлекїнъ остался щасливъ; но<lb/> тужитъ, что онъ позабылъ ѣсть
+                  попросить у сво-<lb/> его милостивца, и что ему хочется макароновъ.<lb/> Тогда
+                  Макароны показались на воздухѣ. Арлекїнъ<lb/> чинитъ многїя смѣшныя игрушки, чтобъ
+                  оныя до-<lb/> стать. И какъ онъ ихъ ѣлъ, въ то время пришолъ<lb/> къ нему одинъ
+                  духъ, которои показывается, что и<lb/> онъ хочетъ Макароновъ; Арлекїнъ ему оныхъ
+                  не-<lb/> даетъ. Духъ у него тѣ отнявъ уноситъ. Арлекїнъ<lb/> осердяся говоритъ,
+                  что онъ могъ бы принудить<lb/> духа отдать ему назадъ Макороны; но за благо-<lb/>
+                  потребнѣе онъ находитъ, чтобъ поити въ городъ,<lb/> для отмщенїя Брїгеллу. На сїе
+                  призванныи духъ<lb/> уноситъ его по воздуху.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">БРIГЕЛЛЪ выходитъ говоря, что онъ хочетъ<lb/> стараться, дабы ему
+                  теперь получить за себя<lb/> Смералдїну, по тому что уже нѣтъ Арлекїна про-<lb/>
+                  тивника его, да и сталъ стучаться. Панталонъ<lb/> выходитъ. Брїгеллъ у него
+                  проситъ Смералдїну<lb/> за себя. Панталонъ ему отвѣчаетъ, что онъ не<lb/> знаетъ,
+                  захочетъ ли она сама за него, по тому<lb/> что она имѣла склонность къ Арлекїну.
+                  Брїгеллъ<lb/> говоритъ, что будто онъ увѣдомился чрезъ нѣко-<lb/> торыхъ
+                  судовшиковъ, что Арлекїнъ утонулъ идучи<lb/> на рыбную ловлю. Старикъ ему
+                  говоритъ, что по-<lb/> неже то такъ; то его требованїе можетъ испол-<lb/> ниться,
+                  да и сталъ кликать Смералдїну, которои<lb/> онъ сказываетъ о нещастїи
+                  Арлекїновомъ, и о требо- <fw type="catch" place="bottom">ванїи.</fw>
+                  <pb facs="#Napasti-5" n="5"/>
+                  <fw type="pageNum">5</fw> ванїи Брїгелловомъ. Смералдїна опечалившися о не-<lb/>
+                  щастїи своего любовника, обѣщается вытьти за<lb/> Брїгелла, которои въ великои
+                  радости говоритъ,<lb/> что онъ хочетъ итьти по Нотарїя. Старикъ го-<lb/> воря, что
+                  то изрядно, примолвилъ и то, что при<lb/> семъ случаѣ, онъ и Докторъ могутъ
+                  обмѣниться<lb/> взаимно своими дочерями, какъ они о томъ догово-<lb/> рились, и
+                  учинить три брака вкупѣ. Брїгеллъ<lb/> пошолъ; Смералдїна такъ же. Старикъ
+                  остался;<lb/> а къ нему приходитъ Докторъ, которои его прину-<lb/> ждаетъ къ
+                  скорѣишему заключенїю двоинаго ихъ<lb/> брака. Панталонъ ему сказываетъ все, что
+                  надле-<lb/> жало, и говоритъ, что онъ ждетъ Брїгелла съ Но-<lb/> тарїемъ. Въ то
+                  самое время любовники приходятъ,<lb/> и проситъ Сїлвїи себѣ Дïану у Панталона, а
+                  Одо-<lb/> ардъ Аурелїю у Доктора. Старики имъ отказыва-<lb/> ютъ. Любовники тутъ
+                  чинятъ игрушку смѣшную,<lb/> притворяяся быть отцами своихъ любовницъ; послѣ<lb/>
+                  чего они прочь пошли. Старики смѣются о ихъ<lb/> безумїи. Докторъ призвавъ
+                  Аурелїю, приводитъ ея<lb/> въ домъ Панталоновъ, чтобъ тамъ заручить подпи-<lb/>
+                  скою запись брачную съ Панталономъ.</p>
+               <p rend="indent"> АРЛЕКIНЪ смѣется надъ любовниками, что они<lb/> терпѣливно сносятъ
+                  стариковъ себѣ противниковъ,<lb/> которые на послѣдокъ осердившись, бить
+                  хотятъ<lb/> Арлекїна. Но онъ призываетъ къ себѣ дьявола, ко-<lb/> торои схватилъ
+                  съ нихъ перюки; а шумомъ кон-<lb/> чится Дѣиствїе первое.</p>
+            </div>
+            <fw type="sig" place="bottom">Ъ 3</fw>
+            <fw type="catch" place="bottom">ДѣИ-</fw>
+            <pb facs="#Napasti-6" n="6"/>
+            <fw type="pageNum">6</fw>
+            <div type="act" n="2">
+               <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+               <p rend="indent">Любовники выходятъ прощенїя прося у Арле-<lb/> кїна въ томъ, что они
+                  не вѣдали о его силѣ. Арле-<lb/> кїнъ обѣщается имъ помогать въ ихъ любви, и то
+                  теперь самымъ дѣломъ показать, что онъ хочетъ начать<lb/> быть имъ благопрїятенъ.
+                  Хочетъ онъ ихъ <lb/>повесть съ собою, чтобъ они видѣли то, что онъ хочетъ учинить
+                  съ Нотарїемъ, котораго къ Панта-<lb/> лону призвалъ Брїгеллъ для записи брачнои,
+                  да и<lb/> пошолъ съ ними.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРЪ СЪ СТОЛОМЪ.</stage>
+               <p rend="indent">Старики говорятъ Нотарїю, что они хотятъ<lb/> написать ясно всѣ
+                  пункты брачные. Брїгеллъ ихъ<lb/> проситъ, чтобъ они его не позабыли; и какъ
+                  напи-<lb/> шется ихъ запись, тогда онъ хочетъ и свою заста-<lb/> вить его писать.
+                  Арлекїнъ, которои былъ отъ нихъ<lb/> не подалеку съ любовниками, чинитъ многїя
+                  свои-<lb/> ственныя театру игрушки; на послѣдокъ ударилъ<lb/> онъ палочкою своего
+                  Нотарїя, которои пропалъ и<lb/> съ столомъ, оставивъ на свое мѣсто дьявола,
+                  ко-<lb/> торои принудилъ стариковъ разбѣжаться съ страху.<lb/> Любовники въ
+                  великое пришли удивленïе о силѣ<lb/> Арлекїновои; и какъ они о томъ удивляяся
+                  думали,<lb/> тогда Дїана и Аурелїя приходятъ жалуяся на свою<lb/> судьбину.
+                  Изпужалися онѣ увидѣвши тутъ сво-<lb/> ихъ любовниковъ; спрашиваютъ у нихъ, что
+                  какъ<lb/> они тутъ вошли? Любовники хотятъ имъ то<lb/> сказать, но приходятъ въ
+                  затрудненїе; а старики<lb/> къ тому подоспѣли. Любовники съ игрушкою при-<lb/>
+                  личною театру уходятъ. Старики бранятъ своихъ<lb/> дочереи, и говорятъ имъ, чтобъ
+                  онѣ сердца свои<lb/> оставили въ покоѣ, по тому что онѣ обѣ скоро за<lb/> мужъ
+                  выдутъ. Дїана о томъ вздыхаетъ, да и пошла;<lb/>
+                  <fw type="catch" place="bottom">Аурелїя</fw>
+                  <pb facs="#Napasti-7" n="7"/>
+                  <fw type="pageNum">7</fw>Аурелїя такъ же. Докторъ говоритъ Панталону,<lb/> что онъ
+                  поидетъ къ Нотарїю по записи, которыя<lb/> онъ ему Панталону принесетъ, да и
+                  пошолъ. Пан-<lb/> талонъ оставшись говоритъ, что онъ еще нѣсколь-<lb/> ко имѣетъ
+                  боязни отъ того, что онъ видѣлъ, и<lb/> что онъ для того хочетъ выпить рюмку
+                  вїна.<lb/> Призываетъ онъ къ себѣ Смералдїну, и велитъ еи,<lb/> чтобъ она дала ему
+                  пить. Она ему обѣщаетъ<lb/> дать и поѣсть, да и стала его просить, чтобъ онъ<lb/>
+                  еи позволилъ такъ же напиться съ Брїгелломъ за<lb/> здоровье жениховъ. Панталонъ
+                  еи то позволяетъ.<lb/> Смералдїна пошла, и вовращается съ Брїгелломъ;<lb/> которои
+                  еи пособляетъ нести столъ съ кушаньемъ.<lb/> Панталонъ сѣлъ за столъ; и когда онъ
+                  кушалъ,<lb/> тогда Арлекїнъ, которои то все примѣтилъ, го-<lb/> воритъ, что онъ
+                  имъ помѣшаетъ ѣсть. Изпужалъ<lb/> онъ ихъ одною игрушкою приличною Театру; по<lb/>
+                  томъ хочетъ онъ обнять Смералдїну, которая ду-<lb/> мая о немъ, что онъ
+                  привидѣнїе, ушла съ Панта-<lb/> лономъ, и Брїгелломъ, которые всѣ изпужалися<lb/>
+                  явленїя того.</p>
+               <p rend="indent">ДОКТОРЪ выходитъ съ копïями записеи брачныхъ,<lb/> и стучится у
+                  Панталона, которои выходитъ съ<lb/> Брїгелломъ, тотъ и другои внѣ себя.
+                  Докторъ<lb/> услышавъ о причинѣ ихъ страха, выводитъ ихъ изъ<lb/> того, и
+                  показываетъ имъ записи. Бргеллъ гово-<lb/> ритъ, что безъ замедленïя хочетъ онъ
+                  жениться на<lb/> Смералдïнѣ, потому что довольно съ него свидѣтель-<lb/> ства
+                  Панталонова. Панталонъ даетъ ему на то позво-<lb/> ленїе. Брїгеллъ пошолъ о томъ
+                  говорить Смералдинѣ.<lb/> Докторъ предлагаетъ Панталону столъ къ свадьбѣ,<lb/> и
+                  что онъ пришлетъ къ нему добраго вїна. Между<lb/> тѣмъ любовники которые то
+                  подслушали, стали<lb/> смѣяться надъ стариками, и вторично дочереи ихъ<lb/>
+                  <fw type="catch" place="bottom">просить.</fw>
+                  <pb facs="#Napasti-8" n="8"/>
+                  <fw type="pageNum">8</fw> просить за себя. Но на отказъ ихъ отвѣтствуютъ,<lb/> что
+                  они дочереи ихъ будутъ имѣть противу ихъ<lb/> воли. Старики смѣючися надъ ними
+                  пошли. Тутъ<lb/> приходитъ Арлекїнъ, которому любовники розска-<lb/> зываютъ все,
+                  что они старикамъ говорили, надѣяся<lb/> на его къ себѣ милость. Арлекїнъ имъ то
+                  утвер-<lb/> ждаетъ, и говоритъ, что онъ съ перва хочетъ<lb/> помѣшать свадьбу
+                  Брїгеллову; а потомъ онъ пос-<lb/> тарается о нихъ, да и пошолъ; любовники за нимъ
+                  же.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ СЪ ТРЕМЯ<lb/> СТУЛАМИ.</stage>
+               <p rend="indent">БРIГЕЛЛЪ и Смералдїна играючи между собою<lb/> по любовнически,
+                  говорятъ, что они ожидаютъ<lb/> стариковъ для окончанїя ихъ брака, да и сѣли
+                  на<lb/> стулы. Арлекїнъ, которои все то видѣлъ, сѣлъ<lb/> такъ же на середнеи
+                  стулъ невидимымъ отъ нихъ.<lb/> Изъ того произходятъ многїя игрушки. Напослѣ-<lb/>
+                  докъ Брїгеллъ увидѣвъ Арлекїна, хочетъ его убить.<lb/> Но преображенїе учинившееся
+                  на Театрѣ, до того его<lb/> недопустило, которымъ кончится дѣиствїе второе.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ДѢИСТВÏЕ ТРЕТIЕ.</head>
+               <p rend="indent">БРIГЕЛЛЪ выходитъ говоря старикамъ, что<lb/> Арлекїнъ не умеръ, и
+                  что все онъ чинитъ чрезъ<lb/> чародѣиство. Предлагаетъ онъ, чтобъ на него до-<lb/>
+                  нести въ судѣ, а потомъ могутъ они окончить<lb/> намѣренїя свои въ тишинѣ. Старики
+                  на то соглаша-<lb/> ются, да и пошли всѣ. Любовники услышавши о<lb/> всемъ томъ,
+                  хотятъ сказать о томъ Арлекїну.<lb/> И какъ они были въ затрудненїи, что его не
+                  видятъ;<lb/> тогда Арлекїнъ приходитъ. Тѣ ему розсказываютъ<lb/>
+                  <fw type="catch" place="bottom">о умыслѣ</fw>
+                  <pb facs="#Napasti-9" n="9"/>
+                  <fw type="pageNum">9</fw> о умыслѣ на него отъ стариковъ. Арлекїнъ тому<lb/>
+                  смѣется, и говоритъ, что онъ хочетъ отдаться<lb/> подъ караулъ, что бы ему лучше
+                  было на смѣяться<lb/> надъ ними въ самое то время, когда они будутъ<lb/> думать о
+                  немъ, что онъ пропалъ. А со всѣмъ тѣмъ<lb/> онъ женится на Смералдїнѣ, такъ же и
+                  они на своихъ<lb/> любовницахъ, противу воли тѣхъ стариковъ. Между<lb/> тѣмъ
+                  выходитъ одинъ волочага несучи полонъ<lb/> коробъ съ бутылками. Арлекїнъ проситъ у
+                  него<lb/> покорно однои рюмки вїна. Волочага ему не далъ,<lb/> и когда онъ уходилъ
+                  съ Театра, тогда Арлекїнъ<lb/> чрезъ чародѣиство выхватилъ одну бутылку, да и<lb/>
+                  стали всѣ трое пить за здоровье своихъ любовницъ.<lb/> Между тѣмъ Арлекїнъ видя,
+                  что идетъ Смерал-<lb/> дїна, отослалъ прочь любовниковъ, да и самъ сталъ<lb/>
+                  одаль. Смералдїна приходитъ въ великои печали,<lb/> что стѣнь Арлекїнова ея
+                  мучитъ. Арлекїнъ, по<lb/> многихъ игрушкахъ своиственныхъ театру, взялъ<lb/> ея за
+                  руку, и говоритъ еи, что онъ живъ, и сказы-<lb/> ваетъ все, что ему случилося съ
+                  Брїгелломъ, такъ<lb/> же и о силѣ, которую онъ имѣетъ надъ духами.<lb/> Смералдїна
+                  показываетъ себя быть отъ того печаль-<lb/> ною. Арлекїнъ обѣщается оставить
+                  употребленїе<lb/> чародѣиства своего, какъ скоро выдетъ она за него.<lb/>
+                  Смералдїна ему говорїтъ, что съ такимъ уговоромъ,<lb/> она принимаетъ его себѣ въ
+                  мужа, которая ему<lb/> не была невѣрна, какъ увѣдомившись отъ Брїгелла<lb/> о
+                  смерти его ложнои. Арлекїнъ далъ еи руку, и<lb/> говоритъ, что онъ хочетъ, дабы
+                  тожъ учинили и<lb/> любовники. И пока старики еще были въ судѣ,<lb/> кличетъ онъ </p>
+               <p rend="indent">ДIАНУ и АУРЕЛIЮ, у которыхъ онъ спраши-<lb/> ваетъ, что любятъ ли
+                  онѣ Сïлвїя и Одоарда? Онѣ<lb/>
+                  <fw type="catch" place="bottom">что</fw>
+                  <pb facs="#Napasti-10" n="10"/>
+                  <fw type="pageNum">10</fw> ему то утвердили. Тогда онъ всѣмъ тремъ гово-<lb/> ритъ
+                  нѣчто на ухо, и принуждаетъ ихъ прочь<lb/> поити, обѣщая имъ щастливую удачу.
+                  Между<lb/> тѣмъ стали слышимы быть Старики, которые<lb/> приходятъ съ Брїгелломъ и
+                  съ приставами. Женщи-<lb/> ны разбѣжалися. Арлекїнъ остался; взятъ онъ за<lb/>
+                  караулъ чрезъ приставовъ. Послѣ многихъ игру-<lb/> шекъ приличныхъ театру, связали
+                  они его крѣпко.<lb/> Панталонъ и Брïгеллъ приказываютъ имъ, чтобъ его<lb/> отвесть
+                  предъ Судью. И чтобъ увѣдомить о томъ<lb/> Доктора, стали они у него стучаться.
+                  Докторъ<lb/> выходитъ весь страмнымъ къ нимъ. Они ему ска-<lb/> зываютъ, что
+                  Арлекїнъ поиманъ; и чтобъ видѣть<lb/> его казнь, пошли, приказавъ Смералдїнѣ,
+                  чтобъ она<lb/> смотрѣла хорошенько домъ.</p>
+               <p rend="indent">СIЛВIИ, и ОДОАРДЪ говорятъ, что они увѣдоми-<lb/> лися о взятьѣ
+                  Арлекїновомъ, такъ же видѣли они<lb/> и Стариковъ, которые шли въ приказъ.
+                  Намѣрилися<lb/> они кликнуть своихъ Любовницъ, и привесть ихъ<lb/> по приказу
+                  Арлекïнову на мѣсто, гдѣ ему будетъ<lb/> казнь. Что они исполняютъ самымъ дѣломъ,
+                  кли-<lb/> кнувъ Дїану и Аурелїю, которыя за ними пошли.</p>
+               <p rend="indent">АРЛЕКIНЪ выходитъ; а за нимъ приставъ и па-<lb/> лачъ, которои имѣлъ
+                  саблю въ рукахъ. Сталъ онъ<lb/> милости просить у Стариковъ. Тѣ и Брїгеллъ
+                  надъ<lb/> нимъ смѣются, и велятъ приставамъ чинить надъ<lb/> нимъ должность свою,
+                  которые, по нѣкоторыхъ<lb/> шуткахъ приличныхъ театру, привели его на<lb/> мѣсто
+                  мученїя.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ВЕЛИКОЕ МѢСТО СЪ<lb/> ЭШАФОТОМЪ.</stage>
+               <p rend="indent"> СТАРИКИ выходятъ говоря, что послѣ смерти<lb/>
+                  <fw type="catch" place="bottom">Арле-</fw>
+                  <pb facs="#Napasti-11" n="11"/>
+                  <fw type="pageNum">11</fw> Арлекїновои, имѣютъ они быть въ покоѣ отъ его<lb/>
+                  гоненїя. Между тѣмъ Арлекїнъ взошолъ на Эша-<lb/> фотъ, проситъ онъ у Стариковъ
+                  милости,<lb/> чтобъ они, прежде смерти его, позволили ему и<lb/> любовникамъ
+                  жениться на своихъ любовницахъ. Тѣ<lb/> надъ нимъ смѣются. Сталъ онъ у нихъ
+                  просить,<lb/> чтобъ они ему даровали жизнь. Тѣ говорятъ, что<lb/> ему надлежитъ
+                  умереть. Послѣ игрушекъ прили-<lb/> чныхъ театру, Арлекїнъ призываетъ
+                  Велзевула,<lb/> а Эшафотъ преображается въ камеру, въ которои<lb/> Сїлвїи и
+                  Одоардъ сидятъ съ своими невѣстами за<lb/> столомъ, такъ же и съ Смералдїною; а
+                  Арлекїнъ<lb/> сидѣлъ на концѣ стола. Старики стоятъ въ ужасѣ;<lb/> а вышедши не
+                  много изъ боязни хотятъ проти-<lb/> виться имъ. Арлекїнъ ихъ завораживаетъ, и
+                  гро-<lb/> зитъ имъ, что онъ ихъ покинетъ въ семъ состоя-<lb/> нїи, ежели они не
+                  согласятся на сочетанїя брачныя,<lb/> которыя онъ учинилъ. Старики согласилися на
+                  то<lb/> по неволѣ. Брїгеллъ уступаетъ Смералдїну. Арле-<lb/> кїнъ ихъ
+                  развораживаетъ. Покидаетъ волхвованїе<lb/> бросивъ палочку. А чрезъ троиное
+                  брачное сочета-<lb/> нїе кончится</p>
+               <p rend="indent">КОМЕДIЯ.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Die gluͤckliche Wiederwaͤrtigreit des Arlequin</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by </resp>
+                  <name>Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (34a) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="8">8 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="gluckliche-1" url="001gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-2" url="002gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-3" url="003gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-4" url="004gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-5" url="005gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-6" url="006gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-7" url="007gluͤck.jpg"/>
+            <graphic xml:id="gluckliche-8" url="008gluͤck.jpg"/>
+         </surface>
+         <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#gluckliche-1" n="1"/>
+            <head type="main">Die gluͤckliche Wiederwaͤrtigreit<lb/> des Arlequin</head>
+            <head type="sub">welche in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> Kayſerlichen
+               Hofe<lb/> zu St. Petersburg<lb/> aufgefuͤhret worden.<lb/>
+               <date when="1734">1734.</date>
+            </head>
+            <pb facs="#gluckliche-2" n="2"/>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Brighella, welcher in die Smeraldina verliebt iſt, will ſich den
+                  Arlequin, ſeinen Rival, von Halſe ſchaffen und fuͤhret ihn an das Ufer des Mee-
+                  res, allwo er ihn dem Schickſal des Himmels uͤberlaͤſſet. Arlequin iſt in Gefahr,
+                  von einen Ungheuer verſchlungen zu werden, weil ihn aber ein Zauberer die Helffte
+                  ſeiner Gewalt abſtehet, freuet er ſich uͤber dieſen Zu- fall, ſpielet ſeinem
+                  Feinde allerley Streiche, und heyrathet die Smeraldina. Die Liebe des Silvio und
+                  Odoardo gegen die Diana und Aurelia, ſind beſon- dere Umſtaͤnde, welche zur
+                  Verwirrung des Spieles dienen.</p>
+            </div>
+            <castList>
+               <head>Perſonen.</head>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_ge">Pantalon</role>
+                     <roleDesc>Vater der</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="diana_ge">Diana</role>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina</role>
+                  <roleDesc>deren Bediente.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="dottore_ge">Der Doctor</role>
+                     <roleDesc>Vater der</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="aurelia_ge">Aurelia.</role>
+                  </castItem>
+               </castGroup>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ge">Silvio und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ge">Odoardo</role>
+                  </castItem>
+                  <roleDesc>zwey Freunde.</roleDesc>
+               </castGroup>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="brighella_ge">Brighella und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="arlecchino_ge">Arlequin,</role>
+                     <roleDesc>zwey Liebhaber der Smeraldina.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="mago_ge">Ein Zauberer.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="notaio_ge">Ein Notarius.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="sicari_ge">Zwey Meuchelmoͤrder.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="guardie_ge">Die Schaar-Wacht.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="boia_ge">Ein Scharffrichter.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="vagabondo_ge">Ein Landſtreicher.</role>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="mostro_marino_ge">Ein Ungeheuer und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="trasformazioni_ge">viele andere Vorſtellungen und
+                        Verwandelungen</role>
+                  </castItem>
+               </castGroup>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Palermo.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#gluckliche-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Die erſte Handelung.</head>
+               <stage>Der Schau-Platz ſtellet einen Wald am Meere vor.</stage>
+               <p rend="indent">Arlequin tritt auf und ſchreyet um Huͤlffe wieder den
+                  Brighella,<lb/> der ihn umzubringen drohet, wenn er Lerm mache, und ſaget,
+                  daß<lb/> er ihn hierhergefuͤhret, um ihn ſeiner Eiferſucht aufzuopfern, wel-<lb/>
+                  ches er gleich in das Werck richten koͤnte, woferne ihn nicht ſein<lb/> Mitleyden
+                  daran verhinderte und bewegete, ihm das Leben zu<lb/> laſſen. Er ſetzet ihn auf
+                  einem Felßen, der an der See ſiehet, nie-<lb/> der und gehet mit ſeinen Leuten
+                  ſort. Arlequin bleibet und wie<lb/> er ein Meer-Wunder gewahr wird, das auf ihn
+                  loßgehet, ſchreyet er<lb/> nach Huͤlffe. Ein Zauberer erſcheinet und verwandelt
+                  das Unge-<lb/> heuer in einen Felßen und verſichert den Arlequin, daß er ſein
+                  von<lb/> der Eiferſucht des Brighella verurſachtes Ungluͤck bald heben wolle.<lb/>
+                  Der Arlequin bedancket ſich und bittet ihn, er moͤchte ihn loßbinden,<lb/> weil er
+                  vor Kaͤlte gantz ſteiff waͤre. Der Zauberer ruffet zwey<lb/> Teuffel und beſiehlet
+                  ihnen, den Arlequin loßzubinden und anzuklei-<lb/> den. Zu dieſem Ende verwandelt
+                  er den Felßen wiederum in ein<lb/> Meer-Wunder, welches einige Kleider, den
+                  Arlequin zubedecken,<lb/> ausſpeyet. Arlequin iſt gantz in Erſtaunung geſetzet;
+                  wie er ſich<lb/> aber ſo koſtbar angekleidet ſiehet, erfreuet er ſich und
+                  empfaͤnget<lb/> noch uͤber dieſes von dem Zauberer ein Geſchencke an Geld und
+                  Ju-<lb/> welen: ſondelich aber einen Ring, vermoͤge welchem ihm der Zauberer<lb/>
+                  alles Beyſtandes der Hoͤllen und was er ſonſt wuͤnſche, verſichert.<lb/> Der
+                  Zauberer gehet ab. Arlequin bezeiget ſich ſehr vergnuͤgt uͤber<lb/> ſein Gluͤck;
+                  Weil er aber ſeinen Beſchuͤtzer zufragen vergeſſen, wo<lb/> er zu Eſſen hernehmen
+                  ſolle? und ihm nach Macharonen luͤſtet, er-<lb/> ſcheinet dergleichen Speiſe vor
+                  ſeinem Geſichte in der Lufft. Wie<lb/> er ſie vezehren will, koͤmt ein Teuffel,
+                  der auch etwas davon be-<lb/> gehret, und da es ihm der Arlequin abſchlaͤget,
+                  nimmt er ſie ihm weg<lb/> und flieget davon. Arlequin iſt betruͤbt und ſaget, er
+                  koͤnne ihn<lb/> wohl zwingen, daß er ſie wieder hergeben muͤſte; weil er aber
+                  nunmehro<lb/> Zeit zu ſeyn erachtete, nach der Stadt zu gehen und ſich an dem<lb/>
+                  <fw type="sig" place="bottom">T 2</fw>
+                  <fw type="catch" place="bottom">Brig-</fw>
+                  <pb facs="#gluckliche-4" n="4"/>
+                  <fw type="pageNum">4</fw> Brighella zu raͤchen, ruffet er einen Geiſt, welcher ihn
+                  in der Lufft<lb/> wegfuͤhret.</p>
+               <stage>Der Schau-Platz ſtellet eine Stadt vor.</stage>
+               <p rend="indent"> Brighella trit auf und ſaget, er wolle alles anwenden, die<lb/>
+                  Smeraldina zu erhalten, vornehlich, da ihm nun der Arlequin<lb/> nicht mehr im
+                  Wege waͤre. Er klopfet an. Pantalon koͤmmt her-<lb/> aus. Brighella haͤlt um die
+                  Smeraldina an, und Pantalon antwor-<lb/> tet, er wiſſt nicht wozu ſie ſich
+                  entſchliſſen wuͤrde, da ſie ſo viel<lb/> Liebe fuͤr den Arlequin bezeigete.
+                  Brighella verſetzet, er habe Nach-<lb/> richt, daß der Arlequin erſoffen waͤre.
+                  Pantalon erwiedert, auf<lb/> dieſe Alrt koͤnte es wohl angehen, ruffet die
+                  Smeraldina und erzeh-<lb/> let ihr das Ungluͤck, ſo dem Arlequin begegnet und was
+                  ihm der Brig-<lb/> hella fuͤr einen Antrag gethan. Smeraldina betruͤbet ſich
+                  anfangs<lb/> uͤber den vermeynden Tod ihres Liebhabers, giebt aber zuletzt
+                  ihre<lb/> Einwilligung in die Heyrath mit dem Brighella. Dieſer vergnuͤget<lb/>
+                  ſich uͤber ſeinen gemachten Streich und ſagt, er wolle nunmehro zu einem<lb/>
+                  Notario Publico gehen und die Sache zu einer Gewißheit bringen.<lb/> Pantalon
+                  billiget ſolches und ſaget er wolle ſich dieſer Gelegenheit<lb/> ſelbſt bedienen
+                  und ſich nebſt dem Doctor dahin begeben, und die Aus-<lb/> wechſelung ihrer beyden
+                  Toͤchter ausmachen; damit alle drey Heyrathen<lb/> zugleich koͤnnten vollzogen
+                  werden. Brighella gehet ab. Smeraldina<lb/> retiriret ſich. Pantalon bleibet, und
+                  wie der Doctor koͤmmt und<lb/> auf die doppelte Heyrath dringet, antwortet er, er
+                  erwarte be-<lb/> reits den Brighella, der nach den Notario gegangen.
+                  Jnmittelſt<lb/> kommen die Liebhaber, Silvio und Odoardo, von welcher jener
+                  die<lb/> Diana von dem Pantalon und dieſer die Aurelia von dem Doctor be-<lb/>
+                  gehret. Die Alten ſchlagen ihnen ihre Bitte ab. Die Liebhaber<lb/> machen allerley
+                  Poſſen und ſtellen ſich, als ob ſie die Vaͤter ihrer<lb/> Geliebten waͤren, und
+                  gehen weg. Die Alten lachen uͤber ihren<lb/> Schertz; der Doctor ruffet die
+                  Aurelia und gehet in das Hauß des<lb/> Pantalons; um daſelbſt den
+                  Heyraths-Vergleich zu unterzeichnen.</p>
+               <pb facs="#gluckliche-5" n="5"/>
+               <fw type="pageNum">5</fw>
+               <p rend="indent">Arlequin ſchertzet mit den Liebhabern, daß ſie ſo leyden koͤnn-<lb/>
+                  ten, daß die Alten ihre Neben-Buhler waͤren. Die Liebhaber wol-<lb/> len ihn
+                  ſchlagen, er aber ruffet einen Teuffel, der ihnen die Pa-<lb/> rucken wegnimmt;
+                  mit welchen Lerm ſich die erſte Handlung endiget.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handlung.</head>
+               <p rend="indent">Die Liebhaber treten auf und entſchuldigen ſich bey dem<lb/>
+                  Arlequin, daß ſie von ſeiner Gewalt nichts gewuſt. Arlequin ver-<lb/> ſpricht
+                  ihnen, in ihrer Liebe beyzuſtehen, und ſaget, damit ſie ſeinen Ernſt<lb/> ſehen
+                  koͤnnten, ſollten ſie mit ihm gehen und Zeugen ſeyn, was er<lb/> dem Notario, den
+                  der Brighella zu dem Pantalon, den Heyraths-<lb/> Contract aufzuſetzen, geholet
+                  haͤtte, fuͤr einen Streich ſpielen wolle,<lb/> und gehet mit ihm ab.</p>
+               <stage>Der Schau-Platz ſtellet ein Zimmer mit einem Tiſche vor.</stage>
+               <p rend="indent">Die Alten ſagen zu dem Notario, er ſolle die Artickel des<lb/>
+                  Heyraths-Contracts ſein deutlich aufſetzen. Brighella bittet, er ſol-<lb/> le ihn
+                  nicht vergeſſen; wie aber der Notarius den Punct, der ihn be-<lb/> trifft,
+                  aufſetzen will, koͤmmt der Arlequin mit den Liebhabern und<lb/> macht allerley
+                  Poſſen. Zuletzt beruͤhret er den Notarium mit dem<lb/> Ring, der alſobald nebſt
+                  dem Tiſche verſchwindet. An ſeiner<lb/> Stelle erſcheinet ein Teuffel, der die
+                  Alten, die voller Schrecken ſind,<lb/> fortjaget. Die Liebhaber erſtaunen uͤber
+                  die Gewalt des Arlequins<lb/> und als Diana und Aurelia kommen, beklagen ſie ſich
+                  gegen dieſelben<lb/> uͤber ihre ungluͤcklichen Umſtaͤnde. Dieſe aber erſtaunen, da
+                  ſie die<lb/> Liebhader in ihrem Hauſe ſehen, und fragen, wie ſie herein
+                  gekom-<lb/> men? Die Liebhaber verſprechen es ihnen zu erzehlen; indem ſie
+                  aber<lb/> heimlich mit ihnen reden, kommen die Alten, und die Liebhaber be-<lb/>
+                  geben ſich weg.</p>
+               <p rend="indent"> Die Alten ſchmaͤhlen auf ihre Toͤchter und ſagen, ſie ſollten<lb/>
+                  ſich nur die Liebhaber aus dem Sinne ſchlagen; ihre beyderſeitige<lb/> Heyrath
+                  waͤre ſchon beſchloſſen. Diana ſeuffzet und gehet nebſt der<lb/> Aurelia weg. Der
+                  Doctor ſagt zu dem Pantalon, er wolle ſich zu dem<lb/> Notario begeben, und gehet
+                  ab. Pantalon bleibet und ſaget, er em-<lb/>
+                  <fw type="sig" place="bottom">T 3</fw>
+                  <fw type="catch" place="bottom">pfin-</fw>
+                  <pb facs="#gluckliche-6" n="6"/>
+                  <fw type="pageNum">6</fw> pfinde noch einige Furcht von dem, was er geſehen, und
+                  wolle ein Glaß<lb/> Wein zu ſich nehmen. Er ruffet die Smeraldina und befiehlet
+                  ihr,<lb/> ihm Wein zu bringen. Sie thut ſolches, bringet ihm auch etwas zu<lb/>
+                  eſſen dabey und bittet ihn, er moͤge erlauben, daß ſie auf die Ge-<lb/> ſundheit
+                  der neuen verbeyratheten ebenfals mit dem Brighella ein<lb/> Glaß Wein trincken
+                  duͤrffte. Pantalon antwortet, ſie koͤnne es<lb/> thun. Smeraldina gehet und koͤmmt
+                  mit dem Brighella zuruͤck, der<lb/> ihr einen beſetzten Tiſch herein bringen
+                  hilfft. Wie ſie mit einander<lb/> eſſen und trincken, macht ſie der Arlequin durch
+                  allerley Poſſen zu<lb/> fuͤrchten. Zuletzt umarmet er die Smeraldina, und weil ſie
+                  ihn fuͤr<lb/> ein Geſpenſt haͤlt, lauͤffe ſie nebſt dem Pantalon und Brighella
+                  gantz<lb/> erſchrocken davon.</p>
+               <p rend="indent"> Der Doctor tritt auf, traͤgt eine Copie von dem Heyraths<lb/>
+                  Contract in der Hand und klopfet bey dem Pantalon an. Dieſer<lb/> koͤmmt nebſt dem
+                  Brighella, heraus und beyde ſind gantz auſſer ſich<lb/> ſelbſt. Der Doctor fraget
+                  nach der Urſache ihrer Beſtuͤrtzung, und<lb/> nachdem er ſolche vernommen, weiſet
+                  er ihnen den Contract. Brig-<lb/> hella ſagt, er wolle ohne Anſtand ſeine Heyrath
+                  mit der Smeraldina<lb/> zu ſtande bringen und koͤnnte ihm genung ſeyn, wenn der
+                  Pantalon<lb/> allein als Zeuge dabey waͤre. Er gehet ab, um mit der
+                  Smeraldina<lb/> zu ſprechen. Der Doctor thut dem Pantalon ſeinen Antrag wegen<lb/>
+                  der Mahlzeit, ſo ſie bey der Hochzeit geben wollten, und ſagt, er<lb/> wolle ſich
+                  auf ſeinen Antheil bereit machen. Hierauf kommen die<lb/> Liebhaber, welche von
+                  ferne zugehoͤret, und mocquiren ſich uͤber<lb/> die Alten, ſodern ihre Toͤchter
+                  von neuem, und nach deren abſchlaͤ-<lb/> gige Antwort, ſagen ſie, daß ſie
+                  dieſelben wieder ihren Willen hey-<lb/> rathen wollten. Die Alten lachen uͤber ihr
+                  Vorgeben und gehen<lb/> ab. Die Liebhaber bleiben, und wie der Arlequin koͤmmt,
+                  erzehlen<lb/> ſie ihm, was ſie den Alten geſagt; indem ſie ſie auf ſeinen
+                  Schutz<lb/> verlaſſen. Arlequin beftaͤtiget ſeine Zuſage und ſagt, er muͤſſe
+                  ſich<lb/> vor allen Dingen der Heyrath des Brighella wiederſetzen. Er gehet<lb/>
+                  ab. Die Liebhaber folgen ihm nach.</p>
+               <stage>Der Schau-Platz ſtellet ein Zimmer mit drey Stuͤhlen vor.</stage>
+               <fw type="catch" place="bottom">Brig-</fw>
+               <pb facs="#gluckliche-7" n="7"/>
+               <fw type="pageNum">7</fw>
+               <p rend="indent">Brighella und Smeraldina careſſiren einander und ſagen, ſie<lb/>
+                  erwarteten nunmehro die Alten, um ihre Heyrath zu ſtande zu brin-<lb/> gen. Sie
+                  ſetzen ſich nieder. Arlequin der von ferne geſtanden,<lb/> koͤmmt hervor, urnd
+                  ſetzet ſich zwiſchen ihnen auf den mittelſten Stuhl,<lb/> ohne daß er von ihnen
+                  geſehen wird. Zuletzt wird er dem Brighella<lb/> ſichtbar, und wie ihn dieſer
+                  umbringen will, macht er verſchiedene<lb/> Verwandlungen, mit welchen ſich die
+                  andere Handlung endiget.</p>
+            </div>
+            <div type="act" n="3">
+               <head>Die dritte Handlung</head>
+               <stage>Der Schau-Platz ſtellet eine Stad vor.</stage>
+               <p rend="indent">Brighella trit auf und ſagt zu dem Alten, der Arlequin ſey nicht
+                  todt, was<lb/> er thaͤte das geſchaͤhe durch Zauberey; man muͤſſe ihn bey den
+                  Gerichten verklagen<lb/> und wenn er in Arreſt waͤre, koͤnnten ſie ihr Vorhaben
+                  ausſuͤhren. Die Alten be-<lb/> zeigen ſich uͤber dieſen Anchlag vergnuͤgt und
+                  gehen nebſt dem Brighella fort. Die<lb/> Liebhaber, die von ferne zugehoͤret,
+                  geben den Arlequin Nachricht davon. Dieſer<lb/> mocquiret ſich uͤber die Alten und
+                  will weg gehen, um ſich arretiren zulaſſen und ſagt,<lb/> in dem Augenblick, da
+                  ihn die Alten verlohren zu ſeyn glauben wuͤrden, wollte er ma-<lb/> chen, daß er
+                  die Smeraldina und die Liebhaber die Diana und Aurelia heyrathen<lb/> ſollten.
+                  Hierauf koͤmmt ein Landſtreicher, der einen Sack mit Bouteillen traͤget.<lb/>
+                  Arlequin verlanget ein Glaß Wein von ihm. Der Landſtreicher entſchuldiget
+                  ſich.<lb/> Allein Arlequin bringt durch Hulffe ſeiner Zauberey eine Bouteille weg
+                  und trincket<lb/> mit den Liebhabern auf Geſundheit ihrer Geliebten. Er ſiehet die
+                  Smeraldina kom-<lb/> men, und als er die Liebhader bey Seite gehen laſſen, macht
+                  er, daß ſie ihn nicht<lb/> gewahr wird. Smeraldina veklaget ſich, daß ſie der
+                  Geiſt des Arlequins verfolge.<lb/> Arlequin nimmt ſie bey der Hand, ſagt, er ſey
+                  noch am Leben, und erzehlet ihr, was<lb/> der Brighella mit ihn vorgenommen und
+                  wie er die Gewalt uͤber die unterirrdichen<lb/> Geiſter bekommen. Er verſpricht
+                  ihr, ſich derſelben nicht mehr zu bedienen, ſo bald<lb/> ſie ſeine Frau ſeyn
+                  wuͤrde. Smeraldina antwortet, auf dieſe Bedingung, wolle ſie<lb/> ihn zu Mann
+                  nehmen, in dem ſie ihm nicht eher untreu geworden, biß ſie Brighella<lb/> mit der
+                  Nachricht von ſeinem Tode hintergangen. Arlequin giebt ihr die Hand und<lb/> ſagt,
+                  die Liebhaber ſollten ihre Sache zu ſtande bringen, wenn die Alten nach den
+                  Ge-<lb/> richten giengen, um ihn in Arreſt nehmen zu laſſen. </p>
+               <p rend="indent">Diana und Aurelia kommen herein. Arlequin fraget ſie, ob ſie dem
+                  Silvio<lb/> und Odoardo gewogen waͤren? und wie ſie ihm hiervon die Verſicherung
+                  gegeben,<lb/> ſaget er ihnen etwas in das Ohr, heiſſet ſie weg gehen, und
+                  verſpricht ihnen einen<lb/> gluͤcklichen Ausgang. Hierauf hoͤret man die Alten,
+                  welche nebſt dem Brighella und<lb/> der Scharr-Wache erſcheinen. Das Frauzimmer
+                  begiebt ſich weg. Arlequin blei-<lb/> bet und laͤſſet ſich in Arreſt nehmen.
+                  Pantalon und der Brighella befehlen der Schaar-<lb/> Wache, ihn vor den Richter zu
+                  bringen, und klopfen bey dem Doctor an, um ihm<lb/>
+                  <fw type="catch" place="bottom">von</fw>
+                  <pb facs="#gluckliche-8" n="8"/>
+                  <fw type="pageNum">8</fw> von dem vorgegangenen Nachricht zu geben. Der Doctor
+                  koͤmt heraus; Sie er-<lb/> zehlen ihm, daß der Arlequin gefangen ſey. Alle gehen
+                  ab um bey ſeiner Verurthei-<lb/> lung gegenwaͤrtig zu ſeyn; nachdem ſie vorher der
+                  Smeraldina das Hauß wahrzu- nehmen, befohlen.</p>
+               <p rend="indent"> Silvio und Odoardo ſagen, ſie haͤtten die Gefangennehmung des
+                  Arlequins<lb/> vernommen, und geſehen, wie die Alten nach dem Rath-Hauſe
+                  zugegangen; Sie<lb/> wolten derohalben, nach dem Verlaß des Arlequins, ihre
+                  Geliebten ruſſen und mit<lb/> ihnen auf den Executions-Platz gehen. Diana und
+                  Aurelia kommen heraus und<lb/> gehen mit ihnen weg. Arlequin, der von den
+                  Schaar-Waͤchern und dem Buͤttel<lb/> mit dem Schwerd in der Hand begleitet wird,
+                  verſoͤnet ſich mit den Alten und bit-<lb/> tet ſie um Verzeyhung; Mit dem
+                  Brighella ſchertzet er, und ermahnet die Schaar-<lb/> Waͤchter ihre Schuldigkeit
+                  an ihm zu vollziehen; Worauf ſie ihn fortfuͤhren.</p>
+               <stage>Der Schau-Platz ſtellet einen Marckt mit einer<lb/> Gerichts-Buͤhne
+                  vor.</stage>
+               <p rend="indent">Die Alten treten auf und ſagen, wenn der Arlequin todt waͤre,
+                  wuͤrden<lb/> ſie vor ſeinen Verfolgungen in Ruhe leben koͤnnen. Arlequin
+                  erſcheinet auf der Buͤh-<lb/> ne und bittet ſich vor ſeinem vermeynten Tod noch
+                  aus von den Alten, daß ſie ihre<lb/> Toͤchter den Liebhabern geben moͤchten; Die
+                  Alten lachen daruͤber. Arlequin bittet<lb/> um ſein Leben. Dieſe aber ſagen, er
+                  muͤſſe ſterben. Nach einigem Poſſen verwan-<lb/> delt er die Buͤhne in ein Zimmer.
+                  Man ſiehet den Silvio und Odoardo mit ihren Ge-<lb/> liebten an einer Tafel
+                  ſitzen. Die Alten erſtaunen und wollen endlich zum Gewehr<lb/> greiffen. Arlequin
+                  bezaubert ſie und drohet ihnen, ſie in ſolcher Geſtalt zu laſſen;<lb/> Woferne ſie
+                  nicht ihre Einſtimmung zu der Heyrath ſeiner Toͤchter und der Smeraldina<lb/>
+                  geben wuͤrden. Die Alten geben ihm die Hand darauf. Brighella ſtehet die
+                  Smeral-<lb/> dina ab. Arlequin wirfft ſeinen Ring weg und die dreyfache Heyrath
+                  machet den</p>
+               <p rend="indent">Beſchluß des gantzen Schau-Spieles.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>
