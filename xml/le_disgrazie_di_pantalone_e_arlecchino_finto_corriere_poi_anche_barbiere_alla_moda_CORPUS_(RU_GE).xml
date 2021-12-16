@@ -1,0 +1,749 @@
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le disgrazie di Pantalone e Arlecchino finto corriere, poi anche barbiere alla
+               moda</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Elena Barchielli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                  >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le disgrazie di Pantalone e Arlecchino finto corriere, poi anche barbiere
+               alla moda venne rappresentata a San Pietroburgo nel 1734 dalla seconda compagnia di
+               attori italiani. Non sono ancora stati trovati scenari simili nei repertori degli attori
+               italiani.</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Напасти Панталоновы, и Арлекин притворный куриер, по том так же и барбиер по
+                  моде</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV 8250 (31b) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="11">11 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="mode-1" url="001mode.jpg"/>
+            <graphic xml:id="mode-2" url="002mode.jpg"/>
+            <graphic xml:id="mode-3" url="003mode.jpg"/>
+            <graphic xml:id="mode-4" url="004mode.jpg"/>
+            <graphic xml:id="mode-5" url="005mode.jpg"/>
+            <graphic xml:id="mode-6" url="006mode.jpg"/>
+            <graphic xml:id="mode-7" url="007mode.jpg"/>
+            <graphic xml:id="mode-8" url="008mode.jpg"/>
+            <graphic xml:id="mode-9" url="009mode.jpg"/>
+            <graphic xml:id="mode-10" url="010mode.jpg"/>
+            <graphic xml:id="mode-11" url="011mode.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#mode-1" n="1"/>
+            <head type="main">НАПАСТИ ПАНТАЛОНОВЫ,<lb/> АРЛЕКIНЪ ПРИТВОРНЫИ КУРIЕР,</head>
+            <head type="sub">По томъ такъ же и<lb/> БАРБIЕРЪ ПО МОДѢ.<lb/> КОМЕДIЯ IТАЛIАНСКАЯ<lb/>
+               ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1734">1734 года.</date>
+            </head>
+            <pb facs="#mode-2" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЪ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent">Панталонъ отдаетъ Аурелïю дочь свою за Доктора;<lb/>а на обмѣну
+                  проситъ у него за себя его дочь<lb/>Дїану. Сїе принудило тѣхъ дѣвицъ
+                  Любовниковъ,<lb/>помощи искать въ Брїгеллѣ, которому удалося<lb/>обмануть
+                  стариковъ, и удовольствовать любовни-<lb/>ковъ. Способъ, каковымъ онъ то чинилъ,
+                  видимъ<lb/>быть имѣетъ въ подробности всея комедïи.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                  <roleDesc>отецъ Аурелïинъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ru">АУРЕЛIЯ,</role>
+                  <roleDesc>дочь Панталонова.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                  <roleDesc>отецъ Дïанинъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ru">ДIАНА,</role>
+                  <roleDesc>дочь Докторова.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ru">СIЛВIИ</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ru">ОДОАРДЪ</role>
+                  </castItem>
+                  <castItem>
+                     <roleDesc>други.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                  <roleDesc>служанка Аурелïина.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                  <roleDesc>изыскатель хитростеи.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                  <roleDesc>общеи слуга.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Дѣиствïе это въ Медïоланѣ.</p>
+            </set>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+         </front>
+         <body>
+            <pb facs="#mode-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">СТАРИКИ выходятъ; и по показанïи взаимнои<lb/>себѣ дружбы, Панталонъ
+                  требуетъ у Доктора дочь<lb/>его Дïану, за себя. Докторъ ему ту обѣщаетъ<lb/>на
+                  обмѣну дочери его Аурелїи, которуюбъ онъ хо-<lb/>тѣлъ имѣть себѣ за жену.
+                  Соглашаются они, чтобъ<lb/>ни какова другъ у друга не спрашивать
+                  приданова.<lb/>Докторъ пошолъ за нѣкоторою нуждою. Панталонъ<lb/>остался; а
+                  приходитъ Арлекїнъ съ великимъ поспѣ-<lb/>шенїемъ, которои увидѣвъ Панталона,
+                  сталъ ему<lb/>чинить многїя улещиванїя ни чего не говоря, по<lb/>томъ ласкаетъ его
+                  словами, сажаетъ его, и подно-<lb/>ситъ ему вїна; а послѣ смѣшнои игрушки
+                  проситъ<lb/>у него Смералдїну за себя. Панталонъ ему отъ нея<lb/>отказываетъ.
+                  Арлекїнъ осердившися, сталъ его<lb/>бранить. Старикъ хочетъ Арлекїна бить, да и
+                  по-<lb/>шли оба.</p>
+               <p rend="indent">ЛЮБОВНИКИ выходятъ сказывая Брїгеллу о сво-<lb/>еи страсти къ Дïанѣ
+                  и Аурелїѣ, которыхъ бы они<lb/>желали взять за себя, но отъ которыхъ отцы
+                  ихъ<lb/>отказали имъ. того ради стали они просить Брї-<lb/>гелла, чтобъ онъ имъ
+                  помогъ въ ихъ предпрїятїи.<lb/>Брїгелъ обѣщается то чинить, толькобъ
+                  метресы<lb/>ихъ тогожъ желали. Любовники его увѣряютъ,<lb/>что онѣ не желаютъ,
+                  какъ сего; и чтобъ ему то<lb/>самымъ дѣломъ показать, кличутъ они Дїану и
+                  Ау-<lb/>релїю, которыя увѣдомляютъ своихъ любовниковъ<lb/>о воспрїятомъ намѣренїи
+                  отцовъ ихъ, для котораго<lb/>онѣ приходятъ въ отчаянїе. Брїгеллъ обѣщается
+                  имъ<lb/>помогать, и перервать намѣренїе стариковъ. Всѣ<lb/>обѣщаютъ ему подарки,
+                  ежелибъ ему въ томъ<lb/>
+                  <fw type="sig" place="bottom">Ч 2</fw>
+                  <fw type="catch" place="bottom">удалося.</fw>
+                  <pb facs="#mode-4" n="4"/>
+                  <fw type="pageNum">4</fw> удалося. На то приходитъ Арлекїнъ кричя многа-<lb/>жды,
+                  чтобъ прочъ все пошли. Стали у него всѣ<lb/>спрашивать тому причины, Арлекїнъ по
+                  многои къ<lb/>нему отъ нихъ прозбѣ, чтобъ то имъ изтолковать,<lb/>сказываетъ имъ
+                  безъ закрышекъ: подите всѣ прочь,<lb/>понеже я сердитъ. Брїгеллъ сталъ говорить на
+                  ухо<lb/>любовникамъ, и ихъ метресамъ, и велѣлъ имъ,<lb/>чтобъ они прочь пошли, по
+                  тому что онъ имѣетъ<lb/>нужду, чтобъ поговорить съ Арлекїномъ. Всѣ
+                  вонъ<lb/>послушавшись пошли. Брїгеллъ спрашиваетъ у Арле-<lb/>кїна, что для чегобъ
+                  онъ былъ сердитъ. Арлекїнъ<lb/>ему сказываетъ о томъ, что ему случилося съ
+                  Пан-<lb/>талономъ, которои ему отказалъ отъ Смералдїны<lb/>Брїгеллъ ему говоритъ,
+                  что ежелибъ онъ ему по-<lb/>могъ въ намѣренїи услужить любовникамъ, то
+                  бы<lb/>Смералдїна могла быть за нимъ, только бы она его<lb/>любила. Арлекїнъ ему
+                  обѣщается по волѣ его<lb/>исполнять; и чтобъ ему показать, что Смералдїна<lb/>его
+                  любитъ, сталъ онъ ея кликать. Смералдїна<lb/>приходитъ, и приголубивши Арлекїна,
+                  утверж-<lb/>даетъ все, что онъ сказалъ, Брїгеллу, которои<lb/>приближаяся къ нимъ,
+                  утверждаетъ такъ же свое<lb/>обѣщанїе, и проситъ Смералдїну, чтобъ и она
+                  благо-<lb/>волила помогать обманывать стариковъ. Та ему<lb/>обѣшается то чинить;
+                  стали они говорить другъ<lb/>другу на ухо, да и пошли прочь. </p>
+               <p rend="indent"> ПАНТАЛОНЪ выходитъ говоря Доктору, что онъ<lb/>со всѣмъ готовъ
+                  исполнить свое слово, и жениться<lb/>на Дïанѣ. Докторъ о томъ радуется, хотя такъ
+                  же<lb/>имѣть за собою скоро Аурелїю, да и сталъ стучать<lb/>въ свои ворота. Дїана
+                  выходитъ; Докторъ еи велитъ<lb/>дать руку Панталону. Та нехочетъ того
+                  учинить<lb/>но будучи принуждена, притворилась, что будто<lb/>
+                  <fw type="catch" place="bottom">на то</fw>
+                  <pb facs="#mode-5" n="5"/>
+                  <fw type="pageNum">5</fw> на то соглашается. Тогда приходитъ Сїлвїи наря-<lb/>дяся
+                  въ лѣкаря. Сталъ онъ бранить Панталона,<lb/>что онъ вышелъ вонъ изъ двора безъ его
+                  приказу, и что<lb/>понеже его скорбь есть отъ дѣиствїя венерїна, того<lb/>ради
+                  надлежало ему стеречися холодного воздуху.<lb/>Панталонъ думая, что тотъ бредить,
+                  говорить,<lb/>что онъ ни какои не имѣетъ болѣзни, и что тотъ<lb/>обманывается.
+                  Притворнои лѣкарь все говоритъ<lb/>противное. Дїана притворилася быть не
+                  довольною.<lb/>Докторъ изъ того въ соблазнъ приходитъ. Панта-<lb/>лонъ говоритъ
+                  лѣкарю, что онъ бездѣльникъ, и плутъ,<lb/>для того что онъ Панталонъ никакои
+                  болѣзни не<lb/>имѣетъ. Лѣкарь содержитъ все то, что онъ пре-<lb/>жде говорилъ, и
+                  что онъ хочетъ ему скоро при-<lb/>слать проносное. Панталонъ весьма
+                  осердившися<lb/>вонъ его выгналъ. Стараетса онъ увѣрить Доктора<lb/>и Дїану, что
+                  все то ложь. Помирились они. И ко-<lb/>гда онъ хотѣлъ дать руку Дïанѣ, тогда
+                  пришолъ<lb/>Одоардъ нарядившись въ Аптекаря, которои гово-<lb/>ритъ Панталону, что
+                  онъ ему принесъ проносное,<lb/>которое ему приказалъ принять лѣкарь.
+                  Панталонъ<lb/>не имѣя болыше терпѣливности, выгналъ притвор-<lb/>наго Аптекаря, и
+                  опять выводитъ изъ худова о себѣ<lb/>мнѣнїя Доктора. Но лишъ онъ хотѣлъ жениться
+                  на<lb/>Дїанѣ, анъ приходитъ Арлекїнъ и Брїгеллъ нарядив-<lb/>шись въ хопцовъ
+                  аптекарскихъ; изъ того произхо-<lb/>дитъ игрушка смѣшная съ Панталономъ,
+                  котораго<lb/>они хотятъ лѣчить по неволѣ. Докторъ отъ того,<lb/>что видитъ, въ
+                  великои приходитъ соблазнъ, да и<lb/>пошолъ прочь съ дочерью своею. Панталонъ
+                  осердив-<lb/>шися сталъ драться съ Арлекїномъ, и Брїгелломъ. На<lb/>послѣдокъ
+                  Брїгеллъ уходитъ. Панталонъ пошолъ<lb/>къ себѣ домои. Арлекїнъ говоритъ, что онъ хочетъ<lb/>
+                  <fw type="sig" place="bottom">Ч 3</fw>
+                  <fw type="catch" place="bottom">влѣзть</fw>
+                  <pb facs="#mode-6" n="6"/>
+                  <fw type="pageNum">6</fw> влѣзть въ окно, и поговорить съ Смералдїною.
+                  По-<lb/>шолъ онъ по лѣсницу; возвращается съ нею; полѣзъ;<lb/>На стукъ выходитъ
+                  Панталонъ; выстрѣлилъ по немъ<lb/>изъ пїстолета. Арлекїнъ упалъ, кричя: я
+                  умеръ,<lb/>Панталонъ думая, что его убилъ въ правду, со-<lb/>шолъ, чтобъ его
+                  спрятать, бояся, чтобъ какъ па-<lb/>труль не наѣхалъ; изъ того происходитъ
+                  ирушка<lb/>смѣшная, которою кончится дѣиствїе первое.</p>
+            </div>
+            <div type="act" n="2">
+               <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+               <p rend="indent">Любовники выходятъ благодаря Брїгеллу, что<lb/>онъ перервалъ
+                  заключенїе брака между стариками.<lb/>Просятъ его, чтобъ онъ продолжалъ то
+                  чинить.<lb/>Брїгеллъ имъ обѣщается вторично чинить все къ
+                  ихъ<lb/>удовольствованїю, и говоритъ имъ, что онъ видѣлъ<lb/>Панталона и Доктора
+                  въ приказѣ, которые прикла-<lb/>дывали руки къ записѣ брачнои, и которые
+                  положи-<lb/>ли играть свадьбы у Панталона, которои приказалъ,<lb/>чтобъ къ нему
+                  привесть учителя языка Французска-<lb/>го, хотя самъ научиться, и научить свою
+                  жену<lb/>сему языку. Любовники услышавъ то, стали быть<lb/>въ великомъ отчаянїи.
+                  Брїгеллъ ихъ выводитъ изъ<lb/>того; говоритъ имъ на ухо, да и послалъ ихъ
+                  прочь.<lb/>Тожъ онъ чинитъ съ Арлекїномъ въ разсужденïи Сме-<lb/>ралдїны, да и всѣ
+                  пошли вонъ.</p>
+               <p rend="indent"> ПАНТАЛОНЪ выходитъ имѣя въ рукахъ брачную<lb/>свою запись, къ
+                  которои Докторъ приложилъ руку,<lb/>отъ котораго, говоритъ онъ, получилъ
+                  повелѣнїе,<lb/>чтобъ Дїану повесть къ себѣ, и радуется самъ, что<lb/>онъ будетъ
+                  имѣть ея у себя скоро. Сталъ онъ ея<lb/>кликать. Дїана приходитъ. Тотъ еи
+                  сказываетъ при-<lb/>казъ отцовскои. Она о томъ въ печаль пришла. Но<lb/>
+                  <fw type="catch" place="bottom">но</fw>
+                  <pb facs="#mode-7" n="7"/>
+                  <fw type="pageNum">7</fw> не могучи тому противиться, говоритъ Панталону,<lb/>что
+                  она готова повелѣнное исполнить. Между тѣмъ<lb/>приходитъ Арлекїнъ нарядившись въ
+                  курїера, съ пи-<lb/>сьмомъ къ Панталону, которому по многихъ шут-<lb/>кахъ
+                  своиственныхъ театру, отдаетъ оное. Пан-<lb/>талонъ розпечаталъ то и увидѣлъ, что
+                  къ нему<lb/>пишетъ нѣкто именемъ Кассандръ, которои ему<lb/>объявляетъ, что его
+                  заимодавцы всѣ пожитки за-<lb/>печатали у него въ Венецїи, и выгнали вонъ изъ
+                  двора<lb/>жену его и дѣтеи. Сїе услышавъ Дïана, притворила-<lb/>ся быть сердитою.
+                  Панталонъ говоритъ, что это<lb/>писмо подложное, по тому что онъ не имѣетъ
+                  ни<lb/>жены ни дѣтеи. Арлекїнъ содержитъ противное<lb/>какъ бывшїи свидѣтель
+                  очевидныи всему тому, что<lb/>дѣлалося въ Венецїи; да еще что и жена его уже
+                  въ<lb/>дорогѣ, которая къ нему ѣдетъ. Изъ того произ-<lb/>ходятъ многїя игрушки.
+                  Послѣ которыхъ притвор-<lb/>нои курїеръ пошолъ прочь. Панталонъ
+                  старается<lb/>оправдиться предъ Дïаною, да и повелъ ея къ себѣ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent">АУРЕЛIЯ говоритъ Смералдїнѣ о своеи любви<lb/>къ Одоарду, и о
+                  жестокости своего отца, которои<lb/>хочетъ ея выдать за мужъ по неволѣ за
+                  старика.<lb/>Смералдїна такъ же еи сказываетъ о своеи страсти<lb/>къ Арлекїну.
+                  Утѣшаютъ онѣ друшка друшку взаимно.<lb/>Тутъ Панталонъ сталъ быть слышимъ.
+                  Аурелїя, чтобъ<lb/>ему не попасться въ глаза, пошла прочь.
+                  Смералдїна<lb/>осталася. Панталонъ приходитъ, и говоритъ Сме-<lb/>ралдїнѣ о
+                  свадьбѣ. Смералдїна думая, что онъ гово-<lb/>ритъ о ея свадьбѣ съ Арлекїномъ,
+                  говоритъ, что она<lb/>о томъ радуется. Изъ того произходитъ
+                  игрушка<lb/>двоемысленная въ рѣчахъ между ею, и Панталономъ,<lb/>которои,
+                  наконецъ, сказываетъ еи прямо, что онъ скоро<lb/>
+                  <fw type="catch" place="bottom">жени-</fw>
+                  <pb facs="#mode-8" n="8"/>
+                  <fw type="pageNum">8</fw> жениться имѣетъ на Дïанѣ. Смералдїна
+                  опечалившися<lb/>что она обманулася, проситъ себѣ отпуску. Пан-<lb/>талонъ еи того
+                  не хочетъ дать, говоря, что она<lb/>еще не дожила свего урочнаго времени.
+                  Смералдїна<lb/>осердившися стала его бранить. На то Дїана при-<lb/>ходитъ; но
+                  видя, что Смералдїна ссорится съ Пан-<lb/>талономъ, стала ея бранить по хозяикину.
+                  Смерал-<lb/>дїна смѣется надъ нею передражнивая ея, да и по-<lb/>шла прочь. Дїана
+                  съ великаго сердца въ обморокъ<lb/>пришла. Панталонъ силится дать еи помощь;
+                  и<lb/>послѣ нѣкоторыхъ игрушекъ сдѣлалъ такъ, что<lb/>она пришла въ первое свое
+                  состоянїе; сталъ онъ ея<lb/>утѣшать; обѣщается еи согнать Смералдїну съ двора.
+                  <lb/>Смералдїна возвращается, и говоритъ Панталону,<lb/>что нѣкто сказывая себя
+                  быть учителемъ языка, тре-<lb/>буетъ его Панталона видѣть. Панталонъ
+                  велѣлъ<lb/>его пустить къ себѣ. Учитель французъ приходитъ,<lb/>которои по
+                  комплїментамъ съ Панталономъ, хочетъ<lb/>тожъ чинить и съ Дїаною. Панталонъ не
+                  допускаетъ<lb/>его до того съ ревности. Учитель сталъ его учить.<lb/>Между тѣмъ
+                  Смералдїна возвращается говоря учи-<lb/>телю тому, что одинъ Французъ желаетъ съ
+                  нимъ<lb/>поговорить. Учитель еи приказываетъ съ великою<lb/>горячестїю, чтобъ его
+                  привесть къ нему. Смерал-<lb/>дїна пошла. Французъ приходитъ, которои,
+                  по<lb/>французскому обычаю, многїя чинитъ комплїменты<lb/>всеи компанїи. Панталонъ
+                  въ великои пришолъ гнѣвъ.<lb/>Смералдїна опять возвращается говоря, что
+                  другои<lb/>Французъ желаетъ быть впущенъ. Учитель прика-<lb/>зываетъ, чтобъ и того
+                  ввесть. Французъ приходитъ.<lb/>Панталонъ сталъ быть въ затрудненїи, какъ бы
+                  за-<lb/>щитить Дїану отъ комплїментовъ франузскихъ.<lb/>Смералдїна и еще
+                  возвращается говоря, что при-<lb/>
+                  <fw type="catch" place="bottom">шло</fw>
+                  <pb facs="#mode-9" n="9"/>
+                  <fw type="pageNum">9</fw> шло двенатцать человѣкъ французовъ, которые
+                  же-<lb/>лаютъ видѣть учителя. Панталонъ превесьма осер-<lb/>дившися выгналъ отъ
+                  себя учителя языка со всѣми<lb/>его товарыщами; проклинаетъ ихъ учтивство
+                  доса-<lb/>ждающее. Между тѣмъ Аурелїя приходитъ съ поспѣ-<lb/>шенїемъ, говоря
+                  своему отцу, что у воротъ стоитъ<lb/>одна женщина, съ многими мальчиками, которая
+                  жела-<lb/>етъ съ нимъ поговорить, грозя воити силою, ежелибъ<lb/>еи отказано было.
+                  Дïана притворилася быть рев-<lb/>нивою. На то Бригеллъ приходитъ
+                  нарядившись<lb/>въ женщину. Называетъ онъ Панталона именемъ<lb/>мужа, такъ же
+                  обманщикомъ, невѣрнымъ и не-<lb/>благодарнымъ; укоряетъ его что онъ ея
+                  оставилъ<lb/>съ многими дѣтьми. Панталонъ отъ всего того<lb/>отпирается, называя
+                  ея бездѣльницей. Притвор-<lb/>ная жена обѣщается ему то самымъ показать
+                  дѣ-<lb/>ломъ, да и ввела многихъ мальчиковъ, которые<lb/>видя Панталона, стали его
+                  называть тятею. Пан-<lb/>талонъ осердившися, побѣжалъ отъ нихъ прочь; тѣ<lb/>за
+                  нимъ. Брїгеллъ ему говоритъ, что самои меньшои<lb/>сынъ еще въ пеленкахъ, котораго
+                  надлежитъ ему<lb/>посмотѣть. Дїана показываетъ себя быть въ соб-<lb/>лазнѣ.
+                  Панталонъ увѣряетъ оную о своеи невинно-<lb/>сти. Брїгеллъ приноситъ Арлекїна въ
+                  пеленкахъ,<lb/>которои видя Панталона, сталъ его называть тя-<lb/>тею. Изъ того
+                  проиходитъ игрушка смѣшная.<lb/>Дïана осердившися вышла вонъ. Арлекїнъ сталъ
+                  про-<lb/>сить папы. Смералдїна по тотъ пошла. Изъ того<lb/>произходятъ многїе
+                  игрушки приличныя Театру;<lb/>послѣ которыхъ кончится дѣиствïе второе.</p>
+            </div>
+            <fw type="sig" place="bottom">Ш</fw>
+            <fw type="catch" place="bottom">ДѣИ-</fw>
+            <pb facs="#mode-10" n="10"/>
+            <fw type="pageNum">10</fw>
+            <div type="act" n="3">
+               <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+               <p rend="indent">юбовники выходятъ смѣючися съ Брїгелломъ и<lb/>Арлекїномъ о
+                  насмѣшкѣ, которую они учинили надъ<lb/>стариками. Брїгеллъ имъ говоритъ, что онъ
+                  хочетъ<lb/>то заключить, что онъ имъ обѣщалъ, да и сталъ<lb/>кликать Дїану,
+                  Аурелїю, и Смералдїну, которымъ<lb/>онъ сказываетъ, что имъ надлежитъ чинить.
+                  Тѣ<lb/>возрадовавшися дали руки своимъ любовникамъ.<lb/>Послѣ чего Брїгеллъ
+                  говоритъ Сїлвїю, чтобъ онъ<lb/>повелъ Дїану въ домъ Панталоновъ, и сталъ ему
+                  го-<lb/>ворить на ухо. Сїлвїи обѣщается быть послуш-<lb/>нымъ, да и пошолъ.
+                  Брїгеллъ чинитъ тожъ съ Одо-<lb/>ардомъ и Арлекїномъ, и ввелъ ихъ съ ихъ женами
+                  къ<lb/>Доктору; по томъ онъ пошолъ къ Панталону.<lb/>Старики выходятъ радуяся, что
+                  сыскалося все,<lb/>чѣмъ винили Панталона, ложно; а чтобъ заключить<lb/>оконченїемъ
+                  свое дѣло, Панталонъ сталъ стучаться<lb/>у себя. Брїгеллъ нарядившись въ жида
+                  спрашиваетъ,<lb/>чтобы ему надобно было. Панталонъ удивившись,<lb/>спрашиватъ у
+                  него самово, что бы онъ тутъ дѣлалъ.<lb/>Послѣ многихъ игрушекъ, Брїгеллъ ему
+                  говоритъ,<lb/>что онъ у себя въ домѣ, которои онъ купилъ<lb/>у одного цыгана
+                  имѣющаго свои дворъ на противъ,<lb/>да и показалъ ему на докторовъ дворъ. По
+                  томъ<lb/>спрятался. Докторъ дивится, что у него живутъ<lb/>цыганы, да и сталъ у
+                  себя стучатся. Смералдїна<lb/>выходитъ, и такъ же послѣ многихъ игрушекъ
+                  го-<lb/>воритъ, что она купила тотъ домъ у одного шпаж-<lb/>наго мастера, которои
+                  живетъ тутъ, указывая на<lb/>Панталоновъ дворъ, да и спряталась сама.
+                  Ста-<lb/>рики всему тому дивятся, да и опять стали<lb/>стучаться у Панталона.
+                  Выходитъ Сïлвїи на-<lb/>
+                  <fw type="catch" place="bottom">рядившись</fw>
+                  <pb facs="#mode-11" n="11"/>
+                  <fw type="pageNum">11</fw> рядившись въ шпажнаго мастера, которои по
+                  ком-<lb/>плїментахъ, хочетъ учить Панталона, какъ на<lb/>шпагахъ биться. Изъ того
+                  произходятъ многїя<lb/>игрушки приличныя театру; послѣ которыхъ го-<lb/>воритъ,
+                  что онъ купилъ сеи дворъ у одного Перюкъ-<lb/>махера, которои живетъ тутъ,
+                  указывая на Докто-<lb/>ровъ дворъ, да и пошолъ. Старики любопытно<lb/>вѣдать
+                  желая, чѣмъ то все имѣетъ окончиться,<lb/>стали стучаться у Доктора. Выходитъ
+                  Одоардъ<lb/>со множествомъ перюковъ; сталъ ихъ всѣхъ примѣ-<lb/>ривать на
+                  Панталона, и не видя ни одного, которои<lb/>бы ему въ пору былъ, совѣтуетъ ему,
+                  чтобъ онъ<lb/>обрился, да и кличетъ Арлекїна, которои наря-<lb/>дяся въ барбїера
+                  выходитъ, да и хочешъ брить Пан-<lb/>талона, что чинитъ игрушку превесьма
+                  смѣшную.<lb/>На конецъ Панталонъ не могучи больше терпѣть<lb/>кинулся съ своимъ
+                  кинжаломъ на Арлекїна. Любов-<lb/>ники прибѣжали въ его помощь. Старики
+                  спраши-<lb/>ваютъ, что бы они чинили въ ихъ домахъ. Тѣ от-<lb/>вѣтствуютъ, что они
+                  тутъ съ своими женами. Ста-<lb/>рики хотятъ быть противъ ихъ злыми; но
+                  видя,<lb/>что уже нельзя тому помощи, склоняются. Тогда<lb/>всѣ мирятся, и симъ
+                  троиственнымъ бракомъ кон-<lb/>чится Комедïя.</p>
+               <p rend="indent">КОНЕЦЪ.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Der Wiederwillen des Pantalons gegen den Arlequin, als verstellten Curier und
+                  Barbier nach der Mode</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name> Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV 8250 (31a) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="8">8 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="weider-1" url="001weider.jpg"/>
+            <graphic xml:id="weider-2" url="002weider.jpg"/>
+            <graphic xml:id="weider-3" url="003weider.jpg"/>
+            <graphic xml:id="weider-4" url="004weider.jpg"/>
+            <graphic xml:id="weider-5" url="005weider.jpg"/>
+            <graphic xml:id="weider-6" url="006weider.jpg"/>
+            <graphic xml:id="weider-7" url="007weider.jpg"/>
+            <graphic xml:id="weider-8" url="008weider.jpg"/>
+         </surface>
+         <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#weider-1" n="1"/>
+            <head type="main">Der Wiederwillen des Pantalons<lb/> gegen<lb/> den Arlequin, als
+               verſtellten Curier<lb/> und Barbier nach der Mode</head>
+            <head type="sub">ſo in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/>
+               Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/> aufgefuͤhret worden.<lb/>
+               <date when="1734">1734.</date>
+            </head>
+            <pb facs="#weider-2" n="2"/>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Pantalon verſpricht die Aurelia ſeine Tochter an den Doctor und
+                  verlanget<lb/>da gegen deſſen Tochter Diana. Dieſes noͤthiget ihre Liebhaber, den
+                  Silvio<lb/>und Odoardo, ihre Zuflucht zu dem Brighella zu nehmen, welcher uͤber
+                  ſich<lb/>nimmt, die Alten zubetruͤgen, den Liebhabern aber die Erfuͤllung ihres
+                  Wůn-<lb/>ſches zu befoͤrdern. Auf was Art ſolches geſchiehet, wird das
+                  Spiel<lb/>ſelbſt zeigen. </p>
+            </div>
+            <castList>
+               <head>Perſonen.</head>
+               <castItem>
+                  <role xml:id="pantalone_ge">Pantalon,</role>
+                  <roleDesc>Vater der</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ge">Aurelia</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ge">Der Doctor,</role>
+                  <roleDesc>Vater der</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ge">Diana.</role>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ge">Silvio und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ge">Odoardo,</role>
+                     <roleDesc>die Liebhaber.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina</role>
+                  <roleDesc>Bediente der Aurelia.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ge">Brighella,</role>
+                  <roleDesc>ein Kuppler.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin,</role>
+                  <roleDesc>ein Diener.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Mayland.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#weider-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Die erſte Handung.</head>
+               <p rend="indent"> Die Alten treten auf, und nachdem ſie einander allerley
+                  Verſiche-<lb/>rungen ihrer Freundſchafft gegeben, haͤlt der Pantalon bey dem
+                  Do-<lb/>tor um die Diana, deſſen Tochter, an. Der Doctor verſpricht
+                  ihm<lb/>ſolche, aber mit der Bedingung, daß er ihm ſeine Tochter, die
+                  Aurelia,<lb/>zur Frau geben ſoll. Beyde kommen uͤberein, einander wegen des
+                  Hey-<lb/>raths-Guthes nicht beſchwehrlich zufallen. Der Doctor gehet ab,<lb/>um
+                  einige Geſchaͤffte zu verrichten. Pantalon bleibet. Hierauf<lb/>koͤmmt der
+                  Arlequin, thut gantz geſchaͤfftig, erweiſet den Pantalon,<lb/>ohne ein Wort zu
+                  ſprechen, mancherley Careſſen, ſtreichelt ihn,<lb/>laͤßt ihn niederſitzen,
+                  ſchencket ihm ein Glaß Wein nach dem andern<lb/>ein und haͤlt, nach langem
+                  Stillſchweigen, endlich um die Smeraldina<lb/>an. Pantalon ſchlaͤgt ſie ihm ab.
+                  Arlequin wird boͤſe und begegnet<lb/>ihm mit harten Worten. Der Alte will ihn
+                  ſchlagen, woruͤber<lb/>beyde von dem Schau-Platz kommen.</p>
+               <p rend="indent"> Die Liebhaber traten auf und vertrauen dem Brighella
+                  ihre<lb/>Neigung gegen die Diana und Aurelia. Sie ſagen, ſie haͤtten bey<lb/>denen
+                  Alten um ſie angehalten, aber eine abſchlaͤgige Antwort be-<lb/>kommen, und baͤten
+                  ihn dahero, ihnen in ihrem Vorhaben behuͤlff-<lb/>lich zu ſeyn. Brighella
+                  verſpricht ſolches zuthun, woferne nur das<lb/>Frauenzimmer damit zufrieden waͤre.
+                  Die Liebhaber verſichern,<lb/>daß ihre Geliebten ſolches ebenfals wuͤnſchten, und
+                  damit ſie ihn<lb/>hiervon recht uͤberzeugen moͤgen, ruffen ſie die Diana und
+                  Aurelia. Dieſe<lb/>kommen heraus und erzehlen den Liebhabern den Entſchluß, den
+                  ih-<lb/>re Vaͤter gefaßt, ſie gegen einander auszuwechſeln; uͤber
+                  welchen<lb/>Zufall ſie ſich gantz verzweiffelnd anſtellen. Brighella
+                  verſichert<lb/>nochmahls, daß er ihnen beyſtehen und das Vorhaben der
+                  Alten<lb/>hintertreiben wollte. Sie verſprechen ihm alle eine Belohnung,
+                  wo-<lb/>ferne er gluͤcklich ſeyn wuͤrde. Hierauf koͤmmt der Arlequin
+                  und<lb/>ſchreyet aus vollem Halſe, man ſolle ſich retiriren. Sie<lb/>fragen alle
+                  nach der Urſache, Arlequin aber laͤßt ſich lange<lb/>um die Erklaͤrung bitten und
+                  ſaget endlich: Begebet euch<lb/>auf die Seite; denn ich werde bey euch vorbey
+                  gehen. Brig-<lb/>hella ſagt den Liebhabern und dem Frauenzimmer etwas in<lb/>das
+                  Ohr und bittet ſie, ſich weg zubegeben; weil er etwas noth-<lb/>
+                  <fw type="sig" place="bottom">* 2</fw>
+                  <fw type="catch" place="bottom">wendiges</fw>
+                  <pb facs="#weider-4" n="4"/>
+                  <fw type="pageNum">4</fw> wendiges mit dem Arlequin zuſprechen habe. Nachdem ſie
+                  fort<lb/>ſind, fragt Brighella den Arlequin nach der Urſache ſeines
+                  Zornes.<lb/>Arlequin antwortet, Pantalon habe ihm die Smeraldina
+                  abgeſchla-<lb/>gen. Brighella verſichert ihn, daß, woferne er ihm in ſeinem
+                  Vor-<lb/>haben, welches er den Liebhabern zum beſten auszufuͤhren
+                  gedaͤchte<lb/>beyſtehen wuͤrde, wollte er ihm da gegen zu der Smeraldina
+                  verhelſ-<lb/>fen, im Falle ſie ihn nur wieder liebete. Arlequin antwortet,
+                  er<lb/>wolle alles thun, was er begehrete, und um ihm zu zeigen, daß
+                  ihn<lb/>Smeraldina liebe, rufft er ſie heraus. Smeraldina koͤmmt und nach<lb/>dem
+                  ſie den Arlequin careſſiret, beſtaͤtiget ſie alles, was er dem<lb/>Brighella
+                  geſaget. Brighella verſpricht nochmahls, ſein Verſpre-<lb/>chen zu halten und
+                  bittet die Smeraldina, ſie ſolle ihm helffen die<lb/>Alten betruͤgen. Sie
+                  verſpricht ſolches zu thun. Hierauf reden<lb/>ſie einander in das Ohr und gehen
+                  weg.</p>
+               <p rend="indent">Pantalon trit auf und ſagt zu dem Doctor, er ſey bereit
+                  ſein<lb/>Verſprechen zu halten und die Diana zu heyrathen. Der Doctor<lb/>freuet
+                  ſich hieruͤber, erklaͤret ſich gleichermaaßen wegen der Aurelia<lb/>und klopſt an
+                  ſein Haus an. Diana koͤmmt heraus. Der Doctor<lb/>befiehlet ihr, dem Pantalon die
+                  Hand zu geben, daß ſie ihn heyra-<lb/>then wolle. Sie macht Anfangs einige
+                  Schwuͤrigkeit, endlich aber<lb/>ſiehet ſie ſich genoͤthiget, zum Schein
+                  einzuwilligen. Hierauf koͤmmt<lb/>Silvio, als ein Medicus gekleidet, und verweiſet
+                  dem Pantalon, daß er<lb/>ſich an die kalte Lufft gewaget, da doch ſeine Krankheit
+                  Veneriſch<lb/>waͤre. Pantalon glaubt er ſchertze mit ihm, und ſagt, er
+                  betruͤge<lb/>ſich; er ſey nicht kranck. Der verſtellete Medicus behauptet
+                  das<lb/>Gegentheil. Diana bezeiget ſich mißvergnuͤgt, daß ſie einen kran-<lb/>cken
+                  Mann bekommen ſolle. Pantalon ſagt zu dem Medico, er ſey<lb/>ein Betruͤger; indem
+                  ihm nicht das geringſte fehlete. Der Medi-<lb/>cus bleibet bey dem, was er einmahl
+                  geredet, und ſagt, er wolle ihm<lb/>eine Purgation ſchicken. Pantalon wird boͤſe,
+                  jagt den Silvio weg<lb/>und ſuchet den Doctor und die Diana zu bereden, daß alles
+                  falſch<lb/>ſey, was der Kerl vorgegeben. Sie vertragen ſich wieder; indem<lb/>aber
+                  Pantalon der Diana die Hand geben will, koͤmmt Odoardo, als<lb/>ein Apothecker
+                  gekleidet, und ſagt zu dem Pantalon, er bringe die Pur-<lb/>gation, ſo ihm der
+                  Medicus verordnet. Pantalon verliehret die Ge-<lb/>dult jaget den verſtelleten
+                  Apothecker fort und beſaͤnfftiget den<lb/>
+                  <fw type="catch" place="bottom">Do-</fw>
+                  <pb facs="#weider-5" n="5"/>
+                  <fw type="pageNum">5</fw> Doctor; indem er aber ſich die Diana verloben will,
+                  kommen Arle-<lb/>quin und Brighella, als Apothecker Geſellen, und ſpielen dem
+                  Pantalon<lb/>allerley Poſſen und wollen fuͤr die Purgation bezahlet ſeyn.
+                  Der<lb/>Doctor argert ſich und will mit ſeiner Tochter ſort gehen. Panta-<lb/>lon
+                  ſchlaͤgt ſich mit dem Arlequin und Brighella herum. Brighella<lb/>entweichet.
+                  Pantalon gehet in das Hauß. Arlequin ſagt, er wolle<lb/>zum Fenſter hinein ſteigen
+                  und mit der Smeraldina ſprechen. Er ge-<lb/>het weg, koͤmmt mit einer Leiter
+                  zuruͤck, legt ſie an, und ſteiget hin-<lb/>auf. Pantalon koͤmmt an das Fenſter und
+                  ſchieſſet mit einer Pi-<lb/>ſtole nach ihm. Arlequin faͤllt herab und ſchreyet: Ie
+                  suis mort!<lb/>(Jch bin Todt!) Pantalon glaubt, er habe ihn todt geſchoſſen,
+                  und<lb/>weil er fuͤrchtet, die Wache moͤchte dazu kommen, ſteigt er herun-<lb/>ter
+                  und bringt den Arlequin in das Haus. Dieſes iſt der Beſchluß<lb/>der erſten
+                  Handlung.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Andere Handlung.</head>
+               <p rend="indent"> Die Liebhaber treten auf und bedancken ſich bey dem
+                  Brig-<lb/>hella, daß er die Vollziehung der Heyrath der Alten verhindert<lb/>und
+                  bitten ihn, er moͤchte es noch ferner thun. Brighella verſpricht<lb/>ihnen, alles
+                  Vergnuͤgen zu verſchaffen und erzehlet, er habe den<lb/>Pantalon und den Doctor
+                  auf dem Rathhauſe geſehen, wie ſie den<lb/>Heyraths-Contraet unterzeichnet und
+                  beſchloſſen, die Hochzeit in des<lb/>Pantalons Haus zu machen, welcher Befehl
+                  gegeben, ihm einen<lb/>Frantzoͤſiſchen Sprach-Meiſter zuverſchaffen; indem er
+                  dieſe Spra-<lb/>che ſeiner Braut wolle lehren laſſen. Die Liebhaber werden
+                  be-<lb/>ſtuͤrtzt, da ſie dieſes hoͤren. Brighella ſagt ihnen und dem
+                  Arlequin<lb/>etwas in das Ohr und heiſſet ſie weg gehen. Sie gehen alle ab. </p>
+               <p rend="indent"> Pantalon trit auf, hat den von dem Doctor
+                  unterzeichneten<lb/>Heyraths-Contract in der Hand und ſagt, er habe Erlaubniß,
+                  die<lb/>Diana in ſein Haus zu bringen. Er bezeiget ſich hieruͤber erfreuet<lb/>und
+                  ruffet ſie. Diana koͤmmt, und nachdem er ihr den Befehl ihres Va-<lb/>ters
+                  eroͤffnet, ſtellet ſie ſich gantz traurig an, weil ſie ſich aber<lb/>nicht
+                  wiederſetzen kann, ſagt ſie, ſie ſey bereit zu gehorſamen. Jn-<lb/>zwiſchen koͤmmt
+                  der Arlequin, als ein Curier, und uͤberreichet dem<lb/>Pantalon einen Brief, der
+                  von einem gewiſſen Manne, Nahmens<lb/>
+                  <fw type="catch" place="bottom">Caſſandro</fw>
+                  <pb facs="#weider-6" n="6"/>
+                  <fw type="pageNum">6</fw> Caſſandro, unterzeichnet iſt, in welchen er ihm
+                  berichtet, daß ſeine<lb/>Creditores zu Venedig ſich aller ſeiner Guͤter
+                  bemaͤchtiget und ſei-<lb/>ne Frau und Kinder aus dem Hauſe gejaget. Bey dieſe
+                  Worten<lb/>ſtutzet die Diana. Pantalon ſagt, der Brief ſey falſch; er habe
+                  we-<lb/>der Frau noch Kinder. Arlequin behauptet das Gegentheil und ſagt<lb/>er
+                  habe zu Venedig ſelbſt alles mit Augen angeſehen und ſeine Frau<lb/>ſey
+                  unterwegens, um ihn aufzuſuchen. Er gehet ab. Pantalon ſucht<lb/>ſich bey der
+                  Diana zu rechtfertigen und fuͤhret ſie in ſein Haus.</p>
+               <stage>Der Schau-Platz ſtellet ein Zimmer vor.</stage>
+               <p rend="indent">Aurelia erzehlet der Smeraldina, daß ſie in den Odoardo<lb/>verlieb
+                  ſey und wie grauſam ihr Vater mit ihr handele, der ſie an einen<lb/>alten Kerl
+                  verheyrathen wolle. Smeraldina vertrauet ihr gleichfals<lb/>ihre Neigung fuͤr den
+                  Arlequin. Beyde troͤſten ſich einander. Pan-<lb/>talon laͤſſt ſich hoͤren. Aurelia
+                  retiriret ſich. Pantalon koͤmmt und<lb/>ſpricht gegen die Smeraldina von einer
+                  Hochzeit. Smeraldina meynet,<lb/>er rede von der ihren mit dem Arlequin und
+                  bezeiget ſich ſehr er-<lb/>freut daruͤber. Pantalon erklaͤret ſich aber, daß er
+                  die Diana heyra-<lb/>then wuͤrde. Smeraldina wird verdruͤßlich, da ſie ſich
+                  betrogen ſie-<lb/>het, und fodert ihren Abſchied. Pantalon ſagt, es gienge nicht
+                  an;<lb/>weil ihre Zeit noch nicht um ſey. Smeraldina erzuͤrnet ſich und
+                  be-<lb/>gegnet ihm ſehr uͤbel. Hierzu koͤmmt die Diana und ſchilt die
+                  Sme-<lb/>raldina aus, daß ſie ihren Vater ſo ſchlecht tractiret.
+                  Smeraldina<lb/>mocquiret ſich uͤber ſie, ſpottet ihr nach und gehet ab. Diana
+                  koͤmmt<lb/>und iſt fuͤr Zorn gantz auſſer ſich ſelbſt. Pantalon beſaͤnfftiget ſie
+                  und<lb/>verſpricht, die Smeraldina aus ſeinen Dienſten zu jagen. Smeraldi-<lb/>na
+                  koͤmmt zuruͤck und ſagt zu dem Pantalon, es waͤre ein Frantzoͤſi-<lb/>ſcher
+                  Sprach-Meiſter da, der mit ihm ſprechen wolle. Pantalon<lb/>befiehlet ihn herein
+                  zu ruffen. Der Sprach-Meiſter koͤmmt und<lb/>macht dem Pantalon ſein Compliment.
+                  Er will dergleichen Hoͤfflich-<lb/>keit auch der Diana erweiſen; Pantalon aber
+                  wiederſetzet ſich aus<lb/>Eiferſucht. Der Sprach-Meiſter giebt der Diana Lection.
+                  Jn-<lb/>deſſen koͤmmt Smeraldina zuruͤck und ſaget zu demſelben, es ſey
+                  ein<lb/>Frantzoſe da, der mit ihm ſprechen wolle. Der Sprach-Meiſter<lb/>befiehlet
+                  mit einer kuͤhnen Art, ſie ſollte ihn hereinkommen laſſen.<lb/>
+                  <fw type="catch" place="bottom">Sme-</fw>
+                  <pb facs="#weider-7" n="7"/>
+                  <fw type="pageNum">7</fw> Smeraldina gehet ab. Der Frantzoſe trit herein und macht
+                  der gan-<lb/>tzen Geſellſchafft ſein Compliment. Pantalon iſt eiferſuchtig.
+                  Sme-<lb/>raldina koͤmmt wieder und ſagt, daß noch ein anderer Fratzoſe da<lb/>ſey.
+                  Der Sprach-Meiſter befiehlet, ihn herein kommen zu laſſen,<lb/>welches auch
+                  geſchicht. Pantalon weiß nicht wie er es anfangen ſoll,<lb/>daß er die Diana
+                  wieder der Frantzoſen Complimenten in Sicherheit<lb/>bringen ſoll; Wie aber
+                  Smeraldina abermahls einen Frantzoſen an-<lb/>meldet, wird er ungedultig und jaget
+                  den Sprach-Meiſter nebſt den<lb/>uͤbrigen Frantzoſen zum Hauſe hinaus. Aurelia
+                  koͤmmt eilends her-<lb/>ein und ſagt zu ihrem Vater, es ware eine Frau mit einem
+                  Kna-<lb/>ben vor der Thuͤre, die mit ihm ſprechen wollte und gedrohet
+                  haͤtte,<lb/>mit Gewalt in das Haus zu dringen, woferne man ſie nicht
+                  gutwil-<lb/>lig einlaſſen wuͤrde. Diana ſtellet ſich, als ob ſie eiferſichtig
+                  waͤre.<lb/>Hierauf koͤmmt Brighella als eine Frau gekleidet, nennet den
+                  Panta-<lb/>on ihren Mann und einen untreuen und undanckbaren Veraͤther
+                  und<lb/>wirfft ihm vor, daß er ſie mit vielen Kindern verlaßen. Pantalon<lb/>ſagt,
+                  es ſey alles Betruͤgerey. Die verſtellete Frau laͤſſet die Kinder<lb/>hereinkommen
+                  und wie ſelbige den Pantalon ſehen, ſchreyen ſie: Papa!<lb/>Papa! Pantalon will in
+                  Zorn weggehen, ſie folgen ihm aber nach<lb/>und ſchreyen abermahls: Papa! Papa!
+                  Brighella ſagt, das kleine-<lb/>ſte liege nach in der Wiege und er wolle es auch
+                  ſehen laſſen. Dia-<lb/>aͤrgert ſich zum Scheine uͤber dieſe Begebeheit. Brighella
+                  bringet<lb/>den Arlequin in Windeln gewickelt herein, welcher den
+                  Pantalon<lb/>ebenfals Papa zuruffet. Diana gehet zornig weg. Arlequin
+                  will<lb/>Brey haben. Smeraldina hohlet Brey und giebt ihm zu eſſen. Mit<lb/>dieſem
+                  Schertz endiget ſich die andere Handlung.</p>
+            </div>
+            <div type="act" n="3">
+               <head>Dritte Handlung.</head>
+               <p rend="indent"> Die Liebhaber Brighella und Arlequin treten auf und
+                  lachen<lb/>uͤber den Poſſen, den ſie denen Alten geſpielet Brighella traͤgt
+                  ih-<lb/>nen vor, er wolle nunmehro ſein Verſprechen zur Erfuͤllung brin-<lb/>gen
+                  und rufft die Diana, Aurelia und Smeraldina, denen er ſaget,<lb/>was ſie thun
+                  ſollen. Dieſe erfreuen ſich und ſchlieſſen die Heyrath<lb/>mit ihren Liebhabern.
+                  Hierauf giebt Brighella den Silvio den Rath,<lb/>er ſolle die Diana in des
+                  Pantalons Haus fuͤhren und ſagt ihm zugleich<lb/>
+                  <fw type="catch" place="bottom">etwas</fw>
+                  <pb facs="#weider-8" n="8"/>
+                  <fw type="pageNum">8</fw> etwas in das Ohr. Silvio gehet ab. Brighella macht es
+                  eben ſo<lb/>mit dem Odoardo und den Arlequin, welche mit ihren neuen Frauen<lb/>zu
+                  dem Doctor gehen; Er aber begiebt ſich in des Pantalons Haus.</p>
+               <p rend="indent"> Die Alten treten auf und bezeigen ſich ſehr vergnuͤgt, daß<lb/>ſie
+                  heraus gebracht, wie alle Beſchuldigungen, ſo man dem Panta-<lb/>lon aufgehefftet,
+                  falſch waͤren, und ſie nun ihre Sachen zu Stande<lb/>bringen wollten. Pantalon
+                  klopfft an ſein Haus an. Brighella koͤmmt,<lb/>als ein Jude gekleidet, heraus und
+                  fraget, was er haben wolle.<lb/>Pantalon wird beſtuͤrtzt und fraget ihn, was er in
+                  ſeinem Hauſe zu-<lb/>thun habe? Brighella antwortet, das Hauß ſey ſeine und er
+                  habe<lb/>ſolches von einer Zigeunerin gekaufft, die dort gegen uͤberwohnete
+                  und<lb/>zeigt auf des Doctors Haus. Er gehet wieder hinein. Dem Doctor <lb/>koͤmmt
+                  fremd vor, daß bey ihm Zigeuner wohnen ſollen und klopff <lb/>an. Smeraldina
+                  koͤmmt heraus und ſaget, ſie habe das Hauß von<lb/>einem Fecht-Meiſter gekauffet,
+                  der dort gegen uͤberwohnete. Sie<lb/>weiſſet zugleich auf Pantalons Haus und
+                  retiriret ſich. Die Alten<lb/>klopfen bey dem Pantalon an. Silvio koͤmmt, als ein
+                  Fecht-Meiſter,<lb/>heraus und will den Pantalon fechten lernen. Er ſagt, er habe
+                  das<lb/>Haus von einem Perucken-Macher gekaufft, weißet auf des Do-<lb/>ctors Haus
+                  und gehet wieder hinein. Die Alten wollen ſehen, wo<lb/>es endlich hinaus will und
+                  klopfen bey dem Doctor an. Odoardo<lb/>koͤmmt mit vielen Perucken heraus und
+                  probiret ſie dem Pantalon an;<lb/>weil ihm aber keine paſſen will, giebt er ihm
+                  den Rath, er ſolle ſich<lb/>barbiren laſſen und rufft den Arlequin. Dieſer koͤmmt
+                  als ein Bar-<lb/>bier und barbiret den Pantalon; weil er es aber zu grob macht,
+                  ver-<lb/>gehet ihm die Gedult. Er greifft nach ſeinem Gewehr und gehet auf<lb/>den
+                  Arlequin loß. Die Liebhaber kommen ihm zu Huͤlffe, die Alten<lb/>aber fragen, was
+                  ſie in ihren Hauͤſern zu thun haͤtten? Sie antwor-<lb/>ten, ſie waͤren bey ihren
+                  Frauen. Die Alten wollen alles maſſacri-<lb/>ren, da ſie aber ſehen, daß weiter
+                  bey der Sache nichts zu thun<lb/>iſt, geben ſie ihren Conſens zu der dreyfachen
+                  Heyrath, mit welcher<lb/>ſich das gantze Stuͤck endiget.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

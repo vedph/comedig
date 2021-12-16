@@ -1,0 +1,847 @@
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Smeraldina che si fa odiare</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Eleonora Zordan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                  >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Smeraldina che si fa odiare fu rappresentata dai comici italiani a San Pietroburgo
+               nel 1733. Stando al rendiconto amministrativo di Giuseppe Avoglio che riporta
+               annotazioni relative all’allestimento della “commedia dell’odiata”, la commedia fu
+               probabilmente ripresa il 7 luglio 1734. L’importanza assunta dalla protagonista
+               Smeraldina, la trama che gravita esclusivamente sulla sua personalità e le sue doti
+               performative, nonché il mancato rinvenimento di una possibile fonte dello scenario
+               (Pieroni, 131–132) lasciano presuppore che la commedia fosse realizzata appositamente
+               per l’attrice Adriana Sacco, l’interprete di Smeraldina e sorella maggiore del
+               celebre Truffaldino Antonio Sacco.</p>
+            <p>Le stampe delle versioni in lingua russa e tedesca sono preservate presso le diverse
+               biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili per ogni
+               versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>ВЪ НЕНАВИСТЬ ПРИШЕДШАЯ СМЕРАЛДIНА</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Eleonora Zordan</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 POET DRAM IV 8250 16b RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="11">11 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="odiaru-1" url="imgs/odiaru-0001.jpg"/>
+            <graphic xml:id="odiaru-2" url="imgs/odiaru-0002.jpg"/>
+            <graphic xml:id="odiaru-3" url="imgs/odiaru-0003.jpg"/>
+            <graphic xml:id="odiaru-4" url="imgs/odiaru-0004.jpg"/>
+            <graphic xml:id="odiaru-5" url="imgs/odiaru-0005.jpg"/>
+            <graphic xml:id="odiaru-6" url="imgs/odiaru-0006.jpg"/>
+            <graphic xml:id="odiaru-7" url="imgs/odiaru-0007.jpg"/>
+            <graphic xml:id="odiaru-8" url="imgs/odiaru-0008.jpg"/>
+            <graphic xml:id="odiaru-9" url="imgs/odiaru-0009.jpg"/>
+            <graphic xml:id="odiaru-10" url="imgs/odiaru-0010.jpg"/>
+            <graphic xml:id="odiaru-11" url="imgs/odiaru-0011.jpg"/>
+         </surface>
+         <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#odiaru-1" n="1"/>
+            <head type="main">ВЪ НЕНАВИСТЬ ПРИШЕДШАЯ<lb/>СМЕРАЛДIНА</head>
+            <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1733">1733</date> года.</head>
+            <pb facs="#odiaru-2" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ ВСЕИ КОМЕДIИ. </head>
+               <p rend="indent">СМЕРАЛДIНА, которая еще въ младенчествѣ у сво-<lb/>ихъ родителеи
+                  пропала и къ превеликому недоволь-<lb/>ству Панталона ея дяди подъ Докторскимъ
+                  надзиранïемъ<lb/>состоитъ, приходя въ большïи возрастъ становится
+                  такъ<lb/>своевольна и горда, что Докторъ принужденъ учинился<lb/>еи ея имѣнïе
+                  отдать и еïо совсѣмъ съ двора збить, въ<lb/>самое то время, когда она отъ своего
+                  любовника Сïлвïя<lb/>оставлена была, которои возревновался и на Аурелïѣ
+                  Пе-<lb/>тронïевои дочери жениться старается, но которая его<lb/>ненавидитъ; понеже
+                  она въ Одоарда влюбилась, въ чемъ<lb/>вся завязка комедïи состоитъ.</p>
+            </div>
+            <castList>
+               <head>ДЪИСТВУЮЩІЯ ЛИЦА. </head>
+               <castItem>
+                  <role xml:id="pantalone_ru">ПАНТАЛОНЪ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДІНА</role>
+                  <roleDesc>его племянница.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРІГЕЛЛЪ</role>
+                  <roleDesc>слуга.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ru">ДОКТОРЪ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="flaminio_ru">ФЛАМІНІИ</role>
+                  <roleDesc>его племянникъ.</roleDesc>
+                  <role xml:id="petronio_ru">ПЕТРОНІИ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ru">ДІАНА</role>
+                  <roleDesc>его жена.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ru">АУРЕЛІЯ</role>
+                  <roleDesc>дочь.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ru">СІЛВІИ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКІНЪ</role>
+                  <roleDesc>слуга.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="odoardo_ru">ОДОАРДЪ.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Это дѣиствïе въ Болоньнѣ.</p>
+            </set>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+         </front>
+         <body>
+            <pb facs="#odiaru-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ. </stage>
+               <p rend="indent">ПАНТАЛОНЪ жалуется Доктору, что онъ надъ<lb/>его племянницею
+                  Смералдïною, которая до него только<lb/>принадлежитъ, надзиранïе на себя принялъ.
+                  Докторъ<lb/>извиняется тѣмъ, что то здѣлано по волѣ его брата<lb/>Стефанелла, и
+                  при томъ ему объявляетъ, что Смерал-<lb/>дïна приходя въ большïи возрастъ, такъ
+                  своевольна и<lb/>упряма учинилась, что онъ принужденъ быль еïо со всѣмъ<lb/>ея
+                  пожиткомъ съ двора збить. При томъ предлагаетъ<lb/>онъ ему, чтобъ он её за
+                  Фламïнïя выдалъ, и просить его,<lb/>о томъ съ Смералдïною поговорить. Панталонъ то
+                  ему<lb/>обѣщаетъ, хотя и противъ своеи праведнои воли, а Док-<lb/>торъ для
+                  сысканïя своего племянника отходить.</p>
+               <stage>ТЕАТРЪ ПЕРЕМЕНЯЕТСЯ ВЪ СМЕРАЛДІНИНУ КАМЕРУ. </stage>
+               <p rend="indent">СМЕРАЛДІНА разсердившись бьïотъ Арлекïна, за то,<lb/>что онъ Сïлвïю
+                  писма отнести не хочетъ. Арлекïнъ го-<lb/>ворить, что онъ того здѣлать не можетъ;
+                  по тому что<lb/>Сïлвïи ему побоями грозилъ, буде онъ хоть малое что<lb/>ея именемъ
+                  къ нему принесетъ или о неи говорить будетъ.<lb/>Она объявляетъ ему причину, за
+                  что Сïлвïи на неïо сер-<lb/>дится, и сказываетъ что одинъ изъ ево
+                  сродственниковъ<lb/>къ неи приходилъ, которои хотѣлъ на неи жениться и
+                  при<lb/>прощенïи еи сказалъ: прости моя любезная. Къ тому,<lb/>говоритъ она,
+                  подошолъ Сïлвïи и за оныя два послѣднïя<lb/>слова такъ возревновался, что онъ еïо
+                  оставилъ, не хотя<lb/>у неи самои правды въ семь выслушать; однакожъ она
+                  на-<lb/>дѣется симъ писмомъ опять всïо въ доброе состоянïе при-<lb/>весть. Но
+                  Арлекïнъ не смотря, на сïе всегда въ томъ<lb/>стоить, что онъ писма отдать не
+                  хочетъ; однакожъ на<lb/>послѣдокъ принуждаетъ она его по нѣкоторыхъ
+                  шуткахъ<lb/>оное писмо принять, и его господину сказать; что онъ<lb/>
+                  <fw type="sig" place="bottom">У 2</fw>
+                  <fw type="catch" place="bottom">о томъ</fw>
+                  <pb facs="#odiaru-4" n="4"/>
+                  <fw type="pageNum">4</fw>о томъ самъ тужить будетъ, ежели онъ еïо всегда
+                  такъ<lb/>презирать станетъ. Арлекïнъ, будучи силою принужденъ<lb/>всïо по ея волѣ
+                  обѣщать, отходить. Смералдïна оставшись<lb/>говоритъ, что она отъ нѣкоторои
+                  Французскои женщины<lb/>заворожонои перстень получила, которымъ она въ
+                  разныя<lb/>виды переворачиваться и не видимою дѣлаться можетъ,<lb/>когда и какъ еи
+                  захочется, и при томъ надѣется помо-<lb/>щïю онаго перстня своего любовника либо
+                  къ его должно-<lb/>сти привесть, либо безпрестанно мучить. Къ сему прихо-<lb/>дить
+                  Панталонъ, которои, пожуривъ еïо прежде за ея<lb/>худои нравъ, предлагаетъ еи
+                  супружество съ Докторскимъ<lb/>племянникомъ Фламïнïемъ. Она надъ тѣмъ смѣïотся и
+                  очюнь<lb/>не вѣжливо съ нимъ поступаетъ. По томъ оба по нѣкото-<lb/>рыхъ
+                  театральныхъ шуткахъ отходятъ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">СІЛВІИ толкнулъ Арлекïна ногою, для того что онъ ему<lb/>отъ
+                  Смералдïны писмо принïосъ. Арлекïнъ извиняется и<lb/>дѣлаетъ такïя тѣлодвиженïя.
+                  которыя Смералдïна въ то<lb/>время употребляла, какъ она ево принудила писмо
+                  при-<lb/>нять. По нѣкоторыхъ на театрѣ обыкновенныхъ шут-<lb/>кахъ бьïотъ его
+                  Сïлвïи опять, къ чему приходить Петро-<lb/>нïи, которому между тѣмъ такъ же
+                  нѣсколько ударовъ<lb/>досталось. Сïлвïи извиняется, и по нѣкоторыхъ
+                  театру<lb/>приличныхъ игрушкахъ сказываеть Петронïи Сïлвïю,<lb/>что его дочь
+                  Аурелïя съ того времени не утѣшно печа-<lb/>лится, какъ онъ еи о бракѣ съ нимъ
+                  объявилъ. Сïлвïи<lb/>думаетъ, что сïя печаль только для того выдумана,
+                  чтобъ<lb/>свадьбу продлить и въ своемъ словъ опять отказываеть.<lb/>Петронïи
+                  отходить, чтобъ ея утѣшить; но Сïлвïи<lb/>оставшись говоритъ, что онъ, на смѣхъ
+                  Смералдïнѣ, же-<lb/>ниться хочетъ; и как онъ ея непостоянство многими<lb/>словами
+                  поносилъ, то придитъ Смералдïна во образѣ<lb/>Нѣмецкои женщины и попрекает ему его
+                  невѣрностïю.<lb/>По семь выходить Арлекïнъ, и съ Немецкою женщиною<lb/>всякïя
+                  шутки дѣлаеть, но Смералдïна оказавши себя от-<lb/>
+                  <fw type="catch" place="bottom">ходитъ. </fw>
+                  <pb facs="#odiaru-5" n="5"/>
+                  <fw type="pageNum">5</fw> ходитъ. Сïлвïи весьма о томъ досадуеть, и
+                  приказываетъ<lb/>Арлекïну ящичекъ принести, которои онъ своеи новои<lb/>любовницѣ
+                  подарить хочетъ, и оба отходятъ. Панта-<lb/>лонъ приходя жалуется Брïгеллу, что
+                  его племян-<lb/>ница вредительными ея намѣренïями въ бѣду приходить.<lb/>Брïгеллъ
+                  ужаснувшись отъ стариковыхь словъ поïотъ<lb/>передъ ним пѣсню, и оба отходятъ.
+                  Арлекïнъ возвра-<lb/>щается съ ящичкомъ, которои он Аурелïѣ отнести дол-<lb/>женъ;
+                  но какъ онъ о непостоянствѣ своего господина<lb/>въ перемѣнѣ своихъ любовницъ
+                  разсуждаетъ, то при-<lb/>ходитъ Брïгеллъ съ Смералдïною на задъ, и оба по
+                  нѣ-<lb/>которыхъ театральныхъ игрушкахъ онои ящичекъ у него<lb/>утащили, а вмѣсто
+                  того другои такои же тихонько<lb/>подсунули, и пошли прочъ. Арлекïнъ такъ же
+                  пошолъ при-<lb/>казъ своего господина отправлять.<lb/></p>
+               <stage>ТЕАТРЪ ПЕРЕМЕНЯЕТСЯ ВЪ АУРЕЛІИНУ<lb/> КАМЕРУ. </stage>
+               <p rend="indent">АУРЕЛІЯ разговариваетъ съ Одоардомъ о ея любви<lb/>и сказываетъ, что
+                  ея отецъ хочетъ еïо за Сïлвïя выдать.<lb/>Одоардъ утверждаетъ еïо въ вѣрности и
+                  обѣщаетъ еи<lb/>всякое вспоможенïе и постоянство. Между тѣмъ прихо-<lb/>дитъ
+                  Петронïи и Дïана, которые Одоарда увидѣвши у<lb/>своеи дочери бранятъ и вонъ
+                  высылаютъ. Одоардъ, видя<lb/>что онъ ихъ на свою сторону склонить не можетъ,
+                  от-<lb/>ходить. Петронïи говорить своей дочери, чтобъ она<lb/>больше о Одоардѣ не
+                  мыслила, но о Сïлвïѣ, которои ея<lb/>мужемъ быть долженъ. Аурелïя отвѣщаетъ, что
+                  она<lb/>много говорить не хочетъ, довольно что она свое сердце<lb/>и слово Одоарду
+                  уже дала. Сïлвïи приходить, кланяется<lb/>своеи сговореннои невѣстѣ и спрашиваетъ,
+                  получила ли<lb/>она то, что онъ еи прислалъ? Она ему отвѣщаетъ съ<lb/>сердца, что
+                  нѣтъ. Къ тому приходить Арлекïнъ съ ящич-<lb/>комъ. Сïлвïи его бранить, что онъ
+                  такъ долго замѣш-<lb/>калъ; но онъ извиняется, сколько можетъ. На
+                  послѣдокъ<lb/>Аурелïя онои ящичекъ вскрываетъ, и понеже она во ономъ <lb/>
+                  <fw type="sig" place="bottom">У 3</fw>
+                  <fw type="catch" place="bottom">только</fw>
+                  <pb facs="#odiaru-6" n="6"/>
+                  <fw type="pageNum">6</fw> только нѣкоторыя смѣшныя вещи нашла, того ради
+                  она<lb/>осердилась. Сïлвïи, не вѣдая что тутъ дѣлать, бросается<lb/>на Арлекïна и
+                  хочетъ его бить, которои не знаетъ что<lb/>о сеи перемѣнѣ сказать. Между симъ
+                  приходить Смерал-<lb/>дïна, попрекаетъ Сïлвïю опять его невѣрностïю и
+                  не-<lb/>постоянствомъ, и по нѣкоторыхъ театру своиственныхъ<lb/>шуткахъ она себя
+                  объявляетъ, что окончиваетъ</p>
+               <p rend="indent">первое дѣиствïе.</p>
+            </div>
+            <div type="act" n="2">
+               <head>ДѢИСТВІЕ ВТОРОЕ. </head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">СIЛВIИ приходитъ грозя Арлекïну, что онъ ящи-<lb/>чекъ перемѣнилъ.
+                  Арлекïнъ сказываетъ, что онъ то видя<lb/>и самъ ужаснулся, и дѣлаетъ всякïя театру
+                  пристоиныя<lb/>шутки. По томъ приходитъ Одоардъ, которой увидѣвъ<lb/>своего
+                  противника Сïлвïя, принуждаетъ его за шпагу<lb/>приняться. Арлекïнъ вступается за
+                  своего господина, и<lb/>какъ они между собою биться стали, то Сïлвïи
+                  упалъ.<lb/>Одоардъ хотѣлъ сеи случаи въ свою пользу употребить;<lb/>но Смералдïна
+                  пришедъ во образѣ одного Гïшпанца Одо-<lb/>арду въ его намѣренïи препятствïе
+                  дѣлаетъ. Одоардъ<lb/>съ грозами отходить. Смералдïна попрекая Сïлвïю
+                  его<lb/>невѣрствомъ себя объявляетъ. Сïлвïю становится то<lb/>весьма досадно, что
+                  та его отъ смерти избавила, которую<lb/>онъ ненавидитъ. Смералдïна отходить.
+                  Сïлвïи и Арле-<lb/>кïнъ остаются. Петронïи приходя говорить Сïлвïю,
+                  что<lb/>Аурелïя за оныя насмѣшки, которыи еи ящичкомъ здѣ-<lb/>лались, и за то,
+                  что ему чужая женщина сказала, очюнь раз-<lb/>сердилась. Сïлвïи отвѣщаетъ, что это
+                  не что иное есть<lb/>какъ только обманъ, и что онъ на смѣхъ всѣмъ
+                  своимъ<lb/>противникамъ еще сегожъ дня женится. Петронïю то<lb/>очюнь понравилось.
+                  Сïлвïи ему сказываетъ, что онъ хо-<lb/>четъ дорогое платье купить, и приказываетъ
+                  Арлекïну <lb/>
+                  <fw type="catch" place="bottom">до</fw>
+                  <pb facs="#odiaru-7" n="7"/>
+                  <fw type="pageNum">7</fw>до тѣхъ поръ у двора караулить, чтобъ онъ отъ
+                  нападе-<lb/>нïя Одоардова безопасенъ былъ. Арлекïнъ обѣщаетъ во<lb/>всемъ
+                  послушнымъ быть, а Сïлвïи и Петронïи отходятъ.<lb/>Одоардъ пришедъ говоритъ, что
+                  онъ Сïлвïя у ветошника<lb/>видѣлъ, чего ради онъ его отсутьствïе въ пользу
+                  упо-<lb/>требить и съ своею любовницею видѣться хочетъ; но обо-<lb/>зрѣвши
+                  Арлекïна подумалъ онъ тотъ часъ, что онъ по-<lb/>ставленъ караулить. Съ нимъ
+                  началъ онъ всякïя шутки дѣлать<lb/>и на послѣдокъ пошолъ въ домъ, а Арлекïнъ
+                  остал-<lb/>ся у двереи. Сïлвïи возвращается съ Петронïемъ на задъ<lb/>въ зѣло
+                  изрядномъ платьѣ, и спрашиваетъ у Арлекïна, не<lb/>приходилъ ли кто? Арлекïнъ
+                  разсказываетъ имъ очюнь<lb/>смѣшнымъ образомъ, что у него съ Одоардомъ
+                  здѣлалось,<lb/>и какъ Сïлвïи и Петронïи отъ того въ ужасъ приходятъ,<lb/>то
+                  выгоняетъ Дïана Одоарда палкою изъ двора и сказы-<lb/>ваетъ имъ обоимъ, что она
+                  его у своеи дочери въ<lb/>камерѣ застала. Сïлвïи для отвращенïя всѣхъ
+                  досадныхъ<lb/>слѣдствïи, совѣтуетъ свою невѣсту къ себѣ въ домъ<lb/>взять и въ
+                  слѣдующую ночь свадьбу сыграть. Петронïй<lb/>и Дïана сïе похваляютъ, и призвавъ
+                  Аурелïю велятъ еи<lb/>съ Сïлвïемъ, яко съ ея мужемъ, домои итти. Аурелïя
+                  въ<lb/>томъ противится, но они еïо принуждаютъ, и такъ по<lb/>нѣкоторыхъ на театрѣ
+                  обыкновенныхъ шуткахъ всѣ къ<lb/>Сïлвïю въ домъ отходятъ, но Петронïи тамъ
+                  остается.<lb/>Смералдïна входитъ во образѣ щоголя и бранить Петро-<lb/>нïя, что
+                  онъ свою дочь за Сïлвïя насильно отдать хо-<lb/>четъ которои уже и съ другими
+                  спознать имѣлъ. Петро-<lb/>нïи отвѣщаетъ, что онъ своего слова отмѣнить не
+                  мо-<lb/>жетъ, и отходить. Смералдïна говоритъ, что она то уже<lb/>инако
+                  перевернетъ, и также отходить. Одоардъ при-<lb/>ходя говорить Панталону, что
+                  Сïлвïи тому причиною,<lb/>что онъ Аурелïи достать не могъ; по тому что
+                  Петро-<lb/>нïи ему уже было и слово въ томъ далъ. Панталонъ со-<lb/>вѣтуетъ ему
+                  Фламïнïя его друга къ тому склонить,<lb/>чтобъ онъ притворился, будто онъ въ
+                  Смералдïну влю-<lb/>бился, что подастъ способъ Сïлвïя мучить и
+                  принуждать,<lb/>чтобъ онъ имъ свою любовницу уступилъ. Одоарду сеи<lb/>
+                  <fw type="catch" place="bottom">совѣтъ</fw>
+                  <pb facs="#odiaru-8" n="8"/>
+                  <fw type="pageNum">8</fw>совѣтъ нравится, чего ради идетъ онъ Фламïнïя искать.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТ КАМЕРУ СІЛВІЕВУ.</stage>
+               <p rend="indent">ДІАНА и Петронïи приходять и говорять Аурелïѣ,<lb/>чтобъ она
+                  сердеться перестала и за Сïлвïя добромъ пошла.<lb/>Она въ томъ отказываетъ и
+                  припоминаетъ прежнïя его<lb/>любовныя обхожденïя и непостоянство, которое онъ
+                  Сме-<lb/>ралдïнѣ показалъ; но они тому смѣются и отъ нея въ томъ<lb/>конечно
+                  послушанïя требуютъ. На сïе приходить Сïлвïи<lb/>и отдавши поклонъ компанïи
+                  сказываетъ Аурелïѣ, что онъ<lb/>французскую комнатную дѣвушку, которая изряднои
+                  видъ<lb/>на себѣ имѣетъ, во услуженïе принялъ. Между тѣмъ при-<lb/>ходитъ Арлекïнъ
+                  и докладываетъ Сïлвïю, что его чуже-<lb/>странная женщина спрашиваетъ. Сïлвïи
+                  отвѣщаетъ, что<lb/>это та, о которои онъ говоритъ и приказываетъ Арле-<lb/>кïну
+                  еïо пустить. Арлекïнъ отходить и возвращается съ<lb/>Смералдïною на задъ, которая
+                  по многихъ театральныхъ<lb/>шуткахъ приступаетъ къ Сïлвïю и называетъ его
+                  непо-<lb/>стояннымъ и легкомысленнымъ человѣкомъ, и объявивши<lb/>себя со многимь
+                  шумомъ окончиваетъ</p>
+               <p rend="indent">второе дѣйствïе.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ДѢИСТВІЕ ТРЕТІЕ. </head>
+               <stage>ТЕАТРЪ ПРЕДСТАВЛЯЕТЪ ГОРОДЪ. </stage>
+               <p rend="indent">СIЛВIИ входитъ и говоритъ Петронïю, что онъ несмо-<lb/>тря на всѣ
+                  безстыдныя Смералдïнины старанïя еще сего<lb/>дня на Аурелïѣ жениться хочетъ, и
+                  при томъ даетъ ему<lb/>мѣшокъ съ деньгами, чтобъ всïо, что къ кушанïю
+                  надобно,<lb/>закупить. По томъ кличетъ Арлекïна и приказываетъ<lb/>ему Петронïя
+                  такъ же какъ себя самово почитать; но<lb/>Арлекïнъ тому противится, сказывая что
+                  этотъ старикъ<lb/>бездѣльнои, скупои и обманщикъ; однакожъ по
+                  нѣкоторыхъ<lb/>театральныхъ шуткахъ на то согласуется и обѣщаетъ<lb/>
+                  <fw type="catch" place="bottom">во</fw>
+                  <pb facs="#odiaru-9" n="9"/>
+                  <fw type="pageNum">9</fw> во всемъ повиноваться. Сïлвïи идетъ своихъ
+                  прïятелеи<lb/>на свадьбу звать. Петронïи велитъ Арлекïну за собои<lb/>итти, что
+                  онъ по нѣкоторомъ сопротивленïи дѣлаетъ.</p>
+               <stage>ТЕАТРЪ ПЕРЕМЕНЯЕТСЯ ВЪ СМЕРАЛДІНИНУ<lb/> КАМЕРУ. </stage>
+               <p rend="indent">БРІГЕЛЛЪ выговариваеть Смералдине, которая въ<lb/>мужеское платье
+                  нарядилась, что ихъ полу такое платье<lb/>очюнь не прилично. Смералдïна отвѣчаетъ
+                  ему, что еи воль-<lb/>но дѣлать что она хочетъ, и она никому въ томъ
+                  отчоту<lb/>дать не должна. Къ тому приходить Панталонъ, которои<lb/>на свою
+                  племянницу, увидѣвъ еïо въ такомъ уборѣ, кри-<lb/>читъ; но она ему по своему
+                  своевольному обычаю, тѣ-<lb/>мижъ словами отвѣчаетъ, которыя Брïгеллу сказала,
+                  и<lb/>отходитъ. Они еи оба послѣдуютъ. Одоардъ и Фламïнïи<lb/>уговариваются Сïлвïя
+                  общаго своего противника убить.<lb/>На то приходитъ Сïлвïи, они его вызываютъ на
+                  поединокъ,<lb/>хватаются за шпаги и Сïлвïи тожъ дѣлаетъ. Смералдïна<lb/>приходитъ
+                  съ шпагою въ рукѣ и ставши съ Сïлвïевои сто-<lb/>роны съ его противниками такожде
+                  бïотся. Одоардъ от-<lb/>ходитъ. Смералдïна отнимаетъ у Фламïнïя шпагу.
+                  Сеи<lb/>убѣгаетъ прочъ. Сïлвïи не зная Смералдïны благодар-<lb/>ствуетъ еи за свое
+                  избавленïе; но она отвѣчаетъ, что<lb/>честные люди всегда слабѣишеи сторонѣ
+                  помогать долж-<lb/>ны, и сказывается прïѣжжимъ человѣкомъ. Сïлвïи
+                  пред-<lb/>лагаетъ еи свои домъ и проситъ еïо къ себѣ на свадьбу.<lb/>Смералдïна на
+                  то его представленïе соизволяетъ. Сïлвïи<lb/>показываетъ еи свои домъ, но она
+                  говорить, что она те-<lb/>перь случаи имѣетъ любовь свою удовольствовать, да
+                  и<lb/>отходитъ. Петронïи входя бранитъ Арлекïна, которои<lb/> коробъ носитъ, и
+                  хочетъ ему повелѣвать. Арлекïнъ гово-<lb/>ритъ, что онъ никакова почтенïя къ нему
+                  не имѣетъ,<lb/>но только къ его платью; по тому что онъ и самъ нищеи<lb/>человѣкъ.
+                  По нѣкоторыхъ своиственныхъ театру играхъ<lb/>оба къ Сïлвïю въ домъ отходятъ.</p>
+               <fw type="sig" place="bottom">Ф</fw>
+               <fw type="catch" place="bottom">ТЕАТРЪ</fw>
+               <pb facs="#odiaru-10" n="10"/>
+               <fw type="pageNum">10</fw>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ СІЛВІЕВУ.</stage>
+               <p rend="indent">СІЛВІИ разговариваетъ съ зговоренною своею невѣ-<lb/>стою Аурелïею,
+                  но она ему на всïо будто не хотя отвѣ-<lb/>чаетъ. Смералдïна, приходитъ съ
+                  Одоардомъ, которои<lb/> слугою нарядился, и съ работникомъ, которои баулу
+                  не-<lb/>сïотъ. По нѣсколькихъ комплïментахъ очищается Смерал-<lb/>дïнѣ одинъ
+                  покои, и Сïлвïи проситъ Аурелïю сему прïѣж-<lb/>жему человѣку всякую честь
+                  паказывать, по тому что онъ<lb/>его отъ смерти избавилъ, а самъ онъ между тѣмъ
+                  хочетъ<lb/>еще нѣкоторыхѣ прïятелеи на свадьбу позвать. Но какъ<lb/>Смералдïна съ
+                  Аурелïею на одинѣ осталась, то она себя<lb/>еи объявляетъ, сказываетъ что она
+                  Сïлвïева любовница,<lb/>и при томъ представляетъ еи Одоарда. Аурелïя тому<lb/>зѣло
+                  обрадовалась, однакожъ всегда отца своего боится.<lb/>Смералдïна все сïе дѣло на
+                  себя снимаетъ и потомъ всѣ<lb/>вмѣстѣ въ Сïлвïеву камеру входятъ. Сïлвïи
+                  приходить<lb/>въ потïомкахъ назадъ и бранитъ Арлекïна, что онъ свѣчи<lb/>въ камеру
+                  не несïотъ. Арлекïнъ сваливаетъ вину на Пет-<lb/>ронïя своего новаго господина.
+                  Сïлвïи посылаетъ его за<lb/>свѣчою. Между тѣмъ Аурелïя узнавши Сïлвïя по
+                  голосу<lb/>съ нимъ очюнь любовно говорить. Сïлвïи, не вѣдая отъ<lb/>чего такая
+                  перемѣна здѣлалась, спрашиваетъ о причинѣ<lb/>того. Она отвѣчаетъ, что она ему по
+                  нынѣ только для<lb/>смиренïя такъ безпристрастна показалась, но въ про-<lb/>чемъ
+                  весьма ему была склонна, что она въ темнотѣ, гдѣ<lb/>нѣчего бояться, скоряе
+                  объявить можетъ. По семь при-<lb/>ходить Петронïи съ восковою свѣчою. Аурелïя, для
+                  боль-<lb/>шаго утаенïя своего намѣренïя, проситъ Сïлвïя, чтобъ<lb/>онъ Петронïя со
+                  свѣчою опять на задъ послалъ; понеже<lb/>она съ нимъ охотнѣе въ потïомкахъ сидѣть
+                  хочетъ. Сïлвïи<lb/>радуется, и дѣлаетъ что Петронïи опять отходитъ. Но<lb/>Дïана
+                  такожде съ восковою свѣчою входитъ и сказываетъ<lb/>Сïлвïю, что обѣдъ уже готовъ.
+                  Сïлвïи, по прошенïю<lb/>Аурелïи, и ту опять высылаетъ. По семь
+                  приходить<lb/>Арлекïнъ; но Сïлвïи его такожде прочь отсылаетъ. Между<lb/>
+                  <fw type="catch" place="bottom">тѣм</fw>
+                  <pb facs="#odiaru-11" n="11"/>
+                  <fw type="pageNum">11</fw> тѣмъ берïотъ Аурелïя Смералдïну за руку и еïо
+                  Сïлвïю<lb/>такъ отдаетъ, что онъ того не узналъ, а потомъ го-<lb/>воритъ, что
+                  лучше бы было, когда бы они въ такое<lb/>мѣсто пошли, гдѣбъ имъ больше свободности
+                  имѣть мо-<lb/>жно было. Сïлвïи, думая что онъ Аурелïю при себѣ
+                  имѣетъ,<lb/>отходить съ Смералдïною въ другую камеру, а Аурелïя<lb/>между тѣмъ
+                  Одоарда обнимаетъ и его такожде въ особли-<lb/>вую каïмеру отводитъ. Арлекïнъ
+                  приходитъ съ свѣчою на<lb/>задъ и сказываетъ Сïлвïю, что его званые гости на
+                  его<lb/>неучтивство, что онъ ихъ такъ долго себя ждать при-<lb/>нуждаетъ, уже
+                  жаловаться начинаютъ. Сïлвïи приходитъ<lb/>назадъ съ великимъ гнѣвомъ и
+                  спрашиваетъ Арлекïна, кто<lb/>Смералдïну въ домъ пустилъ. Арлекïнъ ему весьма
+                  иное<lb/>отвѣчаетъ, за что Сïлвïи осердившись хочетъ къ Аурелïѣ<lb/>въ камеру
+                  итти. Но Одоардъ выходитъ къ нему съ обна-<lb/>женною шпагою и спрашиваетъ, чево
+                  ему надобно? Сïлвïи,<lb/>будучи въ великомъ смятенïи, спрашиваетъ ево самъ,
+                  что<lb/>онъ тутъ дѣлаетъ? Одоардъ говорить, что онъ здѣсь<lb/>у своеи жены
+                  Аурелïи. Сïлвïи, думая что онъ еïо у себя<lb/>имѣетъ, проситъ оную къ нему
+                  выслать. Одоардъ кличетъ<lb/>Аурелïю. Какъ она вышла, то спрашиваетъ Сïлвïи,
+                  нахо-<lb/>дясь тогда въ превеликомъ возмущенïи, на комъ же онъ же-<lb/>нился?
+                  Аурелïя отвѣчаетъ, на Смералдïнѣ. Сïлвïи прихо-<lb/>дитъ отъ сего въ несказанную
+                  ярость и хочетъ Смералдïну<lb/>убить. Смералдïна встрѣчается съ нимъ въ дверяхъ въ
+                  му-<lb/>жескомъ образѣ и спрашиваетъ, для чево онъ такъ сердится?<lb/>Сïлвïи
+                  сказываетъ, какую ему Смералдïна насмѣшку<lb/>здѣлала. Но она притворяется, будто
+                  она его не знаетъ.<lb/>На последокъ по многихъ отговоркахъ она себя
+                  объявляетъ<lb/>и проситъ у него прощенïя. Сïе дѣлаетъ она такъ
+                  прïятнымъ<lb/>образомъ, что еи вечно вернымъ быть обещается.<lb/>Всѣ прочïе о семъ
+                  такъ особливомъ приключенïи радуются<lb/>и подтверждаютъ оныя учиненныя
+                  обязательства. Симъ<lb/>кончится вся</p>
+               <p rend="indent">комедïя.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Die verhaßte Smeraldina</title>
+               <respStmt>
+                  <resp>Digitisation of facsimile</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">8 POET DRAM IV 8250 16a RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="10">10 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="verhsme-1" url="imgs/versme-0001.jpg"/>
+            <graphic xml:id="verhsme-2" url="imgs/versme-0002.jpg"/>
+            <graphic xml:id="verhsme-3" url="imgs/versme-0003.jpg"/>
+            <graphic xml:id="verhsme-4" url="imgs/versme-0004.jpg"/>
+            <graphic xml:id="verhsme-5" url="imgs/versme-0005.jpg"/>
+            <graphic xml:id="verhsme-6" url="imgs/versme-0006.jpg"/>
+            <graphic xml:id="verhsme-7" url="imgs/versme-0007.jpg"/>
+            <graphic xml:id="verhsme-8" url="imgs/versme-0008.jpg"/>
+            <graphic xml:id="verhsme-9" url="imgs/versme-0009.jpg"/>
+            <graphic xml:id="verhsme-10" url="imgs/versme-0010.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#verhsme-1" n="1"/>
+            <head type="main">Die verhaßte Smeraldina</head>
+            <head type="sub">welcher<lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/>
+               Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/>
+               <date when="1733">Ao. 1733.</date><lb/> aufgefuͤhret worden.</head>
+            <pb facs="#verhsme-2" n="2"/>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Smeraldina, die, noch als ein Kind, ihre Eltern verlohren und zum
+                  groͤſten<lb/>Verdruß des Pantalons, ihres Vetters, under der Vormundſchaft des Do-
+                  <lb/>ctors ſtehet, wird bey zunehmenden Alter ſo unleidlich und ſtoltz, daß ſich
+                  der Do-<lb/>ctor genoͤthiget ſiehet, ihr das ihrige zugeben und ſie mit ſammt
+                  demſelben aus dem<lb/>Hauſe zu ſtoßen, eben zu der Zeit, da ſie von ihrem
+                  Liebhaber Silvio verlaſſen wird,<lb/>der eiferſuͤchtig geworden und die Aurelia,
+                  des Petronio Tochter, zu heyrathen ſuchet, die<lb/>ihn aber nicht leyden kan, weil
+                  ſie in den Odoardo verliebt iſt; welches die Ver-<lb/>wirrung des Spieles
+                  mahet.</p>
+            </div>
+            <castList>
+               <head>Die Perſonen.</head>
+               <castItem>
+                  <role xml:id="pantalone_ge">Pantalon</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina</role>
+                  <roleDesc>deſſen Muhme.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ge">Brighella</role>
+                  <roleDesc>ein Diener.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ge">Der Doctor.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="flaminio_ge">Flaminio</role>
+                  <roleDesc>deſſen Vetter.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="petronio_ge">Petronio.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ge">Diana</role>
+                  <roleDesc>deſſen Frau.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ge">Aurelia</role>
+                  <roleDesc>die Tochter derſelben.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ge">Silvio</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin</role>
+                  <roleDesc>ein Diener.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="odoardo_ge">Odoardo.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Bologna.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#verhsme-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Die erſte Handlung.</head>
+               <p rend="indent">Pantalon beklaget ſich gegen den Doctor, daß er die
+                  Vormund-<lb/>ſchafft uͤber ſeine Muhme, die Smeraldina, angenommen, da
+                  ſie<lb/>doch ihm zuſtehe. Der Doctor entſchuidiget ſich, daß ſolches
+                  dem<lb/>Willen ſeines Bruders Steffanello gemaß ſey, und eroͤffnet ihm
+                  zu-<lb/>gleich, daß Smeraldina mit zunehmenden Jahren unbaͤndig und
+                  halß-<lb/>ſtarrig geworden, ſo, daß er ſich gezwungen geſehen, ſie, mit
+                  allen<lb/>dem ihrigen, aus dem Hauße zu ſtoßen. Er ſchlaͤgt ihm zugleich
+                  eine<lb/>Heyrath mit ihr und ſeinem Vetter Flaminio vor, und bittet
+                  ihn<lb/>dißfals mit der Smeraldina zu ſprechen. Pantalon verſpricht ſo
+                  ſolches,<lb/>ohnerachtet ſeines gerechtenWiederwillens, zuthun, und der
+                  Doctor<lb/>gehet ab, ſeinen Vetter aufzuſuchen.</p>
+               <stage>Der Schau-Platz verwandelt ſich in das Zimmer der Smeraldina. </stage>
+               <p rend="indent">Smeraldina, die auf das aͤuſſerſte erzuͤrnet iſt, ſchlaͤgt den
+                  Ar-<lb/>lequin, weil er einen Brief nicht an den Silvio beſtellen will.
+                  Ar-<lb/>lequin ſagt, er koͤnne es nicht thun; indem ihm Silvio mit
+                  Schlaͤgen<lb/>gedrohet, woferne er das geringſte in ihrem Nahmen an ihn
+                  brin-<lb/>gen oder nur von ihr reden wuͤrde. Sie erzehlet ihm die
+                  Urſache,<lb/>warum Silvio auf ſie boͤſe ſey und ſagt, es waͤre einer von ihren
+                  An-<lb/>verwandten bey ihr geweſen, der ihr eine Heyrath vorgeſchlagen<lb/>und bey
+                  ſeinem Abſchiede haͤtte er geſagt: Lebt wohl meine Geliebte.<lb/>Hieruͤber ſey
+                  Silvio dazu gekommen und dieſe zwey letztere Worte<lb/>haͤtten ihn ſo
+                  eiferſuͤchtig gemacht, daß er ſie verlaſſen, ohne die Wahr-<lb/>heit dieſer Sache
+                  von ihr anzuhoͤren; Nichts deſto weniger aber hof-<lb/>fe ſie, durch dieſen Brief,
+                  alles wieder gut zu machen. Arlequin<lb/>bleibt dem ungeachtet dabey, den Brief
+                  nicht zu beſtellen. Endlich<lb/>aber noͤthiget ſie ihn nach vielen Poſſen, ihn
+                  anzunehmen und ſeinen<lb/>Herrn zu ſagen, daß es ihm gereuen wuͤrde, woferne er
+                  fortfuͤhre, ſie<lb/>ſo veraͤchtlich zu halten. Arlequin gehet ab, nachdem er mit
+                  Gewalt<lb/>gezwungen worden, alles, was ſie von ihm haben wollen, zu
+                  ver-<lb/>prechen. Smeraldina bleibt da und ſagt, ſie habe von einer gewiſ-<lb/>
+                  <fw type="sig" place="bottom">*</fw>
+                  <fw type="catch" place="bottom">ſen</fw>
+                  <pb facs="#verhsme-4" n="4"/>
+                  <fw type="pageNum">4</fw>ſen Frantzoͤſin einen Zauber-Ring bekommen, durch den ſie
+                  ſich alle Ge-<lb/>ſtalten geben u. unſichtbar machen koͤnnte, wenn u. wie ſie
+                  wollte, u ver-<lb/>ſpreche ſich, mit Huͤlffe deſſelben, entweder ihren Liebhaber
+                  zu ſeiner<lb/>Schuldigkeit zu bringen oder unaufhoͤrlich zu quaͤlen. Hiezu
+                  kommt<lb/>der Pantalon, der, nachdem er ihr ihre ſeltſame Gemuͤths-Art
+                  vor-<lb/>geruͤcket, ihr den Antrag der Heyrath mit Flaminio, des
+                  Doctors<lb/>Vetter, thut. Sie lacht daruͤber, begegnet ihm ſehr unhoͤfflich
+                  und<lb/>nach einigen Poſſen gehen beyde ab.<lb/></p>
+               <stage>Der Schau-Platz ſtellet eine Stadt vor.</stage>
+               <p rend="indent">Silvio giebt dem Arlequin einen Fuß-Stoß, weil er ihm
+                  einen<lb/>Brief von der Smeraldina gebracht. Arlequin entſchuldiget ſich
+                  und<lb/>macht die Manieren nach, deren ſich Smeraldina bedienet, als ſie
+                  ihn<lb/>gezwungen, den Brief anzunehmen. Nach vielen Poſſen ſchlaͤgt
+                  ihn<lb/>Silvio von neuem, woruͤber Petronio dazu kommt, der, unter dem<lb/>Lerm,
+                  einige Schlaͤge davon traͤgt. Silvio entſchuldiget ſich und nach-<lb/>einigem
+                  Schertz erzehlet ihm Petronio, daß Aurelia, ſeine Tochter,<lb/>gantz untroͤſtbar
+                  ſey, ſeit dem er ihr von der Heyrath mit ihm Nach-<lb/>richt gegeben. Silvio
+                  glaubt, daß dieſe Betruͤbnuͤß nur erfunden ſey,<lb/>um die Hochzeit auf die lange
+                  Banck zu ſchieben und ſagt er nehme ſein<lb/>Wort nicht wieder zuruͤck. Petronio
+                  gehet ab, um ſie zu troͤſten. Silvio<lb/>aber bleibt und ſagt, er wolle ſich, der
+                  Smeraldina zum Poſſen, ver-<lb/>heyrathen, und indem er ein hauffen Redens von
+                  ihrer Unbeſtaͤndig-<lb/>keit machet, kommt Smeraldina, als eine teutſche Frau, und
+                  wirfft<lb/>ihm ſeine Untreue vor. Arlequin trit auf und nachdem er mit
+                  der<lb/>teutſchen Frau allerley Schertz getrieben, giebt ſich Smeraldina zu
+                  er-<lb/>kennen und gehet fort. Silvio iſt gantz verdruͤßlich hieruͤber und
+                  be-<lb/>fiehlet dem Arlequin, ein Kaͤſtgen herzubringen, welches er
+                  ſeiner<lb/>neuen Liebſten ſchencken wolle. Beyde gehen ab. Pantalon trit<lb/>auf
+                  und beklaget ſich gegen den Brighella, daß ſich ſeine Muhme,<lb/>durch ihre
+                  verderbliche Anſchlaͤge, in das Ungluͤck bringe. Brighella<lb/>iſt uͤber das, was
+                  der Alte ſagt, gantz beſtuͤrtzt und ſingt ihm ein<lb/>Leid vor. Beyde gehen ab.
+                  Arlequin koͤmmt mit dem Kaͤſtgen wie-<lb/>der zuruͤck, welches er der Aurelia
+                  einhaͤndigen ſoll und waͤhrender Zeit,<lb/>
+                  <fw type="catch" place="bottom">als</fw>
+                  <pb facs="#verhsme-5" n="5"/>
+                  <fw type="pageNum">5</fw>als er einige Betrachtungen uͤber die Unbeſtaͤndigkeit
+                  ſeines Herrn,<lb/>der alle Augenblicke ſeine Liebſte veraͤndert machet, kommt
+                  Brig-<lb/>hella mit der Smeraldina zuruͤck. Beyde practiciren dem Arlequin
+                  das<lb/>Kaͤſtgen weg und ſchieben unvermerckt ein anders unter, das e-<lb/>ben ſo
+                  ausſiehet, und gehen fort. Arlequin gehet gleichfals ab, den<lb/>Befehl ſeines
+                  Herrn auszurichten.<lb/></p>
+               <stage>Der Schau-Platz verwandelt ſich in das Zimmer der Aurelia.</stage>
+               <p rend="indent">Aurelia ſpricht mit Odoardo von ihrer Liebe und erzehlet,
+                  daß<lb/>ſie ihr Vater zwingen wolle, den Silvio zu heyrathen. Odoardo
+                  er-<lb/>mahnet ſie treu zu ſeyn und verſpricht ihr alle Huͤlffe und
+                  Beſtaͤndig-<lb/>keit. Hieruͤber kommen Petronio und Diana dazu, die, als ſie
+                  O-<lb/>doardo bey ihrer Tochter ſehen, ſchelten und ihn fortgehen heiſſen.<lb/>Wie
+                  Odoardo mercket, daß er ſie nicht auf ſeine Seite bringen<lb/>kan, gehet er fort.
+                  Petronio aber ſagt zu ſeiner Tochter, ſie ſolle<lb/>nicht mehr an Odoardo, ſondern
+                  an Silvio, gedencken, den ſie zum<lb/>Manne haben muͤſſe. Aurelia antwortet, ſie
+                  wolle nicht viel Re-<lb/>dens machen, genug, daß ſie ihr Hertz und Wort bereits
+                  Odoardo<lb/>gegeben habe. Silvio trit auf, gruͤßt ſeine verſprochene Braut
+                  und<lb/>fragt ſie, ob ſie empfangen, was er ihr geſchickt? Sie antwortet<lb/>ihm
+                  gantz kaltſinnig mit nein, woruͤber der Arlequin mit dem Kaͤſt-<lb/>gen eintrit.
+                  Silvio ſchmaͤhlet, daß er ſo lange verweilet, er aber<lb/>entſchuldiget ſich, ſo
+                  gut er kan. Zuletzt macht Aurelia das Kaͤſtgen<lb/>auf, und als ſie einige
+                  laͤcherliche Sachen darinnen findet, wird ſie<lb/>boͤſe, Silvio aber gantz
+                  verwirret und gehet dem Arlequin zu Leibe,<lb/>der nicht weiß, was er von dieſer
+                  Verwandlung ſagen ſoll. Hier-<lb/>zu kommt Smeraldina, die ſich in eine fremde
+                  Frau verkleidet, und<lb/>wirfft dem Silvio abermahls ſeine Untreue und
+                  Unbeſtaͤndigkeit vor.<lb/>Nach einigen Poſſen giebt ſie ſich zu erkennen und
+                  hiermit endiget<lb/>ſich Die erſte Handelung.<lb/></p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handelung. </head>
+               <p rend="indent">Silvio trit auf und drohet dem Arlequin, weil er das Kaͤſtgen<lb/>
+                  <fw type="sig" place="bottom">* 2</fw>
+                  <fw type="catch" place="bottom">ver-</fw>
+                  <pb facs="#verhsme-6" n="6"/>
+                  <fw type="pageNum">6</fw>verwechſelt. Arlequin ſagt, er ſey ſelbſt erſtaunt und
+                  nach einigen<lb/>Poſſen kommt Odoardo. Wie dieſer den Silvio, ſeinen
+                  Neben-Buh-<lb/>ler, gewahr wird, zwingt er ihn, zum Degen zum greiffen.
+                  Arlequin<lb/>nimmt die Parthie ſeines Herrn und indem ſich alſo beyde
+                  Neben-<lb/>Buhler ſchlagen, faͤllt Silvio. Odoardo will ſich dieſen Zufall
+                  zu<lb/>Nutze machen, allein Smeraldina kommt, als ein Spanier gekleidet,<lb/>dazu
+                  und verhindert ihn. Odoardo gehet drohend fort. Smeraldi-<lb/>na wirfft dem Silvio
+                  ſeine Untreue vor u. entdecket ſich. Silvio wird<lb/>gantz verdruͤßlich, daß er
+                  derjenigen, die er haßet, ſoll das Leben zu<lb/>dancken haben. Smeraldina gehet
+                  ab. Silvio u. Arlequin bleiben.<lb/>Petronio trit auf, u. ſagt zu Silvio, Aurelia
+                  ſey gantz erzuͤrnet uͤber den<lb/>Poſſen, der ihr mit dem Kaͤſtgen begegnet, u.
+                  erzehlet was ihm die<lb/>fremde Frau geſagt. Silvio antwortet, es ſey ein bloßer
+                  Betrug, u.<lb/>er wolle allen denen, ſo ſich wiederſetzten, zum Verdruß heute
+                  noch<lb/>Hochzeit machen. Dem Petronio gefaͤllt die Antwort ſehr wohl.
+                  Silvio<lb/>ſagt, er wolle ein koſtbar Kleid kauffen und befiehlt dem
+                  Arlequin,<lb/>ſo lange vor dem Hauſe Wache zu halten, damit er vor den
+                  Anfaͤl-<lb/>len des Odoardo ſicher waͤre. Arlequin verſpricht in allem zu
+                  gehor-<lb/>ſamen u. Silvio u. Petronio gehen ab. Odoardo trit auf u. ſagt,
+                  er<lb/>habe den Silvio bey einem Troͤdler geſehen, u. er wolle ſich
+                  deſſen<lb/>Abweſenheit zu Nutz machen u. mit ſeiner Liebſte ſprechen. Wie
+                  er<lb/>den Arlequin vor der Thuͤre ſiehet, dencket er gleich, daß er auf<lb/>die
+                  Wache geſtellt ſey, macht allerley Poſſen mit ihm und geht end-<lb/>lich in das
+                  Hauß. Arlequin bleibt vor der Thuͤre. Silvio kommt<lb/>ſehr koſtbar angekleidet
+                  mit Petronio wieder zuruͤck und fragt den<lb/>Arlequin, ob jemand da geweſen?
+                  Arlequin ſagt ihnen auf eine<lb/>laͤcherliche Art, was ſich mit Odoardo zugetragen
+                  u. als Silvio und<lb/>Petronio hieruͤber beſtuͤrtzt werden, jagt Diana den Odoardo
+                  mit ei-<lb/>nem Stock in der Hand aus dem Hauſe und erzehlet beyden, daß
+                  ſie<lb/>den Odoardo bey ihrer Tochter im Zimmer gefunden. Silvio ſchlaͤgt,<lb/>um
+                  allen Verdruß zuvor zukommen, das Mittel vor, ſeine Braut zu<lb/>ſich in das Hauß
+                  zu nehmen und kunfftige Nacht mit ihr Hochzeit zu<lb/>
+                  <fw type="catch" place="bottom">ma-</fw>
+                  <pb facs="#verhsme-7" n="7"/>
+                  <fw type="pageNum">7</fw> machen. Diana u. Petronio billigen ſolches, ruffen die
+                  Aurelia, und<lb/>ſagen, daß ſie mit Silvio, als ihrem Manne, nach Hauſe gehen
+                  ſolle.<lb/>Aurelia weigert ſich zu gehorchen, ſie aber zwingen ſie;
+                  Worauf<lb/>nach einigen Poſſen die andern zum Silvio in das Hauß gehen,
+                  Petro-<lb/>nio aber da bleibet. Smeraldina trit auf, als ein Petit-Maitre,
+                  und<lb/>macht den Petronio aus, daß er ſeine Tochter dem Silvio wider ih-<lb/>ren
+                  Willen verheyrathen wolle, da ſich doch Silvio bereits mit an-<lb/>dern
+                  eingelaſſen. Petronio antwortet, er koͤnne ſein Wort nicht<lb/>wieder zuruͤck
+                  ziehen u. gehet ab. Smeraldina ſagt, ſie wolle es ſchon<lb/>hintertreiben u. gehet
+                  gleichfals fort. Odoardo trit auf und ſagt zu<lb/>dem Pantalon, daß Silvio Urſache
+                  ſey, daß er ſich mit der Aurelia<lb/>nicht verheyrathen koͤnne; indem ihm Petronio
+                  ſchon ſein Wort ge-<lb/>geben. Pantalon giebt ihm den Rath, er ſolle den Flaminio,
+                  ſeinen<lb/>guten Freund, dahin bringen, daß er ſich ſtelle, als ob er in die
+                  Sme-<lb/>raldina verliebt waͤre, welches ein Mittel ſey, den Silvio zu
+                  peinigen<lb/>und zu noͤthigen, daß er ihnen ihre Liebſten abtreten muͤſſe.
+                  Dem<lb/>Odoardo gefaͤllt dieſer Anſchlag u. er gehet ab, den Flaminio
+                  aufzu-<lb/>ſuchen. </p>
+               <stage>Der Schau-Platz ſtellet des Silvio Zimmer vor. </stage>
+               <p rend="indent">Diana und Petronio treten auf und ſagen zu der Aurelia, ſie
+                  ſolle<lb/>ſich zu frieden geben und den Silvio nur im guten heyrathen.
+                  Sie<lb/>ſchlaͤgt es aber ab u. fuͤhret ſeine vorigen Liebes-Haͤndel u.
+                  Unbeſtaͤn-<lb/>digkeit gegen die Smeraldina zur Urſache an; Sie aber lachen
+                  dar-<lb/>uͤber u. ſagen, daß ſie durchaus Gehorſam haben wolten. Silvio<lb/>trit
+                  auf, und nachdem er der Geſellſchafft ſeine Begruͤſſung gemacht,<lb/>ſagt er zur
+                  Aurelia, er habe eine Frantzoͤſiſche Kammer-Frau,<lb/>die ſich wohl anſtellte, in
+                  ſeine Dienſte genommen. Jndeſſen kommt<lb/>Arlequin u. ſagt zu Silvio, es frage
+                  eine fremde Frau nach ihm.<lb/>Silvio antwortet, es ſey eben die, von der er
+                  ſpreche, und befiehlt<lb/>dem Arlequin, er ſolle ſie herein kommen laſſen,
+                  Arlequin geht und<lb/>kommt mit der Smeraldina zuruͤck, die ſich, nach allerley
+                  Poſſen, an<lb/>den Silvio machet ihn einen unbeſtaͤndigen u. leichtſinnigen
+                  Menſchen<lb/>nennet, und mit vielem Lerm die andere Handlung beſchließt.</p>
+               <fw type="catch" place="bottom">Die</fw>
+               <pb facs="#verhsme-8" n="8"/>
+               <fw type="pageNum">8</fw>
+            </div>
+            <div type="act" n="3">
+               <head> Die dritte Handlung.</head>
+               <p rend="indent">Silvio trit auf und ſagt zu Petronio, daß er, ohnerachtet
+                  aller<lb/>unverſchaͤmten Bemuͤhung der Smeraldina, an dieſem Tage noch<lb/>mit der
+                  Aurelia Hochzeit machen wolle, und giebt ihm einen Beutel<lb/>mit Geld, um alles
+                  zur Mahlzeit noͤthige zu beſorgen. Er rufft den<lb/>Arlequin und befiehlet ihm,
+                  den Petronio, ſo, wie ihm ſelber zu ge-<lb/>horchen; Arlequin aber weigert ſich
+                  und ſagt, der Alte sey ein Schlinck-<lb/>ſchlanck, ein Geitzhalß und Betruͤger;
+                  Allein nach einigen Poſſen giebt<lb/>er ſich doch darein u. verſpricht zu
+                  gehorchen. Silvio gehet ab, um<lb/>ſeine guten Freunde zur Hochzeit zu bitten.
+                  Petronio heißet den Ar-<lb/>lequin folgen, welches er mit einigen Widerwillen
+                  thut.</p>
+               <stage>Der Schau-Platz verwandelt ſich in der Smeraldina Zimmer.</stage>
+               <p rend="indent">Brighella ſtellet der Smeraldina, die als eine
+                  Manns-Perſon<lb/>angekleidet iſt, vor, wie unanſtaͤndig ihrem Geſchlechte dieſe
+                  Klei-<lb/>dung ſey. Smeraldina antwortet ihm, ſie koͤnne thun, was ſie
+                  wolle<lb/>u. haͤtte Niemand Rechenſchafft von ihren Handlungen zu fodern.
+                  Hier-<lb/>zu kommt Pantalon, und wie er ſeine Muhme in ſolcher
+                  Kleidung<lb/>ſiehet, ſchmaͤhlet er, ſie aber antwortet ihm auf ihre wilde Art,
+                  mit<lb/>eben dem, was ſie dem Brighella geſagt, und gehet fort. Die an-<lb/>deren
+                  beyden folgen nach. Odoardo u. Flaminio bereden ſich mit<lb/>einander, den Silvio,
+                  ihren beyderſeitigen Neben-Buhler, umzubringen.<lb/>Silvio kommt dazu, ſie fodern
+                  ihn heraus, greiffen nach den Degen<lb/>und Silvio thut desgleichen. Smeraldina
+                  trit auf mit dem Degen in<lb/>der Hand u. ſtellet ſich auf die Seite des Silvio
+                  und ſicht zugleich mit.<lb/>Odoardo gehet fort. Smeraldina nimmt dem Flaminio den
+                  Degen.<lb/>Dieſer laͤufft fort. Silvio, der die Smeraldina nicht kennet,
+                  bedanckt<lb/>ſich gegen ihr, als ſeinen Befreyer; ſie aber antwortet, es ſey
+                  die<lb/>Schuldigkeit eines rechtſchaffenen Menſchen, dem ſchwaͤcheren
+                  Theil,<lb/>beyzuſtehen, und ſagt, ſie ſey ein Fremder. Silvio biethet ihr ſein
+                  Hauß<lb/>an und bittet ſie auf ſeine Hochzeit. Smeraldina williget in ſein
+                  An-<lb/>erbieten. Silvio zeigt ihr ſein Hauß, ſie aber ſaget, daß ſie nun-<lb/>
+                  <fw type="catch" place="bottom">mehr</fw>
+                  <pb facs="#verhsme-9" n="9"/>
+                  <fw type="pageNum">9</fw>mehro Gelegenheit habe, ihrer Liebe ein Genuͤge zu thun
+                  und ge-<lb/>het fort. Petronio trit auf giebt dem Arlequin, der einen
+                  Korb<lb/>traͤget, einen Verweiß. Petronio will ihm befehlen, er aber ſaget,<lb/>er
+                  habe keinen Reſpect fuͤr ihm, ſondern fuͤr ſeine Kleider, weil er<lb/>ein armer
+                  Bettler waͤre. Nach einigen Poſſen gehen beyde zu dem<lb/>Silvio in das
+                  Hauß.<lb/></p>
+               <stage>Der Schau-Platz ſtellt des Silvio Zimmer vor.</stage>
+               <p rend="indent">Silvio complimentiret mit der Aurelia, ſeiner verſprochenen
+                  Braut<lb/>die ihm aber allezeit ſehr kaltſinnig begegnet. Smeraldina kommt<lb/>mit
+                  Odoardo, der ſich in einen Diener verkleidet, u. einem Traͤger,<lb/>der einen
+                  Kuffer bringet. Nach einigen Complimenten wird der<lb/>Smeraldina ein Zimmer
+                  eingeraͤumet und Silvio bittet die Aurelia, die-<lb/>ſem Fremden alle Ehre
+                  anzuthun, weil er ihm das Leben zu dancken,<lb/>und er wolle indeſſen noch einige
+                  gute Freunde zur Hochzeit bitten.<lb/>Als ſich Smeraldina mit der Aurelia alleine
+                  ſiehet, giebt ſie ſich ihr<lb/>zu erkennen, ſagt ſie ſey des Silvio Liebhaberin
+                  und zu gleicher Zeit<lb/>preſentiret ſie ihr den Odoardo. Aurelia iſt ſehr erfreut
+                  daruͤber, be-<lb/>zeiget aber immer dabey ihre Furcht fuͤr ihrem Vater.
+                  Smeraldina<lb/>ſagt, ſie wolle den Haͤndel auf ſich nehmen u. hierauf treten alle
+                  in<lb/>des Silvio Zimmer. Silvio kommt im finſtern wieder zuruͤck u.
+                  ſchillt<lb/>auf den Arlequin, daß er kein Licht in das Zimmer bringe.
+                  Arle-<lb/>quin ſchiebt die Schuld auf den Petronio, ſeinen neuen Herrn.
+                  Sil-<lb/>vio ſchickt ihn fort, ein Licht zu holen. Jndeſſen, da Aurelia den
+                  Sil-<lb/>vio an der Stimme kennet, ſpricht ſie ſehr freundlich und
+                  verliebt<lb/>mit ihm Silvio kan ſich in dieſe Veraͤnderung nicht finden und
+                  fragt<lb/>nach der Urſache. Sie antwortet, ſie habe ſich nur bißhero,
+                  aus<lb/>Beſcheidenheit ſo gleichguͤltig bezeiget, waͤre aber allezeit
+                  wohl<lb/>fuͤr ihn geſinnet geweſen, welches ſie im dunckeln, da ſie nichts
+                  zu<lb/>befuͤrchten, eher zu erkennen geben koͤnte. Hierauf kommt Petro-<lb/>nio
+                  mit einem Wachs-Lichte. Aurelia bittet, um ihr Spiel auszu-<lb/>fuͤhren, den
+                  Silvio, daß er den Petronio mit dem Lichte wieder zu-<lb/>ruͤck ſchicken moͤchte,
+                  weil ſie lieber im finſtern bey ihm ſeyn wollte.<lb/>Silvio iſt erfreut und macht,
+                  daß Petronio wieder fortgehet. Diana<lb/>
+                  <fw type="catch" place="bottom">kommt</fw>
+                  <pb facs="#verhsme-10" n="10"/>
+                  <fw type="pageNum">10</fw>kommt auch mit einem Wachs-Lichte herein und ſagt zu
+                  Silvio,<lb/>daß die Mahleit ſertig ſey. Silvio macht, auf Bitte der Aurelia,
+                  daß<lb/>ſie wieder fort gehet. Hierauf kommt Arlequin; Silvio aber ſchickt<lb/>ihn
+                  auch fort. Jndeſſen nimmt Aurelia die Smeraldina bey der<lb/>Hand, giebt ſie
+                  unvermerckt an den Silvio und ſagt, es ſey beſſer, daß<lb/>ſie wohin giengen, wo
+                  ſie mehrere Freyheit haͤtten. Silvio glaubt<lb/>er habe die Aurelia bey der Hand
+                  und begiebt ſich mit der Smeraldi-<lb/>na in eine andere Kammer, da indeſſen
+                  Aurelia den Odoardo umar-<lb/>met und ihn gleichfals in ein beſonderes Zimmer
+                  fuͤhret. Ar-<lb/>lequin kommt mit einem Lichte zuruͤck, um den Silvio
+                  zubenachrichti-<lb/>gen, daß ſeine gebethenen Gaͤſte ſich bereits anfiengen uͤber
+                  ſeine Un-<lb/>hoͤfflichleit, daß er ſie ſo lange warten laſſe, zu beſchwehren?
+                  Silvio<lb/>kommt gantz erzuͤrnt zuruͤck und fragt den Arlequin, wer die
+                  Smeral-<lb/>dina in das Hauß gelaſſen? Arlequin antwortet ihm gantz
+                  verkehrt,<lb/>woruͤber Silvio boͤſe wird und zu der Aurelia in das Zimmer
+                  will.<lb/>Allein, Odoardo kommt mit dem Degen in der Hand heraus und fragt<lb/>ihn
+                  was er wolle? Silvio iſt gantz beſtuͤrtzt u. fragt, was er hier zu<lb/>thun habe?
+                  Odoardo antwortet, er ſey hier bey ſeiner Frau, der<lb/>Aurelia. Silvio, der
+                  glaubt, daß er ſie bey ſich habe, bittet ihn, <lb/>er moͤchte ſie heraus kommen
+                  laſſen. Odoardo rufft die Aurelia.<lb/>Als ſie kommt, fragt ſie Silvio gantz
+                  verwirret, mit wem er dem<lb/>Hochzeit gemacht? Aurelia antwortet, mit der
+                  Smeraldina. Silvio<lb/>geraͤth hieruͤber in aͤuſſerſten Zorn und geht nach dem
+                  Zimmer, um ſie<lb/>umzubringen. Smeraldina aber begegnet ihm unter der Thuͤre,
+                  als<lb/>eine Manns-Person angekleidet und fragt ihn, warum er ſo erzuͤr-<lb/>net
+                  ſey? Silvio erzehlet, was ihm Smeraldina fuͤr einen Poſſen ge-<lb/>ſpielet. Sie
+                  aber ſtellet ſich, als ob ſie dieſelbe nicht kenne. End-<lb/>lich, nach vielen
+                  Ausreden, giebt ſie ſich zu erkennen, bittet ihn um<lb/>Verzeihung. Dieſes
+                  bewerckſtelliget ſie mit einer ſo guten Art, daß<lb/>er ihr ſeine ewige Treue
+                  verſpricht. Alle uͤbrige freuen ſich uͤber die<lb/>ſonderbaren Haͤndel und
+                  beſtaͤtigen die neuen Verbindungen. Hier-<lb/>mit beſchließet ſich das gantze
+                  Schau-Spiel.<lb/></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

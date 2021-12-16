@@ -1,0 +1,710 @@
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le magie di Pietro d’Abano e Smeraldina regina degli spiriti</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Elena Barchielli</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                  >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>In base alla data indicata sul frontespizio dello scenario a stampa è possibile
+               stabilire che La commedia Le magie di Pietro d’Abano e Smeraldina, regina degli
+               spiriti fosse stata allestita a San Pietroburgo nel 1734 dalla seconda compagnia di
+               attori italiani. Non sono noti scenari analoghi nei repertori italiani e francesi dei
+               comici.</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Чародейства Петра Дабана и Смеральдины царицы духов</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV 8250 (19b) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="16">16 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="carod-1" url="001carod.jpg"/>
+            <graphic xml:id="carod-2" url="002carod.jpg"/>
+            <graphic xml:id="carod-3" url="003carod.jpg"/>
+            <graphic xml:id="carod-4" url="004carod.jpg"/>
+            <graphic xml:id="carod-5" url="005carod.jpg"/>
+            <graphic xml:id="carod-6" url="006carod.jpg"/>
+            <graphic xml:id="carod-7" url="007carod.jpg"/>
+            <graphic xml:id="carod-8" url="008carod.jpg"/>
+            <graphic xml:id="carod-9" url="009carod.jpg"/>
+            <graphic xml:id="carod-10" url="010carod.jpg"/>
+            <graphic xml:id="carod-11" url="011carod.jpg"/>
+            <graphic xml:id="carod-12" url="012carod.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#carod-1" n="1"/>
+            <head type="main">ЧАРОДѢИСТВА<lb/> ПЕТРА ДАБАНА, И СМЕРАЛДIНЫ ЦАРИЦЫ<lb/> ДУХОВЪ.</head>
+            <head type="sub">КОМЕДIЯ IТАЛIАНСКАЯ. <lb/> ВЪ САНКТПЕТЕРБУРРѢ,<lb/>
+               <date when="1734">1734 года.</date>
+            </head>
+            <pb facs="#carod-2" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent"> Петръ Дабанъ славнои чародѣи, влюѣился въ<lb/>Смералдїну царицу
+                  духовъ, которая его пре-<lb/>зирала ради Арлекїна любимаго ею, и которои<lb/>такъ
+                  же не хотѣлъ ея самои, влюбившися въ Ко-<lb/>раллïну. Сїе принуждаетъ двухъ
+                  любовниковъ<lb/>презрѣнныхъ бороться межъ соѣою чрезъ волше-<lb/>ства, которыми
+                  дѣлается, что Смералдїна по-<lb/>мощïю прозѣрпїниною выходитъ за Арлекїна,
+                  чемъ<lb/>и кончится. </p>
+               <p rend="indent">КОМЕДIЯ.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="pietrodabano_ru">ПEТРЪ ДАБАНЪ,</role>
+                  <roleDesc>славнои чародѣи.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДІНА,</role>
+                  <roleDesc>Царица духовъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ru">ДІАНА,</role>
+                  <roleDesc>племянница ея, влюбившаяся въ Сïлвїя.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ru">СIЛВIИ,</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                  <roleDesc>влюбившиïся въ Кораллїну.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="corallina_ru">КОРАЛЛIНА.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="pantalone_ru">ПАНТАЛОНЪ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                  <roleDesc> совѣтники Смералдïнины.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                  <roleDesc>слуга Сïлвïевъ.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Это дѣиствïе въ Медïоланѣ.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#carod-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+               <p rend="indent">СМЕРАЛДIНА выходитъ прельщаючи Арлекïна<lb/>и предъ нимъ статяся,
+                  которои показывается,<lb/>что бутто онъ не разумѣетъ, чего она чрезъ
+                  то<lb/>желаетъ. Сажаетъ она его подлѣ себя, взды-<lb/>хаетъ, и по некоторыхъ
+                  игрушкахъ приличныхъ<lb/>театру, обѣявляетъ она ему любовь свою. Онъ<lb/>еи прямо
+                  отказываетъ, да и пошолъ самъ прочь.<lb/>Та осталася печальна; а приходитъ. </p>
+               <p rend="indent">КОРАЛЛIНА, которая еи говоритъ, что<lb/>Петръ Дабанъ желаетъ съ нею
+                  поговорить. Она<lb/>еи приказываетъ пустить его предъ себя. Корал-<lb/>лїна пошла;
+                  а приходитъ Петръ Дабанъ; которои<lb/>проситъ Смералдїну, чтобъ изволила она
+                  соот-<lb/>вѣтстовать на его любовь. Она отъ него за-<lb/>щается съ презрѣнïемъ, и
+                  грозя другъ другу,<lb/>уходятъ.</p>
+               <p rend="indent">АРЛЕКIНЪ выходитъ разширяя многими сло-<lb/>вами любовь свою къ
+                  Кораллïне, которая ему го-<lb/>воритъ такимже способомъ; и когда они другъ
+                  друга<lb/>улещивали, тогда приходитъ Смералдїна, которая<lb/>ревнуя къ Арлекïну,
+                  грозитъ имъ, а cама прoчь<lb/>пошла. Арлекïнъ и Кораллïна умагчать ея гнѣвъ<lb/>за
+                  нею же пошли.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ БЕРЕГЪ НА МОРѢ.</stage>
+               <p> ДIАНА жалуется Бргïгеллу о томъ, что Смерал-<lb/>
+                  <fw type="sig" place="bottom">H 2</fw>
+                  <fw type="catch" place="bottom">дïна</fw>
+                  <pb facs="#carodejstva-4" n="4"/>
+                  <fw type="pageNum">4</fw> дïна не даетъ еи позволенїя вытьти за
+                  Сїлвïя.<lb/>Брïгеллъ еи совѣтуетъ, чтобъ уити съ нимъ<lb/>въ Персïю. Кораллïна
+                  будучи въ отчаянïи о гро-<lb/>захъ Смералдïниныхъ, говоритъ, что она хочетъ<lb/>въ
+                  безопасномъ мѣстѣ быть отъ своея противни-<lb/>цы. Брïгеллъ еи совѣуетъ, чтобъ она
+                  за нимъ<lb/>шла, куда онъ поидетъ съ Дïаною. Сказываетъ<lb/>онъ, что есть на
+                  пристанѣ судно со всѣмъ го-<lb/>тово отвалить. Кораллïна соглашается; а
+                  чтобъ<lb/>исполнить свое намѣренїе, пошли. </p>
+               <p rend="indent">ПЕТРЪ ДАБАНЪ говоритъ выходя о презрѣнïи,<lb/>и безпристрасности
+                  смералдïнинои къ себѣ. Но<lb/>увидѣвъ судно бѣгущее парусомъ,
+                  чародѣиствомъ<lb/>своимъ потопилъ оное, думая, что то Смерал-<lb/>дïна убѣгаетъ съ
+                  Арлекïномъ, а самъ пошолѣ. </p>
+               <p rend="indent">СIЛВIИ и АРЛЕКИНЪ другъ друга утѣшая<lb/>о жестокости смералдїнинои,
+                  слышатъ, что<lb/>кричитъ нѣкто прося помощи, да и увидѣли,<lb/>что плыветъ
+                  Брїгеллъ, которои имъ сказываетъ<lb/>о напасти, въ которои находятся Дїана, и
+                  Корал-<lb/>лїна. Сïлвïи и Арлекïнъ по некоторыхъ игруш-<lb/>кахъ своиственныхъ
+                  Театру, раздѣваются, и бро-<lb/>саются въ море, чтобъ помочь своимъ
+                  невѣ-<lb/>стамъ. Брïгеллъ пошолъ сушиться. Сїлвïи и<lb/>Арлекїнъ возвращаются
+                  держя каждои свою невѣ-<lb/>сту, которыя безъ памяти были. Кладутъ они<lb/>ихъ на
+                  землю, а сами пошли искать имъ то,<lb/>
+                  <fw type="catch" place="bottom">чемъ</fw>
+                  <pb facs="#carod-5" n="5"/>
+                  <fw type="pageNum">5</fw> чемъ бы имъ можно было помочь. Между тѣмъ<lb/>Смералдїна
+                  выходитъ гнѣваяся на поѣгъ Дïа-<lb/>нинъ, и Кораллїнинъ, съ которыми думала
+                  она,<lb/>что и Арлекïнъ такъ же ушолъ. Но увидѣвши<lb/>на землѣ сидящихъ безъ
+                  памяти преобразила<lb/>ихъ въ деревья; а сама пошла. Сїлвїи вовращае-<lb/>тся съ
+                  Арлекїномъ несучи водку благовонную, и<lb/>увидѣвъ, что ихъ невѣсты преображны въ
+                  дeревья,<lb/>изъ которыхъ огонь исходилъ, ужаснулися, и убѣ-<lb/>жали. </p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent">ПАНТАЛОНЪ выходитъ говоря Смералдïнѣ<lb/>великїя непотребства о
+                  Петрѣ Дабанѣ, котораго<lb/>сила чародѣиная обезпокоиваетъ всѣхъ его
+                  поддан-<lb/>ныхъ. Она ему приказываетъ сказать Доктору,<lb/>чтобъ онъ довѣдался о
+                  немъ, и чтобъ онъ при-<lb/>велъ Арлекïна, и Брїгелла, потому что она нѣ-<lb/>что
+                  говоритъ имъ хочетъ. Панталонъ послушався<lb/>пошолъ. Она чрезъ свое чародѣиство
+                  преобразила<lb/>свою камеру въ богатую Салу съ столомъ, и на<lb/>немъ готовымъ
+                  кушаньемъ, чтобъ обмануть<lb/>Арлекїна, которои приходитъ съ Брїгелломъ,
+                  и<lb/>которымъ Смералдїна прежестоко пеняетъ за ихъ<lb/>побѣгъ. Они въ томъ
+                  извиняются. Смералдїна<lb/>пошла грозя имъ. Тѣ видя столъ совсѣмъ готовои,<lb/>и
+                  хотя въ пользу себѣ употребить симъ случаемъ,<lb/>
+                  <fw type="sig" place="bottom">H 3</fw>
+                  <fw type="catch" place="bottom">при-</fw>
+                  <pb facs="#carod-6" n="6"/>
+                  <fw type="pageNum">6</fw> приближаются къ нему, изъ того происходятъ<lb/>многїя
+                  игрушки приличныя Театру, за которыми<lb/>слѣдуютъ преображенїя, которыми и
+                  кончится</p>
+               <p rend="indent">ДѢИСТВIЕ ПЕРВОЕ.</p>
+            </div>
+            <div type="act" n="2">
+               <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ЛЕСЪ.</stage>
+               <p rend="indent">Смералдїна выходитъ съ однимъ духомъ, ко-<lb/>тораго она
+                  преображаетъ въ камень, и которому<lb/>она приказываетъ чтобъ насмѣяться Арлекïну.
+                  Дала<lb/>она ему одну гїтарру. Петръ Дабанъ, которои<lb/>то видѣлъ издали,
+                  говоритъ, что онъ по про-<lb/>тивится намѣренїю Смералдïнину; да и та,
+                  и<lb/>другои уходятъ. Арлекїнъ, и Брïгеллъ выходятъ<lb/>говоря, что они хотятъ
+                  итьти на пристань, чтобъ<lb/>поискать другое судно для побѣгу съ Кораллїною,<lb/>и
+                  Дïаною; а утрудившись сѣли они на камнѣ,<lb/>чтобъ отдохнуть. Арлекїнъ видя
+                  гїттару, взялъ<lb/>оную, и сталъ на неи играть, из того произхо-<lb/>дятъ многїя
+                  шутки своиственныя Театру, послѣ<lb/>которыхъ тотъ камень преображается въ
+                  демона,<lb/>да и полетѣлъ. Арлекїнъ и Брïгеллъ остались безъ<lb/>памяти съ страху.
+                  Смералдїна приходитъ, и по-<lb/>велѣваетъ двумъ духамъ нарядить Арлекïна
+                  въ<lb/>Короля. Тѣ повелѣнное исполняютъ, на то при-<lb/>
+                  <fw type="catch" place="bottom">ходитъ</fw>
+                  <pb facs="#carod-7" n="7"/>
+                  <fw type="pageNum">7</fw> ходитъ Петръ Дабанъ, и проситъ Смералдïну,<lb/>чтобъ она
+                  пожаловала его любила. Та ему отъ<lb/>того отказываетъ. Петръ Дабанъ еи грозитъ,
+                  да и по-<lb/>шолъ. Смералдïна о томъ смѣется. Между тѣмъ<lb/>опамятовшися
+                  Арлекïнъ, чинитъ многїя шутки<lb/>своиственныя Театру, видя себя какъ
+                  наряженаго.<lb/>Смералдïна ему говоритъ о любви, и принуждаетъ<lb/>его дать слово,
+                  что онъ будетъ ея мужъ. Послѣ<lb/>чего она пошла. </p>
+               <p rend="indent">СIЛВIИ на то выходитъ, поздравлетъ онъ<lb/>Арлекїну о его царствïи,
+                  и проситъ чтобъ онъ<lb/>пожаловалъ датъ ему Дїану въ жену. Арлекïнъ<lb/>ихъ
+                  женитъ, и отсылаетъ. Кораллïна припамяты-<lb/>ваетъ Арлекïну обѣщанïe, которое онъ
+                  еи далъ,<lb/>чтобъ ея взять а себя. Арлекïнъ извиняется<lb/>говоря, что его
+                  царство тому противится.<lb/>Петръ Дабанъ, которои былъ не далеко, прихо-<lb/>дитъ
+                  и говоритъ Арлекїну, что ежели онъ не<lb/>сдержитъ евоего слова Кораллïнѣ, то онъ
+                  его<lb/>оборотитъ въ медведя. Арлекïнъ бояся того далъ,<lb/>руку Кораллïнe, и
+                  когда они хотели вытьти<lb/>вонъ, Смералдïна приходитъ, и укоряетъ Арлекïна<lb/>за
+                  невѣрность, бранитъ Кораллïну, и послѣ нѣ-<lb/>которыхъ ссоръ между женщинами,
+                  Арлекïнъ хо-<lb/>четъ обнять Смералдïну. Петръ Дабанъ оборачи-<lb/>ваетъ его въ
+                  меведя, да и пошолъ прочь самъ.<lb/>Смералдïна разгнѣвавшися, пошлажъ для отмщенïя<lb/>
+                  <fw type="catch" place="bottom">Петру</fw>
+                  <pb facs="#carod-8" n="8"/>
+                  <fw type="pageNum">8</fw> Петру Дабану. Кораллïна изпужавшися,
+                  уходитъ.<lb/>Арлекïнъ остался удивляяся о ихъ уходѢ. А при-<lb/>ходитъ Брïгеллъ,
+                  которои думая, что то медведь,<lb/>закричавъ побѣжалъ. Приходитъ Сïлвïи,
+                  которои<lb/>такъ же думая, что то прямои медведь, уходитъ,<lb/>а Арлекïнъ за ними
+                  гонится.</p>
+               <p rend="indent">СМЕРАЛДIНА слышя отъ Доктора о разоре-<lb/>нïяхъ, которыя новои
+                  медведь чинитъ, приказы-<lb/>ваетъ ему, чтобъ онъ, какъ наивозможно,
+                  поималъ<lb/>Петра Дабана, какъ заводчика всего того, безъ<lb/>чего, она ему
+                  отрубить велитъ голову, да и по-<lb/>шла. Докторъ за неюжъ пошолъ, для
+                  исполненїя<lb/>указу ея. Петръ Дабанъ подслушавъ все то,<lb/>говоритъ, что онъ ея
+                  имѣетъ обмануть, и видя<lb/>что идетъ Арлекïнъ, оборочиваетъ его въ себя,<lb/>дабы
+                  его непрïятельница, думая что то онъ<lb/>самъ, убила Арлекïна, да и пошолъ.
+                  Арлекïнъ<lb/>остался разсуждаючи о томъ, что ему случилось.<lb/>На то Докторъ
+                  приходитъ съ Салдатами, и думая,<lb/>что Арлекïнъ есть Петромъ Дабаномъ,
+                  беретъ<lb/>его, и уводитъ въ тюрму. </p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ САЛУ</stage>
+               <p> СМЕРАЛЬДIНА выходитъ разсуждаючи о про-<lb/>тивленїи Петра Дабана своеи любви.
+                  Тутъ<lb/>Докторъ еи говориъ, что онъ поималъ Дабана.<lb/>Она ему приказываетъ
+                  повѣсить его тотъ часъ.<lb/>
+                  <fw type="catch" place="bottom">Докторъ</fw>
+                  <pb facs="#carod-9" n="9"/>
+                  <fw type="pageNum">9</fw> Докторъ пошолъ исполнять приказъ.
+                  Смералдïна<lb/>говоритъ, что она хочетъ просить весь Адъ, чтобъ<lb/>ни какои духъ
+                  не противился ея намѣренïямъ. Дѣла-<lb/>етъ она обряды надлежащїе, а выходитъ
+                  одинъ<lb/>духъ, которои еи говоритъ именемъ плутоно-<lb/>вымъ, что онъ не хочетъ
+                  допустить до смерти<lb/>Петра Дабана; да и пропалъ. Она еще продолжа-<lb/>етъ свои
+                  чарованïя, тогда приходитъ Любовь съ<lb/>нераздѣлимою подругою своею Ревностïю.
+                  Смерал-<lb/>дïна говоритъ, что она звала только Любовь,<lb/>безъ Ревности.
+                  Ревность еи отвѣтствуетъ, что<lb/>она неразделима отъ любви. Любовь
+                  говоритъ<lb/>Смералдïнѣ, что она не можетъ еи помочь, и<lb/>что надобно еи просить
+                  Нептуна; потомъ Любовь<lb/>пошла прочь. Смералдïна слѣдуетъ ея совѣту;
+                  а<lb/>Нептунъ явился, которои говоритъ, что у него<lb/>нѣтъ силы помощь еи подать.
+                  Потомъ нырнулъ<lb/>онъ въ море. Смералдïна продолжаетъ свое заклинанїе,<lb/>а
+                  приходитъ къ неи Плутонъ съ Прозерпïною,<lb/>которая стала за Смералдïну противъ
+                  своего<lb/>мужа, и обѣщаетъ еи учинить чрезъ Вулкана<lb/>стрѣлу, которою Купïдонъ
+                  поразитъ Арлекїна,<lb/>и такъ будетъ она отъ него любима, да и пропала<lb/>съ
+                  мужемъ своимъ. Смералдїна осталася рада,<lb/>да и видитъ что летитъ орелъ, которои
+                  несетъ<lb/>въ когтяхъ своихъ одно писмо, которое прочи-<lb/>тавши Смералдїна
+                  увѣдомляется, что она скоро<lb/>
+                  <fw type="sig" place="bottom">O</fw>
+                  <fw type="catch" place="bottom">будетъ</fw>
+                  <pb facs="#carod-10" n="10"/>
+                  <fw type="pageNum">10</fw> будетъ владѣть своимъ любимымъ. Орелъ уле-<lb/> таетъ;
+                  а Смералдïна уходитъ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КУЗНИЦУ ВУЛКА-<lb/> НОВУ.</stage>
+               <p rend="indent">ВУЛКАНЪ повелѣваетъ Циклопамъ своимъ<lb/>чтобъ довершить стрѣлу,
+                  которую Прозерпïна<lb/>приказала здѢлать. Тѣ работаютъ. А приходитъ<lb/>одинъ
+                  духъ, которои по приказу Прозерпïнину<lb/>пришолъ взять стрѣлу. Вулканъ ему ту
+                  отдаетъ;<lb/>тѣмъ и кончится</p>
+               <p rend="indent"> ДѢИСТВIЕ ВТОРОЕ.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+               <p rend="indent">ДОКТОРЪ выходитъ говоря Арлекïну, что какъ<lb/>у него Петръ Дабанъ
+                  ушолъ изъ тюрмы, и что<lb/>онъ имѣетъ другое повелѣнïе, то есть,
+                  чтобъ<lb/>зарестовать онаго въ самомъ домѣ его. Прика-<lb/>зываетъ онъ ему стеречь
+                  у его ворот, а онъ вои-<lb/>детъ къ нему чрезъ огородныя ворота съ
+                  салда-<lb/>тами. Арлекïнъ обѣщается исполнить то. Докторъ<lb/>пошолъ. Арлекïнъ
+                  многїя чинитъ игрушки смѣшныя<lb/>съ однимъ кругомъ, котораго сила чародѣиная
+                  въ<lb/>томъ состояла, чтобъ не подвижимымъ быть.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent"> ПЕТРЪ Дабанъ приворятся, что бутто<lb/>
+                  <fw type="catch" place="bottom">спитъ</fw>
+                  <pb facs="#carod-11" n="11"/>
+                  <fw type="pageNum">11</fw> спитъ опершися о столъ, Докторъ приходитъ
+                  съ<lb/>Арлекïномѣ, и съ Салдатами, чтобъ его взять, изъ<lb/>того произходитъ
+                  многїя игрушки приличныя Теа-<lb/>тру, послѣ которыхъ берутъ они Петра
+                  Дабана,<lb/>и хотя его повести, aнъ приходитъ къ нимъ Змїи,<lb/>котораго всѣ
+                  изпужавжися разбѢгаются.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ СУДИЛИЩЕ.</stage>
+               <p rend="indent">ДОКТОРЪ и Панталонъ говорятъ Петру Да-<lb/>Бану, что надобно ему
+                  готовить себя къ смерти,<lb/>и что Смералдïна, не смотря на него, выдетъ
+                  за<lb/>Арлекïна. Дабанъ имъ грозитъ; тѣ надъ нимъ<lb/>смѣются. Дабанъ точасъ
+                  здѣлалъ такъ, что<lb/>судья пропалъ; для того всѣ разбѣжались.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">CМЕРАЛДIНА приходитъ, и грозами принужда-<lb/>етъ Кораллïну вытьти
+                  за Брïгелла. Кораллïна<lb/>соглашается на то съ трудностїю.
+                  Смералдїна<lb/>приказываетъ Брïгеллу, чтобъ прислать Арлекïна.<lb/>Брïгелъ пошолъ
+                  съ Кораллïною повелѣнное чинить.<lb/>Смералдїна говоритъ, что она имѣетъ ту
+                  стрѣ-<lb/>лу, которую еи далъ Вулканъ, и что если<lb/>Арлекïнъ еи отъ любви
+                  откажетъ, то она отвѣ-<lb/>даетъ ту стрѣлу. Арлекïнъ приходитъ. Та его<lb/>проситъ
+                  о любви, онъ еи отказываетъ. Она касае-<lb/>
+                  <fw type="catch" place="bottom">тся</fw>
+                  <pb facs="#carodejstva-12" n="12"/>
+                  <fw type="pageNum">12</fw> тся къ нему стрѣлою. Арлекïнъ тотчасъ
+                  почюв-<lb/>ствовалъ, что горитъ къ неи любовïю, далъ еи<lb/>руку. Дабанъ, которои
+                  все то видѣлъ, пришедъ<lb/>говоритъ Смералдïнѣ, что онъ живетъ не смотря<lb/>на ея
+                  указы, и что онъ всегда будетъ еи мученї-<lb/>емъ. Смералдïна надъ нимъ смѣется,
+                  обнимаетъ<lb/>Арлекїна, и уходитъ. Дабанъ въ отчаянïи умоляетъ<lb/>Адъ. На всемъ
+                  Театрѣ стало быть темно. Дабанъ<lb/>пошолъ.</p>
+               <p rend="indent">CIЛВIИ приходитъ съ Дïаною удивляяся о сеи<lb/>темнотѣ нечаяннои;
+                  говорятъ, что они хотятъ<lb/>веселиться съ Смералдïною послучаю ея
+                  брака,<lb/>приходятъ тутъ многїя духи, которые чрезъ<lb/>многïя смѣхотворства
+                  бываемыя на Театре, въ<lb/>страхъ приводятъ тѣхъ двухъ любящихся. На
+                  конецъ<lb/>всѣ приходятъ. Смералдїна опять учинила свѣтъ.<lb/>Не велитъ ни кому
+                  бояться, утверждаетъ браки,<lb/>а знаками радости кончится</p>
+               <p rend="indent">КОМЕДIЯ.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Die Bezauberung des Peter von Abano und der Smeraldina Koͤnigin der
+                  Geiſter</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name> Elena Barchielli</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                     >Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV 8250 (19a) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="8">8 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="bezaub-1" url="001bezaub.jpg"/>
+            <graphic xml:id="bezaub-2" url="002bezaub.jpg"/>
+            <graphic xml:id="bezaub-3" url="003bezaub.jpg"/>
+            <graphic xml:id="bezaub-4" url="004bezaub.jpg"/>
+            <graphic xml:id="bezaub-5" url="005bezaub.jpg"/>
+            <graphic xml:id="bezaub-6" url="006bezaub.jpg"/>
+            <graphic xml:id="bezaub-7" url="007bezaub.jpg"/>
+            <graphic xml:id="bezaub-8" url="008bezaub.jpg"/>
+            <graphic xml:id="bezaub-9" url="009bezaub.jpg"/>
+            <graphic xml:id="bezaub-10" url="010bezaub.jpg"/>
+         </surface>
+         <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#bezaub-1" n="1"/>
+            <head type="main">Die Bezauberung<lb/> Des Peter von Abano und der Sme-<lb/> raldina
+               Koͤnigin der Geiſter</head>
+            <head type="sub">welche in einem<lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an
+               dem<lb/> Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/>
+               <date when="1734">1734.</date> vorgeſtellet worden.</head>
+            <pb facs="#bezaub-2" n="2"/>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Peter von Abano verliebet ſich in die Smeraldina, Koͤnigin
+                  der<lb/>Geiſter, welche ihn aber verachtet; weil ſie in den Arlequin<lb/>verliebt
+                  iſt. Allein Arlequin iſt jener auch nicht geneigt weil ihn<lb/>die Corallina
+                  eingenommen. Dieſes verurſachet, daß die verach-<lb/>teten verliebten einander
+                  allerley Tort mit Zaubereyen anthun, wel-<lb/>che endlich dahinaus lauffen, daß
+                  die Smeraldina, durch Huͤlffe<lb/>der Hoͤllen-Goͤttin Proſerpina den Arlequin
+                  heyrathet; womit ſich<lb/>das Spiel endiget.</p>
+            </div>
+            <castList>
+               <head>Die perſonen.</head>
+               <castItem>
+                  <role xml:id="pietrodabano_ge">Peter von Abano</role>
+                  <roleDesc> ein beruͤhmter Zauberer der in die</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina</role>
+                  <roleDesc> Koͤnigin der Geiſter verliebt iſt.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ge">Diana</role>
+                  <roleDesc>eine Befreundin derſelben verliebt in den</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ge">Silvio.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin</role>
+                  <roleDesc>verliebt in die Corallina</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="corallina_ge">Corallina.</role>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_ge">Pantalon und der</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_ge">Doctor,</role>
+                     <roleDesc>Raͤthe der Smeraldina.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="brighella_ge">Brighella</role>
+                  <roleDesc>Diener des Silvio.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Venedig.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#bezaub-3" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Erſte Handlung.</head>
+               <p rend="indent">Smeraldina trit auf und bezeiget gegen den Arlequin<lb/>allerley
+                  abgeſchmackte Hoͤfflichkeit, der ſich ſtellet,<lb/>als ob er nicht verſtuͤnde was
+                  ſie haben wollte. Sie heiſ-<lb/>ſet ihn neben ſich ſitzen; ſie ſeufftzet, und
+                  erklaͤret ihm ih-<lb/>re Liebe. Er ſchlaͤgt ihr alles ab und gehet fort.
+                  Sie<lb/>bleibt gantz beſtuͤrtzt zuruͤck. Corallina koͤnnt und ſagt<lb/>ihr, daß
+                  ſie Peter von Abano zuſprechen verlange; und<lb/>ſie befiehlet ihr, ihn herein
+                  kommen zu laſſen. Corallina<lb/>gehet weg. Peter von Abano koͤmmt und bittet die
+                  Sme-<lb/>raldina um ihr Gegen-Liebe; Sie aber begegnet ihm mit<lb/>großer
+                  Verachtung. Beyde drohen einander und gehen<lb/>fort.</p>
+               <p rend="indent"> Arlequin koͤmmt zuruͤck und macht gegen die Coral-<lb/>lina viele
+                  Liebes-Erklaͤrungen, welche ſie mit gleicher<lb/>Art beantwortet. Als ſie einander
+                  careßiren koͤmmt die<lb/>Smeraldina dazu, bezeiget ihre Eiferſucht gegen den
+                  Ar-<lb/>lequin und geht drohend fort. Arlequin und Corallina fol-<lb/>gen ihr
+                  nach; um ihren Ausſchweiffungen zuvor zu kom-<lb/>men. </p>
+               <stage>Der Schau-Platz ſtellet ein Ufer des Meeres vor.</stage>
+               <p rend="indent"> Diana beklaget ſich gegen den Brighella, daß ihr<lb/>Smeraldina
+                  nicht erlauben wolle, den Silvio zu heyrathen.<lb/>Brighella ermahnet ſie; mit ihm
+                  die Flucht zu nehmen und<lb/>nach Perſien zu gehen. Corallina, welche durch die
+                  Dro-<lb/>hungen der Smeraldina in die aͤuſſerſte Verzweifflung ge-<lb/>rathen,
+                  ſagt, ſie wolle ſich von ihre Neben-Buhlerin<lb/>verbergen. Brighella giebt ihr
+                  den Rath, ihm dahin zu<lb/>folgen, wo er mit der Diana hingehen wuͤrde und
+                  ſaget,<lb/>daß ein Schiff im Hafen zum Abſeegeln fertig liege.<lb/>Corallina iſt
+                  es zu frieden und ſie gehen allerſeits fort, ihr<lb/>Vorhaben auszufuͤhren. </p>
+               <fw type="sig" place="bottom">(* 3)</fw>
+               <fw type="catch" place="bottom">Peter</fw>
+               <pb facs="#bezaub-4" n="4"/>
+               <fw type="pageNum">4</fw>
+               <p rend="indent">Peter von Abano trit auf und redet von der Verach-<lb/>tung und
+                  Gleichguͤltigkeit, womit ihm die Smeraldina<lb/>begegnet, und da er durch ſeine
+                  Zauberey ein abſeegeln-<lb/>des Schiff zuſehen bekoͤmmt, faͤlt er auf den
+                  Argwohn,<lb/>daß Smeraldina mit dem Arlequin die Flucht nehmen<lb/>wolle und gehet
+                  fort. </p>
+               <p rend="indent">Silvio und Arlequin troͤſten ſich einander wegen Grau-<lb/>ſamkeit
+                  der Smeraldina. Sie hoͤren, daß jemand nach<lb/>Huͤlffe ruffet und ſehen den
+                  Brighella auf einem Kahne<lb/>kommen, der ihnen ſaget, daß Diana und Corallina
+                  in<lb/>Gefahr waͤren, ihr Leben zu verliehren. Silvio und Ar-<lb/>lequin ziehen
+                  ſich aus und ſpringen in das Waſſer;<lb/>um ihre Geliebten zu retten. Brighella
+                  gehet fort, um<lb/>ſich abzutrocknen. Silvio und Arlequin kommen,
+                  ihre<lb/>ohnmaͤchtigen Geliebten auf den Arme tragend, zuruͤck<lb/>und ſetzen ſie
+                  am Lande nieder und gehen weg, um ihnen<lb/>einige Erquickungen zuhohlen. Jndeſſen
+                  koͤmmt die Sme-<lb/>raldina, welche einen raſenden Zorn uͤber die Flucht
+                  der<lb/>Diana und Corallina blicken laͤſſet; weil ſie glaubt, daß der<lb/>Arlequin
+                  dabey geweſen. Wie ſie dieſelben in Ohnmacht<lb/>auf der Erde liegen ſiehet,
+                  verwandelt ſie ſolche in Baͤu-<lb/>me und begiebt ſich weg. Silvio koͤmmt nebſt
+                  dem Arle-<lb/>quin mit Staͤrckungs-Waſſer zuruͤck; wie ſie aber ſehen,<lb/>daß
+                  ihre Geliebten in Baͤume verwandelt ſind, ſo Feuer<lb/>fallen laſſen, erſchrecken
+                  ſie und lauffen fort.</p>
+               <stage>Der Schau-Platz ſtellet ein Zimmer vor.</stage>
+               <p rend="indent">Pantalon trit auf und ſagt zu der Smeraldina, daß
+                  die<lb/>Zauber-Macht des Peter von Abano alle ſeine unterge-<lb/>benen beunruhige.
+                  Sie befiehlet dem Pantalon, dem Doctor<lb/>zuvermelden, daß er ihm beyſtehen und
+                  Arlequin und<lb/>Brighella herſchaffen ſollte; weil ſie ihnen etwas zu
+                  ſagen<lb/>habe. Pantalon gehet fort, ihren Befehl auszurichten;<lb/>Sie aber
+                  verwandelt, durch zauberiſche Beſchwehrun-<lb/>gen, ihr Zimmer in eine magnifiquen
+                  Saal, in wel-<lb/>
+                  <fw type="catch" place="bottom">chem</fw>
+                  <pb facs="#bezaub-5" n="5"/>
+                  <fw type="pageNum">5</fw> chem eine beſetzte Zauber-Tafel ſtehet, um den
+                  Arlequin<lb/>zu foppen. Arlequin koͤmmt nebſt dem Brighella, und<lb/>nachdem ſie
+                  ihnen, mit vielen ſcharffen Vorwuͤrffen,<lb/>ihre Flucht verwießen, dieſe aber
+                  ihre Entſchuldigung vor-<lb/>gebracht, geht ſie drohend weg. Arlequin und
+                  Brighel-<lb/>la wollen ſich der beſetzen Tafel bedienen, welches aller-<lb/>ley
+                  Poſſen und Verwandlungen verurſachet, womit ſich<lb/>die erſte Handlung
+                  beſchlieſſet.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handlung.</head>
+               <stage>Der Schau-Platz ſtellet einen Wald vor.</stage>
+               <p rend="indent">Smeraldlina koͤmmt mit einem Geiſte, den ſie in ei-<lb/>nen Stein
+                  verwandelt und ihm befielet, den Arlequin zu<lb/>veriren, wozu ſie ihm eine
+                  Citther giebt. Peter von<lb/>Abano, der alles von ferne geſehen und gehoͤret,
+                  ſagt, er<lb/>wolle ſich ihrem Vorhaben wiederſetzen und beyde gehen<lb/>fort. </p>
+               <p rend="indent">Arlequin und Brighella treten auf und ſagen, ſie wollten<lb/>nach
+                  den Hafen gehen und zuſehen, ob ſie nicht ein ander<lb/>Schiff faͤnden, deſſen ſie
+                  ſich, zur Flucht mit der Diana und<lb/>Corallina, bedienen koͤnten. Weil ſie muͤde
+                  ſind, ſetzen ſie ſich<lb/>auf den Stein, um auszuruhen. Arlequin ſiehet die
+                  Citther<lb/>liegen, nimmt ſie und ſielet darauf. Hieruͤber verwan-<lb/>delt ſich
+                  der Stein in einen Teuffel und flieget fort. Ar-<lb/>lequin und Brighella find
+                  halb todt fuͤr Furcht. Smeral-<lb/>dina koͤmit und befiehlet zweyen Geiſtern, den
+                  Arlequin<lb/>als einen Koͤnig zu kleiden. Sie gehorſamen. Peter<lb/>von Abano trit
+                  auf und bittet die Smeraldina um Gegen-<lb/>Liebe. Sie ſchlaͤgt ſie ihm ab. Er
+                  gehet drohend weg.<lb/>Smeraldina lacht uͤber ihn. Jndeſſen erhohlet ſich
+                  Arlequin<lb/>von ſeiner Bezauberung und wie er ſich in ſo vornehmer<lb/>Kleidung
+                  ſiehet, macht er allerley Poſſen. Smeraldina <lb/>traͤgt ihm abermahls ihre Liebe
+                  an, noͤthiget ihn, ſein<lb/>
+                  <fw type="sig" place="bottom">(* 3)</fw>
+                  <fw type="catch" place="bottom">Wort</fw>
+                  <pb facs="#bezaub-6" n="6"/>
+                  <fw type="pageNum">6</fw> Wort von ſich zugegen, daß er ihr Mann ſeyn wolle;<lb/>
+                  und gehet weg.</p>
+               <p rend="indent">Silvio trit auf, wuͤnſchet den Arlequin Gluͤck zu
+                  der<lb/>Koͤniglichen Wuͤrde und bittet ihn, daß er ihm die Dia-<lb/>na zur
+                  Gemahlin geben wolle. Arlequin giebt ſie zuſam-<lb/>men. Corallina erinnert den
+                  Arlequin an ſein Verſpre-<lb/>chen, ſie zu heyrathen. Arlequin entſchuldiget ſich
+                  und ſa-<lb/>get, ſeine Koͤnigl. Wuͤrde ſey ihm hieran hinderlich.<lb/>Peter von
+                  Abano, der bißhero auf der Seite geſtanden,<lb/>trit vor und ſagt zu dem Arlequin,
+                  woferne er der Co-<lb/>rallina ſein Verſprechen nicht halten wuͤrde, wollte er
+                  ihn<lb/>in einen Baͤr verwandeln. Arlequin giebt aus Furcht<lb/>der Corallina die
+                  Hand, wie er aber fort gehen will,<lb/>koͤmmt die Smeraldina und wirfft ihm ſeine
+                  Treuloßig-<lb/>keit vor. Sie begegnet der Corallina gleichfals ſehr uͤbel,<lb/>und
+                  nach dieſem Gezaͤncke, will Arlequin die Smeraldina<lb/>umarmen, Peter von Abano
+                  aber verwandelt ihn in einen<lb/>Baͤr und geht fort. Smeraldina verlaͤſſet
+                  gleichfals den<lb/>Schau-Platz in aͤuſſerſter Raſerey, um ſich an dem Aba-<lb/>no
+                  zu raͤchen. Arlequin bleibet, und wie Brighella koͤmmt,<lb/>glaubt er, er ſey ein
+                  Baͤr und nimmt die Flucht. Wel-<lb/>ches ſich eben ſo mit dem Silvio, der Diana,
+                  dem Doctor,<lb/>dem Pantalon und zweyen Soldaten zutraͤget; worauf<lb/>Arlequin
+                  ebenfals entweichet.</p>
+               <p rend="indent"> Smeraldina hoͤret von dem Doctor, was der Baͤr aufs<lb/>neue fuͤr
+                  Verwuͤſtungen vorgenommen und befiehlet ihm<lb/>alles moͤgliche anzuwenden, den
+                  Abano, als den Urheber<lb/>von allen dieſen Dingen, gefangen zu nehmen. Sie
+                  gehet<lb/>ab. Der Doctor folget nach, um ihren Befehl auszu-<lb/>richten. Peter
+                  von Abano, der alles mit angehoͤret, ſaget,<lb/>er wolle ſie betruͤgen, und da er
+                  den Arlequin kommen<lb/>ſiehet, verwandelt er ihn in ſeine eigene Perſon,
+                  damit<lb/>ſeine Feindin glauben moͤge, er habe ſich nunmehro ſelbſt<lb/>
+                  <fw type="catch" place="bottom">um</fw>
+                  <pb facs="#bezaub-7" n="7"/>
+                  <fw type="pageNum">7</fw> um das Leben gebracht. Arlequin redet von dem,
+                  was<lb/>ihm begegnet. Der Doctor koͤmmt mit einer Parthey<lb/>Schaar-Waͤchter, und
+                  weil er ſich einbildet, Arlequin ſey<lb/>der Peter von Abano, nimmt er ihn
+                  gefangen.</p>
+               <stage>Der Schau-Platz verwandelt ſich in einen Saal.</stage>
+               <p rend="indent">Smeraldina trit auf und ſpricht von den Hinderniſſen, ſo<lb/>Abano
+                  ihrer Liebe in den Weg leget. Der Doctor koͤmmt und<lb/>ſagt, er habe den Abano
+                  gefangen genommen. Sie befiehlet, daß<lb/>er ihn hencken laſſen ſolle. Der Doctor
+                  gehet weg, ihren Befehl aus-<lb/>zurichten. Smeraldlina ſaget, ſie wolle die
+                  Hoͤlle beſchwoͤren, um zu<lb/>ſehen, welcher Geiſt ſich ihrem Vorhaben
+                  wiederſetzte. Sie macht<lb/>die noͤthigen Ceremonien der Beſchwoͤrung; worauf ein
+                  Geiſt er-<lb/>ſcheinet, der ihr, im Nahmen des Hoͤllen-Gotts, Pluto, ſaget,
+                  er<lb/>koͤnne den Tod des Abano nicht zugeben. Der Geiſt verſchwin-<lb/>det
+                  wieder, ſie aber ſetzet ihre Beſchwoͤrung fort. Worauf die<lb/>Liebe und die
+                  Eiferſucht hervorkommen. Smeraldina ſagt, ſie habe die<lb/>Liebe nur allein, und
+                  nicht die Eiferſucht mit, geruffen. Die Eifer-<lb/>ſucht antwortet, ſie ſey eine
+                  unabtrennliche Gefaͤhrtin der Liebe.<lb/>Die Liebe ſagt zu der Smeraldina, ſie
+                  koͤnne ihr nicht beyſtehen;<lb/>ſie ſolle ſich bey dem Neptunus melden, und gehet
+                  fort. Smeraldina<lb/>folget ihrem Rath und laͤſſet den Neptunus kommen, der ſich
+                  ent-<lb/>ſchuldiget und ihr den Rath ertheilet, ſie lolle bey dem
+                  Plato<lb/>Huͤlffe ſuchen, worauf er wieder zuruͤck gehet. Smeraldina
+                  faͤhret<lb/>in ihren Beſchworungen fort und Pluro erſcheinet nebſt der
+                  Proſer-<lb/>pina, welche ſich der Smeraldina, wieder ihren Mann, annimmt
+                  und<lb/>ihr verſpricht, durch den Vulcanus einen Wurff⸗Spieß machen zu<lb/>laſſen,
+                  mit welchem der Cupido den Arlequin verwunden und in ſie<lb/>verliebt machen
+                  ſollte. Sie verſchwindet nebſt dem Pluto. Sme-<lb/>raldina troͤſtet ſich mit
+                  dieſem Verſprechen; worauf ein Adler ge-<lb/>pflogen koͤmmt, der eine Schrifft in
+                  ſeinem Schabel bringet.<lb/>Smeraldina findet in ſelbiger eine Verſicherung, daß
+                  ſie zum Beſitz<lb/>ihres Geliebten kommen werde. Der Adler fliegt davon, und
+                  Sme-<lb/>raldina retiriret ſich.</p>
+               <stage>Der Schau-Platz ſtellet die Werck-Staͤte des Vulcanus vor.</stage>
+               <p rend="indent">Der Doctor trit auf und ſaget zu dem Arlequin, weil ihm<lb/>Abano
+                  aus dem Gefaͤngniß entwiſchet; ſo habe er neue Ordre, ihn<lb/>in ſeinem Hauſe
+                  zuarretiren; Derohalhen ſolle er vor der Thuͤre Wa-<lb/>che halten; Er wolle mit
+                  den Soldaten von hinten, durch den Gar-<lb/>
+                  <fw type="catch" place="bottom">ten</fw>
+                  <pb facs="#bezaub-8" n="8"/>
+                  <fw type="pageNum">8</fw> ten in das Hauß fallen. Arlequin verſpricht es zu thun.
+                  Der Doctor<lb/>gehet fort. Arlequin machet, unter allerley Poſſen, einen
+                  Circkel,<lb/>welcher die Wirckung hat, daß derjenige, ſo hineintrit,
+                  unbeweg-<lb/>lich ſtehen bleibet.</p>
+               <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+               <p rend="indent">Peter von Abano lieget mit dem Kopfe auf einem Tiſche<lb/>und
+                  ſtellet ſich als ob er ſchlieffe. Der Doctor, der Arlequin und<lb/>die Soldaten
+                  treten herein, um ihn zu arretiren. Wie ſie ſolches<lb/>bewerekſtelligen und mit
+                  ihm fort geben wollen, koͤmmt ein Dragoner;<lb/>worauf alle gantz erſchrocken die
+                  Flucht nehmen.</p>
+               <stage>Der Schau-Platz ſtellet eine Richter-Stube vor</stage>
+               <p rend="indent">Der Doctor und der Pantalon ſagen zu dem Peter von Abano,<lb/>er
+                  ſolle ſich zum Tode bereiten und Smeraldina wuͤrde, ihm zum<lb/>Poſſen, den
+                  Arlequin heyrathen. Abano ſtoͤſet Drohungen aus. Sie<lb/>lachen ihn aus; Er aber
+                  macht, daß der Richter verſchwindet;<lb/>worauf alle fortlauffen.</p>
+               <stage>Der Schau-Platz verwandelt ſich in eine Stadt.</stage>
+               <p rend="indent"> meraldina trit auf und noͤthiget die Coralina, durch
+                  ihre<lb/>Drohungen, den Brighella zuheyrathen. Nach vielen Schwuͤrig-<lb/>keiten
+                  gehet ſie es ein. Smeraldina befiehlet dem Brighella, den<lb/>Arlequin zu ruffen
+                  und er gehet nebſt de Corallina weg; ihren Be-<lb/>fehl aus zurichten. Smeraldina
+                  hat den Wurff-Spieß in der Hand,<lb/>ſo ihr der Vulcanus gegeben, und will
+                  nunmehro die Probe damit<lb/>machen. Arlequin koͤmmt, und als ſie ihn um
+                  Gegen-Liebe bittet,<lb/>giebt er ihr eine abſchlaͤgige Antwort. Sie ruͤhrt ihn mit
+                  dem<lb/>Wurff-Spieß an. Arlequin empfindet, daß er in ſie verliebt wird,<lb/>und
+                  giebt ihr die Hand. Abano, der auf der Seite geſtanden, trit<lb/>hervor und ſagt
+                  der Smeraldina, er lebe, ihres ſtrengen Befehls un-<lb/>geachtet, dennoch, und er
+                  wolle zu ihrer unaufhoͤrlichen Plage wer-<lb/>den. Smeraldina lacht uͤber ihn,
+                  umarmet ben Arlequin und gehet<lb/>fort. Abano beſchwoͤret die Hoͤlle; Der
+                  Schau-Platz wird finſter<lb/>und er gehet weg.</p>
+               <p rend="indent"> Silvio trit nebſt der Diana auf. Beyde verwundern ſich
+                  uͤber<lb/>die unvermuthete Finſterniß. Silvio ſagt, er wolle der
+                  Sme-<lb/>raldlina, wegen ihrer Heyrath, gluckwuͤnſchen. Es erſchienen
+                  aller-<lb/>ley Geſpenſter welche beyden Liebenden ein Schrecken einjagen.
+                  Zu<lb/>letzt verſchwinden ſie. Smeraldina laͤſſet wieder Tag werden,
+                  und<lb/>nachdem die Heyrathen beſtaͤtiget worden, endiget ſich, mit
+                  dieſem<lb/>Vergnuͤgen, das gantze Schau-Spiel.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>
