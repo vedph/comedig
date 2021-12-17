@@ -4,4 +4,9 @@
 - The subdirectories in `imgs` hold the scans of the libretti.
 
 
-The online presentation is very basic and still in preparation.
+The online presentation is very basic and still under construction.
+
+# TODO
+
+- add image files
+- optimize presentation of parallel text (currently texts aren't well aligned)
