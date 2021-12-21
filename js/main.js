@@ -1,29 +1,29 @@
 // List of the XML files to be processed.
 const XMLFiles = [
-  "/teatro700/xml/Il_Francese_a_Venezia_CORPUS.xml",
-  "/teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml",
-  "/teatro700/xml/La_nascita_di_Arlecchino_1733.xml",
-  "/teatro700/xml/Le_fortunate_disgrazie_di_Arlecchino_CORPUS (RU_GE).xml",
-  "/teatro700/xml/Brighella_armi_e_bagagli_CORPUS.xml",
-  "/teatro700/xml/Gli_amanti_rivali_CORPUS.xml",
-  "/teatro700/xml/Il_dottore_da_due_volti_CORPUS.xml",
-  "/teatro700/xml/Il_Francese_a_Venezia_CORPUS.xml",
-  "/teatro700/xml/Il_grande_Basilisco_CORPUS_rivisto_TK.xml",
-  "/teatro700/xml/I_quattro_arlecchini_CORPUS.xml",
-  "/teatro700/xml/La_lavandaia_nobile_CORPUS.xml",
-  "/teatro700/xml/La_nascita_di_Arlecchino_1733.xml",
-  "/teatro700/xml/L_Arcadia_incantata_CORPUS.xml",
-  "/teatro700/xml/le_disgrazie_di_pantalone_e_arlecchino_finto_corriere_poi_anche_barbiere_alla_moda_CORPUS_(RU_GE).xml",
-  "/teatro700/xml/Le_fortunate_disgrazie_di_Arlecchino_CORPUS (RU_GE).xml",
-  "/teatro700/xml/le_magie_di_pietro_d_abano_e_smeraldina_regina_degli_spiriti_CORPUS_(RU_GE)__rivisto_TK.xml",
-  "/teatro700/xml/Lo_spergiuro_CORPUS_(RU_GE).xml",
-  "/teatro700/xml/Smeraldina_che_si_fa_odiare_CORPUS_TK.xml",
-  "/teatro700/xml/Smeraldina_spirito_folletto_CORPUS.xml"
+  "/comedig/xml/Il_Francese_a_Venezia_CORPUS.xml",
+  "/comedig/xml/Il_dottore_da_due_volti_CORPUS.xml",
+  "/comedig/xml/La_nascita_di_Arlecchino_1733.xml",
+  "/comedig/xml/Le_fortunate_disgrazie_di_Arlecchino_CORPUS (RU_GE).xml",
+  "/comedig/xml/Brighella_armi_e_bagagli_CORPUS.xml",
+  "/comedig/xml/Gli_amanti_rivali_CORPUS.xml",
+  "/comedig/xml/Il_dottore_da_due_volti_CORPUS.xml",
+  "/comedig/xml/Il_Francese_a_Venezia_CORPUS.xml",
+  "/comedig/xml/Il_grande_Basilisco_CORPUS_rivisto_TK.xml",
+  "/comedig/xml/I_quattro_arlecchini_CORPUS.xml",
+  "/comedig/xml/La_lavandaia_nobile_CORPUS.xml",
+  "/comedig/xml/La_nascita_di_Arlecchino_1733.xml",
+  "/comedig/xml/L_Arcadia_incantata_CORPUS.xml",
+  "/comedig/xml/le_disgrazie_di_pantalone_e_arlecchino_finto_corriere_poi_anche_barbiere_alla_moda_CORPUS_(RU_GE).xml",
+  "/comedig/xml/Le_fortunate_disgrazie_di_Arlecchino_CORPUS (RU_GE).xml",
+  "/comedig/xml/le_magie_di_pietro_d_abano_e_smeraldina_regina_degli_spiriti_CORPUS_(RU_GE)__rivisto_TK.xml",
+  "/comedig/xml/Lo_spergiuro_CORPUS_(RU_GE).xml",
+  "/comedig/xml/Smeraldina_che_si_fa_odiare_CORPUS_TK.xml",
+  "/comedig/xml/Smeraldina_spirito_folletto_CORPUS.xml"
 ];
 
 var CETEIcean;
 
-const Teatro700 = {
+const Comedig = {
   works: [],
   agents: [],
 
@@ -85,7 +85,7 @@ const Teatro700 = {
       const facsimileResult = this.runXPath(xmlDoc, ".//tei:facsimile//tei:graphic", a);
       const facsimile = { language, images: [] };
       for (let i = facsimileResult.iterateNext(); i; i = facsimileResult.iterateNext()) {
-        facsimile.images.push("/teatro700" + i.getAttribute("url"));
+        facsimile.images.push("/comedig" + i.getAttribute("url"));
       }
       work.facsimiles.push(facsimile);
     }
@@ -107,7 +107,7 @@ const Teatro700 = {
       const elmLi = document.createElement("li");
       const elmA = document.createElement("a");
       elmA.setAttribute("class", "dropdown-item");
-      elmA.setAttribute("href", "/teatro700/work?id=" + workId);
+      elmA.setAttribute("href", "/comedig/work?id=" + workId);
       elmA.textContent = work.title;
       elmLi.appendChild(elmA);
       elm.appendChild(elmLi);
@@ -122,7 +122,7 @@ const Teatro700 = {
       const elmLi = document.createElement("li");
       const elmA = document.createElement("a");
       elmA.setAttribute("class", "dropdown-item");
-      elmA.setAttribute("href", "/teatro700/agent?id=" + agentId);
+      elmA.setAttribute("href", "/comedig/agent?id=" + agentId);
       elmA.textContent = agent.name;
       elmLi.appendChild(elmA);
       elm.appendChild(elmLi);
@@ -130,7 +130,7 @@ const Teatro700 = {
   },
 
   maybeShowWork() {
-    if (!location.pathname.startsWith("/teatro700/work")) {
+    if (!location.pathname.startsWith("/comedig/work")) {
       return;
     }
 
@@ -258,7 +258,7 @@ const Teatro700 = {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = agent.name;
-        a.href = "/teatro700/agent?id=" + agentId;
+        a.href = "/comedig/agent?id=" + agentId;
         li.appendChild(a);
         agentWorkList.appendChild(li);
       }
@@ -266,7 +266,7 @@ const Teatro700 = {
   },
 
   maybeShowAgent() {
-    if (!location.pathname.startsWith("/teatro700/agent")) {
+    if (!location.pathname.startsWith("/comedig/agent")) {
       return;
     }
 
@@ -287,7 +287,7 @@ const Teatro700 = {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = work.title;
-        a.href = "/teatro700/work?id=" + workId;
+        a.href = "/comedig/work?id=" + workId;
         li.appendChild(a);
         agentWorkList.appendChild(li);
       }
@@ -314,7 +314,7 @@ const Teatro700 = {
 
     if (!store) return;
 
-    const rdfData = await fetch("/teatro700/rdf/people.rdf").then(r => r.text());
+    const rdfData = await fetch("/comedig/rdf/people.rdf").then(r => r.text());
     await new Promise(resolve => {
       store.load("text/turtle", rdfData, (err, results) => {
         if (err) {
@@ -357,4 +357,4 @@ SELECT ?name ?seeAlso WHERE {
   }
 };
 
-Teatro700.init();
+Comedig.init();
