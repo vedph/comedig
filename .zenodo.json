@@ -1,0 +1,38 @@
+{
+    "creators": [
+        {   
+            "orcid": "0000-0002-2660-1299",
+            "name": "Korneeva, Tatiana"
+        },
+        {   
+            "name": "Mancinelli, Tiziana"
+        },
+        {   
+            "name": "Zordan, Eleonora"
+        },
+        {   
+            "name": "Barchielli, Elena"
+        },
+        {   
+            "name": "Tonini, Vittorio"
+        },
+        {
+            "name": "Winkler, Alexander",
+            "orcid": "0000-0002-9145-7238"
+        }
+    ],    
+
+    "license": "cc-by",
+
+    "title": "Edizione scientifica digitale e la traduzione italiana della raccolta degli scenari delle commedie dell’arte rappresentate alla corte di San Pietroburgo dal 1733 al 1735",
+
+
+    "keywords": [
+        "commedia dell’arte",
+        "scenarios",
+        "Italian theatre",
+        "actors",
+        "St Petersburg, 18 century"
+    ]
+    
+}
