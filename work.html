@@ -23,7 +23,14 @@ layout: default
               <div class="card-header">
                 <select class="form-select" id="compareA"></select>
               </div>
-              <div class="card-body" id="bodyA"></div>
+              <div class="card-body">
+                <div class="nav justify-content-center contentController" id="bodyA-pagination">
+                  <span class="pageCount"></span>
+                  <button type="button" class="btn btn-outline-primary btn-sm paginationPrevButton" onclick="Teatro700.prevPagination(event);">Previous</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm paginationNextButton" onclick="Teatro700.nextPagination(event);">Next</button>
+                </div>
+                <div id="bodyA" class="contentTEI"></div>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -31,7 +38,14 @@ layout: default
               <div class="card-header">
                 <select class="form-select" id="compareB"></select>
               </div>
-              <div class="card-body" id="bodyB"></div>
+              <div class="card-body">
+                <div class="nav justify-content-center contentController" id="bodyB-pagination">
+                  <span class="pageCount"></span>
+                  <button type="button" class="btn btn-outline-primary btn-sm paginationPrevButton" onclick="Teatro700.prevPagination(event);">Previous</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm paginationNextButton" onclick="Teatro700.nextPagination(event);">Next</button>
+                </div>
+                <div id="bodyB" class="contentTEI"></div>
+              </div>
             </div>
           </div>
         </div>

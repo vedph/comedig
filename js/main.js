@@ -130,14 +130,19 @@ const Teatro700 = {
     const elmCompareA = document.getElementById("compareA");
     const elmCompareB = document.getElementById("compareB");
 
-    const showBody = (value, body)  => {
+    const showBody = (value, body, bodyPagination)  => {
+      const elmPagination = document.getElementById(bodyPagination);
+      elmPagination.setAttribute("hidden", "true");
+
       const elm = document.getElementById(body);
       while (elm.firstChild) elm.firstChild.remove();
 
       if (value.startsWith("version-")) {
         const versionId = parseInt(value.slice(8), 10);
         CETEIcean.domToHTML5(work.versions[versionId], data => {
-          document.getElementById(body).appendChild(data);
+          const elm = document.getElementById(body);
+          elm.appendChild(data);
+          this.createPagination(elm, elmPagination);
         });
         return;
       }
@@ -147,6 +152,7 @@ const Teatro700 = {
         div.setAttribute("id", "openseadragon");
         div.setAttribute("style", "height: 600px;");
         elm.appendChild(div);
+        div.scrollIntoView();
 
         const images = [];
         const facsimileId = parseInt(value.slice(10), 10);
@@ -164,8 +170,8 @@ const Teatro700 = {
         return;
       }
     }
-    elmCompareA.onchange = e => showBody(e.target.value, "bodyA");
-    elmCompareB.onchange = e => showBody(e.target.value, "bodyB");
+    elmCompareA.onchange = e => showBody(e.target.value, "bodyA", "bodyA-pagination");
+    elmCompareB.onchange = e => showBody(e.target.value, "bodyB", "bodyB-pagination");
 
     work.versions.forEach((version, pos) => {
       const language = this.runXPath(work.xmlDoc, ".//tei:language", version).iterateNext().textContent;
@@ -201,7 +207,14 @@ const Teatro700 = {
         CETEIcean.addBehaviors({"tei":{
          "graphic": function(elt) {
            // No images
-         }
+         },
+         "pb": function(elt) {
+          const elm = document.createElement("p");
+          elm.setAttribute("class", "pageBreak");
+          elm.innerText = `- ${elt.getAttribute("n")} -`;
+          elm.setAttribute("style", "color: red");
+          return elm;
+         },
         }});
       }
 
@@ -228,8 +241,8 @@ const Teatro700 = {
       }
     });
 
-    showBody("version-0", "bodyA");
-    showBody("version-0", "bodyB");
+    showBody("version-0", "bodyA", "bodyA-pagination");
+    showBody("version-0", "bodyB", "bodyB-pagination");
 
     const agentWorkList = document.getElementById("agentWorkList");
     this.agents.forEach((agent, agentId) => {
@@ -338,6 +351,52 @@ SELECT ?name ?seeAlso WHERE {
         seeAlso: [ new URL(result.seeAlso.value, window.location) ],
       });
     });
+  },
+
+  createPagination(elm, elmPagination) {
+    const pbs = elm.firstChild.getElementsByClassName("pageBreak");
+    const pages = pbs.length;
+    if (pages <= 1) return;
+
+    elmPagination.removeAttribute('hidden');
+
+    elmPagination.setAttribute("data-page", "0");
+    elmPagination.setAttribute("data-elm", elm.id);
+
+    this.showPage(elmPagination, 0);
+  },
+
+  prevPagination(elm) {
+    const parent = elm.target.parentElement;
+    const nextPage = parseInt(parent.getAttribute("data-page"), 10) - 1;
+    this.showPage(parent, nextPage);
+  },
+
+  nextPagination(elm) {
+    const parent = elm.target.parentElement;
+    const nextPage = parseInt(parent.getAttribute("data-page"), 10) + 1;
+    this.showPage(parent, nextPage);
+  },
+
+  showPage(elmPagination, page) {
+    elmPagination.setAttribute("data-page", page);
+    const elm = document.getElementById(elmPagination.getAttribute("data-elm"));
+    const pbs = elm.firstChild.getElementsByClassName("pageBreak");
+
+    if (page <= 0) {
+      elmPagination.getElementsByClassName("paginationPrevButton")[0].setAttribute("disabled", "disabled");
+    } else {
+      elmPagination.getElementsByClassName("paginationPrevButton")[0].removeAttribute("disabled");
+    }
+
+    if (page >= pbs.length - 1) {
+      elmPagination.getElementsByClassName("paginationNextButton")[0].setAttribute("disabled", "disabled");
+    } else {
+      elmPagination.getElementsByClassName("paginationNextButton")[0].removeAttribute("disabled");
+    }
+
+    elmPagination.getElementsByClassName("pageCount")[0].innerText = `Page ${page + 1} of ${pbs.length}`;
+    pbs[page].scrollIntoView();
   }
 };
 

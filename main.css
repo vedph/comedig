@@ -1,0 +1,11 @@
+.contentTEI {
+  height: 500px;
+  overflow: scroll;
+  padding: 1em;
+}
+
+.contentController {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0.3em;
+}
