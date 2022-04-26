@@ -1,0 +1,716 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colombina maga</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Eleonora Zordan</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Stando al rendiconto amministrativo di Giuseppe Avolio che riporta annotazioni
+               relative all’allestimento della “commedia della maga”, Colombina volšebnica fu messa
+               in scena il 17 giugno 1735 dalla terza compagnia di attori italiani attivi alla corte
+               di San Pietroburgo. Il ritrovamento dello scenario nella Biblioteca universitaria di
+               Göttingen si deve a Robert-Aloys Mooser ed è posteriore alla pubblicazione della
+               raccolta di Peretc nel 1907. La stampa in lingua russa preservata a Göttigen
+               non trova riscontro nella raccolta preservata nella Biblioteca dell’Accademia delle
+               Scienze di San Pietroburgo. Non è stata tuttora rinvenuta anche la stampa dello
+               scenario in lingua tedesca.</p>
+            <p>La protagonista della commedia fu probabilmente interpretata da Rosa Pontremoli,
+               specializzata nel ruolo della servetta Colombina. Si tratta di una commedia di magia
+               basata sui rapidi e spettacolari travestimenti dell’attrice (in zingara, contadina
+               fiorentina, mercante armeno, paggio, dama francese, avvocato).</p>
+            <p>Una commedia dal titolo e dal contenuto pressoché identico, Colombina maga, andò in
+               scena a Varsavia nel gennaio 1749. Gli scenari Coraline magicienne, rappresentata il
+               2 luglio 1744 al Nouveau Théâtre Italien, e Coraline esprit follet andata in scena il
+               21 maggio 1744 a Parigi, anche se appartengono anch’essi alla tipologia delle pièces
+               de transformations, presentano una trama completamente diversa rispetto alla commedia
+               pietroburghese (Ferrazzi, 145–146; De Luca, 282–283).</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>КОЛОМБIНА ВОЛШЕБНИЦА</title>
+               <respStmt>
+                  <resp>Transcription by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Eleonora Zordan</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (35) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="11">11 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="colomaga_ru_001" url="/img/colomaga_ru_001.jpg"/>
+            <graphic xml:id="colomaga_ru_002" url="/img/colomaga_ru_002.jpg"/>
+            <graphic xml:id="colomaga_ru_003" url="/img/colomaga_ru_003.jpg"/>
+            <graphic xml:id="colomaga_ru_004" url="/img/colomaga_ru_004.jpg"/>
+            <graphic xml:id="colomaga_ru_005" url="/img/colomaga_ru_005.jpg"/>
+            <graphic xml:id="colomaga_ru_006" url="/img/colomaga_ru_006.jpg"/>
+            <graphic xml:id="colomaga_ru_007" url="/img/colomaga_ru_007.jpg"/>
+            <graphic xml:id="colomaga_ru_008" url="/img/colomaga_ru_008.jpg"/>
+            <graphic xml:id="colomaga_ru_009" url="/img/colomaga_ru_009.jpg"/>
+            <graphic xml:id="colomaga_ru_010" url="/img/colomaga_ru_010.jpg"/>
+            <graphic xml:id="colomaga_ru_011" url="/img/colomaga_ru_011.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#colomaga_ru_001" n="1"/>
+            <head type="main">КОЛОМБIНА ВОЛШЕБНИЦА<lb/></head>
+            <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1735">1735.</date></head>
+            <pb facs="#colomaga_ru_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ</head>
+               <p rend="indent">Прïнцъ Соррïентскïи убивъ въ Турноа,<lb/> то есть, на забавномъ бою,
+                  Рудолфа сына, Ал-<lb/>фонса Герцога Калабрскаго, убѣгаетъ въ Сардïнïю,<lb/> гдѣ
+                  влюбливается онъ въ Прїнцессу Дорїcбу, кото-<lb/>рую онъ по томъ оставилъ, обѣщавъ
+                  ея за себя<lb/> взять, и возвращается таино въ Калабрїю, гдѣ такъ<lb/> же уязвився
+                  красотою Элмїры, сестры того Прїнца,<lb/> котораго онъ убилъ. Дорïсба будучи въ
+                  великои пе-<lb/>чали, что онъ ея оставилъ, хватается за Коломбїну<lb/> волшебницу,
+                  которая узнавши, чрезъ свою науку,<lb/> гдѣ живетъ Артандръ, обѣщаетъ еи свою
+                  помощь.<lb/> Симъ начинается Комедїя.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮIЩЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="colombina_ru">КОЛОМБIНА,</role>
+                  <roleDesc>волшебница.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="alfonso_ru">АЛФОНСЪ,</role>
+                  <roleDesc>Герцогъ Калабрскїи.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dorisba_ru">ДОРIСБА,</role>
+                  <roleDesc>Прїнцесса Сардïнская.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="elmira_ru">ЭЛМIРА,</role>
+                  <roleDesc>дочь Алфонсова.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="ernesto_ru">ЭРНСТЪ,</role>
+                  <roleDesc>Прïнцъ Сардïнскïи.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="artandro_ru">АPТАНДРЪ,</role>
+                  <roleDesc>Прïнцъ Соррентскïи.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                  <roleDesc>слуга его.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_ru">ПAНТАЛОНЪ, и</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_ru">ДОКТОРЪ;</role>
+                     <roleDesc>совѣтники Алфонсовы.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                  <roleDesc>слуга Герцоговъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="spiriti_ru">Духи.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="cacciatori_ru">Охотники.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="paggi_ru">Пажи.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="soldati_ru">Солдаты.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Дѣиствуется въ Реггïи.</p>
+            </set>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+         </front>
+         <body>
+            <pb facs="#colomaga_ru_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+               <stage>ЛѢСЪ.</stage>
+               <p rend="indent">КОЛОМБIНА является съ Дорïсбою въ колесницѣ,<lb/> которую везутъ по
+                  воздуху чудовища. Выходитъ<lb/> она изъ тои на землю, и спрашиваетъ у Дорїсбы
+                  при-<lb/>чину ея печали. Дорїсба еи сказываетъ о любви своеи<lb/> къ Артандру, о
+                  его обѣщанїи, и о побѣгѣ. Коломбїна<lb/> обѣщается еи сказать то, что съ нимъ
+                  дѣлается<lb/> теперь, и проситъ ея, чтобъ она отошла по далѣ;<lb/> а чрезъ
+                  характеры, и знаки волшебные принуждаетъ<lb/> духовъ адскихъ явиться, и принесть
+                  еи то, чего<lb/> она требуетъ. Приноситъ она свою жертву; на<lb/> театрѣ становися
+                  темно, изъ того происходитъ<lb/> гроза, и выходитъ одинъ духъ, и еи
+                  сказываетъ,<lb/> что Артандръ находится при дворѣ Алфонса Гер-<lb/>цога
+                  Калабрскаго, будто бы садовникомъ, гдѣ онъ<lb/> влюбился въ Прїнцессу Элмïру,
+                  которая его кроетъ<lb/> бояся отца. Коломбїна велитъ духу поити, и
+                  при-<lb/>казываетъ ему все взять; потомъ говоритъ, что она<lb/> хочетъ начать
+                  служить своеи госпожѣ, да и пошла.</p>
+               <p rend="indent">АРТАНДРЪ выходитъ говоря Элмïрѣ, что гроза<lb/> ихъ отлучила отъ
+                  компанїи, и что онъ боится,<lb/> чтобъ отецъ ея въ подозрѣнїе не пришолъ.
+                  Элмïра<lb/> его ободряетъ говоря, что въ семъ платьѣ не возмо-<lb/>жно его узнать,
+                  а когда они увѣряли другъ друга<lb/> о вѣчнои и взаимнои любви, тогда выходитъ
+                  Колом-<lb/>бїна нарядившися цыганкои. Обѣщается она имъ ска-<lb/>зать о ихъ
+                  щастїи; а смотря на руку Артандрову<lb/> сказываетъ ему Iсторїю его, и то, что онъ
+                  таится,<lb/> такъ же и любовь къ двумъ Прїнцессамъ, говоря, что<lb/> другая
+                  Прїнцесса его кроетъ одеждою садовничьею,<lb/> дабы<lb/>
+                  <fw type="sig" place="bottom">B 2</fw>
+                  <fw type="catch" place="bottom">дабы</fw>
+                  <pb facs="#colomaga_ru_004" n="4"/>
+                  <fw type="pageNum">4</fw> дабы его чрезъ то избавить отъ отмщенїя своего<lb/>
+                  отца. Артандръ и Элмїра стали быть въ великомъ<lb/> ужасѣ отъ того, что имъ толь
+                  ясно Iсторїя ихъ<lb/> сказана была, и бояся науки цыганкинои, соглаша-<lb/>ются
+                  убить ея. Арлекїнъ приходитъ съ Брїгелломъ.<lb/> Артандръ имъ приказываетъ убить
+                  ту жонку. Ко-<lb/>ломбїна укоряетъ его неблагодарностїю. Арлекїнъ<lb/> и Брїгеллъ
+                  хотятъ приказъ исполнить. Та отъ нихъ<lb/> избавляется чрезъ свое чародѣиство, и
+                  говоря Эл-<lb/>мїрѣ, чтобъ она невѣрила сему не доброму человѣку,<lb/> пошла.
+                  Элмïра говоритъ Артандру, чтобъ онъ на<lb/> вѣки покинулъ надежду получить ея за
+                  себя, по<lb/> тому что она нехочетъ итыти за непостояннаго,<lb/> да и пошла прочь.
+                  Артандръ пришедъ въ великую<lb/> печаль о всемъ томъ, говоритъ, что онъ
+                  вся-<lb/>чески постарается ея умолить. На то выходитъ<lb/> Дорїсба, остановляетъ
+                  его, и укоряетъ его непосто-<lb/>янствомъ. Артандръ ея презираетъ, называетъ
+                  ея<lb/> любовь бездѣлицею, да и пошолъ. Дорїсба оставшись<lb/> печальна желаетъ,
+                  чтобъ на него гнѣвъ пришолъ не-<lb/>бесныи, и по томъ пошла.<lb/> Старики выходятъ
+                  говоря, что ихъ гроза отлу-<lb/>чила отъ Прїнцессы, и что они не знаютъ, что
+                  съ<lb/> нею учинилось. На то Арлекїнъ приходитъ съ Брї-<lb/>гелломъ, будучи оба въ
+                  великои боязни о томъ,<lb/> что имъ случилося съ цыганкою; Сказываютъ они<lb/> про
+                  то старикамъ. Коломбїна выходитъ нарядившись<lb/> флорентїнскою деревенскою бабою,
+                  и своимъ языкомъ<lb/> говоритъ имъ, что желалабъ она себѣ мужа такъ<lb/>
+                  снисходительнаго, каковъ у ея сестры, а нетакова,<lb/> за какова мать ея хочетъ
+                  отдать. Всѣ стали ста-<lb/>раться, чтобъ получить отъ нея себѣ ту милость. Та<lb/>
+                  осeрдившись преображаетъ ихъ въ скотовъ, да и по-<lb/>
+                  <fw type="catch" place="bottom">шла</fw>
+                  <pb facs="#colomaga_ru_005" n="5"/>
+                  <fw type="pageNum">5</fw>шла. Они, послѣ многихъ шутокъ, пошли же.<lb/></p>
+               <p rend="indent">АЛФОНСЪ выходитъ съ Эрнстомъ, и съ охотни-<lb/>ками, говоритъ онъ,
+                  что онъ въ великомъ затруд-<lb/>ненїи о своеи дочери, для того что онъ не
+                  видалъ<lb/> ея послѣ грозы, которая перемѣшала всю охоту.<lb/> Эрнестъ показываетъ
+                  въ томъ же быть себя затруд-<lb/>ненїи; по томъ проситъ ея у него въ жену
+                  себѣ.<lb/> Алфонсъ отговаривается тѣмъ, что онъ хочетъ ея<lb/> отдать только за
+                  того, кто принесетъ ему голову<lb/> сыноубïица своего. Эрнстъ обѣщается ему
+                  то<lb/> учинить, да и пошолъ. Алфонсъ остался. На то<lb/> Коломбїна приходитъ
+                  нарядившись въ купца Армен-<lb/>скаго; показываетъ ему алмазныя вещи
+                  продажныя.<lb/> И когда Алфонсъ оныя вещи смотрѣлъ, тогда онъ<lb/> и заснулъ.
+                  Коломбїна говоритъ, что то ему учи-<lb/>нилось чрезъ ея волхвованїе; кличетъ она
+                  Дорїсбу,<lb/> и говоритъ еи, чтобъ она украла у Алфонса печать<lb/> его. Дорїсба
+                  то исполняетъ. Коломбїна взяла оную;<lb/> по томъ восхитила спящаго Алфонса
+                  облакомъ, чтобъ<lb/> его положить въ его палатахъ; и увѣряя паки До-<lb/>рїсбу о
+                  щастливои удачѣ, пошла съ нею.</p>
+               <stage>САЛА, СЪ СТОЛОМЪ НАКРЫТЫМЪ.</stage>
+               <p rend="indent">АЛФОНСЪ пробуждаяся дивится, что онъ себя<lb/> видитъ въ своихъ
+                  покояхъ, толь наипаче, что онъ<lb/> заснулъ въ лѣсу будучи. И чтобъ познать, какъ
+                  то<lb/> случилось, сталъ кликать людеи. Старики прихо-<lb/>дяъ съ Арлекїномъ и
+                  Брїгелломъ, которые были<lb/> преображены въ скотовъ. Чинятъ они многїе
+                  шутки,<lb/> къ вящшему ужасу Герцоговому о ихъ преображенїи.<lb/> Изъ того
+                  происходитъ новое преображенїе, которое<lb/> окончаваетъ дѣиствїе первое.</p>
+            </div>
+            <fw type="sig" place="bottom">B 3</fw>
+            <fw type="catch" place="bottom">ДѣИ-</fw>
+            <pb facs="#colomaga_ru_006" n="6"/>
+            <fw type="pageNum">6</fw>
+            <div type="act" n="2">
+               <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+               <p rend="indent">АЛФОНСЪ выходитъ говоря старикамъ, что всѣ<lb/> чудеса, которыя
+                  приключаются въ его дворѣ, не<lb/> происходятъ какъ отъ гнѣва сына его,
+                  которои<lb/> требуетъ, чтобъ отмстить его убїицѣ, да и по-<lb/>велѣваетъ, чтобъ
+                  призвать къ себѣ Эрнста. Эрнстъ<lb/> въ самое то время и пришолъ, показывая
+                  Герцогу<lb/> ревность свою къ услугамъ его. Алфонсъ ему благо-<lb/>даритъ, и чтобъ
+                  его ободрить больше, призвалъ<lb/> Элмïру, которои приказываетъ, чтобъ она
+                  обѣщала<lb/> руку свою Эрнсту, когда онъ отмститъ за ея<lb/> брата, да и пошолъ съ
+                  стариками. Эрнстъ старает-<lb/>ся, чтобъ прїятнымъ учинится Элмïрѣ. Та ему<lb/>
+                  сказываетъ прямо, что она не послушаетъ въ томъ<lb/> отца своего, для того что она
+                  никаковои склонно-<lb/>сти не имѣетъ къ нему Эрнсту. Эрнстъ въ печали<lb/>
+                  отвѣтствуетъ еи, что онъ всего ожидаетъ отъ<lb/> времени, въ разсужденїи ея
+                  благости, такъ же и<lb/> отъ власти отцовцкїя; послѣ чего онъ и пошолъ.<lb/>
+                  Элмїра осталася, не зная что бы еи надлежало<lb/> чинить; а приходитъ Артандръ,
+                  которои послѣ<lb/> многихъ разговоровъ съ нею, увѣряетъ Элмïру о своеи<lb/>
+                  вѣрности говоря, что то, что цыганка учинила,<lb/> и имъ говорила, не что иное,
+                  какъ чародѣиство, ко-<lb/>торому не надлежитъ вѣрить; помирившись они<lb/> между
+                  собою выходятъ.</p>
+               <stage>САДЪ.</stage>
+               <p rend="indent"> ДОРIСБА въ мужескомъ платьѣ выходитъ съ Ко-<lb/>ломбїною наряженою
+                  лакеемъ, которая тои совѣ-<lb/>туетъ, чтобъ она называлася дворяниномъ
+                  послан-<lb/>нымъ отъ нея самыя, чтобъ просить Артандра, да<lb/>
+                  <pb facs="#colomaga_ru_007" n="7"/>
+                  <fw type="pageNum">7</fw>бы онъ возвратился въ Сардїнïю, для исполненїя<lb/>
+                  своего обѣщанїя; и буде бы сталъ онъ отговаривать-<lb/>ся, тобъ она сняла съ руки
+                  своеи перстень, кото-<lb/>рои она еи дастъ, чрезъ что онъ ея имѣетъ узнать,<lb/> а
+                  онабъ его укоряла за его невѣрность. По томъ<lb/> стала Коломбїна еи обѣщать, что
+                  ежелибъ все то<lb/> не удалося, то она имѣетъ еще средство, чрезъ<lb/> которое
+                  можетъ она его вызвать изъ сего государ-<lb/>ства; отъ чего можетъ онъ позабыть
+                  Элмїру. По-<lb/>томъ Коломбїна видя, что Арлекїнъ выходитъ,<lb/> отослала прочь
+                  Дорїсбу, да и стала сказывать Арле-<lb/>кїну, что одна дама Французская влюбившись
+                  въ<lb/> него, хочетъ съ нимъ поговориь. Арлекїнъ показы-<lb/>вается быть
+                  спесивымъ. Коломбїна проситъ его,<lb/> чтобъ онъ опять сюда возвратился. Арлекїнъ
+                  по-<lb/>шолъ. Дорïсба возвращается. Коломбїна сказываетъ<lb/> еи свою слабость къ
+                  Арлекїну, и видя, что идетъ<lb/> Артандръ, пошла. Артандръ выходитъ. Дорїсба<lb/>
+                  исполняетъ совѣтъ Коломбїнинъ. Артандръ осер-<lb/>дился, и хочетъ ея убить.
+                  Коломбїна его за-<lb/>вораживаетъ; и послала прочь Дорїсбу увѣряя ея,<lb/> что
+                  Артандръ выѣдетъ изъ сего государства.<lb/> По томъ его отворожила, и дала ему
+                  писмо под-<lb/>ложное запечатаное печатью Алфонсовою. Артандръ<lb/> читаетъ;
+                  удивляется онъ, что Герцогъ, непрїятель<lb/> его, знаетъ про него, и что совѣтуетъ
+                  ему, чтобъ<lb/> онъ выѣхалъ, и не вѣрилъ бы Элмïрѣ, которая подъ<lb/> видомъ
+                  любви, приготовляетъ ему смерть въ омще-<lb/>нїе своего брата. Xвалитъ онъ
+                  великодушїе Герцо-<lb/>гово; бранитъ Элмїру; а не слушая пришедшаго<lb/> Брїгелла,
+                  которои спрашиваетъ причину гнѣва его,<lb/> пошолъ въ великои ярости. Брїгеллъ
+                  дивяся о его<lb/> сердцѣ, розсказываетъ старикамъ, которые пришли,<lb/>
+                  <fw type="catch" place="bottom">говоря</fw>
+                  <pb facs="#colomaga_ru_008" n="8"/>
+                  <fw type="pageNum">8</fw>говоря имъ, что садовникъ съ ума сшолъ, да и по-<lb/>шолъ
+                  самъ; старики за нимъ же.</p>
+               <p rend="indent">АРЛЕКIНЪ выходитъ говоря, что онъ очюнь же-<lb/>лаетъ видѣть ту даму
+                  Французскую. Коломбїна<lb/> выходитъ нарядившись по Французски, со многими<lb/> за
+                  собои лакеями, которые несли платье. Чинитъ<lb/> она комплїменты Арлекїну, и
+                  объявляетъ ему свою<lb/> любовь наряжая его уборно. По томъ проситъ она<lb/> себѣ
+                  руки его въ знакъ брака. Арлекїнъ радуяся о<lb/> своемъ щастїи, чинитъ все то,
+                  чего она требовала<lb/> отъ него. На то старики бранятъ Арлекїна, и хо-<lb/>тятъ
+                  его бить. Коломбїна его возхищаетъ ногою,<lb/> а преображенїемъ кончится дѣиствїе
+                  второе.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ДѢИСТВIЕ ТРЕТIЕ.</head>
+               <p rend="indent">ДОРIСБА розказавши Iсторїю свою Элмïрѣ, кото-<lb/>рая выходитъ
+                  увѣряя ту о своеи дружбѣ, и о своеи<lb/> помощи. Дорїсба благодаритъ еи, да и
+                  пошли обѣ.<lb/> ЭРНСТЪ розказываетъ Алфонсу о отказѣ Элмї-<lb/>рïномъ. Алфонсъ ему
+                  подтверждаетъ свое слово.<lb/> На то Артандръ приходитъ, и будучи въ печали<lb/>
+                  воритъ Алфонсу, что онъ тотъ, которои убилъ<lb/> его сына, по томъ благодаритъ ему
+                  за его писмо,<lb/> и заключаетъ, что онъ пришолъ съ намѣренїемъ<lb/> умереть.
+                  Алфонсъ дивится о его рѣчахъ. Тогда ста-<lb/>рики выходятъ, и говорятъ Алфонсу,
+                  что они слы-<lb/>шали отъ Брїгелла, что садовникъ сшолъ съ ума, и<lb/> что онъ
+                  называется то тѣмъ, то другимъ именемъ.<lb/> Артандръ стоитъ въ томъ, что онъ
+                  сказалъ, и<lb/> шлется во всемъ на Эрнста. Эрнстъ то утверж-<lb/>даетъ. Алфонсъ
+                  вышедъ изъ своего удивленїя, уко-<lb/>
+                  <fw type="catch" place="bottom">ряетъ</fw>
+                  <pb facs="#colomaga_ru_009" n="9"/>
+                  <fw type="pageNum">9</fw>ряетъ его за убїиство своего сына, и отпирается отъ<lb/>
+                  писма, а по томъ и осуждаетъ его на смерть. Между<lb/> тѣмъ Элмïра выходитъ съ
+                  Дорїсбою; удивляются<lb/> онѣ, что Артандръ скованъ. Алфонсъ бранитъ свою<lb/>
+                  дочь за то, что она его любила, и таила убїицу сво-<lb/>его брата. Та
+                  признавается, и проситъ у него въ<lb/> томъ прощенїя. Эрнстъ узнавъ Дорïсбу, что
+                  она<lb/> его сестра, спрашиваетъ у нея, чегобъ ради поки-<lb/>нула она отечество
+                  свое. Она ему розказываетъ,<lb/> что еи случилося съ Артандромъ. Эрнстъ
+                  пришедъ<lb/> въ гнѣвъ за честь своея сестры, проситъ Алфонса,<lb/> чтобъ онъ ему
+                  позволилъ биться на шпагахъ съ про-<lb/>тивникомъ своимъ. Алфонсъ не допускаетъ
+                  поединка<lb/> говоря, что Артандръ долженъ умереть отъ палачо-<lb/>вои руки, да и
+                  пошолъ съ стариками. Эрнстъ грозитъ<lb/> своеи сестрѣ, да и пошолъ. Артандръ
+                  проситъ про-<lb/>щенїя у сихъ двухъ невѣстъ за свои предъ ними пре-<lb/>ступленїя,
+                  да и пошолъ съ караульными своими. До-<lb/>рïсба и Элмïра въ печали пошлижъ.</p>
+               <stage>ПОЛЕ.</stage>
+               <p rend="indent">КОЛОМБIНА показалася сидящая съ Арлекїномъ<lb/> за столомъ.
+                  Говоритъ, что она въ великомъ затру-<lb/>дненїи о своеи госпожѣ, и что любопытна
+                  она вѣ-<lb/>дать о удачѣ своего писма, которое она вымыслила.<lb/> Призываетъ она
+                  на сїе одного духа, которои еи<lb/> сказываетъ о напасти Артандровои, и опечали
+                  Дорїс-<lb/>бїнои. Коломбїна велитъ себя восхитить. Арлекїнъ<lb/> остался; и вышедъ
+                  изъ боязни, говоритъ, что хо-<lb/>тѣлъ бы онъ еще поѣсть макароновъ. Тотчасъ
+                  оные<lb/> принесены ему; и какъ онъ хотѣлъ ихъ ѣсть, тогда<lb/> послѣдовало
+                  преображенїе, да и пропало все.</p>
+               <fw type="sig" place="bottom">Г</fw>
+               <fw type="catch" place="bottom">ДВОРЪ</fw>
+               <pb facs="#colomaga_ru_010" n="10"/>
+               <fw type="pageNum">10</fw>
+               <stage>ДВОРЪ.</stage>
+               <p rend="indent">АЛФОНСЪ требуетъ совѣта у Панталона, и Док-<lb/>тора, что надлежитъ
+                  ли ему умертвить Артандра?<lb/> тѣ говорятъ, что надобно, по тому что онъ
+                  Алфонсъ<lb/> заклялся тѣмъ душѣ своего сына. На то Коломбїна<lb/> приходитъ
+                  нарядившись въ Адвоката. Стала она гово-<lb/>рить за Артандра предлагая, что вина
+                  невѣрности<lb/> Артандровои учинилась чрезъ любовь; того ради<lb/> оную можетъ
+                  загладить любовь же сама, когда онъ<lb/> устоитъ въ словѣ Дорïсбѣ. Но что касается
+                  до убïи-<lb/>ства его сына; то будучи учинено не съ умысла, и<lb/> такъ, что и
+                  самъ Артандръ могъ себѣ тогожъ ожи-<lb/>дать отъ его сына; для того и въ семъ вины
+                  его нѣтъ,<lb/> и что должно его простить, или, по краинѣи мѣрѣ,<lb/> дать
+                  позволенїе, чтобъ имъ вытьти на поединокъ,<lb/> по тому что онъ Прїнцъ, и для того
+                  должно почи-<lb/>тать въ немъ кровь предковъ его. Алфонсъ всѣ до-<lb/>воды
+                  Коломбїнины нивочто поставилъ, и говоритъ,<lb/> что онъ господинъ въ своемъ
+                  государствѣ, да и паки<lb/> осуждаетъ Артандра на смерть. Коломбїна
+                  осерди-<lb/>вшись говоритъ, что она не правдѣ сеи противиться<lb/> всячески
+                  станетъ, да и пошла. Алфонсъ съ великимъ<lb/> гнѣвомъ приказываетъ, чтобъ взять
+                  закараулъ дер-<lb/>зновеннаго сего Адвоката, и чтобъ между тѣмъ<lb/> готовъ былъ
+                  Эшафотъ, тоесть, амбонъ, для Артан-<lb/>ра. Послѣ чего пошолъ; а за нимъ и
+                  старики.</p>
+               <p rend="indent">БРIГЕЛЛЪ будучи въ отчаянїи о нещастїи Артан-<lb/>дра господина
+                  своего, говоритъ, что онъ и самъ<lb/> тогожъ себѣ боится року. По томъ
+                  намѣрился<lb/> уити, чтобъ быть отъ всего въ безопасности.</p>
+               <fw type="catch" place="bottom">CАЛА.</fw>
+               <pb facs="#colomaga_ru_011" n="11"/>
+               <fw type="pageNum">11</fw>
+               <stage>САЛА СЪ ЭШАФОТОМЪ.</stage>
+               <p rend="indent">АРТАНДРЪ окруженъ будучи солдатами, гово-<lb/>ритъ, что онъ
+                  безпечаленъ умираетъ, но что только<lb/> сїе ему не сносно, что онъ прогнѣвилъ
+                  Дорїсбу.<lb/> На то Алфонсъ приходитъ, и говоритъ, чтобъ вер-<lb/>шили скоряе
+                  убїицу своего сына. Эрнстъ припоми-<lb/>наетъ ему его обѣщанїе. Алфонсъ ему
+                  отвѣчаетъ,<lb/> что онъ необязанъ устоять ему въ словѣ, потому<lb/> что Артандръ
+                  умираетъ отъ другои руки. Эрнстъ<lb/> грозитъ мстить сеи отказъ, а видя что идетъ
+                  его<lb/> сестра съ Элмïрою, хочетъ ея убить. Коломбїна,<lb/> которая уже
+                  заворожила Алфонса хотящаго въ са-<lb/>мои тотъ часъ казнить Артандра,
+                  завораживаетъ<lb/> и Эрнста. Изъ того происходитъ преображенїе,<lb/> послѣ
+                  котораго Коломбїна принуждаетъ Алфонса и<lb/> Эрнста помириться съ Артандромъ,
+                  которои женит-<lb/>ся на Дорїсбѣ. Алфонсъ отдаетъ Элмïру за Эрнста.<lb/> А
+                  Коломбїна удоволивши во всемъ свою госпожу,<lb/> говоритъ, что она проклинаетъ
+                  свое чародѣиство.<lb/> Переламываетъ она свою тросточку, и говоритъ<lb/> по томъ,
+                  что она тѣмъ только довольна, что она<lb/> выходитъ за Арлекїна, чѣмъ и кончится
+                  Комедїя.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Colombina maga</title>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="it">Italian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb facs="#colomaga_ru_001" n="1"/>
+            <head type="main">COLOMBINA MAGA</head>
+            <head type="sub">COMMEDIA ITALIANA,<lb/> RAPPRESENTATA A SAN PIETROBURGO NEL<date when="1735">1735.</date></head>
+            <pb facs="#colomaga_ru_002" n="2"/>
+            <div type="preface">
+               <head>ARGOMENTO.</head>
+               <p rend="indent">ARTANDRO, principe di Sorrento, avendo ucciso in un torneo, ovvero
+                  ossia in un combattimento fatto per divertimento, Rodolfo, figlio di Alfonso, duca
+                  di Calabria, fugge in Sardegna, dove si innamora della principessa Dorisba. Dopo
+                  aver promesso alla principessa di sposarla, la abbandona e torna segretamente in
+                  Calabria, dove viene colpito dalla bellezza di Elmira, sorella del principe che ha
+                  ucciso. Dorisba, caduta in disperazione per essere stata lasciata, si affida alla
+                  maga Colombina, che, saputo attraverso le sue arti dove vive Artandro, le promette
+                  il suo aiuto. Qui comincia la Commedia.</p>
+            </div>
+            <castList>
+               <head>PERSONAGGI.</head>
+               <castItem>
+                  <role xml:id="colombina_it">COLOMBINA,</role>
+                  <roleDesc>maga.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="alfonso_it">ALFONSO,</role>
+                  <roleDesc>Duca di Calabria.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dorisba_it">DORISBA,</role>
+                  <roleDesc>Principessa sarda.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="elmira_it">ELMIRA,</role>
+                  <roleDesc>figlia di Alfonso.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="ernesto_it">ERNESTO,</role>
+                  <roleDesc>Principe sardo.</roleDesc>
+                  <role xml:id="artandro_it">ARTANDRO,</role>
+                  <roleDesc>Principe di Sorrento.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_it">BRIGHELLA,</role>
+                  <roleDesc>suo serve.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_it">PANTALONE e il</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_it">DOTTORE,</role>
+                     <roleDesc>consiglieri di Alfonso.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                  <roleDesc>servo del Duca.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="spiriti_it">Spiriti.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="cacciatori_it">Cacciatori.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="paggi_it">Paggi.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="soldati_it">Soldati.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>L’azione si svolge a Reggio.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#colomaga_ru_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ATTO PRIMO.</head>
+                  <stage>UN BOSCO.</stage>
+                  <p rend="indent">COLOMBINA appare con Dorisba su un carro trainato dai mostri.
+                     Ella scende a terra e chiede a Dorisba quale sia la causa della sua tristezza.
+                     Dorisba le racconta del suo amore per Artandro, della promessa del giovane e
+                     della sua fuga. Colombina le promette di rivelarle dove si trova Artandro in
+                     quel momento e la prega di allontanarsi; si mette a pronunciare formule e a
+                     fare gesti magici che costringono a manifestarsi gli spiriti infernali che le
+                     portano quel che le occorre per un sacrificio. Ella fa la sua offerta, e in
+                     teatro si fa buio e inizia una tempesta. Dopodiché appare uno spirito che le
+                     racconta che Artandro, sotto le false spoglie di giardiniere, si trova alla
+                     corte di Alfonso, Duca di Calabria, dove si è innamorato della principessa
+                     Elmira, che lo nasconde per timore del padre. Colombina ordina allo spirito di
+                     scomparire e prendere tutto; poi dice che vuole cominciare a servire la sua
+                     signora e se ne va.</p>
+                  <p rend="indent">ARTANDRO entra dicendo ad Elmira che la tempesta li ha separati
+                     dalla compagnia e lui teme che in suo padre possano nascere dei sospetti.
+                     Elmira lo rincuora, dicendo che, vestito a quel modo, non è possibile
+                     riconoscerlo; mentre si fanno le promesse del loro reciproco ed eterno amore,
+                     appare Colombina travestita da zingara. Ella si offre di leggere il loro futuro
+                     e, guardando la mano di Artandro, gli racconta la sua storia, rivela che vive
+                     in incognito ed anche che ama due Principesse, dicendo che la seconda
+                     Principessa lo stia nascondendo sotto le vesti da giardiniere <pb facs="#colomaga_ru_004" n="4"/> per proteggerlo dalla vendetta del padre. Artandro
+                     ed Elmira si spaventano grandemente nel sentire la propria storia narrata in
+                     modo così chiaro e, temendo le arti della zingara, si accordano per ucciderla.
+                     Arrivano Arlecchino e Brighella. Artandro comanda loro di uccidere la donna.
+                     Colombina lo rimprovera per la sua ingratitudine. Arlecchino e Brighella
+                     vogliono eseguire l’ordine. Colombina, con l’aiuto della sua magia, si libera
+                     di loro e se ne va, dicendo ad Elmira di non fidarsi di quell’uomo cattivo.
+                     Elmira dice ad Artandro di lasciare definitivamente la speranza di averla per
+                     sé, poiché ella non vuole unirsi ad un uomo incostante e se ne va. Artandro,
+                     molto addolorato, dice che cercherà in ogni modo di supplicarla a non
+                     lasciarlo. In quel momento appare Dorisba che lo ferma e lo rimprovera per la
+                     sua incostanza. Artandro la tratta con disprezzo, definisce il suo amore una
+                     cosa da nulla e se ne va. Addolorata, Dorisba gli augura che l’ira celeste si
+                     abbatta su di lui ed esce.</p>
+                  <pb facs="#colomaga_ru_005" n="5"/>
+                  <p rend="indent">I vecchi entrano dicendo che la tempesta li ha separati dalla
+                     Principessa e che non sanno che cosa le sia accaduto. Nel frattempo compaiono
+                     Arlecchino e Brighella, entrambi molto impauriti per ciò che è successo loro
+                     con la zingara. Raccontano l’episodio ai vecchi. Compare Colombina vestita da
+                     contadina fiorentina e nella sua lingua dice che desidererebbe un marito
+                     indulgente come quello della sorella e non come quello scelto per lei dalla
+                     madre. Tutti si mettono a cercare di entrare nelle sue grazie. Adiratasi,
+                     Colombina li trasforma in animali ed esce. Dopo molti lazzi, anche loro se ne
+                     vanno.</p>
+                  <p rend="indent">Entra ALFONSO con Ernesto e i cacciatori e dice di essere in
+                     pensiero per la figlia che non ha più visto dopo la tempesta che ha interrotto
+                     la caccia. Ernesto mostra di nutrire la stessa preoccupazione, poi chiede la
+                     mano della fanciulla. Alfonso rifiuta, dicendo che intende darla solo a chi gli
+                     porterà la testa di colui che ha ucciso suo figlio. Ernesto promette di farlo
+                     ed esce. Alfonso rimane. Entra Colombina, travestita da mercante armeno, e gli
+                     mostra dei diamanti in vendita. Dopo averli guardati, Alfonso si addormenta.
+                     Colombina dice che ciò è avvenuto in virtù del suo incantesimo; chiama Dorisba
+                     e le dice di rubare ad Alfonso il suo sigillo. Dorisba esegue l’ordine.
+                     Colombina prende il sigillo e poi trasporta Alfonso addormentato lo nelle sue
+                     stanze in una nube, e, assicurando Dorisba che tutto finirà bene, esce con
+                     lei.</p>
+                  <stage>UNA SALA, CON UNA TAVOLA IMBANDITA.</stage>
+                  <p rend="indent">ALFONSO, svegliandosi nelle sue stanze si meraviglia perché si è
+                     addormentato nel bosco. Per sapere cosa è successo, comincia a chiamare i suoi.
+                     Arrivano i vecchi con Arlecchino e Brighella, trasformati in animali. Essi
+                     fanno molti lazzi, con grande spavento del Duca per la loro trasformazione.
+                     Avviene poi una nuova trasformazione, con la quale si chiude il primo atto.</p>
+               </div>
+               <pb facs="#colomaga_ru_006" n="6"/>
+               <div type="act" n="2">
+                  <head>ATTO SECONDO.</head>
+                  <p rend="indent">ALFONSO entra dicendo ai vecchi che tutti i prodigi che stanno
+                     accadendo a corte sono causati dall’ira di suo figlio che esige di essere
+                     vendicato e ordina di far venire Ernesto. Proprio in quel momento giunge
+                     Ernesto, mostrando al Duca con quanto zelo lo vuole servire. Alfonso lo
+                     ringrazia e per incoraggiarlo, chiama Elmira, alla quale ordina di promettere
+                     di sposare Ernesto, non appena egli avrà vendicato il fratello; poi esce con i
+                     vecchi. Ernesto cerca di rendersi gradevole ad Elmira, ma quella gli dice
+                     chiaramente che non obbedirà al padre perché non ha per lui, Ernesto, nessuna
+                     inclinazione. Addolorato, Ernesto le risponde che egli confida nel tempo come
+                     anche nel potere del padre, dopo di che esce. Elmira rimane, non sapendo che
+                     cosa le convenga fare. Compare Artandro che, dopo aver parlato a lungo con
+                     Elmira, la convince della sua fedeltà, dicendo che ciò che la zingara ha fatto
+                     e ha detto loro non è nient’altro che un incantesimo, cui non bisogna credere.
+                     Dopo aver fatto la pace, escono.</p>
+                  <stage>UN GIARDINO</stage>
+                  <p rend="indent">DORISBA, vestita da uomo, arriva con Colombina vestita da lacchè,
+                     che le consiglia di dire di essere un nobile inviato da lei stessa, per pregare
+                     Artandro <pb facs="#colomaga_ru_007" n="7"/>di ritornare in Sardegna per mantenere la
+                     sua promessa. Se egli cercherà di addurre dei pretesti, Dorisba dovrebbe
+                     sfilarsi l’anello che Colombina le avrebbe dato, tramite il quale il principe
+                     l’avrebbe riconosciuta, e così ella l’avrebbe rimproverato della sua infedeltà.
+                     Inoltre Colombina le promette che, se il piano dovesse fallire, ella ha ancora
+                     un mezzo per richiamare Artandro da quel paese e fargli dimenticare Elmira. Poi
+                     Colombina, vedendo entrare Arlecchino, congeda Dorisba e comincia a dire ad
+                     Arlecchino che una dama francese, innamoratasi di lui, vuole parlargli.
+                     Arlecchino si mostra tutto borioso. Colombina lo prega di ritornare. Arlecchino
+                     se ne va. Ritorna Dorisba. Colombina le racconta della sua debolezza per
+                     Arlecchino e, vedendo che arriva Artandro, esce. Artandro entra. Dorisba esegue
+                     il consiglio di Colombina. Artandro si si arrabbia e vuole ucciderla. Colombina
+                     gli fa un incantesimo e manda via Dorisba, assicurandola che Artandro lascerà
+                     quel paese. Poi scioglie l’incantesimo e gli dà una falsa lettera con il
+                     sigillo di Alfonso. Artandro legge e si meraviglia che il Duca, suo nemico,
+                     sappia di lui e gli consigli di andarsene e di non credere ad Elmira, la quale,
+                     mentre finge di amarlo, si prepara ad ucciderlo per vendicare il fratello. Loda
+                     la magnanimità del Duca e rimprovera severamente Elmira e, senza ascoltare
+                     Brighella che è sopraggiunto e gli chiede la ragione della sua ira, se ne va su
+                     tutte le furie. Brighella, meravigliandosi dei suoi sentimenti, racconta ai
+                     vecchi che sono intanto entrati<pb facs="#colomaga_ru_008" n="8"/> che il giardiniere
+                     è uscito di senno; poi se ne va e i vecchi lo seguono.</p>
+                  <p rend="indent">Arriva ARLECCHINO, dicendo che ha un gran desiderio di vedere
+                     quella dama francese. Colombina compare vestita alla francese, con molti paggi
+                     che portano un abito. Fa dei complimenti ad Arlecchino e gli dichiara il suo
+                     amore, vestendolo elegantemente. Poi gli chiede di porgerle le mani per
+                     suggellare il loro matrimonio. Arlecchino, rallegrandosi per la sua buona
+                     sorte, fa tutto quello che lei gli chiede. I vecchi lo sgridano per aver
+                     obbedito e vogliono picchiarlo. Colombina solleva Arlecchino con un piede e con
+                     una trasformazione il secondo atto finisce.</p>
+               </div>
+               <div type="act" n="3">
+                  <head>ATTO TERZO.</head>
+                  <p rend="indent">DORISBA racconta quanto è accaduto ad Elmira, che arriva
+                     assicurandole la sua amicizia e il suo aiuto. Dorisba la ringrazia ed entrambe
+                     se ne vanno.</p>
+                  <p rend="indent">ERNESTO riferisce ad Alfonso del rifiuto di Elmira. Alfonso gli
+                     conferma la sua parola. In quel momento arriva Artandro, addolorato, e dice ad
+                     Alfonso che egli è colui che ha ucciso suo figlio. Poi lo ringrazia per la sua
+                     lettera e conclude dicendo che è venuto con l’intenzione di morire. Alfonso si
+                     meraviglia dei suoi discorsi. Intanto entrano i vecchi che dicono ad Alfonso
+                     che hanno sentito dire da Brighella che il giardiniere è impazzito e che si dà
+                     ora un nome, ora un altro. Artandro ripete ciò che ha detto e chiama a
+                     testimone Ernesto. Ernesto conferma. Alfonso, riprendendosi dal suo stupore, lo
+                        rimprovera<pb facs="#colomaga_ru_009" n="9"/> per l’uccisione del figlio, dice di
+                     non aver scritto la lettera e poi lo condanna a morte. Nel frattempo arrivano
+                     Elmira e Dorisba e si stupiscono di vedere Artandro sia incatenato. Alfonso
+                     rimprovera la figlia per il fatto che lo amava e nascondeva l’assassino di suo
+                     fratello. Ella confessa e chiede perdono. Ernesto, avendo riconosciuto in
+                     Dorisba sua sorella, le chiede perché abbia lasciato la patria. Ella gli
+                     racconta che cosa le è successo con Artandro. Ernesto, adirato per l’onore
+                     della sorella, prega Alfonso di permettergli di battersi con il suo nemico.
+                     Alfonso non acconsente al duello, dicendo che Artandro deve morire per mano del
+                     boia e va via con i vecchi. Ernesto minaccia la sorella ed esce. Artandro
+                     chiede perdono alle due promesse spose per le sue colpe nei loro confronti e se
+                     ne va con le guardie. Anche Dorisba ed Elmira, addolorate, se ne vanno.</p>
+                  <stage>UN CAMPO.</stage>
+                  <p rend="indent">COLOMBINA compare seduta al tavolo con Arlecchino. Dice di essere
+                     molto preoccupata per la sua padrona e curiosa di sapere se lo stratagemma
+                     della lettera che ha escogitato sia riuscito. Per questo evoca uno spirito il
+                     quale la informa della sventura di Artandro e del dolore di Dorisba. Colombina
+                     ordina di portarla via. Arlecchino rimane e, riprendendosi dallo spavento, dice
+                     che vorrebbe mangiare ancora un po’ di maccheroni. Gli vengono subito portati,
+                     ma quando li vuole mangiare, inizia una trasformazione e tutto scompare.</p>
+                  <pb facs="#colomaga_ru_010" n="10"/>
+                  <stage>IL PALAZZO.</stage>
+                  <p rend="indent">ALFONSO chiede a Pantalone e al Dottore, se è necessario che egli
+                     faccia uccidere Artandro. Quelli dicono che è necessario, perché egli, Alfonso,
+                     ha fatto una promessa sull’anima del figlio. In quel momento arriva Colombina
+                     travestita da avvocato. Si mette a parlare in difesa di Artandro dicendo che la
+                     colpa dell’infedeltà di cui Artandro si è macchiato è stata causata dall’amore;
+                     in virtù di ciò essa può essere cancellata dall’amore stesso, se egli rimarrà
+                     fedele alla promessa fatta a Dorisba. Quanto all’omicidio di suo figlio, esso
+                     non è statoa perpetrata con intenzione e lo stesso poteva capitare ad Artandro
+                     per mano di suo figlio; perciò neanche di questo egli è colpevole, o per lo
+                     meno bisogna perdonarlo e dargli il permesso di battersi al duello, perché egli
+                     è un Principe e perciò bisogna rispettare in lui il sangue dei suoi avi.
+                     Alfonso non tiene in nessun conto le argomentazioni di Colombina e dice che
+                     egli è signore nel suo regno e perciò condanna di nuovo Artandro a morte.
+                     Colombina, arrabbiatasi, dice che si opporrà con tutte le sue forze a questa
+                     ingiustizia ed esce. Infuriato, Alfonso ordina di mettere quel temerario
+                     avvocato sotto sorveglianza e di preparare intanto il patibolo, cioè il palco,
+                     per Artandro. Dopo di che se ne va e dietro di lui se ne vanno anche i
+                     vecchi.</p>
+                  <p rend="indent">BRIGHELLA, disperato per la sventura di Artandro, suo padrone,
+                     dice che teme la stessa sorte anche per sé. Perciò, per evitare ogni pericolo,
+                     progetta di andarsene.</p>
+                  <pb facs="#colomaga_ru_011" n="11"/>
+                  <stage>UNA SALA CON IL PATIBOLO.</stage>
+                  <p rend="indent">ARTANDRO, circondato dai soldati, dice che non ha paura di
+                     morire, ma che l’unica cosa che gli è insopportabile è aver fatto adirare
+                     Dorisba. In quel momento arriva Alfonso, che dice di giustiziare al più presto
+                     l’assassino di suo figlio. Ernesto gli ricorda la sua promessa. Alfonso gli
+                     risponde che egli non è tenuto a mantenere la parola data perché Artandro muore
+                     per mano altrui. Ernesto minaccia di vendicarsi di questo rifiuto e, vedendo la
+                     Elmira arrivare con la sorella, vuole ucciderla. Colombina che già ha fatto un
+                     incantesimo ad Alfonso che voleva giustiziare sul momento Artandro, fa un
+                     incantesimo anche ad Ernesto. Ciò causa una trasformazione, dopo la quale
+                     Colombina costringe Alfonso ed Ernesto a fare la pace con Artandro, il quale
+                     sposa Dorisba. Alfonso concede la mano di Elmira ad Ernesto. E Colombina, dopo
+                     aver soddisfatto in tutto la sua padrona, dice di maledire la sua arte magica.
+                     Spezza la sua bacchetta e poi dice che è contenta per il semplice motivo che
+                     sposa Arlecchino, e con così finisce la Commedia.</p>
+               </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

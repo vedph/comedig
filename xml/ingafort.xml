@@ -1,0 +1,958 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L'inganno fortunato</title>
+                <respStmt>
+                    <resp>Transcription, translation, and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisions of transcription by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>L’inganno fortunato. In base alla data indicata sul frontespizio dello scenario a
+                    stampa è possibile stabilire che la pièce fosse stata allestita nel 1734. Un
+                    canovaccio dallo stesso titolo fu allestito alla corte dell’Imperatrice Anna
+                    Ioannovna già nel 1731 dalla prima compagnia di attori italiani, diretta da
+                    Tommaso Ristori, con protagonista Tommaso Visentini. Secondo la lettura
+                    comparativa di Marialuisa Ferrazzi, nessun legame si palesa tra lo scenario
+                    pietroburghese e la commedia italiana a canovaccio con lo stesso titolo,
+                    L’Inganno fortunato overo l’Amata aborrita commedia bellissima pièce di
+                    derivazione spagnola, ambientata in Dalmazia e incentrata sull’amore e la
+                    schiavitù, che fu allestita al Nouveau Théâtre Italien di Parigi il 18 maggio
+                    1716 (Ferrazzi, 135). Nel caso dell’allestimento russo, si tratta invece di un
+                    canovaccio tradizionale, con le consueti trame amorose tra Silvio e Odoardo e le
+                    figlie di Pantalone, Diana e Aurelia. Da notare, inoltre, come già nei
+                    Travestimenti di Arlecchino (1733), la presenza del personaggio di Coviello. È
+                    plausibile ipotizzare che, ad interpretare il capitano napoletano, fosse Antonio
+                    Sacco. Infatti, l’attore aveva familiarità con il ruolo di Coviello in quanto lo
+                    zio, Gennaro Sacco, è specializzato proprio nell’interpretazione della maschera
+                    napoletana (Pieroni, 179 e 198).</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>ОБМАНЪ БЛАГОПОЛУЧНЫИ</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (27b)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="10">10 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="ingafort_ru_001" url="/img/ingafort_ru_001.jpg"/>
+                <graphic xml:id="ingafort_ru_002" url="/img/ingafort_ru_002.jpg"/>
+                <graphic xml:id="ingafort_ru_003" url="/img/ingafort_ru_003.jpg"/>
+                <graphic xml:id="ingafort_ru_004" url="/img/ingafort_ru_004.jpg"/>
+                <graphic xml:id="ingafort_ru_005" url="/img/ingafort_ru_005.jpg"/>
+                <graphic xml:id="ingafort_ru_006" url="/img/ingafort_ru_006.jpg"/>
+                <graphic xml:id="ingafort_ru_007" url="/img/ingafort_ru_007.jpg"/>
+                <graphic xml:id="ingafort_ru_008" url="/img/ingafort_ru_008.jpg"/>
+                <graphic xml:id="ingafort_ru_009" url="/img/ingafort_ru_009.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#ingafort_ru_001" n="1"/>
+                <head type="main">ОБМАНЪ БЛАГОПОЛУЧНЫИ</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ,<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1734">1734 года.</date></head>
+                <pb facs="#ingafort_ru_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+                    <p rend="indent">СIЛВIИ посредством портрета, которои ему<lb/> надлежало писать,
+                        влюбился въ Дïану, метресу<lb/> Одоарда друга своего; и когда они
+                        хотѣли,<lb/> таясь другъ друга, поговорить съ нею въ ея камерѣ,<lb/> тогда
+                        засталъ ихъ Панталонъ. Что принудило ихъ<lb/> стараться, какъ бы ея
+                        похитить.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                        <roleDesc>отецъ Дïанинъ, и Аурелïинъ.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_ru">ДIАНА и<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_ru">АУРЕЛIЯ,</role>
+                        </castItem>
+                        <roleDesc>сестры.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ru">СМЕРАЛДIНА</role>
+                        <roleDesc>служащая.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_ru">СIЛВIИ,</role>
+                        <roleDesc>маляръ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                        <roleDesc>слуга его.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                        <roleDesc>отецъ Одоардовъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                        <roleDesc>служащеи.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="coviello_ru">КОВIЕЛЛЪ.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Это дѣиствïе въ Болонïи.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#ingafort_ru_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВÏЕ ПЕРВОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ЛАВКУ МАЛЯРСКУЮ.</stage>
+                    <p rend="indent">ОДОАРДЪ проситъ Сïлвïя, чтобъ онъ написалъ<lb/> ему портретъ
+                        Дïаны метресы своея. Сïлвïи говоритъ,<lb/> что надлежитъ ея видѣть. Одоардъ
+                        отвѣтствуетъ,<lb/> что онъ ея о томъ уже просилъ, и что для сего<lb/> она
+                        имѣетъ притьти сама къ нему. Сïлвïи сталъ<lb/> кликать Арлекïна, которои
+                        выходитъ весьма сер-<lb/> дитъ, грозя нѣкому смертïю, ежалибъ онъ не
+                        сказалъ<lb/> правды. Сïлвïи у его спрашиваетъ, на когобъ онъ<lb/> толь
+                        сердился? Арлекïнъ ему говоритъ, что его<lb/> Камердïнеръ сѣлъ у него
+                        ребрышко жареное, за что<lb/> онъ его билъ верïовкою, чтобъ онъ сказалъ
+                        правду о<lb/> своемъ воровствѣ; а буде не скажетъ, то онъ его<lb/> повѣситъ.
+                        Сїлвїи дивится тому, что Арлекїнъ ему<lb/> говоритъ; велитъ ему ясняе себя
+                        вытолковать.<lb/> Арлекїнъ чрезъ отверницы сказываетъ, что его Ка-<lb/>
+                        медïеръ есть тотъ, которои у него укралъ мясо<lb/> его съ сковороды, въ чомъ
+                        онъ ему и повинился го-<lb/> воря: МЯУНЯО [то есть съѣлъ.] Сïлвїи по
+                        некото-<lb/> рыхъ игрушкахъ, велитъ ему тереть краски. Арле-<lb/> кïнъ думая
+                        все о своемъ ребрышкѣ, вспамятовалъ,<lb/> что онъ то самъ съѣлъ въ прошлои
+                        вечер. Призна-<lb/> ваетъ онъ кота, опятъ за добраго кота, и говоритъ,<lb/>
+                        что онъ у него станетъ прощенïя просить. Сïлвïи<lb/> обѣщается Одоарду поити
+                        къ Дïанъ, чтобъ ея сту-<lb/> шевать, дабы она нашла уже нѣчто
+                        здѣланное,<lb/> когда она къ нему придетъ, да и пошолъ съ нимъ<lb/> вмѣстѣ.
+                        Арлекїнъ остался для розтиранїя красокъ.<lb/> Къ нему приходитъ Смералдїна,
+                        которая говоритъ,<lb/> что она влюбилась въ Арлекїна, и что подъ подло-<lb/>
+                        гомъ, чтобъ повелѣть себѣ написать портретъ,<lb/>
+                        <fw type="sig" place="bottom">Т 2</fw>
+                        <fw type="catch" place="bottom">она</fw>
+                        <pb facs="#ingafort_ru_004" n="4"/>
+                        <fw type="pageNum">4</fw> она хотела ему объявить свою любовь. Изъ того<lb/>
+                        произходитъ между ними игрушка смѣшная. И когда<lb/> Арлекïнъ писалъ ея
+                        портретъ, тогда прибылъ одинъ<lb/> человѣкъ спрашивающïи о Панталонѣ.
+                        Арлекїнъ ото-<lb/> слалъ его отъ себя, чрезъ игрушку приличную теа-<lb/>
+                        тру. На то приходитъ Брïгеллъ, которои видя<lb/> Смералдїну, которую онъ
+                        любилъ, с Арлекïномъ,<lb/> сталъ ревновать. Послѣ нѣкоторыхъ игрушекъ
+                        въ<lb/> словахъ, Арлекїнъ хочетъ, чтобъ Брïгеллъ пошолъ<lb/> прочь; но видя,
+                        что тотъ того не чинитъ, того<lb/> ради онъ его прогналъ. Продолжаетъ еще
+                        онъ пи-<lb/> сать портретъ Смерадїнинъ. Тогда Сïлвïи прибылъ,<lb/> и кличетъ
+                        его, чтобъ спросить у него, что из-<lb/> теръ ли онъ краски? Арлекïнъ послѣ
+                        игрушки смѣ-<lb/> шныя, пошолъ по нихъ. Смералдïна оттуда вышла.<lb/> Сïлвïи
+                        говоритъ, что онъ ожидает Дïану, да и<lb/> сказываетъ, что онъ въ нея
+                        влюбился, и что онъ<lb/> хочетъ употребить симъ случаемъ в пользу себѣ,<lb/>
+                        то есть, чтобъ еи объявить свою любовь къ неи.<lb/> На то приходитъ Дïана.
+                        Сïлвïи, по комплїментах,<lb/> посадилъ ея; и велитъ Арлекïну, чтобъ онъ
+                        ему<lb/> принесъ его орудïя. Что Арлекнъ испоняетъ, но<lb/> не такъ, какъ
+                        надлежитъ, извиняяся въ томъ двое-<lb/> толковательными отговорками; что
+                        причиняетъ<lb/> многïя игрушки приличныя театру; послѣ кото-<lb/> рыхъ
+                        Дïана, которои Сïлвïи объявилъ свою любовь,<lb/> приказываетъ ему, чтобъ он
+                        къ неи пришол въ че-<lb/> тыре часа подъ вечеръ. Сказываетъ она ему,
+                        чрезъ<lb/> которое бы окно ему надежало влѣзть въ ея каме-<lb/> ру, да и
+                        пошла. Сїлвїи приказываетъ Арлекїну<lb/> чтобъ онъ ему нашолъ лѣстницу.
+                        Арлекïнъ ему го-<lb/> воритъ, что онъ ту выпроситъ у одного искрення-<lb/>
+                        го своего друга. Сïлвïи у него спрашиваетъ, кто<lb/> бы то былъ тотъ другъ?
+                        Арлекïнъ ему отвѣчаетъ:<lb/>
+                        <fw type="catch" place="signature">палачъ.</fw>
+                        <pb facs="#ingafort_ru_005" n="5"/>
+                        <fw type="pageNum">5</fw> палачъ. Сїлвïи его сталъ за то бранить, да и
+                        по-<lb/> шолъ. Арлекїнъ говоритъ, что онъ долженъ окон-<lb/> чить еще
+                        портретъ одного купца. На то Панталонъ<lb/> приходитъ; спрашиваетъ онъ
+                        Арлекїна, что окон-<lb/> чилъ ли онъ его портретъ. Арлекїнъ ему отвѣт-<lb/>
+                        ствуетъ, что уже онъ тотъ зачалъ писать. Изъ<lb/> того произходитъ игрушка
+                        смѣшная между Пан-<lb/> талономъ и Арлекїномъ, которои окончивъ
+                        портретъ,<lb/> говоритъ Панталону, что весьма онъ его утрафилъ<lb/>
+                        написать, да и сталъ ему онои казать. Панталонъ<lb/> видя намалеваную голову
+                        ослову, осердился; Арле-<lb/> кїнъ такъ же. А шумомъ и крикомъ кончится
+                        дѣи-<lb/> ствїе первое.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ НОЧЬ.</stage>
+                    <p rend="indent">СIЛВIИ выходитъ превесьма сердитъ, что не<lb/> идетъ къ нему
+                        долго его слуга Арлекїнъ съ лѣсни-<lb/> цею, которую онъ ему приказалъ
+                        сыскать. Нахо-<lb/> дитъ онъ ворота двора дїанина отвореныя. Говоритъ<lb/>
+                        онъ, что хочетъ употребить симъ случаемъ, чтобъ<lb/> видѣться съ Дїаною, да
+                        и вошолъ къ неи.<lb/> ОДОАРДЪ говоритъ выходя, что онъ получилъ<lb/> одинъ
+                        бїльетъ, чрезъ которои Дïана ему велѣла къ<lb/> себѣ притьти ночью, а видя
+                        что ворота отворены,<lb/> того ради вошолъ онъ къ неи.<lb/> АРЛЕКIНЪ
+                        выходитъ съ лѣсницею, чиня многїя<lb/> игрушки; ищетъ онъ своего господина;
+                        но не могши<lb/> его наити, приставилъ онъ лѣсницу къ окнамъ Пан-<lb/>
+                        талоновымъ говоря, что онъ хочетъ видѣться cъ<lb/> Смералдїною; и когда онъ
+                        ея кликалъ, тогда при-<lb/> ходятъ многїе солдаты, которые думая, что то<lb/>
+                        <fw type="sig" place="bottom">T 3</fw>
+                        <fw type="catch" place="bottom">воръ,</fw>
+                        <pb facs="#obman-6" n="6"/>
+                        <fw type="pageNum">6</fw> воръ, хотятъ его взять за караулъ. Тотъ отъ
+                        нихъ<lb/> защищается, да и уходитъ. ТѢ за нимъ погналися.<lb/> Что, на
+                        конецъ, принудило Арлекїна спрятаться въ<lb/> домъ Панталоновъ, и то чрезъ
+                        одну игрушку при-<lb/> личную театру, вскочивъ въ окно.</p>
+                    <p rend="indent">КОВIЕЛЛЪ выходитъ съ Брїгелломъ, говоря ему<lb/> о своеи лябви
+                        къ Аурелїѣ дочери Панталоновои.<lb/> Брїгеллъ тому сказываетъ про свою къ
+                        Смералдїнѣ.<lb/> Говорятъ они, что весьма знаютъ домъ Пантало-<lb/> новъ, и
+                        для того хотятъ поговорить съ своими лю-<lb/> бимыми. Видятъ они, что ворота
+                        отворены, того<lb/> ради входятъ къ Панталону.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ СЪ КРАВАТЬЮ.</stage>
+                    <p rend="indent">ДIАНА выходитъ въ потïомкахъ говоря, что она<lb/> дожидается
+                        Сїлвїя съ нетерпѣливностїю. На то<lb/> Сїлвїи приходитъ, и когда онъ еи
+                        говорилъ о своеи<lb/> любви, тогда Панталонъ слышимъ сталъ быть. Дї-<lb/>
+                        ана изпужавшися спрятываетъ Сїлвїя за кравать;<lb/> а сама уходитъ.</p>
+                    <p rend="indent">АУРЕЛIЯ выходитъ говоря, что она дожидает-<lb/> ся Сїлвїя
+                        своего любовника. На то приходитъ Одо-<lb/> ардъ, которои въ потїомкахъ
+                        беручи Аурелїю за Дïа-<lb/> ну свою метресу, далъ еи руку; тогда
+                        Панталонъ<lb/> сталъ быть слышимъ опять. Аурелїя положила<lb/> Сїлвїя на
+                        постелю. Между тѣмъ Панталонъ при-<lb/> ходитъ, и спрашиваетъ Аурелїю, что
+                        бы она тутъ<lb/> дѣлала теперь? Oна ему сказываетъ, что не мо-<lb/> жетъ
+                        сестра ея Дїана, и за тѣмъ она вышла. Ста-<lb/> рикъ послалъ ея въ ея
+                        камеру, да и самъ за нею же<lb/> пошоъ.</p>
+                    <p rend="indent">КОВIЕЛЛЪ выходитъ такъ же въ потïомкахъ бу-<lb/> дучи въ
+                        смущенїи, что не знаетъ гдѣ наити онъ<lb/>
+                        <fw type="catch" place="bottom">Аурелїю,</fw>
+                        <pb facs="#obman-7" n="7"/>
+                        <fw type="pageNum">7</fw> Аурелїю, и слышя что идутъ люди, спрятался.<lb/>
+                        Дïана возвращается, чтобъ выпустить отъ себя<lb/> Сїлвїя. Стала она его
+                        кликать; Сїлвїи и Одоардъ<lb/> выходятъ оба вдругъ; взяли они оба ея за
+                        руки.<lb/> Дїана пришла въ великое смущенїе, что себя видитъ<lb/> между
+                        двѣмя особами. Тогда Аурелїя приходитъ<lb/> съ свѣчою, и видя свою сестру,
+                        что она съ ея лю-<lb/> бовникомъ, и Одоардомъ, говоритъ еи: БУДЪ<lb/>
+                        ЗДОРОВА, СЕСТРИЦА! ДВУХЪ ВДРУГЪ? ХОРОШО!<lb/> По томъ взяла Сїлвїя, котораго
+                        она любила, и пове-<lb/> ла за собою. Тотъ пошолъ съ нею не безъ
+                        сожалѣ-<lb/> нїя. Одоардъ выводитъ изъ смущенїя Дїану. И когда<lb/> онъ еи
+                        говорилъ о своеи любви, тогда слышимъ<lb/> сталъ быть Панталонъ, которои
+                        приходилъ. Дïана<lb/> принудила Одоарда спрятаться опять на кравать.<lb/> На
+                        то старикъ выходитъ, и срашиваетъ Дïану, что<lb/> бы она дѣлала въ тои
+                        камерѣ, и для чегобъ она была<lb/> въ такомъ смущенїи? Дїана сказываетъ
+                        подложно,<lb/> что въ сеи камерѣ имѣются, [дабы тѣмъ скоряе<lb/> выслать
+                        отца] духи. Панталонъ по многихъ игруш-<lb/> кахъ съ своею дочерїю, послалъ
+                        ея отъ себя прочь,<lb/> говоря, что ему надлежитъ писать многїя писма.<lb/>
+                        Велѣлъ онъ себѣ принесть все къ тому надлежащее,<lb/> да и сталъ писать.
+                        Тогда Арлекїнъ въ великое его<lb/> сердце приводитъ чрезъ многїя насмѣшки,
+                        которыя<lb/> онъ думаетъ быть отъ духовъ. Изъ чего происхо-<lb/> дитъ
+                        игрушка смѣшная. Послѣ которыя Панта-<lb/> лонъ великимъ страхомъ сталъ быть
+                        обнятъ; того<lb/> ради сталъ ложиться на постелю; но увидѣвши<lb/> тутъ
+                        Одоарда съ обнаженною шпагою, убѣжалъ.<lb/> Одоардъ видя, что онъ сталъ быть
+                        почти поиманъ,<lb/> говоритъ, что ему надлежитъ укрыться, да и по-<lb/>
+                        шолъ. Панталонъ возвращается съ людьми, и ве-<lb/> литъ искать по всеи
+                        камерѣ того человѣка, кото-<lb/>
+                        <fw type="catch" place="bottom">рои</fw>
+                        <pb facs="#obman-8" n="8"/>
+                        <fw type="pageNum">8</fw> рои былъ на постелѣ; но не нашедши его,
+                        отослалъ<lb/> всѣхъ людеи прочь, а самъ легъ на постелю пога-<lb/> сивъ
+                        свѣчу. Дїана возвращается, чтобъ выпустить<lb/> Сïлвїя, про котораго она
+                        думала, что онъ тутъ,<lb/> и стала его кликать. Панталонъ хочетъ еи
+                        дать<lb/> руку, чтобъ ея изловить. Та увидѣвши свою ошиб-<lb/> ку, ушла; и
+                        когда ея старикъ искалъ, тогда Ауре-<lb/> лїя пришла такъ же съ тѣмъ
+                        намѣренїемъ, чтобъ<lb/> выпустить Сїлвїя. Панталонъ думая про нея, что<lb/>
+                        то та, которую онъ ищетъ, схватилъ ея за руку. И<lb/> когда онъ ея хотѣлъ
+                        бить, тогда приходитъ Ковїеллъ,<lb/> которои чрезъ игрушку приличную театру,
+                        увелъ<lb/> Аурелїю съ собою. Панталонъ осердившися хочетъ<lb/> за ними
+                        бѣжать; но Арлекїнъ его остановилъ, и<lb/> чрезъ одну игрушку своиственную
+                        театру оконче-<lb/> ваетъ дѣиствїе второе.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ НОЧЪ.</stage>
+                    <p rend="indent">ПАНТАЛОНЪ выходитъ говоря Доктору о за<lb/> трудненїи, въ
+                        которомъ онъ находится, по при-<lb/> чинѣ своихъ дочереи, и что онъ ихъ
+                        хочетъ за мужъ<lb/> отдать. Докторъ у него проситъ за себя Дїаны;<lb/> а за
+                        сына своего Одоарда Аурелїи. Панталонъ съ<lb/> нимъ соглашается въ томъ. И
+                        чтобъ въ крѣпостнои<lb/> палатѣ контрактъ учинить, пошли.</p>
+                    <p rend="indent">СIЛВIИ говоритъ, что онъ согласился съ Дїа-<lb/> ною, чтобъ ея
+                        похитить, прежде нежели день раз-<lb/> свѣтаетъ, и что онъ хочетъ ея отвесть
+                        къ Докто-<lb/> ру, которои ему другъ. Сталъ онъ стучатся<lb/>
+                        <fw type="catch" place="bottom">у Дїаны,</fw>
+                        <pb facs="#obman-9" n="9"/>
+                        <fw type="pageNum">9</fw> у Дїаны, которая его ожидала; выходитъ она.
+                        Тотъ<lb/> еи далъ руку, и повелъ ея къ Доктору.</p>
+                    <p rend="indent">ОДОАРДЪ приходитъ съ тѣмъ же намѣренïемъ,<lb/> то есть, чтобъ
+                        похитить Дïану; да и сталъ сту-<lb/> чаться. Аурелїя выходитъ, которая
+                        думая, что то<lb/> Сїлвїи, дала ему руку, и пошла съ нимъ къ Доктору жъ.</p>
+                    <p rend="indent">КОВIЕЛЛЪ говоритъ такъ же, что онъ согласился<lb/> съ своею
+                        метресою, чтобъ ея похитить, да и сталъ<lb/> стучаться. Смералдїна вышеди, и
+                        думая, что то<lb/> Арлекїнъ, дала ему руку, которои ввелъ ея къ<lb/>
+                        Доктору.</p>
+                    <p rend="indent">БРIГЕЛЛЪ выходитъ говоря, чтобъ онъ хотѣлъ<lb/> поимать
+                        Смералдїну, и притворяяся быть ея лю-<lb/> бовникомъ, сталъ стучаться.
+                        Арлекїнъ выходитъ<lb/> нарядившися въ женщину, и пошолъ съ Брїгелломъ<lb/>
+                        къ Доктору.</p>
+                    <p rend="indent">Старики выходятъ говоря, что они учинили<lb/> свои контрактъ.
+                        Сїлвїи и Одоардъ приходятъ,<lb/> одинъ по другомъ, и просятъ прощенїя у
+                        Панталона,<lb/> что они его прогнѣвили похищенїемъ дочери его<lb/> Дїаны,
+                        про которую каждои сказывалъ, что у него,<lb/> и что онъ на неи женился.
+                        Панталонъ дивится,<lb/> что его одна дочь двоиною стала, и послѣ
+                        нѣкото-<lb/> рыхъ игрушекъ имъ говоритъ, чтобъ они ту при-<lb/> вели. Тѣ
+                        пошли, а приходитъ Ковїеллъ, которои<lb/> таковымъ же способомъ проситъ у
+                        него прощенїя,<lb/> что онъ похитилъ дочь его Аурелїю. Панталонъ<lb/> ему
+                        приказываетъ такъ же и ея привести. Ковїеллъ<lb/> пошолъ. А приходитъ
+                        Брїгеллъ, и проситъ у него<lb/> прощенïя, за то, что онъ у него похитилъ
+                        Смерал-<lb/> дїну, и сказалъ, что всѣ привели своихъ метресъ<lb/> къ
+                        Доктору, которои весьма осердился. Панталонъ<lb/> приказываетъ Брїгеллу,
+                        чтобъ онъ привелъ Смерал-<lb/> дїну. Брїгеллъ пошолъ. Но вотъ и всѣ возвраща-<lb/>
+                        <fw type="catch" place="bottom">ются.</fw>
+                        <pb facs="#obman-10" n="10"/>
+                        <fw type="PageNum">10</fw> ются. Старики удивилися, что они видѣли
+                        четы-<lb/> рехъ женцинъ. Панталон, которои не имѣлъ, какъ<lb/> двухъ
+                        дочереи, и одну служащую, спрашиваетъ у<lb/> любовниковъ, что хотятъ ли они
+                        жениться на этихъ<lb/> дамахъ. Сïлвїи и Одоардъ думая, что у каждаго<lb/>
+                        изъ нихъ Дїана въ рукахъ, отвѣтствуютъ, что хо-<lb/> тятъ. Панталонъ велѣлъ
+                        ихъ розкрывать. Одоардъ<lb/> осердился на хитрость Сїлвïеву; такъ же и
+                        Аурелїя.<lb/> Но уже уговорили ихъ. Ковïелла спрашивали, что<lb/> хочетъ ли
+                        онъ взять за себя свою даму, которои<lb/> отчаяся возъимѣть Аурелїю, которую
+                        онъ видѣлъ<lb/> быть въ рукахъ Одоардовыхъ, сказалъ, что хочетъ.<lb/>
+                        Смералдїна себя объявила; что въ отчаянїе приво-<lb/> дитъ Брїгелла,
+                        котораго старикъ проситъ, чтобъ<lb/> онъ показалъ и свою метресу, да и
+                        спрашиваетъ,<lb/> что хочетъ ли онъ жениться на неи; Брїгеллъ гово-<lb/>
+                        ритъ, что хочетъ. По томъ намѣряется и разкрыть.<lb/> Арлекїнъ не допускаетъ
+                        себя разкрыть; но послѣ<lb/> нѣкоторыхъ игрушекъ, чрезъ сочетанїе
+                        брачное<lb/> Сïлвїя съ Дїаною, Одоарда съ Аурелїею, и Арлекина,<lb/> которои
+                        все конечно хотѣлъ Смералдїны, съ Сме-<lb/> ралдїною, кончится</p>
+                    <p rend="indent">КОМЕДIЯ.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Der gluͤckliche Betrug</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">8 POET DRAM IV 8250 (27a) RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="8">8 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="ingafort_ge_001" url="/img/ingafort_ge_001.jpg"/>
+                <graphic xml:id="ingafort_ge_002" url="/img/ingafort_ge_002.jpg"/>
+                <graphic xml:id="ingafort_ge_003" url="/img/ingafort_ge_003.jpg"/>
+                <graphic xml:id="ingafort_ge_004" url="/img/ingafort_ge_004.jpg"/>
+                <graphic xml:id="ingafort_ge_005" url="/img/ingafort_ge_005.jpg"/>
+                <graphic xml:id="ingafort_ge_006" url="/img/ingafort_ge_006.jpg"/>
+                <graphic xml:id="ingafort_ge_007" url="/img/ingafort_ge_007.jpg"/>
+                <graphic xml:id="ingafort_ge_008" url="/img/ingafort_ge_008.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#ingande-1" n="1"/>
+                <head type="main">Der gluͤckliche Betrug</head>
+                <head type="sub">welcher<lb/><date when="1734">Ao. 1734.</date><lb/> in einem<lb/>
+                    Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/> Kayſerlichen Hofe<lb/> zu St.
+                    Petersburg<lb/> vorgeſtellet worden.</head>
+                <pb facs="#ingande-2" n="2"/>
+                <div type="preface">
+                    <head>Jnhalt.</head>
+                    <p rend="indent">Silvio ſiehet das Portrait der Diana, Geliebten des Odo-<lb/>
+                        ardo ſeines Freundes, und wird in ſie verliebt; Jndeſſen da ſo<lb/> wohl der
+                        eine, als der andere, der Diana in ihrem Zimmer die<lb/> Aufwartung zu
+                        machen ſuchet, werden beyde von dem Pantalon<lb/> abgewieſen, welches
+                        verurſachet, daß ſie bedacht ſind, ihre Gelieb-<lb/> te zu entfuͤhren. Die
+                        Liebe des Covicello zu der Aurelia, und des<lb/> Arlequins und Brighella
+                        gegen die Smeraldina, ſind Neben-Sachen,<lb/> welche zur Verwirrung des
+                        gantzen Stuͤckes, dienen, ſo<lb/> ſich mit der Heyrath des Silvio, Odoardo
+                        und Arlequins<lb/> mit der Diana, Aurelia und Smeraldina beſchlieſſet.</p>
+                </div>
+                <castList>
+                    <head>Perſonen.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ge">Pantalon</role>
+                        <roleDesc>Vater der</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_ge">Diana und<lb/></role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="aurelia_ge">Aurelia.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="smeraldina_ge">Smeraldina</role>
+                        <roleDesc>ihre Bediente.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_ge">Silvio</role>
+                        <roleDesc>ein Mahler.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ge">Arlequin</role>
+                        <roleDesc>deſſen Bediente.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ge">Der Doctor</role>
+                        <roleDesc>Vater des Odoardo.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ge">Brighella</role>
+                        <roleDesc>deſſen Diener.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Der Schau-Platz iſt in Bologna.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#ingande-3" n="3"/>
+                <div type="act" n="1">
+                    <head>Erſte Handung.</head>
+                    <stage>Der Schau-Platz ſtellet eine Mahler-Werck-Statt vor.</stage>
+                    <p rend="indent">Silvio wird von dem Odoardo gebethen, ihm das Portrait der<lb/>
+                        Diana, ſeiner Geliebten, zuverfertigen. Silvio antwortet,<lb/> daß er ſie
+                        ſehen muͤſſe. Odoardo ſagt, er wolle ſie bitten, zu ihm<lb/> zu kommen:
+                        Silvio rufft den Arlequin, welcher gantz zornig her-<lb/> ein koͤmmt. Er
+                        drohet einem unbekannten den Todt, woferne er<lb/> ihm nicht die Wahrheit
+                        ſagen wuͤrde. Silvio fragt ihn, uͤber wen<lb/> er boͤſe ſey? Arlequin
+                        antwortet ſein Cammer-Diener habe ihm ei-<lb/> nen gebratenen
+                        Fleiſch-Knochen gefreſſen; Er muͤſſe ſeinen Dieb-<lb/> stahl bekennen, oder
+                        er wuͤrde ihn hengen. Silvio wird uͤber dieſe<lb/> abgeſchmackte Antwort
+                        zornig und befiehlet ihm, ſich deutlicher zu<lb/> erklaͤren. Arlequin ſaget
+                        hierauf, der Cammer-Diener ſey ſeine<lb/> Katze, die ihm ſein Fleiſch von
+                        dem Roſt weggefreſſen. Silvio<lb/> befielet ihm hierauf, die Farben zu
+                        rechte zu machen. Arlequin<lb/> kann ſeinen Fleiſch-Knochen nicht vergeſſen,
+                        und ſagt wieder zu der<lb/> Katze, ſie ſollte ihre Entſchuldigung
+                        vorbringen. Silvio verſpricht<lb/> dem Odoardo die Diana zu hohlen, um ſie
+                        abzuſchildern. Er gehet<lb/> ab. Arlequin bleibt und macht die Farben zu
+                        rechte. Hierauf<lb/> koͤmmt die Smeraldina und ſagt, ſie ſey in den Arlequin
+                        verliebt,<lb/> und unter dem Vorwande, als ob ſie ſich mahlen laſſen wolle,
+                        ge-<lb/> daͤchte ſie ihm ihre Liebe zu offenbaren. Wie Arlequin ihr
+                        Por-<lb/> trait mahlet koͤmmt ein Vedienter, der nach den Pantalon
+                        fraget.<lb/> Arlequin jagt ihn fort. Brighella trit ein, und wie er die
+                        Smeraldina<lb/> bey dem Arlequin ſiehet, wird er eiferſuͤchtig. Sie zancken
+                        ſich<lb/> mit einander. Arlequin heiſſet den Brighella fort gehen, und
+                        wie<lb/> er nicht will jaget er ihn gleichfals weg. Arlequin faͤhret fort,
+                        die<lb/> Smeraldina abzumahlen. Silvio koͤmmt und fragt, ob er die Farben
+                        zu<lb/> rechte gemacht: Arlequin macht allerley Poſſen und gehet
+                        endlich<lb/> zu Wercke. Smeraldina gehet ab. Silvio ſaget, er erwarte
+                        die<lb/> Diana, in die er verliebt ſey, und wolle ſich dieſe Gelegenheit zu
+                        nutze<lb/> machen und ihr ſeine Liebe zu entdecken. Diana trit auf.
+                        Sil-<lb/> vio heiſſet ſie, nach einigen Complimenten, nieder ſitzen, und befieh-<lb/>
+                        <fw type="sig" place="bottom">(*)</fw>
+                        <fw type="catch" place="bottom">let</fw>
+                        <pb facs="#indande-4" n="4"/>
+                        <fw type="pageNum">4</fw> let dem Arlequin, ſeine Geraͤthſchafft
+                        herzubringen. Dieſes thut<lb/> Arlequin und macht allerley Poſſen dabey mit
+                        Unterreichung an-<lb/> derer Sachen, als Silvio verlanget. Silvio erklaͤret
+                        ſeine Liebe ge-<lb/> gen die Diana und befiehlet ihm, er ſolle gegen 4 Uhr
+                        bey ihrem Hau-<lb/> ſe ſeyn, da ſie ihm denn Anleitung geben wollte, durch
+                        welches<lb/> Fenſter er hinein kommen ſollte. Sie gehet ab. Silvio
+                        befiehlet<lb/> dem Arlequin, er ſolle ihm eine Leiter herbey ſchaffen.
+                        Arlequin<lb/> antwortet, er wolle ſolche von einem ſeiner vertrauteſten
+                        Freunde<lb/> hohlen. Silvio fragt ihn, wer der ſey? Arlequin antwortet, es
+                        ſey<lb/> der aͤrgſte Spitz-Bube, der zu finden waͤre. Silvio macht ihn
+                        aus<lb/> und gehet ab. Arlequin bleibet und ſaget, er wolle nunmehro das
+                        Por-<lb/> trait eines Kauffmanns zu mahlen anfangen. Hierauf koͤmmt
+                        Pantalon<lb/> und fragt den Arlequin, ob ſein Portrait fertig ſey?
+                        Arlequin<lb/> antwortet, er habe es noch zu retouchiren. Wie er eine
+                        Zeitlang<lb/> daran gearbeitet, ſagt er zu den Pantalon, er habe ihn ſehr
+                        wohl ge-<lb/> troffen und zeiget es ihm. Pantalon ſiehet einen Eſels-Kopf
+                        auf der<lb/> Leinewand und zancket deswegen mit dem Arlequin; welches
+                        das<lb/> Ende der erſten Handlung iſt.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Andere Handlung.</head>
+                    <stage>Auf dem Schau-Platz iſt Nacht.</stage>
+                    <p rend="indent">Silvio trit auf und beſchwehret ſich, daß er den Arlequin,<lb/>
+                        ſeinen Diener, nicht zu ſehen bekaͤme. Er habe ihn nach der Lei-<lb/> ter
+                        geſchickt, die er zu ſeinem Vorhaben brauchen wollen. Er fin-<lb/> det das
+                        Hauß offen und ſaget, er muͤſſe ſich dieſer Gelegenheit be-<lb/> dienen und
+                        gehet hinein.</p>
+                    <p rend="indent">Odoardo trit auf und ſagt, er habe einen Brief von der
+                        Dia-<lb/> na erhalten, in welchen ſie befohlen, daß er in dieſer Nacht an
+                        ihr<lb/> Hauß kommen ſollte, wo er ſie finden wuͤrde. Er ſiehet das
+                        Hauß<lb/> offen und gehet hinein.</p>
+                    <p rend="indent">Arlequin koͤmmt mit der Leiter, ſuchet ſeinen Herrn und<lb/> da
+                        er ihn nicht findet, leget er die Leiter an Pantalons Fenſter<lb/> an und
+                        ſagt, er wolle mit der Smeraldina ſprechen und ruffet ſie.<lb/> Allein, es
+                        kommen die Gerichts-Diener, welche meynen, er ſey ein<lb/>
+                        <fw type="catch" place="bottom">Dieb,</fw>
+                        <pb facs="#indande-5" n="5"/>
+                        <fw type="pageNum">5</fw> Dieb, und nehmen ihn in Arreſt. Er vortheidiget
+                        ſich und lauͤfft<lb/> davon, ſie aber folgen ihm nach, welches ihn
+                        noͤthiget, daß er<lb/> auf der Leiter, durch das Fenſter, in Pantalons Hauß
+                        ſteiget.<lb/> Covicello trit auf und vertrauet dem Brighella ſeine
+                        Liebe<lb/> gegen die Aurelia, Pantalons Tochter. Dieſer ſpricht
+                        gleichfals<lb/> von ſeiner Neigung gegen die Smeraldina. Beyde ſagen, ſie
+                        muͤſten <lb/> ſachte reden, weil ſie vor Pantalons Hauſe ſtuͤnden, und wie
+                        ſie die<lb/> Thuͤre offen ſehen, gehen ſie hinein.</p>
+                    <stage>Der Schau-Platz zeiget ein Zimmer mit einem Bette.</stage>
+                    <p rend="indent">Diana koͤmmt an das Fenſter und ſpricht, ſie warte mit
+                        Unge-<lb/> dult auf den Silvio. Silvio erſcheinet und indem er mit ihr
+                        von<lb/> ſeiner Liebe redet, laͤſſet ſich der Pantalon hoͤren. Diana
+                        erſchrickt,<lb/> ſteckt den Silvio unter das Bette und retiriret ſich.</p>
+                    <p rend="indent">Aurelia trit auf und ſagt, ſie erwarte den Silvio ihren
+                        Lieb-<lb/> haber. Hierauf erſcheinet Odoardo, welcher im dunckeln
+                        meynet,<lb/> ſie ſey die Diana. Er giebt ihr die Hand, und wie ſich
+                        Pantalon<lb/> wieder hoͤren laͤſſet, ſteckt ſie ihn gleichfals unter das
+                        Bette. Pantalon<lb/> koͤmmt und fraget ſie, was ſie ſo spaͤt hier mache? Sie
+                        bringt ei-<lb/> ne Beſchwehrlichkeit der Diana, ihrer Schweſter, zum
+                        Vorwand.<lb/> Pantalon heiſſet ſie fort gehen und folget ihr nach.</p>
+                    <p rend="indent">Covicello trit ebenfals im dunckeln herein und iſt gantz
+                        ver-<lb/> wirt, weil er nicht weiß, wo er die Aurelia antreffen ſoll,
+                        und<lb/> weil er Leute hoͤret, verſtecket er ſich. Diana koͤmmt zuruͤck, um
+                        den<lb/> Silvio aus ſeiner Gefangenſchafft zuerloͤſen; Sie rufft ihn.
+                        Beyde<lb/> ſo wohl Silvio, als Odoardo, kommen hervor, und nehmen die<lb/>
+                        Diana bey der Hand. Diana iſt gantz verwirrt, zwiſchen zwey<lb/> Perſonen zu
+                        ſeyn. Jndeſſen koͤmmt die Aurelia mit einem Ring,<lb/> und wie ſie ihre
+                        Schweſter bey ihrem Liebhaber und dem Odoardo<lb/> ſiehet, ſaget ſie zu ihr!
+                        Das iſt schoͤn, meine Schweſter, zweye<lb/> auf einmahl? Hierauf nimmt ſie
+                        den Silvio, den ſie liebet, und<lb/> gehet, zu ſeinem eigenem Verdruſſe, mit
+                        ihm fort. Odoardo ſtel-<lb/> let die verwirte Diana zu frieden, und indem er
+                        von ſeiner Liebe<lb/> mit ihr redet, laͤſſet ſich der Pantalon hoͤren. Diana
+                        verſtecket den<lb/>
+                        <fw type="sig" place="bottom">(*) 3</fw>
+                        <fw type="catch" place="bottom">Odoardo</fw>
+                        <pb facs="#indande-6" n="6"/>
+                        <fw type="pageNum">6</fw> Odoardo in das Bette, Der Alte koͤmmt und fragt
+                        die Diana,<lb/> was ſie in dieſem Zimmer mache und warum ſie ſo beſtuͤrtzt
+                        ſey?<lb/> Sie wendet vor, als ob Geſpenſter in dem Zimmer waͤren; da<lb/>
+                        mit er wieder fort gehen ſoll. Der Alte antwortet, er muͤſſe noch<lb/>
+                        einige Briefe ſchreiben und heiſſet ſie fort gehen. Wie er ſich nie-<lb/>
+                        der ſetzet zum ſchreiben, ſpielet ihm der Arlequin, als ein Geſpen-<lb/>
+                        ſte, allerley Poſſen. Pantalon iſt voller Furcht und will ſich zu<lb/> Bette
+                        legen; wie er aber den Odoardo mit dem bloſen Degen in<lb/> der Hand
+                        daſelbſt antrifft, laͤufft er fort. Odoardo ſiehet ſich ent-<lb/> decket,
+                        ſaget, er muͤſſe ſich aus dem Staube machen und gehet<lb/> weg. Pantalon
+                        koͤmmt mit Leuten wieder zuruͤck und ſuchet die<lb/> Perſon, ſo er auf dem
+                        Bette angetroffen; wie er aber nichts fin-<lb/> det, heiſſet er ſie fort
+                        gehen, loͤſchet das Licht aus und legt ſich auf<lb/> das Bette. Diana koͤmmt
+                        wieder zuruͤck, in der Meynung, den<lb/> Silvio weg zu ſchaffen und rufft
+                        ihn. Pantalon will ihr die Hand<lb/> geben und ſie erſchrecken; Sie aber
+                        mercket, daß ſie ſich betrogen<lb/> und lauͤfft weg. Jndeſſen koͤmmt die
+                        Aurelia gleichfals, in dem Vor-<lb/> haben den Silvio zu entfernen. Pantalon
+                        glaubt, es ſey ihre Schwe-<lb/> ſter, nimmt ſie bey der Hand und wie er ſie
+                        ſchlagen will, koͤmmt<lb/> Covicello, der die Aurelia weg fuͤhret. Pantalon
+                        will im Zorn<lb/> nachfolgen, Arlequin aber haͤlt ihn auf, und mit dieſem
+                        Lerm be-<lb/> ſchlieſſet ſich die andere Handlung.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Dritte Handlung.</head>
+                    <p rend="indent">Pantalon trit auf und erzehlet dem Doctor, was er fuͤr<lb/>
+                        Verdruß mit ſeinen Toͤchtern habe, die ſich verheyrathen wolten.<lb/> Der
+                        Doctor haͤlt um die Diana, als die aͤlteſte, fuͤr ſich ſelbst, um<lb/> die
+                        juͤngſte aber, nehmlich die Aurelia, fuͤr ſeinen Sohn, Odoardo,<lb/> an.
+                        Pantalon verſpricht ſie ihm und beyde gehen weg, um den Hey-<lb/>
+                        raths-Contract bey einem Notario machen zu laſſen.</p>
+                    <p rend="indent"> Silvio koͤmmt und ſaget, er habe mit der Diana ihre
+                        Entfuͤh-<lb/> rung verabredet, und er wolle ſie, noch ehe es Tag wuͤrde,
+                        zu<lb/> einem ſeiner guten Freunde, nehmlich den Doctor, fuͤhren. Er<lb/>
+                        klopfet an: Diana, die bereits auf ihn gewartet, koͤmmt heraus,<lb/> giebt
+                        ihm die Hand und er fuͤhret ſie zu dem Doctor.</p>
+                    <fw type="catch" place="bottom">Odoardo</fw>
+                    <pb facs="#indande-7" n="7"/>
+                    <fw type="pageNum">7</fw>
+                    <p rend="indent">Odoardo koͤmmt in gleichem Vorhaben, die Diana zu ent-<lb/>
+                        fuͤhren. Er klopfet an. Aurelia koͤmmt heraus, und weil ſie glau-<lb/> bet,
+                        daß es der Silvio ſey, nimmt ſie ihn bey der Hand und laͤſſet<lb/> ſich zu
+                        den Doctor fuͤhren.</p>
+                    <p rend="indent">Covicello trit auf und ſaget ebenfals, er ſey hergekommen,<lb/>
+                        ſeine Geliebte zu entfuͤhren. Er klopfet an. Smeraldina glaubt,<lb/> es ſey
+                        der Arlequin, giebt ihn die Hand und er begleitet ſie in des<lb/> Doctors
+                        Hauß.</p>
+                    <p rend="indent">Brighella koͤmmt und ſagt, er wolle die Smeraldina betruͤ-<lb/>
+                        gen und ſich ſtellen, als ob er ihr Liebhaber ſey und klopfet an.<lb/>
+                        Arlequin koͤmmt, als ein Frauenzimmer gekleidet, heraus und laͤſſet<lb/>
+                        ſich von ihm zu dem Doctor fuͤhren.</p>
+                    <p rend="indent">Die Alten kommen zuruͤck und ſagen, ſie haͤtten ihren Con-<lb/>
+                        tract richtig gemacht. Silvio und Odoardo kommen, einer nach dem<lb/>
+                        andern, und bitten den Pantalon um Verzeihung, daß ſie ſeine<lb/> Tochter,
+                        die Diana, entfuͤhret und ſie geheyrathet. Pantalon erſchrickt,<lb/> da er
+                        hoͤret, daß ſich ſeine Tochter vermehret haben ſolte und befieh-<lb/> let
+                        beyden, ſie her zu ruffen. Couicello koͤmmt und bittet gleichfals<lb/> um
+                        Verzeihung, daß er die Aurelia entfuͤhret. Pantalon befiehlet<lb/> ihm auch,
+                        ſie herzuruffen. Brighella trit ein und bittet, wie die<lb/> vorigen, um
+                        Verzeihung, daß er die Smeraldina entfuͤhret, und<lb/> wie er alles
+                        erzehlet, daß ſie das ſaͤmtliche Frauenzimmer zu den<lb/> Doctor gebracht,
+                        wird Pantalon beſtuͤrtzt und befiehlet dem Brig-<lb/> hella die Smeraldina
+                        herzubringen. Covicello und die uͤbrigen alle<lb/> kommen hinein. Die Alten
+                        erſchrecken, da ſie vier Frauenzimmer<lb/> ſehen, da doch der Pantalon nicht
+                        mehr, als zwey Toͤchter und ei-<lb/> ne Vediente, habe. Dieſer fragt die
+                        Liebhaber, welche von dem<lb/> Frauenzimmer ſie heyrathen wolten? Odoardo
+                        und Silvio glauben<lb/> beyde fuͤr ſich, daß die Diana die ihrige ſey und
+                        antworten mit ja.<lb/> Pantalon laͤſſet die Kappen wegthun und Odoardo und
+                        Aurelia<lb/> bezeigen ſich ſehr beſtuͤrtzt, daß ſie ſich in denen Perſonen
+                        betro-<lb/> gen ſehen, laſſen ſich aber beſaͤufftigen. Covicello wird
+                        gleich-<lb/> fals gefragt, ob er die ſeinige heyrathen wolle? und
+                        ohnerachtet<lb/> er ſeine Aurelia in den Haͤnden des Odoardo, ſiehet, ſaget
+                        er den-<lb/> noch ja. Smeraldina giebt ſich zu erkennen, woruͤber Brighella gantz<lb/>
+                        <fw type="catch" place="bottom">de-</fw>
+                        <pb facs="#indande-8" n="8"/>
+                        <fw type="pageNum">8</fw> desperat wird. Der Alte fragt ihn, ob er nicht
+                        ſeine Liebſte auch<lb/> heyrathen wolle? Brighella ſagt ja, Arlequin aber
+                        will ſich die<lb/> Kappe nicht wegnehmen laſſen. Nach einigen Schertz werden
+                        die<lb/> Heyrathen des Silvio und Odoardo mit der Diana und Aurelia
+                        vollzo-<lb/> gen, und weil der Arlequin die Smeraldina nicht laſſen will,
+                        wird ſie<lb/> ihm gleichfals gegeben; Welches der Beſchluß des gantzen
+                        Spie-<lb/> les iſt.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'inganno fortunato.</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#obman-1" n="1"/>
+                <head type="main">L’INGANNO FORTUNATO</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/>
+                    <date when="1734">nel 1734.</date></head>
+                <pb facs="#obman-2" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">SILVIO, per mezzo del ritratto che doveva dipingere, si
+                        innamora di Diana, amante del suo amico Odoardo. Quando i due di nascosto
+                        l’uno dall’altro vogliono parlare alla fanciulla nella sua camera, vengono
+                        sorpresi da Pantalone. Ciò li costringe a cercare di rapirla. L’amore di
+                        Coviello per Aurelia, di Arlecchino e Brighella per Smeraldina non sono
+                        nient’altro che un’aggiunta che serve a dare il via all’intera commedia che
+                        si concluderà con le nozze di Silvio con Diana, Odoardo con Aurelia,
+                        Arlecchino con Smeraldina.</p>
+                </div>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE,</role>
+                        <roleDesc>padre di Diana e Aurelia.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_it">DIANA e<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_it">AURELIA,</role>
+                        </castItem>
+                        <roleDesc>sorelle.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>serva.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_it">SILVIO,</role>
+                        <roleDesc>pittore.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                        <roleDesc>suo servo.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_it">DOTTORE,</role>
+                        <roleDesc>padre di Odoardo.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="odoardo_it">ODOARDO,</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_it">BRIGHELLA,</role>
+                        <roleDesc>servo.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="coviello_it">COVIELLO.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Bologna.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#obman-3" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <stage>LA SCENA MOSTRA LA BOTTEGA DI UN PITTORE.</stage>
+                    <p rend="indent">ODOARDO chiede a Silvio di fare il ritratto della sua amante
+                        Diana. Silvio dice che prima ha bisogno di vederla. Odoardo risponde di
+                        averlo già chiesto alla fanciulla e sarà lei a venire da lui. Silvio chiama
+                        Arlecchino, che esce molto arrabbiato minacciando qualcuno di morte se quel
+                        qualcuno non gli dirà la verità. Silvio gli chiede con chi se la prende.
+                        Arlecchino risponde che il suo cameriere gli ha mangiato una costoletta
+                        fritta e per quel motivo Arlecchino l’ha picchiato con una fune per fargli
+                        confessare la verità sul furto, e se non dirà niente lo impiccherà. Silvio
+                        si meraviglia di ciò che dice Arlecchino, gli chiede di spiegarsi più
+                        chiaramente. Arlecchino dice che in effetti il cameriere è il suo gatto e
+                        gli ha portato via la carne dalla padella e poi ha confessato dicendo:
+                        MIAOMIA [cioè ha mangiato]. Dopo alcuni lazzi Silvio ordina ad Arlecchino di
+                        tritare le tinte. Arlecchino, pensando alla sua costoletta, si ricorda che
+                        l’aveva mangiata lui stesso la sera prima. Considera il gatto un buon gatto
+                        e dice che inizierà a chiedergli perdono. Silvio promette a Odoardo che
+                        andrà da Diana per fare uno schizzo, così quando la ragazza verrà nella sua
+                        bottega troverà già qualcosa di pronto, e i due escono insieme. Arlecchino
+                        rimane per tritare le tinte. Arriva Smeraldina, dice di essersi innamorata
+                        di Arlecchino e di essere arrivata con il pretesto di farsi fare il
+                        ritratto, <pb facs="#obman-4" n="4"/> per dichiarargli il suo amore. Da
+                        questo nasce un lazzo tra loro. Quando Arlecchino sta dipingendo il ritratto
+                        di Smeraldina, arriva un uomo che chiede di Pantalone. Arlecchino lo manda
+                        via con qualche lazzo. Intanto arriva Brighella che, vedendo la sua amata
+                        Smeraldina amoreggiare con Arlecchino, comincia ad ingelosirsi. Dopo alcuni
+                        giochi di parole, Arlecchino vuole che Brighella vada via, ma vedendo che
+                        non lo fa lo caccia via. Arlecchino continua a dipingere il ritratto di
+                        Smeraldina. Arriva Silvio domandandogli se ha preparato le tinte. Arlecchino
+                        dopo alcuni lazzi va a prenderli. Smeraldina esce da là. Silvio dice che sta
+                        aspettando Diana e dice di essersi innamorato di lei e di voler approfittare
+                        di quell’occasione per dichiararle il suo amore. Intanto sopraggiunge Diana.
+                        Silvio con molti complimenti la fa accomodare, dice ad Arlecchino di portare
+                        i suoi strumenti. Arlecchino esegue, ma non nel modo giusto, chiede perdono
+                        con delle scuse a doppio senso, questo provoca diversi lazzi. Dopodiché,
+                        Diana, a cui Silvio ha dichiarato il suo amore, gli ordina di andare da lei
+                        quella sera alle quattro. La ragazza gli spiega attraverso quale finestra
+                        deve entrare in camera sua e va via. Silvio ordina ad Arlecchino di
+                        trovargli una scala. Arlecchino dice che la chiederà ad un suo amico fidato.
+                        Silvio gli chiede chi è quell’amico fidato. Arlecchino gli risponde <pb facs="#obman-5" n="5"/> che è il boia. Silvio inizia a rimproverarlo e
+                        va via. Arlecchino dice di dover completare un altro ritratto di un
+                        mercante. In quel momento arriva Pantalone e chiede ad Arlecchino se ha
+                        terminato il suo ritratto. Arlecchino risponde che ha già iniziato a
+                        dipingere. Tra Pantalone e Arlecchino accade un lazzo. Arlecchino, finito il
+                        ritratto, dice che si è ingegnato per compiacere Pantalone, dipingendolo più
+                        bello di quanto non è in realtà e gli mostra l'opera. Pantalone, vedendo
+                        dipinta la testa di un asino, si arrabbia, anche Arlecchino. Con rumore e
+                        grida si conclude il primo atto.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <stage>LA SCENA MOSTRA LA NOTTE.</stage>
+                    <p rend="indent">SILVIO entra molto arrabbiato perché il suo servitore
+                        Arlecchino a cui ha ordinato di trovare la scala tarda ad arrivare. Trova il
+                        cancello di Diana aperto. Decide di voler approfittare di quell’opportunità
+                        per vedere Diana ed entra da lei.</p>
+                    <p rend="indent">Sopraggiunge ODOARDO, dice di aver ricevuto un biglietto,
+                        attraverso il quale Diana gli chiedeva di andare da lei di notte. Vedendo il
+                        cancello aperto entra da lei.</p>
+                    <p rend="indent">Entra ARLECCHINO con una scala, fa molti lazzi, cerca il suo
+                        padrone, ma non trovandolo mette la scala sotto la finestra di Pantalone,
+                        dice di voler vedere Smeraldina. Quando la chiama arrivano molti soldati
+                        che, credendo sia <pb facs="#obman-6" n="6"/> un ladro, vogliono arrestarlo.
+                        Arlecchino si difende e scappa. I soldati lo seguono. Arlecchino è costretto
+                        a nascondersi in casa di Pantalone e attraverso un lazzo salta dentro la
+                        finestra.</p>
+                    <p rend="indent">Entra COVIELLO con Brighella, gli racconta del suo amore per la
+                        figlia di Pantalone, Aurelia. Brighella gli racconta del suo per Smeraldina.
+                        Dicono di conoscere molto bene la casa di Pantalone, per quello vogliono
+                        parlare con le loro amate, vedono il cancello aperto ed entrano da
+                        Pantalone.</p>
+                    <stage> LA SCENA MOSTRA UNA CAMERA CON UN LETTO.</stage>
+                    <p rend="indent">DIANA entra e dice nel buio che sta aspettando con impazienza
+                        Silvio. Nel frattempo arriva Silvio e le confessa il suo amore, in quel
+                        momento si sente Pantalone. Diana spaventata nasconde Silvio sotto il letto
+                        ed esce.</p>
+                    <p rend="indent">AURELIA entra dicendo che aspetta il suo amante Silvio. In quel
+                        momento arriva Odoardo e al buio scambia Aurelia per Diana, sua amante, e le
+                        porge la mano. Poi di nuovo si sente Pantalone e Aurelia mette Silvio sul
+                        letto. Nel frattempo, entra Pantalone e chiede ad Aurelia cosa sta facendo
+                        lì. Aurelia risponde che sua sorella Diana non si sente bene e per quello
+                        lei è uscita. Il vecchio la manda nella sua camera e va via.</p>
+                    <p rend="indent">Entra COVIELLO anche lui nel buio, si sente smarrito perché non
+                        sa dove <pb facs="#obman-7" n="7"/> trovare Aurelia, sente arrivare qualcuno
+                        e si nasconde. Torna Diana per far uscire Silvio. Comincia a chiamarlo.
+                        Escono all’improvviso Silvio e Odoardo, entrambi la prendono per mano. Diana
+                        è molto imbarazzata di trovarsi in mezzo a due persone. Sopraggiunge Aurelia
+                        con una candela e, vedendo sua sorella con il suo amante e Odoardo, le dice:
+                        STAI IN SALUTE SORELLINA, DUE IMPROVVISAMENTE! VA BENE! Poi prende il suo
+                        amato Silvio e lo porta via. Silvio la segue non senza rimpianti. Odoardo fa
+                        uscire Diana dall’imbarazzo. Mentre Odoardo le sta parlando del suo amore,
+                        si sente arrivare Pantalone. Diana costringe di nuovo Odoardo a nascondersi
+                        dentro al letto. In quel momento entra il vecchio e chiede a Diana cosa sta
+                        facendo in quella camera e perché è così confusa. Diana, mentendo, risponde
+                        che in quella camera ci sono gli spiriti [per mandare via il padre il prima
+                        possibile]. Pantalone, dopo molti lazzi con la figlia, la manda via dicendo
+                        di dover scrivere molte lettere. Pantalone ordina che gli venga portato
+                        tutto il necessario e comincia a scrivere. Quindi Arlecchino lo spaventa
+                        grandemente con molti scherzi. Pantalone crede ceh siano gli spiriti. Ne
+                        deriva un lazzo divertente. Pantalone si spaventa ancora di più, si sdraia
+                        sul letto ma vede Odoardo con la spada sguainata e scappa. Odoardo, vedendo
+                        che sta per essere catturato, dice che deve nascondersi e va via. Pantalone
+                        torna con i suoi uomini e ordina di cercare in tutta la camera quella
+                        persona che <pb facs="#obman-8" n="8"/> era sul letto. Non trovandolo manda
+                        via tutti, si sdraia sul letto e spenge la candela. Torna Diana per liberare
+                        Silvio, e, credendo che fosse lì, inizia a chiamarlo. Pantalone vuole
+                        afferrarla per la mano. Diana vedendo il suo errore va via. Mentre il
+                        vecchio la sta cercando, sopraggiunge Aurelia con l’intenzione di liberare
+                        Silvio. Pantalone pensando che stia quella che sta cercando, la afferra per
+                        la mano. E quando vuole picchiarla arriva Coviello che, attraverso un lazzo,
+                        porta Aurelia con sé. Pantalone arrabbiato vuole seguirli ma Arlecchino lo
+                        trattiene e, dopo un lazzo, si conclude il secondo atto.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <stage>LA SCENA MOSTRA LA NOTTE.</stage>
+                    <p rend="indent">PANTALONE entra raccontando al Dottore le difficoltà che sta
+                        attraversando a causa delle sue figlie e che vuole farle sposare. Il Dottore
+                        gli chiede Diana per sé e, per suo figlio Odoardo chiede Aurelia. Pantalone
+                        è d’accordo con lui. Per concludere il contratto vanno via.</p>
+                    <p rend="indent">SILVIO dice di essersi messo d’accordo con Diana per rapirla
+                        prima dell’alba, vuole portarla a casa del suo amico Dottore. Inizia a
+                        bussare <pb facs="#obman-9" n="9"/> da Diana che lo sta aspettando. Diana
+                        esce, Silvio le porge la mano e la conduce dal Dottore.</p>
+                    <p rend="indent">Arriva ODOARDO con la stessa intenzione, cioè di rapire Diana,
+                        e comincia a bussare. Esce Aurelia, pensando che fosse Silvio, gli porge la
+                        mano e va con lui dal Dottore.</p>
+                    <p rend="indent">Entra COVIELLO e dice che anche lui si è accordato con la sua
+                        amante per rapirla e comincia a bussare. Esce Smeraldina, pensando che fosse
+                        Arlecchino, gli dà la mano e vanno dal Dottore.</p>
+                    <p rend="indent">Entra BRIGHELLA dicendo di voler rapire Smeraldina, si finge il
+                        suo amante, comincia a bussare. Entra Arlecchino vestito da donna e va con
+                        Brighella dal Dottore.</p>
+                    <p rend="indent">Entrano i vecchi dicendo di aver firmato i contratti
+                        matrimoniali. Entrano Silvio e Odoardo, uno dopo l’altro, chiedono perdono a
+                        Pantalone per averlo fatto arrabbiare e confessano di aver rapito sua figlia
+                        Diana e di averla sposata. Pantalone è molto sorpreso dello sdoppiamento di
+                        sua figlia, dopo qualche lazzo, dice di portarla lì. Gli innamorati vanno
+                        via e arriva Coviello che nello stesso modo chiede perdono a Pantalone per
+                        aver rapito sua figlia Aurelia. Pantalone ordina anche a lui di portarla.
+                        Coviello va via. Arriva Brighella chiedendo perdono a Pantalone per aver
+                        rapito Smeraldina e dice che tutti hanno portato le loro amanti dal Dottore
+                        che è molto arrabbiato. Pantalone ordina a Brighella di portare Smeraldina,
+                        Brighella va via. Tutti tornano, <pb facs="#obman-10" n="10"/> i vecchi sono
+                        stupiti di vedere quattro donne. Pantalone dice di aver avuto solo due
+                        figlie e una serva, chiede agli amanti se vogliono sposare quelle dame.
+                        Silvio e Odoardo, pensando entrambi di aver portato Diana, rispondono che è
+                        quello che vogliono. Pantalone ordina di scoprirle. Odoardo è arrabbiato per
+                        l’inganno di Silvio e anche Aurelia. Ma ormai sono persuasi. Viene chiesto a
+                        Coviello se vuole sposare la sua dama. Coviello, disperando ormai di
+                        ottenere Aurelia che vede già nelle mani di Odoardo, conferma di volerlo.
+                        Smeraldina si rivela, Brighella è disperato, il vecchio gli chiede di
+                        scoprire la sua amante e gli chiede se vuole sposarla. Brighella risponde di
+                        sì, ma Arlecchino non si lascia scoprire. Dopo alcuni lazzi si celebra il
+                        matrimonio di Silvio con Diana, Odoardo con Aurelia e Arlecchino con
+                        Smeraldina. Così finisce la</p>
+                    <p rend="indent">COMMEDIA.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

@@ -1,0 +1,1023 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Arlecchino e Smeraldina, innamorati dispettosi</title>
+            <respStmt>
+               <resp>Transcription, translation, and encoding by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>In base alla data indicata sul frontespizio dello scenario a stampa, è possibile
+               stabilire che la pièce sia stata allestita nel 1733. Stando al rendiconto di Giuseppe
+               Avolio, si può ipotizzare che la commedia fosse replicata il 10 luglio del 1734
+               (Pieroni, 71). Le redazioni in russo e in tedesco non si differenziano, se non in due
+               scene dell’Atto I e dell’Atto II, in cui la versione tedesca chiarisce che il
+               personaggio di Brighella parlava in francese e quindi fornisce un maggior numero di
+               dettagli sugli aspetti performativi dello spettacolo. Il fatto che il traduttore in
+               tedesco, lasci in lingua originale le frasi pronunciate in francese da Brighella,
+               mentre il traduttore russo le traduce, lascia supporre che i traduttori abbiano fatto
+               le loro scelte in base alle competenze dei diversi tipi di pubblico, l’aristocrazia
+               russa da una parte, e i tedeschi presenti alla corte dall’altra. Lo scenario fornisce
+               informazioni sulle straordinarie abilità pantomimiche dell’attrice Adriana Sacco che
+               interpretava Smeraldina. Per esempio, nell’Atto III l’attrice faceva vedere il
+               repentino cambiamento della disperazione alla gioia e usciva dal palcoscenico
+               saltando e danzando: “Arlecchino rivela a Smeraldina di non essere morto. La
+               disperazione di Smeraldina cambia in gioia. Pantalone si spaventa per questo
+               cambiamento. Smeraldina saltando e ballando, va via” (Atto III, p. 9).</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Арлекïнъ и Смералдïна любовники разнѣвавшиеся</title>
+               <respStmt>
+                  <resp>Transcription and encoding by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (10b) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="11">11 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="arlesmer_ru_001" url="/img/arlesmer_ru_001.jpg"/>
+            <graphic xml:id="arlesmer_ru_002" url="/img/arlesmer_ru_002.jpg"/>
+            <graphic xml:id="arlesmer_ru_003" url="/img/arlesmer_ru_003.jpg"/>
+            <graphic xml:id="arlesmer_ru_004" url="/img/arlesmer_ru_004.jpg"/>
+            <graphic xml:id="arlesmer_ru_005" url="/img/arlesmer_ru_005.jpg"/>
+            <graphic xml:id="arlesmer_ru_006" url="/img/arlesmer_ru_006.jpg"/>
+            <graphic xml:id="arlesmer_ru_007" url="/img/arlesmer_ru_007.jpg"/>
+            <graphic xml:id="arlesmer_ru_008" url="/img/arlesmer_ru_008.jpg"/>
+            <graphic xml:id="arlesmer_ru_009" url="/img/arlesmer_ru_009.jpg"/>
+            <graphic xml:id="arlesmer_ru_010" url="/img/arlesmer_ru_010.jpg"/>
+            <graphic xml:id="arlesmer_ru_011" url="/img/arlesmer_ru_011.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#arlesmer_ru_001" n="1"/>
+            <head type="main">АРЛЕКИНЪ И СМЕРАЛДIНА<lb/>ЛЮБОВНИКИ РАЗГНѢВАВШIЕСЯ</head>
+            <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1733">1733 года.</date><lb/></head>
+            <pb facs="#arlesmer_ru_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent">Прилѣжное храненïе, которое Панталонъ имѣлъ<lb/> надѣ своими
+                  дочерями, принудило Сïлвïя и Одо-<lb/> арда искать помощи въ досужемъ Брïгеллѣ,
+                  ко-<lb/> торои чрезъ ходатаиство арлекïново, по многихъ<lb/> плутовствахъ, здѣлалъ
+                  такъ, что они женилися<lb/> на своихъ невѣстахъ при самомъ старикѣ. А въ
+                  одномъ<lb/> изъ тѣхъ плутовствъ Арлекïнъ здѣлался ревнивымъ<lb/> къ Смералдïнѣ,
+                  которая осердившись на ту его ре-<lb/> вность еи обидную, стала ему казаться
+                  жестокою;<lb/> что дало причину гнѣву ихъ взаимному, которои<lb/> учинилъ имя сеи
+                  комедïи.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="pantalone">ПАНТАЛОНЪ,</role>
+                  <roleDesc>отецъ Дïаннинъ и Аурелïинъ.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="diana">ДIАНА и<lb/></role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="aurelia">АУРЕЛIЯ,</role>
+                  </castItem>
+                  <roleDesc>дочери панталоновы.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="smeraldina">СМЕРАЛДIНА,</role>
+                  <roleDesc>служащая.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore">ДОКТОРЪ.</role>
+                  <roleDesc>другъ Панталоновъ.<lb/></roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio">СІЛВІИ и</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo">ОДОАРДЪ</role>
+                  </castItem>
+                  <roleDesc>братья.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="brighella">БРІГЕЛЛЪ,</role>
+                  <roleDesc>коварникъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino">АРЛЕКIНЪ,</role>
+                  <roleDesc>любовникъ Смералдïнïнъ.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Дѣиствïе это въ Венецïи.</p>
+            </set>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+         </front>
+         <body>
+            <pb facs="#arlesmer_ru_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+               <p rend="indent">ПАНТАЛОНЪ выгоняетъ изъ своего дому Арле-<lb/> кïна, понеже онои ево
+                  нашолъ, что онъ при-<lb/> водилъ совѣтомъ ево дочереи къ любви Сïлвïевои и<lb/>
+                  Одоардовои. Арлекïнъ, послѣ нѣкоторыхъ игру-<lb/> шекъ надлежащихъ к театру,
+                  проситъ у нево<lb/> своего наиму, и грозитъ ему, что, противу ста-<lb/> ранïя его,
+                  будетъ онъ сводить Дïану и Аурелïю<lb/> съ ихъ любовниками. Панталонъ осердившись
+                  сталъ<lb/> ево бить, и потомъ пошолъ. Арлекïнъ взявъ себѣ<lb/> въ досаду то
+                  безчестïе кленется, что онъ ему отм-<lb/> ститъ; толькожъ на передъ хочетъ онъ
+                  поговорить<lb/> съ Смеральдïною; да и вонъ пошолъ.</p>
+               <p rend="indent">СІЛВІИ и Одоардъ разширяя многими словами<lb/> страсть свою къ
+                  дочерямъ панталоновымъ, купно<lb/> и его упрямство въ томъ, что онъ имъ всегда
+                  отъ<lb/> нихъ отказываетъ, говорятъ, что хотятъ они<lb/> обнадежены быть самихъ
+                  ихъ словами, только они<lb/> боятся, что не дома ли отецъ ихъ. Притворилися<lb/>
+                  они, что бутто стали между собою на шпагахъ<lb/> биться; на тотъ ихъ крикъ Дïана и
+                  Аурелïя выхо-<lb/> дятъ; любовники говорятъ имъ, что ихъ бои ме-<lb/> жду собою
+                  притворнои, и то для того, чтобъ ихъ<lb/> вызвать; и вызвавъ, говорятъ имъ о своеи
+                  любви, и<lb/> купно увѣдомиться о ихъ къ нимъ чювствïи. Дïана и<lb/> Аурелïя
+                  божатся имъ, что онѣ имѣютъ вѣчную къ<lb/> нимъ вѣрность. Въ то время сталъ быть
+                  слышимъ<lb/> Панталонъ. Любовники бутто опять стали биться.<lb/> Старикъ
+                  приходитъ, и видя, что его дочери на<lb/> улицѣ, сталъ ихъ бранить за то, и велѣлъ
+                  имъ<lb/> убраться домои. Онѣ ни говоря ничево послушались.<lb/> Старикъ говоритъ
+                  любовникамъ, чтобъ они пошли<lb/>
+                  <fw type="sig" place="bottom">Ъ 2</fw>
+                  <fw type="catch" place="bottom">убить</fw>
+                  <pb facs="#arlesmer_ru_004" n="4"/>
+                  <fw type="pageNum">4</fw> убить себя въ иное мѣсто; а самъ пошолъ прочь.<lb/> Тѣ
+                  въ отчаянïи осталися; а ихъ невѣсты паки воз-<lb/> вратилися говоря, что ихъ отецъ
+                  теперь въ своемъ<lb/> кабïнетѣ, и что онъ пишетъ. Любовники обрадо-<lb/> вавшись
+                  начали опять имъ говорить о своеи страсти; между тѣмъ старикъ кличетъ нѣково.
+                  Сïлвïи<lb/> и Одоардъ притворяются быть поранены. Панта-<lb/> лонъ выходитъ, и
+                  видя вторично своихъ дочереи<lb/> на улицѣ идетъ къ нимъ въ великомъ гнѣвѣ. Онѣ
+                  ему<lb/> говорятъ, что ево жестокость есть причиною, что<lb/> эти два Кавалера
+                  поранили себя смертно, и что они<lb/> желаютъ написать себѣ духовную, и учинить
+                  ихъ<lb/> наследницами имѣнïя своего. Панталонъ, которои<lb/> очюнь охотъ до
+                  денегъ, обрадовавшись о томъ, велитъ<lb/> своимъ дочерямъ имѣть о нихъ старанïе; а
+                  онъ пои-<lb/> детъ по бумагу, и по чернила; да и пошолъ. Всѣ стали<lb/> быть ради,
+                  что вымыслъ тотъ удачно пошолъ.<lb/> Старикъ возвращается; любовники бросились
+                  по<lb/> своимъ мѣстамъ, и сказываютъ свою духовную.<lb/> Старикъ чрезъ многïя
+                  шутки приличныя театру<lb/> объявляетъ свое удовольствованïе; потомъ гово-<lb/>
+                  рит, что онъ поидетъ по свѣчу; и по сургучѣ.<lb/> Любовники, и ихъ невесты смѣются
+                  надъ вѣроятïемъ<lb/> стариковым, которои возвращаяся полегоньку вы-<lb/> слушалъ
+                  ихъ рѣчи; уразумѣлъ онъ, что былъ обма-<lb/> нутъ; и осердился такъ жестоко, что
+                  схватался<lb/> за свои кинжалъ. Дочери ево уходятъ. Любовники<lb/> такъ же.
+                  Старикъ обещается то отмстить, да<lb/> и онъ пошолъ.</p>
+               <p rend="indent">АРЛЕКIНЪ выходитъ говоря Брïгеллу, что какъ<lb/> ево Панталонъ
+                  согналъ отъ себя; и что онъ хочетъ<lb/> ему мстить. Брïгеллъ ево на то ободряетъ;
+                  но<lb/> однакожъ на передъ надлежитъ спросить Дïаны, и<lb/> Аурелïи, что любятъ ли
+                  онѣ Сïлвïя и Одоарда. На<lb/> то Панталонъ имѣя кинжалъ свои въ рукѣ, гро-<lb/>
+                  <fw type="catch" place="bottom">зится</fw>
+                  <pb facs="#arlesmer_ru_005" n="5"/>
+                  <fw type="pageNum">5</fw> Дïану убить, ежели она не скажетъ ему всю<lb/> правду о
+                  своеи любви. Дïана во всемъ запирается. Брï-<lb/> геллъ подъучилъ Арлекïнъ, чтобъ
+                  спросить у нея ти-<lb/> хонько о томъ, что имъ было надобно, за то обѣщаяся<lb/>
+                  въ дѣиство произвести ихъ бракъ потомъ. Арлекïнъ<lb/> исполняетъ свое намѣренïе
+                  чрезъ многïя игрушки<lb/> своиственныи театру, и сталъ говорить съ Дïаною.<lb/>
+                  Брïгеллъ пошолъ прочь смѣяся о искусствѣ Арлекïно-<lb/> вомъ. Панталонъ увидѣвъ,
+                  что Арлекïнъ говорить съ<lb/> ево дочерью, сталъ ево бить, да и пошолъ вонъ съ
+                  нею.<lb/> Арлекïнъ удоволившися тѣмъ, что обиду старику<lb/> учинилъ, говоритъ,
+                  что онъ еще хочетъ погово-<lb/> рить съ Смералдïною, въ ко|торую онъ
+                  влюбился,<lb/> да и сталъ стучаться. Смералдïна выходитъ,<lb/> и поговоривъ оба о
+                  взаимнои своеи страсти, та<lb/> отошла прочь; а приходить Брïгеллъ съ писмомъ<lb/>
+                  къ Дïанѣ, и отдаетъ оное Арлекïну, дабы онъ то<lb/> вручилъ Дïанѣ, и говорить ему,
+                  чтобъ, для отмще-<lb/> нïя своего Панталону, притворился онъ часами.<lb/> Арлекïнъ
+                  по нѣсколькои трудности согласился на<lb/> то. Брïгеллъ пошолъ приготовлять
+                  надлежащее;<lb/> а Панталонъ возвращается вручая Дïанѣ попеченïе<lb/> о сестрѣ
+                  своеи Аурелïѣ; а онъ поидетъ въ приказъ<lb/> для нѣкотораго дѣла. Дïана обѣщается
+                  имѣть то<lb/> старанïе. Арлекіïнъ дѣлаетъ многïя игрушки свои-<lb/> ственныя
+                  театру, дабы какъ отдать писмо Дïанѣ;<lb/> напослѣдокъ, вручилъ еи оное. Панталонъ
+                  вышелъ<lb/> вонъ. Арлекïнъ будучи доволенъ, что онъ испол-<lb/> нилъ приказъ,
+                  пошолъ же. Дïана обрадовавшись,<lb/> что получила писмо пошла къ себѣ читать то, о
+                  чомъ<lb/> было писано.</p>
+               <p rend="indent">БРІГЕЛЛЪ выходитъ говоря Сïлвïю и Одоарду,<lb/> что онъ отдалъ писмо
+                  Арлекïну, и что онъ упо-<lb/> ваетъ, что уже оное отъ него вручено, кому над-<lb/>
+                  <fw type="sig" place="bottom">Ъ 3</fw>
+                  <fw type="catch" place="bottom">лежитъ.</fw>
+                  <pb facs="#arlesmer_ru_006" n="6"/>
+                  <fw type="pageNum">6</fw> лежитъ. Однако чтобъ не случилося какова неща-<lb/>
+                  стïя, онъ ево учинилъ стѣнными часами въ однои<lb/> статуѣ, которая показываетъ тѣ
+                  часы; а чрезъ сïе<lb/> средство хочетъ онъ ввесть Арлекïна въ домъ Пан-<lb/>
+                  талоновъ, и что ночью можетъ онъ имъ отпереть<lb/> ворота, и чрезъ то дать способъ
+                  имъ къ похищенïю<lb/> ихъ невѣстъ. Любовники благодарятъ ему за ево<lb/> старанïе.
+                  Между тѣмъ Аурелïя выглянула въ окно,<lb/> и проситъ ихъ воити къ себѣ, потому что
+                  отца<lb/> нѣтъ дома, только чтобъ они ково нибудь поста-<lb/> вили на караулѣ,
+                  чтобъ увѣдомитьcя, когда тотъ<lb/><lb/> станетъ возвращаться. На то приходить
+                  Арлекïнъ.<lb/> Любовники приказываютъ ему стать на караулѣ;<lb/> и ежели Панталонъ
+                  будетъ приходить, тобъ имъ<lb/> дать знакъ, какимъ нибудь ясакомъ, о которомъ<lb/>
+                  они согласились. Послѣ сего вошли они къ своимъ<lb/> невѣстамъ. Арлекïнъ остался,
+                  а пришла къ нему<lb/> Смералдïна; говорить она, что узнавши, что ея<lb/> любезныи
+                  Арлекïнъ былъ на улицѣ; того ради она<lb/> пришла съ нимъ поговорить. Однако,
+                  чтобъ испы-<lb/> тать ево вѣрность, хочетъ она ему показываться<lb/> сердита, что
+                  она и исполнила тотчасъ. Арлекïнъ<lb/> осердившись дакъ же съ нею сталъ
+                  поступать.<lb/> Смералдïна пошла отъ него прочь. Арлекïнъ<lb/> остался печаленъ о
+                  прïятïи Смералдïнïномъ, и думая,<lb/> что Панталонъ идетъ, началъ кричать: ахъ!
+                  ахъ! Ахъ<lb/> тошно! Панталонъ объявивъ что онъ здѣлалъ свое<lb/> дѣло въ приказѣ,
+                  чинитъ игрушку смѣшную съ<lb/> Арлекïномъ; а в то время Сïлвïи, Одоардъ, и
+                  Брï-<lb/> геллъ вышли вонъ такъ, что не видалъ ихъ Панта-<lb/> лонъ, и ушли. Что
+                  увидѣвъ Арлекïнъ тотчасъ сталъ<lb/> помираться со смѣху, и говоритъ, что уже
+                  ево<lb/> болѣзнь прошла, а смѣяся надъ старикомъ оконче-<lb/> ваетъ дѣиствïе
+                  первое.</p>
+            </div>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+            <div type="act" n="2">
+               <pb facs="#arlesmer_ru_007" n="7"/>
+               <fw type="pageNum">7</fw>
+               <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+               <p rend="indent">БРІГЕЛЛЪ выходитъ говоря, что Сïлвïи и Одо-<lb/> ардъ веселяся
+                  разговорами о любви съ своими невѣ-<lb/> стами, позабыли увѣдомить ихъ о часахъ;
+                  что онъ<lb/> хочетъ учинить самъ вскорѣ, да и сталъ стучаться.<lb/> Смералдïна
+                  вышла; Брïгеллъ ея проситъ, чтобъ<lb/> она донесла своимъ госпожамъ о томъ, что
+                  надле-<lb/> житъ до часовъ. Смералдïна обѣщается то учинить.<lb/> Брïгеллъ сталъ
+                  ея лестить; что увидѣвъ Арлекïнъ<lb/> началъ ревновать. Брïгеллъ пошолъ прочь.
+                  Арлекïнъ<lb/> приближился, и сталъ прежестокo попрекать Смерал-<lb/> дïну, которая
+                  ему отвѣтствуетъ таковымъ же<lb/> образомъ. На ихъ крикъ прибѣжалъ Сïлвïи, и
+                  сталъ<lb/> стараться чтобъ какъ ихъ помирить. Въ то время<lb/> Дïана приходитъ;
+                  стала она у нихъ спрашивать<lb/> о причинѣ ссоры ихъ. Смералдïна и Арлекïнъ
+                  отвѣт-<lb/> ствуютъ многими игрушками приличными театру,<lb/> послѣ которыхъ они
+                  ушли. Сïлвïи сказываетъ Дïанѣ<lb/> о часахъ; и утвердивъ еи клятвою свою
+                  вѣрность,<lb/> пошолъ, она такъ же.</p>
+               <p rend="indent">ПАНТАЛОНЪ радуется съ Докторомъ, что онъ<lb/> прибылъ изъ деревни въ
+                  добромъ здоровье. Докторъ<lb/> ему отвѣтствуетъ чрезъ многïя учтивства. На то<lb/>
+                  Брïгеллъ приходить переодѣвшись говоря, что онъ<lb/> часовои мастеръ, и что уже
+                  часы оныя поспѣли.<lb/> Панталонъ сталъ о томъ радоваться; приказываетъ<lb/>
+                  Брïгеллу, чтобъ онъ ихъ къ нему принесъ скоро,<lb/> по тому что онъ ихъ хочетъ
+                  показать Доктору<lb/> своему другу. Брïгеллъ пошолъ по нихъ. Панта-<lb/> лонъ
+                  взялъ Доктора къ себѣ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent">СМЕРАЛДІНА сказываетъ вѣсти Дïанѣ и Аурелïѣ,<lb/>
+                  <fw type="catch" place="bottom">что</fw>
+                  <pb facs="#arlesmer_ru_008" n="8"/>
+                  <fw type="pageNum">8</fw> что Панталонъ ихъ сосваталъ за сыновъ одного ба-<lb/>
+                  рона нѣмецкаго. Онѣ говорятъ, что имъ не надо-<lb/> бны такïе мужья. Смералдïна
+                  имъ повторяетъ, что<lb/> надлежитъ слушать отца, показываяся быть Гоф-<lb/>
+                  меïстерïною ; чрезъ то она приняла много брани отъ<lb/> тѣхъ дѣвицъ. И когда онѣ
+                  кричали между собою;<lb/> тогда Панталонъ прибылъ къ себѣ съ Докторомъ;<lb/> сталъ
+                  онъ спрашивать о причинѣ того крика; Сме-<lb/> ралдïна ему ту причину сказала; но
+                  онѣ еще не<lb/> перестали шумѣть. На то Брïгеллъ приходитъ,<lb/> и говоритъ, что
+                  часы здѣсь. Панталонъ велѣлъ<lb/> молчать своимъ дочерямъ, и служащеи, и
+                  говоритъ<lb/> Брïгеллу, чтобъ онъ принесъ часы въ эту камеру;<lb/> а Смералдïнѣ
+                  приказалъ приготовить ужину, желая,<lb/> чтобъ Докторъ покушалъ у него. Брïгеллъ
+                  несетъ<lb/> Арлекïнъ въ часахъ. Старики дивятся; изъ того<lb/> произходитъ игрушка
+                  смѣшная, которою кончится<lb/> дѣиствïе второе.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ НОЧЬ.</stage>
+               <p rend="indent">АРЛЕКІНЪ выходить плачучи, что онъ не мо-<lb/> жетъ помириться съ
+                  Смералдïною. Брïгеллъ ево въ<lb/> томъ утѣшаегь, и обѣщаетъ ему помогать въ<lb/>
+                  его любви; только чтобъ онъ не оставилъ его въ удачѣ<lb/> одного вымысла, чрезъ
+                  которои онъ надѣется же-<lb/> нить Сïлвïя, и Одоарда, на Дïанѣ и Аурелïѣ.
+                  Арле-<lb/> кïнъ обѣщается то чинить. Брïгеллъ говорить, что<lb/> надобно ему
+                  притвориться барономъ нѣмецкимъ, а<lb/> въ протчемъ всемъ на него положиться.
+                  Арлекïнъ на<lb/> то согласился. Брïгеллъ въ награжденïе говоритъ ему,<lb/> что
+                  теперь вотъ онъ ему поможетъ обмануть Сме-<lb/>
+                  <fw type="catch" place="bottom">ралдïну,</fw>
+                  <pb facs="#arlesmer_ru_009" n="9"/>
+                  <fw type="pageNum">9</fw> ралдïну, и чрезъ то выразумѣть, что любить ли<lb/> она
+                  ево; и купно велитъ Арлекïну, притвориться<lb/> умершимъ, бутто бы былъ убитъ.
+                  Арлекïнъ опи-<lb/> нается услышавъ это слово; изъ того произходятъ<lb/> многïя
+                  игрушки приличныя театру. Напослѣдокъ<lb/> Арлекïнъ закричалъ; Ахъ я убитъ! и
+                  бросился къ во-<lb/> ротамъ Смералдïны, которая выходитъ; Брïгеллъ<lb/> слышя, что
+                  она идетъ, перемѣнилъ голось, и сталъ<lb/> еи говорить: <hi rend="uppercase">ТАКЪ
+                     ТО, ЖЕНЩИНА НЕВѢРНАЯ,<lb/> И БЕЗДѢЛЬНАЯ, ВЕТЬ ЭТО АРЛЕКІНЪ ТВОИ ЛЮ-<lb/>
+                     БОВНИКЪ, КОТОРАГО Я ТЕПЕРЬ УБИЛЪ ВЪ ОТ-<lb/> МЩЕНІЕ ТВОЕЯ НЕВѢРНОСТИ.</hi>
+                  Смералдïна думая,<lb/> что Арлекïнъ умеръ, стала быть въ отчаянïи, и на-<lb/> чала
+                  по немъ плакать. Арлекïнъ чинить многïя<lb/> шутки приличныя театру. Смералдïна
+                  пошла по<lb/> свѣчу; возвратившись она видитъ трупъ Арлекïновъ,<lb/> и начала
+                  прежестоко рыдать. Панталонъ говоритъ<lb/> изъ нутри, что причиняетъ игрушку
+                  смѣшную;<lb/> послѣ которыя Арлекïнъ говорить Смералдïнѣ, что<lb/> онъ не умеръ,
+                  Смералдïна перемѣнила свою печаль<lb/> на радость. Панталонъ ужаснулся сея
+                  перемѣны.<lb/> Смералдïна скачучи, и поючи пошла прочь. Арлекïнъ<lb/> за неи же.
+                  Панталонъ остался; а къ нему приходить<lb/> Брïгеллъ нарядившись въ нѣмца, и
+                  спрашиваетъ<lb/> у старика о нѣкоторомъ Панталонѣ, да бы ему<lb/> дать извѣстïе о
+                  прибытïи одного барона Нѣмецкаго,<lb/> которои прïѣхалъ женить своихъ сыновъ на
+                  дочеряхъ<lb/> онаго Панталона. Панталонъ обрадовавшись о тои<lb/> вѣсти, говорить,
+                  что онъ тотъ Панталонъ, ко-<lb/> тораго онъ ищетъ. Брïгеллъ притворяется быть<lb/>
+                  удивляющимся, и радостнымъ, что съ нимъ встрѣ-<lb/> тился, да и подтверждаетъ
+                  сказанное о баронѣ нѣ-<lb/> мецкомъ, котораго онъ сталъ хвалить чивость го-<lb/>
+                  воря, что, между другими его добродѣтельми,<lb/>
+                  <fw type="catch" place="bottom">всякои</fw>
+                  <pb facs="#arlesmer_ru_010" n="10"/>
+                  <fw type="pageNum">10</fw> всякои разъ, когда онъ чихнетъ, и ежели ска-<lb/>
+                  жется: <hi rend="uppercase">ЗДРАВСТВУИ, СУДАРЬ</hi>; то онъ великими<lb/> даритъ
+                  подарками. Панталонъ не терпѣливно желая<lb/> его видѣть проситъ Брïгелла, чтобъ
+                  онъ пошолъ<lb/> на встрѣчу ему, и указал ево дворъ; а онъ, между<lb/> тѣмъ,
+                  увѣдомить своихъ дочереи о его прибытïи.<lb/> Брïгеллъ пошолъ. Панталонъ говоритъ,
+                  что онъ<lb/> хочетъ о томъ дать знать Доктору, и просить<lb/> ево, чтобъ онъ
+                  пожаловалъ на свадьбу; да и сталъ<lb/> стучаться. Докторъ выходитъ; а услышавъ о
+                  дѣлѣ<lb/> сталъ поздравлять Панталону, которои ему благо-<lb/> дарить, и повелъ
+                  его къ себѣ.</p>
+               <stage>TЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent">СМЕРАЛДІНА приказываетъ многимъ слугамъ<lb/> выместь камеры, и
+                  вычистить вездѣ, для того<lb/> что нада принять жениховъ, которыхъ ожида-<lb/> ютъ
+                  съ часу на часъ. На то приходитъ Ауре-<lb/> лïя, и спрашиваетъ у Смералдïны, что
+                  бы она<lb/> тутъ дѣлала. Смералдïна еи отвѣчаетъ, что она<lb/> исполняетъ приказъ
+                  своего господина, и что она<lb/> чиститъ апартаменты, въ которыхъ будутъ жить<lb/>
+                  ихъ женихи, которыхъ вскорѣ ожидаютъ. Аурелïя<lb/> на ту осердилась, и начала ея
+                  бранить; на тотъ<lb/> крикъ прибѣжалъ Панталонъ съ Докторомъ, и увѣдо-<lb/>
+                  мившись о ихъ ссорѣ, сталъ за то бранить свою дочь,<lb/> и велѣлъ кликнуть Дïану,
+                  чтобъ еи сказать о при-<lb/> бытïи барона. Дïана пришла. Панталонъ еи сказы-<lb/>
+                  ваетъ о намѣренïи своемъ, которое касается до<lb/> ихъ замужества. Дïана и Аурелïя
+                  объявляютъ ему<lb/> прямо, что лучше онѣ выдуть за смерть, нежели<lb/> за
+                  прïѣжжихъ оныхъ. Панталонъ велѣлъ имъ мол-<lb/> чать; а Брïгеллъ приходитъ,
+                  которои послѣ нѣ-<lb/>
+                  <fw type="catch">сколькихъ</fw>
+                  <pb facs="#arlesmer_ru_011" n="11"/>
+                  <fw type="pageNum">11</fw> сколькихъ шутокъ своиственныхъ театру, объявилъ<lb/>
+                  про себя тѣмъ дѣвицамъ, которыя притворивши<lb/> себѣ уничтожительную сперва
+                  противность, стали<lb/> показывать себя, что бутто не спорятъ отцу,<lb/> которои,
+                  чтобъ ихъ утѣшить, началъ имъ роз-<lb/> казывать о великолѣпïи ихъ свекра, которое
+                  каса-<lb/> лося до чиханïя, и велѣлъ Брïгеллу, чтобъ онъ ихъ<lb/> привелъ.
+                  Брïгеллъ показывается, что бутто него-<lb/> дуетъ на уничтоженïе тѣхъ дѣвицъ к
+                  своимъ го-<lb/> сподам. Старики ево просятъ ихъ извинть.<lb/> Дïана и Аурелïя такъ
+                  же. Бригеллъ кажет себя,<lb/> что бутто успокоился, да и пошолъ; а возвра-<lb/>
+                  щается съ Арлекïном, Сïлвïемъ, и Одоардомъ въ<lb/> баронахъ немецкихъ. После
+                  многих комплïментов<lb/> любовники объявили про себя своимъ невѣстамъ,<lb/>
+                  которыя о томъ очюнь стали быть ради. Между<lb/> тѣмъ Арлекïнъ чихнулъ, всякъ ему
+                  поздравляетъ;<lb/> онъ сталъ всѣхъ дарить. На послѣдокъ женилъ<lb/> онъ Сïлвïя на
+                  Дïанѣ; Одоарда на Аурелïѣ; Панталонъ<lb/> аппробовалъ то; Арлекïнъ говоритъ, что
+                  онъ хочетъ<lb/> жениться на Смералдïнѣ. Панталонъ ему отвѣт-<lb/> ствуетъ, что она
+                  служащая. Арлекïнъ про себя<lb/> объявляетъ. Панталонъ видя, что онъ
+                  обманутъ,<lb/> хочетъ противиться; но принужденъ чрезъ любовни-<lb/> ковъ, и
+                  своихъ дочереи утверждаетъ здѣланное, а<lb/> чрезъ троиное сïе сочетанïе брачное
+                  кончится</p>
+               <p rend="indent">КОМЕДIЯ.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Arlequin und Smeraldina die erzürnten Liebenden</title>
+               <respStmt>
+                  <resp>Transcription and encoding by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (10a) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="9">9 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="arlesmer_ge_001" url="/img/arlesmer_ge_001.jpg"/>
+            <graphic xml:id="arlesmer_ge_002" url="/img/arlesmer_ge_002.jpg"/>
+            <graphic xml:id="arlesmer_ge_003" url="/img/arlesmer_ge_003.jpg"/>
+            <graphic xml:id="arlesmer_ge_004" url="/img/arlesmer_ge_004.jpg"/>
+            <graphic xml:id="arlesmer_ge_005" url="/img/arlesmer_ge_005.jpg"/>
+            <graphic xml:id="arlesmer_ge_006" url="/img/arlesmer_ge_006.jpg"/>
+            <graphic xml:id="arlesmer_ge_007" url="/img/arlesmer_ge_007.jpg"/>
+            <graphic xml:id="arlesmer_ge_008" url="/img/arlesmer_ge_008.jpg"/>
+            <graphic xml:id="arlesmer_ge_009" url="/img/arlesmer_ge_009.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#arlesmer_ge_001" n="1"/>
+            <head type="main">Arlequin und Smeraldina die erzuͤrnten<lb/>Liebenden</head>
+            <head type="sub">welche<lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/>
+               Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/>
+               <date when="1733">Ao. 1733.</date><lb/> aufgefuͤhret worden.</head>
+            <pb facs="#arlesmer_ge_002" n="2"/>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Pantalons allzugenaue Beobachtung ſeiner Toͤchter noͤthiget
+                  deren<lb/> Liebhaber Silvio und Odoardo ihre Zuflucht zu dem Brighella zu<lb/>
+                  nehmen, der es mit Beyhuͤlffe des Arlequins und vielen Betruͤgereyen<lb/>
+                  dahinbringet, daß die Herren ihr Geliebten, im Angeſichte des<lb/> Alten,
+                  heyrathen. Unter anderen Betruͤgereyen iſt vornehmlich dieſe,<lb/> daß der
+                  Arlequin eyferſuchtig gegen die Smeraldina und dieſe, wegen<lb/> ſolcher
+                  unbilligen Beſchuldigung, kaltſinnig gegen ihn gemacht wird, wel-<lb/> ches einen
+                  beyderſeitigen Wiederwillen verurſachet, und dem Spiele<lb/> den Titel giebt.</p>
+            </div>
+            <castList>
+               <head>Perſonen</head>
+               <castItem>
+                  <role xml:id="pantalone_ge">Pantalon,</role>
+                  <roleDesc>Vater der</roleDesc>                  
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ge">Diana und</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ge">Aurelia.</role>
+               </castItem>              
+               <castItem>
+                  <role xml:id="dottore_ge">Der Doctor</role>
+                  <roleDesc>Freund des Pantalons.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ge">Silvio und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ge">Odoardo</role>
+                  </castItem>
+                  <roleDesc>zwey Bruͤder.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="brighella_ge">Brighella</role>
+                  <roleDesc>der Kupler.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin,</role>
+                  <roleDesc>Liebhaber der Smeraldina.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Venedig.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#arlesmer_ge_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Die erſte Handlung.</head>
+               <p rend="indent">Pantalon jagt den Arlequin aus ſeinem Hauſe, weil er ausgekund-<lb/>
+                  ſchafften, daß er die Liebe ſeiner Toͤchter gegen den Silvio und<lb/> Odoardo
+                  unterhandelt. Arlequin fodert, nach einigen Poſſen, ſeinen<lb/> Lohn und drohet,
+                  aller Bewegungen des Vaters ungeachtet, deſ-<lb/> ſen Toͤchter an ihre Liebhaber
+                  zu bringen. Pantalon erzuͤrnet ſich<lb/> noch mehr, ſchlaͤgt ihn u. gehet fort.
+                  Arlequin ſagt, er wolle ſich,<lb/> wegen des angethanen Schimpffs raͤchen, aber
+                  vorhero noch mit der<lb/> Smeraldina reden u. gehet ab.</p>
+               <p rend="indent">Silvio und Odoardo treten auf, ſprechen von ihrer Liebe gegen<lb/>
+                  Pantalons Toͤchter der Widerſpenſtigkeit ihres Vaters und ſagen,<lb/> ſie wollten
+                  dennoch ihr Jawort hohlen, befuͤrchten aber, der Vater<lb/><lb/> moͤchte zu Hauſe
+                  ſeyn; derohalhen thun ſie, als ob ſie ſich mit ein-<lb/> ander ſchluͤgen, welcher
+                  Lerm verurſachet, daß Diana und Aurelia<lb/> heraus kommen. Dieſen ſagen ſie, daß
+                  ihre Schlaͤgerey nur verſtel-<lb/> let ſey, um ſie aus dem Hauſe zu bringen, ihre
+                  Liebe zu entdecken<lb/> und zu gleicher Zeit ihre Meynung zu vernehmen. Diana u.
+                  Aurelia<lb/> ſchwoͤhren ihnen, ewig treu zu ſeyn. Unterdeſſen mercken ſie den
+                  Pan-<lb/> talon; dahero thun die Liebhaber wieder, als ob ſie ſich ſchluͤgen.
+                  Der<lb/> Alte kommt u. wie er ſeine Toͤchter auf der Straſe ſiehet,
+                  ſchmaͤhlet<lb/> er u. heiſſet ſie in das Hauß gehen. Sie gehorſamen ohne
+                  Wider-<lb/> ſpruch. Der Alte ſagt zu den Liebhabern, ſie moͤchten ſich
+                  einander<lb/> immer umbringen u. gehet fort. Das Frauenzimmer kommt wieder<lb/>
+                  zuruͤck u. ſagt, daß ſich der Vater in ſein Cabinet verſchloſſen. Die<lb/>
+                  Liebhaber ſind erfreut, reden weiter von ihrer Liebe, wie ſie aber den<lb/>
+                  Pantalon mercken, ſtellen ſie ſich, als ob ſie beyde verwundet waͤren.<lb/>
+                  Pantalon kommt u. erzuͤrnet ſich abermahls, daß er ſeine Toͤchter<lb/> auf der
+                  Straße findet. Dieſe aber ſagen ihm, ſeine Grauſamkeit<lb/> ſey Schuld, daß dieſe
+                  beyde Cavaliers einander toͤdlich pleſſiret, ſie<lb/> verlangten ihr Teſtament zu
+                  machen u. wollten ſie zu Erben ihres<lb/> Vermoͤgens einſetzen. Pantalon, der
+                  geitzig iſt, freuet ſich uͤber<lb/> dieſen Antrag, beſiehlet ſeinen Toͤchern, fuͤr
+                  die Verwundeten Sor-<lb/>
+                  <fw type="sig" place="bottom">*</fw>
+                  <fw type="catch" place="bottom">ge</fw>
+                  <pb facs="#arlesmer_ge_004" n="4"/>
+                  <fw type="pageNum">4</fw> ge zu tragen und gehet hinein, um Papier u. Dinte zu
+                  hohlen; die<lb/> andern aber bezeigen ſich vergnuͤgt, daß ihnen ihr Streich
+                  gelungen.<lb/> Der Alte koͤmmt zuruͤck; Die Liebhaber legen ſich wieder auf
+                  ihren<lb/> vorigen Platz und machen ihr Teſtament. Der Alte bezeigt ſich, un-<lb/>
+                  ter vielen Poſſen, ſehr vergnuͤgt, worauf er ſagt, daß er ein Licht<lb/> u.
+                  Siegellack hohlen wolle u. gehet fort. Die Liebhaber und ihre<lb/> Geliebten
+                  lachen uͤber die Leichtglaubigkeit des Alten, der indeſſen<lb/> gantz ſachte
+                  herzuſchleichet und ihr Geſpraͤch mit anhoͤret. Wie er<lb/> mercket, daß er
+                  betrogen worden, greifft er nach ſeinem Dolch. Das<lb/> Frauenzimmer laufft fort;
+                  die Liebhaher thun desgleichen; der Al-<lb/> te aber drohet, daß er ſich raͤchen
+                  wolle u. gehet auch ab. Arlequin<lb/> trit auf u. ſagt zu dem Brighella, daß ihn
+                  Pantalon aus dem Hauſe<lb/> gejagt und er ſich raͤchen wolle. Brighella antwortet,
+                  er thue wohl<lb/> daran, man muͤſſe aber die Diana u. Aurelia fragen, ob ſie dem
+                  Silvio<lb/> und Odoardo gewogen waͤren? Hierauf koͤmmt Pantalon mit dem<lb/> Dolch
+                  in der Hand und drohet der Diana, ſie umzubringen, woferne<lb/> ſie ihm nicht die
+                  Wahrheit wegen ihrer Liebes-Haͤndel entdecken<lb/> wuͤrde. Diana laͤugnet alles.
+                  Brighella ſtifftet den Arlequin an, die<lb/> Diana bey dieſer Gelegenheit heimlich
+                  zufragen, was ſie mit einan-<lb/> der abgeredet, die Heyrathen zu Stande zu
+                  bringen. Arlequin<lb/> ſetzt den Vorſchlag ins Werck u. ſpricht, nach einigen
+                  Poſſen, mit der<lb/> Diana. Brighella lacht uͤber die Geſchicklichkeit des
+                  Arlequins und<lb/> gehet fort. Wie Pantalon mercket, daß Arlequin mit ſeiner
+                  Tochter<lb/> ſpricht, ſchlaͤgt er ihn u. geht mit ihr in das Hauß. Arlequin
+                  freuet<lb/> ſich uͤber den Streich, den er dem Alten geſpielet u. ſagt, er
+                  wolle<lb/> mit ſeiner lieben Smeraldina ſprechen, und klopffet an. Smeraldina<lb/>
+                  kommt heraus, u. nachdem ſie ſich eine Weile von ihrer beyderſeiti-<lb/> gen Liebe
+                  unterredet, gehet ſie wieder fort. Brighella kommt mit ei-<lb/> nem Briefe,
+                  uͤbergiebt ſolchen dem Arlequin, um ihn der Diana ein-<lb/> zuhaͤndigen; und ſagt,
+                  er muͤſſe ſich, den Alten zu betruͤgen, fuͤr eine<lb/> Wand-Uhr auskleiden laſſen.
+                  Nach einigen Einwendungen ſtimmt<lb/> Arlequin ein u. Brighella gehet fort, die
+                  Anſtalt dazu zu machen. Pan-<lb/>
+                  <fw type="catch" place="bottom">talon</fw>
+                  <pb facs="#arlesmer_ge_005" n="5"/>
+                  <fw type="pageNum">5</fw> talon trit auf, u. ſagt zu der Diana ſeiner Tochter, ſie
+                  ſolle indeſſen<lb/> auf ihre Schweſter Aurelia acht haben, er wolle, gewiſſer
+                  Geſchaͤffte<lb/> wegen, auf das Rathhauß gehen. Diana verſpricht ſolches zu
+                  thun.<lb/> Arlequin macht allerey Poſſen, um der Diana den Brief beyzubrin-<lb/>
+                  gen, u. zuletzt gelingt es ihm. Pantalon gehet ab. Arlequin vergnuͤ-<lb/> get
+                  ſich, daß er ſeine Sachen ſo wohl ausgerichtet, und Diana iſt<lb/> ihrer ſeits,
+                  erfreuet, daß ſie den Brief empfangen, u. begiebt ſich<lb/> weg, um denſelben zu
+                  leſen. Brighella trit auf u. ſagt zu Silvio u.<lb/> Odoardo, er habe ihren Brief
+                  dem Arlequin zugeſtellet u. hoffe, daß<lb/> ſie mit dieſer Gelegenheit Antwort
+                  bekommen wuͤrden; Hierbey ſey<lb/> aber, allem Ubel vorzukommen, noͤthig, eine Uhr
+                  mit einer Statue,<lb/> welche auf die Stunden weiſe, machen zu laſſen; durch
+                  dieſes Mit-<lb/> tel wolle er den Arlequin in Pantalons Hauß practiciren, der in
+                  der<lb/> Nacht die Thuͤre oͤffnen und die Entfuͤhrung des Frauenzimmers be-<lb/>
+                  foͤrdern koͤnnte. Die Liebhaber bedancken ſich fuͤr ſeine Sorgfalt.<lb/>
+                  Unterdeſſen laͤſſet ſich die Aurelia an dem Fenſter ſehen und bittet ſie<lb/>
+                  herein zu kommen, weil der Vater nicht zu Hauſe ſey; ſie muͤſten a-<lb/> ber einen
+                  auf die Schildwache ſtellen, der ihnen Nachricht geben<lb/> koͤnnte, wenn er etwan
+                  kommen ſollte. Arlequin trit auf und die<lb/> Liebhaber befehlen ihm, daß er Wache
+                  halten u. im Falle, daß<lb/> Pantalon kaͤme, ihnen Nachricht geben ſollte. Wie ſie
+                  alles verab-<lb/> redet, gehen ſie in das Hauß. Arlequin bleibet u. die
+                  Smeraldina<lb/> kommt dazu. Sie ſaget, ſie wiſſe, daß ihr lieber Arlequin auf
+                  der<lb/> Straſe waͤre, u. ſie ſey deswegen hergekommen, mit ihm zuſprechen,<lb/>
+                  Allein, um ſeine Treue auf die Probe zuſtellen, wolle ſie thun, als<lb/> ob ſie
+                  boͤſe auf ihn waͤre; welches ſie ſo gleich ins Werck richtet.<lb/> Den Arlequin
+                  verdruͤßt ſolches u. er ſtellet ſich eben ſo an. Sme-<lb/> raldina gehet fort.
+                  Arlequin bleibt und iſt uͤber die Auffuͤhrung der<lb/> Smeraldina boͤſe, wie er
+                  aber den Pantalon kommen ſiehet, ſchreyet<lb/> er, nach genommener Abrede; Ach
+                  welch ein Schmertz! Wie<lb/> Pantalon zuruͤck kommt, ſagt er, er habe ſeine
+                  Geſchaͤffte auf dem<lb/> Rath-Hauſe abgethan u. macht hierauf mit den Arlequin allerley<lb/>
+                  <fw type="catch" place="bottom">Poſ-</fw>
+                  <pb facs="#arlesmer_ge_006" n="6"/>
+                  <fw type="pageNum">6</fw> Poſſen, unter ſolchen aber ſchleichen ſich Silvio,
+                  Odoardo u. Brighella<lb/> aus dem Hauſe, ohne daß ſie Pantalon gewahr wird. So
+                  bald Ar-<lb/> lequin mercket, daß ſie fort ſind, faͤngt er auf einmahl an zu
+                  lachen u.<lb/> ſagt, daß die Schmertzen vorbey waͤren. Hiermit endiget ſich
+                  die<lb/> erſte Handlung.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handlung.</head>
+               <p rend="indent">Brighella trit auf u. ſagt zu Silvio u. Odoardo, ſie wuͤrden
+                  wohl,<lb/> wie ſie mit ihren Geliebten geſprochen, von der Sache mit der Uhr<lb/>
+                  Nachricht zugeben vergeſſen haben, derohalben wolle er es gleich<lb/> ſelbſt thun,
+                  u. klopffet an. Smeraldina koͤmmt heraus. Brighella<lb/> bittet ſie, ihrem
+                  Frauenzimmer ihr Vorhaben zu ſagen. Smeraldina<lb/> verſpricht ſolches zu thun.
+                  Brighella careſſiret die Smeraldina, wel-<lb/> ches Arlequin ſiehet u.
+                  eiferſuͤchtig wird. Brighella gehet fort. Arle-<lb/> quin nahet herbey u. macht
+                  der Smeraldina beiſſende Vorwuͤrffe, die<lb/> aber ſolche auf gleiche Art
+                  beantwortet. Silvio koͤmmt dazu u. ſucht<lb/> ſie wieder zu vereinigen; Es will
+                  aber nicht helffen. Jndeſſen<lb/> kommt Diana und ſragt nach der Urſache ihres
+                  Zornes. Smeraldina<lb/> und Arlequin antworten mit vielen Poſſen, nach welchen ſie
+                  fortge-<lb/> hen. Silvio ſagt der Diana das Vorhaben mit der Uhr, und nach-<lb/>
+                  dem er ihr nochmahls ſeine Treue geſchwohren, nimmt er Abſchied<lb/> u. ſie
+                  begiebt ſich auch weg.</p>
+               <p rend="indent">Pantalon trit auf u. bezeiget gegen den Doctor ſein Vergnuͤgen,
+                  daß<lb/> er bey gute Geſundheit vom Lande wieder zuruͤck gekommen. Der<lb/> Doctor
+                  beantwortet ſolches mit gleicher Hoͤflichkeit. Hierauf koͤmmt<lb/> Brighella
+                  verkleidet u. ſaget, er habe eine kuͤnſtliche Uhr verfertiget,<lb/> die er
+                  verkauffen wolle. Pantalon erfreuet ſich u. befiehlet, er ſolle ſie her-<lb/>
+                  bringen laſſen; damit er ſie dem Doctor, ſeinem Freunde, auch weiſen<lb/> koͤnnte.
+                  Brighella gehet fort u. Pantalon nimmt den Doctor in ſein Hauß.</p>
+               <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+               <p rend="indent">Smeraldina giebt der Diana u. Aurelia Nachricht, daß ſie ihr<lb/>
+                  Vater an zwey Soͤhne eines Teutſchen Barons verheyrathen wolle.<lb/><lb/> Sie
+                  antworteten, ſie wollten ſolche Maͤnner nicht haben. Smeral-<lb/>
+                  <fw rend="catch" place="bottom">dina</fw>
+                  <pb facs="#arlesmer_ge_007" n="7"/>
+                  <fw type="pageNum">7</fw> dina ſagt hierauf, ſie wuͤrden ihrem Vater ſchon
+                  gehorchen muͤſſen u.<lb/> ſie wollte ihre Hoff-Meiſterin werden. Dieſes nehmen
+                  beyde ſehr<lb/> uͤbel auf, und indem ſie ſich mit einander zancken, koͤmmt
+                  Pantalon<lb/> mit dem Doctor u. fragt nach der Urſache dieſes Lerms.
+                  Smeraldina<lb/> erzehlet ſie ihn u. indem ſie in ihrer Zaͤnckerey fortfahren,
+                  koͤmmt<lb/> Brighella mit der Uhr. Pantalon heiſſet ſeine Toͤchter u. ihr
+                  Maͤdgen<lb/> ſtille ſchweigen, dem Brighella aber die Uhr herbeybringen; Er
+                  befiehlt<lb/> hierauf der Smeraldina, die Abend-Mahlzeit zu rechte zu machen,
+                  in-<lb/> dem der Doctor bey ihm ſpeiſen wuͤrde. Brighella bringt den Arle-<lb/>
+                  quin als eine Uhr herein, womit allerlerley Poſſen vorgenommen wor-<lb/> den, die
+                  das Ende der andern Handlung machen.</p>
+            </div>
+            <div type="act" n="3">
+               <head>Die dritte Handlung.</head>
+               <p rend="indent">Arlequin trit auf u. beklaget, daß ihm Smeraldina ihre Verſoͤh-<lb/>
+                  nung ſo ſchwehr mache. Brighella troͤſtet ihn und verſpricht, er wol-<lb/> le ihm
+                  behuͤlfflich ſeyn, woferne er ihm in einer Betruͤgerey beyſtehen<lb/> wuͤrde,
+                  vermittelſt welcher er den Silvio u. Odoardo mit der Diana<lb/> u. Aurelia zu
+                  verheyrathen gedaͤchte. Arlequin verſpricht ſolches zu<lb/> thun. Brighella ſagt,
+                  er ſolle ſich für einen Teutſchen Baron aus-<lb/> geben und ihm ſelbſt fuͤr das
+                  uͤbrige ſorgen laßen. Arlequin iſt<lb/> damit zu frieden. Brighella ſagt hierauf,
+                  er wolle zur Danckbarkeit<lb/> den Augenblick einen Streich ſpielen, durch welchen
+                  er herausbringen<lb/> wuͤrde, ob die Smeraldina den Arlequin wuͤrcklich lieb habe?
+                  Arlequin<lb/> ſolle ſich nur todt ſtellen, und gleichſam thun als ob er umgebracht
+                  wor-<lb/> den. Arlequin thut, auf dieſes Wort, gantz boͤſe; worauf allerley<lb/>
+                  Poſſen folgen. Zuletzt ſchreyt der Arlequin; Jch bin umgebracht!<lb/> u. legt ſich
+                  vor der Smeraldina Thuͤre. Dieſe koͤmmt heraus; Brig-<lb/> hella verſtellet ſeine
+                  Stimme u. ſagt ihr auf Frantzoͤſiſch: Oui femme<lb/> infidele et ſcelerate, c'eſt
+                  Arlequin ton amant que je viens de tuer<lb/> pour me venger de tes infidelité. D.
+                  i. Ja du untreue u verruchte!<lb/> dieſes iſt der Arlequin, dein Liebhaber, den
+                  ich zur Rache deiner<lb/> Untreue, um des Leben gebracht. Smeraldina heulet u.
+                  ſchreyet,<lb/> da ſie hoͤret daß Arlequin todt iſt. Sie gehet hinein u. koͤmmt<lb/>
+                  <fw type="catch" place="bottom">mit</fw>
+                  <pb facs="#arlesmer_ge_008" n="8"/>
+                  <fw type="pageNum">8</fw> mit einem Lichte in der Hand zuruͤck. Wie ſie die
+                  vermeynde Leiche<lb/> des Arlequins ſiehet geraͤth ſie in Verzweiffelung. Wie aber
+                  Arle-<lb/> quin den Pantalon reden hoͤret, ſaget er zu der Smeraldina, er ſey<lb/>
+                  nicht todt. Jhre Traurigkeit verwandelt ſich in Freude, uͤber wel-<lb/> che
+                  Veraͤnderung ſich Pantalon ſehr verwundert. Smeraldina gehet,<lb/> unter ſpringen
+                  und ſingen, fort. Arlequin folget ihr nach. Pantalon<lb/> bleibet. Hierzu koͤmmt
+                  Brighella, der als ein Teutſcher gekleidet iſt<lb/> u. ihn, nach einigen Poſſen,
+                  fraget, ob er nicht einen mit Nahmen<lb/> Pantalon kenne? er ſey von von einem
+                  gewiſſen Teutſchen Baron,<lb/> der ſeine Soͤhne an deſſen Tochter verheyrathen
+                  wolle, hergeſchickt,<lb/> um ſich nach ihn zuerkundigen. Der Alte freuet ſich
+                  uͤber dieſe Nach-<lb/> richt, ſagt er ſey eben derſelbe Pantalon, den Brighella
+                  ſuche. Brig-<lb/> hella ſtellet ſich gantz voller Verwunderung und Freude an, daß
+                  er ihn<lb/> ſo bald ausgefunden; lobt die Edelmuͤthigkeit des Teutſchen
+                  Barons<lb/> und ſagt unter andern Dingen, ſo offt er nieſe u. man zu ihm
+                  ſpre-<lb/> che: le Ciel vous garde Monseigneur! mache er allezeit ein ſehr
+                  koſt-<lb/> bares Geſchencke. Pantalon bezeiget ſich gantz ungedultig ihn
+                  zuſehen,<lb/> und bittet den Brighella, ihn, ſo bald als moͤglich, in ſein Hauß
+                  zu<lb/> bringen; Jndeſſen aber wolle er ſeinen Toͤchtern Nachricht davon
+                  geben.<lb/> Brighella gehet ab. Pantalon ſagt, er wolle den Doctor von dieſer<lb/>
+                  angenehmen Zeitung Nachricht geben u. ihn zur Hochzeit bitten. Er<lb/> klopfet an.
+                  Der Doctor koͤmmt heraus, und nachdem er die Nach-<lb/> richt angehoͤret,
+                  wuͤnſchet er dem Pantalon Gluͤck. Dieſer bedancket<lb/> ſich und nimmt ihn zu ſich
+                  in das Hauß.</p>
+               <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+               <p rend="indent">Smeraldina beſiehlet einigen Bedienten, das Zimmer auszukehren<lb/>
+                  u. alles zureinigen; weil man alle Augenbluͤcke die neuen Brautigame<lb/>
+                  vermuthe. Herauf koͤmmt Aurelia und fragt die Smeraldina, was<lb/> ſie da mache;
+                  Smeraldina antwortet, daß ſie den Befehl ihres Hrrn<lb/> nachlebete u. die Zimmer
+                  aufputzete, weil ihre Brautigame kommen<lb/> ſollten. Aurelia wird boͤſe und
+                  begegnet der Smeraldina ſehr uͤbel;<lb/> uͤber welchem Lerm der Pantalon mit dem
+                  Doctor dazu koͤmmt, und<lb/>
+                  <fw type="catch" place="bottom">wie</fw>
+                  <pb facs="#arlesmer_ge_009" n="9"/>
+                  <fw type="pageNum">9</fw> wie er die Urſache ihres Zanckes hoͤret ſchmaͤlet er auf
+                  ſeine Tochter u.<lb/> laͤßt die Diana ruffen, um ihr von der Ankunfft des Barons
+                  Nach-<lb/> richt zu geben. Diana koͤmmt; Pantalon eroͤffnet ihr ſeinen
+                  Entſchluß<lb/> wegen ihrer Heyrath. Diana u. Aurelia erklaͤren ſich rund
+                  heraus,<lb/> daß ſie eher den Tod, als dieſe Fremden heyrathen wollten. Pan-<lb/>
+                  talon noͤthiget ſie zu ſchweigen. Hierauf koͤmmt Brighella der ſich,<lb/> nach
+                  einigen Poſſen, dem Frauenzimmer zu erkennen giebt; Beyde ſtel-<lb/> len ſich ſo
+                  gleich, als ob ſie ſich dem Willen ihres Vaters ergeben<lb/> wollten, der, um ſie
+                  zu troͤſten, ihnen die Edelmuͤthigkeit ihres kuͤnff-<lb/> tigen Schwieger-Vaters,
+                  in Anſehung ſeines Nieſens, anruͤhmet, u.<lb/> dem Brighella befiehlet, die
+                  Fremden herkommen zulaßen. Brighella ſtellet<lb/> ſich, als ob er durch die
+                  Verachtung, welche das Frauenzimmer gegen<lb/> ſeinen Herrn bezeiget, beleydiget
+                  ſey; Die Alten aber bitten ihn,<lb/> es nicht uͤbel aufzunehmen. Diana u. Aurelia
+                  thun desgleichen. Brig-<lb/> hella thut, als ob er beſaͤnfftiget waͤre, gehet fort
+                  u. koͤmmt mit dem<lb/> Arlequin, Silvio u. Odoardo zuruͤcke, die ſich als Teutſche
+                  Barons<lb/> angekleidet. Nach einigen Complimenten ſaͤngt der Arlequin an zu<lb/>
+                  nieſen. Ein jeder macht ihm dißfals ſein Compliment u. er theilet<lb/> Geſcheneke
+                  aus. Zuletzt macht er die Heyrath des Silvio mit der<lb/> Diana u. des Odoardo mit
+                  der Aurelia. Pantalon giebt ſeinen Bey-<lb/> fall. Arlequin ſagt hierauf, er wolle
+                  ſich mit der Smeraldina verhey-<lb/> rathen. Pantalon antwortet ihm, ſie ſey nur
+                  eine Magd. Arlequin<lb/> giebt ſich zu erkennen. Pantalon merckt, daß er betrogen
+                  iſt, und will<lb/> alles todt machen. Die Liebhaber aber u. ſeine Tochter
+                  beſaͤnfftigen<lb/> ihn; worauf mit ſeiner Beſtaͤtigung ihrer Heyrath der Beſchluß
+                  des<lb/> gantzen Schau-Spiels gemacht wird.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Arlecchino e Smeraldina, innamorati dispettosi</title>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="it">Italian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb facs="#arlesmer_ru_001" n="1"/>
+            <head type="main">ARLECCHINO E SMERALDINA<lb/>INNAMORATI DISPETTOSI</head>
+            <head type="sub">COMMEDIA ITALIANA,<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/><date when="1733">nell'anno 1733.</date></head>
+            <pb facs="#arlesmer_ru_002" n="2"/>
+            <div type="preface">
+               <head>ARGOMENTO.</head>
+               <p rend="indent">L’assidua sorveglianza esercitata da Pantalone sulle sue figlie
+                  costringe Silvio e Odoardo a cercare aiuto nelle risorse di Brighella, il quale
+                  con l’aiuto di Arlecchino e molte astuzie fa sì che le coppie si sposino alla
+                  presenza del vecchio stesso. Durante uno dei tanti imbrogli, Arlecchino si
+                  ingelosisce di Smeraldina che si offende e comincia a trattarlo duramente. Ciò dà
+                  il via ai reciproci dispetti, da cui il titolo di questa commedia.</p>
+            </div>
+            <castList>
+               <head>PERSONAGGI.</head>
+               <castItem>
+                  <role xml:id="pantalone_it">PANTALONE,</role>
+                  <roleDesc>padre di Diana e Aurelia.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="diana_it">DIANA e<lb/></role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="aurelia_it">AURELIA,</role>
+                  </castItem>
+                  <roleDesc>sue figlie.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="smeraldina_it">SMERALDINA,</role>
+                  <roleDesc>servitrice.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="dottore_it">DOTTORE.</role>
+                  <roleDesc>amico di Pantalone.<lb/></roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_it">SILVIO e</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_it">ODOARDO</role>
+                  </castItem>
+                  <roleDesc>fratelli.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="brighella_it">BRIGHELLA,</role>
+                  <roleDesc>imbroglione.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                  <roleDesc>innamorato di Smeraldina.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>L’azione si svolge a Venezia.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#arlesmer_ru_003" n="3"/>
+            <div type="act" n="1">
+               <head>ATTO PRIMO.</head>
+               <p rend="indent">PANTALONE caccia di casa Arlecchino perché ha scoperto come egli,
+                  con i suoi consigli, abbia promosso l’amore di sue figlie verso Silvio e Odoardo.
+                  Arlecchino, dopo aver fatto qualche lazzo, vuole essere pagato e minaccia
+                  Pantalone di aiutare gli innamorati, nonostante i suoi sforzi. Infuriato,
+                  Pantalone si mette a bastonarlo e se ne va. Offeso per il disonore inflittogli,
+                  Arlecchino giura di vendicarsi ma vuole prima parlare con Smeraldina ed esce.</p>
+               <p rend="indent">Silvio e Odoardo, parlando del loro amore per le figlie di Pantalone
+                  e dell’opposizione di quest’ultimo di concederle in sposa, dicono di voler essere
+                  incoraggiati dalle ragazze stesse ma temono che il loro padre possa essere in
+                  casa. Fingono di combattere con le spade e alle loro grida occorrono Diana e
+                  Aurelia. Gli innamorati dicono loro che hanno combattuto solo per finta per far sì
+                  che alle loro grida esse uscissero fuori e per poter parlare del loro amore e
+                  chiedere dei loro sentimenti nei loro confronti. Diana e Aurelia giurano loro la
+                  loro eterna fedeltà. Nel frattempo, si sente la voce di Pantalone. Gli innamorati
+                  fingono di nuovo di combattere. Entra il vecchio e, vedendo le figlie sulla
+                  strada, le sgrida ordinando loro di entrare in casa. Senza dire niente, le ragazze
+                  obbediscono. Il vecchio dice agli innamorati di andare a <pb facs="#arlesmer_ru_004" n="4"/> uccidersi in un altro posto e va via. Disperati, gli innamorati rimangono e
+                  tornano le loro fidanzate dicendo che il loro padre è ora nello studio e sta
+                  scrivendo. Felici, gli innamorati si mettono a parlarle di nuovo della loro
+                  passione. Nel frattempo, il vecchio chiama qualcuno. Gli innamorati fingono di
+                  essere feriti. Pantalone esce, e, vedendo le figlie di nuovo fuori, si avvicina
+                  molto arrabbiato. Le ragazze gli dicono che la sua crudeltà ha fatto sì che i due
+                  cavalieri si fossero feriti a morte e volessero fare testamento nominandole eredi
+                  della loro tenuta. Pantalone, essendo molto avaro, si rallegra e ordina alle
+                  figlie di prendersi cura degli uomini e va a prendere carta e inchiostro. I
+                  giovani si rallegrano che l’inganno sia andato a buon fine. Il vecchio entra e gli
+                  innamorati ritornano di corsa ai loro posti per dettare il testamento. Il vecchio,
+                  facendo molti lazzi, si mostra molto contento. Dopodiché dice che va a cercare una
+                  candela e della cera. Gli innamorati ridono della credulità del vecchio, il quale,
+                  mentre torna inosservato, sente i loro discorsi e capisce di essere stato
+                  ingannato. Si arrabbia così tanto che afferra un pugnale. Le sue figlie vanno via
+                  e anche gli innamorati. Il vecchio promette di vendicarsi ed esce.</p>
+               <p rend="indent">ARLECCHINO entra raccontando a Brighella di come Pantalone l’abbia
+                  cacciato via e dice di voler vendicarsi di lui. Brighella lo incoraggia a farlo,
+                  suggerisce però di chiedere prima a Diana e ad Aurelia se davvero amano Silvio e
+                  Odoardo. In quel momento entra Pantalone con il pugnale in mano e <pb facs="#arlesmer_ru_005" n="5"/> minaccia di uccidere Diana se non gli dice tutta la
+                  verità riguardo ai suoi sentimenti. Diana si rifiuta di parlare. Brighella insegna
+                  ad Arlecchino come sfruttare questa occasione per chiederle di nascosto quello che
+                  vogliono sapere. In cambio Brighella promette di aiutarli a portare la faccenda al
+                  matrimonio. Arlecchino, eseguendo molti scherzi teatrali, si mette a parlare con
+                  Diana. Brighella esce ridendo dell’abilità di Arlecchino. Pantalone, vedendo
+                  Arlecchino parlare con sua figlia, comincia a bastonarlo ed esce portando via la
+                  ragazza. Arlecchino, contento del dispetto che ha fatto a Pantalone, dice che
+                  vuole parlare con Smeraldina e bussa alla sua porta. Smeraldina esce e i due si
+                  mettono a conversare della loro reciproca passione. Smeraldina rientra e arriva
+                  Brighella con una lettera indirizzata a Diana. Dice ad Arlecchino che per
+                  vendicarsi di Pantalone egli deve fingersi di essere un orologio da parete. Dopo
+                  qualche obiezione, Arlecchino acconsente. Brighella esce per preparare tutto
+                  l’occorrente. Pantalone ritorna raccomandando a Diana di sorvegliare sua sorella
+                  Aurelia perché lui deve andare al municipio per sbrigare qualche faccenda. Diana
+                  glielo promette. Arlecchino fa molti lazzi per consegnare la lettera a Diana e
+                  alla fine ci riesce. Pantalone va via. Arlecchino, contento di aver eseguito il
+                  suo ordine, esce. Diana, contenta di aver ricevuto la lettera, va a leggerla.</p>
+               <p rend="indent">BRIGHELLA entra dicendo a Silvio e Odoardo di aver dato la lettera
+                  ad Arlecchino e che spera che a quell’ora sia già arrivata al destinatario. <pb facs="#arlesmer_ru_006" n="6"/> Aggiunge che, per evitare qualche disgrazia, ha
+                  travestito Arlecchino da orologio da parete dentro una statua, la quale mostra le
+                  ore. Attraverso questo artificio egli vuole far entrare Arlecchino in casa di
+                  Pantalone così che durante notte Arlecchino possa aprire il portone e dare agli
+                  innamorati la possibilità di rapire le loro fidanzate. Gli innamorati lo
+                  ringraziano per il suo servizio. Nel frattempo si affaccia alla finestra Aurelia e
+                  li invita a entrare in casa perché il padre non c’è. Chiede loro di lasciar fare
+                  la guardia a qualcuno che li possa avvertire quando il vecchio sta per tornare.
+                  Entra Arlecchino e gli innamorati gli comandano di stare in guardia e, se dovesse
+                  arrivare Pantalone, di far loro un segno su cui si accordano. Dopodiché entrano in
+                  casa delle fidanzate. Arlecchino rimane e arriva Smeraldina. Gli dice che, avendo
+                  saputo che il suo caro Arlecchino è fuori in strada, è venuta a parlargli. Per
+                  avere la prova della sua fedeltà, vuole mostrarsi arrabbiata e si mette subito a
+                  farlo. Arlecchino si arrabbia e comincia a trattarla nello stesso modo. Smeraldina
+                  va via. Arlecchino rimane ed è triste per il comportamento di Smeraldina. Pensando
+                  che stia arrivando Pantalone comincia a gridare: ah! ah! ah! sto male! Pantalone
+                  dice di aver sistemato le sue faccende in municipio e fa uno scherzo divertente
+                  con Arlecchino. Nel frattempo Silvio, Odoardo e Brighella escono dalla casa senza
+                  farsi vedere e se ne vanno. Vedendo ciò, Arlecchino comincia a scoppiare dalle
+                  risate, dice che è guarito e mentre egli ride del vecchio, finisce il primo
+                  atto.</p>
+            </div>
+            <div type="act" n="2">
+               <pb facs="#arlesmer_ru_007" n="7"/>
+               <head>ATTO SECONDO.</head>
+               <p rend="indent">Entra BRIGHELLA dicendo che Silvio e Odoardo, divertendosi con i
+                  discorsi d’amore con le loro fidanzate, hanno dimenticato di informarle
+                  dell’orologio. Ora lo vuole fare lui stesso e comincia a bussare. Esce Smeraldina
+                  e Brighella le chiede di dire alle sue padrone dell’orologio. Smeraldina glielo
+                  promette. Brighella si mette a corteggiarla. Vedendo ciò, Arlecchino si
+                  ingelosisce. Brighella esce. Arlecchino si avvicina e comincia a rimproverare
+                  severamente Smeraldina che gli risponde nella stessa maniera. Alle loro grida
+                  arriva Silvio che cerca di rappacificarli. In quel momento entra Diana e chiede
+                  perché stanno litigando. Arlecchino e Smeraldina rispondono con molti lazzi e se
+                  ne vanno. Silvio racconta a Diana dell’orologio e giurandole la sua fedeltà esce.
+                  Anche lei va via.</p>
+               <p rend="indent">PANTALONE è contento che il Dottore sia tornato dalla campagna in
+                  buona salute. Dottore gli risponde con molte gentilezze. Entra Brighella vestito
+                  da orologiaio e dice che l’orologio è già arrivato. Pantalone ne è contento e
+                  ordina a Brighella di portarglielo presto perché lo vuole mostrare al Dottore, suo
+                  amico. Brighella va a eseguire il suo ordine. Pantalone porta il Dottore a casa
+                  sua.</p>
+               <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+               <p rend="indent">SMERALDINA racconta a Diana e ad Aurelia <pb facs="#arlesmer_ru_008" n="8"/>
+                  che il loro padre vuole darle in sposa ai figli di un barone tedesco. Le ragazze
+                  rispondono che non vogliono quei mariti. Smeraldina insiste dicendo che bisogna
+                  obbedire al padre e che vuole essere la loro dama di corte. Per questo prende
+                  molti insulti dalle ragazze. Mentre stanno bisticciando arriva Pantalone con il
+                  Dottore e chiede a loro la ragione del litigio. Smeraldina gli spiega cosa sia
+                  successo, ma le ragazze non smettono di urlare. In quel momento arriva Brighella
+                  dicendo che l’orologio è arrivato. Pantalone ordina alle figlie e a Smeraldina di
+                  calmarsi e comanda a Brighella di portare l’orologio in una camera, a Smeraldina
+                  invece ordina di andare a preparare la cena perché vuole che il Dottore ceni da
+                  lui. Brighella porta Arlecchino dentro l’orologio. I vecchi sono sorpresi e da ciò
+                  nasce uno scherzo divertente con il quale finisce il secondo atto.</p>
+            </div>
+            <div type="act" n="3">
+               <head>ATTO TERZO.</head>
+               <stage>LA SCENA MOSTRA LA NOTTE.</stage>
+               <p rend="indent">ARLECCHINO entra piangendo perché non riesce a far la pace con
+                  Smeraldina. Brighella lo consola e gli promette il suo aiuto se a sua volta lo
+                  aiuterà nell’imbroglio attraverso il quale lui spera di far sposare Silvio e
+                  Odoardo con Diana e Aurelia. Arlecchino glielo promette. Brighella gli dice che
+                  deve fingere di essere un barone tedesco e al resto ci pensa lui. Arlecchino
+                  acconsente. In cambio Brighella gli promette di aiutarlo ad ingannare Smeraldina
+                     <pb facs="#arlesmer_ru_009" n="9"/> e con quell’imbroglio di scoprire se lei lo ama.
+                  Egli ordina ad Arlecchino di fingere di essere morto. Sentendo quella parola,
+                  Arlecchino rifiuta e da ciò nascono alcuni scherzi teatrali. Alla fine Arlecchino
+                  comincia a gridare: Ah, sono stato ucciso! e si mette accanto al portone di
+                  Smeraldina, la quale esce fuori. Brighella, sentendola arrivare, cambia la voce e
+                  le dice: O, LA DONNA INFEDELE E OZIOSA! QUESTO È ARLECCHINO, TUO AMANTE, CHE IO HO
+                  UCCISO PER VENDICARMI DELLA TUA INFEDELTÀ. Smeraldina, pensando che Arlecchino sia
+                  morto, si dispera. Arlecchino fa molti lazzi teatrali. Smeraldina va a prendere
+                  una candela e, tornando vede il cadavere di Arlecchino, e comincia a piangere.
+                  Pantalone parla da dentro e da ciò nasce un lazzo divertente, dopo il quale
+                  Arlecchino rivela a Smeraldina di non essere morto. La disperazione di Smeraldina
+                  cambia in gioia. Pantalone si spaventa di questo cambiamento. Smeraldina, saltando
+                  e ballando, va via. Pantalone rimane e arriva Brighella travestito da tedesco e
+                  chiede al vecchio di un certo Pantalone a cui deve dare la notizia dell’arrivo di
+                  un barone tedesco che viene a sposare i suoi figli con le figlie di quel
+                  Pantalone. Contento della notizia, Pantalone dice di essere lui quel Pantalone che
+                  egli sta cercando. Brighella finge di essere sorpreso e contento di averlo
+                  incontrato e conferma quanto ha detto del barone tedesco. Loda inoltra la sua
+                  magnanimità e aggiunge che tra le sue virtù <pb facs="#arlesmer_ru_010" n="10"/> c’è anche
+                  quella che ogniqualvolta starnutisce e qualcuno gli dice BUONA SALUTE, SIGNORE
+                  allora il barone gli fa dei bei regali. Pantalone non vede l’ora di conoscerlo e
+                  chiede a Brighella di andargli incontro e di fargli vedere dove abita, mentre lui
+                  va ad avvertire le sue figlie. Brighella esce. Pantalone dice che vuole informare
+                  il Dottore e che vuole invitarlo al matrimonio e comincia a bussare. Il Dottore
+                  esce e si congratula con Pantalone, il quale lo porta a casa sua.</p>
+               <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+               <p rend="indent">SMERALDINA ordina ai molti servitori di scopare le camere e di
+                  pulire dappertutto per accogliere i fidanzati che vengono attesi da un minuto
+                  all’altro. In quel momento arriva Aurelia e chiede a Smeraldina cosa sta facendo.
+                  Smeraldina risponde che sta eseguendo l’ordine del suo padrone e pulisce gli
+                  appartamenti in cui verranno a stare i loro promessi sposi. Aurelia si arrabbia e
+                  si mette a sgridare Smeraldina. Alle loro grida arriva Pantalone assieme al
+                  Dottore che dopo essersi informato sulla causa del litigio la rimprovera e la
+                  manda a chiamare Diana per dirle dell’arrivo del barone. Entra Diana. Pantalone le
+                  dice della sua intenzione riguardo ai loro matrimoni. Diana e Aurelia gli
+                  rispondono che preferiscono sposare la morte piuttosto che gli uomini stranieri.
+                  Pantalone ordina loro di stare zitte. Arriva Brighella che, dopo aver fatto alcuni
+                  scherzi scenici, <pb facs="#arlesmer_ru_011" n="11"/> si rivela alle ragazze. Loro prima
+                  fingono di opporsi ma poi mostrano di obbedire al padre, il quale, per consolarle,
+                  racconta loro della generosità del suocero quando starnutisce. Ordina a Brighella
+                  di condurre il barone da loro. Brighella si mostra arrabbiato per il comportamento
+                  delle ragazze verso i suoi padroni. I vecchi gli chiedono il perdono. Anche Diana
+                  e Aurelia fanno la stessa cosa. Brighella mostra di essere calmato e va via.
+                  Ritorna con Arlecchino, Silvio e Odoardo, vestiti da baroni tedeschi. Dopo molti
+                  complimenti gli innamorati si rivelano alle fidanzate le quali sono molto
+                  contente. Nel frattempo Arlecchino si mette a starnutire e tutti gli augurano
+                  buona salute e lui distribuisce dei regali. Alla fine egli sposa Silvio con Diana
+                  e Odoardo con Aurelia e Pantalone conferma i matrimoni. Arlecchino dice di voler
+                  sposare Smeraldina, ma Pantalone risponde che è una serva. Arlecchino si rivela.
+                  Pantalone, comprendendo di essere stato ingannato, vuole opporsi, ma gli
+                  innamorati e le figlie lo costringono a confermare quel che è stato fatto e con il
+                  triplo matrimonio finisce</p>
+               <p rend="indent">la commedia.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

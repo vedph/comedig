@@ -1,0 +1,692 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La maggior gloria di un principe è vincere sé stesso</title>
+                <respStmt>
+                    <resp>Transcription and encoding of the Russian version by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding of the Italian translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La maggior gloria di un principe è vincere sé stesso. In base alla data indicata
+                    sul frontespizio dello scenario a stampa è possibile stabilire che la commedia
+                    La maggior gloria di un principe è vincere sé stesso fosse stata allestita dalla
+                    terza compagnia italiana nel 1735. Lo scenario è pervenuto soltanto nella
+                    versione russa, conservato presso la Biblioteca dell’Accademia delle Scienze di
+                    San Pietroburgo. La trama che concerne Don Carlos, favorito del principe di
+                    Salerno e suo rivale in amore, che riesce a sposare l’amata grazie alla
+                    generosità del sovrano, deriva da La mayor virtud de un rey di Lope de Vega
+                    pubblicata postuma nel 1637. La commedia prevede come di consueto l’inganno
+                    ordito da Brighella e goffamente attuato da Arlecchino, servo muto e sordo, che
+                    si introduce nel palazzo per carpire informazioni. Nonostante la menzione d’un
+                    principe nel titolo dello scenario denoti un contesto sociale più elevato di
+                    quello normalmente rappresentato nelle commedie, resta la personalità di
+                    Arlecchino, perplesso della sua finta afasia in quanto “quando sarà muto non
+                    potrà chiedere né da mangiare né da bere” (Atto III), a condurre
+                    l’intreccio.</p>
+                <p>Pandolfi segnala le somiglianze della commedia pietroburghese con la pièce
+                    Arlequin, bouffon de cour, rappresentata a Parigi da Riccoboni il 20 maggio
+                    1716. Il soggetto della raccolta napoletana, intitolata Maggior gloria
+                    (Pandolfi, V, 330), e degli scenari con lo stesso titolo, sono contenuti in due
+                    raccolte manoscritte, conservate presso la Biblioteca Estense di Modena
+                    (Pandolfi V, 292) e la Biblioteca Vaticana di Roma (Cod. Vat. Lat. 10244, cfr.
+                    Pandolfi V, 298). Quanto alle possibili riprese, Ferrazzi (144-145) segnala una
+                    commedia dal titolo pressoché identico, La maggior gloria d’un grande è il
+                    vincer sé stesso, ossia l’invidia alla corte, rappresentata alla residenza di
+                    Pillnitz di Augusto III, il 12 maggio 1738 dalla compagnia dei comici italiani
+                    di cui facevano parte anche alcuni attori attivi nella terza compagnia a San
+                    Pietroburgo.</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>НАИВЯЩШАЯ СЛАВА ГОСУДАРЮ, ЧТОБЪ ПОБѢЖДАТЬ САМОГО СЕБЯ.НАИВЯЩШАЯ СЛАВА
+                        ГОСУДАРЮ, ЧТОБЪ ПОБѢЖДАТЬ САМОГО СЕБЯ</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Library of St Petersburg Academy of Sciences</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>St Petersburg</settlement>
+                            <repository>The Library of St Petersburg Academy of
+                                Sciences</repository>
+                            <idno type="shelfmark">BAN, NIORK 271 (39) </idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="11">11 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="maggglor_ru_001" url="/img/maggglor_ru_001.jpg"/>
+                <graphic xml:id="maggglor_ru_002" url="/img/maggglor_ru_002.jpg"/>
+                <graphic xml:id="maggglor_ru_003" url="/img/maggglor_ru_003.jpg"/>
+                <graphic xml:id="maggglor_ru_004" url="/img/maggglor_ru_004.jpg"/>
+                <graphic xml:id="maggglor_ru_005" url="/img/maggglor_ru_005.jpg"/>
+                <graphic xml:id="maggglor_ru_006" url="/img/maggglor_ru_006.jpg"/>
+                <graphic xml:id="maggglor_ru_007" url="/img/maggglor_ru_007.jpg"/>
+                <graphic xml:id="maggglor_ru_008" url="/img/maggglor_ru_008.jpg"/>
+                <graphic xml:id="maggglor_ru_009" url="/img/maggglor_ru_009.jpg"/>
+                <graphic xml:id="maggglor_ru_010" url="/img/maggglor_ru_010.jpg"/>
+                <graphic xml:id="maggglor_ru_011" url="/img/maggglor_ru_011.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#maggglor_ru_001" n="1"/>
+                <head type="main">НАИВЯЩШАЯ СЛАВА ГОСУДАРЮ,<lb/>ЧТОБЪ <lb/> ПОБѢЖДАТЬ САМОГО
+                    СЕБЯ.</head>
+                <head type="sub">КAМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ <date when="1735">1735.</date></head>
+                <pb facs="#maggglor_ru_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ.</head>
+                    <p rend="indent">Дoнъ Карлосъ шляхтичъ римскои, будучи при<lb/> дворѣ Прїнца
+                        Салернскаго, влюбился въ Донну<lb/> Вïоланту, которую любилъ уже ея
+                        государь, кото-<lb/> рой не знавъ о его любви къ неи, сталъ его любить,<lb/>
+                        во всемъ на него полагаться, и ему вѣрить больше<lb/> всѣхъ, не слушая
+                        домогательства Панталонова, и<lb/> Докторова, которые были его совѣтники, и
+                        кото-<lb/> рые завидя благополучїю новопрїѣжжаго сего, ста-<lb/> ралися его
+                        погубить, чѣмъ и начинается Комедїя.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="don_carlos_ru">Д. КАРЛОСЪ,</role>
+                        <roleDesc>его любимыи, и влюбившïися въ Донну<lb/> Вïоланту.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="donna_violante_ru">Д. ВIОЛАНТА,</role>
+                        <roleDesc>придворная дама.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="donna_isabella_ru">ДОННА IЗАБЕЛЛА,</role>
+                        <roleDesc>двоюродная сестра Прïнцова,<lb/> влюбившаяся въ Д. Карлоса.
+                        </roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="dottore_ru">ДОКТОРЪ</role>
+                            <roleDesc>совѣтники.</roleDesc>
+                        </castItem>
+                        <castGroup>
+                            <castItem>
+                                <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                            </castItem>
+                            <castItem>
+                                <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                                <roleDesc>слуги Д. Карлоса.</roleDesc>
+                            </castItem>
+                        </castGroup>
+                        <castItem>
+                            <role xml:id="colombina_ru">КОЛОМБIНА,</role>
+                            <roleDesc>служащая Д. Вïоланты.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                </castList>
+                <set>
+                    <p>Дѣиствуется въ Салернѣ.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#maggglor_ru_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВÏЕ ПЕРВОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ДВОРЪ.</stage>
+                    <p rend="indent">ПРIНЦЪ спрашиваетъ у стариковъ, что для<lb/> успокоенїя бунта
+                        въ городѣ Каэтѣ, не надобно ли<lb/> ему туда самому поѣхать. Тѣ ему
+                        отвѣчаютъ,<lb/> что въ томъ нѣтъ нужды, для того что онъ мо-<lb/> жетъ то
+                        учинить чрезъ Д. Лудовїка, своего Гене-<lb/> рала. Прїнцъ за благо отвѣтъ
+                        ихъ прїемлетъ, да и<lb/> сталъ имъ разширять многими словами великїя
+                        до-<lb/> стоинства Д. Карлоса, вновь себѣ любимаго. Ста-<lb/> рики съ
+                        злости, стараются его погубить говоря<lb/> Прїнцу, что онъ спевивъ,
+                        высокомѣренъ, и что со<lb/> временемъ можетъ онъ Прїнцъ разкаяться о
+                        своихъ<lb/> къ нему благодѣянïяхъ. На то Д. Карлосъ прихо-<lb/> дитъ.
+                        Прїнцъ, въ досаду старикамъ, больше показы-<lb/> ваетъ къ нему свою
+                        склонность, и повелѣваетъ ему<lb/> за собои итти въ свои кабїнетъ, гдѣ
+                        имѣетъ онъ<lb/> нѣчто особливое ему сказать, да и пошолъ. Оба<lb/> старики
+                        начали ласкать новаго того фаворїта, при-<lb/> писуя многїя ему похвалы. Д.
+                        Карлосъ, вѣдая ихъ,<lb/> благодаритъ имъ съ насмѣшкою. Тѣ пошли. Д.<lb/>
+                        Карлосъ говоритъ о любви, которую онъ имѣетъ<lb/> къ Д. Вïолантѣ, такъ же и
+                        о томъ, что онъ прика-<lb/> залъ намалевать портретъ ея; а чтобъ онои еи
+                        по-<lb/> казать, сталъ стучаться у ея покоя. Д. Вïоланта<lb/> выходитъ; а
+                        чрезъ разговоры свои утверждаютъ они<lb/> другъ другу вѣрность ненарушимую.
+                        По томъ Д.<lb/> Вïоланта пошла. Д. Карлосъ сталъ читать писмо,<lb/> которое
+                        она ему вручила. Тогда Арлекїнъ выхо-<lb/> дитъ прїѣжжая изъ Рима;
+                        удивляется онъ, что ви-<lb/> дитъ своего господина толь въ богатомъ
+                        платьѣ;<lb/> хочетъ онъ съ нимъ говорить. Но Д. Карлосъ будучи<lb/>
+                        <fw type="sig" place="bottom">З 2</fw>
+                        <fw type="catch" place="bottom">упражненъ</fw>
+                        <pb facs="#maggglor_ru_004" n="4"/>
+                        <fw type="pageNum">4</fw> упражненъ чтенїемъ своего писма, и его не
+                        узнавъ,<lb/> бранитъ его какъ нищаго, которои проситъ мило-<lb/> стыни. По
+                        томъ какъ узналъ, что онъ въ томъ<lb/> обманулся, Арлекїнъ съ нимъ такъ же
+                        сталъ<lb/> поступать; а на конецъ говоритъ, что онъ имѣетъ<lb/> къ нему
+                        писмо отъ его отца, которое ему и от-<lb/> даетъ. Д. Карлосъ чрезъ то
+                        увѣдомляется, что<lb/> его отецъ женилъ его въ Римѣ. Д. Карлосъ поду-<lb/>
+                        мавъ о семъ случаѣ, намѣрился опять послать въ<lb/> Римъ Арлекїна, которои
+                        бы отцу его сказалъ, что<lb/> онъ его Д. Карлоса нигдѣ не нашолъ. Арлекïнъ
+                        хо-<lb/> четъ то учинить. Д. Карлосъ, чтобъ его искусить,<lb/> говоритъ, что
+                        онъ хочетъ притвориться своимъ<lb/> отцомъ, да и сталъ его о многихъ вещахъ
+                        спраши-<lb/> вать. На что Арлекїнъ отвѣтствуетъ все не къ<lb/> стати. Д.
+                        Карлосъ опечалившись, хочетъ его убить.<lb/> Брїгеллъ пришедъ, удерживаетъ
+                        его. Д. Карлосъ<lb/> розказываетъ ему все что надобно. Брїгеллъ ему<lb/>
+                        совѣтуетъ, чтобъ онъ Арлекїна удержалъ при себѣ,<lb/> которои можетъ ему
+                        тутъ потребенъ быть, по<lb/> тому что его ни кто не знаетъ. Д. Карлосъ
+                        на<lb/> то склонился, и говоритъ Арлекїну, чтобъ онъ<lb/> шолъ за
+                        Брїгелломъ, да и пошолъ. Брїгеллъ и Арле-<lb/> кїнъ чинятъ другъ другу
+                        многїе комплїменты, и<lb/> по нѣсколькихъ шуткахъ, пошли.</p>
+                    <p rend="indent">IЗАБЕЛЛА выходя говоритъ, что она съ великою<lb/>
+                        нетерпѣливностїю жалаетъ знать, для чего бы лю-<lb/> бовникъ ея Д. Карлосъ,
+                        не толь часто ходилъ<lb/> къ неи, и что она очюнь печальна, что она<lb/> не
+                        можетъ къ нему писать, понеже она руку<lb/> зашибла; однако она хочетъ
+                        попросить Д. Вï-<lb/> оланту другиню свою, чтобъ она за нея напи-<lb/>
+                        <fw type="catch" place="bottom">cала</fw>
+                        <pb facs="#maggglor_ru_005" n="5"/>
+                        <fw type="pageNum">5</fw> сала, да и стала у нея стучаться. Коломбїна
+                        выхо-<lb/> дитъ, Iзабелла еи говоритъ, что она хочетъ посѣ-<lb/> тить ея
+                        госпожу. Коломбїна ея пустила, потомъ<lb/> стала она передражнивать
+                        комплїменты, которые<lb/> онѣ будутъ чинить дружка дружкѣ; на то
+                        Брïгеллъ<lb/> подъходитъ, и сталъ ей говорить о любви. Колом-<lb/> бїна
+                        обѣщается его любить; да и пошли.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">Д. IЗАБЕЛЛА не вѣдая о взаимнои любви Д. Кар-<lb/> лоса, и Д.
+                        Вïоланты, проситъ сїю, чтобъ она напи-<lb/> сала писмо къ Д. Карлосу своему
+                        любовнику. Д. Вï-<lb/> ланта въ ревности спрашиваетъ у нея, что, любитъ<lb/>
+                        ли и онъ ея? Та не зная еще о его не постоянствѣ,<lb/> говоритъ ей, что
+                        любитъ. Д. Вïоланта притворяя<lb/> маленькую немощь отлагаетъ то писмо до
+                        другова<lb/> времени. Д. Iзабелла простилася съ нею, да и пошла<lb/> Д.
+                        Вïоланта осердившись на своего любовника, такъ<lb/> же пошла.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ДВОРЪ.</stage>
+                    <p>Д. КАРЛОСЪ говоритъ Арлекïну, что онъ хочетъ<lb/> ему показать свою любезную;
+                        хвалитъ онъ ему мно-<lb/> горѣчиво красоту ея, и прïемъ, которой она
+                        ему<lb/> учинитъ видя его. Арлекїнъ сталъ стучаться. Д.<lb/> Вïоланта
+                        выходитъ, и дала хорошую пощочину Д.<lb/> Карлосу. Арлекїнъ поздравляетъ ему
+                        добрымъ ея<lb/> прїемомъ. Д. Вїоланта укоряетъ его любовїю, ко-<lb/> торую
+                        онъ имѣетъ къ другои, да и пошла не выслу-<lb/> шавъ его. Изъ того
+                        произходитъ игрушка смѣшная<lb/> между Д. Карлосомъ, и Арлекїномъ.<lb/> По
+                        томъ Д. Карлосъ хотя конечно знать, для<lb/> его бы его любезная на него
+                        сердита была, прину-<lb/>
+                        <fw type="catcht" place="bottom">ждаетъ</fw>
+                        <pb facs="#maggglor_ru_006" n="6"/>
+                        <fw type="pageNum">6</fw> ждаетъ Арлекїна кликнуть ея. Сеи приказъ
+                        испол-<lb/> няетъ Арлекїнъ со многими театру приличными<lb/> игрушками. Д.
+                        Вïоланта приходитъ. Д. Карлосъ<lb/> хочетъ взять у нея потретъ свои, а она
+                        писмо<lb/> такъ же свое. Д. Карлосъ говоритъ Арлекїну, чтобъ<lb/> онъ того
+                        отъ нея требовалъ; та приказываетъ Арле-<lb/> кїну тожъ чинить съ Д.
+                        Карлосомъ въ разсужденїи<lb/> своего писма. Арлекїнъ чрезъ одну игрушку
+                        рѣчеи<lb/> талїянскихъ, говоритъ все не такъ. Любовники ми-<lb/> рятся, чѣмъ
+                        и кончится дѣиствїе первое.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <p rend="indent">БРIГЕЛЛЪ выходитъ говоря Арлекїну, что ихъ господинъ имѣя<lb/>
+                        непрїятелеи при дворѣ, намѣрился ихъ обоихъ ввесть во дворецъ за шутовъ<lb/>
+                        нѣмыхъ и глухихъ, дабы присматривать, и выслушивать все что будутъ
+                        говорить<lb/> худое о немъ. Арлекїнъ на- ходитъ въ томъ трудность, говоря,
+                        что когда онъ<lb/> будетъ нѣмъ, то нельзя ему будетъ попросить ни ѣсть ни
+                        пить. Брїгеллъ его<lb/> научаетъ, что ему въ семъ случаѣ надобно будетъ
+                        дѣлать, и обѣщаетъ ему, что<lb/> сверьхъ господскаго награжденїя, хочетъ онъ
+                        ему показать хорошую дѣвицу,<lb/> которую онъ любитъ, да и пошли оба.</p>
+                    <p rend="indent">ПРIНЦЪ выходитъ сказывая старикамъ о своеи<lb/> любви къ Д.
+                        Вïолантѣ, и о ея къ себѣ безпристрастїи;<lb/> однакожъ онъ надѣется, что Д.
+                        Карлосъ учинитъ,<lb/> что она перемѣнитъ свое къ нему чувствїе. Старики<lb/>
+                        лишъ хотѣли ему сказать, что по истиннѣ Д. Кар-<lb/> лосъ самъ ея любитъ,
+                        анъ тогда онъ вышелъ, и <lb/> представляетъ Прїнцу одного шута, про
+                        котораго<lb/> онъ сказываетъ, что ему отецъ его прислалъ. Прїнцъ<lb/>
+                        <fw type="catch" place="bottom">ему</fw>
+                        <pb facs="#maggglor_ru_007" n="7"/>
+                        <fw type="pageNum">7</fw> ему благодаритъ. Д. Карлосъ пошолъ, да и
+                        возвра-<lb/> щается съ Арлекїномъ наряженымъ въ смѣшное<lb/> платье,
+                        котораго онъ отдаетъ Прїнцу, да и по-<lb/> шолъ; изъ того происходитъ шутка
+                        смѣшная. На<lb/> конецъ Панталонъ говоритъ Прїнцу, что Д. Вïо-<lb/> ланта не
+                        отвѣтствуетъ на его любовь, для того<lb/> что ея Д. Карлосъ любитъ. Прїнцъ
+                        не хочетъ ему<lb/> вѣрить. Старикъ совѣтуетъ Прїнцу, чтобъ онъ<lb/>
+                        притворился, будто хочетъ онъ послать Д. Кар-<lb/> лоса на войну. Прїнцъ
+                        призываетъ его. Д. Карлосъ<lb/> будучи увѣдомленъ чрезъ Арлекїна, говоритъ,
+                        что<lb/> онъ готовъ ѣхать. Прїнцъ будучи доволенъ его по-<lb/> слушанїемъ,
+                        приказываетъ ему, чтобъ онъ дожидался<lb/> другаго указу, да и послалъ его
+                        отъ себя; потомъ<lb/> сталъ укорять стариковъ злостїю ихъ. На то Д.<lb/>
+                        Iзабелла приходитъ, и стала просить Прїнца, чтобъ<lb/> онъ ея отдалъ за Д.
+                        Карлоса, говоря, что и онъ<lb/> ея любитъ. Прїнцъ обѣщается то учинить. Д.
+                        Iза-<lb/> белла пошла. Прїнцъ опять началъ бранить стари-<lb/> ковъ, говоря,
+                        что ежели бы Д. Карлосъ любилъ Вïо-<lb/> ланту, то бы онъ не любилъ Д.
+                        Iзабеллу; Старики<lb/> предлагаютъ послѣднїй опытъ, то есть, чтобъ<lb/>
+                        Прїнцъ привелъ ночью Д. Карлоса подъ окна къ Д.<lb/> Вïолантѣ, и принудилъ
+                        бы его тамъ говорить съ нею<lb/> любовно; чрезъ что онъ можетъ увидѣть, что
+                        без-<lb/> дѣльники ли они. Прїнцъ грозя старикамъ, будебъ<lb/> противное
+                        случилось, велитъ призвать Д. Карлоса,<lb/> котораго ни гдѣ не находятъ.
+                        Арлекїнъ ищетъ его<lb/> чрезъ многїя игрушки, а не видя его, пошолъ
+                        чтобъ<lb/> его наити. Между тѣмъ Д. Карлосъ приходитъ;<lb/> печалится онъ,
+                        что нѣтъ Арлекїна, для того что<lb/> невидавшись съ нимъ, незнаетъ онъ какъ
+                        бы надле-<lb/> жало поступать. Прїнцъ предлагаетъ ему то, что<lb/>
+                        <fw type="catch" place="bottom">ста-</fw>
+                        <pb facs="#maggglor_ru_008" n="8"/>
+                        <fw type="pageNum">8</fw> старики ему присовѣтовали, несказывая ему гдѣ
+                        бы<lb/> то надлежало чинить. Д. Карлосъ соизволяетъ на<lb/> то по многихъ
+                        трудностяхъ. Прїнцъ говоритъ,<lb/> то онъ не хочетъ его покинуть, а взявъ
+                        его за<lb/> руку пошолъ съ нимъ. Старики радуяся о удачѣ<lb/> ихъ совѣта,
+                        говорятъ, что наступающая ночь учи-<lb/> нитъ ихъ довольными, да и
+                        пошли.</p>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ въ великомъ затрудненїи,<lb/> что онъ не
+                        нашолъ ни гдѣ своего Господина, дабы<lb/> его увѣдомить о умыслѣ. Однакожъ
+                        онъ хочетъ<lb/> увѣдомить о томъ Д. Воланту, да и сталъ ея кли-<lb/> кать.
+                        Коломбїна выходитъ. А по многихъ шуткахъ<lb/> Арлекїнъ ея проситъ, чтобъ она
+                        вызвала свою госпо-<lb/> жу. Коломбїна кличетъ Д. Вïоланту, которои
+                        Арле-<lb/> кїнъ сказываетъ темно мысль свою. Д. Вїоланта вы-<lb/> разумѣвши
+                        дѣло, пошла съ Коломбïною. Арлекїнъ<lb/> такъ же.</p>
+                    <p rend="indent">Д. КАРЛОСЪ выходитъ спрашивая Прïнца, что<lb/> кудабъ онъ его
+                        велъ. Прїнцъ ему сказываетъ, что<lb/> они теперь подъ окнами у Д. Вïоланты,
+                        которой онъ<lb/> долженъ говорить о любви. Д. Карлосъ будучи въ от-<lb/>
+                        чаянїи, и бояся, чтобъ какъ себя не погубить, всяче-<lb/> ски извиняется,
+                        чтобъ ему того не повелѣно было<lb/> чинить. Прїнцъ велитъ ему то дѣлать
+                        конечно.<lb/> Старики радуются. Д. Карлосъ сталъ стучаться.<lb/> Д. Воланта
+                        спрашиваетъ: ЧТО БЫ ТО БЫЛЪ ЗА НА-<lb/> ХАЛЪ, КОТОРОИ СТУЧИТСЯ ТЕПЕРЬ У
+                        МОИХЪ<lb/> ВОРОТЪ? Прїнцъ принуждаетъ Д. Карлоса, чтобъ<lb/> онъ еи
+                        отвѣтствовалъ, и сказалъ бы что то ея лю-<lb/> бовникъ. Д. Вïоланта
+                        приворяется быть сердитою,<lb/> и говоритъ, что она его не знаетъ, и что
+                        ежелибъ она<lb/> любила другаго, то бы она не стала любить Прїнца,<lb/>
+                        <fw type="catch" place="bottom">да</fw>
+                        <pb facs="#maggglor_ru_009" n="9"/>
+                        <fw type="pageNum">9</fw> да и пошла. Прïнцъ говоритъ Д. Карлосу, что
+                        онъ<lb/> доволенъ; а старикамъ, чтобъ они за нимъ шли. Ста-<lb/> рики будучи
+                        въ отчаянïи о своеи неудачъ, испол-<lb/> няютъ указъ. Д. Карлосъ печалїю и
+                        отчаянïемъ своимъ<lb/> окончаваетъ Дѣиствїе второе.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+                    <p rend="indent">Д. КАРЛОСЪ выходитъ, жалуяся на невѣрность<lb/> своея любезныя,
+                        и чтобъ на нея въ томъ попенять,<lb/> кличетъ. Д. Вïоланта стерпѣвши всю его
+                        укоризну,<lb/> говоритъ ему, что она то притворила, и<lb/> что причиною тому
+                        Арлекїнъ. На то Арле-<lb/> кїнъ приходитъ. Д. Карлосъ распалившись на
+                        него,<lb/> хочетъ его убить. Арлекинъ палъ ему въ ноги, и<lb/> сказываетъ
+                        ему, для чего онъ то учинилъ. Д. Карлосъ,<lb/> и Д. Вïоланта стали его за то
+                        хвалить, и говорятъ<lb/> ему, чтобъ онъ все присматривалъ за стариками.
+                        Арле-<lb/> кїнъ пошолъ. Любовники между собою помирились. И<lb/> какъ лишъ
+                        хотѣла Д. Вïоланта обнять Д. Карлоса,<lb/> но видя, что Прїнцъ идетъ,
+                        отпехнула его прочь,<lb/> и стала его называть дерзновеннымъ, и
+                        продерзо-<lb/> стнымъ, грозя ему, что она о томъ донесетъ Прїн-<lb/> цу.
+                        Прїнцъ думая, что она говоритъ въ его пользу,<lb/> называетъ ея вѣрною, да и
+                        пошолъ. Д. Вïоланта<lb/> опять стала. Карлоса улещивать, которои диви-<lb/>
+                        тся тому ея непостоянству, по тому что онъ<lb/> невидалъ Прїнца что чинится
+                        раза съ три. Напослѣдокъ<lb/> Д. Вïоланта говоритъ Прїнцу, что Д. Карлосъ
+                        объ-<lb/> вилъ еи свою любовь, и что она желаетъ, дабы онъ<lb/> за то былъ
+                        наказанъ. Прїнцъ говоритъ, чтобъ она<lb/> выбрала сама ему наказанїе. Д.
+                        Вïоланна говоритъ,<lb/>
+                        <fw type="sig" place="bottom">И</fw>
+                        <fw type="catch" place="bottom">чтобъ</fw>
+                        <pb facs="#maggglor_ru_010" n="10"/>
+                        <fw type="pageNum">10</fw> чтобъ Д. Карлосъ въ два часа выбрался вонъ изъ
+                        го-<lb/> рода; но ему потихоньку: Чтобъ тебѣ быть въ моей<lb/> камерѣ.
+                        Прїнцъ ему приказываетъ въ два часа выѣ-<lb/> хать изъ города, а потихоньку
+                        говоритъ: Чтобъ тебѣ<lb/> быть въ моемъ кабïнетѣ, да и пошолъ съ Д.
+                        Вïолантою.<lb/> Д. Карлосъ такъ же пошолъ говоря, что ежелибъ<lb/> ему
+                        всегда такое чинили наказанїе, то бы онъ былъ<lb/> доволенъ.</p>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ говоря, что онъ не хочетъ<lb/> больше служить
+                        своему господину, по тому что<lb/> лице шутовское скушно ему стало носить. А
+                        чтобъ<lb/> сказать тому причину, сталъ стучаться у Д. Вïо-<lb/> ланты.
+                        Коломбїна выходитъ, испужалася она ви-<lb/> дячи его, по тому что она взяла
+                        его за обезьяну;<lb/> изъ того происходитъ шутка смѣшная. Старики<lb/> видя,
+                        что подставнои нѣмои говоритъ, поимали<lb/> его. Арлекïнъ опять притворяется
+                        быть нѣмымъ<lb/> Старики хотятъ его бить. Коломбïна убѣгаетъ<lb/> Панталонъ
+                        кличетъ. Прїнцъ приходитъ, спраши-<lb/> ваетъ смятенїю сему причины. Старики
+                        сказываютъ<lb/> ему то, что они видѣли. Арлекїнъ отпирается отъ<lb/> того
+                        гестами. Панталонъ хочетъ на пытку поити;<lb/> буде его не правда. Прїнцъ
+                        приказалъ привязать<lb/> Арлекїна. Панталонъ ему совѣтуетъ говоритъ.
+                        Арле-<lb/> кинъ говоритъ ему, что онъ не хочетъ. Панталонъ<lb/> говоритъ
+                        Прїнцу: Изволь сударь слушать, говоритъ. Но<lb/> Арлекїнъ притворяяся быть
+                        нѣмымъ кланяется<lb/> Прїнцу. Прïнцъ думая, что Панталонъ его обол-<lb/>
+                        галъ, велѣлъ и его привязать. Арлекїнъ, не разсмы-<lb/> сливъ, началъ
+                        говорить съ радости. Прїнцъ то<lb/> услышалъ. Арлекїнъ палъ въ ноги, и
+                        говоритъ<lb/> ему, что то его господинъ велѣлъ ему такъ при-<lb/> творяться.
+                        Д. Карлосъ хотя и мигалъ Арлекїну;<lb/>
+                        <fw type="catch" place="bottom">чтобъ</fw>
+                        <pb facs="#maggglor_ru_011" n="11"/>
+                        <fw type="pageNum">11</fw> чтобъ онъ на него не доносилъ; однако увидѣлъ,
+                        что<lb/> дѣло стало быть явно, палъ самъ въ ноги Прїнцу, и<lb/> сталъ у него
+                        просить прощенїя въ томъ. Прїнцъ сталъ<lb/> его неблагодарнымъ называть, да
+                        и велѣлъ кликнуть<lb/> Iзабеллу, которои онъ велитъ, чтобъ она дала
+                        руку<lb/> Д. Карлосу. Тому стала противиться Д. Вïоланта<lb/> говоря, что Д.
+                        Карлосъ ея мужъ съ позволенїя ея<lb/> отца Д. Лудовïка, которое онъ еи далъ
+                        отъѣжжая<lb/> въ Гаэту. Д. Карлосъ увѣряетъ Прїнца, что онъ<lb/> не зналъ о
+                        его любви, прежде нежели онъ Д.<lb/> Карлосъ съ нею полюбился; въ прочемъ
+                        онъ бы имѣлъ<lb/> предпочтить должность своеи любви. Прїнцъ его<lb/>
+                        обнимаетъ, а прощая его говоритъ, что понеже небо<lb/> и Д. Лудовїкъ отдали
+                        ему Д. Вïоланту, того ради<lb/> онъ не хочетъ тому противиться. Женится онъ
+                        на Д.<lb/> Iзабеллѣ. Брїгеллъ на Коломбїнѣ, чѣмъ и кончится<lb/>
+                        Комедïя.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La maggior gloria di un principe è vincere sé stesso</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#magg-1" n="1"/>
+                <head type="main">LA MAGGIOR GLORIA DI UN PRINCIPE È VINCERE SÉ STESSO.</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/>RAPPRESENTATA A SAN PIETROBURGO<lb/><date when="1735">nell'anno 1735.</date></head>
+                <pb facs="#magg-2" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">Don Carlos, nobile romano, trovandosi alla corte del principe
+                        di Salerno, si innamora di Donna Violante, di cui già si era innamorato il
+                        suo sovrano. Donna Violante, non sapendo dell’amore di Don Carlos per lei,
+                        comincia a benvolerlo, gli affida ogni cosa e ripone in lui più fiducia che
+                        in chiunque altro, ignorando gli intrighi di Pantalone e del Dottore, suoi
+                        consiglieri, i quali, invidiosi del favore di cui gode il nuovo arrivato,
+                        cercano di rovinarlo. Così comincia la commedia.</p>
+                </div>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="principe_di_salerno_it">IL PRINCIPE DI SALERNO.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="don_carlos_it">DON CARLOS,</role>
+                        <roleDesc>il suo favorito che si è innamorato di Donna Violante.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="donna_violante_it">DONNA VIOLANTE,</role>
+                        <roleDesc>dama di corte.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="donna_isabella_it">DONNA ISABELLA,</role>
+                        <roleDesc>cugina del principe, innamorata di Don Carlos.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="pantalone_it">PANTALONE e</role>
+                            <role xml:id="dottore_it">IL DOTTORE,</role>
+                            <roleDesc>consiglieri.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="arlecchino_it">ARLECCHINO e</role>
+                            <role xml:id="brighella_it">BRIGHELLA,</role>
+                            <roleDesc>servitori di Don Carlos.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="colombina_it">colombina,</role>
+                        <roleDesc>servitrice di Donna Violante.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Salerno.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#magg-3" n="3"/>
+                <div type="act" n="1">
+                    <head>PRIMO ATTO.</head>
+                    <stage>LA SCENA MOSTRA LA CORTE.</stage>
+                    <p rend="indent">IL PRINCIPE chiede consiglio ai vecchi se andare di persona o
+                        meno per sedare la rivolta nella città di Gaeta. Questi gli rispondono che
+                        non c’è bisogno di andare perché può mandarci Don Ludovico, il suo generale.
+                        Il principe accetta il loro consiglio e inizia a elogiare con molte parole
+                        le grandi virtù di Don Carlos, il suo nuovo favorito. I vecchi, con rabbia,
+                        cercano di rovinarlo, dicendo al principe che è arrogante, altezzoso e che,
+                        col tempo, il principe si pentirà delle sue buone azioni nei suoi confronti.
+                        In quel momento giunge Don Carlos. Il principe, annoiato dai vecchi, mostra
+                        la sua propensione verso di lui, gli ordina di seguirlo nel suo studio, dove
+                        ha qualcosa di speciale da dirgli, e vanno via. Entrambi i vecchi iniziano a
+                        corteggiare il nuovo favorito, attribuendogli molti pregi. Don Carlos,
+                        conoscendoli, li ringrazia con scherno. I vecchi partono. Don Carlos parla
+                        dell’amore che ha per Donna Violante e anche che ha ordinato di farle il
+                        ritratto, e per mostrarglielo, comincia a bussare alla porta dei suoi
+                        appartamenti. Donna Violante esce e, nei loro discorsi, i due si confermano
+                        l’un l’altra una fedeltà incrollabile. Poi Donna Violante va via. Don Carlos
+                        inizia a leggere la lettera che la donna gli ha consegnato. In quel momento
+                        entra Arlecchino che arriva da Roma, è sorpreso di vedere il suo padrone
+                        vestito con un abito così ricco, vuole parlare con lui. Ma Don Carlos,
+                        immerso <pb facs="#magg-4" n="4"/>nella lettura della lettera e non
+                        riconoscendolo, lo rimprovera per chiedere l’elemosina come un mendicante,
+                        poi capisce di essersi sbagliato in ciò. Arlecchino si comporta con il
+                        padrone Don Carlos allo stesso modo di prima e alla fine gli dice di avere
+                        per lui una lettera da suo padre e gliela consegna. Don Carlos viene così a
+                        sapere che suo padre gli ha trovato una moglie a Roma. Don Carlos intende
+                        rimandare Arlecchino a Roma per informare suo padre di non averlo trovato da
+                        nessuna parte. Arlecchino vuole obbedire. Don Carlos, per metterlo alla
+                        prova, dice che vuole fingersi suo padre e inizia a chiedergli varie cose.
+                        Al che Arlecchino risponde del tutto fuori luogo. Triste, Don Carlos vuole
+                        picchiarlo. Arriva Brighella e lo trattiene. Don Carlos gli racconta tutto
+                        ciò che deve sapere. Brighella gli consiglia di tenere Arlecchino con sé
+                        perché potrebbe aver bisogno di lui lì, dato che nessuno alla corte lo
+                        conosce. Don Carlos acconsente e dice ad Arlecchino di seguire Brighella e
+                        va via. Brighella e Arlecchino si fanno molti complimenti e, dopo qualche
+                        lazzo, se ne vanno.</p>
+                    <p rend="indent">molti complimenti e, dopo qualche lazzo, se ne vanno. ISABELLA
+                        entra e dice che vorrebbe sapere, con grande impazienza, perché il suo
+                        innamorato Don Carlos va meno spesso a trovarla e di essere triste per non
+                        potergli scrivere, perché si è fatta male alla mano. Vuole chiedere a Donna
+                        Violante, sua amica, di scrivere per lei <pb facs="#magg-5" n="5"/>e inizia
+                        a bussare da lei. Colombina esce, Isabella le dice che vuole far visita alla
+                        sua padrona. Colombina la fa entrare, poi inizia a scimmiottare i
+                        complimenti che si fanno le due amiche. In quel momento entra Brighella e le
+                        rivela il suo amore. Colombina promette di amarlo e vanno via.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">DONNA ISABELLA, ignorando l’amore reciproco di Don Carlos e
+                        Donna Violante, le chiede di scrivere una lettera a Don Carlos, il suo
+                        innamorato. Donna Violante, con gelosia, le chiede se anche lui l’ama. Donna
+                        Isabella, non sapendo ancora dell’incostanza dell’amante, le risponde di sì.
+                        Donna Violante, fingendosi un po’ inferma, rimanda la scrittura della
+                        lettera ad un’altra occasione. Donna Isabella la saluta e parte. Donna
+                        Violante, arrabbiata con il suo innamorato, va via anche lei.</p>
+                    <stage>LA SCENA MOSTRA LA CORTE.</stage>
+                    <p rend="indent">DON CARLOS dice ad Arlecchino che vuole mostrargli la sua
+                        innamorata, loda eloquentemente la sua bellezza e l’accoglienza che gli
+                        riserva quando lo vede. Arlecchino inizia a bussare. Esce Donna Violante e
+                        dà un bello schiaffo a Don Carlos. Arlecchino si congratula con lui per la
+                        buona accoglienza della signora. Donna Violante gli rimprovera l’amore che
+                        ha per l’altra donna e va via senza ascoltarlo. Da ciò scaturisce un lazzo
+                        spiritoso tra Don Carlo e Arlecchino, poi Don Carlos vuole sapere perché la
+                        sua amata è adirata con lui e costringe <pb facs="#magg-6" n="6"/>Arlecchino
+                        a chiamarla. Quell’ordine viene eseguito da Arlecchino con molti lazzi.
+                        Donna Violante arriva. Don Carlos vuole riprendersi il suo ritratto, mentre
+                        Donna Violante la sua lettera. Don Carlos ordina ad Arlecchino di
+                        chiederglielo, Donna Violante ordina ad Arlecchino di fargli restituirle la
+                        sua lettera. Arlecchino, con dei lazzi verbali eseguiti in italiano, dice
+                        tutto in modo sbagliato. Gli innamorati si riconciliano, e ciò conclude il
+                        primo atto.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>SECONDO ATTO.</head>
+                    <p rend="indent">BRIGHELLA entra, dicendo ad Arlecchino che il loro padrone,
+                        avendo dei nemici a corte, intende portarli entrambi al palazzo come
+                        buffoni, muti e sordi, per osservare e ascoltare tutto ciò che dicono male
+                        di lui. La difficoltà che vede Arlecchino sta nel fatto che quando fingerà
+                        di essere muto non gli sarà possibile chiedere da mangiare o da bere.
+                        Brighella gli insegna cosa dovrà fare in quel caso, e gli promette che,
+                        oltre alla ricompensa del padrone, gli mostrerà la bella ragazza di cui è
+                        innamorato, ed entrambi vanno via.</p>
+                    <p rend="indent">IL PRINCIPE entra, raccontando ai vecchi il suo amore per Donna
+                        Violante che non corrisponde al suo amore. Il principe spera tuttavia che
+                        Don Carlos le faccia cambiare idea. I vecchi vorrebbero dirgli che il suo
+                        favorito è anche il suo rivale in amore, ma in quel momento entra Don Carlos
+                        e presenta un buffone al Principe, del quale dice che l’ha mandato suo
+                        padre. Il principe <pb facs="#magg-7" n="7"/>lo ringrazia. Don Carlos va
+                        via, ritorna con Arlecchino vestito con un abito buffo, lo regala al
+                        principe e va via; da ciò nasce un lazzo divertente. Alla fine, Pantalone
+                        racconta al principe che Donna Violante non corrisponde il suo amore perché
+                        è amata da Don Carlos. Il principe non vuole credergli. Il vecchio consiglia
+                        al principe di fingere di mandare in guerra Don Carlos. Il principe lo
+                        chiama. Don Carlos, informato di ciò da Arlecchino, dice che è pronto a
+                        partire. Il principe, contento della sua obbedienza, gli ordina di attendere
+                        un altro decreto e lo manda via, poi inizia a rimproverare i vecchi per la
+                        loro perfidia. In quel momento arriva Donna Isabella e chiede al principe di
+                        darla in sposa a Don Carlos, affermando che lui l’ama. Il principe promette
+                        di esaudire il suo desiderio. Donna Isabella va via. Il principe ricomincia
+                        a rimproverare i vecchi, dicendo che se Don Carlos ama Violante, non può
+                        amare Donna Isabella. I vecchi propongono un’ultima prova, cioè che il
+                        principe porti Don Carlos, di notte, sotto le finestre di Donna Violante e
+                        lo costringa a parlarle d’amore. Attraverso ciò può vedere se sono dei
+                        perdigiorno o no. Il principe, minacciando i vecchi di punirli se accadrà il
+                        contrario, ordina di chiamare Don Carlos, che però non si trova da nessuna
+                        parte. Arlecchino lo cerca con molti lazzi, e, non vedendolo, va a cercarlo.
+                        Intanto arriva Don Carlos, è triste che non c’è Arlecchino, perché non
+                        avendolo visto, non sa come comportarsi. Il principe gli propone quello che
+                            <pb facs="#magg-8" n="8"/>i vecchi gli consiglino, non dicendogli dove
+                        lo deve fare. Don Carlos acconsente, ma con molte difficoltà. Il principe
+                        dice che non lo vuole lasciare e, prendendolo per mano, va con lui. I
+                        vecchi, rallegrandosi del successo dei loro consigli, dicono che la notte
+                        che verrà li renderà soddisfatti, e se ne vanno.</p>
+                    <p rend="indent">ARLECCHINO entra in gran difficoltà, perché non ha trovato il
+                        suo signore da nessuna parte, per avvisarlo dell’intento. Tuttavia, vuole
+                        informare Donna Violante e inizia a chiamarla. Esce Colombina. Con molte
+                        battute, Arlecchino le chiede di chiamare la sua padrona. Colombina chiama
+                        Donna Violante, alla quale Arlecchino racconta, in modo oscuro, la sua idea.
+                        Donna Violante, comprendo alla fine la cosa, se ne va con Colombina. Anche
+                        Arlecchino.</p>
+                    <p rend="indent">DON CARLOS entra, chiedendo al principe dove l’ha condotto. Il
+                        principe gli risponde che sono sotto le finestre di Donna Violante, alla
+                        quale deve parlare d’amore. Don Carlos, disperato e temendo di rovinarsi,
+                        cerca di svincolarsi in ogni modo possibile. Il principe gli ordina di
+                        farlo. I vecchi si rallegrano. Don Carlos inizia a bussare. Donna Violante
+                        chiede: CHI È LA FACCIA TOSTA CHE STA BUSSANDO ORA AI MIEI CANCELLI? Il
+                        principe costringe Don Carlos a risponderle dicendo di essere il suo
+                        innamorato. Donna Violante finge di essere arrabbiata, risponde di non
+                        conoscerlo; aggiunge che se dovesse amare qualcuno, amerebbe soltanto il
+                        principe <pb facs="#magg-9" n="9"/>e se ne va. Il principe dice a Don Carlos
+                        che è soddisfatto e ai vecchi che lo seguano. I vecchi, disperati per il
+                        loro fallimento, eseguono l’ordine. Don Carlos, con tristezza e
+                        disperazione, conclude il secondo atto.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>TERZO ATTO.</head>
+                    <p rend="indent">DON CARLOS entra, lamentandosi dell’infedeltà della sua amante,
+                        e per biasimarla chiama Donna Violante, la quale, dopo aver ascoltato tutti
+                        i suoi rimproveri, risponde che ha fatto finta, essendo avvisata da
+                        Arlecchino. In quel momento arriva Arlecchino. Don Carlos, infuriato con
+                        lui, vuole ucciderlo. Arlecchino cade ai suoi piedi e gli racconta perché
+                        l’ha fatto. Don Carlos e Donna Violante cominciano a lodarlo per quello e
+                        gli dicono di tenere d’occhio i vecchi. Arlecchino se ne va. Gli amanti si
+                        riconciliano. E quando Donna Violante vuole abbracciare Don Carlos, vede
+                        arrivare il principe. Allora Donna Violanta respinge Don Carlos, lo chiama
+                        audace e sfacciato e minaccia di informare il principe. Il principe,
+                        pensando che lei parli a suo beneficio, la chiama fedele e va via. Donna
+                        Violante comincia di nuovo ad accarezzare Don Carlos, il quale, non avendo
+                        visto il principe, si meraviglia della sua incostanza. Questo si ripete per
+                        tre volte. Alla fine, Donna Violante dice al principe che Don Carlos le ha
+                        dichiarato il suo amore e che vuole che venga punito per quello. Il principe
+                        risponde che Donna Violante deve scegliere la punizione. Donna Violante
+                        ordina <pb facs="#magg-10" n="10"/>a Don Carlos di lasciare la città tra due
+                        ore ma dice a lui piano: affinché tu possa essere in camera mia. Il principe
+                        gli ordina di lasciare la città tra due ore e a bassa voce dice: affinché tu
+                        possa essere nel mio studio, e va via con Donna Violante. Anche Don Carlos
+                        va via, dicendo che, se viene sempre punito così, ne è contento.</p>
+                    <p rend="indent">ARLECCHINO entra, dicendo che non vuole più servire il suo
+                        padrone, perché inizia ad annoiarsi a fare il buffone di corte. E per
+                        spiegare il motivo, inizia a bussare da Donna Violante. Esce Colombina, si
+                        spaventa vedendo Arlecchino, che ha preso per una scimmia. Da ciò deriva un
+                        lazzo divertente. I vecchi, vedendo che il finto buffone parla, lo
+                        catturano. Arlecchino finge di nuovo di essere stupido, i vecchi vogliono
+                        picchiarlo. Colombina scappa, Pantalone chiama. Giunge il principe, chiede
+                        la ragione di quella confusione. I vecchi gli raccontano quello che hanno
+                        visto. Arlecchino a gesti nega tutto. Pantalone promette di sottomettersi
+                        alla tortura se non è vero quel che sostiene. Il principe ordina di legare
+                        Arlecchino. Pantalone gli consiglia di parlare. Arlecchino risponde che non
+                        vuole. Pantalone dice al principe: per favore, signore, ascoltate, parla. Ma
+                        Arlecchino, fingendosi muto, si inchina al principe. Il principe, pensando
+                        che Pantalone l’abbia calunniato, ordina che venga legato anche lui.
+                        Arlecchino, senza pensare, inizia a parlare con gioia. Il principe lo sente.
+                        Arlecchino si getta ai suoi piedi e gli dice che il suo padrone gli ha
+                        ordinato di fingere di essere muto. Don Carlos fa segno ad Arlecchino <pb facs="#magg-11" n="11"/>di tacere, vedendosi tuttavia scoperto, si getta
+                        ai piedi del principe e chiede perdono. Il principe lo chiama ingrato e
+                        ordina di chiamare Isabella, alla quale ordina di dare la mano a Don Carlos.
+                        Donna Violante si oppone, dicendo che Don Carlos è suo marito, con il
+                        permesso di suo padre Don Ludovico, che le ha dato prima di partire per
+                        Gaeta. Don Carlos assicura il principe che non sapeva del suo amore prima di
+                        essere egli stesso innamorato di Donna Violante, altrimenti avrebbe
+                        preferito il dovere all’ amore. Il principe lo abbraccia e, perdonandolo,
+                        dice che se il cielo e Don Ludovico gli hanno dato Donna Violante in sposa,
+                        non vuole opporsi. I matrimoni del principe con Donna Isabella e di
+                        Brighella con Colombina concludono la commedia.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

@@ -1,0 +1,911 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I divertimenti sull’acqua e sul campo</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisions of the translation by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>I divertimenti sul campo e sull’acqua. In base alla data indicata sul
+                    frontespizio dello scenario a stampa, è possibile stabilire che la pièce sia
+                    stata allestita nel 1734. Per quanto ci è dato a sapere, questa commedia non
+                    trova corrispondenze nelle altre raccolte conosciute di scenari del teatro
+                    all’improvviso. Spiccano, anche in questa commedia, le doti attoriali di Adriana
+                    Sacco, interprete della protagonista Smeraldina, che veste i panni della finta
+                    figlia del sultano turco per aiutare suo fratello Brighella a far ricongiungere
+                    le figlie di Pantalone con i loro amanti. L’attrice «fingeva di passare
+                    dall’estrema disperazione al suo estremo opposto, e lo faceva cantando e
+                    ballando» e rivelava notevoli capacità mimiche.</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>ЗАБАВЫ НА ВОДѢ И НА ПОЛѢ.</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Trascrizione del testo è stata fatta da: Vladimir N. Peretc, Ital’ianskija
+                        komedii i intermedii predstavlennyia pri dvore Imperatritsy Anny Ioannovny v
+                        1733–1735 gg. Teksty (Petrograd: Tipografija Imperatorskoj Rossijskoj
+                        Akademii Nauk, 1917), pp. 311-318.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <head type="main">ЗАБАВЫ<lb/>НА ВОДѢ И НА ПОЛѢ.</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1733">1733</date> года.</head>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДІИ.</head>
+                    <p rend="indent">СIЛВІИ и Одоардъ влюбившиеся въ Діану и Аурелію до-<lb/> череи
+                        Панталоновыхъ, а какъ не могли они ихъ отъ отца<lb/> получить себѣ, то
+                        просятъ Брігелла, чтобъ онъ имъ помогъ<lb/> в томъ законномъ дѣлѣ, Брiгеллъ
+                        принимается за то, наря-<lb/> дя Смералдіну свою сестру въ турецкую Султану,
+                        а Арлекiна<lb/> Любовника ея въ Пашу. Панталонъ влюбившиеся въ Турчанку<lb/>
+                        дѣлаетъ еи забавы на водѣ, и на полѣ, чтобъ ея увеселить.<lb/> Но на конецъ
+                        увидѣвъ плутовство, принужденъ былъ отдать<lb/> за Любовниковъ своихъ
+                        дочереи, чрезъ что кончится Комедія.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ.</role>
+                        <roleDesc>отецъ Ауреліинъ и Діанинъ.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_ru">ДІАНА и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_ru">АУРЕЛІЯ</role>
+                        </castItem>
+                        <roleDesc>дочери его.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ru">СІЛВІИ и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ru">ОДОАРДЪ,</role>
+                        </castItem>
+                        <roleDesc>братья родные.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="brighella_ru">БРІГЕЛЛЪ</role>
+                        <roleDesc>братъ Смералдінинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="smeraldina_ru">СМЕРАЛДІНА</role>
+                        <roleDesc>зговореная за Арлекіна.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ru">АРЛЕКІНЪ</role>
+                        <roleDesc>женихъ ея.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Дѣиствïе это въ Ліворнѣ.</p>
+                </set>
+            </front>
+            <body>
+                <div type="act" n="1">
+                    <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">ПАНТАЛОНЪ выходя бранитъ Табаріна, за его не учтив-<lb/> ство к
+                        Султанѣ, которое онъ чинилъ отъ незнанія хорошихъ<lb/> поступковъ, что,
+                        говоритъ онъ, можетъ ему самому, и доче-<lb/> рямъ его быть во вредъ.
+                        Табарiнъ дражня его, говоритъ ему,<lb/> что онъ Панталонъ для того на него
+                        Табарiна такъ сердится,<lb/> понеже онъ влюбился въ Султану. Панталонъ ему
+                        отвѣчаетъ,<lb/> что то не ему Табаріну долженъ онъ отвѣтствовать въ
+                        своихъ<lb/> поступкахъ, да и хочетъ, чтобъ онъ Табарінъ съ двора отъ<lb/>
+                        него сошолъ. Табарінъ ему совѣтуетъ смотрѣть за дочерями,<lb/> а онъ
+                        Табарінъ не будетъ безъ двора. Послѣ браня другъ<lb/> друга пошли.</p>
+                    <p rend="indent">СМЕРАЛДІНА нарядившися въ Турчанку спрашиваетъ<lb/> Брiгелла
+                        брата своего, что для чего бы онъ и самъ наря-<lb/> дился въ Турка, и для
+                        какои причины увѣрилъ онъ Панта-<lb/> лона, что она Султана Алжерская? А въ
+                        прочемъ, у себя жи-<lb/> вучи она была вольна, а у Панталона надлежитъ еи
+                        себя<lb/> принуждать, и показываться госпожею, и то еще бояся все<lb/> бѣды,
+                        ежели старикъ увидитъ плутовство. И понеже онъ въ<lb/> нея пристрастно
+                        влюбился, того ради она все ему хочетъ от-<lb/> крыть. Брігеллъ ея проситъ,
+                        чтобъ она еще потерпѣла два<lb/> дни, и сказываетъ еи, что то любовь
+                        Сілвіева и Одоардова<lb/> причиною сего наряда, и что такъ же и Арлекінъ
+                        знаетъ сію<lb/> таину, которои прибудетъ сюда скоро въ уборѣ и съ
+                        тітломъ<lb/> Паши Алжерскаго, притворяяся быть отцомъ ея, съ которымъ<lb/>
+                        имѣютъ быть другіе два Паши, то есть Сілвіи и Одоардъ; А<lb/> прибывши
+                        Арлекінъ ея возметъ отъ сюда, что имѣетъ дать<lb/> средство любовникамъ къ
+                        похищенію ихъ невѣстъ. Проситъ<lb/> онъ ея, чтобъ она хорошенько наиграла
+                        Старику. Смералдіна<lb/> не хочетъ на то согласиться, бояся, чтобъ Арлекінъ
+                        за то не<lb/> осердился. Брігеллъ сталъ еи грозить. Та начала плакать.<lb/>
+                        Панталонъ приходить съ своими дочерьми, и хотя почтить<lb/> оную притворную
+                        Султану, которая оборотила къ нимъ спину,<lb/> показывался, что она льется
+                        горькими слезами. Они у нея<lb/> спрашиваютъ тому причины. Смералдіна хочетъ
+                        отвѣтство-<lb/> вать, но слезы еи мѣшаютъ. Брігеллъ бояся, чтобъ
+                        плутов-<lb/> ство не открыто было, говорить имъ, что то отъ печали ве-<lb/>
+                        ликои, понеже имѣетъ сюда прибыть отецъ ея Паша, которои<lb/> повезетъ ея
+                        изъ Ліворны, а она еще здѣсь не навеселилась.<lb/> Панталонъ говоритъ съ
+                        собою, что онъ и самъ печалится<lb/> томъ для своея къ неи любви. Сталъ онъ
+                        ея утѣшать говоря,<lb/> что онъ умолитъ Пашу отца ея, чтобъ ему побыть
+                        нѣсколько<lb/> въ Ліворнѣ; а чтобъ къ тому его привесть, то имѣетъ онъ<lb/>
+                        показать ему бѣгъ барокъ на водѣ, какъ то чинится въ Ве-<lb/> неціи.
+                        Брігеллъ будто говоря по турецки, утверждаетъ, что<lb/> Старик выговорилъ.
+                        Смералдіна ему отвѣтствуетъ такъ же,<lb/> да и стала танцовать, и пѣть.
+                        Тогда Табарінъ приходитъ, ко-<lb/> торои насмѣхаяся говоритъ Панталону, что
+                        его карнавалъ<lb/> скоро окончітся, по тому что не только онъ видѣль, что
+                        Паша<lb/> прибылъ, но еще он его проводилъ до воротъ Панталоно- <lb/> выхъ.
+                        Панталонъ осердяся за насмѣшку Табарінову, выгонилъ<lb/> его въ шею
+                        кулаками. Брігеллъ торопяся говоритъ Панталону,<lb/> что надлежить принять
+                        Пашу съ великолѣпіемъ, и потчивать<lb/> его съ довольствіемъ, понеже онъ
+                        великом господинъ, и<lb/> которои можетъ его Панталона обогатить. Между тѣмъ
+                        Сiлвiи<lb/> и Одоардъ приходятъ наряжоные по турецки; кланяются они<lb/>
+                        Смералдінѣ, показываяся, что будто они признавать ея за<lb/> свою госпожу.
+                        Брігеллъ сказавъ Старику, что эти два Паши<lb/> прибыли съ отцомъ Султаны, и
+                        принудилъ его встрѣтить того<lb/> Пашу. Между тѣмъ любовники, и Брігеллъ
+                        сказываютъ доче-<lb/> рямъ панталоновымъ, что то все вымышлено, и говорятъ
+                        имъ,<lb/> что они принуждены къ тому для того, что ихъ отецъ не хо-<lb/>
+                        тѣлъ ихъ за нихъ отдать; да и надѣются они, что имъ въ<lb/> томъ удастся,
+                        толькобъ Смералдіна не утрудилась притво-<lb/> ряться. Всѣ стали просить
+                        Смералдіну, чтобъ она имъ въ<lb/> томъ помогла. Между тѣмъ Арлекінъ выходитъ
+                        въ турецкомъ<lb/> образѣ со всѣми за нимъ слѣдующими. Каждои отдаетъ
+                        ему<lb/> кланялся почтеніе; а дочь его подложная то плачучи, то смѣю-<lb/>
+                        чися обнимаетъ своего отца. Панталонъ примѣчая дивится<lb/> разнымъ симъ
+                        натуры движеніемъ въ Смералдінѣ. Арлекінъ<lb/> спрашиваетъ у Старика, что бы
+                        то были за госпожи? Панта-<lb/> лонъ ему сказываетъ, что то его дочери.
+                        Арлекінъ говорить,<lb/> что чрезъ бросокъ своего платка, выберетъ онъ себѣ
+                        наилуч-<lb/> шую. Панталонъ осердяся говоритъ, что его дочери честныя<lb/>
+                        дѣвицы. Арлекінъ такъ же осердился. Брігеллъ говорить Ста-<lb/> рику, что
+                        онъ ему вытолкуетъ, что то за церемонія въ турец-<lb/> кои землѣ, которая
+                        чинится платкомъ. Арлекінъ спрашиваетъ,<lb/> что нѣтъ ли чего поѣсть. Одинъ
+                        Туркъ приходить съ бдю-<lb/> домъ; изъ того произходитъ игрушка смѣшная,
+                        которою кон-<lb/> чится Дѣиствіе первое.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <p rend="indent">ПАНТАЛОНЪ выходитъ сердитъ думая что ему безчестiе<lb/>
+                        учинено. Брiгеллъ его успокоеваетъ говоря, что то в турец- <lb/> кои землѣ
+                        превеликои знакъ чести, и что Паша говорилъ,<lb/> что онъ хочетъ кинуть свои
+                        платокъ, то значить что онъ<lb/> хочетъ женить двухъ Пашеи, Алепскаго и
+                        Тунісскаго которые<lb/> съ нимъ, на его дочеряхь, и здѣлать его Панталона
+                        Агою<lb/> что такъ же велико, какъ и Пашею быть, выдавъ за него<lb/> дочь
+                        свою, и по смерти своеи дать ему Панталону все свое<lb/> имѣніе и владѣніе
+                        въ наслѣдство. Старикъ говоритъ, что по-<lb/> неже то такъ, то онъ весьма
+                        печалится, что показалъ себя<lb/> сердитымъ. Брігеллъ говоритъ, что все то
+                        можетъ успокоиться<lb/> чрезъ бѣгъ на водѣ, которои онъ Панталонъ обѣщалъ
+                        Пашѣ,<lb/> и которыи забавы очюнь нравны тому Пашѣ, чрезъ что имѣетъ<lb/>
+                        онъ позабыть все, что ни было, и учинить его своимъ зятемъ.<lb/> Панталонъ
+                        очюнь о томъ сталъ быть радъ. Смералдіна выхо-<lb/> дитъ показывая себя быть
+                        сердитою на Діану и Аурелію, что<lb/> они не хотятъ вытьти за мужъ за Пашеи,
+                        которые имъ пред-<lb/> ставлены были отъ нея именемъ отца ея. Панталонъ
+                        ихъ<lb/> извиняетъ, и обѣщается ихъ къ тому принудить. Смералдіна<lb/>
+                        показывается, что будто еще пуще сердится. Арлекінъ прихо-<lb/> дить, и
+                        видя, что Смералдіна сердита, думаетъ что еи Пан-<lb/> талонъ учинилъ какую
+                        нибудь обиду, того ради выхватываетъ<lb/> свою саблю, чтобъ голову ссѣчь
+                        старику, которои помощи про-<lb/> сить у Брігелла. Брігеллъ принуждаетъ его
+                        прощенія просить<lb/> у старика, и цѣловать его ноги, да и дать ему
+                        позволеніе,<lb/> чтобъ дочери имѣли послушны быть его приказу. Панта-<lb/>
+                        лонъ дѣлаетъ все, и кличетъ Діану и Аурелію, которыи при-<lb/> ходятъ съ
+                        своими любовниками. Панталонъ дочереи своихъ<lb/> проситъ, чтобъ онѣ вышли
+                        за нихъ. Онѣ показываются, что<lb/> будто учинить хотятъ то съ принужденія.
+                        Брігеллъ проситъ<lb/> у Арлекіна Смералдіну за Панталона. Арлекінъ
+                        осердился,<lb/> думая, что то въ правду. Брігеллъ его уговорилъ, а
+                        Арлекінъ<lb/> утишился съ хитростію, говоря, что свадьба быть имѣетъ
+                        сеи<lb/> вечеръ. Панталонъ обрадовавшися весь, проситъ на забаву<lb/> бѣга
+                        на водѣ. Притворные Паши пошли съ своими невѣстами.<lb/> Панталонъ тожъ
+                        хочетъ учинить съ Смералдіною. Но Арле-<lb/> кінъ его принуждаетъ, да и
+                        пошолъ съ нею. Брiгеллъ давъ<lb/> руку Панталону пошолъ же съ нимъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ МОРЕ, СЪ МНОГИМИ<lb/> СУДАМИ</stage>
+                    <p rend="indent">ТАБАРІНЪ въ Гондолѣ ѣдучи говорить, что онъ прибылъ, дабы
+                        посмѣяться надь Панталоновымъ намѣреніемъ, между темъ пріѣжжають вь разныхъ
+                        судахь. Изь того произхо- дитъ забава бѣга. На конець, судно Панталоново
+                        встрѣтив- шися съ Арлекіновымъ, оборотилися оба въ верьхъ дномъ. Что
+                        причиняетъ крикъ, которои кончитъ дѣиствіе второе.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ДѢИСТВИЕ ТРЕТЬЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">БРІГЕЛЛЪ выходитъ пеняя на Панталона, что онъ опро-<lb/> кинулъ
+                        судно Пашино. Панталонъ извиняется въ томъ быст-<lb/> ротою воды. Брігеллъ
+                        ему говоритъ, что сеи предлогъ не до-<lb/> воленъ къ успокоенію Паши,
+                        которому все противное на кле-<lb/> веталъ на него Табарінъ, и что и Султана
+                        сама сердита за<lb/> то на него Панталона. Панталонъ проклинаетъ Табаріна.
+                        Та-<lb/> барінъ приходитъ, и говоритъ, что онъ столько хочетъ наска-<lb/>
+                        зать на него Пашѣ, что на конецъ принужденъ онъ будетъ<lb/> его на колъ
+                        посадить. Панталонъ жестоко осердившися хо-<lb/> четъ его бить. Табарінъ
+                        уходитъ. Панталонъ хочетъ за нимъ<lb/> гнаться. Брігеллъ до того его не
+                        допускаетъ, и говоритъ ему,<lb/> что надлежитъ думать, какъ бы худо избыть,
+                        и успокоить<lb/> Пашу. Панталонъ ему отвѣчаетъ, что онъ не знаетъ, какъ
+                        къ<lb/> тому пристать. Брігеллъ у него спрашиваетъ, что не имѣеть<lb/> ли
+                        онъ какова полеваго двора. Панталонъ ему отвѣтствуеть,<lb/> что имѣетъ очюнь
+                        хорошои въ своеи деревнѣ. Брігеллъ ему<lb/> совѣтуетъ, чтобъ он тамъ учинилъ
+                        забаву полевую Пашѣ,<lb/> что можетъ увеселить так же и Султану. Обязуется
+                        онъ<lb/> учинить им ту забаву пріятною, и опять въ ихъ, его Пан-<lb/>
+                        талона, привесть милость, изтолковавши имъ, что онои Таба-<lb/> рiнъ великои
+                        есть плутъ. Панталонъ съ радости обнимаетъ<lb/> Брiгелла; называетъ онъ его
+                        честнымъ человѣком, и про-<lb/> чтобъ онъ присовѣтовалъ Пашѣ, и его людямъ,
+                        нара-<lb/> диться инако, дабы не изпужать мужиковъ. Брігеллъ гово-<lb/>
+                        ритъ, что онъ всячески о томъ имѣетъ постараться, и что<lb/> Панталонъ самъ
+                        увидитъ, коль то онъ Брігеллъ доброи чело-<lb/> вѣкъ, и совѣтуетъ ему, чтобъ
+                        онъ на передъ туда поѣхалъ<lb/> и приготовилъ бы кушанье, и забаву.
+                        Панталонъ его больше<lb/> просить, чтобъ онъ попеченіе имѣлъ о свадьбѣ его
+                        съ Сул-<lb/> таною, да и пошолъ. Брігеллъ говорить, что плутовство его<lb/>
+                        ему удалося на диковинку. На то Арлекінъ приходитъ въ<lb/> своемъ платьѣ, и
+                        говоритъ Брігеллу, что онъ весьма не хо-<lb/> четъ, чтобъ Панталонъ говорилъ
+                        о любви съ Смералдіною, и<lb/> что онъ его до смерти убьетъ. Брігеллъ его
+                        успокоеваетъ, и<lb/> проситъ, чтобъ онъ продолжалъ притворяться и въ
+                        своемъ<lb/> платьѣ. Говоритъ онъ ему нѣчто на ухо; и чтобъ о томъ же<lb/>
+                        сказать другимъ, пошли.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ДЕРЕВНЮ.</stage>
+                    <p>ПАНТАЛОНЪ выходитъ, и приказываетъ одному мужику,<lb/> чтобъ онъ повару изъ
+                        города пріѣхавшему, его сказалъ сло-<lb/> вомъ, приготовить преизрядное
+                        кушанье, и чтобъ всѣ крестья-<lb/> ны, и крестьянки были готовы къ игрѣ.
+                        Мужикъ ему гово-<lb/> ритъ, что все то учинено быть имѣетъ по его приказу,
+                        да и<lb/> пошолъ. Панталонъ остался; а къ нему приходитъ Брігеллъ,<lb/>
+                        которои ему сказываетъ, что онъ все успокоилъ, и что Сул-<lb/> тана сама съ
+                        великою не терпѣливностью хочетъ, чтобъ ско-<lb/> ряе свадьбу съ нимъ
+                        съиграть. Панталонъ въ великои о<lb/> томъ сталъ быть радости. Между тѣмъ
+                        приходитъ Арлекінъ<lb/> нарядяся въ деревенскаго мужика, и съ бородою.
+                        Панталонъ<lb/> думая, что то какои мужикъ невѣжа, хочетъ его выгнать.<lb/>
+                        Брігеллъ сказываетъ ему, что то самъ Паша, которои наря-<lb/> дился
+                        мужикомъ, по его Панталонову желанію. Панта-<lb/> лонъ прощенія проситъ въ
+                        томъ, что онъ его не узналъ.<lb/> Арлекінъ говоритъ, что дураки и шуты не
+                        приводятъ ни когда<lb/> въ сердце великихъ господъ.</p>
+                    <p rend="indent">Мѣжду тѣмъ, всѣ, кромѣ Табаріна, приходятъ, нарядив-<lb/> шися
+                        по деревенски. Стали тутъ танцовать, пѣть, и играть<lb/> по полевому. На
+                        конецъ Арлекінъ сталъ просить ѣсть. Пан- <lb/> талонъ ему говоритъ, что
+                        кушанье готово. Арлекінъ го-<lb/> Смералдiнѣ: ЖЕНА, ПОИДЕМЪ ЗА СТОЛЪ КУШАТЬ.
+                        Пан-<lb/> талонъ ему говоритъ, что онъ изволилъ промолвиться, по<lb/> тому
+                        что она его дочь, а не жена. Арлекінъ ему отвѣтствует,<lb/> что онъ хочетъ
+                        на неи жениться, хотя бы она была его мать.<lb/> Панталонъ ему опять
+                        отвѣчаетъ, что хотя то и позволено въ<lb/> турецкои землѣ, но въ Ліворнѣ
+                        нельзя тому быть. Брігеллъ<lb/> перехватилъ рѣчь, и говоритъ, что то онъ
+                        даль ему Пашѣ<lb/> позволеніе, чтобъ жениться на неи, и сталъ Панталону
+                        ска-<lb/> зывать, что Паши Алепскои и Тунісскои, притворные, и что<lb/> они
+                        Сілвіи и Одоардъ. А Смералдіна его родная сестра. Но<lb/> Паша Алжерскои
+                        есть Арлекінъ, ея Смералдінинъ мужъ, и<lb/> что все то онъ Брігеллъ учинилъ,
+                        чтобъ можно было вытьти<lb/> дочерямъ его за своихъ любовниковъ. Табарінъ,
+                        которои то<lb/> слышалъ говоритъ: ВСЕ ЭТО ПРАВДА, ЧТО СКАЗАЛЪ<lb/>
+                        ПРЕМУДРѢИШІИ ГОСПОДИНЪ БРІГЕЛЛЪ. Панталонъ<lb/> хочетъ тому противиться; но
+                        однакожъ его успокоили. А утвер-<lb/> жденіемъ сихъ трехъ браковъ
+                        кончится</p>
+                    <p rend="indent">Комедія.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Die Ergoötzung zu Waſſer und auf dem Lande</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>Library of Russian Academy of Sciences</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>St Petersburg</settlement>
+                            <repository>Library of Russian Academy of Sciences</repository>
+                            <idno type="shelfmark">BAN NIOLRK 7735.q/4935.R 22</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="10">10 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="diveacqu_ge_001" url="/img/diveacqu_ge_001.jpg"/>
+                <graphic xml:id="diveacqu_ge_002" url="/img/diveacqu_ge_002.jpg"/>
+                <graphic xml:id="diveacqu_ge_003" url="/img/diveacqu_ge_003.jpg"/>
+                <graphic xml:id="diveacqu_ge_004" url="/img/diveacqu_ge_004.jpg"/>
+                <graphic xml:id="diveacqu_ge_005" url="/img/diveacqu_ge_005.jpg"/>
+                <graphic xml:id="diveacqu_ge_006" url="/img/diveacqu_ge_006.jpg"/>
+                <graphic xml:id="diveacqu_ge_007" url="/img/diveacqu_ge_007.jpg"/>
+                <graphic xml:id="diveacqu_ge_008" url="/img/diveacqu_ge_008.jpg"/>
+                <graphic xml:id="diveacqu_ge_009" url="/img/diveacqu_ge_009.jpg"/>
+                <graphic xml:id="diveacqu_ge_010" url="/img/diveacqu_ge_010.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#diveacqu_ge_001" n="1"/>
+                <head type="main">Die Ergoͤtzung zu Waſſer und auf<lb/>dem Lande</head>
+                <head type="sub">welche in einem<lb/>Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/>
+                    Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/> vorgeſtellet worden.<date when="1734">Ao. 1734.</date>
+                </head>
+                <pb facs="#diveacqu_ge_002" n="2"/>
+                <pb facs="#diveacqu_ge_003" n="3"/>
+                <div type="preface">
+                    <head>Jnhalt.</head>
+                    <p rend="indent">Silvio und Odoardo, welche in die Diana und Aurelia, Pantalons
+                        Toͤch-<lb/> ter, verliebt ſind und ſie von ihrem Vater nicht erhalten
+                        koͤnnen, bitten den<lb/> Brighella, ihnen in ihrer rechtmaͤßigen
+                        Anfoderungen beyſtehen<lb/> moͤge. Brighella verſpricht, ſeine Schwester die
+                        Smeraldina als eine Tuͤr-<lb/> ckiſche Sultane und den Arlequin, ihren
+                        Liebhaber, als einen Baſſa zuverklei-<lb/> Den. Pantalon wird in die
+                        Smeraldina verliebt und beluſtiget ſie mit einer<lb/> Spatzier-farth zu
+                        Waſſer und auf dem Lande; Wie er aber die Betrug<lb/> mercket, will er den
+                        Liebhaben noch viel weniger ſeine beyden Toͤchter<lb/> geben.</p>
+                </div>
+                <castList>
+                    <head>Perſonen.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ge">Pantalon,</role>
+                        <roleDesc>Vater der.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_ge">Diana und</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="aurelia_ge">Aurelia.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="tabarino_ge">Tabarino,</role>
+                        <roleDesc>Vetter der beyden Bruͤder</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_ge">Silvio und</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="odoardo_ge">Odoardo.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ge">Brighella,</role>
+                        <roleDesc>Bruder der Smeraldina.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ge">Arlequin,</role>
+                        <roleDesc>ihr Verlobter.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Der Schau-Platz iſt in Livorno.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#diveacqu_ge_004" n="4"/>
+                <fw type="pageNum">4</fw>
+                <div type="act" n="1">
+                    <head>Die erſte Handung.</head>
+                    <p rend="indent">Pantalon bezeiget ſeinen Unwillen gegen den Tabarino,<lb/> daß
+                        er nicht zu leben wiſſe und der Sultane ſo unhoͤflich<lb/> begegnet und
+                        ſagt, er koͤnnte dadurch verurſachen, daß<lb/> er und ſeine Toͤchter ihres
+                        Gluͤckes daruͤber verluſtig wuͤr-<lb/> den. Tabarino antwortet hoͤniſch, er
+                        waͤre verliebt und<lb/> dieſes ſey die wahre Urſache ſeines Zornes. Pantalon
+                        ver-<lb/> ſetzet, er ſehe ſich nicht verbunden, ihm von ſeinen Hand-<lb/>
+                        lungen Rechenſchafft zu geben: derohalben koͤnne er ſich nur<lb/>
+                        fortpacken. Tabarino ſagt, ſolle nur auf ſeine Toͤchter<lb/> wohl acht
+                        haben, und beyde gehen, unter allerley Schelt-<lb/> Worten auseinander.</p>
+                    <p rend="indent">Smeraldima, als eine Tuͤrckin gekleidet, fragt den<lb/>
+                        Brighella, ihren Bruder, warum er ſie als eine Tuͤrckin<lb/> angezogen und
+                        dem Pantalon weiß gemacht, das ſie<lb/> die Sultanen von Algier ſey?
+                        Pantalon weiß gemacht, daß ſie<lb/> genieſſe zu Hauſe alle Freyheit und bey
+                        dem Pantalon<lb/> muͤße ſie ſich zwingen und Gefahr lauﬀen, daß er die
+                        Be-<lb/> truͤgerey entdeckete; Pantalon waͤre ſterblich in ſie ver-<lb/>
+                        liebt, derohalben wollte ſie das Geheimnuͤß verrathen;<lb/> welches das
+                        beſte Mittel waͤre aus dieſer Verwirrung zu<lb/> kommen. Brighella bittet
+                        ſie, nur noch zwey Tage Ge-<lb/> dult zu haben und ſagt, die Liebe des
+                        Silvio und Odoardo<lb/> habe zu ihrer Verkleidung Anlaß gegeben; Arlequin
+                        ha-<lb/> be Theil an dem Geheimniſſe und werde bald, unter dem<lb/> Nahmen
+                        ihres Vaters, des Baſſa von Algier, mit zweyen<lb/> andern Baſſen, nehmlich
+                        dem Silvio und Odoardo, allhier<lb/> erſchienen, ſie moͤchte nur indeſſen
+                        bey dem Alten alles<lb/> thun, was die Entfuͤhrung ſeiner beyden Toͤchter,
+                        befoͤr-<lb/> dern koͤnnte. Smeraldina will nicht einwilligen aus
+                        Furcht,<lb/> der Arlequin, ihr Verlobter, moͤchte boͤſe werden.
+                        Brighella<lb/> drohet ihr; Sie weinet. Pantalon koͤmmt mit ſeinen<lb/>
+                        <fw type="catch" place="bottom">Toͤch-</fw>
+                        <pb facs="#diveacqu_ge_005" n="5"/>
+                        <fw type="pageNum">5</fw> Toͤchtern heraus und bezeiget, nebſt ihnen, der
+                        verſtellten<lb/> Sultane allerley Hoͤﬀlichkeit. Sie aber kehret ihnen
+                        den<lb/> Ruͤcken zu und thut, als ob ſie haͤuffig Thraͤnen vergieſſe.<lb/>
+                        Sie ſragen nach der Urſache ihrer groſen Betruͤbniß.<lb/> Smeraldina will
+                        antworten, aber ihr Schlucken verhin-<lb/> dert ſie daran. Brighella
+                        fuͤrchtet, ſie moͤchte die Betruͤ-<lb/> gerey doch endlich verrathen und
+                        ſagt, fuͤr ihr, zu den an-<lb/> dern, ſie waͤre ſo beſtuͤrzt, weil ihr Vater
+                        der Baſſa<lb/> angekommen und ſie von Livorno wegbringen wollte;<lb/> ohne
+                        daß ſie ſich noch darinnen luſtig gemacht. Pantalon<lb/> ſagt beſonders, er
+                        ſey wegen ſeiner Liebe ebenfals betruͤbt,<lb/> troͤſtet ſie hierauf und
+                        ſpricht, ſie ſollte ihren Vater, den<lb/> Baſſa bitten, daß er ſich einige
+                        Tage in Livorno aufhiel-<lb/> te, er wolle eine Luſtfarth zu Waſſer auf
+                        Venetianiſche<lb/> Mode anſtellen. Brighella thut, als ob er ihr ſolches
+                        auf<lb/> Tuͤrckiſch dollmetſche; Smeraldina aber antwortet ihm<lb/> ſelbſt
+                        und faͤllt von einer Extremitaͤt auf die andere und<lb/> tantzet und ſinget.
+                        Jnzwiſchen koͤmmt der Tabarino, wel-<lb/> cher im Lachen und ſpotte weiſe zu
+                        dem Pantalon ſaget,<lb/> ſein Carneval werde bald ein Ende nehmen, er habe
+                        den<lb/> Baſſa kommen geſehn und biß an die Hauß-Thuͤre beglei-<lb/> tet.
+                        Pantalon wird boͤſe und jagt ihn fort. Brighella weiß<lb/> nicht, was er
+                        anfangen ſoll, und ſagt zu dem Pantalon, er<lb/> muͤſſe den Baſſa magniſic
+                        empfangen mit Erfriſchungen<lb/> tractiren und ihn ſonſt wohl begegnen: weil
+                        derſelbe ein<lb/> Herr vom groͤſten Range und im Stande waͤre, ihn
+                        reich<lb/> zu machen. Silvio und Odoardo treten in Tuͤrckiſcher Klei-<lb/>
+                        dung herein, machen ihr Compliment und thun, als ob<lb/> die Smeraldina ihre
+                        Sultane waͤre. Nachdem Brighella<lb/> den alten erklaͤret, daß dieſes die
+                        zwey Baſſen waͤren, ſo<lb/> den Vater der Sultane begleitet, noͤthiget er
+                        ihn, dem-<lb/> ſelben entgegen zu gehen. Wie er weg iſt, entdecken die<lb/>
+                        Liebhaber und Brighella den Toͤchtern des Pantalon den<lb/>
+                        <fw type="sig" place="bottom">* 3</fw>
+                        <fw type="catch" place="bottom">Betrug</fw>
+                        <pb facs="#diveacqu_ge_006" n="6"/>
+                        <fw type="pageNum">6</fw> Betrug und ſagen, ſie waͤre durch die
+                        abſchlaͤgliche Ant-<lb/> wort ihres Vaters hierzu gezwungen worden und
+                        hoffe-<lb/> ten anietzo beſſer Gluͤck zuhaben, weil ſich die Smeraldina<lb/>
+                        nicht recht verſtellen koͤnnte.</p>
+                    <p rend="indent">Das Frauenzimmer bittet ſie, das Spiel fortzuſe-<lb/> tzen:
+                        worauf der Arlequin mit ſeinem Tuͤrckiſchen Gefol-<lb/> ge erſcheinet. Es
+                        begegnen ihm alle mit vieler Ehrerbie-<lb/> thung, und ſeine verſtellte
+                        Toͤchter, die bald weint, bald<lb/> lachet, umarmet ihren Vater. Pantalon
+                        wird uͤber die<lb/> gantz unterſchiedenen Bewegungen der Smeraldina
+                        ſtutzig:<lb/> Arlequin aber fraget ihn, wer dieſe Damen waͤren? Pan-<lb/>
+                        talon antwortet, es waͤren ſeine Toͤchter. Arlequin ver-<lb/> ſetzt, er
+                        wuͤrde ſich durch den Wurﬀ ſeines Schnupf-<lb/> Tuches die ſchoͤnſte
+                        ausleſen. Pantalon wird beſtuͤrtzt<lb/> und ſagt, ſeine Toͤchter waͤren
+                        ehrliche Maͤdgen. Arle-<lb/> quin erklaͤret ihn mit allerley Poſſen, was in
+                        der Tůr-<lb/> cken das Werffen mit dem Schnupf-Tuche zu bedeuten<lb/> habe,
+                        und ſodert zu eſſen. Hierauf koͤmmt ein Tůrck<lb/> mit einer Schuͤſſel und
+                        mit einem laͤcherlichen Tracta-<lb/> ment endiget ſich die erſte
+                        Handlung.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Andere Handlung.</head>
+                    <p rend="indent">Pantalon trit auf und bezeiget ſich ſehr verdruͤßlich<lb/>
+                        uͤber den Affront, den ihn der Baſſa angethan. Brighella<lb/> ſucht ihn zu
+                        beſaͤnfftigen und erklaͤret ihm, es ſey dieſes in<lb/> der Tůrcken das
+                        groͤſte Ehren-Zeichen, das man einer Per-<lb/> ſon erwieſen koͤnnte, und da
+                        der Baſſa geſagt, daß er<lb/> ſeinen Toͤchtern das Schnupf-Tuch zu werffen
+                        wolle, ſo habe<lb/> er dadurch nichts anders zu verſtehen gegeben, als daß
+                        die<lb/> beyden Baſſen von Aleppo und Tunis, ſo mit ihm gekommen<lb/> ſeine
+                        beyden Toͤchter heyrathen ſollten, er aber ihn, den Pan-<lb/> talon, zum Aga
+                        machen, mit ſeiner Tochter verheyrathen<lb/> und zum Erben aller ſeiner
+                        Staaten einſetzen wuͤrde. Der<lb/>
+                        <fw type="catch" place="bottom">Alte</fw>
+                        <pb facs="#diveacqu_ge_007" n="7"/>
+                        <fw type="pageNum">7</fw> Alte antwortet, wenn dem alſo waͤre, ſo ſey ihm
+                        leyd,<lb/> daß er ſeinen Zorn verrathen. Brighella verſetzet, es<lb/>
+                        koͤnnte durch die Spatzier-Farth auf dem Waſſer alles<lb/> wieder gut
+                        gemacht werden; weil der Baſſa dergleichen<lb/> Ergoͤtzung ſehr liebe, das
+                        vorgegangene daruͤber vergeſ-<lb/> ſen und ihn zu ſeinem Schwieger-Sohn
+                        annehmen wuͤrde.</p>
+                    <p rend="indent">Pantalon vergnuͤget ſich uͤber ſein Gluͤck. Smeraldina<lb/>
+                        koͤmmt und ſtellet ſich als ob ſie auf die Aurelia und Dia-<lb/> na boͤſe
+                        ſey, weil ſie die Heyrath mit den Baſſen, ſo ſie<lb/> ihnen, im Nahmen ihres
+                        Vaters, angetragen, ausgeſchla-<lb/> gen haͤtten. Pantalon entſchuldiget
+                        ſeine Toͤchter und<lb/> ſagt, er wolle ſchon machen, daß ſie einwilligten.
+                        Sme-<lb/> raldina thut, als ob ſie fuͤr Zorn auſſer ſich ſey. Arlequin<lb/>
+                        koͤmmt und wie er die Smeralina ſo aufgebracht ſiehet,<lb/> meynet er,
+                        Pantalon habe ihr uͤbel begegnet und ziehet<lb/> den Sebel, den alten den
+                        Kopf von einander zu hauen.<lb/> Pantalon ſucht Huͤlﬀe bey dem Brighella,
+                        und dieſer noͤ-<lb/> thiget ihn, den Baſſa Fußfaͤlllig um Pardon zubitten
+                        und<lb/> demſelben zu verſprechen, daß er den Baſſen ſeine Toͤchter<lb/>
+                        geben wolle. Pantalon thut alles und rufft die Diana und<lb/> Aurelia. Dieſe
+                        kommen mit ihren Liebhabern heraus und<lb/> wie ſie Pantalon bittet, ſie zu
+                        heyrathen, ſtellen ſie ſich,<lb/> als ob ſie es mit Unwillen thaͤten.
+                        Brighella verlanget von<lb/> dem Arlequin die Smeraldina fůr den Pantalon.
+                        Arlequin<lb/> glaubt, es ſey Ernſt und wird beſtuͤrztt. Brighella
+                        ſtellet<lb/> ihn zufrieden, und ſagt im Schertze, die Hochzeit ſollte<lb/>
+                        noch dieſen Abend vor ſich gebe. Pantalon iſt gantz er-<lb/> freut und
+                        bittet die Geſellſchaﬀt auf die Spazier-Fahrth.<lb/> Die verſtelleten Baſſen
+                        nehmen ihre Geliebten bey der<lb/> Hand und gehen weg. Pantalon will
+                        desgleichen mit der<lb/> Smeraldina thun, Arlequin aber koͤmmt ihm zu vor
+                        und<lb/> folget mit ihr denen andern nach, und Pantalon muß mit<lb/> dem
+                        Brighella hinterhergehen.</p>
+                    <fw type="catch" place="bottom">Der</fw>
+                    <pb facs="#diveacqu_ge_008" n="8"/>
+                    <fw type="pageNum">8</fw>
+                    <stage>Der Schau-Platz ſtellet eine See mit einigen Fahr-Zeugen vor.</stage>
+                    <p>Tabarino ſtehet in einer Gondel und ſagt, er ſey hierher<lb/> gekommen, um
+                        ſich auf Pantalons Koſten zu divertiren.<lb/> Hierauf kommen die uͤbrigen in
+                        verſchiedenen Fahrzeu-<lb/> gen und fahren ſpatzieren; zuletzt aber ſtoͤßt
+                        Pantalons<lb/> Gondel an Arlequins Barque, welches verurſachet, daß<lb/>
+                        beyde umſtuͤrtzen und in das Waſſer fallen, mit welchen<lb/> Lerm ſich die
+                        andere Handlung endiget.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Dritte Handlung.</head>
+                    <p rend="indent">Der Schau-Platz ſtellet wiederum die Stad vor. <lb/> Brighella
+                        trit auf und wirfft dem Pantalon vor, daß<lb/> er ſchuld ſey, daß des Baſſa
+                        Fahrzeug umgeſchlagen waͤre.<lb/> Pantalon entſchuldiget ſich mit der
+                        Schnelligkeit des Waſ-<lb/> ſers. Brighella antwortet, dieſer Vorwand ſey
+                        nicht<lb/> hinlaͤnglich, den Baſſa zubeſaͤnfftigen, weil ihn Tabarino<lb/>
+                        durch Beſtaͤtigung des Gegentheiles in den Harniſch ge-<lb/> bracht, und die
+                        Sultane ſelbſt noch gantz ohne Troſt uͤber<lb/> den angethanen Schimpf ſey.
+                        Pantalon antwortet, Ta-<lb/> barino habe die Unwahrheit geſprochen. Tabarino
+                        koͤmt<lb/> und ſagt zu dem Pantalon, er wolle dem Baſſa ſo lange<lb/> wieder
+                        ihn vorſchwatzen, biß er ihn ſpiſſen ließe. Panta-<lb/> lon geraͤth in Zorn
+                        und will ihn ſchlagen. Tabarino laͤufft<lb/> fort und wie ihm Pantalon
+                        verfolget, wiederſetzet ſich<lb/> Brighella und ſagt zu ihm, man muͤſſe dem
+                        Ubel abhelffen<lb/> und den Baſſa befriedigen. Pantalon antwortet, er
+                        wiſſe<lb/> nicht, wie er es anfangen ſollte. Brighella fraget, ob er<lb/>
+                        ein Land-Guth habe? Pantalon antwortet mit ja, und<lb/> Brighella verſetzet,
+                        er ſolle dem Baſſa zu Ehren daſelbſt<lb/> eine Luſtbarkeit veranſtalten,
+                        welches der Sultane eben-<lb/> fals gefallen und des Tabarino Betruͤgerey zu
+                        Schanden<lb/> machen wuͤrde. Pantalon umarmet den Brighella und bit-<lb/>
+                        ihn, den Baſſa und ſein Gefolge zu uͤberreden, daß ſie ſich<lb/>
+                        <fw type="catch" place="bottom">anders</fw>
+                        <pb facs="#diveacqu_ge_009" n="9"/>
+                        <fw type="pageNum">9</fw> anders ankleiden moͤchten, damit die Bauern auf
+                        dem<lb/> Lande nicht in Furcht geriethen, wenn ſie dahin kaͤmen.<lb/>
+                        Brighella antwortet, er wolle ſein moͤglichſtes dabey thun,<lb/> er ſolle
+                        nur einen geſchickten Menſchen voraus ſenden, der<lb/> das Tractament
+                        zurechte machte. Pantalon empfiehlet<lb/> ihm ſeine Heyrath mit der Sultane
+                        und gehet fort. Bri-<lb/> gella ſagt vor ſich, ſein Betrug gieng ihm
+                        wunderbar<lb/> von ſtatten. Arlequin erſcheinet in ſeiner ordentlichen<lb/>
+                        Kleidung und ſagt zu dem Brighella, er wolle durch aus<lb/> nicht haben, daß
+                        der Pantalon mit der Smeraldina von ſei-<lb/> ner Liebe ſpreche, und
+                        widrigenfalls ihn umbringen. Bri-<lb/> ghella beſaͤnfftiget und ermahnet
+                        ihn, das Spiel in ſeinen<lb/> eigenem Kleidern fort zu ſetzen. Er ſaget ihm
+                        hierauf et-<lb/> was in das Ohr, und beyde gehen ab, den andern Nach-<lb/>
+                        richt von ihrem Vorhaben zu geben.</p>
+                    <stage>Der Schau-Platz ſtellet ein Land-Guth vor.</stage>
+                    <p rend="indent">Pantalon trit auf und beſiehlet einem Bauer, er ſollte<lb/>
+                        durch den Koch, der aus der Stadt gekommen, ein ma-<lb/> gnifiques
+                        Tractament zu rechte machen laßen und alle<lb/> Bauern und Bauͤerinnen
+                        aufbiethen, und ſie vor ſeinen Gaͤ-<lb/> ſten tantzen laßen. Der Bauer
+                        antwortet, es ſollte alles zu ſei-<lb/> nem Befehl bereit ſeyn, und gehet
+                        ab. Brighella trit auf<lb/> und ſagt zu dem Pantalon, er habe die gantze
+                        Geſellſchafft<lb/> zufrieden geſtellet und die Sultane warte mit
+                        Ungedult<lb/> auf ihre Hochzeit. Pantalon freuet ſich, Arlequin er-<lb/>
+                        ſcheinet als ein Bauer mit ſeinem Barthe. Pantalon ſiehet<lb/> ihn fuͤr
+                        einen Bettler an und will ihn weg jagen. Bri-<lb/> ghella giebt ihm einen
+                        Verweiß und ſaget, es waͤre der<lb/> Baſſa, der ſich als ein Bauer
+                        gekleidet, ſo, wie er es ſelber ha-<lb/> ben wollen. Pantalon entſchuldiget
+                        ſich und ſaget, er<lb/> habe ihn nicht gekant. Arlequin antwortet ein
+                        Narr<lb/> koͤnne vornehme Herren nicht ſchimpfen. Hierauf<lb/> kommen alle,
+                        ausgenommen der Tabarino, in Bauer-<lb/>
+                        <fw type="catch" place="bottom">Klei-</fw>
+                        <pb facs="#diveacqu_ge_010" n="10"/>
+                        <fw type="pageNum">10</fw> Kleidern nebſt einem Befolge von andern Bauern.
+                        Man<lb/> tantzet, ſinget und ergoͤtzet ſich mit allerley Land-Spie-<lb/>
+                        len. Endlich verlanget der Arlequin zu eſſen. Pantalon<lb/> antwortet, es
+                        ſey fertig. Arlequin ſagt zu der Smeraldina<lb/> komm, meine Frau zur Tafel.
+                        Pantalon erinnert erinnert ihn,<lb/> er betrůge ſich, die Sultane ſey ſeine
+                        Tochter. Arlequin<lb/> antwortet, er wolle ſie heyrathen, und wenn ſie
+                        auch<lb/> ſeine Mutter waͤre. Pantalon ſtellet ihm vor, ob es gleich<lb/> in
+                        der Tuͤrckey, ſo waͤre es doch in Livorno nicht, erlau-<lb/> bet. Brighella
+                        faͤllt ihm in die Rede und ſaget, er habe ihm<lb/> die Erlaubnuͤß gegeben,
+                        und entdecke hier mit, daß die<lb/> verſtelltten Baſſen von Aleppo und Tunis
+                        Silvio und Odo-<lb/> ardo, der Arlequin aber der Smeraldina Mann waͤre,
+                        und<lb/> daß er dieſes alles ſo angeſtellet, damit die Liebhaber zu<lb/>
+                        ihrem Zwecke kommen koͤnnen. Tabarino, der von ferne<lb/> zugehoͤret, koͤmmt
+                        hervor und ſagt, es beſinde ſich alles in<lb/> der That ſo, wie es der
+                        hoch-weiſe Herr Brighella erklaͤre.<lb/> Pantalon will ſich wiederſetzen,
+                        ſie beſaͤnfftigen ihm aber<lb/> und feine Beſtaͤtigung der dreyfachen
+                        Heyrath beſchlieſ-<lb/> ſet das gantze Schauſpiel.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le fortunate disgrazie di Arlecchino</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#zabavy-1" n="1"/>
+                <head type="main">I DIVERTIMENTI SULL’ACQUA E SUL CAMPO</head>
+                <head type="sub">COMMEDIA ITALIANA,<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/>
+                    <date when="1734">nell'anno 1734.</date></head>
+                <pb facs="#zabavy-2" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">SILVIO e Odoardo si sono innamorati di Diana e Aurelia, figlie
+                        di Pantalone. Non potendo ottenere il consenso del padre di sposarle,
+                        chiedono a Brighella di aiutarli. Brighella accetta, traveste Smeraldina,
+                        sua sorella, da sultana turca e Arlecchino, l’amante di lei, da pascià.
+                        Pantalone, innamoratosi della Turca, organizza dei divertimenti sull’acqua e
+                        sul campo per farla divertire. Alla fine, accorgendosi dell’imbroglio, è
+                        costretto a concedere le figlie ai loro innamorati e in questo modo finisce
+                        la Commedia.</p>
+                </div>
+                <castList>
+                    <head>ДЪИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE.</role>
+                        <roleDesc>padre di Aurelia e Diana.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_it">DIANA e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_it">AURELIA,</role>
+                        </castItem>
+                        <roleDesc>sue figlie.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_it">SILVIO e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_it">ODOARDO,</role>
+                        </castItem>
+                        <roleDesc>fratelli.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="brighella_it">BRIGHELLA,</role>
+                        <roleDesc>fratello di Smeraldina.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>promessa sposa di Arlecchino.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                        <roleDesc>promessa sposa di Arlecchino.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Livorno.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#zabavy-3" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">PANTALONE entra sgridando Tabarino per la sua scortesia nei
+                        confronti della sultana, cosa che ha fatto ignorando le buone maniere, e può
+                        essere di danno per Pantalone e per le sue figlie. Tabarino lo stuzzica e
+                        gli risponde che Pantalone è così arrabbiato perché si è innamorato della
+                        sultana. Pantalone risponde che non è tenuto a spiegare le sue azioni a
+                        Tabarino e vuole cacciarlo dal suo servizio. Tabarino gli suggerisce di
+                        sorvegliare le figlie, mentre lui Tabarino non rimarrà senza lavoro. Dopo
+                        dei rimproveri reciproci escono.</p>
+                    <p rend="indent">SMERALDINA, vestita da turca, chiede a suo fratello Brighella
+                        perché anche lui non si veste da turco e per quale ragione ha convinto
+                        Pantalone che lei è la sultana dell’Algeria. Perché a casa sua Smeraldina
+                        era libera di fare quel che voleva, mentre da Pantalone deve sforzarsi di
+                        fingere di essere una signora e ha inoltre paura dei guai se il vecchio
+                        riuscisse a scoprire l’imbroglio. E dato che Pantalone si è innamorato oltre
+                        misura di lei, Smeraldina vorrebbe rivelargli tutto. Brighella chiede alla
+                        sorella di resistere ancora due giorni e le spiega che la causa del suo
+                        travestimento è l’amore di Silvio e Odoardo. Anche Arlecchino sa
+                        dell’inganno e arriverà presto là mascherato da pascià d’Algeria e fingendo
+                        di essere il padre di Smeraldina e con lui altri due pascià, ovvero Silvio e
+                        Odoardo. Una volta arrivato, Arlecchino <pb facs="#zabavy-4" n="4"/> porterà
+                        via Smeraldina da là, il che avrebbe dato agli innamorati il mezzo per
+                        rapire le loro fidanzate. Brighella chiede alla sorella di ingannare per
+                        bene il vecchio. Avendo paura che Arlecchino si arrabbi, Smeraldina non
+                        vuole dare retta a Brighella che inizia a minacciarla. Smeraldina si mette a
+                        piangere. Entra Pantalone con le sue figlie e vorrebbe fare i suoi omaggi
+                        alla finta sultana che però ha voltato loro le spalle per non fargli vedere
+                        che sta versando lacrime amare. Loro le chiedono la ragione. Smeraldina
+                        vorrebbe rispondere, ma le sue lacrime interferiscono. Brighella, temendo
+                        che la truffa venga scoperta, dice loro che la sultana sta piangendo per la
+                        grande tristezza perché sta arrivando suo padre il pascià, che l’avrebbe
+                        portata via da Livorno, ma lei là non si è ancora divertita abbastanza.
+                        Pantalone dice che anche lui è triste a causa del suo amore per lei. Inizia
+                        a consolare Smeraldina dicendo che avrebbe pregato il pascià suo padre di
+                        rimanere a Livorno per un po’ e che per convincerlo avrebbe organizzato la
+                        corsa delle barche sull’acqua, come si è soliti fare a Venezia. Brighella,
+                        fingendo di parlare in turco, traduce ciò che ha detto il vecchio. Anche
+                        Smeraldina gli risponde nella stessa lingua e inizia a danzare e cantare.
+                        Poi arriva Tabarino e dice sarcasticamente a Pantalone che presto il suo
+                        carnevale finirà, perché non solo ha visto che il pascià è arrivato, ma l’ha
+                        anche accompagnato al portone di Pantalone. Arrabbiato per la burla di
+                        Tabarino, Pantalone vorrebbe scacciarlo con dei pugni. Brighella si affretta
+                        a dire a Pantalone che è necessario ricevere il pascià magnificamente e di
+                        preparagli da mangiare <pb facs="#zabavy-5" n="5"/> con generosità, perché è
+                        un gran signore e potrebbe arricchire Pantalone. Nel frattempo, Silvio e
+                        Odoardo entrano abbigliati da turchi; si inchinano a Smeraldina, mostrando
+                        che la riconoscono come loro signora. Bighella dice al vecchio che quei due
+                        pascià sono arrivati con il padre della sultana e lo costringe ad accogliere
+                        quel pascià. Intanto gli innamorati e Brighella raccontano alle figlie di
+                        Pantalone che tutto è un imbroglio e che sono stati costretti a ricorrere a
+                        ciò perché loro padre non voleva concedergliele in matrimonio; sperano di
+                        riuscirci, se solo Smeraldina non smette di fingere. Tutti iniziano a
+                        chiedere a Smeraldina di aiutarli a portare a termine il loro piano. Intanto
+                        Arlecchino entra abbigliato alla turca con tutti che lo seguono. Tutti si
+                        inchinano a lui con rispetto e la sua creduta figlia ora piangendo, ora
+                        ridendo, abbraccia il padre. Pantalone si meraviglia dei differenti
+                        movimenti dell’anima di Smeraldina. Arlecchino chiede al vecchio chi sono
+                        quelle signore. Pantalone gli risponde che sono le sue figlie. Arlecchino
+                        dice che attraverso il lancio del suo fazzoletto sceglierà la migliore per
+                        sé. Pantalone, arrabbiato, dice che le sue figlie sono ragazze oneste. Anche
+                        Arlecchino si arrabbia. Brighella dice al vecchio che gli spiegherà lui che
+                        tipo di cerimonia si fa in terra turca con un fazzoletto. Arlecchino domanda
+                        se c’è qualcosa da mangiare. Entra un turco con un piatto; da ciò nasce un
+                        lazzo divertente che conclude il primo Atto.</p>
+                </div>
+                <pb facs="#zabavy-6" n="6"/>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <p rend="indent">PANTALONE entra furibondo pensando di essere stato disonorato.
+                        Brighella lo rassicura dicendo che in terra turca è un grande segno d’onore
+                        e che quando il pascià ha detto di voler sventolare il fazzoletto era per
+                        dirgli che vorrebbe far sposare i due pascià che sono con lui, il pascià di
+                        Aleppo e il pascià di Tunisi, alle sue figlie e fare diventare Pantalone un
+                        aga, il titolo tanto onorevole quanto quello di pascià, dandogli in moglie
+                        le sue figlie. Brighella aggiunge che dopo la morte del pascià Pantalone
+                        avrebbe ereditato sia i possedimenti sia il suo regno. Il vecchio dice che
+                        se è così, allora è molto triste per essersi arrabbiato. Brighella risponde
+                        che tutto può essere risolto attraverso la corsa sull’acqua che Pantalone ha
+                        promesso al pascià, al quale i divertimenti piacciono molto e che
+                        dimenticherà tutto ciò che è successo e lo farà diventare suo genero.
+                        Pantalone è molto felice. Entra Smeraldina mostrandosi arrabbiata con Diana
+                        e Aurelia perché non vogliono sposarsi con i pascià che gli sono stati
+                        presentati in nome di suo padre. Pantalone si scusa per loro e promette di
+                        costringerle a farlo. Smeraldina mostra di essere ancora più adirata. Entra
+                        Arlecchino e, vedendo che Smeraldina è arrabbiata, pensa che Pantalone abbia
+                        commesso una qualche offesa e sguaina la sua sciabola per tagliare la testa
+                        al vecchio. Pantalone chiede aiuto a Brighella. Brighella obbliga il vecchio
+                        a chiedere perdono e a baciare i piedi del pascià e a far sì che le figlie
+                        obbediscano al suo <pb facs="#zabavy-7" n="7"/> ordine. Pantalone esegue il
+                        tutto e chiama Diana e Aurelia che arrivano con i loro innamorati. Pantalone
+                        chiede alle figlie di sposarsi con loro. Diana e Aurelia fingono di doverlo
+                        fare sotto costrizione. Brighella chiede ad Arlecchino di dare Smeraldina in
+                        moglie a Pantalone. Arlecchino si arrabbia, pensando che fosse per davvero.
+                        Brighella lo persuade che si tratti soltanto di un imbroglio, allora
+                        Arlecchino si calma e dice che le nozze dovranno essere celebrate quella
+                        sera. Felicissimo, Pantalone invita tutti ad attendere il divertimento di
+                        una corsa sull’acqua. I finti pascià vanno con le loro fidanzate. Anche
+                        Pantalone vorrebbe fare lo stesso con Smeraldina. Ma Arlecchino costringe il
+                        vecchio a rimanere e va via con Smeraldina. Brighella dà la mano a Pantalone
+                        e va via con lui.</p>
+                    <stage>LA SCENA MOSTRA IL MARE, CON MOLTE BARCHE.</stage>
+                    <p rend="indent">Tabarino, andando in gondola, dice che di essere venuto per
+                        ridere dei progetti di Pantalone, intanto arrivano varie barche. Da quello
+                        deriva il lazzo della corsa. Alla fine, l’imbarcazione di Pantalone si
+                        scontra con quella di Arlecchino, capovolgendo entrambe. Quello causa l’urlo
+                        che conclude il secondo atto.</p>
+                </div>
+                <pb facs="#zabavy-8" n="8"/>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <stage>LA SCENA MOSTRA LA CITTÀ.</stage>
+                    <p rend="indent">BRIGHELLA entra, rimproverando Pantalone per aver rovesciato la
+                        barca del pascià. Pantalone adduce come scusa la velocità della corrente
+                        d’acqua. Brighella risponde che quel pretesto non è sufficientemente buono
+                        per placare l’ira del pascià, di fronte al quale Tabarino ha diffamato il
+                        buon nome di Pantalone, e che anche la sultana è arrabbiata per quanto
+                        accaduto con Pantalone. Pantalone maledice Tabarino. Sopraggiunge Tabarino e
+                        dice che vuole diffamare Pantalone di fronte al pascià al punto che
+                        quest’ultimo sarà costretto a metterlo sul rogo. Pantalone, furibondo, vuole
+                        picchiarlo, ma Tabarino va via. Pantalone vuole inseguirlo. Brighella non
+                        glielo permette e suggerisce al vecchio come rimediare la situazione e
+                        placcare il pascià. Pantalone gli risponde che lui non sa come fare.
+                        Brighella gli domanda se ha una casa in campagna. Pantalone gli risponde che
+                        ne ha una molto bella nel suo villaggio. Brighella gli consiglia di
+                        organizzare dei divertimenti nel campo per il pascià, quello potrebbe far
+                        divertire anche la sultana. Brighella si incarica di rendere quel
+                        divertimento piacevole per il pascià e la sultana e far sì che Pantalone
+                        ritorni nelle grazie del pascià e capisca che Tabarino è un grande
+                        imbroglione. Dalla gioia Pantalone abbraccia Brighella, lo chiama uomo
+                        onesto e gli chiede di consigliare al pascià e alla sua gente di vestirsi
+                        diversamente per non spaventare i paesani. Brighella promette di fare tutto
+                        il possibile, <pb facs="#zabavy-9" n="9"/> così Pantalone vedrà che lui
+                        Brighella è un brav’uomo e consiglia al vecchio di partire per il villaggio
+                        prima degli altri per preparare da mangiare e i divertimenti. Pantalone
+                        inoltre chiede a Brighella di occuparsi del suo matrimonio con la sultana ed
+                        esce. Brighella dice che il suo imbroglio è riuscito nei migliori dei modi.
+                        Nel frattempo arriva Arlecchino con i suoi vestiti e dice a Brighella che a
+                        lui non piace affatto che Pantalone abbia parlato d’amore con Smeraldina e
+                        che lo ucciderà. Brighella placca Arlecchino e gli chiede di continuare a
+                        fingere indossando il suo abito. Brighella dice qualcosa all’orecchio di
+                        Arlecchino e per dirlo anche agli altri, escono entrambi.</p>
+                    <stage>LA SCENA MOSTRA UN VILLAGGIO.</stage>
+                    <p rend="indent">PANTALONE entra e chiede ad un contadino di dire al cuoco che
+                        viene dalla città, di preparare un pasto superbo e a tutti i contadini e
+                        alle contadine che fossero pronti per il gioco. L’uomo dice che tutto è già
+                        stato eseguito come ordinato ed esce. Pantalone rimane, arriva Brighella che
+                        gli racconta di aver calmato tutti e che la sultana stessa, con grande
+                        impazienza, vorrebbe affrettare le nozze con Pantalone. Pantalone è euforico
+                        per quella notizia. Nel frattempo arriva Arlecchino abbigliato da contadino
+                        con la barba. Pantalone, pensando che fosse un contadino, vuole cacciarlo.
+                        Brighella dice al vecchio che è il pascià che si è abbigliato da contadino,
+                        assecondando <pb facs="#zabavy-10" n="10"/> il desiderio di Pantalone.
+                        Pantalone chiede scusa per non averlo riconosciuto. Arlecchino dice che gli
+                        sciocchi e i buffoni non fanno mai arrabbiare i grandi signori.</p>
+                    <p rend="indent">Nel frattempo tutti, eccetto Tabarino, arrivano vestiti da
+                        contadini. Iniziano a ballare, a cantare e a giocare dei giochi da
+                        contadini. Alla fine, Arlecchino inizia a chiedere da mangiare. Pantalone
+                        gli dice che il cibo è pronto. Arlecchino dice a Smeraldina: MOGLIE, ANDIAMO
+                        A TAVOLA A MANGIARE. Pantalone dice ad Arlecchino che si è sbagliato perché
+                        la ragazza è sua figlia e non sua moglie. Arlecchino risponde al vecchio che
+                        avrebbe sposato Smeraldina anche se fosse stata sua madre. Pantalone ribatte
+                        che se quello è concesso in terra turca a Livorno non lo è. Brighella
+                        interrompe il discorso e dice di essere stato lui a dare il permesso ad
+                        Arlecchino di sposare Smeraldina e rivela a Pantalone che i pascià di Aleppo
+                        e di Tunisi sono in realtà Silvio e Odoardo. Inoltre, dice che Smeraldina è
+                        sua sorella, mentre il pascià di Algeria è Arlecchino, marito di Smeraldina,
+                        e che lui, Brighella, ha fatto tutto quello in modo che le figlie di
+                        Pantalone potessero sposare i loro innamorati. Tabarino che ha sentito tutto
+                        dice: È TUTTO VERO, QUELLO CHE HA DETTO L’INSIGNE SIGNOR BRIGHELLA.
+                        Pantalone vorrebbe opporsi ma viene ammansito. E con l’approvazione di
+                        questi tre matrimoni finisce la</p>
+                    <p rend="indent">Commedia.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

@@ -1,0 +1,1634 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Il grande Basilisco da Bernagasso</title>
+            <respStmt>
+               <resp>Transcription and translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translation by</resp>
+               <name>Alice Pieroni</name>
+            </respStmt>
+            <respStmt>
+               <resp>Revisions of translation by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding of Russian and German translations by</resp>
+               <name>Eleonora Zordan</name>
+            </respStmt>
+               <respStmt>
+                  <resp>Encoding of Italian translation by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Il Grande Basilisco di Bernagasso fu allestita dai comici italiani a San Pietroburgo
+               nel 1733. Si tratta dello scenario più sinistro e meno divertente di tutta la silloge
+               pietroburghese. Per la prima volta Arlecchino sveste i panni del servo per diventare
+               un facoltoso mercante e generoso benefattore, che cade nella trappola del giovane
+               vagabondo Silvio, il quale finge di essere un campione invincibile di forza e
+               coraggio. Nel canovaccio ritorna un’antica trama del teatro dell’Arte, largamente
+               attestata nelle fonti manoscritte e a stampa. Il drastico mutamento del ruolo di
+               Arlecchino, da servo sciocco e impacciato a mercante benestante (ma altrettanto
+               ingenuo), è da ricondurre all’innegabile debito nei confronti di un canovaccio
+               preesistente, da cui gli attori trassero spunto per l’allestimento pietroburghese.
+               Tra le varie trattazioni drammatiche del tema di Basilisco che i comici potevano
+               conoscere si annoverano: Le dragon de Moscovie, attestato nel repertorio dell’Ancien
+               Théâtre Italien della fine del XVII secolo (contenuto nel manoscritto 9329, ff.
+               52v-59v alla Bibliothéque National de Paris); Il Basilisco di Bernagozzo le dragon de
+               Moscovie di Domenico Biancolelli, sopravvissuto grazie alla traduzione di
+               Thomas-Simon Guellette; Il Basalisco del Bernagasso, uno scenario presente nella
+               raccolta Casamarciano di Annibale Sersale; La prodigalità d’Arlichino, una commedia
+               “regolare” (1693) di Giovanni Bonicelli; il Basalisco di Placido Adriana della Selva
+               overo Zibaldone di concetti comici raccolti dal P.D. Placido Adriani di Lucca; il
+               Basilisco del codice Vaticano Latino 10244; infine, Arlequin persécuté par le
+               Basilisco de Bernagasso, rappresentata il 16 luglio 1716 a Parigi al Nouveau Théâtre
+               Italien.</p>
+            <p>Dalla stesura biancolelliana potrebbe derivare il motivo delle bastonate che funge da
+               trait d’union di tutta l’azione. Dalle percosse che inaugurano l’incontro di
+               Basilisco e Arlecchino, a quelle che Basilisco dispensa a Odoardo, aspirante alla
+               mano di Fiammetta; dalle bastonate inflitte nuovamente dall’ingrato Basilisco al suo
+               benefattore, fino al rovesciamento dei ruoli tra servo e padrone, per giungere alla
+               risoluzione a colpi di bastone dell’ultimo atto dove, grazie all’intervento magico,
+               Arlecchino ristabilisce l’ordine. Identici inoltre sono alcuni lazzi negli episodi
+               salienti come, per esempio, nella scena dei bisticci tra i giovani innamorati, in cui
+               Fiammetta chiede al Basilisco prima di portare l’acqua in cucina, poi di andare a
+               prendere l’acqua e ancora di svuotare il vaso da notte. Marialuisa Ferrazzi (pp.
+               130-131) sostiene invece che ci siano sostanziali differenze tra lo scenario russo e
+               la versione di Biancolelli (ma anche rispetto a quella della raccolta Casamarciano).
+               In effetti, l’atto terzo nel canovaccio pietroburghese differisce completamente nella
+               conclusione, moraleggiante e a lieto fine, rispetto all’omologo biancolelliano.
+               Ferrazzi inoltre afferma che il canovaccio pietroburghese è vicino a un soggetto del
+               1692, messo in scena a Vienna e alla sua rielaborazione in lingua tedesca Basilisco
+               di Bernagasso oder Undanck ist der Welt ihr danck, allestito nel 1738 al
+               Kärtnertortheater (Vienna, Österreichische Nationalbibliothek, Cod. 13.193). Invece
+               il nome di Fiammetta potrebbe provenire dalla commedia “regolare” di Bonicelli,
+               mentre l’introduzione del personaggio dell’ostessa è ripreso dall’opera rappresentata
+               alla corte di Vienna da una compagnia italiana in cui, nella lista degli
+               “interlocutori che parlano” figura l’ostessa Rosetta. Anche se la lettura comparata
+               delle varie stesure non permette di stabilire con esattezza la versione alla base
+               della performance russa, è comunque evidente che i comici attivi a San Pietroburgo
+               selezionassero tra le opere della tradizione, privilegiando quei lazzi che si
+               prestavano a essere giocati su un doppio o triplo registro: gestuale, verbale e
+               multimediale. Infatti, viene introdotto il motivo della finta bile di Basilisco che
+               Arlecchino doveva placare cantando e ballando.</p>
+            <p>Un altro aspetto degno di nota è come il cambiamento del ruolo dello Zanni comporti
+               l’amplificazione delle funzioni anche degli altri personaggi. Le maschere non
+               corrispondono più ai tipi fissi della Commedia dell’Arte. Così, Silvio, di solito un
+               innamorato, è qua lo smaliziato avventuriero Basilisco da Bernagasso, ipocrita e
+               impostore. Diana ha invece un duplice ruolo dell’innamorata e della servetta. Anche
+               il ruolo di Smeraldina non è quello della servetta bensì dell’ostessa.</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse  biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni  versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>ВЕЛИКИЙ ВАСИЛИСК ИЗ БЕРНАГАССА</title>
+               <respStmt>
+                  <resp>Transcription and encoding by</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">8 P DRAM IV, 8250 (11b) RARA </idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="16">16 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="granbasi_ru_001" url="/img/granbasi_ru_001.jpg"/>
+            <graphic xml:id="granbasi_ru_002" url="/img/granbasi_ru_002.jpg"/>
+            <graphic xml:id="granbasi_ru_003" url="/img/granbasi_ru_003.jpg"/>
+            <graphic xml:id="granbasi_ru_004" url="/img/granbasi_ru_004.jpg"/>
+            <graphic xml:id="granbasi_ru_005" url="/img/granbasi_ru_005.jpg"/>
+            <graphic xml:id="granbasi_ru_006" url="/img/granbasi_ru_006.jpg"/>
+            <graphic xml:id="granbasi_ru_007" url="/img/granbasi_ru_007.jpg"/>
+            <graphic xml:id="granbasi_ru_008" url="/img/granbasi_ru_008.jpg"/>
+            <graphic xml:id="granbasi_ru_009" url="/img/granbasi_ru_009.jpg"/>
+            <graphic xml:id="granbasi_ru_010" url="/img/granbasi_ru_010.jpg"/>
+            <graphic xml:id="granbasi_ru_011" url="/img/granbasi_ru_011.jpg"/>
+            <graphic xml:id="granbasi_ru_012" url="/img/granbasi_ru_012.jpg"/>
+            <graphic xml:id="granbasi_ru_013" url="/img/granbasi_ru_013.jpg"/>
+            <graphic xml:id="granbasi_ru_014" url="/img/granbasi_ru_014.jpg"/>
+            <graphic xml:id="granbasi_ru_015" url="/img/granbasi_ru_015.jpg"/>
+            <graphic xml:id="granbasi_ru_016" url="/img/granbasi_ru_016.jpg"/>
+         </surface>
+         <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#granbasi_ru_001" n="1"/>
+            <head type="main">ВЕЛИКIИ ВАСИЛИСКЪ <lb/>ИЗЪ БЕРГАНАССА </head>
+            <head type="sub">КОМЕДIЯ ИТАЛIАНСКАЯ<lb/> В САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1733">1733 года.</date></head>
+            <pb facs="#granbasi_ru_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent">СІЛВІИ, котораго цыганы унесли у Доктора, когда<lb/>еще тотъ былъ во
+                  младенчествѣ, а когда онъ взросъ,<lb/>тогда уходитъ у нихъ, и отъѣжжаетъ въ
+                  Венецïю, гдѣ<lb/>влюбливается въ Дïану дочь Панталона [которои отъ-<lb/>ѣжжая въ
+                  Медïоланъ оставилъ оную у Стефанелла брата<lb/>своего] и увозитъ ту изъ ея дому.
+                  Панталонъ увѣ-<lb/>домившись о похищенïи своея дочери сталъ ея искать
+                  по-<lb/>всюду. Въ то время на оную съ любовникомъ ея напали<lb/>въ одномъ лѣсу
+                  разбоиники, которые ихъ разлучили другъ<lb/>отъ друга. Та не зная, кудыбъ
+                  надлежало отправиться,<lb/>убралась въ Медïоланъ; гдѣ не имѣя ни каковои
+                  вѣсти<lb/>о своемъ любовникѣ взялася служить Арлекïну богатому<lb/>купцу того
+                  города, у котораго въ домѣ Сïлвïи нарядив-<lb/>шись въ нищаго находитъ оную,
+                  искавъ вездѣ тщетно;<lb/>а всïо думая, что нападенïе учинившееся въ лѣсу
+                  было<lb/>съ согласïя ея и нѣкоторыхъ оныя любовниковъ. Это<lb/>дѣлаетъ всю завязку
+                  сея комедïи.</p>
+            </div>
+            <castList>
+               <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_ru">ПАНТАЛОНЪ</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_ru">ДОКТОРЪ</role>
+                     <roleDesc>Други.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="diana_ru">ДІАНА</role>
+                  <roleDesc>подъ именемъ по томъ Фïаметты дочь Панта-<lb/>лонова, служащая
+                     Арлекïнова.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКІНЪ</role>
+                  <roleDesc>купецъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ru">СІЛВІИ</role>
+                  <roleDesc>подъ именемъ Васïлïска; по томъ сынъ Докто-<lb/>ровъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="odoardo_ru">ОДОАРДЪ</role>
+                  <roleDesc>влюбившïися въ Фïаметту.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРІГЕЛЛЪ</role>
+                  <roleDesc>его слуга.</roleDesc></castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДІНА</role>
+                  <roleDesc>вольнодомка.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="mago_ru">Одинъ волхвъ.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="sgerri_ru">Забïяки.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Это дѣиствïе въ Медïоланѣ.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#granbasi_ru_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">Старики выходятъ, и разширивши многими словами<lb/>старинную свою
+                  дружбу, стали утѣшаться взаимно;<lb/>Панталонъ о потерянïи своея дочери, которую
+                  одинъ<lb/>молодецъ похитилъ въ Венецïи, гдѣ онъ ея покинулъ подъ<lb/>надзиранïемъ
+                  Стефанелла дяди ея; а Докторъ о нещаетïи<lb/>сына своего Сïлвïя, котораго цыганы
+                  украли изъ деревни<lb/>еще во младенчествѣ. Обѣщаются они помогать другъ<lb/>другу
+                  въ исканïи своихъ дѣтеи, и писать о томъ каждои<lb/>къ своему корреспонденту, такъ
+                  же и присматривать во<lb/>всѣхъ вольныхъ домахъ въ городѣ. Докторъ пошолъ
+                  пи-<lb/>сать къ нѣкоторому человѣку; а Панталонъ кличетъ</p>
+               <p rend="indent">СМЕРАЛДІНУ вольнодомку, которая, по обыкнове-<lb/>нïю таковыхъ
+                  людеи, стала ему чинить многïе комплï-<lb/>менты. Панталонъ съ своеи стороны такъ
+                  же началъ<lb/>съ нею шутить. Послѣ чего проситъ онъ ея, чтобъ она<lb/>его
+                  увѣдомляла о всѣхъ прïѣжжихъ такъ женщинахъ, какъ<lb/>мущинахъ, которые будутъ къ
+                  неи прïѣжжать. Сме-<lb/>ралдïна ему то обѣщаетъ; и проситъ его, чтобъ
+                  онъ<lb/>жаловалъ чаще къ неи ходилъ. Панталонъ обѣщается.<lb/>И по нѣсколькихъ
+                  взаимныхъ учтивствахъ разходятся.</p>
+               <p rend="indent">ОДОАРДЪ выходитъ говоря Брïгеллу о любви, ко-<lb/>торую онъ началъ
+                  имѣть къ Фïаметтѣ новои служащеи<lb/>Арлекïновои; и что онъ намѣрился взять ея за
+                  себя. Брï-<lb/>геллъ ему отвѣтствуетъ, что его въ томъ воля; одна-<lb/>кожъ
+                  проситъ его помыслить, что это сочетанïе бу-<lb/>детъ ли ему прилично, для
+                  котораго долженствуетъ онъ<lb/>оставить Аурелïю Докторову дочь, которая его
+                  любитъ<lb/>съ великою горячестïю. Одоардъ ему велитъ молчать,<lb/>да только
+                  слушаться. Брïгеллъ говоритъ, что ево то<lb/>должность; да и пошли.</p>
+               <p rend="indent">АРЛЕКІНЪ научая Фïаметту, новую свою служащую,<lb/>способу, каковымъ
+                  она должна приготовлять кушанье,<lb/>жалуется, что жаркое всегда не ужаривается,
+                  какъ над-<lb/>
+                  <fw type="sig" place="bottom">C 2</fw>
+                  <fw type="catch" place="bottom">лежитъ.</fw>
+                  <pb facs="#granbasi_ru_004" n="4"/>
+                  <fw type="pageNum">4</fw>лежитъ. Сталъ ея учить, какъ оное хорошенько
+                  ужари-<lb/>вать. Та стала такъ же жаловаться, что будучи одна<lb/>не можетъ она за
+                  всѣмъ присмотрѣть. Арлекïнъ обѣщае-<lb/>тся принять одного слугу для помощи еи, и
+                  для того,<lb/>чтобъ было кому ходить на почтовои дворъ. Отходить<lb/>онъ чиня
+                  шутку приличную театру съ Фïаметтою, ко-<lb/>торая пошла къ себѣ домои.</p>
+               <p rend="indent">СІЛВІИ въ нищемъ говоритъ про себя, что онъ похи-<lb/>тилъ Дïану въ
+                  Венецïи, и что она ево покинула въ лѣсу<lb/>въ то время, какъ онъ бился съ
+                  незнаемыми людьми, ко-<lb/>торые можетъ быть напали на нево съ ея согласïя.
+                  Уве-<lb/>личиваетъ онъ многими словами свое нещастïе, что онъ<lb/>не знаетъ о
+                  своеи породѣ, и что онъ принужденъ просить<lb/>милостыни. Послѣ чего видя, что
+                  люди идутъ, отходить.</p>
+               <p rend="indent">АРЛЕКІНЪ выходитъ говоря не знамо съ кѣмъ, ко-<lb/>тораго не видно.
+                  По томъ сказываетъ, что онъ полу-<lb/>чилъ писмо съ почты; разпечатываетъ оное, и
+                  лишь на-<lb/>чалъ то читать, Сïлвïи съ зади такъ же читаетъ.
+                  Арлекïнъ<lb/>оборотился, Сïлвïи ничего не говоря кланяется ему, и по-<lb/>шолъ.
+                  Арлекïнъ говоритъ, что это знать какои дурачокъ,<lb/>или какои мошенникъ; сталъ
+                  онъ опять читать; а Сïлвïи<lb/>возвратился, и съ такоюжъ игрушкою отходитъ.
+                  Тожъ<lb/>онъ чинить и въ третеи разъ; а въ четвертои далъ хоро-<lb/>шои разъ
+                  палкою Арлекïну, и сталъ у него просить ми-<lb/>лостыни говоря, что уже три дни,
+                  какъ онъ ни чево не <lb/>ѣдалъ. Арлекïнъ осердившись за тотъ комплïментъ далъ
+                  ему<lb/>рубль. Сïлвïи взявъ тотъ посматриваетъ на него, и не<lb/>поблагодаривши
+                  пошолъ. Арлекïнъ остался дивяся этому спо-<lb/>собу просить милостыни, и хочетъ
+                  дочитать свое писмо.<lb/>Сïлвïи возвращается, отдаетъ ему ево рубль, и
+                  говоритъ,<lb/>что уже три дни, какъ онъ ничего не ѣдалъ. Арлекïнъ<lb/>ему даетъ
+                  другои рубль, которои Сïлвïи взялъ съ тако-<lb/>воюжъ игрушкою своиственною
+                  театру, и пошолъ. Ар-<lb/>лекïнъ побранивъ дурачество нищаго сталъ опять
+                  чи-<lb/>тать; а Сïлвïи докучливыи возвращается говоря ему, что<lb/>уже три дни,
+                  какъ онъ ничево не ѣдалъ. Арлекïнъ ему<lb/>
+                  <fw type="catch" place="bottom">даетъ</fw>
+                  <pb facs="#granbasi_ru_005" n="5"/>
+                  <fw type="pageNum">5</fw>даетъ третïи рубль. Сïлвïи пошолъ, и приходитъ в
+                  чет-<lb/>вертои разъ. Арлекïнъ утрудившись докукою его хочетъ<lb/>ему отдать весь
+                  мѣшокъ; тогда Сïлвïи жестоко сталъ сер-<lb/>диться на Арлекïна. Арлекïнъ дивяся
+                  спрашиваетъ у нево<lb/>тому причины. Сïлвïи сказываетъ ему, что онъ за
+                  то<lb/>сердится, понеже онои его хочетъ убить, даючи ему<lb/>столько вдругъ
+                  денегъ, за которыя въ вольномъ дому<lb/>могъ бы онъ такъ наѣсться, и напиться, что
+                  бы и трѣ-<lb/>снулъ; и что онъ не желаетъ, какъ только однои копеики,<lb/>за
+                  которую бы можно было купить хлѣба, и поѣсть. Ар-<lb/>лекïнъ дивится нищему, толь
+                  добронравному, и спраши-<lb/>ваетъ у него, что не хочетъ ли онъ принять службу, На
+                  это<lb/>слово Сïлвïи игрушкою приличною театру поднявъ свою<lb/>палку закричалъ:
+                  даи небо! что опечалило въ другои разъ<lb/>Арлекïна, которои велитъ тому покоину
+                  быть съ своею<lb/>палкою. Сïлвïи ему говорить; что это не палка; но
+                  ево<lb/>любезнои и вѣрнои товарыщъ именемъ господинъ Жеромъ.<lb/>Арлекïнъ проситъ
+                  господина Жерома, чтобъ онъ не раз-<lb/>дражался такъ часто, и опять спрашиваетъ у
+                  Сïлвïя, что<lb/>хочетъ ли онои служить. Сïлвïи у него спрашиваетъ о его<lb/>чинѣ.
+                  Арлекïнъ ему сказываетъ, что онъ купецъ. Услышавъ<lb/>это имя дивится Сïлвïи, что
+                  онъ въ такомъ ходитъ<lb/>платье, и вынявъ изъ сумы своеи кавтанъ, и съ
+                  шуткою<lb/>смѣшною надѣлъ тотъ на Арлекïна, которои хвалитъ<lb/>онаго чистоту, и
+                  радуется о Сïлвïиномъ искусствѣ. По<lb/>томъ спрашиваетъ у него, что какъ ему имя.
+                  Сïлвïи<lb/>принудилъ его чинить нѣкоторыя церемонïи, и сказы-<lb/>ваетъ ему, что
+                  онъ называется великïи Василискъ изъ<lb/>Бернагасса. По томъ онъ такъ же сталъ его
+                  спрашивать,<lb/>что какъ ему имя. Арлекïнъ принудилъ ево къ такимъ<lb/>же
+                  церемонïямъ, и сказываетъ ему, что онъ называет-<lb/>ся великïи Арлекïнъ, и
+                  прочая. Послъ чего сталъ ему<lb/>говорить, что онъ имѣетъ одну служащую въ
+                  своемъ<lb/>домѣ, съ которою надлежитъ ему жить мирно. Сïлвïи<lb/>обѣщается, и
+                  увѣдомляетъ его съ своеи стороны о нѣко-<lb/>торои скорби, которая его по
+                  временамъ изнимаетъ. Ар-<lb/>лекïнъ у него спрашиваетъ, что бы то за скорбь.
+                  Сïлвïи<lb/>сказываетъ, что это нѣкоторое кипѣнïе жолчи, во время<lb/>
+                  <fw type="sig" place="bottom">C 3</fw>
+                  <fw type="catch" place="bottom">котораго</fw>
+                  <pb facs="#granbasi_ru_006" n="6"/>
+                  <fw type="pageNum">6</fw>котораго можетъ онъ разтерзать въ штуки челбвѣка.
+                  Арле-<lb/>кïнъ даетъ ему скорои отпускъ говоря, что онъ не имѣетъ<lb/>нужды быть
+                  разтерзанъ. Сïлвïи говоритъ ему, что когда<lb/>на нево наидетъ та болѣзнь, то
+                  довольно только пома-<lb/>хать немношко на ево лицо поючи и танцуючи;
+                  тожъ<lb/>нада чинить съ нимъ, когда онъ не хочетъ слушать ка-<lb/>кова приказу.
+                  Арлекïнъ говоритъ, что понеже то такъ,<lb/>то можетъ онъ служить ему, и что онъ
+                  хочетъ то<lb/>отвѣдать, и кличетъ</p>
+               <p rend="indent">ФІАМЕТТУ, которои говоритъ, что онъ принялъ<lb/>слугу. Сïлвïи и
+                  Фïаметта смотря другъ на друга узнались,<lb/>и дивились, что они оба въ Медïоланѣ.
+                  Фïаметта спраши-<lb/>ваетъ у Арлекïна о имени новаго того слуги.
+                  Арлекïнъ<lb/>говоритъ, что онъ называется Васïлïскъ. Фïаметта играя<lb/>прилично
+                  театру говорить, что не такъ; Арлекïнъ<lb/>утверждаетъ, что такъ. Сïлвïи тожъ
+                  чинить въ разсуж-<lb/>денïи Фïаметты. На послѣдокъ Арлекïнъ
+                  приказываетъ<lb/>Фïаметтѣ научить Сïлвïя тому, что надлежить до двора,<lb/>и
+                  пошолъ. Сïлвïи и Фïаметта думая, что одинъ отъ<lb/>другова оставленъ начали
+                  браниться, да и драться. На<lb/>тотъ крикъ</p>
+               <p rend="indent">АРЛЕКІНЪ прибѣжалъ съ лекарствомъ, про кото-<lb/>рое ему сказалъ
+                  Сïлвïи, и успокоеваетъ жолчь васïлïскову.<lb/>По томъ спрашиваетъ у нихъ причины,
+                  за которую они ссо-<lb/>рятся. Васïлïскъ притворяетъ, что Фïаметта хотѣла
+                  ево<lb/>принудить принесть воды въ поварню, чево онъ не хо-<lb/>тѣлъ здѣлать.
+                  Арлекïнъ проситъ Фïаметту, чтобъ она<lb/>сама то учинила; но видя что она конечно
+                  не хочетъ,<lb/>а чтобъ ихъ помирить, говорить, что онъ то учинитъ<lb/>самъ, и
+                  пошолъ къ себѣ домои. Тѣ оставшись одни на-<lb/>чали опять ссориться. Что
+                  принудило Арлекïна въ другои<lb/>разъ притьти, которои успокоивъ подложную жолчь
+                  ва-<lb/>сïлïскову сталъ бранить Фïаметту, что она ево разсер-<lb/>живаетъ такимъ
+                  способомъ. Васïлïскъ сказываетъ тому<lb/>причину, что она хочетъ ево принудить
+                  воду носить.<lb/>Арлекïнъ совѣтуя имъ, что то весьма нада чинить тому,<lb/>или
+                  другои; но видя, что они того не хотятъ, говоритъ,<lb/>
+                  <fw type="catch" place="bottom">что</fw>
+                  <pb facs="#granbasi_ru_007" n="7"/>
+                  <fw type="pageNum">7</fw>что онъ самъ принесïотъ, и пошолъ. Фïаметта и
+                  Сïлвïи<lb/>стали опять драться. Арлекïнъ возвращается, успокои-<lb/>ваетъ
+                  Васïлïска, и вѣритъ по ихъ скаскамъ, что ссора<lb/>у нихъ за то идетъ, то есть,
+                  комубъ вычищать судно.<lb/>Тотъ говорить, что то надобно всѣмъ троимъ;
+                  Того<lb/>ради прикажетъ онъ здѣлать оное о трехъ рукояткахъ,<lb/>и пошолъ. Тѣ оба
+                  грозя другъ другу за нимъ же пошли.</p>
+               <p rend="indent">ОДОАРДЪ спрашиваетъ у Брïгелла, что люди, о ко-<lb/>торыхъ онъ ему
+                  приказалъ, готовы ли? Брïгеллъ ему го-<lb/>воритъ, что готовы; и что они ожидаютъ
+                  его приказу.<lb/>Одоардъ ему говорить, что онъ хочетъ требовать Фïа-<lb/>метты у
+                  Арлекïна, и бить ево, буде бы онъ ему отка-<lb/>залъ, Брïгеллъ видя, что онъ
+                  намѣрился себя удовольство-<lb/>вать, сталъ стучаться у Арлекïна.</p>
+               <p rend="indent">АРЛЕКІНЪ выходить, у котораго Одоардъ тре-<lb/>буетъ Фïаметты.
+                  Арлекïнъ ему въ томъ отказываетъ.<lb/>Одоардъ ему грозитъ. Арлекïнъ на то не
+                  смотритъ.<lb/>Одоардъ далъ знакъ Брïгеллу, которои впустилъ забïякъ.<lb/>Смотря на
+                  нихъ Арлекïнъ испужался, и притворяется,<lb/>что будто онъ хочетъ ему ту отдать, а
+                  кличетъ Сïлвïя.</p>
+               <p rend="indent">Которому онъ сказываетъ о требованïи Одоардовомъ,<lb/>и грозахъ его.
+                  Сïлвïи по многихъ игрушкахъ своиствен-<lb/>ныхъ театру видя столько людеи говоритъ
+                  Арлекïну,<lb/>притворяяся быть трусомъ, что ихъ много на одного, и<lb/>самъ
+                  пошолъ. Арлекïнъ сталъ быть въ отчаянïи что Ва-<lb/>сïлïскъ толь боязливъ, и опять
+                  ево кличетъ. Сïлвïи воз-<lb/>вращается съ господиномъ Жеромомъ, о чомъ
+                  возрадовался<lb/>Арлекïнъ. Одоардъ рѣшенïя проситъ у Арлекïна. Арле-<lb/>кïнъ
+                  спрашиваетъ у Сïлвïя, что бы надлежало чинить.<lb/>Сïлвïи ему говорить, что понеже
+                  не хочетъ онъ ему ту<lb/>отдать, то надлежитъ ему прямо отказать. Изъ того
+                  про-<lb/>изходитъ игрушка смѣшная. На послѣдокъ Васïлïскъ началъ<lb/>бить забïякъ,
+                  которые побѣжали съ Одоардомъ вмѣстѣ<lb/>и съ Брïгелломъ. Арлекïнъ обрадовавшись о
+                  храбрости своего<lb/>человѣка чрезъ игрушку приличную театру окончеваетъ</p>
+               <p rend="indent">дѣиствïе первое.</p>
+               <fw type="catch" place="bottom">ДѢИ-</fw>
+            </div>
+            <pb facs="#granbasi_ru_008" n="8"/>
+            <fw type="pageNum">8</fw>
+            <div type="act" n="2">
+               <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+               <p rend="indent">ОДОАРДЪ выходить съ Брïгелломъ, за которымъ и<lb/>забïяки. Говорить
+                  онъ, что хочетъ мстить Васïлïску;<lb/>ободряетъ своихъ людеи; повелѣваетъ Брïгеллу
+                  бить<lb/>въ ворота Арлекïновы.</p>
+               <p rend="indent">Арлекïнъ высунулъ голову, и видя множество людеи<lb/>спрятался
+                  кличучи Васïлïска. Одоардъ, Брïгеллъ, и за-<lb/>бïяки испужавшись побѣжали. А
+                  Арлекïнъ вышелъ изъ<lb/>своего дому; съ нимъ Фïаметта, и Сïлвïи</p>
+               <p rend="indent">Которые были выряжены преизрядно, за что онъ<lb/>благодарить
+                  Арлекïну, которои хвалитъ его храбрость.<lb/>Фïаметта съ презрѣнïемъ ругается надъ
+                  Сïлвïемъ о шляпѣ,<lb/>и шпагѣ его. Сïлвïи розсердившись кидаетъ ихъ на
+                  землю.<lb/>Арлекïнъ бранить Фïаметту; по томъ велить Сïлвïю<lb/>тѣ поднять. Тотъ
+                  не хочетъ. Арлекïнъ запѣлъ. Васï-<lb/>лïскъ показывается, бутто принужденъ сталъ
+                  быть чрезъ<lb/>то пѣнïе слушать, подымаетъ шпагу и шляпу. Изъ того<lb/>произходятъ
+                  многïя шутки приличныя театру. Напослѣ-<lb/>докъ Арлекïнъ говорить Сïлвïю, что онъ
+                  хочетъ ему<lb/>дать даную на всïо свое богатство, и женить ево на<lb/>своеи
+                  племянницѣ, а самъ онъ возметъ за себя Фïаметту,<lb/>которои онъ велѣлъ отоити.
+                  Фïаметта браня сïе намѣ-<lb/>ренïе пошла. Арлекïнъ приказываетъ Васïлïску за
+                  собои<lb/>итьти, и чваняся, что онъ имѣетъ такова слугу на вся-<lb/>кои ступени
+                  оборачивается; что причиняетъ игрушку<lb/>своиственную театру, съ которою и
+                  отходятъ.</p>
+               <p rend="indent">ОДОАРДЪ выходитъ прося Доктора, чтобъ онъ<lb/>съ четверть часа
+                  побылъ съ нимъ для слова, и что дѣло<lb/>идетъ о женитьбѣ. Докторъ ему говорить,
+                  что онъ<lb/>готовъ. На то приходитъ</p>
+               <p rend="indent">СІЛВ1И, которои узнавъ Одоарда, что онъ, кото-<lb/>рои хочетъ
+                  Фïаметты, принудилъ ево вынять шпагу.<lb/>Одоардъ упалъ. Сïлвïи бросился не нево.
+                  Докторъ про-<lb/>ситъ за нево, какъ за своего академïста. Сïлвïи говоритъ,<lb/>что
+                  нѣкакое таиное склоненïе, которое онъ не знаетъ<lb/>къ чему причесть, принуждаетъ
+                  ево ни въ чомъ не проти-<lb/>
+                  <fw type="catch" place="bottom">виться</fw>
+                  <pb facs="#granbasi_ru_009" n="9"/>
+                  <fw type="pageNum">9</fw>виться сему старику; и послушався его пошолъ.
+                  Одоардъ<lb/>благодарствуетъ Доктору, и самъ пошолъ же. Старикъ <lb/>остался
+                  удивляяся о чювствïи, которое онъ имѣлъ видя<lb/>того иностраннаго; а приходитъ </p>
+               <p rend="indent">АРЛЕКІНЪ, которои спрашиваетъ у Доктора, что<lb/>написалъ ли онъ,
+                  хотя начорно, даную на имя своего<lb/>слуги. Докторъ ему говорить, что написалъ;
+                  такъ же<lb/>предлагаетъ и то, чтобъ Арлекïнъ подумалъ о намѣренïи<lb/>своемъ, дабы
+                  со временемъ не притьти ему въ раскаянïе. <lb/>На это слово</p>
+               <p rend="indent">СІЛВІИ приходитъ съ шпагою наголо противъ До-<lb/>ктора. Арлекïнъ
+                  успокоеваетъ его по обыкновенному,<lb/>и говоритъ, что Докторъ ево другъ, которому
+                  велитъ,<lb/>чтобъ онъ отдалъ Васïлïску даную. Докторъ трясучися<lb/>приходить къ
+                  Силвïю, и отдаетъ ему даную. Изъ того<lb/>произходитъ игрушка смѣшная между ими.
+                  Напослѣдокъ<lb/>Докторъ видя, что Васïлïскъ не хочетъ принять даную;<lb/>того ради
+                  ударился о закладъ съ Арлекïномъ, что Васï-<lb/>лïскъ ту не приметь и отъ нево
+                  такъ же. Арлекïнъ гово-<lb/>ритъ, что приметъ, и силою напѣванïя
+                  принуждаетъ<lb/>Сïлвïя взять даную; потомъ далъ одинъ Луïдоръ [то<lb/>есть четыре
+                  рубли] Доктору. Сïлвïи у него тотъ<lb/>отняль, и спрашиваетъ у Арлекïна, что для
+                  чево бы онъ<lb/>далъ тѣ денги этому человѣку. Арлекïнъ ему отвѣт-<lb/>ствуетъ, что
+                  то за работу даныя. Сïлвïи сталь ево<lb/>бранить, что онъ толь чиво раздаетъ то,
+                  что ужъ<lb/>не ево, и отнявъ у нево весь мѣшокъ съ денгами далъ<lb/>только одну
+                  копеику Доктору, которои называя ево ни-<lb/>щимъ и бѣднымъ отходить прочь.
+                  Арлекïнъ сталъ хулить<lb/>ево скупость, и велитъ ему итьти за собою.
+                  Сïлвïи<lb/>отвѣтствуетъ ему, чтобъ онъ шолъ повелѣвать своими<lb/>слугами.
+                  Арлекïнъ смѣïотся о ево дурномъ нравѣ, и хочетъ<lb/>воити въ свои домъ. Но Сïлвïи
+                  выгналъ ево вонъ говоря,<lb/>что этотъ дворъ ему принадлежитъ, и чтобы онъ
+                  не-<lb/>бралъ смѣлости приступать къ нему подъ штрафомъ ста<lb/>разовъ палки.
+                  Арлекïнъ думаетъ, что Сïлвïи шутитъ <fw type="sig" place="bottom">T</fw>
+                  <fw type="catch" place="bottom">Ho</fw>
+                  <pb facs="#granbasi_ru_010" n="10"/>
+                  <fw type="pageNum">10</fw>Но видя, что тотъ въ правду говоритъ, и что заперъ<lb/>
+                  въ глазахъ ево ворота, пришолъ въ отчаянïе, и началъ ево<lb/> жестоко бранить.
+                  Между тѣмъ</p>
+               <p rend="indent">СІЛВІИ выгналъ изъ двора бьючи Фïаметту. Фïа-<lb/>метта стала за
+                  Арлекïномъ, которои хотѣлъ вступить-<lb/>ся за оную; но Сïлвïи его за то сталъ
+                  бить. Изъ того<lb/>произходятъ многïя игрушки приличныя театру. Послѣ<lb/>которыхъ
+                  Сïлвïи грозя Арлекïну и Фïаметтѣ палкою,<lb/>ежели бы они хотѣли приступить ко
+                  двору, вошолъ къ<lb/>себѣ, и заперъ ворота. Фïаметта стала пенять на
+                  Арле-<lb/>кïна, что онъ не послушался ея совѣта. Арлекïнъ пе-<lb/>чальныи
+                  признаваетъ свое погрѣшенïе; просить ея, чтобъ<lb/>она пошла къ госпожѣ Спессегѣ,
+                  и просилабъ у нея помощи.<lb/>Фïаметта пошла. Арлекïнъ остался; и чтобъ
+                  посовѣто-<lb/>вать съ Докторомъ о нещастïи своемъ, сталъ стучаться<lb/>у нево.</p>
+               <p rend="indent">ДОКТОРЪ вышелъ, Арлекïнъ хочетъ ему говорить,<lb/>но Докторъ многими
+                  и частыми рѣчами недалъ ему ни<lb/>одного слова выговорить, и самъ ушолъ. Арлекïнъ
+                  въ<lb/>отчаянïи о своемъ нещастïи ругается велерѣчïю Докто-<lb/>рову и стучится у
+                  воротъ</p>
+               <p rend="indent">САБАДІНА Нотарïя, которои иногда говоря скоро,<lb/>иногда очюнь
+                  тихо; иногда голосно, иногда не голосно<lb/>чинить игрушку смѣшную; а самъ пошолъ
+                  прочь. Арле-<lb/>кïнъ въ ярости весь остался. На то приходитъ</p>
+               <p rend="indent">ДОКТОРЪ, которои когда хотѣлъ говорить Арле-<lb/>кïну, недопущенъ
+                  быль до того чрезъ</p>
+               <p rend="indent">САБАДIНА, которои такъ же ему хочетъ говорить,<lb/>и всякъ ево
+                  подïоргиваетъ къ себѣ. Арлекïнъ ужъ скучил-<lb/>ся, что съ нимъ такъ поступаетъ;
+                  того ради, по мно-<lb/>гихъ шуткахъ своиственныхъ театру, уронилъ ихъ
+                  на<lb/>землю; а самъ побѣжалъ; и тѣмъ окончеваетъ</p>
+               <p rend="indent">дѣиствïе второе.</p>
+               <fw type="catch">ДѢИ-</fw>
+            </div>
+            <pb facs="#granbasi_ru_011" n="11"/>
+            <fw type="pageNum">11</fw>
+            <div type="act" n="3">
+               <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+               <p rend="indent">ОДОАРДЪ выходить говоря Брïгеллу, чтобъ онъ<lb/>послушался его
+                  совѣта, и чтобъ онъ помирилъ его съ Ау-<lb/>релïею, для которои онъ хочетъ итьти
+                  купить нѣкото-<lb/>рыя алмазныя вещи. Брïгеллъ его спрашиваетъ, что есть<lb/>ли у
+                  нево съ собою денги? Одоардъ ему кажетъ мѣшокъ,<lb/>въ которомъ, говоритъ, что
+                  имѣется пятьдесятъ рублеи,<lb/>и пошолъ съ Брïгелломъ уроня мѣшокъ, когда онъ
+                  ево<lb/>хотѣлъ положить въ карманъ.</p>
+               <p rend="indent">АРЛЕКІНЪ въ великои печали о томъ, что съ нимъ<lb/>здѣлалось, и
+                  разширяя многими словами свою бѣдность<lb/>находить тотъ мѣшокъ, и обрадовався,
+                  что видитъ у себя<lb/>денги, говоритъ, что онъ хочетъ итьти въ вольнои домъ.<lb/>И
+                  понеже онъ видитъ тотъ близко; того ради сталъ сту-<lb/>чаться, къ нему
+                  выходитъ</p>
+               <p rend="indent">СМЕРАЛДІНА, которая зная Арлекïна; принимаетъ<lb/>ево учтиво.
+                  Арлекïнъ кажетъ еи онои мѣшокъ,<lb/>которая на тотъ смотря радуется, и послѣ
+                  нѣсколькихъ игрушекъ<lb/>приличныхъ театру повела его въ вольнои домъ.</p>
+               <p rend="indent">ОДОАРДЪ возвращается, лишь тотъ вошолъ, вмѣстѣ<lb/>съ Брïгелломъ,
+                  которому говорить, что онъ потерялъ<lb/>свои мѣшокъ съ денгами. Стали они тотъ
+                  искать; но по-<lb/>неже не нашли, того ради Одоардъ говоритъ, что онъ<lb/>хочетъ
+                  итьти домои для взятья другихъ денегъ; да и<lb/>пошолъ. Брïгеллъ за нимъ же. Но
+                  выходитъ</p>
+               <p rend="indent">СМЕРАЛДІНА изъ вольнаго дому съ Арлекïномъ, ко-<lb/>торои наливъ
+                  глаза ругается надъ нею, и говоритъ еи,<lb/>что онъ не разумѣетъ этова слова:
+                  ПЛАТИТЬ.</p>
+               <p rend="indent">Смералдïна розсердившись за ругательство хочетъ имѣть<lb/>свои
+                  денги; изъ того произходятъ многïя шутки прилич-<lb/>ныя театру. Напослѣдокъ
+                  Арлекïнъ вынимаетъ свои мѣшокъ,<lb/>и хочетъ ея удовольствовать; между тѣмъ
+                  приходитъ</p>
+               <p rend="indent">ОДОАРДЪ съ Брïгелломъ, которои видя потеряннои<lb/>мѣшокъ въ рукахъ
+                  арлекïновыхъ вырвалъ у него онои, го-<lb/>воря, что тотъ мѣшокъ ихъ; и называя его
+                  воромъ пошли.<lb/>Смералдïна всïо хочетъ платы. Арлекïнъ извиняется, <fw type="sig" place="bottom">T 2</fw>
+                  <fw type="catch" place="bottom">что</fw>
+                  <pb facs="#granbasi_ru_012" n="12"/>
+                  <fw type="pageNum">12</fw>что онъ не имѣетъ денегъ. Смералдïна съ нево платье
+                  сдира-<lb/>етъ, и назывваетъ ево дуракомъ. Арлекïнъ плачетъ. Сме-<lb/>ралдïна
+                  сжалившися отдаетъ ему платье, и тѣмъ только<lb/>довольна, что его побила, и пошла
+                  сама. Арлекïнъ въ то-<lb/>ликомъ будучи нещастïи остался; а приходить </p>
+               <p rend="indent">ФІАМЕТТА, которая удивляется, что его такова<lb/>видитъ. Арлекïнъ еи
+                  розказываетъ всïо, что съ нимъ здѣ-<lb/>лалось. Она о томъ сожалѣетъ, и говорить
+                  ему, что нада<lb/>наити какую ни будь штуку, чрезъ которую бы можно<lb/>было воити
+                  въ домъ, и совѣтуетъ ему притвориться дѣ-<lb/>вицею французкою ищущею службы, а
+                  Васïлïскъ обманув-<lb/>шись тѣмъ платьемъ, можетъ быть, приметь ево къ
+                  себѣ.<lb/>Тогда Арлекïнъ будетъ имѣть случаи украсть у нево<lb/>ночью даную| и
+                  разодрать оную. Арлекïнъ на то согла-<lb/>шается. Фïаметта взяла будто на
+                  подержанье платье<lb/>женское, у однои своеи подруги, и говорить что та
+                  жи-<lb/>вïотъ въ самомъ углу улицы, да и надѣла то на Арлекïна,<lb/>а сама пошла.
+                  Арлекïнъ сталъ стучаться у воротъ сво-<lb/>его двора.</p>
+               <p rend="indent">СІЛВІИ выходитъ, и спрашиваетъ, кто тутъ? и что<lb/>надобно?
+                  Арлекïнъ половину по французски, и половину по<lb/>Італïански, послѣ многихъ
+                  шутокъ приличныхъ театру,<lb/>говоритъ ему, что ищетъ службы. Сïлвïи его
+                  призналъ<lb/>по голосу, и притворился, что будто ево принимаетъ къ<lb/>себѣ, и
+                  велитъ ему пождать немношко, и самъ пошолъ.<lb/>Арлекïнъ обдовался о удачѣ своего
+                  притвора. Сïлвïи<lb/>возвращается съ господиномъ Жеромомъ, сталъ бить
+                  Ар-<lb/>лекïна и по томъ пошолъ прочь. Арлекïнъ остался весьма<lb/>печаленъ.
+                  Фïаметта, которая то видѣла, утѣшаетъ ево,<lb/>и ободряетъ; по томъ наряжаетъ ево
+                  въ мертвеца, говоря<lb/>ему, чтобъ онъ притворялся душею Арлекïновою, и
+                  вы-<lb/>зывая Васïлïска грозитъ ему непрестаннымъ гоненïемъ,<lb/>ежели не
+                  разодрана будетъ даная покоинаго Арлекïна.<lb/>Арлекïнъ по нѣсколькомъ
+                  сопротивленïи согласился на то.<lb/>Фïаметта пошла, Арлекïнъ сталь стучать и
+                  шумѣть<lb/>около воротъ своихъ; а приходитъ</p>
+               <p rend="indent">СІЛВІИ, которои видя подложнаго мертвеца, при-<lb/> творяется, что
+                  бутто боится; Арлекïнъ чинить все то,<lb/>
+                  <fw type="catch" place="bottom">что</fw>
+                  <pb facs="#granbasi_ru_013" n="13"/>
+                  <fw type="pageNum">13</fw>что ему Фïаметта приказала. Сïлвïи бутто сталь
+                  быть<lb/>печаленъ о смерти Арлекïновои, и что весьма должно<lb/>отдать ему
+                  надлежащеи покои раздирая даную, да что<lb/>то и учинить онъ теперь передъ нимъ,
+                  толь наипаче,<lb/>что ни онъ ни господинъ Жеромъ не имѣютъ мочи надъ<lb/>стѣнями
+                  душъ усопшихъ. Арлекïнъ ободренъ чрезъ сïе<lb/>слово показывается храбрымъ. Сïлвïи
+                  говорить, что онъ<lb/>пошолъ взять даную, и возвращается съ
+                  господиномъ<lb/>Жеромомъ; показывается, что бутто хочетъ бить Ар-<lb/>лекïна, да
+                  что не можетъ его поимать. Арлекïнъ о томъ<lb/>смѣïотся; изъ того произходятъ
+                  многïя шутки приличныя<lb/>театру. На послѣдокъ Сïлвïи сталъ бить Арлекïна,
+                  и<lb/>ругаяся надъ его мертвечествомъ пошолъ къ себѣ. Арле-<lb/>кïнъ остался.
+                  Фïаметта его стала опять утѣшать; и<lb/>ободряетъ его къ отвѣдыванïю другаго
+                  вымысла, да и го-<lb/>ворить ему, чтобъ онъ притворился мертвымъ, а
+                  она<lb/>станетъ съ своеи стороны плакать надъ нимъ; для того,<lb/>можетъ быть, что
+                  Васïлïскъ сжалившися дастъ что ни-<lb/>будь на его погребенïе; и такъ можетъ онъ
+                  имѣть нѣ-<lb/>сколько денегъ къ облегченïю ихъ бѣдности. Арлекïнъ по<lb/>многихъ
+                  игрушкахъ приличныхъ театру розтянулся на<lb/>земли. Фïаметта стала бутто плакать
+                  надъ мертвымъ.<lb/>На этотъ крикъ</p>
+               <p rend="indent">СІЛВІИ приходить; сожалѣетъ бутто о его смерти.<lb/>Фïаметта стала
+                  ево ругать за жестокость къ своему<lb/>благодѣтелю. Изъ того произходятъ многïя
+                  игрушки свои-<lb/>ственныя театру. Напослѣдокъ Сïлвïи утѣшаетъ Фïа-<lb/>метту, и
+                  говоритъ еи, что онъ хочетъ взять господина<lb/>Жерома, которои имѣетъ силу
+                  воскрешать мертвыхъ.<lb/>Услышавъ то имя, Арлекïнъ съ страху вскочилъ.
+                  Сïлвïи<lb/>надъ нимъ смѣïотся. Арлекïнъ вспамятовалъ что въ данои<lb/>написано и
+                  то, по силѣ чего Сïлвïи долженъ ему дать на<lb/>его содержанïе, когда бы какои
+                  споръ сталъ быть, такъ<lb/>же и на содержанïе однои еще особы. Сïлвïи
+                  отвѣтству-<lb/>етъ, что онъ примѣтилъ то въ данои, и что онъ хочетъ<lb/>тотчасъ
+                  удовольствованïе учинить по своеи должности,<lb/>и пошолъ. Фïаметта хвалить
+                  Арлекïна, что онъ внïосъ<lb/>
+                  <fw type="sig" place="bottom">T 3</fw>
+                  <fw type="catch" place="bottom">то</fw>
+                  <pb facs="#granbasi_ru_014" n="14"/>
+                  <fw type="pageNum">14</fw>то въ даную. Сïлвïи возвращается съ нѣкоторымъ
+                  сосу-<lb/>домъ, и отдалъ имъ онои говоря, что которое имѣется<lb/>тутъ, тѣмъ не
+                  только двѣ особы, но ежели имъ нравно<lb/>будетъ, и десять съ ними могутъ
+                  содержаться, и пошолъ.<lb/>Тѣ думая, что тутъ какïя алмазныя вещи,
+                  открываютъ<lb/>тотъ сосудъ, и нашли тутъ одну верïовку. Арлекïнъ<lb/>говоритъ, что
+                  не только десять персонъ, но и сто можно<lb/>содержать такимъ Капïталомъ, и незная
+                  что чинить,<lb/>пошолъ прочь плачучи, и проклинаючи свою фортуну.<lb/>Фïаметта за
+                  нимъ же пошла, чтобъ могла что себѣ до-<lb/>быть на содержанïе свое.</p>
+               <p rend="indent">ОДОАРДЪ выходитъ прося Доктора, чтобъ онъ<lb/>отдалъ за нево дочь
+                  свою Аурелïю, про которую онъ<lb/>говорилъ, что любить ея. Старикъ ему далъ въ
+                  томъ<lb/>свое слово; и чтобъ написать запись брачную, пошли.</p>
+               <p rend="indent">АРЛЕКІНЪ сталь быть въ отчаянïи, что ево всѣ<lb/>оставили, и что всѣ
+                  надъ нимъ смѣются за дурачество,<lb/>которое онъ учинилъ отдавъ всю свое добро
+                  бездѣльнику<lb/>такому; говоритъ, что онъ намѣрился убить самъ себя,<lb/>чинить
+                  онъ многïя игрушки обыкновенныи театру; и<lb/>когда онъ хотѣлъ убиться, тогда
+                  приходитъ<lb/>Одинъ волхвъ, которои удержавъ его утѣшаетъ о его<lb/>нещастïи, и
+                  обѣщается ему чрезъ свое искусство помощь<lb/>учинить. Арлекïнъ ему за то
+                  благодарить. Волхвъ за-<lb/>вораживаетъ маленькую палочку Арлекïнову не знамо
+                  ка-<lb/>кими словами; по томъ ему говоритъ, что всѣ тѣ, къ<lb/>которымъ онъ
+                  прикоснется этою палочкою говоря БЕР-<lb/>ЛІКЪ, будутъ стоять не подвижны, какъ
+                  ïдолы, пока<lb/>онъ опять не прикоснется къ нимъ говоря БЕРЛОКЪ.<lb/>Арлекïнъ не
+                  легко тому вѣритъ, волхвъ показываетъ ему<lb/>опытъ на немъ же самомъ. Арлекïнъ о
+                  томъ удивился,<lb/>и обрадовавшися великою радостïю благодаритъ
+                  своему<lb/>благотворителю, которои пошолъ. А Арлекïнъ съ вели-<lb/>кою бодростïю
+                  стучится у своихъ воротъ.</p>
+               <p rend="indent">СІЛВІИ вышедъ спрашиваетъ у него, что чего ему<lb/>хочется? Арлекïнъ
+                  хоробряся говорить, что онъ прямои<lb/>хозяинъ сего двора, Сïлвïи отвѣтствуетъ
+                  ему, что<lb/>
+                  <fw type="catch" place="bottom">дворъ</fw>
+                  <pb facs="#granbasi_ru_015" n="15"/>
+                  <fw type="pageNum">15</fw>дворъ ево, и сталъ ему грозить господиномъ
+                  Жеромомъ.<lb/>Арлекïнъ ни во что то ставить. Сïлвïи пошолъ брать свою<lb/>палку, и
+                  хочетъ бить Арлекïна, которои прикоснувшися<lb/>къ нему выговоривъ БЕРЛІКЪ,
+                  завораживаетъ ево, и<lb/>тѣмъ еще сталь веселиться завораживая и
+                  развораживая<lb/>его чрезъ многïя поимы. Напослѣдокъ отнялъ у нево да-<lb/>ную
+                  шпагу, и шляпу съ господиномъ Жеромомъ, и бро-<lb/>силъ все то на землю, да и такъ
+                  же завораживаетъ, по<lb/>томъ вошолъ въ домъ свои, заперъ ворота, и изъ
+                  окна<lb/>развораживаетъ Сïлвïя, которои дивяся, что онъ обезору-<lb/>женъ, и безъ
+                  шляпы на улицѣ хочетъ воити въ домъ. Ар-<lb/>лекïнъ изъ окна смѣïотся надъ нимъ.
+                  Сïлвïи ему грозитъ<lb/>говоря, что по силѣ ево даныя дворъ этотъ ему
+                  сталъ<lb/>принадлежать. Арлекïнъ по нѣсколькихъ шуткахъ прилич-<lb/>ныхъ театру
+                  показалъ ему даную всю роздрану говоря<lb/>прямо по Латïнски: ТЫ ПОЗДО ПРИШОЛЪ;
+                  ТЕБѢ<lb/>БУДЕТЪ ЗДѢСЬ ЖИТЬ ХУДО; ЗАВѢТЪ ОКОН-<lb/>ЧАЛСЯ ДЛЯ ТЕБЯ; НѢТЪ БОЛЬШЕ
+                  НАДЕЖДЫ.<lb/>Сïлвïи хочетъ взять своего господина Жерома, но не мо-<lb/>жетъ
+                  поднять, что видя Арлекïнъ выбѣжалъ къ нему съ<lb/>обнаженною шпагою. Сïлвïи сталъ
+                  на колѣнки, просить<lb/>прощенïя за всïо прошлое, и говоритъ ему что онъ
+                  всïо<lb/>то учинилъ, чтобъ его научить, дабы онъ не былъ<lb/>чивъ, когда не
+                  надобно, и дабы отмстить его служа-<lb/>щеи, которая подъ именемъ Фïаметты живетъ
+                  у него.<lb/>Когда онъ такъ говоритъ, тогда</p>
+               <p rend="indent">Старики приходятъ; Сïлвïи продолжаетъ говорить, что<lb/>она не
+                  такова, каковою сказывается, что прямое ея имя<lb/>Дïана, дочь нѣкотораго
+                  Панталона де Бïзоньнïозï, кото-<lb/>рую онъ увïозъ въ Венецïи изъ дому Стефанелла
+                  дяди ея;<lb/>и что и онъ самъ не таковъ, каковъ является; но одинъ<lb/>молодои
+                  человѣкъ будучи похищенъ въ молодости своеи<lb/>чрезъ цыгановъ; а когда онъ
+                  пришолъ въ возрастъ, тогда<lb/>ушолъ оть нихъ съ одною медаллею золотою,
+                  которую<lb/>у него цыганы ни когда не снимали съ шеи, и на которои<lb/>имѣются
+                  слова, которыя онъ не знаетъ протолковать;<lb/>чрезъ то надѣется он наити своего
+                  отца. На эти рѣчи<lb/>
+                  <fw type="catch" place="bottom">старики</fw>
+                  <pb facs="#granbasi_ru_016" n="16"/>
+                  <fw type="pageNum">16</fw>старики подходятъ, и по многимъ вопросамъ и
+                  отвѣтамъ<lb/>Докторъ нашолъ въ Васïлïскѣ сына своего Сïлвïя. Панта-<lb/>лонъ
+                  спрашиваетъ у него о Дïанѣ дочери своеи, что гдѣ<lb/>она? Между тѣмъ</p>
+               <p rend="indent">ФІАМЕТТА приходитъ; Сïлвïи говоритъ, вотъ она. Панталонъ
+                  разсердившись за ея преступленïе хочетъ ея убить. Сïлвïи ево до того не
+                  допускаетъ, и вытолковавши другъ другу причину, которая ихъ принудила разлучит- ся
+                  въ лѣсу, Сïлвïи обѣщаетъ Панталону жениться на неи. Между тѣмъ</p>
+               <p rend="indent">ОДОАРДЪ приходить. Сïлвïи думая, что онъ все- гда требуетъ Фïаметту,
+                  незнаетъ что бы надлежало съ нимъ чинить. Но Одоардъ ему изъявляетъ говоря, что
+                  онъ женился на Аурелïи дочери Докторовои. Докторъ сказалъ Одоарду про Сïлвïя.
+                  Одоардъ его обнимаетъ какъ своего шурина. На то</p>
+               <p rend="indent">БРІГЕЛЛЪ выходитъ улещивая Смералдïну, про ко- торую онъ говоритъ,
+                  что женился на неи. И такъ всѣ будучи довольны каждои своимъ щастïемъ,
+                  окончеваютъ</p>
+               <p rend="indent">Комедïю.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Der große Baſiliſco von Bernagaſſo</title>
+               <respStmt>
+                  <resp>Transcription</resp>
+                  <name>Tatiana Korneeva</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding by</resp>
+                  <name>Eleonora Zordan</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Digital images</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+               <date>December 2021</date>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">8 P DRAM IV, 8250 (11a) RARA </idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="14">14 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="granbasi_ge_001" url="/img/granbasi_ge_001.jpg"/>
+            <graphic xml:id="granbasi_ge_002" url="/img/granbasi_ge_002.jpg"/>
+            <graphic xml:id="granbasi_ge_003" url="/img/granbasi_ge_003.jpg"/>
+            <graphic xml:id="granbasi_ge_004" url="/img/granbasi_ge_004.jpg"/>
+            <graphic xml:id="granbasi_ge_005" url="/img/granbasi_ge_005.jpg"/>
+            <graphic xml:id="granbasi_ge_006" url="/img/granbasi_ge_006.jpg"/>
+            <graphic xml:id="granbasi_ge_007" url="/img/granbasi_ge_007.jpg"/>
+            <graphic xml:id="granbasi_ge_008" url="/img/granbasi_ge_008.jpg"/>
+            <graphic xml:id="granbasi_ge_009" url="/img/granbasi_ge_009.jpg"/>
+            <graphic xml:id="granbasi_ge_010" url="/img/granbasi_ge_010.jpg"/>
+            <graphic xml:id="granbasi_ge_011" url="/img/granbasi_ge_011.jpg"/>
+            <graphic xml:id="granbasi_ge_012" url="/img/granbasi_ge_012.jpg"/>
+            <graphic xml:id="granbasi_ge_013" url="/img/granbasi_ge_013.jpg"/>
+            <graphic xml:id="granbasi_ge_014" url="/img/granbasi_ge_014.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#granbasi_ge_001" n="1"/>
+            <head type="main">Der große Baſiliſco von Bernagaſſo</head>
+            <head type="sub">in einem<lb/>Jtalaͤniſchen Schau-Spiele<lb/>ſo an dem<lb/> Kayſerlichen
+               Hofe<lb/> zu St. Petersburg<lb/>
+               <date when="1733">1733</date><lb/>aufgefuͤhret worden.</head>
+            <pb facs="#granbasi_ge_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>Jnhalt des Schau-Spieles</head>
+               <p rend="indent">Silvio, den die Zigeuner in ſeiner Kindheit dem Doctor entfuͤhret,
+                  ent-<lb/>laͤufft ihnen, da er zu mehreren Jahren gelanget, und koͤmmt nach
+                  Ve-<lb/>nedig, allwo er ſich in Pantalons Tochter, Diana, verliebt, die ſich bey
+                  deſſen<lb/>Bruder Steffanello aufhaͤlt, indem Pantalon nach Mayland gereiſet.
+                  Er<lb/>entfuͤhret ſie, und als Pantalon Nachricht von dem Raube ſeiner<lb/>Tochter
+                  erhaͤlt, ſuchet er ſie uͤberall auf, waͤhrender Zeit aber wird<lb/>dieſelbe nebſt
+                  ihrem Liebhaber von einigen Straßen-Raͤubern angefallen,<lb/>kommt von ihm weg und
+                  weil ſie nicht weiß, wo er hingerathen, flůchtet<lb/>ſie nach Mayland und da ſie
+                  nichts von ihm erfaͤhret trit ſie bey dem<lb/>Arlequin, einem reichen Kaufmann der
+                  Stadt, in Dienſten. Silvio der<lb/>ſolches entdecket, kleidet ſich in einen
+                  Bettler und gehet gleichfals in ſeine<lb/>Dienſte. Weil er aber vermuthet, daß es
+                  Arlequin mit ihr abgeleget und<lb/>ſie aus dem Wald entfuͤhret, thut er ihn
+                  allerley Tort an, biß er endlich,<lb/>wiewohl durch einen wunderlichen Zufall,
+                  ſeine Liebſte zur Frau erhaͤlt.</p>
+            </div>
+            <castList>
+               <head>Personen.</head>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_ge">Pantalon und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_ge">der Doctor</role>
+                  </castItem>
+                  <roleDesc>zwey gute Freunde.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="diana_ge">Diana,</role>
+                  <roleDesc>Pantalons Tochter, die unter dem Nahmen Fiametta bey</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin,</role>
+                  <roleDesc>einem Kauffmann, dienet.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_ge">Silvio,</role>
+                  <roleDesc>unter dem Nahmen Baſiliſco, nachmahls erkannter Sohn des<lb/>
+                     Doctors.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="odoardo_ge">Odoardo,</role>
+                  <roleDesc>der ſich in die Fiametta verliebt.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ge">Brighella,</role>
+                  <roleDesc>deſſen Diener.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina,</role>
+                  <roleDesc>eine Gaſtwirthin.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="mago_ge">Ein Zauberer.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schauplatz iſt in Mayland.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#granbasi_ge_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Erſte Handlung.</head>
+               <p rend="indent">Die Alten treten auf, und nachdem ſie einander viel von
+                  ihrerr<lb/>alten Freundſchafft vergeſagt, troͤſten ſie ſich ſelbſt; <lb/>Pantalon
+                  uͤber den Verluſt ſeiner Tochter, welche von einem jungen<lb/>Menſchen aus Venedig
+                  entfuͤhret worden, allwo er dieselbe ſeinem<lb/>Vetter Stefanello zur Aufſicht
+                  uͤberlaſſen: und der Doctor, uͤber dem<lb/>Ungluͤck ſeines Sohnes, welchen die
+                  Zigeuner, als er nach gantz jung ge-<lb/>weſen, auf dem Lande weggeraubet. Sie
+                  verſprechen einander alle Muͤ-<lb/>he anzuwenden, ihre Kinder auszuforſchen; an
+                  ihre Correſspondenten<lb/>zu ſchreiben und durch alle Gaſthoͤffe der Stadt
+                  Hauß-Suchung<lb/>thun zu laſſen. Der Doctor gehet fort, an jemand zu
+                  <lb/>ſchreiben und Pantalon ruſſt die Smeraldina eine Gaſtwir-<lb/>thin. Diese
+                  begegnet ihm, nach Art dieſer Leute, mit<lb/>viel Complimenten. Pantalon ſchertzt
+                  mit ihr und bittet ſie dar-<lb/>auf, ihm von allen Fremden, die zu ihr kaͤmen, es
+                  moͤchten Manns-<lb/>Personen oder Frauenzimmer feyn, Nachricht zu geben.
+                  Smeraldina<lb/>verſpricht ſolches zu thun und bittet ihn, er moͤchte ſie oͤffterer
+                  beſuchen; <lb/>Pantalon ſagt es ihr zu, und nach eingen Complimenten gehet beyde
+                  ab.</p>
+               <p rend="indent">Odoardo tritt auf and ſagt zu Brighella, er habe ſich in die
+                  <lb/>Fiametta, die Bediente des Arlequins, verliebt und entſchloſſen, ſie<lb/>zu
+                  heyrathen. Brighella antwortet, er koͤnne machen, was er wol-<lb/>le, ſtellet ihm
+                  aber zu uͤberlegen anheim, ob ſich dieſe Heyrath fuͤr ihn<lb/>ſchickte und ob es
+                  rathsam ſey, die Aurelia, des Doctors Tochter, die<lb/>ihn ſo inbruͤnſtig liebete,
+                  zu verlaſſen. Odoardo heißet ihn ſchwei-<lb/>gen und gehorſamen. Brighella
+                  antwortet, es ſey ſeine Schuldigkeit<lb/>und beyde gehen ab.</p>
+               <p rend="indent">Arlequin belehret die Fiametta, ſeine neue Bediente, auf was<lb/>Art
+                  ſie ſeine Tafel bedienen soll, und beklagt ſich, daß der Braten<lb/>nicht gebraten
+                  ſey, wie es ſich gehoͤre. Sie antwortet, ſie wuͤrde die<lb/>Kuͤche beſſer
+                  beſtellen, woferne ſie nicht alles alleine verrichten muͤſte,<lb/>welches ſie
+                  laͤnger nicht aushalten koͤnnte. Arlequin verspricht ihr<lb/>
+                  <fw type="sig">* 2</fw>
+                  <fw type="catch">noch</fw>
+                  <pb facs="#granbasi_ge_004" n="4"/>
+                  <fw type="pageNum">4</fw>noch einen Bedienten anzunehmen, der ihr an die Hand
+                  gehen ſollte,<lb/>und weil er auf die Poſt muß, gehet er ab und Fiametta in
+                  das<lb/>Hauß.</p>
+               <p rend="indent">Silvio als ein Bettler erzehlet, was ihn in dieſem Zuſtand
+                  ge-<lb/>ſetzt; nemlich, daß er die Diana von Venedig entfuͤhret, und daß<lb/>ſie
+                  von ihm weggekommenen, als er ſich gegen die anfallende Straſ-<lb/>ſen-Raͤuber
+                  vertheidiget. Er ſagt ſein Ungluͤck ſeye allzu groß, da er<lb/>ſeine Geburt nicht
+                  wiſſe, und ſich gezwungen ſehe, das Allmoſen zu<lb/>betteln. Nachdem er jemand
+                  kommen hoͤret, gehet er auf die Seite.</p>
+               <p rend="indent">Arlequin trit auf und ſagt, er koͤnne nicht begreiffen, von
+                  wem<lb/>der Brief ſey, den er auf der Poſt bekommen. Er macht ihn auf<lb/>und
+                  indem er ihn anfaͤngt zu leſen, ſieht Silvio von hinten zu auch in<lb/>den Brief.
+                  Arlequin wendet ſich um. Silvio ſchweiget ſtille, gruͤßet<lb/>ihn und gehet fort.
+                  Arlequin ſagt, der Kerl muͤſſe ein Landſtrei-<lb/>cher oder Narr ſeyn. Er fangt
+                  wieder an zu leſen, und indem ſolches<lb/>Silvio ſiehet, koͤmmt er zuruͤck und
+                  gehet wieder fort. Er thut ſolches<lb/>zum drittenmahle auf die erſtere Art und
+                  wie er das vierdte mahl<lb/>koͤmmt, giebt er dem Arlequin einen Stoß, fodert ein
+                  Almoſen und<lb/>ſagt, es waͤren nun 3 Tage, daß er nichts gegeſſen haͤtte.
+                  Arle-<lb/>quin iſt gantz beſtuͤrtzt uͤber das Compliment und giebt ihn
+                  einen<lb/>Rubel. Silvio nimmt ihn, ſieht ihn an und gehet, ohne ſich zu
+                  be-<lb/>dancken, fort. Arleqin verwundert ſich uͤber die ſeltſame Art ein
+                  Al-<lb/>moſen zufodern und will ſeinen Brief fortleſen. Silvio koͤmt
+                  zuruͤck,<lb/>giebt ihm ſeinen Rubel wieder und ſagt, daß er in dreyen
+                  Tagen<lb/>nichts gegeſſen habe. Arleqiun giebt ihm einen andern Rubel,
+                  den<lb/>Silvio annimnt und fort geht. Nachdem Arlequin auf die
+                  Unver-<lb/>ſchaͤmtheit des Bettlers geſcholten und weiter leſen will,
+                  koͤmmt<lb/>Silvio abermahls und ſagt, daß er in dreyen Tagen nichts
+                  gegeſſen<lb/>habe. Arlequin giebt ihm den dritten Ruhel. Silvio gehet fort
+                  und<lb/>kommt zum vierdtenmahle. Arlequin der ſeiner Grobheit uͤberdruͤſ-<lb/>ſig
+                  wird, will ihm ſeinen Beutel geben, woruͤber ſich Silvio erzuͤrnet.<lb/>Arlequin,
+                  dem dieſes befremdet, fragt nach der Urſache. Silvio<lb/>antwortet, er ſey
+                  beſtuͤrtzt, daß er ihn ungluͤcklich machen und ihm ſo<lb/>viel Geld anvertrauen
+                  wolle; Er ſolle mit ihm in das Wirthshauß<lb/>gehen und ihm ſo viel eſſen und
+                  trincken laſſen, als er noͤthig<lb/>
+                  <fw type="catch" place="bottom">haͤtte</fw>
+                  <pb facs="#granbasi_ge_005" n="5"/>
+                  <fw type="pageNum">5</fw> haͤtte; jedoch brauche er nur ein Copicken zu Brod.
+                  Arlequin ver-<lb/>wundert ſich, daß er den Bettler ſo genereus findet und fragt
+                  ihn,<lb/>ob er in ſeine Dienſte treten wolle. Auf dieſes Wort machet
+                  Silvio<lb/>allerhand Poſſen mit ſeinem Stock und ſchreyet: Es regnet
+                  am<lb/>Himmel. Arlecuin befiehlt ihm, mit ſeinem Stock ruhig zu ſeyn.<lb/>Silvio
+                  antwortet, diß ſey kein Stock, ſondern ſein lieber und treuer<lb/>Camerade, der
+                  Monſieur Hieronymus heiße. Arlequin bittet Monſieur<lb/>Heronymus, daß er ſich
+                  nicht ſo offt incommodiren moͤchte, und fragt<lb/>den Silvio abermahls, ob er ihm
+                  dienen wolle? Silvio antwortet mit<lb/>ja und Arlequin nimmt ihn in ſeine Dienſte.
+                  Silvio fragt wer er<lb/>ſey und Arlequin antwortet, er ſey ein Kauffmann, und
+                  gehet fort.<lb/>Wie ſolches Silvio hoͤret, ziehet er ein ander Kleid an, das er
+                  in<lb/>ſeinem Reiſe-Buͤndel hat. Arlequin erſcheinet wieder und lobet ſei-<lb/>ne
+                  Reinlichkeit, iſt gantz erfreuet, daß Silvio ſeine Sachen ſo wohl<lb/>anzuſtellen
+                  weiß und fragt nach deſſen Nahmen. Silvio macht ihm<lb/>allerley Complimenten und
+                  ſagt, er heiße der große Baſiliſco von<lb/>Bernagasſo und fragt den Arlequin auch,
+                  wie ſein Nahme ſey? und<lb/>dieſer antwortet, er nenne ſich den großen Arlequin
+                  und benachrich-<lb/>tiget ihn hierauf, daß er eine Bediente zu Hauſe habe, mit der
+                  er<lb/>allezeit in guter Verſtaͤndniß leben ſolle. Silvio verſpricht ſolches
+                  zu<lb/>thun, und erzehlet ihm zugleich, daß er von Zeit zu Zeit von einer
+                  gewiſſen<lb/>Kranckheit uͤberfallen werde. Arlequin fragt, was es fuͤr eine
+                  ſey?<lb/>Silvio antwortet, die Galle trete ihm oͤffters uͤber und
+                  waͤhrender<lb/>dieſer Zeit waͤre er capabel eine Perſon in Stuͤcken zu
+                  zerreiſſen.<lb/>Arlequin thut, als wenn er von ihm Abſchied nehmen wolle und
+                  ſaget,<lb/>er habe nicht noͤthig zergliedert zu werden. Silvio antwortet,
+                  wenn<lb/>ſich der Zufall ereignete, ſo muͤſte man ihm nur ein wenig Wind<lb/>in
+                  das Geſichte blaſen und dazu ſingen und tantzen; Dieſes muͤſſe<lb/>man allezeit
+                  thun, wenn er den Befehlen nicht Folge leiſten wollte.<lb/>Arlequin ſagt, er wolle
+                  die Probe machen und rufft die Fiametta.<lb/>Wie ſie heraus kommt, ſagte er zu
+                  ihr, er habe dieſen zu ſeinen Be-<lb/>dienten angenommen. Silvio und Fiametta
+                  kennen einander gleich,<lb/>ſo bald ſie ſich beyſammen ſehen und verwundern ſich,
+                  daß ſie ſich<lb/>beyde in Mayland befinden. <fw type="sig" place="bottom">* 3</fw>
+                  <fw type="catch" place="bottom">Fia-</fw>
+                  <pb facs="#granbasi_ge_006" n="6"/>
+                  <fw type="pageNum">6</fw>Fiametta fragt den Arlequin, wie ſein neuer Diener
+                  heiße?<lb/>Arlequin antwortet, ſein Nahme ſey Baſiliſsco. Fiametta ſaget
+                  nein,<lb/>Arlequin und Silvio aber ja. Zuletzt befiehlt Arlequin der
+                  Fiametta,<lb/>den Silvio in allem, was er in dem Haußweſen zu thun habe,
+                  Unter-<lb/>richt zu geben und geht ab. Silvio und Fiametta ſtehen in den
+                  Ge-<lb/>dancken, daß eines das andere verlaſſen und kommen nach
+                  vielen<lb/>Scheltworten zu einem Handgemenge. Arlequin laͤufft herzu
+                  und<lb/>nachdem er, mit dem vorgeſchlagenen Mittel, den Baſiliſsco wieder
+                  be-<lb/>ſaͤnfftiget hat, fragt er nach der Urſache dieſes Streites.
+                  Baſilisco<lb/>machet ihm einen blaue Dunſt vor und ſagt, die Fiammetta habe
+                  ihn<lb/>zwingen wollen, das Waſſer in die Kuͤche zu tragen, welches er
+                  nim-<lb/>mermehr thun wuͤrde. Arlequin bittet die Fiametta, daß ſie es<lb/>thun
+                  moͤchte; wie ſie ſich aber durchaus nicht dazu verſtehen will, ſagt<lb/>er, er
+                  wolle es ſelbſt thun, und gehet wieder hinein. Wie ſich dieſe<lb/>beyde alleine
+                  ſehen, fangen ſie ihre Handel aufs neue an. Arlequin<lb/>kommt wieder zuruͤck, und
+                  nachdem er den Baſiliſco beruhiget, ſchillt<lb/>er auf die Fiametta, daß ſie ihm
+                  ſo viel Verdruß mache. Baſiliſsco<lb/>ſagt abermahls, daß ſie ihn zwingen wolle,
+                  das Waſſer zu holen.<lb/>Arlequin ſagt ſie ſollten einander abwechſeln, wie er
+                  aber ſiehet, daß<lb/>er nichts ausrichtet, ſagt er abermahls, er wolle es ſelbſt
+                  thun, und<lb/>gehet hinein. Silvio und Fiametta kommen abermahls
+                  zum<lb/>Handgemenge. Arlequin beruhiget den Baſiliſco wiederum und<lb/>glaubt auf
+                  ihre Ausſage, daß der Streit herkomme wer das ***<lb/>ausfegen ſolle? Arlequin
+                  ſagt das wollten ſie alle dreye thun, ſie ſoll-<lb/>ten nur machen, daß ſie erſt
+                  alle dreye etwas zu eſſen bekaͤmen und<lb/>gehet hinein. Silvio und Fiametta
+                  drohen einander und folgen ihm<lb/>nach.</p>
+               <p rend="indent">Odoardo trit auf und fragt den Brighella ob die Leute, ſo
+                  er<lb/>beſtellet, bereit waͤren. Brighella antwortet mit ja und daß ſie
+                  nur<lb/>auf ſeinen Befehl warteten. Odoardo ſagt, daß er ſich entſchloſſen<lb/>die
+                  Fiametta von dem Arlequin zu verlangen und daß er ihn aus-<lb/>bruͤgeln laſſen
+                  wollte, woferne er ſie ihm verſagte. Brighella klop-<lb/>fet bey dem Arlequin an.
+                  Dieſer kommt heraus und Odoardo fragt<lb/>ihn, ob er ihm die Fiametta geben wolle?
+                  Arlequin ſagt nein. Odoardo<lb/>drohet ihm und dieſer moquiret ſich. Odoardo giebt
+                  dem Brighella<lb/>
+                  <fw type="catch" place="bottom">ein</fw>
+                  <pb facs="#granbasi_ge_007" n="7"/>
+                  <fw type="pageNum">7</fw>ein Zeichen, die Kerls, ſo er beſtellet, herbey zu
+                  ruffen. Wie Arlequin<lb/>dieſelben gewahr wird, erſchrickt er, verſpricht alles
+                  einzugehen und<lb/>rufft den Silvio, dem er des Odoardo Begehren und Drohen
+                  eroͤff-<lb/>net. Silvio ſtellet ſich gantz verzagt an, wie er ſo viel Leute
+                  ſie-<lb/>het und gehet hinein. Arlequin iſt gantz in Verzweiffelung,
+                  daß<lb/>Baſiliſsco ſo feig iſt und rufft ihn abermahls. Silvio kommt mit
+                  Mon-<lb/>ſeur Hieronymus zuruͤck, woruber ſich der Arlequin hertzlich
+                  erfreuet.<lb/>Odoardo fodert des Arlequins Entſchluß. Arlequin fragt den
+                  Sil-<lb/>vio, was er machen ſolle? und dieſer antwortet, woferne er
+                  nicht<lb/>einwilligen wolle, ſolle er es ihm nur rund heraus abſchlagen.
+                  Hier-<lb/>auf folgen allerhand Poſſen, nach welchen Baſilſsco den
+                  gantzen<lb/>Schwarm von dem Hauße wegjagt. Arlequin freuet ſich uͤber
+                  die<lb/>Hertzhafftigkeit ſeines Dieners und hiemit endiget ſich die erſte
+                  Hand-<lb/>lung.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handlung.</head>
+               <p rend="indent">Odoardo kommt mit Brighella und den uͤbrigen Kerls zuruͤck
+                  und<lb/>ſagt, daß ſie ſich an dem Baſiliſco raͤchen wollten und befiehlt
+                  dem<lb/>Brighella bey dem Arlequin anzuklopfen. Arlequin ſteckt den Kopf
+                  zum<lb/>Fenſter heraus und wie er ſo viel Leute ſiehet, rufft er den Baſiliſco.
+                  Odo-<lb/>ardo, Brighella und die uͤbrigen gerathen in Furcht und lauffen davon
+                  und<lb/>Arlequin kommt aus ſeinem Hauße, und wird von der Fiametta und<lb/>dem
+                  Silvio begleitet. Silvio hat ein koſtbar Kleid an, welches ihm<lb/>Arlequin zur
+                  Danckbarkeit gegeben. Fiametta mocquiret ſich uͤber<lb/>den Hut und Degen. Silvio
+                  wird erzuͤrnet und wirfft beydes auf<lb/>die Erde. Arleqiun zanckt mit der
+                  Fiametta und befiehlt dem Sil-<lb/>vio, er ſolle die Sachen wieder aufheben,
+                  dieſer will nicht und wird<lb/>boͤſe. Alequin ſingt, Baſiliſco aber ſtellt ſich,
+                  als ob er durch den<lb/>Geſang beſaͤnfftiget wuͤrde und hebt den Hut und Degen
+                  wieder auf.<lb/>Zuletzt ſagt Arlequin zu Silvio, daß er ihm alle ſeine Guͤter
+                  verma-<lb/>chen und ihm mit ſeiner Muhme verheyrathen, er ſelbſt aber
+                  die<lb/>Fiametta nehmen wolle, und befiehlt derſelben, in das Hauß zu ge-<lb/>hen.
+                  Fiametta gehet voller Zorn uͤber den Entſchluß des Arlequins <lb/>weg. Arlequin
+                  befiehlt dem Baſiliſco, ihm zu folgen und geht, nach ei-<lb/>nigen Poſſen, mit ihm
+                  zugleich ab. Odoardo trit auf und bittet den<lb/>
+                  <fw type="catch" place="bottom">Do-</fw>
+                  <pb facs="#granbasi_ge_008" n="8"/>
+                  <fw type="pageNum">8</fw>Doctor, ihm nur eine Viertelſtunde anzuhoͤren; indem er
+                  etwas von<lb/>ſeiner Heyrath mit ihm ſprechen wolle. Der Doctor ſagt, er habe
+                  zu<lb/>befehlen. Hieruͤber kommt Silvio dazu und wie er den Odoardo ge-<lb/>wahr
+                  wird, noͤthiget er ihn, den Degen zu ziehen; weil er die Fia-<lb/>metta haben
+                  wolle. Odoardo faͤllt. Silvio hat ihn unter ſich, der<lb/>Doctor aber bittet fuͤr
+                  ihn und ſagt, daß er einer von ſeinen Studen-<lb/>ten ſey. Silvio antwortet, er
+                  habe einen geheimen Trieb, den er<lb/>nicht erklaͤren koͤnnte und der ihn zwinge,
+                  daß er dieſen Alten nichts<lb/>abſchlagen koͤnnte; Er ſtehet das Verlangen des
+                  Alten zu, und ge-<lb/>het fort. Odoardo bedancket ſich gegen den Doctor und gehet
+                  ab.<lb/>Der Alte bleibet da und verwundert ſich uͤber die Bewegung, ſo
+                  er<lb/>empfunden, als er den Fremden geſehen. Hierzu kommt Arlequin,<lb/>der den
+                  Doctor fragt, ob er den Aufſatz ſeiner Schenckung an den<lb/>Baſiliſco gemacht?
+                  Der Doctor antwortet mit ja und erinnert ihn zu-<lb/>gleich, er ſolle wohl
+                  uͤberlegen, was er thue; damit es ihm mit der<lb/>Zeit nicht gereuen moͤchte. Auf
+                  dieſes Wort kommt Silvio mit dem<lb/>Degen in der Hand auf den Doctor loß.
+                  Arlequin beruhiget ihn auf<lb/>die gewoͤhnliche Manier und ſagt, daß der Doctor
+                  ſein guter Freund ſey<lb/>und heißet den Doctor den Aufſatz von der Schenckung
+                  hergeben. Der<lb/>Doctor nahet ſich mit Zittern und Beben dem Silvio und
+                  uͤberreichet<lb/>ihm dem ſchrifftlichen Auffſaß. Baſiliſco erzuͤrnet ſich und will
+                  den<lb/>Contract nicht annehmen. Arlequin ſinget und bringet den
+                  Baſiliſco<lb/>hiedurch dahin, daß er den Aufſatz annimmt, und giebt dem
+                  Doctor<lb/>ein Goldſtuͤck. Hieruͤber erzuͤrnet ſich Baſiliſco abermahls und
+                  fragt<lb/>den Arlequin, warum er den Kerl ein Goldſtuͤck gebe?
+                  Arlequin<lb/>antwortet, weil er den Aufſatz der Schenckung gemacht. Silvio
+                  ſchmaͤ-<lb/>let, daß er zu verſchwenderiſch mit dem waͤre, das doch nicht mehr
+                  ſeine<lb/>ſey; nimmt ihm den Beutel und gibt dem Doctor den er einen
+                  Bettler<lb/>nennet, einen Copicken daraus. Der Doctor geht ab. Arlequin<lb/>ſagt,
+                  Silvio muͤſſe nicht ſo filtzig ſeyn und befiehlet ihm nachzufolgen.<lb/>Silvio
+                  antwortet, daß er zwar ſeinen Dienern, aber nicht ihm, befeh-<lb/>len koͤnnte.
+                  Arlequin lacht uͤber ſeine Poſſen, wie er aber in ſein<lb/>Hauß gehen will, ſtoͤßt
+                  ihm Silvio zuruͤck und ſagt, das Hauß geho-<lb/>re ihm ſelbſt und er ſolle ſich
+                  nicht unterſtehen, demſelben zu nahe zu<lb/>
+                  <fw type="catch" place="bottom">kom-</fw>
+                  <pb facs="#granbasi_ge_009" n="9"/>
+                  <fw type="pageNum">9</fw>kommen, oder er wolle ihm wegpruͤgeln laſſen. Arlequin
+                  glaubt, daß<lb/>Silvio ſeinen Schertz mit ihm treibe; Allein wie er ſiehet, daß
+                  es<lb/>Ernſt iſt, und jener ihm die Hauß-Thure vor der Naſe zuſchlaͤgt,
+                  ge-<lb/>raͤth er in Verzweiffelung und ſchimpfft auf den Silvio mit groſem
+                  Un-<lb/>geſtuͤm. Jnzwiſchen jagt Silvio die Fiametta mit Schlaͤgen aus
+                  dem<lb/>Hauſe. Dieſe ſtellet ſich hinter den Arlequin, der ihre Parthie<lb/>nehmen
+                  will, aber von Silvio eben ſo tractiret wird. Nach einigen<lb/>Poſſen drohet
+                  Silvio beyden mit dem Bruͤgel, woferne ſie ſich ſeinem<lb/>Hauſe nahen wuͤrden, u.
+                  ſchlaͤgt die Thuͤre zu. Fiametta wirfft dem<lb/>Arlequin vor, daß er ihrem Rath
+                  nicht folgen wollen. Dieſer iſt<lb/>gantz beſtuͤrtzt uͤber den Fehler, ſo er
+                  begangen, u. bittet ſie, zu der Ma-<lb/>dame Speſſega zugehen und ſie um Huͤlffe
+                  zuerſuchen. Fiamerta ge-<lb/>het ab. Arlequin bleibt; um zum ſich bey dem Doctor
+                  eines guten Raths<lb/>in ſeinem Ungluͤck zuerkundigen. Er klopffet an. Der Doctor
+                  kommt<lb/>heraus und wie Arlequin mit ihm ſprechen will macht er einen
+                  Miſch-<lb/>maſch von allerley Worten, der den Arlequin verhindert, daß
+                  er<lb/>nicht das geringſte aufbringen kan, u. gehet wieder hinein.
+                  Arlequin<lb/>ſchillt auf die Plaudern des Doctors, und klopfft bey dem Sabadin,
+                  <lb/>einem Notario, an. Dieſer kommt heraus: redet bald in einſylbi-<lb/>gen
+                  Worten, bald hoch, bald niedrig; welches allerley Poſſen ver-<lb/>urſachet,
+                  worunter der Notarius weggehet. Arlequin iſt hieruͤber<lb/>erzuͤrnet und da der
+                  Doctor kommt und mit ihm ſprechen will, faͤllt<lb/>ihm der Notarius in die Rede,
+                  welches allerhand Zaͤnckerey verur-<lb/>ſachet, mit welcher ſich die andere
+                  Handlung endiget.</p>
+            </div>
+            <div type="act" n="3">
+               <head>Dritte Handlung.</head>
+               <p rend="indent">Odoardo ſagt zu Brighella er wolle ſeinem Rath folgen, ſich<lb/>mit
+                  der Aurelia wieder ausſuͤnen und ihr einige Juwelen ſchencken.<lb/>Brighella fragt
+                  ihn, ob er Geld bey ſich habe? Odoardo weißt ihm<lb/>den Beutel, ſagt daß 50.
+                  Rubl. darinne waͤren, und indem er mit<lb/>Brighella fort gehet, will er den
+                  Beutel in die Taſche ſtecken, laͤßt<lb/>ihn aber darneben fallen. Arlequin trit
+                  auf, ſtellet ſich gantz ver-<lb/>zweiffelnd uͤber ſein Ungluͤck an, und indem er
+                  alſo klaget, findet er<lb/>den Beutel. Er iſt erfreut, daß er ſich wieder bey
+                  Gelde ſiehet u.<lb/>ſagt, er wolle in das Wirthshauß gehen u. klopfft an. Smeraldina,<lb/>
+                  <fw type="sig" place="bottom">*</fw>
+                  <fw type="catch" place="bottom">die</fw>
+                  <pb facs="#granbasi_ge_010" n="10"/>
+                  <fw type="pageNum">10</fw> die ihn kennet, kommt heraus u. begegnet ihm ſehr
+                  freundlich. Er<lb/>weißt ihr den Beutel u. nach einigen Poſſen gehen beyde
+                  hinein.<lb/>Odoardo koͤmmt mit Brighella auf den Platz zuruͤck wo er ſagt,
+                  daß<lb/>er den Beutel verlohren. Sie ſuchen uͤberall u. finden nichts.
+                  O-<lb/>doardo ſagt er wolle nach Hauſe gehen und wieder Geld hohlen
+                  und<lb/>Brighella geht mit ihm zugleich weg. Smeraldina koͤmmt mit
+                  dem<lb/>Arlequin, der den Bauch u. Kopff voll hat, aus dem Wirthhauſe.
+                  Er<lb/>mocquiret ſich uͤber ſie u. ſagt, er wolle ihr nicht das geringſte
+                  bezah-<lb/>len. Smeraldina wird boͤſe uͤber ſeinen Schertz u. fodert
+                  Geld.<lb/>Nach einigen Poſſen zieht Arlequin den Beutel heraus u. will
+                  ſie<lb/>bezahlen; hierzu kommen aber Odoardo u. Brighella, und als ſie den
+                  ver-<lb/>lohrenen Beutel in Arlequins Haͤnden ſehen, nehmen ſie ihn
+                  weg,<lb/>ſagen, daß er ihnen zugehoͤre u. gehen fort. Smeraldina will
+                  bezah-<lb/>let ſeyn; Arlequin aber entſchuldiget ſich, daß er kein Geld
+                  mehr<lb/>habe. Smeraldina ziehet in aus u. haͤlt ihn fuͤr einen Narrn.
+                  Arle-<lb/>quin weinet; Smeraldina wird zum Mitleiden beweget und giebt<lb/>ihm mit
+                  Schlaͤgen eine Sachen zuruͤck u. gehet fort. Arlequin be-<lb/>klaget ſein
+                  Ungluͤck. Woruͤber Fiametta dazu kommt und gantz er-<lb/>ſchrickt, da ſie ihn in
+                  einer ſo elenden Geſtalt antrifft. Arlequin er-<lb/>zehlet ihr, was ſich
+                  zugetragen u. weil es ihr zu Hertzen gehet, ſagt<lb/>ſie, ſie wiſſe eine
+                  Gelegenheit, wie er wieder in das Hauß kommen<lb/>koͤnnte, und raͤth ihm, er ſolle
+                  ſich fuͤr eine Frantzoͤſiſche Mademois-<lb/>ſelle, die Dienſte ſuche, ausgehen,
+                  Baſiliſco wuͤrde ihn unfehlbar an-<lb/>nehmen, u. da koͤnne er in der Nacht die
+                  Gelegenheit beobac-<lb/>ten und ihm den Contract weg nehmen. Dem Arlequin
+                  gefaͤllt<lb/>der Rath. Smeraldina zieht ihm Frauen-Kleider an und gehet
+                  fort.<lb/>Arlequin klopfet an u. Silvio komt heraus u. fragt, wer er ſey
+                  und<lb/>was er wolle? Arlequin ſpricht halb Jtaliaͤniſch und halb
+                  Fran-<lb/>tzoͤſich u. nach einigen Poſſen ſagt er, daß er Bedienung ſuche.
+                  Silvio<lb/>kennt ihn an der Stimme, ſtellet ſich, als wenn er ihn
+                  annehmen<lb/>wolle u. ſagt, er ſolle nur einen Augenblick verziehen u. gehet
+                  fort.<lb/>Arlequin freuet ſich, daß ihm ſein Anſchlag ſo wohl von ſtatten
+                  ge-<lb/>het. Allein, Silvio komt mit Monsieur Hieronymus, ſchlagt den<lb/>
+                  <fw type="catch" place="bottom">ar-</fw>
+                  <pb facs="#granbasi_ge_011" n="11"/>
+                  <fw type="pageNum">11</fw>Arlequin u. geht fort. Arlequin bleibt gantz betruͤbt
+                  zuruͤck. Fiamet-<lb/>ta, die alles mit angeſehen, troͤſt ihm, ſpricht ihm einen
+                  Muth zu,<lb/>ziehet ihn als ein Geſpenſte an, und ſagt er ſolle ſich fuͤr den
+                  Geiſt des<lb/>Arlequins ausgeben u. dem Silvio mit einer unaufhoͤrlichen
+                  Verfol-<lb/>gung drohen, wofern er ihm nicht den Contract des verſtorbenen
+                  Arle-<lb/>quins heraus geben wollte. Arlequin macht Lerm vor der Thuͤre.
+                  Silvio<lb/>komt heraus u. da er das verſtellte Geſpenſte gewahr wird, thut<lb/>er,
+                  als ob er ſich fuͤrchte. Arlequin ſagt, was ihm Fiamette befoh-<lb/>len. Silvio
+                  aber ſtellet ſich, als ob er uͤber Arlequins Tod ſehr be-<lb/>truͤbt waͤre u.
+                  ſagt, es ſey billig, daß er, durch Auslieferung des<lb/>Contracts, ſeinem Geiſt
+                  die Muͤhe befoͤrdere, daß er ſolches dieſen<lb/>Augenblick um deſto eher thun
+                  wolle, je mehr Monſieur Hieronymus<lb/>Macht uͤber die Geiſter der Verſtorbenen
+                  haͤtte. Arlequin wird uͤ-<lb/>ber die Worte gantz erfreut u. thut als wenn er noch
+                  ſo hertzhafft<lb/>waͤre. Silvio gehet fort den Contract zu hohlen u. komt mit
+                  Mon-<lb/>ſinur Hieronymus wieder zuruͤck u. thut als ob er den Arlequin
+                  ſchla-<lb/>gen wolle. Arlequin lacht. Hierauf folgen noch mehr Poſſen,
+                  wor-<lb/>auf Silvio den Arlequin auspruͤgelt, mit ſeinem Geſpenſte ſpottet
+                  u.<lb/>fortgehet. Fiametta koͤmmt hervor, troͤſtet den Arlequin u. ſagt,<lb/>ſie
+                  habe einen andern Streich, der vielleicht beſſer von ſtatten gehen<lb/>wuͤrde u.
+                  ſagt, er ſolle ſich ſtellen, als ob er todt waͤre u. ſie wollte<lb/>heulen u.
+                  ſchreyen. Baſiliſco wuͤrde ihm ohnfehlbahr aus Mitleiden<lb/>etwas zu ſeiner
+                  Beerdigung eben u. ſie auf die Art etwas Geld, ihr<lb/>Elend zu mildern, bekommen.
+                  Nach einigen Poſſen legt ſich Arlequin<lb/>auf die Erde. Fiametta thut, als ob ſie
+                  ſeinen Tod beweine und<lb/>ſchreyt aus vollem Halſe. Silvio kommt heraus u. thut,
+                  als ob er<lb/>deſſen Tod gleichfals beklage. Fiametta wirfft ihm ſeine
+                  Grauſam-<lb/>keit gegen ſeinen Wohlthaͤter vor. Zuletzt ſagt Silvio, daß er
+                  Mon-<lb/>ſieur Hieronymus hohlen wolle, der die Krafft habe, die Toden
+                  wie-<lb/>der lebendig zu machen. Wie Arlequin den Nahmen Hieronymus<lb/>hoͤret,
+                  ſtehet er aus Furcht auf. Silvio lacht ihn aus, Arlequim aber<lb/>
+                  <fw type="sig" place="bottom">* 2</fw>
+                  <fw type="catch" place="bottom">er-</fw>
+                  <pb facs="#granbasi_ge_012" n="12"/>
+                  <fw type="pageNum">12</fw>erinnert ſich, daß er ſeinem Contracte ein Codicill
+                  angehenget, ver-<lb/>moͤge welchem er verbunden iſt, ihm, im ſtreitigen Falle, ſo
+                  viel zu<lb/>geben, daß er u. noch eine Perſon davon leben kan. Silvio
+                  antwor-<lb/>tet, er habe ſolches gantz wohl wahrgenommen, er wolle auf
+                  der<lb/>Stelle ſeine Verbindung erfuͤllen u. gehet ab. Fiametta lobt
+                  den<lb/>Arlequin, daß er das Codicill mit angehnget. Silvio koͤmmt zuruͤck
+                  u.<lb/>giebt ihm ein Kaͤſtgen u. ſagt, ſo lange er dieſes habe, koͤnne er
+                  mit<lb/>10. Perſonen leben, u. gehet fort. Beyde glauben, es waͤren
+                  viel<lb/>Juwelen, wie ſie aber das Kaͤſtgen aufmachen, finden ſie nur
+                  einen<lb/>Strick darinne. Arlequin ſagt, es koͤnnten ſich nicht nur 10.
+                  ſon-<lb/>dern 100. Perſonen an dieſes Capital halten und da er nicht weiß,
+                  wo<lb/>es mit ſeinem Ungluͤck endlich hinaus will, beklagt er ſich uͤber
+                  ſein<lb/>Schickſal u. geht fort. Fiametta ſolgt ihm nach.</p>
+               <p rend="indent">Odoardo trit auf u. bittet den Doctor, daß er ihm ſeine
+                  Toch-<lb/>ter geben moͤchte, in die er verliebt waͤre. Der Doctor giebt
+                  ihm<lb/>ſein Wort und um den Heyraths-Contract aufſetzen zu laſſen, gehen<lb/>ſie
+                  fort.</p>
+               <p rend="indent">Arlequin iſt gantz verzweiffelnd, da er ſich von aller Welt
+                  verlaſ-<lb/>ſen u. noch ausgelacht ſiehet, daß er die Thorheit begangen u.
+                  alles<lb/>das ſeinige einem Landſtreicher angehangen u. ſagt er wolle ſich
+                  ſel-<lb/>ber um das Leben bringen u. indem er ſolches bewerckſtelligen
+                  will<lb/>kommt ein Zauberer, der ihm troͤſtet u. ſaget, daß er ihm mit
+                  ſeiner<lb/>Kunſt beyſtehen wolle. Arlequin bedancket ſich. Der Zauberer
+                  be-<lb/>zaubert Arlequins kleinen Stock, durch einige unbekannte Worte,<lb/>u.
+                  ſagt, daß alle die, ſo er mit dieſem Stocke anruͤhren u. Berlic dabey<lb/>ſprechen
+                  werde, wuͤrden unbeweglich ſtehen bleiben, biß daß er ſie<lb/>wieder annruͤhrete
+                  und das Wort: Berloc dazu ſagete. Arlequin<lb/>kan es nicht begreiffen, der
+                  Zauberer aber macht die Probe an ihm<lb/>ſelbſt. Arlequin freuet ſich u. dancket
+                  ſeinem Wohlthaͤter, der ab-<lb/>gehet. Nachdem er ſich einen Muth gefaſſet, pochet
+                  er bey dem Sil-<lb/>vio an. Silvio fragt, was er haben will? Arlequin thut
+                  hertzhafft<lb/>und ſagt, er ſey der wahrhaffte Herr von dieſem Hauſe. Silvio ant-<lb/>
+                  <fw type="catch" place="bottom">wor-</fw>
+                  <pb facs="#granbasi_ge_013" n="13"/>
+                  <fw type="pageNum">13</fw>wortet er ſelbſt ſey es u. drohet ihm mit dem Herrn
+                  Hieronymus. Arle-<lb/>quin mocquirt ſich, u. Silvio nimmt ſeinen Stock u. will ihn
+                  ſchla-<lb/>gen; Arlequin aber ruͤhrt ihn an, ſagt: Berlic und bezaubert
+                  ihn.<lb/>Dieſes wiederhohlt er zum oͤfftern, nachdem er ihn wieder loßgemacht.
+                  <lb/>Zuletzt nimmt er ihm den Degen, den Hut u. den Hiero-<lb/>nymus, der auf der
+                  Erde liegt und laͤſſet ihn bezaubert ſtehen. Hier-<lb/>auf geht er in das Hauß,
+                  macht die Thuͤre zu u. loͤſet von dem Fen-<lb/>ſter heraus den Silvio auf. Dieſer
+                  iſt beſtuͤrtzt, da er ſich entwaff-<lb/>net und ohne Hut auf der Straſe ſiehet,
+                  und will in das Hauß ge-<lb/>hen. Arlequin lacht in aus und dieſer ſaget, daß,
+                  vermoͤge des Contracts<lb/>das Hauß ſeine ſey. Arlequin weiſet ihm den Contract
+                  zum Fen-<lb/>ſter heraus u. ſagt ihm auf Lateiniſch: Du koͤmmſt zu langſam u. haſt
+                  dir uͤbel gebettet; Das Vermaͤchtniß iſt zu Ende und du<lb/>haſt nichts mehr zu
+                  hoffen. Silvio will nach dem Herrn Hierony-<lb/>mus greiffen. Arlequin kommt mit
+                  dem Degen in der Hand und<lb/>will ihn todt ſtechen. Silvio faͤllt auf die Knie,
+                  bittet um Pardon<lb/>und ſagt, er habe es nur gethan, um ihn von ſeiner
+                  allzugroſen Frey-<lb/>gebigkeit abzuhalten und ſich an der Bedientin zuraͤchen,
+                  die, unter<lb/>dem Nahmen Fiametta, bey ihm waͤre. Als ſie ſo mit einander
+                  ſpre-<lb/>chen kommen die Alten. Silvio ſetzt ſeine Rede fort und ſaget,
+                  ſie<lb/>ſey die nicht, fuͤr die ſie ſich ausgebe; Sie heiſe Diana, ſey die
+                  Toch-<lb/>ter des Pantalons von Biſognoſi und er ſelbſt habe ſie ihrem Vetter
+                  Steſſa-<lb/>lo aus Mayland entfuͤhret; Jngleichen er ſey auch derjenige
+                  nicht,<lb/>fuͤr dem er ſich ausgegeben; Er ſey in ſeiner Kindheit von den
+                  Zi-<lb/>nern entfuͤhret worden und da er aͤlter geworden ihnen entlauf-<lb/>fen;
+                  und mit Huͤlffe einer guldenen Medaille, die ihm die Zigeuner <lb/>gelaſſen und
+                  eines Briefes, den er nicht verſtehen koͤnnte, gedaͤchte<lb/>er ſeinen Vater ſchon
+                  wieder zu finden. Auf dieſe Reden treten die<lb/>Alten herzu, und nach einiger
+                  Erklaͤrung verſchiedener Dinge, findet<lb/>der Doctor, daß Baſiliſco ſein Sohn
+                  Silvio iſt. Pantalon fragt ihn,<lb/>wo die Diana geblieben ſey? Fiametta kommt
+                  dazu und Silvio ſagt:<lb/>Gehet hier iſt euere Tochter. Pantalon will ſie, wegen
+                  ihres began-<lb/>genen Fehlers, umbringen. Silvio wiederſetzet ſich ihm, und nachdem<lb/>
+                  <fw type="catch" place="bottom">er</fw>
+                  <pb facs="#granbasi_ge_014" n="14"/>
+                  <fw type="pageNum">14</fw>er erzehlet, was ſich in dem Walde mit ihnen zugetragen,
+                  ſagt er,<lb/>daß er ſie heyrathen wolle. Hierzu kommt Odoardo und weil
+                  er<lb/>glaubt, daß er noch immer die Fiametta haben will, ſtehet er
+                  im<lb/>Zweiffel, was er machen ſoll. Allein Odoardo ſagt, daß er ſich
+                  be-<lb/>truge; indem er die Aurelia, des Doctors Tochter, geheyrathet.
+                  Der<lb/>Doctor erzehlet dem Odoardo, wer Silvio ſey und dieſer umarmet ihn<lb/>als
+                  ſeinen Schwager. Hierauf kommt Brighella mit der Smeraldina<lb/>und ſagt, daß er
+                  ſie gleichfals geheyrathet und mit ihrem allerſeiti-<lb/>gen Vergnuͤgen endiget
+                  ſich das gantze Schauſpiel.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Il grande Basilisco da Bernagasso</title>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="it">Italian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb facs="#granbasi_ru_001" n="1"/>
+            <head type="main">IL GRANDE BASILISCO<lb/> DI BERNAGASSO</head>
+            <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/>
+               <date when="1733">nel 1733.</date></head>
+            <pb facs="#granbasi_ru_002" n="2"/>
+            <div type="preface">
+               <head>ARGOMENTO.</head>
+               <p rend="indent">Silvio, che da piccolo è stato rapito al Dottore dagli zingari, diventato adulto,
+                  fugge e va a Venezia, dove si innamora di Diana, figlia di Pantalone (il quale,
+                  dovendo andare a Milano, l’ha lasciato presso il fratello Stefanello) e la
+                  rapisce. Pantalone, avendo saputo del rapimento della figlia, comincia a cercarla
+                  ovunque. Nel frattempo, i due innamorati vengono aggrediti in un bosco da dei
+                  briganti che li separano l’uno dall’altra. Diana, che non sa dove andare,
+                  raggiunge Milano, dove, non avendo notizia alcuna del suo innamorato, va a servire
+                  in casa di Arlecchino, ricco mercante di quella città. È là che Silvio,
+                  travestitosi da mendicante, la trova, dopo averla cercata invano sempre
+                  accompagnato dal pensiero che l’attacco dei briganti nel bosco sia stato
+                  organizzato con il suo consenso e con l’aiuto di alcuni suoi innamorati. Questo è
+                  l’intreccio della commedia.</p>
+            </div>
+            <pb facs="#granbasi_ru_003" n="3"/>
+            <castList>
+               <head>PERSONAGGI.</head>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="pantalone_it">PANTALONE</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="dottore_it">IL DOTTORE,</role>
+                     <roleDesc>amici.</roleDesc>
+                  </castItem>
+               </castGroup>
+               <castItem>
+                  <role xml:id="diana_it">DIANA,</role>
+                  <roleDesc>sotto il nome di Fiammetta, figlia di Pantalone e serva di
+                     Arlecchino.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                  <roleDesc>mercante.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="silvio_it">SILVIO,</role>
+                  <roleDesc>sotto il nome di Basilisco, dopo figlio del Dottore.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="odoardo_it">ODOARDO,</role>
+                  <roleDesc>innamorato di Fiammetta.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_it">BRIGHELLA,</role>
+                  <roleDesc>suo servitore.</roleDesc></castItem>
+               <castItem>
+                  <role xml:id="smeraldina_it">SMERALDINA,</role>
+                  <roleDesc>ostessa.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="mago_it">Un mago.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="sgerri_it">Sgherri.</role>
+               </castItem>
+            </castList>
+            <set>
+               <p>L’azione si svolge a Milano.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#granbasi_ru_003" n="3"/>
+            <div type="act" n="1">
+               <head>ATTO PRIMO.</head>
+               <stage>LA SCENA MOSTRA LA CITTÀ.</stage>
+               <p rend="indent">I VECCHI entrano e dopo aver pronunciato molto parole sulla loro
+                  amicizia di vecchia data, si mettono a consolarsi l’uno l’altro, Pantalone per la
+                  perdita della figlia, rapita da un giovane a Venezia, dove l’aveva lasciato sotto
+                  la sorveglianza di Stefanello, suo zio; e il Dottore per la disgrazia di suo
+                  figlio Silvio che gli hanno rapito gli zingari nel villaggio quando era ancora un
+                  bambino. Promettono di aiutarsi a vicenda a ritrovare i figli, di scrivere ai loro
+                  corrispondenti e tenere d’occhio tutte le locande della città. Il Dottore va a
+                  scrivere la lettera a una persona, mentre Pantalone chiama</p>
+               <p rend="indent">SMERALDINA un’ostessa che, come al solito con tali persone, inizia a
+                  fargli molti complimenti. Anche Pantalone si mette a scherzare con lei. Dopodiché
+                  il vecchio le chiede di informarlo di tutte le donne e gli uomini che arrivano da
+                  lei. Smeraldina lo promette e gli chiede di passare più spesso da lei. Pantalone
+                  glielo promette e dopo qualche reciproca cortesia si separano.</p>
+               <p rend="indent">ODOARDO entra dicendo a Brighella dell’amore che ha iniziato a
+                  provare per Fiammetta, la nuova serva di Arlecchino, e che intende chiederla in
+                  moglie. Brighella gli risponde che potrebbe farlo, ciononostante gli chiede di
+                  pensare se questo matrimonio gli convenga, perché per sposare Fiammetta dovrebbe
+                  lasciare Aurelia, la figlia del Dottore che lo ama appassionatamente. Odoardo gli
+                  ordina di tacere e soltanto di obbedire. Brighella dice che quello è il suo dovere
+                  e vanno.</p>
+               <p rend="indent">ARLECCHINO insegna a Fiammetta, sua nuova serva, il modo in cui lei
+                  deve cucinare il cibo, si rammarica che la carne non è sempre fritta come
+                  dovrebbe. <pb facs="#granbasi_ru_004" n="4"/> Inizia ad insegnarle come friggere bene.
+                  Anche Fiammetta inizia a lamentarsi, dice che lei, essendo sola, non può badare a
+                  tutto. Arlecchino promette di prendere un servitore per aiutarla, in modo da avere
+                  qualcuno che vada all’ufficio postale. Va via facendo un lazzo con Fiammetta, che
+                  entra in casa.</p>
+               <p rend="indent">SILVIO vestito da mendicante dice tra sé che ha rapito a Venezia
+                  Diana, che l’ha lasciato nel bosco mentre combatteva con degli sconosciuti che
+                  l’hanno attaccato, forse con l’accordo di lei. Silvio con molte parole accresce la
+                  sua infelicità perché non conosce la sua stirpe ed è obbligato a chiedere
+                  l’elemosina. Dopodiché, vedendo che arrivano delle persone, va via.</p>
+               <p rend="indent">ARLECCHIO entra parlando non si sa con chi perché quello non è
+                  visibile. Dopo dice di aver ricevuto una lettera dalla posta, la apre e appena
+                  inizia a leggere anche Silvio da dietro legge. Arlecchino si volta, Silvio non
+                  dice niente, gli si inchina e va via. Arlecchino dice che quello è uno sciocco o
+                  un imbroglione e inizia di nuovo a leggere. Silvio ritorna e con un lazzo va via.
+                  Silvio lo ripete una terza volta e alla quarta dà un bel colpo ad Arlecchino con
+                  un bastone e inizia a chiedergli l’elemosina dicendo che sono già tre giorni che
+                  non mangia nulla. Arlecchino, rattristato, gli dà un rublo. Silvio lo prende,
+                  guarda Arlecchino e senza ringraziare va via. Arlecchino rimane meravigliato da
+                  quel modo di chiedere l’elemosina, vuole finire di leggere la sua lettera. Silvio
+                  ritorna, gli dà indietro il suo rublo e dice che sono già tre giorni che non
+                  mangia. Arlecchino gli dà un altro rublo che Silvio prende con un lazzo e va via.
+                  Arlecchino rimproverando la follia del mendicante, ricomincia a leggere. Silvio
+                  infastidendolo torna e gli dice che sono già tre giorni che non mangia. Arlecchino
+                  gli dà <pb facs="#granbasi_ru_005" n="5"/> il terzo rublo. Silvio va via e torna per la
+                  quarta volta. Infastidito dalla sua richiesta, Arlecchino vuole dargli tutta la
+                  borsa. Silvio inizia ad infuriarsi con Arlecchino. Arlecchino, sorpreso, gli
+                  chiede la ragione della sua collera. Silvio gli dice che è arrabbiato perché lui
+                  vuole ucciderlo, avendogli dato improvvisamente così tanti soldi, con i quali in
+                  un osteria potrebbe riempirsi la pancia e ubriacarsi così tanto da scoppiare e che
+                  lui non desidera che un copeco soltanto, con il quale poter comprare il pane e
+                  mangiare. Arlecchino si meraviglia del mendicante così onesto e gli domanda se
+                  vuole accettare un lavoro. A questa parola Silvio fa un lazzo, alzando il suo
+                  bastone inizia a urlare: il cielo mi assista! La cosa rattrista un’altra volta
+                  Arlecchino che gli ordina di stare tranquillo con il suo bastone. Silvio dice che
+                  quello non è un bastone, ma è il suo compagno caro e fedele che si chiama signor
+                  Geronimo. Arlecchino chiede al signor Geronimo di non irritarsi così spesso e
+                  chiede di nuovo a Silvio se vuole servirlo. Silvio gli chiede il suo rango.
+                  Arlecchino gli risponde che è mercante. Udendo quel nome Silvio si stupisce che
+                  Arlecchino vada in giro vestito in quel modo e tira fuori dalla borsa il suo
+                  caftano e con un lazzo lo mette sopra ad Arlecchino, il quale elogia la sua
+                  pulizia e si rallegra dell’arte di Silvio. Poi Arlecchino gli chiede come si
+                  chiama. Silvio lo obbliga a compiere molte cerimonie e dice di chiamarsi grande
+                  Basilisco da Bernagasso. Dopo anche Silvio gli chiede quale è il suo nome.
+                  Arlecchino lo costringe alle stesse cerimonie e gli dice che si chiama grande
+                  Arlecchino e così via. Dopodiché Arlecchino inizia a dire che ha una serva a casa
+                  sua, con la quale Silvio deve vivere in pace. Silvio glie lo promette e avvisa di
+                  alcune pene che ogni tanto lo affliggono. Arlecchino gli chiede di che tipo di
+                  pene sta parlando. Silvio dice che soffre di un po' di ebollizione di bile,
+                  durante la quale <pb facs="#granbasi_ru_006" n="6"/> può fare a pezzi un uomo. Arlecchino
+                  gli dà presto congedo dicendo che non ha bisogno di essere fatto a pezzi. Silvio
+                  risponde che quando quella malattia si abbatte su di lui basta soltanto soffiare
+                  un poco sul suo viso cantando e ballando. La stessa cosa va fatta anche quando non
+                  vuole obbedire agli ordini. Arlecchino dice che se è così, allora può servirlo e
+                  che lo vuole vedere all’opera e chiama</p>
+               <p rend="indent">FIAMMETTA, alla quale racconta di aver assunto un servitore. Silvio
+                  e Fiammetta si guardano riconoscendosi, si meravigliano di trovarsi entrambi a
+                  Milano. Fiammetta domanda ad Arlecchino il nome di quel nuovo servitore.
+                  Arlecchino risponde che si chiama Basilisco. Fiammetta con un lazzo risponde che
+                  non è vero. Arlecchino conferma di sì. Anche Silvio smentisce il ragionamento di
+                  Fiammetta. Alla fine, Arlecchino ordina a Fiammetta di insegnare a Silvio cosa c’è
+                  da fare in casa e va via. Silvio e Fiammetta, ognuno pensando di essere stato
+                  abbandonato dall’altro si mettono a rimproverare l’un l’altro e a prendersi a
+                  botte.</p>
+               <p rend="indent">A quelle grida arriva ARLECCHINO con la medicina della quale gli
+                  aveva parlato Silvio per lenire la bile del Basilisco. Poi chiede loro le ragioni
+                  per le quali litigano. Il Basilisco racconta che Fiammetta voleva costringerlo a
+                  portare l’acqua in cucina, cosa che lui non voleva fare. Arlecchino chiede a
+                  Fiammetta che lo faccia da sola, ma vedendo che lei non vuole farlo e per
+                  riappacificarli, dice che la porterà lui stesso ed entra in casa. Rimasti soli,
+                  Silvio e Fiammetta ricominciano a bisticciare. Ciò costringe Arlecchino a tornare
+                  un’altra volta e, calmata la finta bile del Basilisco, inizia a rimproverare
+                  Fiammetta perché l’ha fatto arrabbiare in quel modo. Basilisco dice che lei voleva
+                  costringerlo a prendere l’acqua. Arlecchino consiglia loro di portarla una volta
+                  l’uno, una volta l’altro ma vedendo che nessuno dei due vuole obbedire, dice che
+                     <pb facs="#granbasi_ru_007" n="7"/> la porterà lui stesso e va via. Fiammetta e Silvio
+                  cominciano di nuovo a far rissa. Arlecchino ritorna, calma Basilisco e crede che
+                  la loro discussione riguardi chi debba svuotare il vaso da notte. Arlecchino dice
+                  che lo devono fare tutti e tre e per questo ordinerà di confezionare un vaso con
+                  tre manici e va via. Fiammetta e Silvio minacciandosi reciprocamente lo
+                  seguono.</p>
+               <p rend="indent">ODOARDO chiede a Brighella se gli sgherri che gli ha ordinato di
+                  chiamare sono arrivati. Brighella risponde di sì e che attendono il suo ordine.
+                  Odoardo dice che vuole prendere Fiammetta ad Arlecchino e picchiarlo se rifiuta di
+                  dargliela. Brighella, vedendo il padrone convinto nelle sue intenzioni, inizia a
+                  bussare al portone di Arlecchino.</p>
+               <p rend="indent">ARLECCHINO esce e Odoardo gli chiede Fiammetta. Arlecchino rifiuta.
+                  Odoardo lo minaccia. Arlecchino non vi bada. Odoardo fa un cenno a Brighella che
+                  fa entrare gli sgherri. Vedendoli Arlecchino si spaventa e finge di volergli dare
+                  Fiammetta ma chiama Silvio,</p>
+               <p rend="indent">al quale racconta delle richieste e delle minacce di Odoardo. Silvio
+                  fa molti lazzi, vedendo così tante persone dice ad Arlecchino, fingendo di essere
+                  codardo, che ce ne sono troppi per uno e se ne va. Arlecchino inizia a disperarsi
+                  per la paura di Basilisco e lo chiama di nuovo. Silvio ritorna con il signor
+                  Geronimo, Arlecchino si rallegra. Odoardo chiede una risoluzione ad Arlecchino.
+                  Arlecchino chiede a Silvio cosa dovrebbe essere fare. Silvio risponde che se
+                  Arlecchino non vuole dare Fiammetta a Odoardo deve dirglielo direttamente. Da
+                  quello nasce un lazzo. Alla fine, Basilisco inizia a picchiare gli sgherri che
+                  scappano insieme a Odoardo e a Brighella. Arlecchino si rallegra del coraggio del
+                  suo servitore e con un lazzo si conclude il</p>
+               <p rend="indent">Primo Atto.</p>
+            </div>
+            <pb facs="#granbasi_ru_008" n="8"/>
+            <div type="act" n="2">
+               <head>ATTO SECONDO.</head>
+               <p rend="indent">ODOARDO entra con Brighella seguito dagli sgherri. Dice a Brighella
+                  che vuole vendicarsi di Basilisco, incita i suoi uomini e ordina a Brighella di
+                  bussare al cancello di Arlecchino.</p>
+               <p rend="indent">ARLECCHINO sporge la testa, vedendo un gran numero di persone si
+                  nasconde e chiama Basilisco. Odoardo, Brighella e gli sgherri si spaventano e
+                  scappano. Arlecchino esce da casa sua con Fiammetta e Silvio, vestiti
+                  egregiamente. Basilisco ringrazia Arlecchino per avergli regalato l’abito, mentre
+                  Arlecchino elogia il suo coraggio. Fiammetta con disprezzo critica Silvio per il
+                  suo cappello e la spada. Arrabbiato, Silvio li getta a terra. Arlecchino
+                  rimprovera Fiammetta, poi comanda a Silvio di raccoglierli. Silvio non vuole.
+                  Arlecchino canta. Basilisco finge che il canto lo faccia obbedire e solleva il
+                  cappello e la spada. Da quello nascono molti lazzi. Alla fine, Arlecchino dice a
+                  Silvio che vuole regalargli tutte le sue ricchezze e farlo sposare con sua nipote,
+                  mentre lui prenderà in moglie Fiammetta, a cui ordina di allontanarsi. Fiammetta
+                  va via maledicendo la decisione del padrone. Arlecchino ordina a Basilisco di
+                  seguirlo e, vantandosi di possedere un tale servitore, si gira ad ogni passo. Da
+                  ciò nasce un lazzo divertente con il quale escono.</p>
+               <p rend="indent">ODOARDO entra chiedendo al Dottore un quarto d’ora del suo tempo
+                  perché si tratta di matrimonio. Il Dottore risponde di essere disponibile. Nel
+                  frattempo, arriva</p>
+               <p rend="indent">SILVIO che riconosce in Odoardo quello che vuole portare via
+                  Fiammetta e lo costringe a sguainare la spada. Odoardo cade. Silvio si lancia su
+                  di lui. Il Dottore intercede dicendo che Odoardo è un suo apprendista. Silvio dice
+                  che una strana inclinazione che non sa come interpretare, lo obbliga a non opporsi
+                  a <pb facs="#granbasi_ru_009" n="9"/> quel vecchio e obbedendogli va via. Odoardo
+                  ringrazia il Dottore e anche lui va via. Il vecchio rimane, è sorpreso della
+                  sensazione che ha avuto vedendo quello straniero e va via. In quel momento
+                  entra</p>
+               <p rend="indent">ARLECCHINO e chiede al Dottore se ha scritto la bozza dell’atto di
+                  donazione per il suo servitore. Il Dottore risponde di sì, poi consiglia ad
+                  Arlecchino di pensarci bene alle sue intenzioni per non pentirsi con il tempo. A
+                  quelle parole</p>
+               <p rend="indent">SILVIO arriva con la spada sguainata contro il Dottore. Arlecchino
+                  lo calma come nel solito modo e dice che il Dottore è un suo amico. Ordina al
+                  Dottore di dare l’atto di donazione a Basilisco. Il Dottore tremando va da Silvio
+                  e gli dà l’atto. Da quello nasce un lazzo tra di loro. Alla fine, il Dottore
+                  vedendo che Basilisco non vuole accettare l’atto scommette con Arlecchino che non
+                  lo accetterà nemmeno da lui. Arlecchino risponde che accetterà e con la forza del
+                  canto costringe Silvio ad accettare l’atto, poi dà un luigi d’oro [cioè quattro
+                  rubli] al Dottore. Silvio glielo toglie e chiede ad Arlecchino perché ha dato quei
+                  soldi a quest’uomo. Arlecchino gli risponde che gli ha dato i soldi per il suo
+                  lavoro di scrivere l’atto di donazione. Silvio inizia a rimproverare Arlecchino
+                  perché sperpera il denaro che non è più suo e gli toglie tutta la borsa con i
+                  soldi. Dà soltanto un copeco al Dottore che, chiamandolo mendicante e povero, se
+                  ne va. Arlecchino inizia a maledire l’avarizia di Basilisco e gli ordina di
+                  seguirlo. Silvio gli risponde di andare a comandare i suoi servitori. Arlecchino
+                  ride del suo cattivo umore e vuole entrare in casa. Ma Silvio lo scaccia via
+                  dicendo che quella casa è sua e chiunque avesse avuto il coraggio di avvicinarsi
+                  ad essa sarebbe stato punito con cento bastonate. Arlecchino pensa che Silvio stia
+                  scherzando. <pb facs="#granbasi_ru_010" n="10"/> Ma vedendo che dice la verità e che
+                  aveva chiuso a chiave davanti ai suoi occhi il cancello, va via disperato e inizia
+                  a rimproverare crudelmente Basilisco. Intanto</p>
+               <p rend="indent">SILVIO caccia Fiammetta dal cortile bastonandola. Fiammetta si mette
+                  dietro ad Arlecchino che voleva intercedere per lei ma Silvio inizia a picchiarlo.
+                  Per quello ci sono molti lazzi. Dopo i quali Silvio minaccia Arlecchino e
+                  Fiammetta con il bastone per non farli entrare nel cortile, entra e chiude a
+                  chiave il cancello. Fiammetta rimprovera Arlecchino per non aver ascoltato i suoi
+                  consigli. Arlecchino ammette tristemente il suo errore, le chiede di andare da
+                  madama Spessega a chiedere aiuto. Fiammetta esce. Arlecchino rimane e per mettere
+                  al corrente il Dottore delle sue disgrazie si mette a bussare al suo portone.</p>
+               <p rend="indent">Il DOTTORE esce, Arlecchino vorrebbe parlargli, ma il Dottore con
+                  tanti e frequenti discorsi non gli dà modo di dire una sola parola e se ne va.
+                  Arlecchino disperato per la sua sfortuna rimprovera l’eloquenza del Dottore e
+                  bussa al cancello del notaio</p>
+               <p rend="indent">SABADINO, che a volte parla veloce, a volte piano, a volte con la
+                  voce, a volte senza voce crea un lazzo e se ne va. Arlecchino, tutto infuriato,
+                  rimane. Intanto arriva</p>
+               <p rend="indent">Il DOTTORE che vuole parlare con Arlecchino ma viene interrotto
+                  da</p>
+               <p rend="indent">SABADINO, il quale vuole parlare anche lui con Arlecchino. Ognuno
+                  tira Arlecchino dalla sua parte. Arlecchino è dispiaciuto di essere trattato in
+                  quel modo. Per quello, dopo alcuni lazzi, lascia cadere entrambi a terra e corre
+                  via. Così si conclude il</p>
+               <p rend="indent">Secondo Atto.</p>
+            </div>
+            <pb facs="#granbasi_ru_011" n="11"/>
+            <div type="act" n="3">
+               <head>ATTO TERZO.</head>
+               <p rend="indent">ODOARDO entra dicendo a Brighella che ha ascoltato i suoi consigli e
+                  vuole riconciliarsi con Aurelia, per lei vuole andare a comprare dei diamanti.
+                  Brighella gli domanda se ha con sé dei soldi. Odoardo gli mostra la borsa in cui,
+                  dice, ci sono cinquanta rubli e va con Brighella perdendo la borsa mentre la stava
+                  mettendo in tasca.</p>
+               <p rend="indent">ARLECCHINO è molto triste per quello che gli è accaduto, ingrandisce
+                  con molte parole la sua povertà, trova quella borsa, si rallegra vedendo i soldi e
+                  dice di voler andare all’osteria. E vedendola vicina comincia a bussare.
+                  Arriva</p>
+               <p rend="indent">SMERALDINA che conosce Arlecchino e lo accoglie cortesemente.
+                  Arlecchino le mostra la sua borsa, Smeraldina guardandola gioisce e dopo alcuni
+                  lazzi lo porta nell’osteria. Appena Arlecchino è entrato nell’osteria torna</p>
+               <p rend="indent">ODOARDO con Brighella raccontando di aver perso la borsa con i
+                  soldi. Iniziano a cercarla ma non la trovano. Odoardo dice di voler andare a casa
+                  per prendere altri soldi e va via. Brighella lo segue. Ma</p>
+               <p rend="indent">SMERALDINA esce dall’osteria con Arlecchino che, pieno di rabbia, la
+                  rimprovera e le dice che lui non comprende questa parola: PAGARE. Smeraldina
+                  arrabbiata per l’imprecazione vuole avere i suoi soldi, da quello derivano molti
+                  lazzi. Alla fine, Arlecchino tira fuori la borsa e vuole accontentare l’ostessa;
+                  nel mentre arriva</p>
+               <p rend="indent">ODOARDO con Brighella, vedendo la borsa perduta nelle mani di
+                  Arlecchino, gliela strappa, dicendo che quella borsa è loro e, chiamandolo ladro,
+                  va via. Smeraldina vuole comunque essere pagata. Arlecchino si scusa, <pb facs="#granbasi_ru_012" n="12"/> dicendo di non avere più soldi. Smeraldina gli
+                  strappa il vestito e lo chiama stupido. Arlecchino piange. Smeraldina avendo pietà
+                  gli restituisce il vestito, è soddisfatta per averlo picchiato e va via.
+                  Arlecchino, molto infelice, rimane, e arriva</p>
+               <p rend="indent">FIAMMETTA che si stupisce di vederlo in quello stato. Arlecchino le
+                  racconta tutto ciò che gli è successo. Lei se ne dispiace e gli dice che è
+                  necessario trovare un trucco, attraverso il quale entrare in casa. Fiammetta
+                  consiglia ad Arlecchino di fingersi una ragazza francese in cerca di lavoro e
+                  Basilisco, ingannato dal vestito, forse, lo avrebbe accettato al suo servizio.
+                  Allora Arlecchino potrebbe avere l’occasione di rubare di notte l’atto di
+                  donazione e di strapparlo. Arlecchino è d’accordo. Fiammetta prende un vestito da
+                  donna di seconda mano da una sua amica che abita in un angolo di strada, lo fa
+                  indossare ad Arlecchino e se ne va. Arlecchino inizia a bussare al portone di casa
+                  sua.</p>
+               <p rend="indent">SILVIO esce e chiede chi è e di cosa ha bisogno. Arlecchino mezzo in
+                  francese e mezzo in italiano, dopo molti lazzi, gli dice che cerca lavoro. Silvio
+                  lo riconosce dalla voce e finge di volerlo assumere, gli ordina di aspettare un
+                  po’ e se ne va. Arlecchino è contento del successo del suo imbroglio. Silvio torna
+                  con signor Geronimo, inizia a bastonare Arlecchino e poi se ne va. Arlecchino
+                  rimane molto triste. Fiammetta, che ha visto tutto, lo consola e lo incoraggia;
+                  dopo lo veste da morto, gli dice che deve fingersi l’anima di Arlecchino, chiamare
+                  Basilisco, minacciarlo di incessante persecuzione se non avesse fatto a pezzi la
+                  donazione del defunto Arlecchino. Arlecchino, dopo un po’ di resistenza,
+                  acconsente. Fiammetta va via, Arlecchino rimane, inizia a bussare e fare rumore
+                  vicino al suo portone e arriva</p>
+               <p rend="indent">SILVIO che, vedendo un morto contraffatto, finge di avere paura.
+                  Arlecchino fa tutto <pb facs="#granbasi_ru_013" n="13"/> quello che gli ha ordinato
+                  Fiammetta. Silvio finge di essere triste per la morte di Arlecchino, dice che il
+                  suo spirito deve avere il meritato riposo e che bisogna strappare l’atto di
+                  donazione, anche perché né lui né signor Geronimo possono sopportare i lamenti del
+                  defunto. Incoraggiato da quelle parole, Arlecchino si mostra spavaldo. Silvio dice
+                  che va a prendere l’atto di donazione e torna con il signor Geronimo, finge di
+                  voler prendere a botte Arlecchino ma di non riuscire a prenderlo. Arlecchino per
+                  quello ride, da quello nascono molti lazzi. Alla fine, Silvio inizia a picchiare
+                  Arlecchino e, maledicendo la sua morte, va via. Arlecchino rimane. Fiammetta
+                  inizia di nuovo a consolarlo e lo incoraggia a provare un altro trucco. Gli dice
+                  che deve fingersi morto mentre lei piangere la sua morte, così, forse, Basilisco
+                  avendo pietà gli avrebbe dato qualcosa per la sua sepoltura. Così può avere
+                  qualche soldo per alleviare la loro povertà. Arlecchino dopo molti lazzi si stende
+                  a terra. Fiammetta inizia così a piangere sul morto. A quel grido arriva</p>
+               <p rend="indent">SILVIO e finge di dispiacersi per la morte di Arlecchino. Fiammetta inizia a
+                  rimproverarlo per la crudeltà verso il suo benefattore. Da quello derivano molti
+                  lazzi. Alla fine, Silvio conforta Fiammetta e le dice che vuole prendere signor
+                  Geronimo che ha il potere di resuscitare i morti. Sentendo quel nome Arlecchino
+                  salta con orrore. Silvio ride di lui. Arlecchino ricorda che nella donazione c’era
+                  scritto che, nel caso di qualche contenzioso, Silvio deve provvedere al suo
+                  mantenimento, così come al mantenimento di un’altra persona. Silvio risponde che
+                  anche lui ha notato quella clausola nel contratto e la vuole assolvere e va via.
+                  Fiammetta elogia Arlecchino per aver inserito quella clausola <pb facs="#granbasi_ru_014" n="14"/> nel contratto. Silvio torna con un vaso e lo dà ad Arlecchino e
+                  Fiammetta dicendo che con quello che c’è lì dentro, non soltanto due persone, ma
+                  se a loro fa piacere, possono mantenerne dieci di persone e va via. Arlecchino e
+                  Fiammetta pensano che lì dentro ci siano cose di diamanti, aprono il vaso e vi
+                  trovano una corda. Arlecchino dice che non solo dieci persone ma cento possono
+                  essere mantenute da quel Capitale e non sapendo cosa fare va via piangendo e
+                  maledicendo la sua sfortuna. Fiammetta va via con lui, così da poter ottenere
+                  qualcosa per il suo mantenimento.</p>
+               <p rend="indent">ODOARDO entra chiedendo al Dottore di dargli in moglie sua figlia
+                  Aurelia che lui ama. Il vecchio gli dà la sua parola e per scrivere il contratto
+                  di matrimonio vanno via.</p>
+               <p rend="indent">ARLECCHINO inizia a disperarsi perché tutti l’hanno abbandonato e
+                  tutti ridono di lui per le sciocchezze che ha fatto dando tutte le sue cose a quel
+                  perdigiorno. Dice che ha intenzione di uccidersi, fa molti lazzi; e quando vuole
+                  uccidersi arriva</p>
+               <p rend="indent">Un mago che lo trattiene, lo consola per la sua sfortuna e gli
+                  promette di aiutarlo attraverso la sua arte. Arlecchino lo ringrazia. Il mago fa
+                  un incantesimo al piccolo bastone di Arlecchino con parole sconosciute; dopo dice
+                  che tutti coloro che toccherà con il bastoncino dicendo BERLIK rimarranno immobili
+                  come statue, finché non li toccherà di nuovo con quello dicendo BERLOK. Arlecchino
+                  non ci crede, il mago dice di sperimentare su sé stesso. Arlecchino si sorprende e
+                  gioendo con grande felicità ringrazia il suo benefattore che va via. Arlecchino
+                  con grande energia bussa al suo cancello.</p>
+               <p rend="indent">SILVIO esce chiedendogli cosa vuole. Arlecchino si azzarda a dire
+                  che è lui il legittimo proprietario di quella casa, Silvio gli risponde che <pb facs="#granbasi_ru_015" n="15"/> è il suo cortile e inizia a minacciarlo con signor
+                  Geronimo. Arlecchino non fa niente. Silvio va a prendere il suo bastone e vuole
+                  picchiare Arlecchino che, toccandolo, pronuncia BERLIK, lo incanta e inizia a
+                  divertirsi mettendo e sciogliendo l’incantesimo varie volte. Alla fine, Arlecchino
+                  toglie a Silvio la spada che gli ha dato e il cappello con signor Geronimo e butta
+                  tutto a terra, lo incanta nuovamente, dopo entra a casa sua, chiude il cancello e
+                  dalla finestra scioglie l’incantesimo a Silvio. Silvio si meraviglia di trovarsi
+                  disarmato e senza cappello per strada, vuole entrare in casa. Arlecchino dalla
+                  finestra ride di lui. Silvio minacciandolo gli dice che per l’atto di donazione
+                  quella casa è sua. Arlecchino dopo alcuni lazzi gli mostra la concessione fatta a
+                  pezzi dicendo direttamente in latino: TE SEI VENUTO TARDI; TU QUI VIVRAI MALE; IL
+                  TESTAMENTO NON È PIÙ VALIDO; NON HAI PIÙ SPERANZA. Silvio vuole prendere signor
+                  Geronimo, ma non può sollevarlo. Vedendo ciò, Arlecchino gli corre incontro con la
+                  spada sguainata. Silvio si inginocchia, chiede perdono per tutto il passato e dice
+                  ad Arlecchino che ha fatto tutto per insegnargli, perché lui non fosse generoso
+                  quando non è necessario e per vendicarsi della serva che, sotto il nome di
+                  Fiammetta, vive presso di lui. Mentre Silvio sta parlando così arrivano</p>
+               <p rend="indent">I VECCHI. Silvio continua a raccontare che la ragazza non è quella
+                  che finge di essere, il suo nome vero è Diana, è figlia di un certo Pantalone de’
+                  Bisognosi che egli l’ha portata via dalla casa dello zio Stefanello a Venezia.
+                  Racconta anche che anch’egli non è quello che ha detto di essere, ma è un giovane
+                  che è stato rapito da bambino dagli zingari, e quando è diventato maggiorenne se
+                  n’è andato da loro con una medaglia d’oro che gli zingari non gli avevano mai
+                  tolto dal collo e sulla quale ci sono parole che lui non sa interpretare.
+                  Attraverso quella medaglia Silvio spera di trovare suo padre. A questi discorsi i
+                  vecchi <pb facs="#granbasi_ru_016" n="16"/> si avvicinano e dopo molte domande e risposte
+                  il Dottore riconosce nel Basilisco suo figlio Silvio. Pantalone gli chiede dov’è
+                  Diana sua figlia. Nel frattempo</p>
+               <p rend="indent">FIAMMETTA arriva, Silvio dice: eccola qua. Pantalone è arrabbiato
+                  con lei per il suo crimine, vuole ucciderla. Silvio non glielo permette e spiega a
+                  entrambi il motivo che li ha costretti a separarsi nel bosco. Silvio promette a
+                  Pantalone di sposarsi con Diana. Nel mentre arriva</p>
+               <p rend="indent">ODOARDO. Silvio pensa che voglia ancora chiedere Fiammetta in moglie
+                  e non sa cosa fare. Ma Odoardo gli dice di aver sposato Aurelia, la figlia del
+                  Dottore. Il Dottore lo conferma. Odoardo lo abbraccia come suo cognato.
+                  Intanto</p>
+               <p rend="indent">BRIGHELLA entra corteggiando Smeraldina, dice che l’ha sposata. E così,
+                  con tutti che hanno soddisfatto i propri desideri, finisce la</p> 
+               <p rend="indent">Commedia.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

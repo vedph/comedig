@@ -1,0 +1,896 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scavalcare uno steccato</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisions of the translation</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Scavalcare uno steccato. In base alla data indicata sul frontespizio dello
+                    scenario a stampa, è possibile stabilire che la pièce sia stata allestita nel
+                    1733. La trama della commedia non presenta elementi di spiccata originalità, ma
+                    è interessante osservare l’uso delle parentesi di commento, che spiegano al
+                    lettore-spettatore il significato di alcuni parole e concetti, rivelando il
+                    livello di competenze del pubblico russo nei primi anni del Settecento. Così,
+                    viene chiarito che cos’è lo scheletro (“cioè le ossa umane assemblate come è
+                    proprio dell’uomo”) e il globo (“il globo celeste o il mappamondo, oppure una
+                    sfera di vetro su piedistallo che si usa mettere sui camini”).</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>ПЕРЕЛАЗЫ ЧРЕЗЪ ЗАБОРЪ</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (6b) RARA
+                            </idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="10">10 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="scavstec_ru_001" url="/img/scavstec_ru_001.jpg"/>
+                <graphic xml:id="scavstec_ru_002" url="/img/scavstec_ru_002.jpg"/>
+                <graphic xml:id="scavstec_ru_003" url="/img/scavstec_ru_003.jpg"/>
+                <graphic xml:id="scavstec_ru_004" url="/img/scavstec_ru_004.jpg"/>
+                <graphic xml:id="scavstec_ru_005" url="/img/scavstec_ru_005.jpg"/>
+                <graphic xml:id="scavstec_ru_006" url="/img/scavstec_ru_006.jpg"/>
+                <graphic xml:id="scavstec_ru_007" url="/img/scavstec_ru_007.jpg"/>
+                <graphic xml:id="scavstec_ru_008" url="/img/scavstec_ru_008.jpg"/>
+                <graphic xml:id="scavstec_ru_009" url="/img/scavstec_ru_009.jpg"/>
+                <graphic xml:id="scavstec_ru_010" url="/img/scavstec_ru_010.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#perezru-1" n="1"/>
+                <head type="main">ПЕРЕЛАЗЫ ЧРЕЗЪ ЗАБОРЪ.</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1733">1733 года.</date></head>
+                <pb facs="#perelru-2" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+                    <p rend="indent">CIЛВIИ и Одоардъ пристрастно влюбившисъ въ до-<lb/> череи
+                        панталоновыхъ, просятъ оныхъ у него за<lb/> себя; но Панталонъ отъ тѣхъ имъ
+                        отказываетъ,<lb/> и симъ принудилъ ихъ помощи искать въ Брïгеллѣ,<lb/>
+                        которои чрезъ ходатаиство Арлекїново обманываетъ<lb/> старика, и женилъ
+                        своихъ господъ на ихъ невѣстах.<lb/> Сïе дѣлаетъ завязку комедїи.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ</role>
+                        <roleDesc>отецъ Дïанинъ, и Вïтторïинъ.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_ru">ДIАНА, и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="vittoria_ru">ВIТТОРIЯ.</role>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                        <roleDesc>племянница ево.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                        <roleDesc>другъ ево.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ru">СIЛВIИ, и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ru">ОДОАРДЪ</role>
+                        </castItem>
+                        <roleDesc>други.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="arlecchino_ru">АРЛЕКИНЪ и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="brighella_ru">БРИГЕЛЛЪ,</role>
+                            <roleDesc>слуги.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                </castList>
+                <set>
+                    <p>Дѣиствïе это въ Веронѣ.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#perelru-3" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+                    <p rend="indent">СIЛВIИ, и Одоардъ выходятъ говоря о своеи<lb/> страсти къ
+                        дочерямъ Панталона, и о его прилѣж-<lb/> ности въ храненїи оныхъ, и въ
+                        помѣшательствѣ<lb/> имъ способа, чтобъ съ ними видѣться.</p>
+                    <p rend="indent">АРЛЕКIНЪ приходитъ, и чрезъ одно смѣшное<lb/> предложенïе
+                        доказываетъ имъ, что разумъ и дол-<lb/> жность между собою не согласны, и
+                        что то самое,<lb/> говоритъ онъ, было причиною ссоры, какову онъ<lb/> имѣлъ
+                        съ нѣкоторымъ другимъ человѣкомъ, кото-<lb/> рои былъ разнаго съ нимъ
+                        мнѣнїя. Любовники давши<lb/> ему на то отвѣтъ, принуждаютъ ево
+                        стучаться<lb/> у воротъ своихъ невѣстъ. Дïана и Вїтторïя выхо-<lb/> дятъ,
+                        стали онѣ быть ради, что видятся съ сво-<lb/> ими любовниками, и просятъ
+                        Арлекїна, чтобъ онъ<lb/> на караулѣ стоялъ, и буде увидитъ, что Панта-<lb/>
+                        лонъ идетъ, тобъ тотчасъ имъ сказалъ. Арлекïнъ<lb/> ихъ часто тѣмъ пужаетъ.
+                        По томъ Панталонъ<lb/> приходитъ, и сталъ посреди у нихъ. Дѣвицы прочъ<lb/>
+                        пошли ничево не говоря при отцѣ; изъ того про-<lb/> изходятъ многїя игрушки
+                        приличныя театру.<lb/> Послѣ которыхъ любовники и Арлекїнъ пошли.<lb/>
+                        Панталонъ остался сердитъ; къ нему приходитъ<lb/> Докторъ, которои видя, что
+                        онъ гнѣвенъ, спра-<lb/> шиваетъ у него тому причины. Панталонъ ему<lb/>
+                        сказываетъ, что надъ нимъ здѣлалось. Докторъ<lb/> у него требуетъ за себя
+                        Смералдïну племянницу<lb/> ево. Панталонъ ему ту обѣщаетъ; да и пошли<lb/>
+                        писатъ запись.</p>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ разширяя многими рѣчьми<lb/> свою любовь къ
+                        Смералдїнѣ, и сталъ кликать<lb/> oную. Смералдïна приходитъ. Начали они
+                        другъ друга<lb/>
+                        <fw type="sig" place="bottom">Щ 2</fw>
+                        <fw type="catch" place="bottom">очюнь</fw>
+                        <pb facs="#perelru-4" n="4"/>
+                        <fw type="pageNum">4</fw> очюнь улещивать; между тѣмъ Панталонъ вышелъ.<lb/>
+                        Смералдïна и Арлекїнъ хотѣли было прочь поити;<lb/> но старикъ ихъ удержалъ,
+                        и спрашиваетъ у Арле-<lb/> кїна, что чево бы онъ требовалъ у его
+                        племян-<lb/> ницы. Арлекïнъ послѣ многихъ подлоговъ сталъ<lb/> у него
+                        проситъ оную себѣ въ жену. Панталонъ<lb/> отказываетъ отъ нея, и принуждаетъ
+                        Смералдïну<lb/> къ себѣ домои убраться. Арлекïнъ показываетъ<lb/> свою
+                        храбрость. Панталонъ притворяется, что<lb/> бутто ево боится, и говоритъ
+                        ему, что онъ по-<lb/> шолъ по приданое, и что возвратится скоро; что<lb/>
+                        онъ и исполняетъ возвращаяся съ палкою, да и сталъ<lb/> бить Арлекїна,
+                        которои грозя ему уходитъ. Пан-<lb/> талонъ остался весь разгорячившїися, къ
+                        которому<lb/> приходитъ Докторъ съ однимъ писмомъ, про которое<lb/> онъ
+                        говоритъ, что получилъ съ почтовова двора,<lb/> и отдаетъ оное Панталону, на
+                        котораго имя оное<lb/> подписано, и чрезъ которое корреспондентъ ево
+                        про-<lb/> ситъ, чтобъ онъ ему сыскалъ одинъ скелетъ [то<lb/> есть кости
+                        человѣческїя собранныя, какъ человѣкъ<lb/> бываетъ]. Между тѣмъ любовники,
+                        которые то<lb/> издали видѣли, приходятъ по совѣту Брїгеллы,<lb/> которои
+                        отходитъ прочь, чтобъ требовать своихъ<lb/> невѣстъ за себя у самово
+                        Панталона, подошли они<lb/> къ нему, и послѣ комплïментовъ, предложили
+                        ему<lb/> требованїе свое. Панталонъ имъ отказалъ отъ того<lb/> прямо. Тѣ
+                        опечалившись пошли, чтобъ о томъ увѣ-<lb/> домить Брїгелла. Панталонъ
+                        проситъ Доктора,<lb/> чтобъ онъ пожаловалъ прïискалъ скелетъ онои, ко-<lb/>
+                        торои обѣщается ему въ томъ служить, да и по-<lb/> шолъ самъ. Панталонъ
+                        остался; къ нему прихо-<lb/> дитъ Бргеллъ нарядившись въ матроса;
+                        говоритъ<lb/> онъ старику, что онъ имѣетъ одинъ скелетъ про-<lb/>
+                        <fw type="catch" place="bottom">дать.</fw>
+                        <pb facs="#perelru-5" n="5"/>
+                        <fw type="pageNum">5</fw> дать. Панталонъ обрадовавшись, приказываетъ
+                        ему<lb/> къ себѣ тотъ принесть чрезъ ворота садовыя, и<lb/> сказываетъ, что
+                        онъ будетъ ево ждать, да и пошолъ<lb/> самъ. Брїгеллъ обрадовавшись, что ево
+                        вымыслъ<lb/> пошолъ удачно, прочь же пошолъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМОРУ ПАНТА-<lb/> ЛОНОВУ.</stage>
+                    <p rend="indent">ПАНТАЛОНЪ говоритъ, что он ожидаетъ съ<lb/> нетерпѣливностїю
+                        того скелета. А Брïгеллъ при-<lb/> былъ несучи Арлекїна за скелетъ. Изъ того
+                        про-<lb/> изходитъ игрушка смѣшная причиненная чрезъ раз-<lb/> ныя
+                        тѣлодвиженïя Арлекïновы, и чрезъ боязнь Пан-<lb/> талонову, да и всѣ
+                        уходятъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">ДОКТОРЪ говоритъ, что онъ хочетъ видѣться<lb/> съ Панталономъ,
+                        да и сталъ стучаться у его воротъ.<lb/> Тотчасъ Арлекïнъ скелетомъ выходитъ,
+                        а за нимъ<lb/> Панталонъ; и приличною игрушкою театру окон-<lb/> чеваетъ</p>
+                    <p rend="indent">ДѢИСТВÏЕ ПЕРВОЕ.</p>
+                </div>
+                <fw type="sig" place="bottom">Щ 3</fw>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+                <div type="act" n="2">
+                    <pb facs="#perelru-6" n="6"/>
+                    <fw type="pageNum">6</fw>
+                    <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+                    <p rend="indent">ПАНТАЛОНЪ бѣжитъ изъ дому своего вонъ отъ<lb/> скелета; на то
+                        Докторъ приходитъ говоря нѣчто<lb/> Панталону. Панталонъ думая, что то
+                        скелетъ,<lb/> боися. На послѣдокъ приходитъ въ себя, и ска-<lb/> зываетъ
+                        Доктору, что ему случилось отъ скелета.<lb/> Докторъ объ немъ сожалѣетъ, и
+                        потомъ ему гово-<lb/> ритъ, что онъ нашолъ Глобъ, [либо глобусъ небес-<lb/>
+                        нои, или земнои; либо одно круглое стекло на<lb/> ножкѣ, которое ставится на
+                        Камïнахъ] о которомъ<lb/> ему онъ Панталoнъ говорилъ, и что онои очюнь
+                        хо-<lb/> рошъ. Панталонъ говоритъ, что ему тотъ уже не<lb/> надобенъ, для
+                        того чтобъ какое чудо другое изъ того<lb/> не произошло, однакожъ онъ имѣетъ
+                        ево посмотрѣть<lb/> прежде, и оба пошли. Сїлвїи и Одоардъ слышавши<lb/> ихъ
+                        разговоры, говорятъ, что они изъ того пользу<lb/> себѣ хотятъ здѣлать, и что
+                        они съ нетертѣли-<lb/> остïю ожидаютъ Арлекїна, дабы, увѣдомиться,<lb/> что
+                        отдалъ ли онъ писмо. Арлекїнъ приходитъ;<lb/> говоритъ, что онъ не могъ
+                        отдать писмо Панта-<lb/> лоновымъ дочерямъ, потому что онъ ихъ не
+                        видалѣ.<lb/> Любовники ему, говорятъ, что понеже теперь не<lb/> имѣется дома
+                        старика, того ради можетъ онъ оное<lb/> писмо имъ отдать; а сами прочь
+                        пошли, дабы<lb/> увѣдомить Брїгелла о томъ, что старики разгова-<lb/> ривали
+                        о Глобѣ. Арлекïнъ исполняя ихъ приказъ<lb/> сталъ стучаться у воротъ.
+                        Панталонъ изъ нутри<lb/> говоритъ; Арлекïнъ спрятался; потомъ
+                        возвратив-<lb/> шись опять сталъ стучаться. Панталонъ вышелъ<lb/> на театръ,
+                        и какъ он хотѣлъ воити къ себѣ до-<lb/> мои, тогда Дïана, которая слышала
+                        голосъ Арле-<lb/> новъ выходитъ говоря: ЧТО ТЕБѢ НАДОБНО,<lb/>
+                        <fw type="catch" place="bottom">МОИ</fw>
+                        <pb facs="#perelru-7" n="7"/>
+                        <fw type="pageNum">7</fw> МОИ ДОРОГОИ АРЛЕКIНУШКА? Но увидѣвши<lb/> своего
+                        отца вся смутилась. Старикъ возъимѣлъ<lb/> о неи подозрѣнїе, что и она за
+                        одно съ насмѣшни-<lb/> ками ево, и хочетъ, чтобъ она ему въ томъ по-<lb/>
+                        винилась. Она уже не знала, какъ въ томъ опра-<lb/> виться. Между тѣмъ
+                        Арлекїнъ игрушкою свои-<lb/> cтвенною театру отдаетъ писмо Дïанѣ, и
+                        самъ<lb/> ушолъ. Панталонъ повелъ дочь свою за собою<lb/> домои.</p>
+                    <p rend="indent">АРЛЕКIНЪ приходитъ говоря любовникамъ, что<lb/> онъ отдалъ
+                        писмо Дïанѣ. Сïлвïи сказыеваетъ Брї-<lb/> геллу о Глобѣ. Брїгеллъ говоритъ
+                        на ухо незнамо<lb/> что Арлекїну, и ободряя любовниковъ говоритъ<lb/> имъ,
+                        что онъ вымыслилъ способъ какъ тѣхъ дѣвицъ<lb/> увесть, да и пошолъ говоря,
+                        что ночь наступаетъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМОРУ.</stage>
+                    <p rend="indent">ДIАНА, Вïтторïя, и Смералдїна жалуются, что<lb/> старикъ всегда
+                        ихъ держитъ въ заперти. Панта-<lb/> лонъ приходитъ, и говоритъ имъ, что онъ
+                        ожидаетъ<lb/> къ себѣ людеи, и для того чтобъ онѣ были смирны<lb/> тогда. На
+                        то Брïгеллъ приходитъ несучи Арлекïна<lb/> въ Глобѣ; Панталонъ удивляется;
+                        изъ того про-<lb/> изходитъ игрушка приличная театру, и смѣшная.<lb/> На
+                        послѣдок велитъ онъ поставить тотъ Глобъ<lb/> въ Галерїи, и повелъ своихъ
+                        дочереи за собою.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">ПАНТАЛОНЪ выходитъ говоря, что онъ хочетъ<lb/> просить Доктора,
+                        дабы онъ ночевалъ пожаловалъ<lb/> у нево, и сталъ стучаться у его воротъ.
+                        Докторъ<lb/> не отказалъ ему въ томъ. Между тѣмъ Арлекïнъ<lb/>
+                        <fw type="catch" place="bottom">выхо-</fw>
+                        <pb facs="#perelru-8" n="8"/>
+                        <fw type="pageNum">8</fw> выходитъ, бутто въ темнотѣ, съ дѣвицами, и<lb/>
+                        думая, что тѣ старики, были ево господа, того<lb/> ради отдаетъ имъ Дїану и
+                        Вïтторїю, да и пошолъ<lb/> самъ смѣючися. Старики обрадовавшись о
+                        промашкѣ<lb/> Арлекïновои игрушкою своиственною театру уво-<lb/> дятъ ихъ въ
+                        домъ, и тѣмъ окончеваютъ</p>
+                    <p rend="indent">ДѢИСТВIЕ ВТОРОЕ.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ДѢИСТВИЕ ТРЕТЬЕ.</head>
+                    <p rend="indent">ПАНТАЛОНЪ провожаетъ Доктора, которои<lb/> пошолъ къ себѣ
+                        домои, и говоритъ ему, чтобъ онъ,<lb/> присматривалъ за ево дочерьми. Между
+                        тѣмъ Арле-<lb/> кïнъ выходитъ, и спрашиваетъ у Сïлвїя и Одоарда,<lb/> что
+                        куда они отвели своихъ невѣстъ, которыхъ<lb/> онъ имъ вручилъ недавно.
+                        Любовники говорятъ,<lb/> что они ево неразумѣютъ, и что они невидали
+                        ни-<lb/> ково. Арлекïнъ подумалъ о случаѣ, говоритъ, что<lb/> онъ отдалъ ихъ
+                        невѣстъ двумъ нѣкоторымъ пер-<lb/> сонамъ, думая, что то они были.
+                        Любовники<lb/> для того случая стали быть въ отчаянïи. Арлекïнъ<lb/> имъ
+                        говоритъ, чтобъ они отошли на часъ; а онъ<lb/> хочетъ посмотрѣть, что дома
+                        ли онѣ; и далъ<lb/> знакъ Смералдïнѣ, которая вышла къ воротамъ,<lb/> а въ
+                        то время Панталонъ, и Докторъ подслушивали<lb/> то каждои изъ своего окна.
+                        Арлекїнъ уговаривается<lb/> съ Смералдïною уити. Она на то соглашается,
+                        и<lb/> говоритъ ему, чтобъ онъ подождалъ не много,<lb/> пока она возметъ
+                        нѣчто, и возвратится. Арлекїнъ<lb/> еи говоритъ, чтобъ она присовѣтовала и
+                        Дïанѣ и<lb/> Вїтторїѣ слѣдовать ея примѣру съ ихъ любовни-<lb/> ками.
+                        Смералдїна обѣщаетъ то учинить, да и<lb/>
+                        <fw type="catch" place="bottom">пошла.</fw>
+                        <pb facs="#perelru-9" n="9"/>
+                        <fw type="pageNum">9</fw> пошла. Арлекïнъ говоритъ, что онъ хочетъ о
+                        томъ<lb/> увѣдомить своихъ господъ, и самъ пошолъ. Док-<lb/> торъ бояся
+                        лишиться Смералдїны, говоритъ, что<lb/> онъ хочетъ о томъ увѣдомить
+                        Панталона, и сталъ<lb/> ево кликать; Панталонъ въ темнотѣ думая, что<lb/> то
+                        Арлекїнъ, которои пришолъ украсть Смерал-<lb/> дїну, притворилъ ея голосъ.
+                        Докторъ думая, что<lb/> то Смералдїна, обнялъ ево, и хочетъ повесть въ<lb/>
+                        свои домъ. Панталонъ ево сталъ бить; Докторъ о<lb/> себѣ объявилъ; да и
+                        узнали оба они о своемъ промахѣ.<lb/> На послѣдокъ Докторъ сказываетъ
+                        Панталону, что<lb/> онъ слышалъ изъ окна; Панталонъ ему отвѣт-<lb/> ствуетъ,
+                        что уже онъ все то знаетъ, и проситъ<lb/> ево, чтобъ он пожаловалъ къ нему,
+                        да бы на смѣ-<lb/> яться какъ нибудь надъ любовниками своихъ доче-<lb/> реи.
+                        Сïлвïи и Одоардъ услышавъ ихъ согласïе гово-<lb/> рятъ, что они хотятъ въ
+                        печаль привесть стариковъ;<lb/> того ради даютъ они знакъ, по которому
+                        старики<lb/> выходятъ нарядившись въ женщинъ, и говорятъ, что<lb/> онѣ уже
+                        со всѣмъ готовы, чтобъ убѣжать съ ними.<lb/> Любовники притворилися, что
+                        бутто они удивля-<lb/> ются намѣренïю тому, толь противному чести<lb/> ихъ
+                        пола, и стали ихъ бранить, да и бить; а по-<lb/> томъ пошли. Старики
+                        остались очюнь печальны.<lb/> Панталонъ говоритъ Доктору, чтобъ оъ
+                        имѣлъ<lb/> терпѣнïе, и пошолъ къ себѣ домои; Докторъ такъ же.<lb/> Арлекïнъ
+                        вышедъ съ лѣсницею дѣлаетъ многïя<lb/> игрушки приличныя Театру. На конецъ
+                        влѣзъ въ<lb/> окно въ домъ панталоновъ; между темъ любовники<lb/>
+                        возвращаются съ Брїгелломъ смѣючись, что они<lb/> побили стариковъ; да и
+                        великую нетерпѣливность<lb/> показывали чтобъ увѣдомиться о томъ, что
+                        здѣ-<lb/> лалъ Арлекïнъ въ пользу ихъ. Арлекïнъ отворилъ<lb/>
+                        <fw type="catch" place="bottom">имъ</fw>
+                        <pb facs="#perelru-11" n="11"/>
+                        <fw type="pageNum">11</fw> имъ ворота и впустилъ ихъ къ невѣстамъ
+                        своимъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМОРУ.</stage>
+                    <p rend="indent">СМЕРАЛДIНА совѣтуетъ двоюроднымъ своимъ<lb/> сестрамъ, чтобъ
+                        уити съ своими любовникаи. На<lb/> то они приходятъ; тѣ обрадовалися, что
+                        ихъ<lb/> увидѣли. Не смѣютъ онѣ съ ними бѣжать, бояся<lb/> перваго случая.
+                        Между тѣмъ старики приходятъ,<lb/> которые нашедъ чюжихъ людеи съ Дïаною и
+                        Вïтто-<lb/> рїею, стали сердиться. Сїлвїи и Одоардъ ихъ<lb/> успокоеваютъ; и
+                        троинымъ сочетанïемъ брака, то<lb/> есть Сїлвïева съ Дïаною, Одоардова съ
+                        Вïтторïею, а<lb/> Арлекïнова съ Смералдїною окончеваютъ</p>
+                    <p rend="indent">КОМЕДIЮ.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Die Bestürmung</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (6a) RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="7">7 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="scavstec_ge_001" url="/img/scavstec_ge_001.jpg"/>
+                <graphic xml:id="scavstec_ge_002" url="/img/scavstec_ge_002.jpg"/>
+                <graphic xml:id="scavstec_ge_003" url="/img/scavstec_ge_003.jpg"/>
+                <graphic xml:id="scavstec_ge_004" url="/img/scavstec_ge_004.jpg"/>
+                <graphic xml:id="scavstec_ge_005" url="/img/scavstec_ge_005.jpg"/>
+                <graphic xml:id="scavstec_ge_006" url="/img/scavstec_ge_006.jpg"/>
+                <graphic xml:id="scavstec_ge_007" url="/img/scavstec_ge_007.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#perelge-1" n="1"/>
+                <head type="main">Die Beſtuͤrmung.</head>
+                <head type="sub">welche in einem<lb/> Italienischen Schau-Spiele<lb/> an dem
+                    <lb/>Kayſerlichen Hofe<lb/> zu St. Petersburg <date when="1733">1733.</date>
+                    aufgefuͤhret worden.</head>
+                <pb facs="#perelge-2" n="2"/>
+                <div type="preface">
+                    <head>Inhalt</head>
+                    <p rend="indent">Silvio und Odoardo, zwey gute Freunde, die beyde in des
+                        Pantalons Toͤch-<lb/> ter verliebt ſind, halten um dieſelben an, und als ſie
+                        eine abſschlaͤgige Ant-<lb/> wort bekommen, ſuchen ſie bey dem Brighella
+                        Huͤlffe. Dieſer bedienet ſich<lb/> des Arlequins, betruͤgt den Alten und
+                        macht, daß die Liebhaber und Liebhaberinen<lb/> einander heyrathen; welches
+                        zu der Verwirrung des gantzen Spieles Anlaß gibt.</p>
+                </div>
+                <castList>
+                    <head>Personen</head>
+                    <castItem>
+                        <role xml:id="pantalone_ge">Pantalon</role>
+                        <roleDesc>Vater der</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_ge">Diana und</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="vittoria_ge">Vittoria.</role>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ge">Smeraldina</role>
+                        <roleDesc>deſſen Muhme.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ge">Der Doctor.</role>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ge">Silvio und</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ge">Odoardo</role>
+                        </castItem>
+                        <roleDesc>zwey gute Freunde.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="brighella_ge">Brighella und</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="arlecchino_ge">Arlequin</role>
+                            <roleDesc>Bediente.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                </castList>
+                <set>
+                    <p>Der Schauplatz iſt in der Stadt<lb/> Verona</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#perelge-3" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>Die erſte Handlung.</head>
+                    <p rend="indent">Silvio und Odoardo treten auf, reden von ihrer Liebe zu
+                        Pantalons<lb/> Toͤchtern und deſſen Aufmerkſamkeit u. Verhinderung, daß
+                        ſie<lb/> dieſelben nicht zuſehen bekommen. Arlequin kommt dazu und
+                        bewei-<lb/> ſet ihnen, durch eine laͤcherliche Ausfuͤhrung, daß die
+                        Vernunfft und<lb/> die Schuldigkeit nicht mit einander uͤbereinſtimmeten,
+                        welches die<lb/> Urſache waͤre, warum er mit einem andern in Streit
+                        gekommen,<lb/> der einer anderen Meynung geweſen. Nachdem ihm die Liebhaber
+                        in<lb/> der Sache einige Erleuterung gegeben, heiſen ſie ihn an
+                        Pantalons<lb/> Thuͤre anklopffen. Diana u. Vittoria kommen heraus, ſind
+                        erfreut,<lb/> ihre Liebhaber bey ſich zu ſehen, und bitten den Arlequin die
+                        Schild-<lb/> wache abzugeben und wenn er den Pantalon kommen ſehe,
+                        ihnen<lb/> Nachricht davon zu ertheilen. Arlequin macht etliche mahl
+                        falſchen<lb/> Lerm. Endlich kommt Pantalon u. beklaget ſich. Seine beyde
+                        Toͤch-<lb/> ter ſchleichen ſich ſtillſchweigens weg u. nach einigen Poſſen
+                        gehen die<lb/> Liebhaber u. der Arlequin auch ab. Pantalon bleibt u. ſtellet
+                        ſich<lb/> gantz erzuͤrnet. Der Doctor trit auf und fragt nach der
+                        Urſache<lb/> ſeines Zornes. Pantalon erzehlet was ihm begegnet. Der Do-<lb/>
+                        ctor haͤlt hierauf um deſſen Muhme die Smeraldina an. Panta-<lb/> lon gibt
+                        ihm das Jawort u. beyde gehen ab, um den Contract zu<lb/> machen. Arlequin
+                        kommt zuruͤck u. macht ein Haufen Weſens von<lb/> ſeiner Liebe gegen die
+                        Smeraldina. Er rufft ſie. Smeraldina kommt<lb/> heraus. Beyde machen
+                        einander allerhand Careſſen u. als der Pan-<lb/> talon dazu kommt, wollen
+                        beyde fortlauffen, der Alte aber haͤlt ſie<lb/> an u. fragt den Arlequin,
+                        was er bey ſeiner Muhme mache? Nach<lb/> einigem Vorwand haͤlt er um ſie an;
+                        Pantalon verſagt ſie ihm und<lb/> heiſet die Smeraldina in das Hauß gehen.
+                        Arlequin ſchneidet von<lb/> ſeiner Tapferkeit auf. Pantalon ſtellet ſich,
+                        als ob er ſich fuͤrchte;<lb/> ſagt, er wolle das Heyraths-Gut hohlen, geht
+                        hinein, kommt aber<lb/> mit einem Stocke zuruͤck u. jagt den Arlequin, unter
+                        vielen Drohun-<lb/> gen, weg. Pantalon bleibt gantz erzuͤrnet und der Doctor uͤberreichet<lb/>
+                        <fw type="sig" place="bottom">* 2</fw>
+                        <fw type="catch" place="bottom">ihm</fw>
+                        <pb facs="#perelge-4" n="4"/>
+                        <fw type="pageNum">4</fw> ihm einen Brief, den er auf der Poſt gefunden.
+                        Pantalon ließt und<lb/> findet, daß ihn einer von ſeinen Correſpondenten um
+                        ein Scelet<lb/> oder Menſchen-Gerippe bittet. Jndeſſen kommen die
+                        Liebha-<lb/> ber und halten, auf Einrathen des Brighella um ihre Liebſten
+                        an.<lb/> Pantalon ſchlaͤgt ſie ihnen ab. Beyde gehen hierauf fort, um es
+                        dem<lb/> Brighella zu melden. Pantalon aber bittet den Doctor, ihm zu
+                        ei-<lb/> nem Scelet zu verhelffen. Dieſer ſagt, er wolle eines aufſuchen
+                        u.<lb/> gehet ab. Brighella trit, als ein Botsmann gekleidet, auf u. ſagt
+                        zu<lb/> dem Pantalon, er habe ein Scelet zu verkuffen. Der Alte
+                        erfreuet<lb/> ſich hieruͤber, befiehlt ihm ſolches herzubringen, und ſagt,
+                        er wolle ihn<lb/> an der Garten-Thuͤre erwarten u. gehet ab. Brighella iſt
+                        vergnuͤgt,<lb/> daß ihm ſeine Betruͤgerey ſo wohl von ſtatten gehet u.
+                        begiebt ſich weg.</p>
+                    <stage>Der Schau-Platz ſtellet des Pantalons Zimmer vor.</stage>
+                    <p rend="indent">Pantalon ſagt, er warte mit Ungedult auf das Scelet. Brig-
+                        hella kommt an und laͤßt den Arlequn als ein Scelet hereinbringen. Hierauf
+                        geſchehen allerley Poſſen, wozu Poſituren des Arlequins und die Furcht des
+                        Pantalons Gelegenheit geben. Zuletzt lauffen alle davon.</p>
+                    <stage>Der Schau-Platz verwandelt ſich in eine Stadt.</stage>
+                    <p rend="indent">Der Doctor trit auf und ſagt, er wolle mit dem Pantalon ſpre-
+                        chen und klopffet an. Arlequin kommt als ein Scelet aus Pantalons Hauß
+                        gelauffen u. jagt ihn fort; womit ſich die erſte Handlung be- ſchlieſet.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Die andere Handlung.</head>
+                    <p rend="indent">Pantalon laͤufft voller Furcht vor dem Scelet aus ſeinem
+                        Hau-<lb/> ſe. Hierauf kommt der Doctor dem er erzehlet, was ſich mit
+                        dem<lb/> Scelet zugetragen. Der Doctor beklaget ihn und ſagt darauf, er<lb/>
+                        habe den Globum geſehen, von dem er mit ihm geſprochen u. daß er<lb/>
+                        uͤberaus ſchon ſey? Pantalon antwortet, er wolle zwar keinen neuen<lb/>
+                        Streich vermuthen, es koͤnnte ſich aber wohl zutragen. Beyde ge-<lb/> hen
+                        ab. Silvio u. Odoardo, die ihre Unterredung mit angehoͤret,<lb/> ſagen, ſie
+                        wollten ſich dieſe Gelegenheit zu Nutze machen u. daß ſie<lb/> mit Ungedult
+                        auf den Arlequin warteten; um zu wiſſen, ob er den <lb/>
+                        <fw type="catch" place="bottom">Brief</fw>
+                        <pb facs="#perelge-5" n="5"/>
+                        <fw type="pageNum">5</fw> Brief angebracht. Arlequin koͤmmt und ſagt, er
+                        habe den Brief<lb/> des Pantalons Toͤchtern nicht einhaͤndigen koͤnnen;
+                        indem er ſie nicht<lb/> geſehen haͤtte. Die Liebhaber ſagen ihm, der
+                        Pantalon ſey ausge-<lb/> gangen u. koͤnne er alſo den Brief wohl abgeben und
+                        gehen ſort um<lb/> dem Brighella Nachricht zugeben, was der Alte von dem
+                        Globo ge-<lb/> ſprochen. Arlequin klopfft an. Pantalon laͤßt ſich hoͤren.
+                        Arlequin<lb/> verſteckt ſich, kommt aber wieder zuruͤck u. klopfft an.
+                        Pantalon kommt<lb/> und indem er in ſein Hauß gehen will, kommt Diana
+                        heraus, ſo den<lb/> Arlequin gemerckt, u. ſagt auf Frantzoͤſiſch: que veux
+                        tu mon cher<lb/> Arlequin? Wie ſie ihren Vater gewahr wird, wird ſie gantz
+                        be-<lb/> ſtuͤrtzt. Der Alte kommt auf den Argwohn, als ob ſie mit
+                        demjenigen,<lb/> ſo ihm den Poſſen geſpielet, die Sache gekartet und fragt
+                        ſie deswegen.<lb/> Jhre Antwort iſt gantz verwirrt, indem ſie ſich aber, ſo
+                        gut ſie kan, ent-<lb/> ſchuldiget, ſteckt ihr Arlequin den Brief zu u. gehet
+                        fort. Pantalon<lb/> fuͤhret ſeine Tochter in das Hauß. Arlequin trit auf u.
+                        erzehlet den<lb/> Liebhabern, er habe den Brief uͤbergeben. Silvio ſagt zu
+                        dem Brig-<lb/> hella die Sache von dem Globo. Brighella ſagt hierauf dem
+                        Arle-<lb/> quin etwas in das Ohr, ſpricht den Liebhabern einen Muth ein,
+                        und<lb/> ſagt, er habe ein Mittel ausgefunden, ihre Liebſten zu entfuͤhren
+                        u.<lb/> gehet fort.</p>
+                    <stage>Der Schau-Platz ſtellet ein Zimmer vor.</stage>
+                    <p rend="indent">Diana, Vittoria u. Smeraldina beklagen ſich, daß ſie der
+                        Alte<lb/> eingeſchloſſen hielte. Pantalon koͤmmt u. erzehlet ihnen, daß er
+                        eine<lb/> Welt-Kugel in ſeinem Hauſe erwarte u. ſagt, ſie ſolten ſich als
+                        ver-<lb/> nuͤnfftige Leute dabey auffuͤhren. Hier zu kommt Brighella n.
+                        laͤßt<lb/> den Arlequin in einer Welt-Kugel herein bringen. Pantalon
+                        bewun-<lb/> dert ſie nach einigen Poſſen heißt er ſie auf ſeine Gallerie
+                        ſetzen,<lb/> u. gehet mit ſeinen Toͤchtern fort.</p>
+                    <stage>Der Schau-Platz verwandelt ſich in eine Stad.</stage>
+                    <p rend="indent">Pantalon trit auf u. ſagt, er wolle dem Doctor bitten, daß
+                        er<lb/> ihn dieſe Nacht in ſeinem Hauſe ſchlaffen laſſe u. klopft an.
+                        Der<lb/> Doctor koͤmmt heraus u. verſpricht, ſeine Bitte zu gewahren.
+                        Hierauf<lb/> koͤmmt der Arlequin mit dem Frauenziumer, u. weil es finſter iſt,<lb/>
+                        <fw type="catch" place="bottom">und</fw>
+                        <pb facs="#perelge-6" n="6"/>
+                        <fw type="pageNum">6</fw> u. er glaubt, daß die Alten ſeine Herren ſind,
+                        uͤbergiebt er ihnen die<lb/> Diana u. Vittoria u. geht lachend weg Die Alien
+                        freuen ſich uͤber<lb/> den Poßen und gehen mit dem Frauenzimmer nach Hauſe;
+                        womit<lb/> der Beſchluß der andern Handlung gemacht wird.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Die Dritte Handlung.</head>
+                    <p rend="indent">Pantalon nimmt Abſchied von dem Doctor u. ſagt er wolle
+                        auf<lb/> die Auffuͤhrung ſeiner Toͤchter ein wachſammes Auge haben.
+                        Arle-<lb/> quin, der zugehoͤret, fragt den Silvio u. Odoardo, wo ihre
+                        Liebſten<lb/> hingekommen waͤren, die er ihnen ſo empfohlen. Die Liebhaber
+                        ſa-<lb/> gen, ſie wuͤſten es nicht u. haͤtten auch niemand geſehen.
+                        Arlequin<lb/> nachdem er etwas nachgedacht, ſagt, er haͤtte ihre Liebſten an
+                        zwey<lb/> Perſonen uͤbergeben u. geglaubt, daß ſie es waͤren. Die
+                        Liebhaber<lb/> werden uͤber dieſen Zufall beſtuͤrtzt. Arlequin ſagt, ſie
+                        ſollten ſich nur<lb/> wegbegeben, er wollte ſehen, ob ſie zu Hauſe waͤren u.
+                        giebt der Sme-<lb/> raldina ein Zeichen. Dieſe koͤmmt an die Thuͤre; die
+                        Alten aber hoͤ-<lb/> ren an den Fenſtern zu. Arlequin koͤmmt mit der
+                        Smeraldina uͤberein,<lb/> die Flucht zu nehmen. Sie klopf ihm auf die Achſel
+                        u. ſagt, er ſolle<lb/> ein wenig warten, ſie wollte nur noch etwas hohlen.
+                        Arlequin ſagt,<lb/> ſie ſolle der Diana u. Vitroria anrathen mit ihren
+                        Liebhabern ein glei-<lb/> ches zu thun. Smeraldina verſpricht ſolches u.
+                        gehet fort. Arle-<lb/> quin ſagt, er wolle ſeinen Herren davon Nachricht
+                        geben u. ge-<lb/> het auch ab. Der Doctor trit auf und ſagt, er fuͤrchte,
+                        die Sme-<lb/> raldina zu verliehren und rufft den Pantalon. Dieſer glaubt in
+                        Fin-<lb/> ſtern, daß es der Arlequin ſey u. verſtellet ſeine Stimme. Der
+                        Do-<lb/> ctor dencket, es ſey die Smeraldina, umarmet ihn u. will ihn in
+                        ſein<lb/> Hauß fuͤhren. Pantalon giebt dem Doctor einen Schlag u.
+                        ſichzugleich zu<lb/> erkennen. Beyde verwundern ſich uͤber ihren Jrrthum.
+                        Der Doctor<lb/> erzehlet hierauf, was er von der Entfuͤhrung verſtanden.
+                        Pantalon<lb/> antwortet, er habe alles auch mit angehoͤrt u. bittet den
+                        Doctor zu<lb/> ſich in das Hauß, damit ſie den Liebhabern ſeiner Toͤchter
+                        gleichen<lb/> Wiederſtand thun koͤnten. Silvio u. Odoardo, die ihre Abrede
+                        mit<lb/> angehoͤret, ſagen, ſie wollten den Alten ſchon zu ſchaffen machen
+                        u.<lb/> geben ein Zeichen. Die Alten kommen heraus, als Frauenzimmer<lb/>
+                        <fw type="catch" place="bottom">an-</fw>
+                        <pb facs="#perelge-7" n="7"/>
+                        <fw type="pageNum">7</fw> angekleidet und ſagen, es ſey alles fertig zur
+                        Flucht. Die Liebhaber<lb/> ſtellen ſich, als ob ſie mit einem ſolche
+                        Entſchluß, der dem weiblichen<lb/> Geſchlechte nicht viel Ehre mache,
+                        durchaus nicht zu frieden waͤren,<lb/> pruͤgeln die Alten u. gehen ab. Die
+                        Allten bleiben gantz ver-<lb/> druͤßlich zuruͤck u. der Pantalon ſagt zu dem
+                        Doctor, er ſolle Gedult<lb/> haben und gehet in ſein Hauß. Der Doctor thut
+                        desgleichen. Der<lb/> Arlequin koͤmmt mit einer Leiter, macht allerley
+                        Poſſen und ſteigt<lb/> endlich in des Pantalons Hauß zum Fenſter hinein.
+                        Hierauf kommen<lb/> die Liebhaber mit dem Brighella und vergnuͤgen ſich, daß
+                        ſie die Al-<lb/> ten ansgepruͤgelt; Bezeigen ſich aber dabey ſehr
+                        ungedultig, zu<lb/> wiſſen, was Arlequin fuͤr ſie ausgerichtet. Arlequin
+                        oͤffnet ihnen<lb/> die Thuͤre u. laͤßt ſie zu ihre Liebſten in das Hauß.</p>
+                    <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+                    <p rend="indent">Smeraldina giebt ihren Muhmen den Rath mit ihren Liebhabern die
+                        Flucht zu nehmen, welche gleich in das Zimmer treten. Alle be- zeigen ſich
+                        ſehr erfreut uͤber ihre Ankunfft. Allein die Alten kommen dazu, und wie ſie
+                        die Liebhaber in des Frauenzimmers Geſellſchafft ſe- hen, beklagen ſie ſich
+                        auf das aͤuſſerſte. Silvio u. Odoardo beſaͤnffti- gen ſie u. mit der
+                        dreyfachen Heyrath des Silvio, Odoardo u. Arle- quins endiget ſich das
+                        gantze Schau-Spiel.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Scavalcare uno steccato</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#perezru-1" n="1"/>
+                <head type="main">SCAVALCARE UNO STECCATO.</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/>
+                    <date when="1733">nel 1733.</date></head>
+                <pb facs="#perezru-2" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO</head>
+                    <p rend="indent">SILVIO e Odoardo, appassionatamente innamorati delle figlie di
+                        Pantalone, chiedono la loro mano ma Pantalone rifiuta. Ciò costringe gli
+                        innamorati a chiedere aiuto a Brighella, il quale, con la mediazione di
+                        Arlecchino, inganna il vecchio e fa sposare i suoi padroni con le loro
+                        fidanzate.</p>
+                </div>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE,</role>
+                        <roleDesc>padre di Diana e Vittoria.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_it">DIANA, e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="vittoria_it">VITTORIA.</role>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>sua nipote.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_it">DOTTORE,</role>
+                        <roleDesc>suo amico.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_it">SILVIO e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_it">ODOARDO,</role>
+                        </castItem>
+                        <roleDesc>amici.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="arlecchino_it">ARLECCHINO e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="brighella_it">BRIGHELLA,</role>
+                            <roleDesc>servitori.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Verona.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#perezru-3" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <p rend="indent">SILVIO e Odoardo entrano parlando della loro passione per le
+                        figlie di Pantalone e della diligenza del vecchio nel custodirle e non farle
+                        vedere a loro.</p>
+                    <p rend="indent">ARLECCHINO arriva e con una frase divertente dimostra a Silvio
+                        e a Odoardo che la ragione e il dovere tra loro non sono in armonia. Proprio
+                        questa, dice Arlecchino, è la causa del litigio che ha avuto con una persona
+                        che aveva un’opinione diversa dalla sua. Gli innamorati, dopo aver dato il
+                        loro parere a quel proposito, costringono Arlecchino a bussare al cancello
+                        delle loro fidanzate. Diana e Vittoria escono, sono felici di vedere i loro
+                        innamorati e chiedono ad Arlecchino di stare di guardia e far sapere subito
+                        a loro se vede arrivare Pantalone. Arlecchino con quel pretesto li spaventa
+                        spesso. Poi arriva Pantalone e si ferma in mezzo agli innamorati. Le ragazze
+                        vanno via senza dire nulla davanti al padre. Da quello derivano molti lazzi,
+                        dopo i quali gli innamorati e Arlecchino vanno via. Pantalone rimane
+                        arrabbiato, arriva il Dottore che, vedendolo furioso, gli chiede la ragione.
+                        Pantalone gli racconta cosa è successo. Il Dottore chiede a Pantalone la
+                        mano di sua nipote Smeraldina. Pantalone gliela concede e vanno a scrivere
+                        l’atto di matrimonio.</p>
+                    <p rend="indent">ARLECCHINO entra palesando con molte parole il suo amore per
+                        Smeraldina e la chiama. Arriva Smeraldina. Iniziano <pb facs="#perezru-4" n="4"/> a farsi delle carezze. Intanto entra Pantalone. Smeraldina e
+                        Arlecchino vorrebbero andarsene ma il vecchio li trattiene e chiede ad
+                        Arlecchino cosa voleva da sua nipote. Arlecchino dopo molte bugie inizia a
+                        chiedergliela in moglie. Pantalone rifiuta e obbliga Smeraldina ad entrare
+                        in casa sua. Arlecchino si mostra spavaldo. Pantalone finge di essere
+                        spaventato e gli dice che va a prendere la dote e tornerà presto. Il vecchio
+                        ritorna con un bastone e si mette a picchiare Arlecchino che, minacciandolo,
+                        va via. Pantalone rimane tutto agitato, arriva il Dottore con una lettera,
+                        dice di averla ricevuta all’ufficio postale e la consegna a Pantalone. Il
+                        corrispondente chiede al vecchio di trovargli uno scheletro [cioè l’insieme
+                        delle ossa umane, assemblate come è proprio dell’uomo]. Nel mentre entrano
+                        Silvio e Odoardo che avevano visto il vecchio da lontano, gli si avvicinano
+                        e, su consiglio di Brighella che va via, chiedono, dopo molti complimenti,
+                        il permesso di sposare le figlie. Pantalone gli nega il permesso. Silvio e
+                        Odoardo, tristi, vanno via per informare Brighella del rifiuto. Pantalone
+                        chiede al Dottore di trovargli uno scheletro. Il Dottore promette di
+                        servirlo in quella ricerca e se ne va. Pantalone rimane, arriva da lui
+                        Brighella abbigliato da marinaio e dice al vecchio di avere uno scheletro da
+                        vendere. <pb facs="#perezru-5" n="5"/> Pantalone, rallegrandosi, gli ordina
+                        di portare lo scheletro attraverso il cancello del giardino, dice che sarà
+                        ad aspettarlo e va via. Brighella si compiace che il suo stratagemma sia
+                        andato a buon fine e se ne va.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA DI PANTALONE.</stage>
+                    <p rend="indent">PANTALONE dice di aspettare con impazienza lo scheletro.
+                        Brighella entra portando Arlecchino vestito come uno scheletro. Da quello
+                        nasce un lazzo causato dai vari movimenti del corpo di Arlecchino e dalla
+                        paura di Pantalone, tutti vanno via.</p>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">Il DOTTORE dice che vuole vedersi con Pantalone e inizia a
+                        bussare al suo cancello. Subito entra Arlecchino vestito come uno scheletro
+                        e dietro di lui Pantalone. Il lazzo conclude il</p>
+                    <p rend="indent">PRIMO ATTO.</p>
+                </div>
+                <pb facs="#perezru-6" n="6"/>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <p rend="indent">PANTALONE corre fuori da casa sua scappando dallo scheletro. In
+                        quel momento arriva il Dottore e dice qualcosa a Pantalone. Pantalone,
+                        pensando che fosse lo scheletro, si spaventa. Alla fine, il vecchio torna in
+                        sé e racconta al Dottore cosa gli è successo. Il Dottore se ne dispiace e
+                        dopo gli dice che ha trovato il globo [il globo celeste o il mappamondo,
+                        oppure una sfera di vetro su un piedistallo che si usa mettere sui camini]
+                        di cui gli aveva parlato Pantalone e che è molto bello. Pantalone risponde
+                        di non averne più bisogno per evitare qualche nuova disgrazia, ma
+                        ciononostante prima vuole vederlo ed entrambi vanno via. Silvio e Odoardo,
+                        avendo sentito la conversazione dei vecchi, dicono di voler sfruttare
+                        quell’occasione a loro vantaggio e che aspettano Arlecchino con trepidazione
+                        per sapere se è riuscito a consegnare la lettera. Arriva Arlecchino, dice
+                        che non ha potuto consegnare la lettera alle figlie di Pantalone perché non
+                        le ha viste. Gli innamorati gli dicono che in quel momento il vecchio non è
+                        a casa, così Arlecchino può consegnare la lettera e vanno via per informare
+                        Brighella che i vecchi parlavano di un globo. Arlecchino seguendo il loro
+                        ordine si mette a bussare al cancello. Pantalone risponde da dentro.
+                        Arlecchino si nasconde, poi torna e inizia a bussare di nuovo. Pantalone
+                        esce fuori e allora Diana, che ha sentito la voce di Arlecchino, entra
+                        dicendo: COSA TI SERVE, MIO <pb facs="#perezru-7" n="7"/> CARO
+                        ARLECCHINUCCIO? Ma vedendo suo padre si imbarazza. Pantalone sospetta che
+                        Diana sia in combutta con i suoi schernitori e vuole che lo ammetta. Diana
+                        non sa come difendersi. Intanto Arlecchino con un lazzo consegna la lettera
+                        a Diana e se ne va. Pantalone porta la figlia a casa con sé.</p>
+                    <p rend="indent">ARLECCHINO entra dicendo agli innamorati che ha consegnato la
+                        lettera a Diana. Silvio racconta a Brighella del globo. Brighella dice
+                        qualcosa all’orecchio di Arlecchino e incoraggia gli innamorati confidando
+                        loro di aver escogitato un modo per portare via le ragazze, poi va via
+                        dicendo che la notte si avvicina.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">DIANA, Vittoria e Smeraldina si lamentano che il vecchio le
+                        tiene sempre rinchiuse. Arriva Pantalone e dice loro che sta aspettando
+                        delle persone e per quello devono essere docili. Poi arriva Brighella
+                        portando Arlecchino nel globo, Pantalone si sorprende, da quello nasce un
+                        lazzo divertente. Alla fine, Pantalone ordina di mettere quel globo nella
+                        galleria e conduce le sue figlie con sé.</p>
+                    <stage>LA SCENA MOSTRA LA CITTÀ.</stage>
+                    <p rend="indent">PANTALONE entra dicendo che vuole chiedere al Dottore di
+                        passare la notte da lui e inizia a bussare alla sua porta. Il Dottore
+                        accetta. In quel momento Arlecchino <pb facs="#perezru-8" n="8"/> entra nel
+                        buio con le ragazze e, pensando che quei vecchi fossero i suoi signori
+                        Silvio e Odoardo, gli consegna Diana e Vittoria e va via ridendo. I vecchi
+                        esultano per l’errore di Arlecchino, con un lazzo portano a casa Diana,
+                        Vittoria e Smeraldina e così finisce il</p>
+                    <p rend="indent">SECONDO ATTO.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <p rend="indent">PANTALONE saluta il Dottore che torna a casa il quale gli
+                        raccomanda di tenere d’occhio le sue figlie. Nel frattempo, entra Arlecchino
+                        e chiede a Silvio e Odoardo dove hanno portato le loro fidanzate che lui gli
+                        ha recentemente consegnato. Gli innamorati non capiscono e dicono di non
+                        aver visto nessuno. Arlecchino ripensa all’accaduto, dice di aver dato le
+                        loro fidanzate a due persone pensando che fossero loro. Gli innamorati si
+                        disperano. Arlecchino dice a Silvio e Odoardo di andare via per un’ora,
+                        intanto lui vuole vedere se sono a casa e fa un segno a Smeraldina che esce
+                        dal cancello. Nello stesso momento Pantalone e il Dottore origliano,
+                        ciascuno dalla propria finestra. Arlecchino si accorda con Smeraldina per
+                        organizzare la fuga. La ragazza gli dice di aspettare un po’ finché lei non
+                        prende qualcosa e ritorna. Arlecchino chiede a Smeraldina di consigliare a
+                        Diana e Vittoria di seguire il suo esempio e di fuggire con i loro
+                        innamorati. Smeraldina promette di farlo e va via. <pb facs="#perezru-9" n="9"/> Arlecchino dice di voler avvertire i suoi signori e anche lui va
+                        via. Il Dottore, temendo di perdere Smeraldina, dice di voler informare
+                        Pantalone di ciò che ha sentito e inizia a chiamarlo. Pantalone, al buio,
+                        pensando che fosse Arlecchino che è venuto a portare via Smeraldina, finge
+                        di parlare con la voce della nipote. Il Dottore, credendo che fosse
+                        Smeraldina, lo abbraccia e vuole condurlo a casa sua. Pantalone inizia a
+                        picchiarlo. Il Dottore si palesa ed entrambi capiscono il proprio errore.
+                        Alla fine, il Dottore dice a Pantalone cosa ha sentito dalla finestra.
+                        Pantalone gli risponde che sa già tutto e gli chiede di andare da lui per
+                        prendersi gioco in qualche modo degli innamorati delle sue figlie. Silvio e
+                        Odoardo, avendo udito il loro accordo, dicono che vogliono far arrabbiare i
+                        vecchi. Per quel motivo fanno un segno e i vecchi entrano vestiti da donna e
+                        dicono che sono già pronti per scappare con loro. Gli innamorati fingono di
+                        essere sorpresi da un’idea così disdicevole per l’onore delle fanciulle,
+                        iniziano a rimproverarli e a picchiarli, poi vanno via. I vecchi rimangono
+                        molto tristi. Pantalone dice al Dottore che deve avere pazienza e andare a
+                        casa sua. Il Dottore lo fa. Arlecchino entra con una scala e fa molti lazzi.
+                        Alla fine, si arrampica alla finestra di casa di Pantalone. Nel frattempo,
+                        gli innamorati ritornano con Brighella, ridendo per aver bastonato i vecchi
+                        e con grande impazienza domandano notizie di quello che ha fatto Arlecchino
+                        per aiutare loro. Arlecchino apre loro <pb facs="#perezru-10" n="10"/> la
+                        porta e li fa entrare dalle loro fidanzate.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">SMERALDINA consiglia alle cugine di andare via con i loro
+                        innamorati. In quel momento entrano Silvio e Odoardo e sono felici di vedere
+                        le fidanzate. Ma Diana e Vittoria non osano fuggire con loro per paura. Nel
+                        mentre arrivano i vecchi che trovando degli sconosciuti con Diana e Vittoria
+                        si arrabbiano. Silvio e Odoardo li calmano e un triplo matrimonio di Silvio
+                        con Diana, Odoardo con Vittoria, e Arlecchino con Smeraldina conclude la</p>
+                    <p rend="indent">COMMEDIA.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

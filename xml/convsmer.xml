@@ -1,0 +1,708 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La conversazione tra Smeraldina spirito folletto e Pantalone</title>
+                <respStmt>
+                    <resp>Transcription, translation, and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La conversazione tra Smeraldina, spirito folletto, e Pantalone. La mancata
+                    indicazione della data di allestimento sul frontespizio dello scenario a stampa
+                    non permette di avanzare una sicura datazione del testo. Sarebbe tuttavia logico
+                    immaginare che l’opera fosse allestita a poca distanza cronologica della
+                    commedia Smeraldina spirito folletto (1733), di cui rappresenta una sorta di
+                    appendice per quanto riguarda la trama. Pur essendo uno scenario a sé stante,
+                    proprio per le attinenze contenutistiche tra La conversazione e la commedia
+                    viene pubblicato da Vladimir Peretc, nella sua edizione delle commedie e
+                    intermezzi del 1917, in appendice della Smeraldina spirito folletto. Lo scenario
+                    rappresenta la prima istanza di discorso strutturato in forma di vero e proprio
+                    dialogo (una seconda traccia del discorso diretto si troverà nei Travestimenti
+                    di Arlecchino, con il dialogo a tre che ha come protagonisti Brighella,
+                    Smeraldina e Arlecchino, i tre personaggi scrivono una lettera alla madre di
+                    quest’ultimo). Da notare inoltre svariati riferimenti alla realtà russa (il
+                    reparto carne del mercato di San Pietroburgo, la vendita di birra in via I,
+                    l’alta società della città di Riga), attraverso i quali gli attori cercavano di
+                    avvicinare il testo alla comprensione dell’uditorio russo (Pieroni, 141 e
+                    151).</p>
+                <p>I documenti delle versioni russa e tedesca sono preservate in diversi archivi.
+                    Per questa edizione rimandiamo alla descrizione dei facsimili per ogni
+                    documento.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>РАЗГОВОРЪ МЕЖДУ СМЕРАЛДIНОЮ КИКИМОРОЮ, и ПАНТАЛОНОМЪ</title>
+                    <respStmt>
+                        <resp>Digitization of facsimile</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (21d)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="4">4 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="convsmer_ru_001" url="/img/convsmer_ru_001.jpg"/>
+                <graphic xml:id="convsmer_ru_002" url="/img/convsmer_ru_002.jpg"/>
+                <graphic xml:id="convsmer_ru_003" url="/img/convsmer_ru_003.jpg"/>
+                <graphic xml:id="convsmer_ru_004" url="/img/convsmer_ru_004.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#convsmer_ru_001" n="1"/>
+                <fw type="pageNum">1</fw>
+                <head type="main">РАЗГОВОРЪ МЕЖДУ<lb/> СМЕРАЛДIНОЮ КИКИМОРОЮ, и ПАНТА-<lb/>
+                    ЛОНОМЪ.</head>
+            </front>
+            <body>
+                <p rend="indent">***</p>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Я вамъ говорю, что вамъ надобно имѣть вѣжство<lb/> и почтенїе къ женщинѣ
+                        такои, какова я, по<lb/> тому что ежелибъ я не боялась повредить<lb/> честь
+                        мою, то бы я васъ научила, какъ въ томъ<lb/> поступать. Бездѣльники, плуты,
+                        ни къ чему год-<lb/> ныя, пьяницы. Здравствуите, мои господа.</p>
+                    <p rend="indent">***</p>
+                    <p>Не извольте, пожалуите, удивляться, что я такъ<lb/> теперь сердита, и толь
+                        злобна я имѣю тому<lb/> причину.</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Не здѣлалъ ли вамъ кто чево?</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Не здѣлалъ ли мнѣ кто чево? Cпрашиваете вы у<lb/> меня, не здѣлалъ ли мнѣ кто
+                        чево? Проклятая я<lb/> буду; добро! Дамъ я себя знать! Я намѣрена от-<lb/>
+                        мстить мою обиду такъ, что хотя бы я знала,<lb/> что чрезъ то потеряю всѣ
+                        пожитки отцовскїя<lb/> моего прадѣда, и моеи прабабки, которые были<lb/>
+                        добрые люди.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Да извольте сказать, кто васъ обезчестилъ; такъ<lb/> можно и помощь вамъ въ
+                        томъ подать.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Я васъ вижу быть толь учтивыхъ людеи, мои<lb/> господа, что бы я тѣмъ васъ
+                        обезчестила, ежели<lb/>
+                        <fw type="sig" place="bottom">Ж</fw>
+                        <fw type="catch" place="bottom">бы</fw>
+                        <pb facs="#convsmer_ru_002" n="2"/>
+                        <fw type="pageNum">2</fw>бы я отъ васъ утаила мое нещастїе. Извольтежъ<lb/>
+                        для того знать, что я родилась, въ Москвѣ, дочь<lb/> только одна И . . .
+                        Которои поставленъ былъ<lb/> Докторомъ въ медїцïнѣ въ
+                        Санктпетербургскои<lb/> мяснои рядъ, и которои не уступалъ въ своемъ<lb/>
+                        искусствѣ главному столяру голландскому. Мать<lb/> моя называлась И . . . и
+                        такая женщина, чтобъ<lb/> она могла услужить обществу Рїжскому.
+                        Продавала<lb/> она масло коровье по алтыну фунтъ; а я варила<lb/> улицѣ; и
+                        оное такъ удавалось, что<lb/> пиво въ И . . . улицѣ; и оное такъ удавалось,
+                        что<lb/> Рускїя въ добрыя кулаки совались, для того<lb/> чтобъ кому прежде
+                        пить.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Вы чаи къ себѣ приманили много любовниковъ кра-<lb/>сотою вашею?</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Очюнь много: изъ которыхъ пришолъ ко мнѣ одна-<lb/> жды прïѣзжеи молодецъ
+                        изрядно убранъ, и вѣжливъ,<lb/> которои назывался Сїлвїи; охъ ти мнѣ! лишъ
+                        я<lb/> о томъ подумаю, то слїозы у меня тотъ часъ, и<lb/> навернутся въ
+                        глазахъ.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Не извольте плакать, дорогая куколка, ободритесь.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Очюнь много: изъ которыхъ пришолъ ко мнѣ одна-<lb/> жды прïѣзжеи молодецъ
+                        изрядно убранъ, и вѣжливъ,<lb/> которои назывался Сїлвїи; охъ ти мнѣ! лишъ
+                        я<lb/> о томъ подумаю, то слїозы у меня тотъ часъ, и<lb/> навернутся въ
+                        глазахъ.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Ахъ! нельзя мнѣ не плакать! измѣнникъ! плутъ!<lb/> шелмъ! Но чтобъ
+                        возвратиться къ моеи повѣсти,<lb/> тогда онои молодецъ тотъ часъ влюбился въ
+                        меня,<lb/> и так сильно сталъ мнѣ показывать свою любовь<lb/> называя меня,
+                        сердце мое, животы мои, сокро-<lb/> вище мое, я сокрушаюсь, я умираю по
+                        васъ, что<lb/> я согласилась на ево желанїе, и не могла я жива<lb/> быть,
+                        ежелибъ я ево не видѣла на меньшои конецъ<lb/> съ двенатцать разъ всякои
+                        день. На конецъ въ из-<lb/>
+                        <fw type="catch" place="bottom">вѣстнѣишïи</fw>
+                        <pb facs="#convsmer_ru_003" n="3"/>
+                        <fw type="pageNum">3</fw>вѣстнѣишïи знакъ своея вѣрности далъ онъ мнѣ<lb/>
+                        этотъ перстень, и то тогда, когда онъ отъѣж-<lb/> жалъ отъ сюду въ свои домъ
+                        для взятья нужныхъ<lb/> вещеи къ нашеи свадьбѣ.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Ежели онъ доброи человѣкъ, то содержитъ свое<lb/> слово.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Какъ ему сдержать, по тому что вѣрные люди<lb/> увѣдомили меня, что этотъ
+                        Сїлвїи убилъ первую<lb/> свою жену, которая называлася Смералдїна, и
+                        не-<lb/> смотря на обѣщанїе, чтобъ взять меня за себя,<lb/> чему вотъ
+                        закладъ старается онъ жениться на,<lb/> нѣкоторои Дïанѣ, дочерѣ Панталона де
+                        Бїзоньнїозї.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Развѣ женится онъ на чортъ, которои чтобъ взялъ<lb/> этова плута. Ничево не
+                        извольте бояться, госу-<lb/> дарыня моя, дочь моя никогда ево не будетъ.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Какъ! так это вы Панталонъ отецъ Дïанïнъ?</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Правда, я ея отецъ.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Дорогои мои государь, я у васъ прощенїя прошу<lb/> въ моеи не умѣренности; а
+                        веть тутъ идетъ<lb/> о моеи чести.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Вы это очюнь хорошо здѣлали, что меня увѣдо-<lb/> мили о плутовствѣ того
+                        человѣка.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <fw type="sig" place="bottom">Ж 2</fw>
+                <fw type="catch" place="bottom">Извольте</fw>
+                <pb facs="#convsmer_ru_004" n="4"/>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Извольте вы поберечься, мои господинъ, веть<lb/> этотъ Сïлвïи не что иное,
+                        какъ вертопрахъ, и<lb/> такои человѣкъ, которои всему не спускаетъ, что<lb/>
+                        ему попадїотся.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Не извольте, о томъ попеченїе имѣть.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Я васъ увѣдомляю къ лучшему вашему, и дочери<lb/> вашея.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Довольно тово.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Я хочу итьти, чтобъ вамъ больше не надокучить.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Ваша услужница, мои господа.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Прости красна дѣвица.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Но прежде нежели я поиду, хочется мнѣ вамъ по-<lb/> казать танецъ на рускую
+                        стать.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_ru">
+                    <speaker>Пант:</speaker>
+                    <p>Извольте танцовать.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_ru">
+                    <speaker>Киким:</speaker>
+                    <p>Ступаи сюда, мужикъ, танцуи со мною. </p>
+                    <p rend="indent">***</p>
+                </sp>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Gespräche zwischen Smeraldina als einem umherschweifenden Geist, und den
+                        Pantalon</title>
+                    <respStmt>
+                        <resp>Digitisation of facsimile</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (21c)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="4">4 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="convsmer_ge_001" url="/img/convsmer_ge_001.jpg"/>
+                <graphic xml:id="convsmer_ge_002" url="/img/convsmer_ge_002.jpg"/>
+                <graphic xml:id="convsmer_ge_003" url="/img/convsmer_ge_003.jpg"/>
+                <graphic xml:id="convsmer_ge_004" url="/img/convsmer_ge_004.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#convsmer_ge_001" n="1"/>
+                <head type="main">Gespraͤche<lb/> zwischen Smeraldina, als einem um-<lb/>
+                    herſchweifenden Geiſt, und den<lb/> Pantalon</head>
+                <head type="sub">welches<lb/>in einem<lb/>Jtaliaͤniſchen
+                    Schau-Spiele<lb/>eingefuͤhret worden.</head>
+            </front>
+            <body>
+                <pb facs="#convsmer_ge_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Ich ſage euch, daß ihr mir, als einer Frau von Stande, mit<lb/> Hoͤfflichkeit
+                        und Reſpect begegnet; denn, woferne ich meine<lb/> Ehre nicht beobachtete,
+                        ſo wollte ich euch anders lehren, wie ihr euch<lb/> auffuͤhren ſollet. Jhr
+                        Betruͤger! Ihr Lumpenhande? Ihr nichtswuͤr-<lb/> digen, liederlichen Kerls!
+                        Euere gehorſame Dienerin, meine Herren.</p>
+                    <p rend="indent">Habt die Gnade und verwundert euch nicht, wenn ihr mich<lb/>
+                        als einen ſo verwirrten und eingefleiſchten Teuffel ſehet. Ich habe<lb/>
+                        meine Urſache.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Was hat man euch gethan? </p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt</speaker>
+                    <p>Was man mir gethan hat? Jhr fraget noch? Der Hen-<lb/> cker hat ſo was
+                        geſehen! Habt ihr das Gehirne verlohren? Jedoch<lb/> Gedult! die That gehet
+                        mich an. Jch will mich raͤchen, und wenn es<lb/> das gantze vaͤterliche
+                        Erbtheil meines Ur-Groß-Vaters und meiner<lb/> Ur-Groß Mutter koſten ſollte,
+                        welches beydes wackere Leute waren.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Sagt doch, wer euch beleidiget und ob man euch helffen<lb/> kan?</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt</speaker>
+                    <p>Ich ſehe euch fuͤr zu verſtaͤndig an, meine Herren, als daß ihr<lb/> euch
+                        beleidiget finden werdet, wann ich mein Ungluͤck vor euch ver-<lb/> borgen
+                        halte: wiſſet demnach, daß ich von Moſcau und die eintzige<lb/> Tochter des
+                        Herrn *** bin, der unlaͤngſt in der Fleiſchbanck zu Pe-<lb/> tersburg zum
+                        Doctor Medicinae gemacht worden, und der, in ſei-<lb/> ner Profeſion, dem
+                        beſten Tiſchler nichts nachgiebt. Meine Mutter<lb/> heiſet **** eine Frau,
+                        die ſo gut rechnet, daß ſie der Buͤrgerſchafft<lb/> zu Riga Dienſte zu
+                        leiſten capable waͤre. Sie verkaufft Pfeffer zu<lb/> 3. Copicken das Pfund
+                        und ich ſchencke Bier in der *** Straße, undv braue es ſo gut, daß ſich die
+                        Ruſſen calatſchen, um das erſte aus-<lb/> zuſtechen.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon</speaker>
+                    <p>Ihr werdet euch, durch eure Schoͤnheit viele Kundſchafft zu-<lb/> ziehen?</p>
+                </sp>
+                <fw type="catch" place="bottom">Der</fw>
+                <pb facs="#convsmer_ge_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>In Menge: unter andern kam unlaͤgſt ein junger, wohlgemach-<lb/> ter und
+                        galanter Fremder zu mir, der ſich Silvio nennte. Ach! wenn<lb/> ich an ihn
+                        gedencke, ſo ſteigen mir die Thraͤnen in die Augen.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Weinet nicht, charmanter Engel; ihr muͤſſet euch einen<lb/> Muth faſſen.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Ach! ich kan mich der Thraͤnen nicht enthalten. Der Ver-<lb/> raͤther! der
+                        Betruͤger! der ehrloſe Menſch! Aber, wieder auf mei-<lb/> ne Hiſtorie zu
+                        kommen, dieſer Menſch wurde in mich verliebt. Um<lb/> meine Liebe zu
+                        gewinnen, ſagte er mir allezeit vor: mein Hertz,<lb/> mein Leben, mein
+                        Schatz! ich vergehe, ich ſterbe fuͤr euch! ſo daß<lb/> ich mich darein
+                        ergab, und nicht leben konte, wenn ich ihn nicht des<lb/> Tages ein oder
+                        zweymahl zu ſehen bekam. Zuletzt wollte er mir<lb/> noch ein ſicheres
+                        Unterpfand ſeiner Treue geben und ſchenckte mir<lb/> dieſen Ring, und dieſes
+                        that er, ehe er aus der Stadt gieng; um die<lb/> noͤthigen Scheine herbey zu
+                        hohlen, daß er mich heyrathen koͤnte.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Wenn er ein ehrlicher Kerl iſt, ſo wird er ſein Wort halten.</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Im Gegentheil, es haben mich Leute, denen man Glauben<lb/> beymeſſen kan,
+                        verſichert, daß dieſer Sylvio ſeine erſte Frau mit<lb/> Nahmen Smeraldina
+                        umbringen laſſen, und ungeachtet ſeines Ver-<lb/> ſprechens, das er mir mit
+                        dieſem Ring zugleich gegeben, eine andere<lb/> mit Nahmen Diana, Pantalons
+                        von Biſognoſi Tochter, heyrathen<lb/> wolle.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Er wird den Teuffel heyrathen, derdieſen Betruͤger hohlen<lb/> wird.
+                        Fuͤrchtet euch nicht, meine liebe Jungfer! meine Tochter wird<lb/> ihn nicht
+                        heyrathen.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Wie? ſeyd ihr Pantalon, der Vater der Diana?</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Ja, ich bin ihr Vater.</p>
+                </sp>
+                <fw type="catch" place="bottom">Der</fw>
+                <pb facs="#convsmer_ge_004" n="4"/>
+                <fw type="pageNum">4</fw>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Mein lieber Herr, ich bitte um Verzeyhung; meine Ehre<lb/> bringt mich zu
+                        dieſer Ausſchweiffung.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Ihr habt wohlgethan, daß ihr mir von der Betruͤgerey die-<lb/> ſes Menſchen
+                        Nachricht gegeben.</p>
+                </sp>
+                <pb facs="#convsmer_ru_004" n="4"/>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Nehmet euch in acht, mein Herr, dieſer Silvio iſt ein Petit-<lb/> Maitre und
+                        ein Menſch von gutem Gluͤcke.</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>Pantalon.</speaker>
+                    <p>Traget keine Sorge.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Ich habe es euch und eurer Tochter zum Beſten erzehlet.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Es iſt gantz gut.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Ich will gehen, um euch nicht laͤnger beſchwehrlich zu fal-<lb/> len, ich bin
+                        euere Dienerin, mein Herr.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Lebet wohl Mademoiſſelle.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Allein, ehe ich fortgehen, muͤſſet ihr noch einen Rußiſchen<lb/> Tantz
+                        ſehen.</p>
+                </sp>
+                <sp who="pantalone_ge">
+                    <speaker>Pantalon.</speaker>
+                    <p>Tantzet.</p>
+                </sp>
+                <sp who="#spirito_folletto_ge">
+                    <speaker>Der Geiſt.</speaker>
+                    <p>Komm her, Bauer, tantze mit mir. etc.</p>
+                </sp>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La conversazione tra Smeraldina spirito folletto e Pantalone</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#convsmer_ru_001" n="1"/>
+                <head type="main">LA CONVERSAZIONE TRA SMERALDINA SPIRITO FOLLETTO E
+                    PANTALONE.</head>
+            </front>
+            <body>
+                <p rend="indent">***</p>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Io vi dico che dovete essere gentile e rispettoso nei confronti di una donna
+                        come me, perché se io non temessi di nuocere al mio onore, allora vi
+                        insegnerei io come comportarvi. Fannulloni, imbroglioni, buoni a nulla,
+                        ubriaconi. Buongiorno, miei signori.</p>
+                    <p rend="indent">***</p>
+                    <p>Non vogliate, ve ne prego, meravigliarvi che io adesso sono così arrabbiata e
+                        tanto cattiva; ne ho un motivo.</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Forse qualcuno vi ha fatto qualcosa?</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Voi mi chiedete se qualcuno mi ha fatto qualcosa? Io sarò maledetta: va bene!
+                        Farò sapere a tutti chi sono io! Ho intenzione di vendicare la mia offesa
+                        anche se sapessi che a causa di ciò potrei perdere tutti gli averi paterni
+                        del mio bisnonno e della mia bisnonna, che erano brave persone.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Abbiate la compiacenza di dire chi vi ha disonorato, così potrò aiutarvi.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Io vedo che voi siete una persona tanto garbata, mio signore, che sarei io
+                        stessa a disonorarvi se <pb facs="#convsmer_ru_002" n="2"/> vi tacessi la mia
+                        infelicità. Dovete sapere che io sono nata a Mosca, figlia unica di I..., il
+                        quale era stato messo come Dottore in medicina nel reparto carne del mercato
+                        a San Pietroburgo e che nella sua arte non era da meno del più importante
+                        falegname olandese. Mia madre si chiamava I..., ed era una donna tale da
+                        poter offrire i propri servigi nella società di Riga. Ella vendeva il burro
+                        a un altin a libbra. E io facevo la birra nella via di I...; e mi veniva
+                        così bene che i russi facevano a pugni per berla per primi.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Voi, a quanto pare, attiravate molti spasimanti con la vostra bellezza!</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Moltissimi: tra i quali un giorno venne da me un giovane forestiero, molto
+                        ben vestito e cortese che si chiamava Silvio. Ahimè! Se solo ci penso mi
+                        vengono subito le lacrime agli occhi.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Non piangete, cara bambolina; fatevi coraggio.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Ah! E come posso non piangere! Traditore! Imbroglione! Briccone! Ma per
+                        tornare alla mia storia, allora quel giovane si innamorò immediatamente di
+                        me e si mise a dimostrarmi il suo amore in modo così appassionato
+                        chiamandomi cuore mio, vita mia, tesoro mio, io mi affliggo, io muoio per
+                        voi, e io ho ceduto al suo desiderio e non potevo vivere se non lo vedevo
+                        per almeno dodici volte al giorno. Alla fine come segno evidente <pb facs="#convsmer_ru_003" n="3"/> della sua devozione mi ha dato questo anello, e
+                        questo quando è partito per andare a casa sua a prendere il necessario per
+                        le nostre nozze.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Se è una persona onesta, manterrà la sua parola.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Come può mantenerla, se alcune brave persone mi hanno informato che questo
+                        Silvio ha ucciso la sua prima moglie che si chiamava Smeraldina e nonostante
+                        la promessa fattami di sposarmi, di cui ho qui il pegno, cerca di sposare
+                        una certa Diana, figlia di Pantalone de’ Bisognosi!</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Forse sposerà il diavolo, che se lo porti questo imbroglione. Non abbiate
+                        paura, mia signora, mia figlia non sarà mai sua.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Come! Siete voi Pantalone, il padre di Diana?</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>È la verità, sono suo padre.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Mio caro signore, vi chiedo scusa per i miei eccessi; si tratta pur sempre
+                        del mio onore.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Avete fatto molto bene ad informarmi degli imbrogli di quell’uomo.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <pb facs="#convsmer_ru_004" n="4"/>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Vogliate essere prudente, mio signore, poiché questo Silvio altri non è che
+                        uno sventato, una persona che non si lascia scalfire e non molla il
+                        tiro.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Non preoccupatevi di ciò.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Io vi informo per il bene vostro e di vostra figlia.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Ora basta.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Voglio andarmene per non annoiarvi più.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Serva vostra, mio signore.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Addio bella fanciulla.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Ma prima di andarmene voglio mostrarvi una danza alla maniera russa.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="pantalone_it">
+                    <speaker>PANTALONE:</speaker>
+                    <p>Danzate.</p>
+                    <p rend="indent">***</p>
+                </sp>
+                <sp who="#spirito_folletto_it">
+                    <speaker>SPIRITO FOLLETTO:</speaker>
+                    <p>Vieni qui, giovanotto, balla con me.</p>
+                    <p rend="indent">***</p>
+                </sp>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

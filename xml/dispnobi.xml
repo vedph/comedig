@@ -1,0 +1,1107 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La disputa sulla nobiltà tra Eularia, vedova stravagante, e Pantalone
+                    mercante attaccabrighe, ovvero il marchese d’Alta Polvere</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La disputa sulla nobiltà fra Eularia, vedova stravagante, e Pantalone, mercante
+                    attaccabrighe, ovvero il marchese di Alta Polvere venne rappresentata a San
+                    Pietroburgo nel 1735 dalla terza compagnia di attori italiani. La versione in
+                    lingua tedesca della commedia, intitolata Die Händel des vermeynten Adels
+                    zwischen Eularia einer eindilbischen Wittwe und Pantalon einem grillenköpfigen
+                    Kauffmann oder der Marquis von Altapolvere, è preservata soltanto nella
+                    Biblioteca dell’Accademia delle Scienze ed è stata per la prima volta segnalata
+                    da Alice Pieroni (Pieroni, 233). Per quanto ci è dato a sapere, questa commedia
+                    non trova corrispondenze nelle altre raccolte drammatiche conosciute del teatro
+                    all’improvviso. Come anche negli altri scenari del biennio 1734-1735, i
+                    personaggi perdono la rigidità del tipo e divengono caratteri ridicolizzati per
+                    le loro smanie e per i difetti e debolezze della classe a cui appartengono.
+                    Così, Eularia, dimenticandosi di essere vedova di un mercante e convinta di
+                    essere una grande signora, si oppone al matrimonio del figlio con Isabella,
+                    figlia del mercante Pantalone. Da notare, inoltre, come in questa commedia il
+                    personaggio del Dottore ha l’insolito ruolo del creditore che alla fine
+                    smaschera la vera identità del petit-maître marchese d’Alta Polvere, mentre
+                    Pantalone per la prima volta tenta, con ogni mezzo, di far sposare i giovani
+                    innamorati.</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>СПОРЪ О ШЛЯХЕТСТВѢ МЕЖДУ ЭУЛАРIЕЮ ВДОВОЮ СУМОЗБРОДНОЮ И ПАНТАЛОНОМЪ
+                        КУПЦОМЪ СПОРЛИВЫМЪ. ИЛИ МАРКÌ Д'ÁЛТА ПÓЛВЕРЕ.МЕЖДУ ЭУЛАРIЕЮ ВДОВОЮ
+                        СУМОЗБРОДНОЮ И ПАНТАЛОНОМЪ КУПЦОМЪ СПОРЛИВЫМЪ. ИЛИ МАРКÌ Д'ÁЛТА
+                        ПÓЛВЕРЕ.</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Library of St Petersburg Academy of Sciences</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>St Petersburg</settlement>
+                            <repository>The Library of St Petersburg Academy of
+                                Sciences</repository>
+                            <idno type="shelfmark">BAN, NIORK 271 (35) </idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="12">12 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="dispnobi_ru_001" url="/img/dispnobi_ru_001.jpg"/>
+                <graphic xml:id="dispnobi_ru_002" url="/img/dispnobi_ru_002.jpg"/>
+                <graphic xml:id="dispnobi_ru_003" url="/img/dispnobi_ru_003.jpg"/>
+                <graphic xml:id="dispnobi_ru_004" url="/img/dispnobi_ru_004.jpg"/>
+                <graphic xml:id="dispnobi_ru_005" url="/img/dispnobi_ru_005.jpg"/>
+                <graphic xml:id="dispnobi_ru_006" url="/img/dispnobi_ru_006.jpg"/>
+                <graphic xml:id="dispnobi_ru_007" url="/img/dispnobi_ru_007.jpg"/>
+                <graphic xml:id="dispnobi_ru_008" url="/img/dispnobi_ru_008.jpg"/>
+                <graphic xml:id="dispnobi_ru_009" url="/img/dispnobi_ru_009.jpg"/>
+                <graphic xml:id="dispnobi_ru_010" url="/img/dispnobi_ru_010.jpg"/>
+                <graphic xml:id="dispnobi_ru_011" url="/img/dispnobi_ru_011.jpg"/>
+                <graphic xml:id="dispnobi_ru_012" url="/img/dispnobi_ru_012.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#dispnobi_ru_001" n="1"/>
+                <head type="main">СПОРЪ О ШЛЯХЕТСТВѢ<lb/>между<lb/> ЭУЛАРIЕЮ ВДОВОЮ
+                    СУМОЗБРОДНОЮ<lb/> И ПАНТАЛОНОМЪ КУПЦОМЪ СПОРЛИВЫМЪ.<lb/> ИЛИ<lb/>МАРКÌ Д'ÁЛТА
+                    ПÓЛВЕРЕ.</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ <date when="1735">1735.</date></head>
+                <pb facs="#dispnobi_ru_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ.</head>
+                    <p rend="indent">ЦЕЛIЙ обманщикъ называяся Маркì, обманываеть<lb/> Эуларїю вдову
+                        очюнь богатую, и совѣтуетъ еи,<lb/> чтобъ она уничтожила свое обѣщанїе, дабы
+                        взять<lb/> за своего сына Одоарда Iзабеллу дочь Панталонову.<lb/> Сїе подало
+                        причину Панталону и Сïлвïю первому<lb/> любовнику вдовину къ исканїю
+                        способа, чрезъ кото-<lb/> рой бы отмстить подложному Маркì, которои на-<lb/>
+                        послѣдокъ признанъ отъ Доктора за обманщика, ко-<lb/> торому онъ долженъ
+                        былъ пятью тысячами рублеи,<lb/> и взятъ по приказу Докторову за караулъ.
+                        Эуларїя<lb/> вынявши изъ головы ложную свою великость, и увѣ-<lb/> домившись
+                        прямо о своемъ Маркì, возвращается къ<lb/> первому своему любовнику, и
+                        исполняетъ свое обѣ-<lb/> щанїе Панталону, что чинится сочетанїемъ
+                        брач-<lb/> нымъ, которое кончитъ комедїю.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩIЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="celio_ru">ЦЕЛIЙ,</role>
+                        <roleDesc>подложный Маркì д'Áлта пóлвере.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ru">АРЛЕКИНЪ.</role>
+                        <roleDesc>его слуга.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                        <roleDesc>отецъ Iзабеллинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="isabella_ru">IЗАБЕЛЛА,</role>
+                        <roleDesc>любовница Одоардова.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="odoardo_ru">ОДОАРДЪ,</role>
+                        <roleDesc>сынъ Эуларïинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="eularia_ru">ЭУЛАРIЯ,</role>
+                        <roleDesc>вдова.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="colombina_ru">КОЛОМБIНА,</role>
+                        <roleDesc>ея служащая.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_ru">СIЛВIИ,</role>
+                        <roleDesc>любовникъ Эуларïинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ru">БРИГЕЛЛЪ,</role>
+                        <roleDesc>его слуга.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                        <roleDesc>заимодавецъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="corriere_ru">Скороходъ.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="locandiere_ru">Метръдотель.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="servitori_ru">Слуги.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Дѣйствуется въ Венецïи.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#dispnobi_ru_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВIЕ ПЕРВОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">ПАНТАЛОНЪ выходя увѣряетъ Доктора о своей<lb/> къ нему дружбѣ,
+                        и сказываетъ ему, что сынъ Эула-<lb/> рїинъ влюбился въ дочь его Iзабеллу,
+                        которую бы<lb/> онъ за него отдалъ охотно, ежелибъ онъ не боялся<lb/> матери
+                        его, которая думая о себѣ, что знатная,<lb/> хочетъ его женить на великои
+                        госпожѣ, не памятуя<lb/> что она была за нѣкоторымъ Орацїемъ простымъ<lb/>
+                        куцомъ. Докторъ совѣтуетъ ему просить помощи<lb/> у Маркì д'Áлта пóлвере,
+                        которои его защитникъ,<lb/> и котораго надлежитъ величать великими
+                        тїтлами,<lb/> однако онъ ничто иное, какъ только тщеславный<lb/> Гасконецъ,
+                        и долженъ ему Доктору пятью тысячами<lb/> рублями. Панталонъ благодаритъ
+                        Доктору, и по-<lb/> шолъ къ Маркì, Докторъ за своими нуждами такъ<lb/> же
+                        пошолъ.</p>
+                    <p rend="indent">СIЛВIЙ выходитъ говоря Брïгеллу о переменѣ<lb/> Эуларїинои къ
+                        себѣ, и что она стала горда и спеси-<lb/> ва, а для чего, онъ того не
+                        знаетъ. Брїгеллъ, чтобъ<lb/> увѣдомиться о томъ, сталъ стучаться у нея.
+                        Эуларїя<lb/> выходитъ. Сïлвïй сталъ ея просить, чтобъ она къ<lb/> нему была
+                        такъ какъ прежде. Эуларїя ему отвѣт-<lb/> ствуетъ спесиво показываяся
+                        знатною, и не давши<lb/> ему никакова отвѣта о своеи перемѣнѣ, уходитъ.<lb/>
+                        Сїлвїй печалится, что она такъ съ нимъ поступаетъ;<lb/> однакожъ желаетъ онъ
+                        тому вѣдать причину. Брї-<lb/> геллъ ему говоритъ, что онъ о томъ
+                        довѣдается,<lb/> да и пошли оба.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ жалуяся, что онъ прину-<lb/>
+                        <fw type="catch" place="below">жденъ</fw>
+                        <pb facs="#dispnobi_ru_004" n="4"/>
+                        <fw type="pageNum">4</fw> жденъ служить такому господину, которой нала-<lb/>
+                        гаетъ на него много работы, а ѣсть даетъ мало.<lb/> Сталъ онъ ему
+                        оправливать перюкъ. Тогда выходитъ<lb/> Маркì, спрашиваетъ, гдѣ его люди.
+                        Арлекїнъ его<lb/> передражниваетъ. Маркì говоритъ, чтобъ онъ былъ<lb/>
+                        обутъ. Одинъ лакеи вышедъ говоритъ ему, что<lb/> Панталонъ желаетъ съ нимъ
+                        видѣться. Велитъ онъ<lb/> его пустить къ себѣ; и съ смѣшною игрушкою
+                        по-<lb/> дноситъ ему кафе; потомъ одѣвается много играя<lb/> прилично
+                        театру, и говоритъ, что онъ позабылъ по-<lb/> кушать, и для того хочетъ
+                        роздѣться; а спросивъ<lb/> которои часъ, такъ осердился на Арлекїна, что
+                        хо-<lb/> тѣлъ его убить. Тутъ просятъ за него всѣ слуги.<lb/> Прощаетъ онъ
+                        Арлекïна, и со всѣмъ одѣлся. Тогда<lb/> сказываютъ ему, что Коломбїна хочетъ
+                        его видѣть.<lb/> Велѣлъ онъ ея пустить. Та по многихъ поклонахъ<lb/>
+                        говоритъ ему, что госпожа ея ожидаетъ его. Маркì<lb/> говоритъ Панталону,
+                        что онъ будетъ ему служить,<lb/> а не зная въ чемъ, потому что Панталонъ не
+                        могъ<lb/> ему объявить свою нужду, да и пошолъ съ Коломбї-<lb/> ною.
+                        Арлекїнъ чинилъ такъ же какъ и господинъ его<lb/> съ Панталономъ, которой не
+                        стерпя того, сталъ его<lb/> бить, да и пошолъ съ нимъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">ОДОАРДЪ выходитъ отъ Панталона съ Iзабеллою,<lb/> увѣряя другъ
+                        друга о вѣрнои взаимно любви, въ на-<lb/> дѣянїи что они сочетаются скоро.
+                        На то Панта-<lb/> лонъ приходитъ. Пали они ему въ ноги. Старикъ<lb/> ихъ
+                        подымаетъ, и говоритъ Одоарду, что онъ очюнь<lb/> доволенъ тѣмъ, чтобъ
+                        отдать свою дочь за него,<lb/> чему свидѣтелемъ запись; однако не
+                        хочетъ<lb/> онъ связываться съ его матерїю Эуларїею, того<lb/> ради
+                        надлежитъ ему самому выпросить у нея по-<lb/>
+                        <fw type="catch" place="bottom">зволенїе.</fw>
+                        <pb facs="#dispnobi_ru_005" n="5"/>
+                        <fw type="pageNum">5</fw> зволенїе. Одоардъ его проситъ, чтобъ онъ самъ
+                        то<lb/> учинилъ, обязуяся, что ежелибъ она не хотѣла,<lb/> тудажъ къ нимъ
+                        притьти. Панталонъ будучи убѣ-<lb/> жденъ прошенїемъ двухъ любовниковъ
+                        говоритъ, что<lb/> онъ то учинитъ. Одоардъ и Iзабелла пошли. Старикъ<lb/>
+                        остался; къ нему приходитъ Коломбїна отъ своея<lb/> госпожи. Панталонъ
+                        хочетъ съ нею говорить; но<lb/> та поступаетъ съ нимъ важно, а по многихъ
+                        шуткахъ<lb/> говоритъ ему, что буде онъ хочетъ съ нею гово-<lb/> рить, то
+                        надобно ему имѣть высокой тїтлъ, и<lb/> тогда то она будетъ его слушать, да
+                        и пошла.<lb/> Панталонъ за неюжъ.</p>
+                    <p rend="indent">МАРКÌ, за которымъ Арлекїнъ шолъ съ парасо- ломъ, по многихъ
+                        игрушкахъ спрашиваетъ у Арле-<lb/> кїна, что взялъ ли онъ копїю съ писма,
+                        которое онъ<lb/> написалъ къ невѣстѣ своей, для обыкновенныя за-<lb/> писки
+                        онаго въ книгу. Арлекїнъ говоритъ, что взялъ.<lb/> И когда онъ читалъ оное,
+                        тогда Коломбїна прихо-<lb/> дитъ, а за нею Панталонъ. Маркì уходитъ съ
+                        Арле-<lb/> кїномъ, которому онъ приказываетъ, чтобъ онъ до<lb/> тѣхъ поръ не
+                        допускалъ до него Панталона, пока<lb/> онъ переговоритъ съ Коломбїною.
+                        Панталонъ про-<lb/> ситъ Коломбїну, чтобъ она вызвала къ нему госпожу<lb/>
+                        свою. Между тѣмъ Арлекїнъ исполняетъ приказъ<lb/> своего господина, которои
+                        говоритъ съ Коломбїною<lb/> предлагая еи, что онъ скоро поидетъ къ ея
+                        госпожѣ,<lb/> да и пошолъ. Коломбїна такъ же. Арлекїнъ не пере-<lb/> стаетъ
+                        досаждать Панталону, которои его началъ<lb/> бить. Арлекїнъ уходитъ. Старикъ
+                        остался. Къ тому<lb/> Сїлвїй и Брїгеллъ приходятъ, и просятъ его, чтобъ<lb/>
+                        онъ поговорилъ Маркì попросить Эуларїю, чтобъ<lb/> она была не столь спесива
+                        къ Сїлвїю, а Коломбїна<lb/> къ Брїгеллу. Старикъ имъ говоритъ, что то
+                        не<lb/> возможно, потому что та дама любитъ Маркì,<lb/>
+                        <fw type="catch" place="bottom">а Кoлом-</fw>
+                        <pb facs="#dispnobi_ru_006" n="6"/>
+                        <fw type="pageNum">6</fw> а Коломбїна его слугу. Сїлвïи и Брïгеллъ
+                        благода-<lb/> рятъ ему за сїю вѣдомость. Панталонъ пошолъ. Тѣ<lb/> осталися,
+                        и не много къ сторонѣ отошли, увидѣвъ,<lb/> что Маркì идетъ браня Арлекїна
+                        за его дурачество.<lb/> Арлекїнъ въ оправданїе приноситъ его повелѣнїе.<lb/>
+                        Тогда Коломбïна приходитъ, и взяла съ собою Маркì<lb/> говоря, что госпожа
+                        ея видѣть его желаетъ. Арле-<lb/> кїнъ сталъ шутить съ Коломбïною. Брїгеллъ
+                        осердив-<lb/> шись вырвался изъ рукъ Сïлвïевыхъ; сталъ онъ бра-<lb/> нить
+                        Коломбїну, что въ своемъ къ нему словѣ она<lb/> не устояла. Арлекїнъ уходитъ
+                        въ домъ Эуларїинъ.<lb/> Коломбїна браня Брїгелла пошла. Сïлвïй съ
+                        Брїгел-<lb/> ломъ думая что имъ надлежитъ чинить, и видя<lb/> что ворота у
+                        Эуларїи отворены, говорятъ, что они<lb/> хотятъ поити къ неи, дабы ея
+                        застать съ новымъ<lb/> ея любовникомъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">ЭУЛАРIЯ чинитъ комплїменты Маркì, а Колом-<lb/> бїна Арлекїну.
+                        На то Сïлвïй приходитъ съ Брїгелломъ.<lb/> Стали они укорять ихъ
+                        невѣрностїю. Арлекїнъ<lb/> уходитъ. Маркì показываяся храбрымъ говоритъ,
+                        что<lb/> онъ ихъ побьетъ и убьетъ и прочая. Брїгеллъ гово-<lb/> ритъ, чтобъ
+                        онъ начиналъ то чинить. На крикъ Арле-<lb/> кїнъ прибѣгаетъ обернувшись въ
+                        епанчю такъ, что буд-<lb/> то онъ фузѣю имѣетъ подъ епанчою. Сïлвïй и
+                        Брïгеллъ<lb/> испужавшись убѣгаютъ, а за ними Эуларїя и Колом-<lb/> бїна.
+                        Арлекїнъ збросилъ съ себя епанчу, и показалъ<lb/> вмѣсто фузѣи бутылку
+                        говоря смѣяся, что онъ<lb/> хочетъ пить за здоровье храбрыхъ бѣглецовъ, да
+                        и<lb/> окончеваетъ тѣмъ Дѣиствїе первое.</p>
+                    <fw type="catch" place="bottom">ДѢИ-</fw>
+                </div>
+                <pb facs="#dispnobi_ru_007" n="7"/>
+                <fw type="pageNum">7</fw>
+                <div type="act" n="2">
+                    <head>ДѢИСТВIЕ ВТОРОЕ.</head>
+                    <p rend="indent">МАРКÌ выходитъ испужавшись съ Арлекïномъ отъ<lb/> Эуларїи, да и
+                        пошолъ. Эуларїя выгоняетъ отъ себя<lb/> Сїлвїя и Брїгелла; бранитъ она ихъ
+                        всячески, да и<lb/> пошлажъ прочь съ Коломбїною. Сїлвїй намѣрился<lb/>
+                        вызвать биться Маркì, а Брїгеллъ такъ же Арлекїна,<lb/> да и пошли ихъ
+                        искать.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">ЭУЛАРIЯ выходитъ говоря съ насмѣшкою Одоарду,<lb/> что она
+                        увѣдомилась, однакожъ она тому не вѣ-<lb/> ритъ, что онъ обѣщалъ взять за
+                        себя дочь одного<lb/> купчишка именемъ Панталона. Одоардъ съ такоюжъ<lb/>
+                        насмѣшкою притворяяся быть покорнымъ признавается<lb/> въ томъ. Эуларїя въ
+                        великое пришла сердце, и послѣ<lb/> многихъ поносныхъ словъ грозитъ
+                        проклясть его.<lb/> Одоардъ притворился, что онъ въ томъ раскаевает-<lb/>
+                        ся, а потомъ вставши говоритъ, что онъ хочетъ<lb/> устоять въ своемъ словѣ
+                        Панталону; и проситъ ея,<lb/> чтобъ она не принуждала его говорить еи о
+                        томъ,<lb/> что онъ знаетъ про нея. Эуларїя сердится. Одоардъ<lb/> не
+                        стерпѣвъ говоритъ еи, что надлежалобъ еи пом-<lb/> нить, что она сама была
+                        прежде нежели какъ покойнои<lb/> его отецъ женился на неи, и что нынѣшняя ея
+                        спесь<lb/> пришла къ неи отъ того, что она надѣется на за-<lb/> щищенїе того
+                        Маркì; однакожъ онъ на него не смо-<lb/> тритъ, потому что онъ имѣетъ
+                        духовную отца<lb/> своего въ рукахъ, по силѣ которыя можетъ онъ ея<lb/>
+                        выбить вонъ изъ двора такъ, какъ она пришла, то<lb/> есть, въ рубахѣ.
+                        Эуларїя сїе слышя въ превеликое<lb/> приходитъ сердце. На сеи крикъ
+                        Коломбїна прихо-<lb/> дитъ, и стала за свою госпожу, которая повелѣ-<lb/>
+                        ватъ еи, чтобъ она шла къ Панталону, и взялабъ<lb/>
+                        <fw type="catch" place="bottom">у него</fw>
+                        <pb facs="#dispnobi_ru_008" n="8"/>
+                        <fw type="pageNum">8</fw> у него запись рядную сына ея. Одоардъ говоритъ
+                        еи,<lb/> что Панталонъ не столь глупъ, чтобъ онъ могъ от-<lb/> дать оную; а
+                        хотя бы онъ и отдалъ, однакожъ онъ<lb/> Одоардъ устоитъ ему въ своемъ словѣ.
+                        Коломбïна<lb/> пошла. Эуларїя показываяся, что будто хочетъ<lb/> бить своего
+                        сына, пошла съ нимъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">МАРКÌ выходитъ размышляя о томъ, что было<lb/> у Эуларїи. На то
+                        Сїлвїй приходитъ, и видя что онъ<lb/> безъ шпаги, проситъ у него милости;
+                        Маркì думая,<lb/> что онъ требуетъ отъ него себѣ покровительства,<lb/>
+                        говоритъ, что надобно прежде оную заслужить.<lb/> Сïлвїй ему говоритъ, чтобъ
+                        онъ его тутъ подождалъ.<lb/> Пошолъ онъ, да и возвратился съ шпагою,
+                        которую<lb/> подавая Маркì говоритъ ему, что онъ хочетъ съ нимъ<lb/> биться.
+                        Маркì удивившись отговаривается всячески,<lb/> и говоритъ, что то не по
+                        формѣ поединковъ, для<lb/> того что надлежитъ сперва объявить оружїе,
+                        мѣсто,<lb/> и посредниковъ, а чтобъ знать все сїе, то надобно<lb/> читать
+                        аvторовъ, которые о томъ писали. Сїлвїй<lb/> его непрестанно принуждалъ
+                        грозя, что онъ его по-<lb/> бьетъ и убьетъ. По нѣсколькихъ смѣшныхъ
+                        игруш-<lb/> кахъ, Маркì спрашиваетъ у него причину того по-<lb/> единка.
+                        Сїлвїй говоритъ, чтобъ онъ ему уступилъ<lb/> Эуларїю. Сїе слово услышавъ
+                        Маркì осердился, и<lb/> говоритъ, что уступать не прилично Маркì, развѣ<lb/>
+                        подарить, буде онъ ея желаетъ, да и пошолъ. Сïл-<lb/> вїй остался, и смѣется
+                        надъ его увертками. На то<lb/> Брїгеллъ приходитъ. Сїлвïй ему сказываетъ про
+                        тру-<lb/> сость, которую показалъ Маркì, и про его подарокъ.<lb/> Брїгеллъ
+                        говоритъ, что онъ тожъ хочетъ учинить<lb/> съ Арлекїномъ. Сïлвїй намѣренїе
+                        его хвалитъ, да и<lb/> пошолъ. Между тѣмъ Арлекїнъ приходитъ. Брïгеллъ<lb/>
+                        <fw type="catch" rend="indent">ему</fw>
+                        <pb facs="#dispnobi_ru_009" n="9"/>
+                        <fw type="pageNum">9</fw> ему говоритъ, что илибъ онъ ему уступилъ
+                        Колом-<lb/> бїну, илибъ онъ съ нимъ бился. Арлекїнъ показыва-<lb/> етъ свою
+                        храбрость. Согласились они вмѣстѣ, да и<lb/> пошли готовиться къ бою.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">ЭУЛАРIЯ сердится съ спесью на Панталона, уко-<lb/> ряя его, что
+                        онъ обманываетъ ея сына. Панталонъ<lb/> все то терпитъ, показываетъ еи
+                        первое ея состоя-<lb/> нїе, и говоритъ еи, что почтенїе, которое онъ къ<lb/>
+                        неи имѣетъ, происходитъ отъ дружбы, которую<lb/> онъ имѣлъ къ покоиному ея
+                        мужу. На то Iзабелла<lb/> приходитъ думая, что въ неи имъ нужда есть.
+                        Эу-<lb/> ларїя ея называетъ дѣвчонкою, и не вѣжливою. Пан-<lb/> талонъ еи
+                        отвѣчаетъ за дочь, и говоритъ Iзабеллѣ,<lb/> насмѣхаяся надъ Эуларїею, чтобъ
+                        она сеи дамѣ по-<lb/> клонъ учинила. Эуларїя видя, что надъ нею смѣются<lb/>
+                        стала сердится на обоихъ. На крикъ Коломбїна вы-<lb/> бѣжала, и стала за
+                        свою госпожу. Одоардъ тутъ же<lb/> къ нимъ вмѣшался, и старается ихъ
+                        помирить. Iза-<lb/> белла ему говоритъ, чтобъ онъ пересталъ больше<lb/>
+                        думать объ неи. Отецъ ея взявъ за руку и браня<lb/> Эуларїю пошолъ съ
+                        Iзабеллою. Эуларїя за нимъ же.<lb/> Между тѣмъ Коломбїна хотѣла на разумъ
+                        наставить<lb/> Одоарда, которои приказавъ еи, чтобъ она молчала,<lb/> сталъ
+                        ея бить. Эуларїя выходя видитъ, что бьютъ<lb/> Коломбїну, начала и его бить,
+                        да и пошли всѣ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">БРIГЕЛЛЪ вышелъ съ шпагою говоритъ, что онъ<lb/> ожидаетъ
+                        своего соперника, и услышавъ что онъ<lb/> идетъ, съ страху уходитъ. Арлекїнъ
+                        выходитъ та-<lb/> кимъ же способомъ, и видя, что Брїгеллъ приходитъ.<lb/>
+                        <fw type="catch" place="bottom">тожъ</fw>
+                        <pb facs="#dispnobi_ru_010" n="10"/>
+                        <fw type="pageNum">10</fw> тожъ чинитъ, что и Брїгеллъ. Напослѣдокъ они
+                        схо-<lb/> дятся, изъ чего происходитъ смѣшнои поединокъ,<lb/> для того что
+                        оба трясутся отъ боязни. На то Пан-<lb/> талонъ приходитъ. Тѣ видя онаго,
+                        показываютъ<lb/> себя быть храбрыми, надѣяся, что онъ ихъ разой-<lb/> метъ.
+                        Панталонъ ихъ проситъ, чтобъ они помири-<lb/> лись; и видя что они конечно
+                        хотятъ биться, имъ<lb/> говоритъ: изрядно молодцы, изрядно; да и пошолъ.
+                        Тѣ<lb/> послѣ нѣкоторыя смѣшныя игрушки обнимаются,<lb/> и пошли.</p>
+                    <p rend="indent">ДОКТОРЪ выходитъ прося Маркì, чтобъ онъ ему<lb/> заплатилъ пять
+                        тысячь рублеи, которыми долженъ.<lb/> Маркì ему говоритъ, что то честь
+                        Доктору, что<lb/> онъ одолжилъ знатнаго господина, и что противу<lb/>
+                        достоинства то кавалерскаго, чтобъ платить долгъ<lb/> толь скоро. Докторъ
+                        сердится. Маркì грозитъ его<lb/> бить. Докторъ говоритъ, что онъ поидетъ
+                        бить че-<lb/> ломъ на него, да и пошолъ. Маркì тому смѣется.<lb/> На то
+                        Эуларїя изъ окна проситъ онаго, чтобъ онъ ея<lb/> подождалъ не много, да и
+                        спряталась. Тогда Сїлвïй<lb/> приходитъ, и видя Маркì, что онъ былъ подъ
+                        окнами<lb/> у Эуларїи послѣ подарка, сталъ его бить. Маркì<lb/> ему за то
+                        благодаритъ. Сїлвїи пошолъ. Арлекїнъ,<lb/> которои то видѣлъ, смѣется надъ
+                        своимъ господи-<lb/> номъ говоря, что ежелибъ ему такое бесчестїе учи-<lb/>
+                        нено было, тобъ онъ зналъ, какъ поступать. Между<lb/> тѣмъ Брїгеллъ
+                        приходитъ, бьетъ онъ Арлекїна, да<lb/> и пошолъ. Маркì смѣется надъ
+                        Арлекїномъ такъ же<lb/> какъ он надъ нимъ. Тогда Эуларїя выходитъ и го-<lb/>
+                        воритъ тому Маркì, чтобъ онъ пожаловалъ теперь<lb/> пошолъ къ Панталону, для
+                        взятья у него записи<lb/> рядныя, чрезъ которую сынъ ея обязался
+                        жениться<lb/> на его дочери. Маркì обѣщается еи въ томъ услу-<lb/> жить.
+                        Эуларїя пошла. Маркì приказываетъ Арлекї-<lb/>
+                        <fw type="catch" place="bottom">ну,</fw>
+                        <pb facs="#dispnobi_ru_011" n="11"/>
+                        <fw type="pageNum">11</fw> ну, чтобъ онъ стучался у Панталона. Арлекїнъ
+                        при-<lb/> казъ исполняетъ. Панталонъ у него спрашиваетъ,<lb/> что ему до
+                        него нужды. Маркì ему говоритъ, что<lb/> онъ хотѣлъ бы видѣться съ его
+                        дочерьо. Панталонъ<lb/> вызываетъ Iзабеллу. Маркї еи повелительно
+                        прика-<lb/> зываетъ отдать запись. Iзабелла его проситъ, чтобъ<lb/> онъ
+                        пожаловалъ подождалъ; пошла она, и возвра-<lb/> щается съ палкою; бьетъ она
+                        того Маркì, которои<lb/> у нея руку цѣлуетъ, и уходя называетъ ея
+                        изряд-<lb/> ною дѣвицею. Iзабелла пошла къ себѣ смѣяся. Арле-<lb/> кїнъ
+                        говоритъ, что онъ больше храбрости имѣетъ,<lb/> нежели его господинъ, и
+                        сталъ просить ту запись.<lb/> Панталонъ вмѣсто отвѣта бьетъ его. Арлекїнъ
+                        пе-<lb/> редражнивая своего господина окончеваетъ дѣиствїе<lb/> второе.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ДѢИСТВИЕ ТРЕТЬЕ.</head>
+                    <p rend="indent">ДОКТОРЪ выходя говоритъ Брїгеллу, что онъ<lb/> имѣетъ уже
+                        указъ, чтобъ взять Маркì подкараулъ<lb/> за свои долгъ, толь наипаче, что
+                        онъ увѣренъ чрезъ<lb/> многихъ своихъ корресондентовъ, что тотъ Маркì<lb/>
+                        великои плутъ соглашаются они поимать его у Эу-<lb/> ларїи, зная, что она
+                        звала его къ себѣ на балъ, и<lb/> хочетъ за него вытьти при томъ случаѣ, и
+                        чтобъ<lb/> перерядиться, пошли.</p>
+                    <p rend="indent">МАРКÌ выходитъ разговаривая съ Арлекїномъ<lb/> о храбрости
+                        дочери Панталоновои а Арлекїнъ съ нимъ<lb/> о храбрости своего отца. Маркì
+                        говоритъ, что уже<lb/> время итьти къ Эуларїи для заключенїя своего
+                        брака,<lb/> да и пошолъ съ Арлекїномъ. Сїлвїй и Одоардъ, кото-<lb/> рые ихъ
+                        видѣли что они вошли къ неи, говорятъ,<lb/> чтобъ его тамъ поимать. Сїлвїй
+                        прощается съ Одо-<lb/>
+                        <fw type="catch" place="bottom">ардомъ</fw>
+                        <pb facs="#dispnobi_ru_012" n="12"/>
+                        <fw type="pageNum">12</fw> ардомъ говоря, что онъ хочетъ машку на себя
+                        на-<lb/> дѣть. Одоардъ говоритъ, что и онъ тожъ хочетъ<lb/> учинить съ
+                        Iзабеллою и Панталономъ, дабы вмѣстѣ<lb/> посмѣяться надъ тою комедїею, да и
+                        пошолъ къ<lb/> нимъ.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent"> ЭУЛАРIЯ нарядившись богато чинитъ комплї-<lb/> менты тому
+                        Маркì. Коломбїна тожъ чинитъ Арлекїну.<lb/> Говорятъ они, что будутъ
+                        веселиться, и что ихъ<lb/> всѣмъ прїятелямъ позволили притьти въ
+                        машкахъ.<lb/> На то Сïлвïй, Одоардъ, Iзабелла и Панталонъ при-<lb/> ходятъ
+                        въ машкахъ съ Брїгелломъ. Маркì начинаетъ<lb/> балъ съ Эуларїею мїнуэтомъ, а
+                        потомъ стали тан-<lb/> цовать контредансъ. Тогда Докторъ приходитъ съ<lb/>
+                        приставами въ машкахъ, которые, по его приказу,<lb/> взяли того Маркì съ
+                        Арлекїномъ, и повели ихъ въ<lb/> тюрьму. Эуларїя жалуется на Доктора за
+                        такое<lb/> бесчестїе. Докторъ еи сказываетъ про него, что онъ<lb/> не Маркì,
+                        но плутъ. Эуларїя подлинно о томъ<lb/> увѣрившись, проситъ прощенїя у Сïлвïя
+                        за свое къ<lb/> нему непостоянство, да и вышла за него, давши<lb/>
+                        позволенїе, чтобъ ея сынъ Одоардъ женился на Пан-<lb/> талоновои дочери, а
+                        Брїгеллъ бы на Коломбїнѣ, и<lb/> тѣмъ кончитъ комедїю.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Die Händel des vermeynten Adels zwischen Eularis einer einbildischen
+                        Wittwe und Pantalon einem grillenkopfigen Kauffmann oder Der Marquis von
+                        Alta-polvere</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Library of St Petersburg Academy of Sciences</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>St Petersburg</settlement>
+                            <repository>The Library of St Petersburg Academy of
+                                Sciences</repository>
+                            <idno type="shelfmark">BAN, NIORK 7735.q/4935.R 33</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="8">8 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="dispnobi_ge_001" url="/img/dispnobi_ge_001.jpg"/>
+                <graphic xml:id="dispnobi_ge_002" url="/img/dispnobi_ge_002.jpg"/>
+                <graphic xml:id="dispnobi_ge_003" url="/img/dispnobi_ge_003.jpg"/>
+                <graphic xml:id="dispnobi_ge_004" url="/img/dispnobi_ge_004.jpg"/>
+                <graphic xml:id="dispnobi_ge_005" url="/img/dispnobi_ge_005.jpg"/>
+                <graphic xml:id="dispnobi_ge_006" url="/img/dispnobi_ge_006.jpg"/>
+                <graphic xml:id="dispnobi_ge_007" url="/img/dispnobi_ge_007.jpg"/>
+                <graphic xml:id="dispnobi_ge_008" url="/img/dispnobi_ge_008.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#dispnobi_ge_001" n="1"/>
+                <head type="main">Die Haͤndel des vermeynten Adels<lb/> zwiſchen<lb/> Eularia einer
+                    einbidilſchen Wittwe<lb/> und<lb/> Pantalon<lb/> einem grillenkoͤpfigen
+                    Kauffmann<lb/> oder<lb/> der Marquis von Altapolvere,</head>
+                <head type="sub">als eine<lb/> Jtaliaͤniſche Komoͤdie<lb/> aufgefuͤret an dem<lb/>
+                    Rusiſſch-Kayſerlichen Hoſe <lb/> zu St. Petersburg. <date when="1735">1735.</date></head>
+                <pb facs="#dispnobi_ge_003" n="3"/>
+                <castList>
+                    <head>Vorkommende Perſonen.</head>
+                    <castItem>
+                        <role xml:id="celio_ge">Celio,</role>
+                        <roleDesc>vermeinter Marquis d'Altapolvere.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ge">Harlequin,</role>
+                        <roleDesc>ſein Bedienter.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="pantalone_ge">Pantalon,</role>
+                        <roleDesc>der Vater der<lb/></roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="isabella_ge">Iſabella,</role>
+                        <roleDesc>einer Liebſten des</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="odoardo_ge">Odoards,</role>
+                        <roleDesc>eines Sohnes der</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="eularia_ge">Eularia,</role>
+                        <roleDesc>einer Wittwe.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_ge">Silvio,</role>
+                        <roleDesc>Liebhaber der Eularia.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ge">Brighella,</role>
+                        <roleDesc>ſein Bedienter.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ge">Der Doctor.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="corriere_ge">Ein Laͤuffer.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="servitori_ge">Andere Bedienten.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Die Schau-Bůhne ſtellt die Stadt <lb/> Venedig vor.</p>
+                </set>
+                <div type="preface">
+                    <head>Kurtzer Jnhalt.</head>
+                    <p rend="indent">Celio, ein Betruͤger, giebt ſich vor einen Marquis auß und<lb/>
+                        verfuͤhrt die Eularia, eine ſehr reiche Wittwe, daß ſie das<lb/>
+                        geſchloſſene Ehverbuͤndniß ihres Sohns Odoardo und der Iſa-<lb/> bella des
+                        Pantalon Tochter aufhebt. Daher wird Pantalon und<lb/> ihr erſter Liebhaber
+                        Silvio bewogen, auf Rache gegen den fal-<lb/> ſchen Marquis zu dencken. Sie
+                        finden hierzu Gelegenheit bey dem<lb/> Doctor, dem der Marquis Geld ſchuldig
+                        iſt, und der nachdem er<lb/> herausgebracht hatte, daß der vorgegebene
+                        Marquis ein Be-<lb/> truͤger ſey, ihn von der Eularia hinweg in die Wache
+                        fuͤhren<lb/> laͤſt. Darauf gehen der Eularia die Augen auf, daß ſie
+                        ihren<lb/> eingebildeten Adel fahren laͤſt, ſich mit ihren erſten
+                        Liebhaber<lb/> verheurathet, und dem Pantalon ihr Verſprechen wegen
+                        ihres<lb/> Sohns und ſeiner Tochter haͤlt.</p>
+                </div>
+            </front>
+            <body>
+                <pb facs="#dispnobi_ge_004" n="4"/>
+                <fw type="pageNum">4</fw>
+                <div type="act" n="1">
+                    <head>Erſte Handlung.</head>
+                    <stage>Vorſtellung einer Stadt.</stage>
+                    <p rend="indent">Pantalon verſichert den Doctor ſeiner Freundſchafft und
+                        vertrauet<lb/> ihm, daß er ſeine Tochter lſabella der Eularia Sohn
+                        geben<lb/> wolle: nur befuͤrchte er noch dabey der neuen Schwieger-<lb/>
+                        Mutter einbildiſches Weſen, als welche unfehlbar eine groſſe<lb/>
+                        Staats-Dame fuͤr ihren Sohn haben, und nicht mehr wiſſen wolle<lb/> daß ſie
+                        ſelbſt den Horaz als einen ſchlechten Kauffmann zum Mann<lb/> gehabt habe.
+                        Der Doctor raͤth ihm, er ſolle dem Marquis d’Al-<lb/> tapolvere gute Worte
+                        geben, um ihn dabey zu brauchen, und geht<lb/> wieder ab. Silvo erzehlt dem
+                        Brighella, wie wanckelmuͤthig ſich Eularia<lb/> gcgen ihn bezeuge. Brighella
+                        will hinter die Wahrheit kommen und<lb/> pocht deswegen bey ihr an. Eularia
+                        komt herauf, antwortet ihm<lb/> ihrem eingebildeten Adel gemaͤß gantz
+                        veraͤchtlich und geht wieder<lb/> hinein. Silvio komt faſt in Verweiffelung
+                        daß er die Urſache ihrer<lb/> Kaltſinningkeit nicht erfahren kan. Brighella
+                        verſpricht ihm darhinter<lb/> zu kommen, und geht mit ihm ab.</p>
+                    <stage>Vorſtellung eines Zimmers.</stage>
+                    <p rend="indent">Harlequin beklagt ſich uͤber ſeinen harten Herrn, and faͤngt
+                        an<lb/> deſſen Peruque zu rechte zu machen: unterdeſſen komt der Mar- quis
+                        und fragt<lb/> wo ſeine Leuthe ſeyn. Harlequin aͤffet ihm nach: und darauf
+                        komt ein<lb/> Bedienter, der ihm zu wiſſen thut, daß der Pantalon ihn gerne
+                        ſprechen<lb/> moͤchte. Er laͤſt ihn hereinkommen und ſetzt ihm Caffe vor,
+                        wobey allerhand<lb/> laͤcherliche Streiche vorgehen. Man meldet ihm daß
+                        Colombina mit ihm<lb/> zuſprechen verlange, die ihm ſagt, daß ihre
+                        Gebietherin ihm bey ſich ſehen<lb/> moͤchte. Er verſpricht dem Pantalon, daß
+                        er ihm zu Dienſte ſeyn wolle, ohne<lb/> zu wiſſen worinnen, und geht mit der
+                        Colombina davon. Harlequin macht alles<lb/> nach, und bekomt davor
+                        Pruͤgel.</p>
+                    <lb/>
+                    <fw type="catch" place="bottom">Odo-</fw>
+                    <pb facs="#dispnobi_ge_005" n="5"/>
+                    <fw type="pageNum">5</fw>
+                    <stage>Vorſtellung einer Stadt.</stage>
+                    <p rend="indent">Odoard und Iſabella kommen von dem Pantalon und verſi-<lb/>
+                        chern einander ihrer beſtaͤndigen Liebe, in der Hoffnung einander<lb/>
+                        eheſtens zu heyrathen. Pantalon komt dazu, und verſpricht ihnen,<lb/> daß
+                        die Heyrath gewiß vor ſich gehen ſoll, wenn anders die Eula-<lb/> ria ihre
+                        muͤtterliche Einwilligung darzu geben werde. Die beyden<lb/> Verliebten
+                        gehen mit denn Verſpruch des Pantalons ab, daß er ſelbſt<lb/> zu der
+                        Eularia, um das Ja-wort fuͤr ſeinen Sohn anzuhalten, ge-<lb/> hen wolle.
+                        Colombina trifft ihn an, und da er mit ihr reden will,<lb/> thut ſie groß
+                        und verlangt er ſoll die gehoͤrigen Titel gegen ſie brau-<lb/> chen. Sie
+                        geht ab und Pantalon folgt ihr nach. Harlequin komt<lb/> mit dem Marquis und
+                        giebt ihm die Abſchrifft von ſeinem Liebes-<lb/> Brief: in dem er dieſelbe
+                        durchlieſet, erſcheinet Colombina mit dem<lb/> Pantalon. Der Marquis begiebt
+                        ſich mit dem Harlequin wieder hin-<lb/> ein, dem er beſiehlt, den Pantalon
+                        nicht eher vor ſich kommen zu<lb/> laſſen, biß er zuvor die Colombina wuͤrde
+                        geſprochen haben. Unter-<lb/> deſſen da Harlequin ſein Spiel mit dem
+                        Pantalon hat, redet der<lb/> Marquis mit der Colombina, und ſagt, daß er
+                        alſobald zu ihrer<lb/> Gebietherin kommen wolle. Nachdem Harlequin durch
+                        Schlaͤge von<lb/> dem Pantalon weggejagt worden, komt Silvio und Brighella,
+                        und<lb/> bitten ihn er moͤchte doch mit dem Marquis ſprechen, daß er
+                        die<lb/> Eularia bewege, gegen ſie nicht ſo ſtoltz zu thun. Der Alte ſagt es
+                        gehe<lb/> nicht an, weil ſie im den Marquis, und die Colombina in deſſen
+                        Die-<lb/> ner verliebt ſey. Darauf geht er ab. Da der Marquis mit dem
+                        Har-<lb/> lequin komt, und ihn wegen ſeiner Dumheit ausſchilt, ziehen
+                        die<lb/> letztern beyden auch aus. Colombina holt den Marquis zu ihrer<lb/>
+                        Frau, und Harlequin ſoll ſich indeſſen bey der Colombina einſchmei-<lb/>
+                        cheln. Brighella komt dazu. Harlequin zieht aus. Unterdeſſen er-<lb/>
+                        ſcheint Silvio und geht Brighella in der Eularia Hauß, um ſie<lb/> bey ihrem
+                        neuen Galan zu uͤberfallen.</p>
+                    <stage>Vorſtellung eines Zimmers.</stage>
+                    <p rend="indent">Eularia macht den Marquis, und Colombina dem Harlequin
+                        Com-<lb/> plimente. Silvio komt mit dem Brighella darzu, und beyde ver-<lb/>
+                        <fw type="sig" place="bottom">* 3</fw>
+                        <fw type="catch" place="bottom">wei-</fw>
+                        <pb facs="#dispnobi_ge_006" n="6"/>
+                        <fw type="pageNum">6</fw> weiſen ihren Geliebten ihre Untreue.
+                        Harlequin<lb/> laͤufft davon, der <lb/> Marquis aber will groß thun und
+                        droht alles<lb/> darnieder zu machen.<lb/> Unterdeſſen komt Harlequin wieder
+                        in einem Mantel<lb/> verhuͤlt, und<lb/> ſtellt ſich als eine Wache mit der
+                        Flinte an. Dadurch<lb/> gerathen<lb/> Silvio, Brighella und Eularia im
+                        Schrecken und lauffen davon.<lb/> Co-<lb/> lombina reißt dem Harlequin den
+                        Mantel herab, und ſieht, daß<lb/> er<lb/> anſtatt der Flinte ein Buteille
+                        Wein hat, aus welcher ſie eins<lb/> herum-<lb/> trincken und die erſte
+                        Handlung beſchlieſſen.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Zweyte Handlung.</head>
+                    <p rend="indent">Eularia jagt den Sivio und Brighella weg. Silvio ſchwoͤrt des
+                        we-<lb/> gen den Marquis und Brighella den Harlequin zur Rede zu ſetzen.</p>
+                    <stage>Vorſtellung des Zimmers. </stage>
+                    <p rend="indent">Eularia ſagt auf eine ſpoͤttiſche Weiſe dem Odoard, man
+                        habe<lb/> ihr hinterbracht, als wenn ſie ihre Tochter einem ſchlechten
+                        Kauffmann<lb/> Nahmens Pantalon verſprochen haͤtte. Odoard giebt mit eben ſo
+                        hoͤhniſchen<lb/> Minen zur Antwort, er habe es auch ge- hoͤrt. Eularia
+                        ſchimpfft auf der<lb/> gleichen uͤbele Nachrede, und Odoard ſtellt ſich des
+                        gleichen, wirfft ihr<lb/> aber zu gleich ihr ſchlechtes herkommen und
+                        gegenwaͤrtigen Hochmuth vor.<lb/> Eularia will dar- uͤber faſt raſend
+                        werden, darzu komt Colombina, die ihr<lb/> beyſteht. Sie befiehlt der
+                        Colombina zum Pantalon zu gehen und den Heyraths-<lb/> Contract wegen ihres
+                        Sohnes ſich geben zu laſſen. Odoard lacht ſie damit<lb/> aus, und darauf
+                        gehen ſie uneinig auseinander.</p>
+                    <stage>Vorſtellung der Stadt.</stage>
+                    <p rend="indent">Silvio uͤberſaͤllt den Harlequin, ſtellt ſich erſt gantz
+                        demuͤthig,<lb/> hernach aber biethet er ihm einen Degen dar, ſich mit ihm zu
+                        ſchla-<lb/> gen. Der Marquis will ſich ohne Secundanten nicht einlaſſen.
+                        Sil-<lb/> vio droht hin mit ſchlaͤgen, und verlangt, daß er nicht wieder
+                        zur<lb/> Eularia kommen ſoll. Der Marquis weigert ſich dieſes mit
+                        Gewalt<lb/> zu thun mit guten aber verſpricht er alles einzuraͤumen, und
+                        geht<lb/> darauf ab. Silvio erzehlt dem Brighella die Prahlerey des Marquis<lb/>
+                        <fw rend="indent">Bri-</fw>
+                        <pb facs="#dispnobi_ge_007" n="7"/>
+                        <fw type="pageNum">7</fw> Brighella ſagt er wolle es mit dem Harlequin eben
+                        ſo machen. Harle-<lb/> quin komt, Brighella faͤllt ihn an, und reicht ihm
+                        einen Degen ſich zu<lb/> ſchlagen: er williget großmuͤthig darein, bittet
+                        ſich aber ſo viel Zeit<lb/> aus ſich zu dem Zweykampff gebuͤhrend zu
+                        ruͤſten.</p>
+                    <stage>Vorſtellung eines Zimmers.</stage>
+                    <p rend="indent">Eularia wirfft dem Pantalon fuͤr, er verfuͤhre ihren Sohn.<lb/>
+                        Pantalon giebt ihr wieder einige Hiebe wegen ihrer naͤrriſchen Ein-<lb/>
+                        bildung. Hierzu komt Iſabella die nebſt dem Pantalon durch ihre<lb/>
+                        Spoͤttereyen die Eularia boͤſe machen. Colombina komt ihrer Frau<lb/> bey zu
+                        ſtehen, Odoard aber will ſie befriedigen. Darauf bezeugt ſie<lb/> und ihr
+                        Vater ihm ihren Unwillen und gehen davon. Eularia laͤufft<lb/> ihnen nach:
+                        und da unterdeſſen Colombina den Odoard meiſtern will,<lb/> bekomt ſie von
+                        ihm Schaͤlage: Eularia komt darzu und pruͤgelt den<lb/> Odoard, und damit
+                        gehen ſie alle ab.</p>
+                    <stage>Vorſtellung der Stadt.</stage>
+                    <p rend="indent">Brighella wartet mit dem Degen auf ſeinen Gegner: da er
+                        ihn<lb/> aber kommen ſieht, zieht er aus Furcht wieder aus. Harlequin
+                        er-<lb/> ſcheint, und da er den Brighella erſieht, kehrt er wieder um.
+                        Endlich<lb/> kommen ſie in einem laͤcherlichen Kampff zuſammen. Pantalon
+                        komt<lb/> darzu und lobt ihre Tapfferkeit. Zulezt machen ſie Friede und
+                        ge-<lb/> hen davon. Der Doctor fordert dem Marquis die gelehnte<lb/> 5000
+                        Thaler ab. Der Marquis thut groß und ſagt, es waͤre<lb/> noch zu fruͤhe vor
+                        einen ſolchen Herrn, wie er waͤre. Der<lb/> Doctor droht ihm mit dem
+                        Richter, und geht ab. Eularia rufft<lb/> dem Marquis von Fenſter, und bittet
+                        ihn zu warten, ſie wolle<lb/> zu ihm hinunter kommen. Silvio trifft ihn an,
+                        und pruͤgelt ihn aus. <lb/> Der Marquis bedankt ſich, und Silvio geht wider
+                        davon. Harle-<lb/> quin ſpottet ſeines Herrn deswegen, und ſagt er haͤtte
+                        ſich an-<lb/> ders wehren wollen. Unterdeſſen komt Brighella, pruͤgelt den
+                        Har-<lb/> lequin aus und geht wieder ab. Eularia verlangt von dem Mar-<lb/>
+                        quis, er ſoll dem Pantalon den Heyraths-Contract, wodurch ihr<lb/> Sohn
+                        verbunden waͤre ſeine Tochter zu heyrathen, wieder abfor-<lb/>
+                        <fw type="catch" place="bottom">dern.</fw>
+                        <pb facs="#dispnobi_ge_008" n="8"/>
+                        <fw type="pageNum">8</fw> ern. Der Marquis verſpricht es, und geht zum
+                        Pantalon, ſpicht<lb/> troßig mit ſeiner Tochter und bekomt von ihr den Stock
+                        auf den<lb/> Ruͤcken. Er kuͤſt ihr davor die Haͤnde und ruͤhmet ihre
+                        Hertzahaff-<lb/> tigkeit. Harlequin verſucht es auch ben dem Pantalon und
+                        bekomt<lb/> gleichfals Pruͤgel. Damit endigt ſich die zweyte Handlug.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Dritte Handlung.</head>
+                    <p rend="indent">Der Doctor ſagt dem Brighella, er habe Erlaubniß von den<lb/>
+                        Richter, den Marquis, der obnedem ein Betruͤger, und gar kein Marquis
+                        ſey,<lb/> ſeiner Schuld halber in die Wache nehmen zu laſſen, wo er ihn
+                        finde. Beyde<lb/> bereden ſich miteinander, ihn bey der Eularia zu
+                        ergreiffen, als welche<lb/> einen Ball vor ihn auge- ſtellt habe, um ihn bey
+                        dieſer Gelegenheit zu<lb/> heurathen. Sie ge- hen ab. Der Marquis ſagt dem
+                        Harlequin es ſey Zeit, daß<lb/> er ſich zur Eularia begebe, um ſeine Heurath
+                        zu vollziehen, und geht mit ihm<lb/> hinein. Silvio und Odoard, die ihnen
+                        nachgeſehen hatten, re-<lb/> den es ab, ihn daſelbſt zu uͤberfallen.</p>
+                    <stage> Vorſtellung eines Zimmers.</stage>
+                    <p rend="indent">Eulalria empfaͤngt in groſſem Staat den Marquis und Colum-<lb/>
+                        bina den Harlequin. Sie bereden ſich unter einander, bey der<lb/>
+                        Vollziehung ihrer Heurath ihren Freunden zu erlauben, in der<lb/> Masque bey
+                        den Ball zu erſcheinen. Darauf komt Silvio, Odoard,<lb/> Iſabella und
+                        Pantalon mit dem Brighella vermasquirt. Der Marquis<lb/> eroͤffnet den Ball
+                        mit einer Menuet, die er mit der Eularia tanzt.<lb/> Indeſſen komt der
+                        Doctor mit den Haͤſchern vermasquirt, und fuͤhret<lb/> den Marquis nebſt den
+                        Harlequin in Arreſt. Der Doctor entdeckt<lb/> der Eularia die Betruͤgereyen
+                        des vermeynten Marquis. Darauſ<lb/> bittet ſie dem Silvio ihre
+                        Unbeſtaͤndigkeit ab und nimmt ihn zur ehe.<lb/> Endlich williget ſie ſowol
+                        in die Heyrath Odords ihres Sohns<lb/> mit des Pantalons Tochter, als des
+                        Brighella mit der<lb/> Colombina: und hiermit endigt ſich die Comoͤdie.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La disputa sulla nobiltà fra Eularia, vedova stravagante, e Pantalone,
+                        mercante attaccabrighe, ovvero il marchese D'Alta Polvere</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#dispnobi_ru_001" n="1"/>
+                <head type="main">LA DISPUTA SULLA NOBILTÀ FRA EULARIA, VEDOVA STRAVAGANTE, E
+                    PANTALONE, MERCANTE ATTACCABRIGHE, OVVERO IL MARCHESE D’ALTA POLVERE.</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/>
+                    <date when="1735">nel 1735.</date></head>
+                <pb facs="#dispnobi_ru_002" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">CELIO, un imbroglione che si fa chiamare marchese, inganna
+                        Eularia, una vedova molto ricca, e le consiglia di infrangere la sua
+                        promessa di far sposare suo figlio Odoardo con Isabella, figlia di
+                        Pantalone. Questo dà a Pantalone e a Silvio, il primo innamorato della
+                        vedova, un motivo per vendicarsi del falso marchese. Il Dottore alla fine lo
+                        riconosce come l’imbroglione che gli deve cinquemila rubli e lo fa
+                        arrestare. Informata della vera identità del marchese, Eularia si toglie
+                        dalla testa la sua falsa grandezza, ritorna al suo primo amante e mantiene
+                        la promessa fatta a Pantalone che si realizza attraverso il matrimonio che
+                        conclude la commedia.</p>
+                </div>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="celio_it">CELIO,</role>
+                        <roleDesc>falso marchese d’Alta Polvere.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_it">ARLECCHINO.</role>
+                        <roleDesc>suo servitore.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE,</role>
+                        <roleDesc>padre di Isabella.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="isabella_it">ISABELLA,</role>
+                        <roleDesc>innamorata di Odoardo.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="odoardo_it">ODOARDO,</role>
+                        <roleDesc>figlio di Eularia.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="eularia_it">EULARIA,</role>
+                        <roleDesc>vedova.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="colombina_it">COLOMBINA,</role>
+                        <roleDesc>servitrice.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="silvio_it">SILVIO,</role>
+                        <roleDesc>любовникъ Эуларïинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_it">BRIGHELLA,</role>
+                        <roleDesc>suo servitore.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_it">IL DOTTORE,</role>
+                        <roleDesc>creditore.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="corriere_it">Un corriere.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="locandiere_it">Un oste.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="servitori_it">Servitori.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Venezia.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#dispnobi_ru_003" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">PANTALONE entra assicurando al Dottore la sua amicizia e gli
+                        racconta che il figlio di Eularia si è innamorato di sua figlia Isabella.
+                        Pantalone acconsentirebbe volentieri alle nozze se non temesse la madre del
+                        giovanotto la quale, credendo di essere nobile, vuole far sposare il figlio
+                        con una gran signora, non ricordandosi di essere la moglie di un certo
+                        Orazio, un semplice mercante. Il Dottore gli consiglia di chiedere aiuto al
+                        marchese d’Alta Polvere, suo protettore, che pretende di essere chiamato con
+                        grandi titoli, ma non è nient’altro che un guascone vanitoso che deve
+                        cinquemila rubli al Dottore. Pantalone ringrazia il Dottore e va dal
+                        marchese; anche il Dottore va per sbrigare le sue commissioni.</p>
+                    <p rend="indent">SILVIO entra raccontando a Brighella del cambiamento di Eularia
+                        nei suoi confronti che è diventata orgogliosa e superba e non sa per quale
+                        motivo. Brighella, per accertarsene, inizia a bussare da lei. Eularia esce.
+                        Silvio inizia a chiederle di trattarlo come prima. Eularia gli risponde con
+                        arroganza, si mostra nobile e senza dargli alcuna risposta sul suo
+                        cambiamento, se ne va. Silvio è triste del suo comportamento e vuole
+                        conoscerne il motivo. Brighella gli dice che si informerà, ed entrambi vanno
+                        via.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">ARLECCHINO entra lamentandosi di essere costretto <pb facs="#dispnobi_ru_004" n="4"/> a servire
+                        un tale padrone che gli impone molto lavoro ma gli dà poco da mangiare.
+                        Inizia a sistemare la parrucca del marchese. Poi entra il marchese, chiede
+                        dove sono i suoi uomini. Arlecchino lo scimmiotta. Il marchese ordina di
+                        mettergli le scarpe. Un lacchè entra e dice che Pantalone vuole vederlo. Il
+                        marchese gli dice di farlo entrare, e il lacchè con un lazzo spiritoso gli
+                        porta il caffè, poi il marchese si veste con molti lazzi e dice che si è
+                        dimenticato di mangiare, e per quello vuole spogliarsi, e chiedendo che ore
+                        sono, si arrabbia con Arlecchino così tanto da volerlo uccidere. Allora
+                        tutti i servitori chiedono di risparmiarlo. Il marchese perdona Arlecchino e
+                        si veste del tutto. Poi gli dicono che Colombina vuole vederlo. Ordina di
+                        lasciarla entrare. La serva, dopo molte riverenze, gli dice che la sua
+                        padrona lo sta aspettando. Il marchese dice a Pantalone che lo servirà non
+                        sapendo però in che cosa, perché Pantalone non gli ha potuto spiegare il suo
+                        bisogno, e va con Colombina. Arlecchino si comporta come il suo padrone con
+                        Pantalone, che, perdendo la pazienza, inizia a picchiarlo e vanno via.</p>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">ODOARDO e Isabella escono da casa di Pantalone, assicurandosi a
+                        vicenda un fedele e reciproco amore, nella speranza che presto si
+                        sposeranno. In quel momento arriva Pantalone. Cadono ai suoi piedi. Il
+                        vecchio li solleva e dice a Odoardo di essere molto contento di concedergli
+                        sua figlia in sposa, come è testimoniato dalla scrittura; tuttavia, non
+                        vuole avere a che fare con sua madre Eularia; perciò Odoardo deve chiederle
+                        il permesso da solo. <pb facs="#dispnobi_ru_005" n="5"/> Odoardo chiede a Pantalone di farlo lui,
+                        promettendo che se la madre non accetterà, verrà a parlarle anche lui.
+                        Pantalone, persuaso dalle suppliche dei due innamorati, promette di farlo.
+                        Odoardo e Isabella vanno via. Il vecchio rimane e arriva da lui Colombina,
+                        per conto della sua padrona. Pantalone vuole parlarle, ma la serva lo tratta
+                        in modo pomposo e, dopo molti scherzi, gli dice che se vuole parlarle, deve
+                        possedere un titolo elevato, e solo allora lo ascolterà, e va via. Pantalone
+                        la segue. Entra</p>
+                    <p rend="indent">IL MARCHESE, seguito da Arlecchino con un parasole. Dopo molti
+                        lazzi, chiede ad Arlecchino se ha fatto la copia della lettera che ha
+                        scritto alla sua fidanzata. Arlecchino dice di averlo fatta. Mentre la sta
+                        leggendo, arrivano Colombina e Pantalone. Il marchese va via con Arlecchino,
+                        al quale ordina di non fare entrare Pantalone finché non avrà parlato con
+                        Colombina. Pantalone chiede a Colombina di chiamargli la sua padrona. Nel
+                        frattempo, Arlecchino adempie all’ordine del suo padrone, il quale, dice a
+                        Colombina, andrà dalla sua padrona, e parte. Anche Colombina va via.
+                        Arlecchino non smette di infastidire Pantalone, che inizia a picchiarlo.
+                        Arlecchino se ne va. Il vecchio rimane. In quel momento arrivano Silvio e
+                        Brighella e chiedono a Pantalone di parlare con il marchese, che dovrà
+                        chiedere ad Eularia di non essere così arrogante con Silvio, e Colombina con
+                        Brighella. Il vecchio risponde che ciò non è possibile, perché quella
+                        signora ama il marchese e Colombina <pb facs="#dispnobi_ru_006" n="6"/>] ama il suo servitore. Silvio e
+                        Brighella lo ringraziano per quelle informazioni. Pantalone va via. Loro
+                        rimangono e, vedendo che il marchese sta rimproverando Arlecchino per le
+                        birbonate, si mettono un po’ da parte per non essere visti. Arlecchino dice
+                        in sua difesa di aver seguito gli ordini del padrone. In quel momento giunge
+                        Colombina e porta via il marchese, dicendo che la sua padrona vuole vederlo.
+                        Arlecchino inizia a corteggiare con Colombina. Brighella, arrabbiato, sfugge
+                        dalle mani di Silvio, inizia a rimproverare Colombina, che non ha mantenuto
+                        la sua parola. Arlecchino va a casa di Eularia. Colombina, rimproverando
+                        Brighella, parte. Silvio e Brighella pensando a cosa devono fare, vedono che
+                        la porta di Eularia è aperta e dicono che vogliono andare da lei per
+                        coglierla con il suo nuovo amante.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">EULARIA fa i complimenti al marchese e Colombina ad Arlecchino.
+                        In quel momento arriva Silvio con Brighella e cominciano a rimproverarle per
+                        la loro infedeltà. Arlecchino va via. Il marchese si mostra coraggioso, dice
+                        che li batterà e li ucciderà, eccetera. Brighella dice di cominciare a
+                        combattere. Al grido accorre Arlecchino avvolto in un mantello e sembra che
+                        abbia un fucile sotto. Silvio e Brighella, spaventati, scappano, seguiti da
+                        Eularia e Colombina. Arlecchino si toglie il mantello e mostra una bottiglia
+                        invece di un fucile. Dice, ridendo, che vuole bere alla salute dei valorosi
+                        fuggitivi, e così finisce il primo atto.</p>
+                </div>
+                <pb facs="#dispnobi_ru_007" n="7"/>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <p rend="indent">IL MARCHESE e Arlecchino escono, spaventati, dalla casa di
+                        Eularia e vanno via. Eularia caccia fuori Silvio e Brighella, li rimprovera
+                        in ogni modo possibile e se ne va con Colombina. Silvio intende sfidare il
+                        marchese a duello, e anche Brighella Arlecchino, e vanno a cercarli.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">EULARIA entra, dicendo con un sogghigno a Odoardo di essere
+                        stata informata – ma ancora non ci crede – che suo figlio ha promesso di
+                        sposare la figlia di un certo mercante di nome Pantalone. Odoardo, con
+                        altrettanto scherno, si finge sottomesso e ammette di averlo fatto. Eularia,
+                        disperata, e dopo molte parole ingiuriose, minaccia di maledirlo. Odoardo
+                        finge di essersi pentito di ciò, poi, alzandosi, dice che vuole mantenere la
+                        parola data a Pantalone e le chiede di non costringerlo a rivelare quello
+                        che sa di lei. Eularia è arrabbiata. Odoardo non resiste e dice che deve
+                        ricordarsi chi era prima che il suo defunto padre la sposasse e che la sua
+                        mania di grandezza deriva dalla sua speranza nella protezione del marchese.
+                        Tuttavia questo non lo riguarda, perché ha il testamento del padre che gli
+                        dà il diritto di buttarla fuori di casa così come vi è entrata, cioè con una
+                        camicia. Eularia, sentendo quello, si infuria. A quel grido, accorre
+                        Colombina e prende le parti della sua padrona, che le ordina di andare da
+                        Pantalone a prendere <pb facs="#dispnobi_ru_008" n="8"/> il contratto di matrimonio di suo figlio. Odoardo
+                        le risponde che Pantalone non è così sciocco da consegnarle la scrittura, ma
+                        anche se il vecchio gliela darà, Odoardo manterrà la sua parola. Colombina
+                        esce. Eularia, mostrando di voler picchiare suo figlio, va via con lui.</p>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">IL MARCHESE entra pensando a quello che è successo da Eularia.
+                        In quel momento arriva Silvio e, vedendo il marchese senza spada, gli chiede
+                        pietà. Il marchese, pensando che gli chieda protezione, dice che prima deve
+                        guadagnarsela. Silvio risponde di aspettarlo lì. Va via e torna con una
+                        spada, la porge al marchese e dice che vuole battersi con lui. Il marchese,
+                        sorpreso, adduce ogni tipo di pretesto per evitare il combattimento, dice
+                        che non è il cerimoniale giusto per fare un duello e che prima bisogna
+                        stabilire l’arma, il luogo e gli intermediari, ma per sapere tutto ciò è
+                        necessario leggere gli autori che ne hanno scritto. Silvio lo costringe a
+                        duellare, minacciandolo che altrimenti l’avrebbe picchiato e ucciso. Con
+                        qualche lazzo il marchese gli chiede il motivo del duello. Silvio risponde
+                        che deve cedergli Eularia. Quando il marchese sente quella parola, si
+                        arrabbia e dice che non è decoroso per un marchese cedere, ma al limite può
+                        regalargliela, se è la donna a desiderarlo, e va via. Silvio rimane e ride
+                        dei sotterfugi del marchese. Sopraggiunge Brighella. Silvio gli racconta
+                        della codardia mostrata dal marchese e del suo regalo. Brighella dice che
+                        vuole fare lo stesso con Arlecchino. Nel frattempo, arriva Arlecchino.
+                        Brighella gli <pb facs="#dispnobi_ru_009" n="9"/> dice di rinunciare a Colombina o combattere con lui.
+                        Arlecchino mostra il suo coraggio. Si accordano e vanno a prepararsi per il
+                        duello.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">EULARIA rimprovera con arroganza Pantalone per aver raggirato
+                        suo figlio. Pantalone prima si trattiene, ma poi le ricorda la sua
+                        provenienza e le dice che il rispetto che ha per lei è dovuto soltanto
+                        all’amicizia che aveva per il suo defunto marito. Intanto arriva Isabella,
+                        pensando che ci sia bisogno di lei. Eularia la chiama ragazza maleducata.
+                        Pantalone risponde per la figlia, dicendo a Isabella di fare un inchino a
+                        quella grande signora per deridere Eularia. Eularia, vedendosi presa di mira
+                        da entrambi, si arrabbia. Al suo grido accorre Colombina e prende le difese
+                        della sua padrona. Si intromette subito Odoardo e cerca di riconciliarli.
+                        Isabella dice a Odoardo di dimenticarla. Suo padre, prendendola per mano,
+                        rimprovera Eularia e va via con Isabella. Eularia lo segue. Intanto
+                        Colombina cerca di rinsavire Odoardo che le ordina di tacere e comincia a
+                        picchiarla. Torna Eularia e, vedendo che Colombina viene picchiata, si mette
+                        a bastonare Odoardo e tutti vanno via.</p>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">BRIGHELLA entra con una spada, dicendo che sta aspettando il
+                        suo rivale e quando lo sente arrivare, se ne va spaventato. Arlecchino entra
+                        e vedendo che Brighella fa come il suo rivale. <pb facs="#dispnobi_ru_010" n="10"/> Alla fine, si incontrano
+                        e accade un duello divertente perché entrambi tremano di paura. In quel
+                        momento arriva Pantalone. Vedendolo, si mostrano coraggiosi e sperano che li
+                        separi. Pantalone chiede a loro di fare la pace ma vedendo che vogliono
+                        combattere dice loro: va bene ragazzi, e va via. Dopo alcuni lazzi
+                        spiritosi, si abbracciano e se ne vanno.</p>
+                    <p rend="indent">IL DOTTORE entra, chiedendo al marchese di restituirgli i
+                        cinquemila rubli che gli deve. Il marchese gli risponde che è un onore per
+                        il Dottore aver concesso un prestito ad un gentiluomo e che è contrario alla
+                        dignità di un cavaliere pagare un debito così presto. Il Dottore si
+                        arrabbia. Il marchese minaccia di picchiarlo. Il Dottore dice che andrà a
+                        denunciarlo e parte. Il marchese ride di quello. In quel momento Eularia si
+                        affaccia alla finestra, gli chiede di aspettarla un po’ e si nasconde. Poi
+                        arriva Silvio e, vedendo il marchese sotto la finestra di Eularia dopo il
+                        regalo che gli ha fatto [cioé, di avergli ceduto Eularia], inizia a
+                        picchiarlo. Il marchese lo ringrazia per quello. Silvio va via. Arlecchino,
+                        che ha visto tutto, ride del suo padrone, dicendo che se gli avessero fatto
+                        un tale disonore, saprebbe come comportarsi. Intanto arriva Brighella,
+                        percuote Arlecchino e va via. Il marchese ride di Arlecchino, come il servo
+                        ha riso prima del padrone. In quel momento entra Eularia, chiede al marchese
+                        di andare da Pantalone a prendere l’atto in cui suo figlio si è impegnato a
+                        sposare la figlia del vecchio. Il marchese promette di servirla in ciò.
+                        Eularia se ne va. Il marchese ordina ad Arlecchino <pb facs="#dispnobi_ru_011" n="11"/> di bussare da
+                        Pantalone. Arlecchino esegue l’ordine. Pantalone gli chiede di cosa ha
+                        bisogno. Il marchese gli dice che vorrebbe vedere sua figlia. Pantalone
+                        chiama Isabella. Il marchese le ordina di dargli la scrittura di matrimonio.
+                        Isabella gli chiede di aspettarla, poi torna con un bastone e picchia il
+                        marchese. Il marchese le bacia la mano e, andando via, la chiama bella
+                        ragazza. Isabella va nella sua stanza ridendo. Arlecchino dice che è più
+                        coraggioso del suo padrone e inizia a chiedere a Isabella il contratto.
+                        Pantalone, invece di rispondere, lo picchia. Arlecchino, scimmiottando il
+                        suo padrone, conclude il secondo atto.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <p rend="indent">IL DOTTORE entra, dicendo a Brighella che si è già procurato un
+                        decreto per mettere in prigione il marchese per il suo debito, tanto più che
+                        è assolutamente sicuro, essendosi informato attraverso molti dei suoi
+                        corrispondenti, che quel marchese è una grande canaglia. Si mettono
+                        d’accordo di arrestarlo durante il ballo da Eularia, sapendo che lei l’ha
+                        invitato per sposarsi con il marchese in quell’occasione. Per travestirsi,
+                        partono.</p>
+                    <p rend="indent">IL MARCHESE entra, parlando con Arlecchino del coraggio della
+                        figlia di Pantalone, e Arlecchino del coraggio del padre di lei. Il marchese
+                        dice che è tempo di andare da Eularia per concludere il suo matrimonio e va
+                        via con Arlecchino. Silvio e Odoardo, che li vedono entrare dalla vedova,
+                        dicono che lo cattureranno lì. Silvio saluta Odoardo <pb facs="#dispnobi_ru_012" n="12"/> dicendo che vuole
+                        mascherarsi. Odoardo risponde che lui vuole fare qualcosa con Isabella e
+                        Pantalone e, per ridere insieme di quella commedia, e va da loro.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">EULARIA, riccamente vestita, fa i complimenti al marchese.
+                        Anche Colombina si complimenta con Arlecchino. Dicono che si divertiranno e
+                        che a tutti i loro amici è stato concesso di venire in maschera. In quel
+                        momento entrano Silvio, Odoardo, Isabella, Pantalone e Brighella e tutti
+                        sono mascherati. Il marchese inizia il ballo danzando il minuetto con
+                        Eularia, poi si mettono a ballare le contraddanze. In quel momento entra il
+                        Dottore con gli ufficiali in maschera, i quali, dietro suo ordine, arrestano
+                        il marchese con Arlecchino e li portano in prigione. Eularia si lamenta del
+                        Dottore per tale sciagura. Il Dottore le dice che quello non è un marchese,
+                        ma un imbroglione. Convinta di ciò, Eularia chiede perdono a Silvio per la
+                        sua incostanza e lo sposa, dando il permesso al figlio Odoardo di sposare la
+                        figlia di Pantalone e a Brighella di maritarsi con Colombina. Questa è la
+                        fine della commedia.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

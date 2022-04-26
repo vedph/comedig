@@ -1,0 +1,1157 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Il Francese a Venezia</title>
+            <respStmt>
+               <resp>Transcription, translation, and encoding by</resp>
+               <name>Tatiana Korneeva</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical coordination, metadata curation, programming by</resp>
+               <name>Tiziana Mancinelli</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+            <date>December 2021</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Il francese a Venezia fu allestito a San Pietroburgo nel 1733. La nota-spesa nel
+               rendiconto di Giuseppe Avolio, relativa alla Komedija Monsju Petit (Commedia di
+               Monsieur Petit), registrata il primo giugno 1734, indica che la pièce fu ripresa
+               anche l’anno successivo. Il protagonista della commedia, il francese italianizzato
+               Monsieur Appetit, era il ruolo prediletto dell’attore Giovanni Camillo Canzachi, che
+               fu anche l’autore della commedia. Il soggetto, come tutti gli altri scenari della
+               raccolta pietroburghese, fu stampato a San Pietroburgo in forma anonima. A confermare
+               la paternità di Canzachi è la commedia che venne allestita a Varsavia il 18 settembre
+               1748 dalla compagnia italiana di Augusto III (il cui organico comprendeva anche il
+               nostro attore-drammaturgo), intitolata Il francese in Venezia, ingannato da Brighella
+               negl’amori di Colombina finta Dama Romana, con Arlichino, finto servo della Moglie
+               per acquistarsi la Dote. Il frontespizio della commedia messa in scena alla corte
+               sassone attesta la paternità di Canzachi, mentre la lista dei personaggi e
+               l’Argomento, esposto in maniera meno dettagliata rispetto a quello russo, permettono
+               di capire che il contenuto delle due commedie era pressoché identico. Lo scenario
+               russo potrebbe aver ispirato Il Monsieur Petiton, il grazioso intermezzo scritto da
+               Carlo Goldoni per i comici del San Samuele nel carnevale del 1736, che presenta
+               significative analogie con i personaggi e le situazioni dello scenario
+               pietroburghese. La semplice vicenda della farsa musicale in due parti coinvolge
+               quattro personaggi, e si impernia su un matrimonio da correggere e la canonica
+               disputa di coppia, nella quale si innestano le intrusioni del cicisbeo francese. Il
+               petit-maître guascone Monsieur Petiton corteggia la toscana Graziosa, la vanitosa
+               moglie del marito bolognese “alla moda” Petronio. Lindora, moglie veneziana di
+               Petiton, scopre l’affare e si infuria. Graziosa beffeggia Petiton che rimane respinto
+               e disingannato.</p>
+            <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>ФРАНЦУЗЪ ВЪ ВЕНЕЦIИ</title>
+               <respStmt>
+                  <resp>Digitization of facsimile</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (9b) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="14">14 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ru">Russian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ru">
+            <graphic xml:id="franvene_ru_001" url="/img/franvene_ru_001.jpg"/>
+            <graphic xml:id="franvene_ru_002" url="/img/franvene_ru_002.jpg"/>
+            <graphic xml:id="franvene_ru_003" url="/img/franvene_ru_003.jpg"/>
+            <graphic xml:id="franvene_ru_004" url="/img/franvene_ru_004.jpg"/>
+            <graphic xml:id="franvene_ru_005" url="/img/franvene_ru_005.jpg"/>
+            <graphic xml:id="franvene_ru_006" url="/img/franvene_ru_006.jpg"/>
+            <graphic xml:id="franvene_ru_007" url="/img/franvene_ru_007.jpg"/>
+            <graphic xml:id="franvene_ru_008" url="/img/franvene_ru_008.jpg"/>
+            <graphic xml:id="franvene_ru_009" url="/img/franvene_ru_009.jpg"/>
+            <graphic xml:id="franvene_ru_010" url="/img/franvene_ru_010.jpg"/>
+            <graphic xml:id="franvene_ru_011" url="/img/franvene_ru_011.jpg"/>
+            <graphic xml:id="franvene_ru_012" url="/img/franvene_ru_012.jpg"/>
+            <graphic xml:id="franvene_ru_013" url="/img/franvene_ru_013.jpg"/>
+            <graphic xml:id="franvene_ru_014" url="/img/franvene_ru_014.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#franvene_ru_001" n="1"/>
+            <head type="main">ФРАНЦУЗЪ ВЪ ВЕНЕЦIИ</head>
+            <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ,<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+               <date when="1733">1733 года.</date></head>
+            <pb facs="#franvene_ru_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+               <p rend="indent">MOCIO Aпетïтъ Французъ, сынъ одного купецкаго<lb/> человѣка, которои
+                  получилъ дворянство чрезъ<lb/> свое богатство, посланъ быль своимъ отцомъ<lb/>
+                  объѣздить Еvропу. Тоть прïѣхавши въ Венецïю сталь<lb/> на квартïру въ вольномъ
+                  домъ, гдѣ спознался съ<lb/> Брïгелломъ совершеннымъ коварникомъ и плутомъ.<lb/>
+                  Сеи корыстуяся не хитрымъ добросердечïем того<lb/> Француза, подводить ему
+                  Смералдïну нищую во-<lb/> лочаику подъ именемъ Маркïзы Римскïя; а самъ съ<lb/>
+                  Арлекïномъ вмѣсте, будучи любовниками тоя<lb/> дѣвки, притворяются быть двумя
+                  баронами Нѣмец-<lb/> кими, да бы можно было его способнѣе обмануть,<lb/> и пустить
+                  въ однои рубахе съ игры въ карты. Одинъ<lb/> Гондолïеръ, то есть судовщикъ, служя
+                  у того<lb/> господчика, увѣдомилъ о томь Панталона, которои<lb/> будучи другъ и
+                  корреспондентъ его отцу, объявилъ<lb/> ему о плутахъ, и чрезъ то избавилъ его отъ
+                  поги-<lb/> бели. Любовь, и свадьба Сïлвïева и Одоардова съ до-<lb/> черьми
+                  панталоновыми, не что иное, какъ Эпïзодъ,<lb/> [званïе пïитïческое, которое
+                  значитъ нѣкоторое<lb/> другое дѣиствïе присовокупленное кь начальному<lb/> дѣлу по
+                  нуждѣ, или по правдоподобïю] которои<lb/> дѣлаетъ завязку и развязанïе сея
+                  комедïи.</p>
+            </div>
+            <fw type="catch" place="bottom">ДѢИ</fw>
+            <pb facs="#franvene_ru_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <castList>
+               <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+               <castItem>
+                  <role xml:id="pantalone_ru">ПАНТАЛОНЪ,</role>
+                  <roleDesc>отецъ Дïаннинъ и Аурелïинъ.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="diana_ru">ДIАНА и<lb/></role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="aurelia_ru">АУРЕЛIЯ,</role>
+                  </castItem>
+                  <roleDesc>дочери панталоновы.</roleDesc>
+               </castGroup>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ru">СІЛВІИ, и<lb/></role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ru">ОДОАРДЪ,</role>
+                  </castItem>
+                  <roleDesc>други.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="monsieurappetit_ru">МОСIО AПЕТIТЪ,</role>
+                  <roleDesc>Французъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                  <roleDesc>ево переводчикъ.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="momolo_ru">МОМОЛЪ,</role>
+                  <roleDesc>ево Гондолïеръ [судовщикъ].</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                  <roleDesc>подложная дама изъ Рима.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                  <roleDesc>ея любовникъ.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Дѣиствïе это въ Венецïи.</p>
+            </set>
+            <fw type="sig" place="bottom">Ы 2</fw>
+            <fw type="catch" place="bottom">ДѢИ-</fw>
+         </front>
+         <body>
+            <pb facs="#franvene_ru_004" n="4"/>
+            <fw type="pageNum">4</fw>
+            <div type="act" n="1">
+               <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+               <p rend="indent">БРIГЕЛЛЪ выходитъ похваляя Панталону добро-<lb/> сердечïе, и нравъ
+                  чивои того Француза, такъ же и<lb/> доброи ево смакъ въ платье, и склонность ко
+                  вся-<lb/> кимъ роскошамъ. Панталонъ говоритъ, что онъ<lb/> долженъ ему заплатить
+                  денги по двумъ вeкселямъ,<lb/> которые присланы на его имя, изъ которыхъ по<lb/>
+                  одному лишь увидевъ его; а по другому мѣсяцъ<lb/> спустивъ. Говоритъ онъ Брïгеллу,
+                  что ево отецъ<lb/> ему корреспондентъ, и что тотъ проситъ ево не<lb/> оставить
+                  своего сына; После чего и пошолъ прочь.<lb/> Брïгеллъ остался, и говоритъ, что уже
+                  онъ выду-<lb/> малъ способъ, чтобъ выманить денегъ у прïѣжжаго<lb/> чрезъ
+                  посредствïе Смералдïнïно. Смералдïна стала<lb/> быть слышима. Брïгеллъ убрался
+                  прочь. Смерал-<lb/> дïна вышла съ великою горестïю, для того что у нея<lb/> собака
+                  унесла то, что еи Арлекïнъ принесъ на обѣдъ.<lb/> Сказываетъ она о любви, которую
+                  она имѣетъ<lb/> кь нему; и весьма она сожалѣетъ, что онъ не имѣетъ<lb/> себѣ
+                  господина, слово въ слово, какъ и она, для<lb/> содержанïя своего. Брïгеллъ
+                  поклонившися пред-<lb/> лагаетъ еи службу у одного господина французска-<lb/> го,
+                  съ которымъ, говоритъ онъ, можетъ она по-<lb/> лучить свое щастïе, и которому,
+                  приложилъ онъ,<lb/> скажетъ, что бутто она одна дама римская, съ<lb/> уговоромъ,
+                  что ежели она ему Брïгеллу дастъ<lb/> третью долю своего прибытка. Описываетъ
+                  онъ<lb/> еи качества, и поступки того Француза. Смерал-<lb/> дïна сомнѣвается; по
+                  томь соглашается на то съ<lb/> такимъ уговоромъ, что буде Арлекïнъ [за
+                  котораго<lb/> она долженствуетъ скоро вытьти] на то позволитъ.<lb/> И когда она
+                  розказывала Брïгеллу трудность, ко-<lb/> торую Арлекïнъ имеѣетъ, чтобъ ея
+                  пропитать; тогда<lb/>
+                  <fw type="catch" place="bottom">Арлекïнъ</fw>
+                  <pb facs="#franvene_ru_005" n="5"/> Арлекïнъ приходитъ; и что видитъ онъ Смералдïну<lb/>
+                  вмѣсте съ Брïгелломъ; того ради съ ревности сталъ<lb/> ея за то бранить. Брïгеллъ
+                  ему розказываетъ о чомъ<lb/> дѣло идетъ. Арлекïнъ позволяетъ на то надѣяся<lb/> на
+                  прибыль, да и пошолъ самъ. Брïгеллъ отсылаетъ<lb/> Смералдïну; и чтобъ еи сыскать
+                  платье, прочь же<lb/> пошолъ.</p>
+               <p rend="indent">СIЛВIИ говоря о своеи любви кь Дïанѣ, сказы-<lb/> ваетъ, что онъ
+                  видѣлъ Панталона, отца ея, въ однои<lb/> лавкѣ, и что онъ хочетъ въ отсутьствïе
+                  того<lb/> съ нею поговорить, и сталъ стучатъся. Дïана выхо-<lb/> дитъ, стали они
+                  увѣрять другъ друга о взаимнои<lb/> своеи страсти. Проситъ она Сïлвïя, чтобъ
+                  онъ<lb/> обнадежиль так же Одоарда съ стороны Аурелïи<lb/> сестры ея, и
+                  выговаривши то, пошла. Сïлвïи будучи<lb/> въ великомъ удовольствованïи обѣщается
+                  ея слу-<lb/> шать, да и пошолъ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТ КАМЕРУ.</stage>
+               <p rend="indent">ГОНДОЛIЕРЪ приготовляетъ уборнои столъ<lb/> своего господина
+                  кропчучись, что онои больше лю-<lb/> бить Брïгелла совершеннаго плута, которои
+                  ему<lb/> такъ понравился, что неможетъ онъ его и признать<lb/> за бездѣлника. На
+                  то Mocïo Aпетïтъ кличетъ его<lb/> изъ нутри; по томь самъ выходитъ, и
+                  спрашиваетъ<lb/> у него, что виделъ ли он Брïгелла. Гондолïеръ<lb/> притворяется,
+                  что бутто онъ не знаетъ, что тотъ<lb/> ему говоритъ. По томъ сталъ съ нимъ
+                  говорить<lb/> очюнь худо. Mocïo ему запретилъ, и говоритъ<lb/> что онъ не имѣетъ
+                  ни ково другова, кромѣ его, комубъ<lb/> онъ могъ повѣрить себя. Велѣлъ онъ себѣ
+                  дать на<lb/> руки воды; по томъ сталъ волосы убирать, пу-<lb/> дриться, и прочая;
+                  а все то онъ чинилъ съ чванствомъ.<lb/>
+                  <fw type="sig" place="bottom">Ы 3</fw>
+                  <fw type="catch" place="bottom">Но</fw>
+                  <pb facs="#franvene_ru_006" n="6"/>
+                  <fw type="pageNum">6</fw>Но по многихъ шуткахъ приличныхъ театру, сту-<lb/> чатся
+                  у него. Гондолïеръ пошолъ, и возвращается<lb/> говоря, что то Панталонъ. Mocïo
+                  пошолъ его<lb/> встречать. Старикъ выходитъ говоря, по мно-<lb/> гихъ
+                  комплïментахъ, что онъ принесъ ему 400<lb/> пïстолеи [то есть, 800 рублеи; когда
+                  пистоль<lb/> ходитъ по 10 лïвров. А буде когда ходитъ по 12<lb/> лïвровъ; то 960
+                  рублеи] которыя долженъ онъ ему<lb/> отдать по силѣ векселя. Mocïo ему премного
+                  благо-<lb/> дарствуетъ. Показываетъ себя, что хочетъ его<lb/> потчивать кафеемъ,
+                  чаемъ, шоколатомъ; принуж-<lb/> даетъ его, чтобъ тотъ у него пожаловалъ отъ-<lb/>
+                  обѣдалъ. На то Брïгеллъ приходитъ, чтобъ ска-<lb/> зать ему на ухо, что онъ добрыя
+                  ему принесъ<lb/> вѣсти; только надобно, чтобъ они были на единѣ.<lb/> Mocïo
+                  позабывъ о всемъ томь, на что онъ просилъ<lb/> Панталона, тотчасъ ево отпускаетъ
+                  отъ себя и<lb/> съ Гондолïеромъ. Старикъ дивяся о его перемѣнѣ<lb/> пошолъ вонъ.
+                  Гондолïеръ кропчучись на Брïгелла, на за<lb/> нимъ же. Брïгеллъ говоритъ тому
+                  Mocïo, что онъ<lb/> ему сыскалъ одну знатную метресу, и сталъ ему<lb/> описывать
+                  прïятность ея и личную красоту. Mocïo<lb/> влюбливается въ нея; велитъ Брïгеллу,
+                  чтобъ онъ<lb/> ея ему показалъ, и чтобъ приготовилъ для того<lb/> богатои столъ.
+                  Брïгеллъ обѣщается ему служить;<lb/> и оба пошли.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">СIЛВIИ и Одоардъ выходятъ негодуючи оба на<lb/> Панталона, которои
+                  чрезъ свою жестокость не до-<lb/> пускаетъ ихъ поговорить съ невѣстами ихъ.
+                  Намѣ-<lb/> ряются они, какъ нибудь, чтобъ съ ними увидѣть-<lb/> ся. Къ нимъ
+                  приходитъ Арлекïнъ, котораго они<lb/>
+                  <fw type="catch" place="bottom">просятъ</fw>
+                  <pb facs="#franvene_ru_007" n="7"/>
+                  <fw type="pageNum">7</fw>просятъ, чрезъ одну игрушку приличную театру,<lb/> чтобъ
+                  онъ имъ пособилъ. Арлекïнъ склонился на<lb/> ихъ просьбу, и сталъ стучаться у
+                  Дïаны, и у Аурелïи,<lb/> которыя бояся своего отца принудили любовниковъ<lb/>
+                  повелеть Арлекïну, чтобъ онъ стал ъна караулѣ.<lb/> Арлекïнъ не во время, чрезъ
+                  одну шутку своиствен-<lb/> ную театру, тревожитъ любовниковъ; а Панта-<lb/> лонъ
+                  тогда выходитъ, и сталъ по среди сво-<lb/> ихъ дочереи и любовниковъ. Тѣ увидѣвши
+                  его,<lb/> и ничего ему не говоря, пошли прочь. Арлекïнъ<lb/> увидѣвъ Старика
+                  закричалъ: БЕРЕГИСЬ, БЕРЕГИСЬ.<lb/> Старикъ мигнулъ ему, чтобъ онъ молчалъ;
+                  по<lb/> томъ сталъ ево бить, и пошолъ прочь. Арлекïнъ<lb/> по нѣсколькихъ шуткахъ
+                  своиственныхъ театру<lb/> такъ же пошолъ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ<lb/>СМЕРАЛДIНIНУ.</stage>
+               <p rend="indent">БРÏГЕЛЛЪ научаетъ Смералдïну одѣтую въ<lb/> Адрïеннъ, [то есть въ
+                  женскои шлафрокъ] что какъ<lb/> она долженствуетъ поступать съ Французомъ;
+                  учитъ<lb/> ея такъ же поступкамъ учтивымъ. Смералдïна то<lb/> стала дѣлать. Между
+                  тѣмъ стали стучаться;<lb/> Брïгеллъ пошолъ, и возвратился съ Mocïo Aпе-<lb/>
+                  тïтомъ, которои сталъ чинить комплïменты<lb/> Смералдïне. Смералдïна не разумѣет
+                  ни мало ево<lb/> языка. Mocïo такъ же ея. Каждои кличетъ Брï-<lb/> гелла для
+                  переводу. Брïгеллъ имъ толкуетъ все<lb/> по своему, и на ихъ сторону. По томъ
+                  спраши-<lb/> вается онъ того Мосïо, что не порали накрывать<lb/> столъ. Mocïo ему
+                  говоритъ, что пора, Брïгеллъ<lb/> пошолъ, Mocïo сталъ улещивать любовïю своею<lb/>
+                  Смералдïну, которая съ своеи стороны поступаетъ<lb/> по дамски. Между тѣмъ
+                  Брïгеллъ выходитъ съ<lb/>
+                  <fw type="catch" place="bottom">слугами</fw>
+                  <pb facs="#franvene_ru_008" n="8"/>
+                  <fw type="pageNum">8</fw>слугами, чтобъ приготовить обѣдъ. Смералдïна<lb/> думая,
+                  что она хорошо здѣлаетъ, притворяется<lb/> быть въ негодованïи, что онъ еи
+                  приготовляетъ<lb/> обѣдъ, говоря, что она имѣетъ чѣмъ насытиться<lb/> себя. Мосïо
+                  опечалился, что въ томъ просту-<lb/> пился, какъ онъ думалъ. Сталъ извиняться
+                  чрезъ<lb/> Брïгелла указывая на обычаи Французскои. Брïгеллъ<lb/> говоритъ на ухо
+                  Смералдïнѣ, чтобъ она не отказы-<lb/> валася отъ обѣда. Смералдïна узнавши, что
+                  то<lb/> надлежитъ учинить въ знакъ учтивства, согла-<lb/> шается на то. Мосïо
+                  сталъ быть радъ, что ево<lb/> метреса утишилась. Между тѣмъ стали кушанье<lb/>
+                  ставить на столъ. Арлекïнъ во время стола началъ<lb/> чинить многïя игрушки
+                  надлежащïя къ театру.<lb/> На послѣдокъ Мосïо пьючи за здоровье Мадамïно,<lb/>
+                  пьянъ напился. Изъ того произходитъ игрушка<lb/> смѣшная, которою окончилося</p>
+               <p rend="indent">ДѢИСТВIЕ ПЕРВОЕ.</p>
+            </div>
+            <fw type="catch" place="bottom">ДѢИ</fw>
+            <pb facs="#franvene_ru_009" n="9"/>
+            <fw type="pageNum">9</fw>
+            <div type="act" n="2">
+               <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+               <p rend="indent">ПАНТАЛОНЪ выходитъ говоря о досужствѣ<lb/> Сïлвïевомъ, и
+                  Одоардовомъ, которые всячески ста-<lb/> раются видѣться съ ево дочерьми. На то они
+                  при-<lb/> ходятъ, и чрезъ пущее и лишнее учтивство про-<lb/> сятъ у нево дочереи
+                  ево за себя. Панталонъ имъ<lb/> говоритъ, что это дѣло требуетъ разсужденïя;<lb/>
+                  и что онъ ни соглашается, ни отказываетъ имъ.<lb/> Проситъ онъ ихъ, чтобъ они ему
+                  дали время поду-<lb/> мать, да и пошолъ самъ. Любовники льстятъ себя<lb/> щасливою
+                  удачею въ ихъ любви; да и пошлижъ.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+               <p rend="indent">МОСІО спитъ на стулѣ. Арлекïнъ приходитъ,<lb/> хочетъ онъ у нево
+                  украсть карманные часы изъ ево<lb/> кармана. Между тѣмъ Гондолïеръ приходитъ,
+                  ко-<lb/> торои сталъ бранить Арлекïна, которои по нѣ-<lb/> сколькихъ игрушкахъ
+                  приличныхъ театру прочь<lb/> пошолъ. Гондолïеръ опять положилъ часы къ нему<lb/>
+                  въ карманъ, и разбужаетъ ево. Мосïо дивится, что<lb/> онъ одинъ, и безъ мадамы.
+                  Гондолïеръ ему сказы-<lb/> ваетъ, что какъ онъ напился пьянъ, и увѣщеваетъ<lb/>
+                  его, чтобъ онъ берегся Брïгелла, которои не что<lb/> иное, какъ совершеннои плутъ.
+                  На то Брïгеллъ<lb/> приходитъ, и съ повелѣнïемъ говоритъ Гондолïеру<lb/> вытти
+                  вонъ изъ такова мѣста, которое ему не<lb/> прилично. Гондолïеръ разгнѣванный
+                  отвѣтствуетъ<lb/> ему бранïю; Мосïо имъ запретилъ браниться. Гон-<lb/> долïеръ
+                  пошолъ. Брïгеллъ говоритъ тому Мосïо,<lb/> что дама такъ въ нево влюбилася, что
+                  уже она<lb/> больше жить безъ него не можетъ, и что она при-<lb/> шла для свиданïя
+                  къ нему. Совѣтуетъ онъ ему<lb/>
+                  <fw type="sig" place="bottom">Ь</fw>
+                  <fw type="catch" place="bottom">держать</fw>
+                  <pb facs="#franvene_ru_010" n="10"/>
+                  <fw type="pageNum">10</fw>держать ея при себѣ. Мосïо на то согласился отъ<lb/>
+                  всего своего сердца, и приказываетъ ему, чтобъ<lb/> онъ ея привелъ. Брïгеллъ
+                  пошолъ, и возвращается<lb/> съ Смералдïною. Мосïо пошолъ ея встрѣчать, и<lb/>
+                  рѣчьми излишними показываетъ ей свою любовь.<lb/> Она на то соотвѣтствуетъ равнымъ
+                  же образомъ.<lb/> Потомъ Мосïо повелѣваетъ Брïгеллу, чтобъ онъ<lb/> имъ сыскалъ
+                  Пажеи, Камерметьхïнъ, богатое платье<lb/> для мадамы, и приготовилъ бы все
+                  надлежащее къ<lb/> одному балу. Брïгеллъ говоритъ, что онъ не имѣетъ<lb/> денегъ;
+                  но ежели бы онъ повелѣлъ, то бы взялъ<lb/> другои ево вексель у Панталона. Мосïо
+                  ему то<lb/> приказываетъ учинить, и пошолъ съ Смералдïною.<lb/> Брïгеллъ говоритъ,
+                  что онъ хочетъ здѣлаться ба-<lb/> рономъ нѣмецкимъ вмѣстѣ съ Арлекіномъ, и
+                  выиграть<lb/> у Мосïо все что онъ ни имѣетъ; да и пошолъ прочь.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+               <p rend="indent">ПАНТАЛОНЪ выходитъ говоря, что онъ весьма<lb/> увѣдомился о женихахъ
+                  своихъ дочереи, и что онъ<lb/> ихъ хочетъ за оныхъ отдать замужъ. Между тѣмъ<lb/>
+                  Брïгеллъ приходитъ, и учинивъ ему комплïментъ<lb/> отъ Мосïо, говоритъ, что онъ
+                  пришолъ по его при-<lb/> казу требовать у него денегъ по векселю. Панта-<lb/> лонъ
+                  говоритъ, что онъ не имѣетъ денегъ. Брïгеллъ<lb/> ему уступаетъ 50 пïстоль изъ
+                  четырехъ сотъ,<lb/> которыми онъ долженъ. Панталонъ ему отвѣт-<lb/> ствуетъ, что
+                  онъ не можетъ по совѣсти того<lb/> учинить. Но послѣ нѣкотораго спору между
+                  ими,<lb/> Панталонъ ему даетъ только 200 пïстоль. Брï-<lb/> геллъ смѣется надъ его
+                  совѣстïю, принимаетъ<lb/> денги, и говоритъ ему, что Мосïо хочетъ дать<lb/> балъ,
+                  и что онъ можетъ туда притьти съ своими<lb/>
+                  <fw type="catch" place="bottom">дочерьми.</fw>
+                  <pb facs="#franvene_ru_011" n="11"/>
+                  <fw type="pageNum">11</fw>дочерьми. Панталонъ обѣщается, да и вонъ выхо-<lb/>
+                  дитъ. Брïгеллъ радъ, что онъ имѣетъ денги, пошолъ<lb/> приготовлять надлежащее къ
+                  балу.</p>
+               <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ САЛУ НА БАЛЪ.</stage>
+               <p rend="indent">МОСІО выходитъ чиня комплïменты мадамѣ,<lb/> за которою идутъ лакеи,
+                  и которая чинитъ по-<lb/> ступки, и поворотки придворныя. Между тѣмъ<lb/> Брïгеллъ
+                  приходитъ, и говоритъ Мосïо, что все<lb/> готово, и что и Панталонъ придетъ на
+                  балъ съ сво-<lb/> ими дочерьми. Говоритъ онъ про себя, что онъ<lb/> увѣдомилъ
+                  любовниковъ, дабы они не пропустили<lb/> случая видѣться съ своими невѣстами, и
+                  что они<lb/> обѣщалися быть. Въ то время стали стучаться.<lb/> Брïгеллъ пошолъ
+                  смотрѣть, кто бы то былъ; и<lb/> возвращается съ Панталономъ, и съ ево
+                  дочерьми.<lb/> Стали они чинить многïя комплïменты съ Мосïо,<lb/> и съ Мадамою,
+                  которая кажетъ себя шляхтянкою.<lb/> Панталонъ говоритъ, что бутто онъ, знаетъ
+                  Сме-<lb/> ралдïну; однакожъ онъ не хочетъ вклепаться, чтобъ<lb/> въ томъ не
+                  обмануться. Между тѣмъ приходитъ<lb/> Гондолïеръ, и говоритъ тому Мосïо, что
+                  многïе<lb/> люди въ машкахъ желаютъ быть на томъ балѣ.<lb/> Брïгеллъ пошолъ ихъ
+                  принимать, и приходитъ съ<lb/> любовниками, которые были въ машкахъ. Объяви-<lb/>
+                  лися они своимъ невѣстамъ. Тутъ стали танцо-<lb/> вать. По томъ Мосïо приказалъ,
+                  чтобъ поставлены<lb/> были закуски и питья. Сталъ онъ подносить самъ<lb/>
+                  новопришедшимъ, что дало причину Смералдïнѣ<lb/> притворить себѣ ревность, и
+                  ругать дочерей Пан-<lb/> талона, которои сталъ за нихъ; Мосïо такъ же.<lb/>
+                  Арлекïнъ сталъ съ стороны Смералдïнïнои, и тѣмъ<lb/> крикомъ окончеваютъ</p>
+               <p rend="indent">ДѢИСТВІЕ ВТОРОЕ.</p>
+               <fw type="sig" place="bottom">Ь 2</fw>
+               <fw type="catch" place="bottom">ДѢИ-</fw>
+               <pb facs="#franvene_ru_012" n="12"/>
+               <fw type="pageNum">12</fw>
+               <div type="act" n="3">
+                  <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+                  <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                  <p rend="indent">БРІГЕЛЛЪ бранитъ Арлекïна, что онъ испор-<lb/> тилъ своимъ
+                     здоромъ всю его работу, Арлекïнъ<lb/> извинялся въ томъ своею ревностïю, и
+                     говоритъ, что<lb/> онъ не хочетъ, чтобъ Смералдïна жила больше<lb/> у Мосïо
+                     Апетïта. Брïгеллъ ево проситъ, чтобъ онъ<lb/> потерпѣлъ, покамѣстъ онъ
+                     исполнитъ свое намѣ-<lb/> ренïе, тоесть, чтобъ ево здѣлать богатымъ, и<lb/>
+                     чтобъ могъ онъ жениться на Смералдïнѣ; такъ же<lb/> и чтобъ отправить его въ
+                     отечество. Арлекïнъ послу-<lb/> шался ево. Брïгеллъ ему говоритъ, чтобъ онъ
+                     при-<lb/> творился барономъ нѣмецкимъ, и что по случаю игры<lb/> въ карты, онъ
+                     его спознаетъ съ французомъ. Но онъ<lb/> нарошно имѣетъ согласиться съ
+                     Смералдïною, чтобъ<lb/> она принудила того Мосïо играть. И ежели то<lb/>
+                     удастся, то онъ Брïгеллъ станетъ съ нимъ за одно<lb/> играть, и понеже онъ
+                     знаетъ великую силу въ кар-<lb/> тахъ, того ради все онъ у него выиграетъ;
+                     послѣ чего<lb/> можно будетъ ему Арлекïну исправить свои нужды.<lb/> Арлекïнъ
+                     за благо нашолъ ево совѣтъ, и пошолъ съ нимъ.<lb/> Но въ то время Гондолïеръ,
+                     которои ихъ<lb/> зговоръ весь слышалъ, говоритъ, что онъ до того<lb/> не
+                     допуститъ; да и розсказываетъ о всемъ Панталону,<lb/> которои выходитъ говоря
+                     своимъ дочерямъ о удачѣ<lb/> бала; и приказываетъ имъ чтобъ онѣ пошли
+                     прочь.<lb/> Панталонъ говоритъ Гондолïеру, чтобъ онъ увѣдо-<lb/> милъ о томъ
+                     самъ того Мосïо. Гондолïеръ ему<lb/> отвѣчаетъ, что уже онъ хотѣлъ то учинить;
+                     но<lb/> что ему полюбился Брïгеллъ, того ради онъ ни<lb/> мало не хочетъ
+                     слушать. Панталонъ взялся самъ,<lb/> по любви его отца, которой ему Панталону кор-<lb/>
+                     <fw type="catch" place="bottom">респондентъ,</fw>
+                     <pb facs="#franvene_ru_013" n="13"/>
+                     <fw type="pageNum">13</fw>респондентъ, то учинить, и не допустить того<lb/>
+                     Мосïо до погибели. Гондолïеръ пошолъ. Панталонъ<lb/> остался; а къ нему
+                     приходятъ любовники, которые<lb/> вторично у нево стали просить за себя дочерей
+                     ево.<lb/> Панталонъ имъ то обѣщаетъ; и призываетъ Дïану<lb/> и Аурелïю, которыя
+                     бутто стыдяся дали руки въ<lb/> знакъ вѣрности своимъ любовникамъ. Панталонъ
+                     имъ<lb/> говоритъ, что ему надлежитъ повидаться съ Мосïо<lb/> Апетïтомъ для
+                     нѣкотораго нужнаго дѣла, да и<lb/> сталъ ихъ всѣхъ съ собою туда просить. Всѣ
+                     со-<lb/> гласилися на его прошенïе, и говоря, что уже ночь<lb/> наступаетъ,
+                     пошли за нимъ.</p>
+                  <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                  <p rend="indent">БРІГЕЛЛЪ жалуется на Смералдïну, что ея<lb/> худои поступокъ все
+                     намѣренïе его испортилъ.<lb/> Смералдïна кладетъ всю вину на свое сердце.
+                     Брï-<lb/> геллъ еи говоритъ, чтобъ она на ассамблеѣ Мосïо<lb/> Апетïта,
+                     предложила играть въ карты; а что онъ<lb/> придетъ съ Арлекïномъ въ Кавалерахъ
+                     нѣмецкихъ,<lb/> и выиграютъ у нево всѣ денги. На то Мосïо прихо-<lb/> дитъ, и
+                     пеняетъ на мадаму, что она ему учинила<lb/> безчестïе въ балѣ. Смералдïна
+                     притворяется быть<lb/> ревнивою и сердитою. Брïгеллъ старается ихъ по-<lb/>
+                     мирить, что чинитъ игрушку приличную театру.<lb/> На послѣдокъ Брïгеллъ
+                     говоритъ тому Мосïо, что<lb/> два господина нѣмецкïе хотятъ имѣть честь съ<lb/>
+                     нимъ познаться. Мосïо ему говоритъ, чтобъ они<lb/> пожаловали къ нему. Брïгеллъ
+                     пошолъ. Смералдïна<lb/> стала говорить тому Мосïо о игрѣ въ карты чтобъ<lb/>
+                     забавиться. Стали они играть. Въ то время при-<lb/> былъ Гондолïеръ, котороï
+                     сказываетъ тому Мосïо,<lb/> что Панталонъ съ своею фамилïею будетъ къ нему<lb/>
+                     <fw type="catch" place="bottom">поклонъ</fw>
+                     <pb facs="#franvene_ru_014" n="14"/>
+                     <fw type="pageNum">14</fw>поклонъ свои отдать. Мосïо имъ говоритъ: добро<lb/>
+                     пожаловать. Но послѣ комплïментовъ, Мосïо сталъ<lb/> позволенïя просить у
+                     компанïи, дабы играть въ карты<lb/> съ своею дамою. На то Гондолïеръ говоритъ
+                     тому<lb/> Мосïо, что два шляхтича иностранные просятъ<lb/> ево, чтобъ имъ
+                     позволено было тутъ же притьти.<lb/> Мосïо говоритъ, что очюнь изрядно.
+                     Гондолïеръ<lb/> увѣдомляетъ тихонько Панталона, что то два<lb/> плута. Пошолъ
+                     онъ, и возвращается опять съ нимъ.<lb/> Брïгеллъ и Арлекïнъ переодѣвшися въ
+                     шляхтичевъ<lb/> Нѣмецкихъ, по многихъ шуткахъ приличныхъ те-<lb/> атру, стали
+                     они играть въ карты. Мосïо проигралъ<lb/> все что онъ ни имѣлъ; Того ради
+                     поѣхалъ онъ на<lb/> платье. Панталонъ и Гондолïеръ видя, что уже<lb/> дѣло къ
+                     послѣднему концу приходитъ, схватали<lb/> тѣхъ двухъ обманщиковъ, которые видя,
+                     что они<lb/> познаны быть стали, призналися во всемъ, такъ же<lb/> объявили и о
+                     худородïи Смералдïны, которая очюнь<lb/> о томъ опечалилася. Мосïо,
+                     застыдившися, что онъ<lb/> былъ обманутъ отъ тѣхъ плутовъ говоритъ, что<lb/>
+                     онъ уже научонъ сталъ быть для предку, и оста-<lb/> вилъ у Смералдïны все что
+                     онъ еи ни отдалъ. Пан-<lb/> талонъ ему обѣщаетъ заплатить оставшïяся денги<lb/>
+                     по векселю, изъ которыхъ половина заплачена Брï-<lb/> геллу, и сталъ ево звать
+                     въ свои домъ пока полу-<lb/> читъ онъ другои приказъ отъ отца. На что
+                     Мосïо<lb/> согласился. Старикъ подтвердилъ свадьбу съ сво-<lb/> ими дочерьми,
+                     чѣмъ и окончилася,</p>
+                  <p rend="indent">КОМЕДІЯ.</p>
+               </div>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Der Frantzose in Venedig</title>
+               <respStmt>
+                  <resp>Digitisation of facsimile</resp>
+                  <name>The Göttingen State and University Library</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <settlement>Göttingen</settlement>
+                     <repository>The Göttingen State and University Library</repository>
+                     <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (9a) RARA</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              <measure unit="pages" quantity="10">10 pages of source
+                                 material</measure>
+                              <height unit="cm">18,9</height>
+                              <width unit="cm">14,6</width>
+                              <depth unit="cm">0,1</depth>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="ge">German</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface type="ge">
+            <graphic xml:id="franvene_ge_001" url="/img/franvene_ge_001.jpg"/>
+            <graphic xml:id="franvene_ge_002" url="/img/franvene_ge_002.jpg"/>
+            <graphic xml:id="franvene_ge_003" url="/img/franvene_ge_003.jpg"/>
+            <graphic xml:id="franvene_ge_004" url="/img/franvene_ge_004.jpg"/>
+            <graphic xml:id="franvene_ge_005" url="/img/franvene_ge_005.jpg"/>
+            <graphic xml:id="franvene_ge_006" url="/img/franvene_ge_006.jpg"/>
+            <graphic xml:id="franvene_ge_007" url="/img/franvene_ge_007.jpg"/>
+            <graphic xml:id="franvene_ge_008" url="/img/franvene_ge_008.jpg"/>
+            <graphic xml:id="franvene_ge_009" url="/img/franvene_ge_009.jpg"/>
+            <graphic xml:id="franvene_ge_010" url="/img/franvene_ge_010.jpg"/>
+         </surface>
+      </facsimile>
+      <text>
+         <front>
+            <pb facs="#franvene_ge_001" n="1"/>
+            <head type="main">Der Frantzoſe in Venedig</head>
+            <head type="sub">welcher<lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an dem<lb/>
+               Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/>
+               <date when="1733">Ao. 1733.</date><lb/> vorgeſtellet worden.</head>
+            <pb facs="#franvene_ge_002" n="2"/>
+            <fw type="pageNum">2</fw>
+            <div type="preface">
+               <head>Jnhalt.</head>
+               <p rend="indent">Monſieur de L’Appetit, ein Frantzoͤſiſcher Kauffmanns Sohn, wird
+                  wegen<lb/> eines Reichthums in den Adel-Stand erhoben und von ſeinem Vater auf die
+                  Reiſe<lb/> durch Europa geſchickt. Er koͤmmt nach Venedig und logiret in dem
+                  vornehmſten<lb/> Gaſt-Hofe der Stadt, allwo er mit dem Brighella, einen Kupler und
+                  Betruͤger,<lb/> in Bekandtſchafft geraͤth. Dieſer ſucht ſich die natuͤrliche
+                  Freygebigkeit des Fran-<lb/> tzoſen zu Nutze zumachen, fuͤhret ihm die Smeraldina,
+                  ein armes Maͤdgen, unter<lb/> dem Nahmen einer Roͤmiſchen Marquiſe zu und legt mit
+                  Arlequin, ihrem Liebhaber,<lb/> ab, ſich als zwey Teutſche Baronen zuverckleiden
+                  und ihn im Spiele um alles zu-<lb/> bringen. Ein Gondolier, der dem Petit-Maitre,
+                  als ein Bedienter zugegeben<lb/> iſt, giebt hiervon Nachricht an den Pantalon,
+                  der, weil er deſſen Vaters guter Freund<lb/> und Correſpondent iſt, ihn fuͤr die
+                  Betruͤgerey warnet, und von aller Gefahr befreyet.<lb/> Die Liebes-Haͤndel und
+                  Verheyrathung des Silvio und Odoardo mit den Toͤchtern<lb/> des Alten, sind
+                  Zwiſchen-Spiele, welche die Verwirrung und Auswinckelung des<lb/> gantzen Stuͤckes
+                  machen.</p>
+            </div>
+            <castList>
+               <head>Perſonen.</head>
+               <castItem>
+                  <role xml:id="pantalone_ge">Pantalon</role>
+                  <roleDesc>Vater der</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="diana_ge">Diana.</role>
+               </castItem>
+               <castItem>
+                  <role xml:id="aurelia_ge">Aurelia.</role>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_ge">Silvio und</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_ge">Odoardo</role>
+                  </castItem>
+                  <roleDesc>zwey gute Freunde.</roleDesc>
+               </castGroup>
+               <castItem>
+                  <role xml:id="monsieurappetit_ge">Monſieur de L’Appetit</role>
+                  <roleDesc>ein Frantzoſe.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="momolo_ge">Momelo</role>
+                  <roleDesc>ſein Gondolier.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="smeraldina_ge">Smeraldina</role>
+                  <roleDesc>unter dem Nahmen der Roͤmiſchen Dame.</roleDesc>
+               </castItem>
+               <castItem>
+                  <role xml:id="arlecchino_ge">Arlequin</role>
+                  <roleDesc>ihr Liebhaber.</roleDesc>
+               </castItem>
+            </castList>
+            <set>
+               <p>Der Schau-Platz iſt in Venedig.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#franvene_ge_003" n="3"/>
+            <fw type="pageNum">3</fw>
+            <div type="act" n="1">
+               <head>Die erſte Handlung.</head>
+               <p rend="indent">Brighella trit auf und ſtreichet gegen den Pantalon des
+                  angekom-<lb/> menen Frantzoſen Freygebigkeit, ſeinen guten Geſchmack in<lb/> der
+                  Kleidung und ſeine Neigung zu allen Arten der Ergoͤtzung her-<lb/> aus. Pantalon
+                  ſagt, er habe ihm zwey Wechſel zu bezahlen, davon<lb/> er den einen ſogleich, den
+                  andern aber in einem Monath, heben koͤnn-<lb/> te; Er gehet ab. Brighella bleibet
+                  u. ſaget, er habe ausfuͤndig<lb/> gemacht, vermittelſt der Smeraldina, dem Fremden
+                  das Geld aus<lb/> dem Beutel zu loͤcken. Wie er die Smeraldina hoͤret gehet er
+                  auf<lb/> die Seite. Smeraldina kommt heraus und ſtellet ſich gantz verzwei-<lb/>
+                  felnd an, weil ihr der Hund das Preſent weggetragen, ſo ihr<lb/> der Arlequin
+                  geſchickt. Sie ſagt hierauf, ſie liebe den Arlequin; es<lb/> ſey aber ſehr
+                  betruͤbt, daß er keinen Herrn u. ſie nichts mehr zu le-<lb/> ben habe. Brighella
+                  kommt hervor, und nachdem er ſie gegruͤſſet,<lb/> traͤgt er ihr Dienſte bey einem
+                  Frantzoͤſiſchen Herrn an u. ſagt, ſie<lb/> koͤnne ihr Gluͤck machen, ſie muͤſſe
+                  ſich aber fuͤr eine Roͤmiſche Da-<lb/> me ausgeben. Er ſtreicht hierauf des
+                  Frantzoſen Stand und gute<lb/> Art zu leben heraus. Smeraldina ſtehet erſtlich bey
+                  ſich ſelbst an,<lb/> wird aber zuletzt auf dieſe Bedingung mit ihm eines, daß es
+                  mit<lb/> Bewilligung des Arlequins geſchehen muͤſſe, der ſie bald heyrathen<lb/>
+                  werde. Indeſſen als ſie ferner dem Brighella erzehlet, was es dem<lb/> Arlequin
+                  fuͤr Muͤhe koſte, ſie zu ernaͤhren, kommt Arlequin u. als<lb/> er die Smeraldina
+                  bey dem Brighella ſiehet, wird er eiferſuͤchtig und<lb/> ſchmaͤlet. Brighella ſagt
+                  ihm, was er vorhabe u. Arlequin giebt ihm,<lb/> in der Hoffnung einen guten
+                  Schnitt zu machen, die Hand u. gehet<lb/> fort. Brighella fuͤhret die Smeraldina
+                  hinein u. begiebt ſich auch weg;<lb/> um ein Kleid fuͤr ſie zu ſuchen.</p>
+               <p rend="indent">Silvio trit auf, ſpricht von ſeiner Liebe gegen die Diana und
+                  ſagt,<lb/> er habe den Pantalon, ihren Vater, in einer Krahm-Bude geſehen; er<lb/>
+                  wolle ſich derohalben deſſen Abweſenheit zu Nutze machen u. mit ſei-<lb/> ner
+                  Geliebten ſprechen. Er pocht an. Diana kommt heraus. Bey-<lb/>
+                  <fw place="bottom" type="sig">*</fw><fw type="catch" place="bottom">de</fw>
+                  <pb facs="#franvene_ge_004" n="4"/>
+                  <fw type="pageNum">4</fw>de verſichern einander ihrer bestaͤndigen Neigung u.
+                  Diana ſagt, Sil-<lb/> vio ſollte desgleichen, im Nahmen ihrer Schweſter der
+                  Aurelia, den<lb/> Odoardo uͤberzeigen u. gehet fort. Silvio iſt ſehr erfreuet,
+                  ſaget er<lb/> wolle ihren Befehl ſo gleich ausrichten und trit ab.</p>
+               <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+               <p rend="indent">Der Gondolier macht ſeines Herrn Nacht-Tiſch zurechte u.<lb/>
+                  bezeiget ſich ſehr verdruͤßlich, daß er ihm den Brighella vorziehet, der<lb/> doch
+                  ſeines Handwercks ein Betruͤger ſey. Indeſſen rufft Monſieur<lb/> de l’Appetit,
+                  kommt herein u. fragt ihn, ob er nicht den Brighella<lb/> geſehen? Der Gondolier
+                  antwortet, er habe ihn nicht geſehen und<lb/> ſpricht ſehr uͤbel von demſelben.
+                  Monſieur de l’Appetit vertheydi-<lb/> get ihn u. ſagt er habe niemand, dem er ſich
+                  vertrauen koͤnne. Hier<lb/>- auf laͤßt er ſich Waſſer geben, macht die Haare
+                  zurecht, pudert ſich<lb/> und thut alles mit einer gewiſſen Art Prahlerey. Nach
+                  vielen Poſ-<lb/> ſen wird angeklopfet. Der Gondolier gehet hinaus, koͤmmt
+                  wieder<lb/> und ſagt, der Pantalon ſey darauſſen. Monſieur de l’Appetit gehet<lb/>
+                  ihm entgegen. Der Alte trit herein und ſagt, er komme hieher, um<lb/> ihm die 400.
+                  Piſtolen auf ſeinen Wechſel auszuzahlen. Monſieur<lb/> l’Appetit bedancket ſich
+                  mit vieler Hoͤfligkeit, fragt ihn, ob er ihm mit<lb/> einer Schale Thee, Caffee
+                  oder Choccolate aufwarten koͤnne? und<lb/> noͤthiget ihn zuletzt, bey ihm zu
+                  ſpeisen. Hierauf kommt der Brighella<lb/> und ſagt ihm in das Ohr, er habe ihm
+                  eine gute Zeitung zu hinter-<lb/> bringen, er muͤſſe aber gantz alleine ſeyn
+                  Monſieur de l’Appetit ver-<lb/> gißt auf einmahl alles, worauf er den Pantalon
+                  gebeten, nimmt ei-<lb/> nen kurtzen Abſchied von ihm u. gehet mit dem Gondolier
+                  fort. Der<lb/> Alte verwundert ſich uͤber dieſe Veraͤnderung u. begiebt ſich weg.
+                  Die<lb/> Vorigen kommen zuruͤck. Der Gondolier bezeiget ſeinen Verdruß,<lb/> daß
+                  ihnen Brighella uͤberall nachfolge; dieſer aber ſagt zu Monſieur<lb/> de
+                  l’Appetit, er habe eine gewiſſe vornehme Dame ausgefunden u.<lb/> macht ihm eine
+                  weit aͤuſſtige Beſchreibung von ihren Manieren und<lb/> Annehmlichkeiten. Monſieur
+                  de l’Appetit wird verliebt u. giebt dem<lb/>
+                  <fw type="catch" place="bottom">Brig-</fw>
+                  <pb facs="#franvene_ge_005" n="5"/>
+                  <fw type="pageNum">5</fw>Brighella Befehl, ſie herzubringen u. Anſtalt zu einer
+                  guten Mahl-<lb/> zeit zumachen. Brighella verſpricht zu gehorſamen u. alle gehen
+                  ab.</p>
+            </div>
+            <div type="scene">
+               <stage>Der Schau-Platz ſtellet eine Stadt vor.</stage>
+               <p rend="indent">Silvio u. Odoardo, treten auf u. beklagen ſich uͤber den
+                  Pantalon,<lb/> welcher durch ſeine Ernſthafftigkeit ſie an dem Vergnuͤgen, ihre
+                  Ge-<lb/> liebten zu ſprechen, hinderte. Indeſſen koͤmmt der Arlequin denſel-<lb/>
+                  ben bitten ſie, ihnen behuͤlfflich zu ſeyn, daß ſie ihre Liebſten zu ſpre-<lb/>
+                  chen bekaͤmen. Arlequin laͤſſet ſich bewegen u. klopffet an. Diana<lb/> u. Aurelia
+                  kommen heraus, bezeigen ſich furchtſam fuͤr ihrem Vater u.<lb/> bitten die
+                  Liebhaber, den Arlequin Wache halten zu laſſen. Arlequin<lb/> thut ſolches, macht
+                  allerhand Poſſen u. blinden Lerm dabey. Pantalon<lb/> ſchleicht herzu u. beklagt
+                  ſich uͤber die Auffuͤhrung ſeiner Toͤchter. Wie<lb/> Arlequin den Alten gewahr
+                  wird ſchreyet er: Nehmet euch in acht!<lb/> Der Alte giebt ihm ein Zeichen daß er
+                  ſchweigen ſolle u. gehet fort.<lb/> Worauf Arlequin nach einigen Poſſen auch weg
+                  gehet.</p>
+            </div>
+            <div type="scene">
+               <stage>Der Schau-Platz verwandelt ſich in das Zimmer der<lb/> Smeraldina.</stage>
+               <p rend="indent">Brighella unterrichtet die Smeraldina, die gantz vornehm ange-<lb/>
+                  kleidet iſt, wie ſie ſich gegen den Frantzoͤſiſchen Herrn auffuͤhren und<lb/> mit
+                  was fuͤr artigen Manieren ſie ihn empfangen ſolle. Smeraldina<lb/> macht alles
+                  nach, woruͤber angeklopffet wird. Brighella gehet hin-<lb/> aus u. koͤmmt wieder
+                  mit Monſieur de l’Appetit herein, welcher der<lb/> Smeraldina mit vieler
+                  Hoͤfflichkeit entgegen gehet. Smeraldina ver-<lb/> ſtehet nicht ein Wort von
+                  ſeiner Sprache; Monſieur de l’Appetit<lb/> deſgleichen von der ihrigen. Derohalben
+                  machen ſie den Brighella<lb/> zu ihrem Dollmetſcher, der alles der Smeraldina zum
+                  Vortheil aus-<lb/> leget u. zuletzt den Frantzoſen fraget, ob er nicht die Tafel
+                  zurecht<lb/> machen ſollte? Monſieur de L’Appetit antwortet mit Ja u.
+                  Brighel-<lb/> la gehet fort. Monſieur de l’Appetit thut verliebt gegen die
+                  Smeral-<lb/> dina, die ſich aber ihrer Seits ſehr vornehm ſtellet. Hierauf
+                  koͤmmt<lb/> Brighella mit einigen Bedienten zuruͤck, um die Tafel zu rechte zu<lb/>
+                  <fw type="catch" place="bottom">ma-</fw>
+                  <pb facs="#franvene_ge_006" n="6"/>
+                  <fw type="pageNum">6</fw>machen. Smeraldina glaubt, ſie thue wohl, wann ſie ſich
+                  ſtelle, als<lb/> ob ſie hierdurch beleidiget waͤre, daß er ſie bey ſich zur
+                  Mahlzeit be-<lb/> halten wolle, und ſagt, ſie koͤnne ſichſelbst ſchon ſaͤttigen,
+                  wenn<lb/> ſie hungrig waͤre. Monſieur de l’Appetit iſt gantz beſtuͤrtzt, daß
+                  er,<lb/> wie er glaubt, einen Fehler begangen u. entſchuldiget ſich durch den<lb/>
+                  Brighella hiemit, daß es in Franckreich die Mode ſo ſey. Brighella<lb/> ſagt
+                  heimlich zu der Smeraldina, ſie ſolle die Mahlzeit nur annehmen<lb/> u. Smeraldina
+                  verſichert, daß ſie es aus bloſer Hoͤfflichkeit thun wol-<lb/> le. Monſieur de
+                  l’Appetit iſt ſehr erfreuet, daß er ſeine Maitreſſe<lb/> beſaͤnfftiget ſiehet,
+                  worauf ſich beyde zur Taffel ſetzen, bey welcher<lb/> der Arlequin allerley Poſſen
+                  macht. Zuletzt trinckt Monſieur de l’Ap-<lb/> petit der Dame Geſundheit und mit
+                  dieſer Ergoͤtzung beſchlieſſet ſich<lb/> die erſte Handlung.</p>
+            </div>
+            <div type="act" n="2">
+               <head>Die andere Handlung.</head>
+               <p rend="indent">Pantalon trit auf und ſpricht von der Verwegenheit des Silvio
+                  u.<lb/> Odoardo, die wider ſeinen Willen mit ſeinen Toͤchtern um-<lb/> gehen
+                  wollten. Hierauf kommen die Liebhaber und halten mit<lb/> einer ungewoͤhnlichen u.
+                  gezwungenen Hoͤfflichkeit um ſeine Toͤchter<lb/> an. Pantalon antwortet, die Sache
+                  verdiene Uͤberlegung; er wolle es<lb/> ihnen inzwiſchen weder zuſagen, noch
+                  abſchlagen, ſie moͤchten ihm<lb/> nur Bedenckzeit laſſen. Er gehet ab. Die
+                  Liebhaber ſchmeicheln<lb/> einander mit der Hoffnung, daß ihre Liebe einen
+                  gluͤcklichen Ausgang<lb/> haben werde u. treten ab.</p>
+               <stage>Der Schau-Platz ſtellet ein Zimmer vor.</stage>
+               <p rend="indent">Monſieur de l’Appetit ſchlaͤfft auf einem Stuhle und der Arle-<lb/>
+                  quin will ihm die Uhr aus der Taſche ziehen, der Gondoliet aber koͤmt<lb/> dazu,
+                  u. zancket ſich deswegen mit dem Arlequin u. ſteckt ſeinem<lb/> Herrn die Uhr
+                  wieder in die Taſche und wecket ihn auf. Wie Monſieur de<lb/> l’Appetit aufwacht,
+                  verwundert er ſich, daß er ohne die Dame iſt.<lb/> Der Gondolier erzehlet ihm, auf
+                  was Art er betruncken worden und<lb/> ſagt, er ſolle ſich fuͤr dem Brighella in
+                  acht nehmen, der ein Betruͤ-<lb/> ger waͤre. Brighella kommt dazu und ſagt im Zorn
+                  zu dem Gondo-<lb/>
+                  <fw type="catch" place="bottom">lier</fw>
+                  <pb facs="#franvene_ge_007" n="7"/>
+                  <fw type="pageNum">7</fw>lier, daß er ſich fortpacken ſollte. Der Gondolier
+                  ſchimpfft ihn. Mon-<lb/> ſieur de l’Appetit aber heißt ihn fortgehen. Wie er weg
+                  iſt; ſagt<lb/> Brighella an den Herrn, daß die Dame dermaaßen in ihn verliebt<lb/>
+                  ſey, daß ſie ohne ihn nicht leben koͤnne und ihn zu ſehen kaͤme; Er<lb/> giebt ihm
+                  zugleich den Rath, er ſolle ſie gar bey ſich behalten, welches<lb/> auch Monſieur
+                  de l’Appetit von Grund des Hertzens animmt und ihm<lb/> befiehlt, ſie kommen zu
+                  laſſen. Brighella gehet fort und koͤmmt<lb/> mit der Smeraldina wieder zuruͤck.
+                  Monſieur de l’Appetit geht ihr<lb/> entgegen und macht ihr eine Liebes-Erklaͤhrung
+                  und da ſie ihm ſolche<lb/> ſehr geneigt beantwortet, befiehlet er dem Brighella,
+                  fuͤr Madame<lb/> Pagen, Kammermaͤdgen u. koſtbahre Kleider anzuſchaffen und
+                  alles<lb/> noͤthige u. einem Ball zu beſorgen. Brighella ſagt, er habe kein
+                  Geld,<lb/> wenn er aber erlauben wollte, ſo koͤnnte er das Geld auf den Wech-<lb/>
+                  ſel bey dem Pantalon ziehen. Monſieur de l’Appetit erlaubt es ihm<lb/> und gehet
+                  mit der Smeraldina fort. Brighella ſagt, er und der Ar-<lb/> lequin wollten ſich
+                  als Teutſche Barons auskleiden und dem Frantzo-<lb/> ſen alles vom Leibe im Spiel
+                  abgewinnen. Er gehet ab.</p>
+               <stage>Der Schau-Platz verwandelt ſich in eine Stad.</stage>
+               <p rend="indent"> Pantalon trit auf u. ſagt, er habe Nachricht von den
+                  Liebhabern<lb/> ſeiner Toͤchter eingezogen u. er wuͤrde dieſelben wohl an ſie
+                  verhey-<lb/> rathen. Hierzu koͤmmt Brighella u. ſagt, nach einigen Complimen-<lb/>
+                  ten, ſein Herr ſchicke ihn her, den Wechſel zu ziehen. Pantalon ant-<lb/> wortet,
+                  er habe kein Geld. Brighella erwiedert, er wolle 50 Pi-<lb/> ſtolen von 400.
+                  fallen laſſen; Pantalon aber verſetzt, er koͤnne ſolches<lb/> mit guten Gewiſſen
+                  nicht thun. Nach einigen Wort-Wechſel biethet<lb/> ihm Pantalon 200 Piſtolen fuͤr
+                  den gantzen Brief. Brighella ſchertzt<lb/> uͤber ſein zartes Gewiſſen, empfaͤngt
+                  des Geld und ſagt, Monſieur<lb/> de l’Appetit habe dieſen Abend einen Ball
+                  veranſtaltet und bitte<lb/> ihn, nebſt ſeinen beyden Toͤchtern dabey zu
+                  erſcheinen. Pantalon ver-<lb/> ſpricht es u. gehet fort. Brighella freuet ſich,
+                  daß er Geld in den<lb/> Haͤnden hat u. gehet ab, die Veranſtaltung zum Ball zu
+                  machen.</p>
+               <fw type="sig" place="bottom">Der</fw>
+               <pb facs="#franvene_ge_008" n="8"/>
+               <fw type="pageNum">8</fw>
+               <stage>Der Schau-Platz ſtellet einen Tantz-Saal vor.</stage>
+               <p rend="indent">Monſieur de l’Appetit trit nebſt der Dame u. vielen Bedienten<lb/>
+                  herein. Hierauf koͤmmt Brighella und ſagt zu dem Herrn, es ſey alles<lb/> fertig;
+                  Pantalon u. ſeine Tochter wuͤrden kommen. Imgleichen ha-<lb/> be er ihren
+                  Liebhabern Nachricht gegeben, die eine ſo gute Gelegen-<lb/> heit nicht verſaͤumen
+                  wuͤrden. Es wird angeklopfft. Brighella gehet<lb/> hinaus u. koͤmmt mit dem
+                  Pantalon und deſſen Toͤchtern wieder her<lb/> ein. Sie machen allerſeits viele
+                  Complimenten an Monſieur und Ma-<lb/> dame, die uͤberaus vornehm thut. Pantalon
+                  ſagt zu der Smeraldina,<lb/> er glaube die Ehre zu haben ſie zu kennen, er koͤnne
+                  ſich aber nicht<lb/> recht mehr beſinnen. Hierauf koͤmt der Gondolier u. ſagt zu
+                  dem<lb/> Herrn, es waͤren einige maſquirte Perſonen darauſſen, die auf ſeine<lb/>
+                  Erlaubniß, dem Balle beywohnen wollten. Brighella gehet heraus<lb/> und koͤmmt mit
+                  den masquirten Liebhabern zuruͤck. Dieſer geben ſich<lb/> ihren vertrauten zu
+                  erkennen. Es wird getantzet und der Herr be-<lb/> fiehlt nach einiger Zeit, die
+                  Erfriſchungen aufzuſetzen u. trinckt die Ge-<lb/> ſundheit der neuangekommenen
+                  Damen. Dieſes giebt der Smeral-<lb/> dina Gelegenheit, ſich eiferſuͤchtig
+                  anzuſtellen u. Pantalons Toͤchtern<lb/> uͤbel zubegegnen. Der Alte u. Monſieur de
+                  l’Appetit nehmen ihre<lb/> Parthie; Arlequin aber vertheidiget die Smeraldina, mit
+                  welchen<lb/> Zanck ſich die andere Handlung ſchlieſſet.</p>
+               <div type="act" n="3">
+                  <head>Die dritte Handlung.</head>
+                  <stage>Der Schau-Platz ſtellet eine Stad vor.</stage>
+                  <p rend="indent">Brighella zanckt mit dem Arlequin, daß er durch ſeinen
+                     unzeiti-<lb/> gen Zorn alle ſeine Muͤhe vergebens mache. Arlequin
+                     entſchuldiget<lb/> ſich mit der Eiferſucht und ſagt, er wolle nicht haben, daß
+                     die Sme-<lb/> raldina laͤnger bey Monſieur de l’Appetit im Hauſe bliebe.
+                     Brig-<lb/> hella ermahnet ihn; ſo lange Gedult zu haben, biß er die letzte
+                     Hand<lb/> an ſein Vorhaben geleget, nehmlich ihn reich zu machen, ihm die
+                     Sme-<lb/> raldina zu geben und beyde in ſein Vaterland zuruͤckzuſchicken.
+                     Arle-<lb/> quin giebt ſich zu frieden. Brighella ſagt hierauf, er ſolle ſich
+                     fuͤr ei-<lb/>
+                     <fw type="catch" place="bottom">nen</fw>
+                     <pb facs="#franvene_ge_009" n="9"/>
+                     <fw type="pageNum">9</fw>nen Teutſchen Baron verkleiden und durch Gelegenheit
+                     des Spie-<lb/> les mit dem Frantzoſen Bekanntschafft machen; Er wollte schon
+                     mit<lb/> der Smeraldina Abrede nehmen, daß ſie den Petit-Maitre zum Spiel<lb/>
+                     uͤberede, ſelbſt Motie ſeyn und die Karte ſo miſchen wuͤrde, daß er alles<lb/>
+                     gewinnen ſollte. Arlequin billiget ſeinen Vorſchlag und gehet mit<lb/> ihm weg.
+                     Der Gondolier, der ſolches mit angehoͤret, ſagt, er wiſ-<lb/> ſe ſchon Mittel
+                     dafuͤr und erzehlet dem Pantalon, der mit ſeinen Toͤch-<lb/> tern gegangen
+                     koͤmmt, alles, was ſich Brighella vorgenommen. Pan-<lb/> talon heißt ſeine
+                     Toͤchter hinein gehen und ſagt zu dem Gondolier,<lb/> er ſolle dieſe Nachricht
+                     ſeinen Herrn ſelbſt uͤberbringen. Der Gon-<lb/> dolier antwortet, Pantalon
+                     moͤchte doch die Muͤhe uͤbernehmen, weil ihm<lb/> ſein Herr nicht glauben
+                     wolle. Pantalon antwortet, er wolle es, in An-<lb/> ſehung ſeines Vaters, der
+                     ſeine Correspondente ſey, thun und ihn nicht<lb/> in das Verderben gerathen
+                     laſſen. Der Gondolier geht fort. Pan-<lb/> talon bleibt, worauf die Liebhaber
+                     kommen und um ſeine Toͤchter<lb/> anhalten. Pantalon giebt ſeine Einwilligung
+                     und rufft die Diana u.<lb/> Aurelia; welche ſich mit ihren Liebhabern
+                     verehligen. Pantalon ſagt<lb/> hierauf er habe zu Erhaltung des Herrn de
+                     l’Appetit eine gewiſſe<lb/> Sache richtig zu machen u. ſie ſollten ihr dahin
+                     folgen. Alle gehen<lb/> ab.</p>
+                  <stage>Der Schau-Platz verwandelt ſich in ein Zimmer.</stage>
+                  <p rend="indent">Brighella beklaget ſich gegen die Smeraldina; daß ihr
+                     ungereimtes<lb/> Bezeigen verurſachen wuͤrde, daß ſeine Anſchlaͤge alle zu
+                     Schanden<lb/> giengen. Smeraldina entſchuldiget ihren Eifer. Brighella ſagt
+                     hier-<lb/> auf, ſie ſolle Monſieur de l’Appetit zum Spiel bereden, er u.
+                     Arle-<lb/> quin wollten als zwey Teutſche Cavaliers erſcheinen u. dem
+                     Frantzo-<lb/> ſen, durch Miſchung der Karten, das Geld abgewinnen. Hierauf<lb/>
+                     koͤmmt Monſieur de l’Appetit u. beklaget ſich gegen Madame uͤber<lb/> den
+                     Schimpf, den ſie ihm auf dem Balle angethan. Smeraldina,<lb/> entſchuldiget
+                     ſich mit der Eiferſucht. Brighella vereiniget ſie und ſagt<lb/> zu Monſieur de
+                     l’Appetit, daß zwey Teutſche Cavaliers gerne die<lb/>
+                     <fw type="sig" place="bottom">*</fw>
+                     <fw type="catch" place="bottom">Ehre</fw>
+                     <pb facs="#franvene_ge_010" n="10"/>
+                     <fw type="pageNum">10</fw>Ehre ſeiner Bekanntſchafft haben wollten. Monſieur de
+                     l’Appetit<lb/> antwortet, er ſolle ſie nur kommen laſſen. Brighella gehet
+                     fort.<lb/> Smeraldina traͤgt Monſieur de l’Appetit ein Spiel an u. indem
+                     ſie<lb/> ſpielen, koͤmmt der Gondolier u. ſagt, daß Pantalon u. ſeine
+                     Familie<lb/> da ſey, um ihre Aufwartung zu machen. Monſieur de l’Appetit
+                     laͤſ-<lb/> ſet ſie hereinkommen u. nach einigen Complimenten, bittet er die
+                     Ge-<lb/> ſellſchafft um Erlaubniß weiter zu ſpielen. Bald darauf koͤmmt
+                     der<lb/> Gondolier und meldet die beyden Teutſchen Cavaliers an, ſagt aber<lb/>
+                     heimlich zu Pantalon, daß es die beyden Betruͤger waͤren. Brighella<lb/> u.
+                     Arlequin treten herein, u. nach einigen Poſſen ſetzen ſie ſich zum<lb/> Spiel
+                     nieder. Monſieur de l’Appetit verliehret alles u. will zu letzt<lb/> ſein Kleid
+                     auf das Spiel ſetzen. Wie aber Pantalon und der Gon-<lb/> dolier ſehen, daß es
+                     auf das aͤuſſerſte koͤmmt, gehen ſie auf die bey-<lb/> den Betruͤger loß. Wie
+                     ſich dieſe verrathen ſehen, entdecken ſie<lb/> ihre Schelm-Stuͤcke und die
+                     niedrige Abkunfft der Smeraldina. Mon-<lb/> ſieur de l’Appetit ſchaͤmet ſich
+                     und ſagt, er wolle ſich ein andermahl<lb/> ſchon in acht nehmen. Er laͤßt der
+                     Smeraldina alles was er ihr ge-<lb/> ſchencket. Pantalon aber verſpricht ihm
+                     den Rest des Wechſels,<lb/> worauf er dem Brighella, die Helffte bezahlet,
+                     nachzugeben; und noͤ-<lb/> thiget ihn, ſo lange bey ihm im Hauſe zu wohnen biß
+                     er weiteren<lb/> Befehl von ſeinem Vater bekomme. Dieſes nimmt Monſieur de
+                     l’Ap-<lb/> petit an u. der Alte declariret die Verheyrathung ſeiner Toͤchter;
+                     wo-<lb/> mit der Beschluß des gantzen Schau-Spiels gemacht wird.</p>
+               </div>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Il francese a Venezia</title>
+            </titleStmt>
+            <publicationStmt>
+               <p/>
+            </publicationStmt>
+            <sourceDesc>
+               <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="it">Italian</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <pb facs="#franvene_ru_001" n="1"/>
+            <head type="main">IL FRANCESE A VENEZIA</head>
+            <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/><date when="1733">nell'anno 1733.</date></head>
+            <pb facs="#franvene_ru_002" n="2"/>
+            <div type="preface">
+               <head>ARGOMENTO.</head>
+               <p rend="indent">Monsieur Appetit, figlio di un mercante diventato nobile grazie alla
+                  sua ricchezza, è stato mandato dal padre a visitare l’Europa. A Venezia prende
+                  alloggio in una casa, dove fa conoscenza con Brighella, un autentico imbroglione e
+                  birbone. Approfittando dell’ingenua bontà del Francese, Brighella gli presenta
+                  Smeraldina, una donna povera e depravata, facendola passare per una marchese
+                  romana. Inoltre, per ingannare più facilmente il Francese e per derubarlo di tutti
+                  i denari nel gioco di carte, spaccia se stesso e Arlecchino, entrambi innamorati
+                  di Smeraldina, per due baroni tedeschi. Un gondoliere, ovvero barcaiolo, al
+                  servizio di Monsieur Appetit, informa dell’imbroglio Pantalone, amico e
+                  corrispondente del padre del Francese, che svela la truffa e salva Monsieur
+                  Appetit dalla rovina. L’amore e le nozze di Silvio e Odoardo con le figlie di
+                  Pantalone altro non sono che un Episodio [il termine poetico che significa
+                  un’azione aggiunta a quella principale per necessità o per verosimiglianza] che
+                  costituisce l’avvio e lo scioglimento di questa commedia.</p>
+            </div>
+            <pb facs="#franvene_ru_003" n="3"/>
+            <castList>
+               <head>PERSONAGGI.</head>
+               <castItem>
+                  <role xml:id="pantalone_it">PANTALONE,</role>
+                  <roleDesc>padre di Diana e Aurelia.</roleDesc>
+               </castItem>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="diana_it">DIANA e<lb/></role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="aurelia_it">AURELIA,</role>
+                  </castItem>
+                  <roleDesc>figlie di Pantalone.</roleDesc>
+               </castGroup>
+               <castGroup>
+                  <castItem>
+                     <role xml:id="silvio_it">SILVIO, e</role>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="odoardo_it">ODOARDO,</role>
+                  </castItem>
+                  <roleDesc>amici.</roleDesc>
+                  <castItem>
+                     <role xml:id="monsieurappetit_it">MONSIEUR APPETIT,</role>
+                     <roleDesc>il francese.</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="brighella_it">BRIGHELLA,</role>
+                     <roleDesc>suo traduttore.</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="momolo_it">MOMOLO,</role>
+                     <roleDesc>suo gondoliere [barcaiolo].</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="smeraldina_it">SMERALDINA,</role>
+                     <roleDesc>una finta dama romana.</roleDesc>
+                  </castItem>
+                  <castItem>
+                     <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                     <roleDesc>suo amante.</roleDesc>
+                  </castItem>
+               </castGroup>
+            </castList>
+            <set>
+               <p>L’azione si svolge a Venezia.</p>
+            </set>
+         </front>
+         <body>
+            <pb facs="#franvene_ru_004" n="4"/>
+            <div type="act" n="1">
+               <head>ATTO PRIMO.</head>
+               <p rend="indent">BRIGHELLA entra in scena ed esalta di fronte a Pantalone la
+                  cordialità, le maniere galanti, il buon gusto nel vestirsi e l’inclinazione al
+                  lusso del giovane francese. Pantalone dice che gli deve il pagamento delle due
+                  cambiali che sono arrivate a suo nome, la prima può essere incassata subito,
+                  mentre l’altra dopo un mese. Racconta a Brighella che il padre del francese è un
+                  suo corrispondente che gli ha chiesto di non lasciare solo il figlio e va via.
+                  Brighella rimane e dice che ha già trovato il modo di derubare il forestiero con
+                  l’aiuto di Smeraldina di cui nel frattempo si sente la voce. Brighella esce. Entra
+                  Smeraldina disperata perché un cane le rubato quello che Arlecchino le ha
+                  procurato per pranzo. Racconta del suo amore per lui e di come le dispiace che non
+                  ha un padrone per mantenersi, esattamente come lei. Brighella la saluta e le
+                  propone di andare a servizio da un galantuomo francese, grazie al quale Smeraldina
+                  può fare la sua fortuna. Brighella aggiunge che dirà al forestiero che lei è una
+                  nobildonna romana a condizione che Smeraldina dia a Brighella un terzo del
+                  guadagno ricavato. Le descrive il carattere e le maniere del francese. Smeraldina
+                  è reticente, ma poi accetta a patto che Arlecchino [che sposerà presto] sia
+                  d’accordo. Mentre sta raccontando le difficoltà di Arlecchino di mantenerla, <pb facs="#franvene_ru_005" n="5"/> arriva Arlecchino che, vedendo Smeraldina assieme a
+                  Brighella, si ingelosisce e la sgrida. Brighella gli racconta di cosa si tratta.
+                  Arlecchino acconsente sperando di ricavare un guadagno e se ne va. Brighella manda
+                  via Smeraldina ed esce anche lui per andare a cercare un abito per lei.</p>
+               <p rend="indent">Entra SILVIO parlando del suo amore per Diana e raccontando di aver
+                  visto Pantalone, il padre di lei, in una bottega e di voler sfruttare la sua
+                  assenza per parlare con lei, e bussa alla porta. Diana esce e i due cominciano ad
+                  assicurare l’uno l’altro del loro reciproco amore. La ragazza chiede a Silvio di
+                  far sapere a Odoardo che sua sorella Aurelia lo ama ed rientra. Molto felice,
+                  Silvio glielo promette e se ne va.</p>
+               <stage>LA SCENA MOSTRA IL CAMERINO.</stage>
+               <p rend="indent">IL GONDOLIERE sta preparando il tavolino da toeletta del suo
+                  padrone. È molto seccato perché il Monsieur Appetit gli preferisce l’imbroglione
+                  Brighella e non riesce a vedere che è un autentico birbone. Intanto Monsieur
+                  Appetit lo chiama da fuori scena, poi entra e gli chiede se ha visto Brighella. Il
+                  Gondoliere finge di non capire cosa gli sta dicendo il Monsieur, poi comincia a
+                  parlare molto male di Brighella. Monsieur Appetit glielo proibisce e dice che non
+                  ha nessun altro amico di cui può fidarsi. Poi si fa portare dell’acqua, si
+                  aggiusta i capelli, si incipria, e fa tutto con una certa arroganza. <pb facs="#franvene_ru_006" n="6"/> Dopo numerosi lazzi teatrali, qualcuno bussa alla porta.
+                  Il Gondoliere esce e torna dicendo che è arrivato Pantalone. Monsieur va a
+                  incontrarlo. Il vecchio entra dicendo che gli ha portato 400 pistole [cioè 800
+                  rubli, se una pistola è pari a 10 lire; se invece è pari a 12 lire, allora 960
+                  rubli] della sua cambiale. Monsieur Appetit lo ringrazia con grande cortesia e
+                  vuole offrirgli una tazza di tè, un caffè o una cioccolata. Alla fine lo costringe
+                  a pranzare con lui. In quel momento arriva Brighella e gli dice all’orecchio che
+                  ha buone notizie da dargli, ma che devono essere completamente soli. Monsieur
+                  Appetit dimentica subito tutto quello che ha chiesto a Pantalone, lo saluta
+                  brevemente e lo manda via con il Gondoliere. Sorpreso, il vecchio esce. Il
+                  Gondoliere, irritato dall’intrusione di Brighella, segue Pantalone. Brighella dice
+                  a Monsieur Appetit di aver trovato per lui una certa signora distinta e gli
+                  descrive i suoi modi e la sua bellezza. Monsieur Appetit si innamora di lei e
+                  ordina a Brighella di condurla lì e di apparecchiare una ricca tavola. Brighella
+                  promette di obbedirgli ed escono entrambi.</p>
+               <stage>LA SCENA MOSTRA LA CITTÀ.</stage>
+               <p rend="indent">SILVIO e Odoardo entrano arrabbiati per la crudeltà di Pantalone che
+                  non permette loro di parlare con le fidanzate. Vogliono trovare il modo di
+                  vederle. Arriva Arlecchino, al quale <pb facs="#franvene_ru_007" n="7"/>, eseguendo un
+                  lazzo scenico, gli innamorati chiedono di aiutarli. Arlecchino acconsente e bussa
+                  alla porta di Diana e di Aurelia, le quali chiedono agli innamorati di ordinare ad
+                  Arlecchino di fare la sentinella perché hanno paura del padre. Arlecchino con un
+                  lazzo teatrale disturba gli amanti in un momento inopportuno. Nel frattempo entra
+                  Pantalone e si mette in mezzo alle figlie e agli innamorati. Loro lo vedono e,
+                  senza dirgli nulla, se ne vanno. Arlecchino, vedendo il vecchio, grida:
+                  ATTENZIONE, ATTENZIONE. Il vecchio gli fa il segno di tacere, poi comincia a
+                  bastonarlo ed esce. Arlecchino, dopo alcuni lazzi teatrali, se ne va anche
+                  lui.</p>
+               <stage>LA SCENA MOSTRA LA CAMERA DI SMERALDINA.</stage>
+               <p rend="indent">BRIGHELLA insegna a Smeraldina vestita con un andrienne, [cioè con
+                  uno schlafrock da donna] come si deve comportare con il francese; le insegna anche
+                  i modi galanti. Smeraldina comincia ad atteggiarsi così. Nel frattempo qualcuno
+                  bussa, Brighella si allontana e torna con Monsieur Appetit che comincia a fare i
+                  complimenti a Smeraldina. Lei non capisce la sua lingua, neanche Monsieur la sua.
+                  Entrambi chiedono a Brighella di tradurre quello che dice l’altro. Brighella volge
+                  tutto a proprio vantaggio e traduce in modo che sia l’uno che l’altra sentano
+                  quello che vogliono sentire. Chiede alla fine a Monsieur se non è arrivata l’ora
+                  di pranzo. Il Monsieur gli dice di sì e Brighella esce. Monsieur continua a
+                  corteggiare Smeraldina che si comporta in maniera galante. Intanto entra Brighella
+                  con <pb facs="#franvene_ru_008" n="8"/> i servitori per apparecchiare la tavola.
+                  Smeraldina, pensando che sia una buona idea fingersi offesa perché Brighella le
+                  sta preparando da mangiare, dice che ha abbastanza per riempirsi la pancia.
+                  Monsieur è dispiaciuto perché pensa di aver commesso un errore. Comincia a
+                  scusarsi attraverso la mediazione di Brighella, dicendo che si è comportato
+                  secondo le usanze francesi. Brighella dice all’orecchio di Smeraldina di non
+                  rifiutare di mangiare. Smeraldina, avendo capito come deve comportarsi per
+                  mostrare di essere gentile, acconsente. Monsieur è felice che la sua signora si
+                  sia calmata. Nel frattempo cominciano a servire il pranzo. Arlecchino fa una serie
+                  di lazzi scenici durante il pranzo. Alla fine Monsieur, bevendo alla salute della
+                  sua signora, si ubriaca, il che crea uno scherzo ridicolo con cui si conclude</p>
+               <p rend="indent">IL PRIMO ATTO.</p>
+            </div>
+            <pb facs="#franvene_ru_009" n="9"/>
+            <div type="act" n="2">
+               <head>ATTO SECONDO.</head>
+               <p rend="indent">PANTALONE entra in scena raccontando come lo stanno importunando
+                  Silvio e Odoardo che in tutti i modi cercano di vedere le sue figlie. Al che
+                  arrivano gli innamorati e con molta cortesia chiedono le sue figlie in moglie.
+                  Pantalone risponde che la questione richiede una riflessione e che lui né
+                  acconsente né rifiuta. Chiede loro di dargli il tempo per pensarci e va via. Gli
+                  innamorati si rallegrano ed escono.</p>
+               <stage>LA SCENA MOSTRA LA CAMERA.</stage>
+               <p rend="indent">MONSIEUR APPETIT dorme sulla sedia. Entra Arlecchino e vuole rubagli
+                  l’orologio dalla tasca. Arriva il Gondoliere e rimprovera Arlecchino, il quale,
+                  dopo alcuni lazzi teatrali, va via. Il Gondoliere rimette l’orologio nella tasca
+                  del padrone e lo sveglia. Monsieur si sorprende di trovarsi da solo e senza la sua
+                  signora. Il Gondoliere gli racconta che si è ubriacato e lo mette in guardia
+                  contro Brighella che altro non è che un imbroglione. A quel punto che arriva
+                  Brighella e ordina al Gondoliere di andare via. Furioso, il Gondoliere lo sgrida e
+                  cominciano a litigare. Monsieur dice loro di smettere. Il Gondoliere esce.
+                  Brighella dice a Monsieur che la nobildonna si è innamorata di lui e non può più
+                  vivere senza di lui ed è venuta per vederlo. Gli consiglia <pb facs="#franvene_ru_010"/>
+                  di tenerla presso di sé. Monsieur è d’accordo e ordina di condurla da lui.
+                  Brighella esce e torna con Smeraldina. Monsieur le viene incontro e, con i
+                  discorsi affettati, le dichiara il suo amore. Smeraldina gli corrisponde allo
+                  stesso modo. Dopodiché il Monsieur ordina a Brighella di andare a cercare i paggi
+                  e i servitori, un ricco abito per Madame e di preparare il necessario per un
+                  ballo. Brighella dice che non ha soldi, ma, se lui glielo ordina, andrà da
+                  Pantalone a incassare l’altra cambiale. Monsieur dice di farlo ed esce con
+                  Smeraldina. Brighella dice di volere fingere di essere un barone tedesco assieme
+                  ad Arlecchino e di voler vincere nel gioco delle carte tutto ciò che Monsieur
+                  possiede, e va via.</p>
+               <stage>LA SCENA MOSTRA LA CITTA.</stage>
+               <p rend="indent">PANTALONE entra dicendo che si è informato sul conto dei
+                  corteggiatori delle sue figlie e vuole dargliele in sposa. Nel frattempo arriva
+                  Brighella e, dopo alcuni convenevoli, dice di essere venuto per ordine di Monsieur
+                  a incassare l’importo della seconda cambiale. Pantalone risponde che non ha soldi.
+                  Brighella gli cede 50 pistole delle 400 che Pantalone deve a Monsieur. Pantalone
+                  risponde che non lo può fare con la coscienza pulita. Dopo aver discusso,
+                  Pantalone dà a Brighella 200 pistole. Brighella ride della sua coscienza, accetta
+                  i soldi e racconta che Monsieur vuole dare un ballo e che Pantalone è invitato con
+                  le sue <pb facs="#franvene_ru_011" n="11"/> figlie. Pantalone promette di esserci e va
+                  via. Brighella è contento di aver ottenuto i soldi ed esce per preparare tutto per
+                  il ballo.</p>
+               <stage>LA SCENA MOSTRA UNA SALA DA BALLO.</stage>
+               <p rend="indent">MONSIEUR entra facendo i complimenti alla Madame, che viene seguita
+                  dai lacchè e si comporta da cortigiana. Nel frattempo arriva Brighella e dice a
+                  Monsieur che tutto è pronto e che Pantalone viene con le figlie. Dice a parte che
+                  ha informato gli innamorati di non perdere l’occasione di incontrare le proprie
+                  amate e che quelli gliel’hanno promesso. In quel momento bussano alla porta.
+                  Brighella va a vedere chi è e torna con Pantalone e le figlie. Fanno molti
+                  complimenti a Monsieur e a Madame che si atteggia a nobildonna. Pantalone dice che
+                  gli sembra di conoscere Smeraldina, ma non vuole sbagliart. Intanto arriva il
+                  Gondoliere e dice al Monsieur che sono arrivati dei signori in maschera che
+                  vogliono essere ammessi al ballo. Brighella va ad accoglierli e torna con gli
+                  innamorati mascherati. Si rivelano alle loro fidanzate. Tutti cominciano a
+                  danzare. Dopodiché Monsieur ordina di portare da mangiare e da bere e comincia a
+                  servire lui stesso i nuovi arrivati. Il che dà a Smeraldina il pretesto per una
+                  scena di gelosia nei confronti delle figlie di Pantalone. Il vecchio e Monsieur
+                  prendono le difese delle ragazze, mentre Arlecchino si mette dalla parte di
+                  Smeraldina e con le grida di tutti finisce</p>
+               <p rend="indent">IL SECONDO ATTO.</p>
+            </div>
+            <pb facs="#franvene_ru_012" n="12"/>
+            <div type="act" n="3">
+               <head>ATTO TERZO.</head>
+               <stage>La scena mostra la città.</stage>
+               <p rend="indent">BRIGHELLA rimprovera Arlecchino per aver rovinato con la rissa tutto
+                  il suo lavoro. Arlecchino si scusa per essere stato geloso e dice che non vuole
+                  più che Smeraldina abiti a casa di Monsieur Appetit. Brighella gli chiede di avere
+                  un po’ di pazienza e di aspettare prima di portare a termine il loro piano di
+                  diventare ricchi, così che Arlecchino possa sposare Smeraldina e loro possano
+                  rispedire in patria il francese. Arlecchino ubbidisce. Brighella gli dice di
+                  fingere di essere un barone tedesco, così in occasione del gioco delle carte può
+                  fare la conoscenza di Monsieur. Aggiunge che si è accordato con Smeraldina perché
+                  induca Monsieur a giocare. Se il piano va a buon fine, Brighella giocherà insieme
+                  ad Arlecchino e, siccome è bravo, vinceranno. Arlecchino approva il suo piano ed
+                  esce. Nel frattempo il Gondoliere, che ha sentito tutto, dice che farà del suo
+                  meglio per svelare l’imbroglio e racconta tutto a Pantalone, il quale, lasciando
+                  la sala di ballo, ordina alle figlie di tornare a casa. Il vecchio dice al
+                  Gondoliere di andare lui stesso a raccontare tutto a Monsieur. Il Gondoliere
+                  risponde che lo voleva già fare ma, dato che Monsieur dà molto credito a
+                  Brighella, non gli crederà mai. Allora Pantalone risponde che lo farà lui, e che
+                  per amore di suo padre che è suo corrispondente, <pb facs="#franvene_ru_013" n="13"/> non
+                  permetterà che Monsieur si rovini. Il Gondoliere esce. Pantalone rimane e arrivano
+                  gli innamorati che gli chiedono le figlie in sposa. Pantalone lo promette e chiama
+                  Diana e Aurelia, le quali, fingendo di essere timide, danno le mani agli
+                  innamorati. Pantalone dice che deve andare da Monsieur Appetti per una faccenda e
+                  invita tutti ad accompagnarlo. Tutti acconsentono e, dicendo che si sta facendo
+                  buio, lo seguono.</p>
+               <stage>LA SCENA MOSTRA LA STANZA.</stage>
+               <p rend="indent">BRIGHELLA si lamenta con Smeraldina perché il suo comportamento ha
+                  rovinato tutti i suoi piani. Smeraldina dà la colpa al suo cuore. Brighella le
+                  dice che deve invitare Monsieur Apetit a giocare a carte, che lui verrà con
+                  Arlecchino entrambi vestiti da cavalieri tedeschi e vincerà tutti i soldi del
+                  francese. Al che arriva Monsieur e si lamenta con la Madame per avergli fatto
+                  disonore durante il ballo. Smeraldina finge di essere gelosa e arrabbiata.
+                  Brighella cerca di riappacificarli facendo un lazzo scenico. Infine Brighella dice
+                  a Monsieur che due signori tedeschi vorrebbero avere l’onore di conoscerlo.
+                  Monsieur gli risponde di farli entrare. Brighella esce. Smeraldina convince
+                  Monsieur a giocare a carte per divertirsi e cominciano la partita. In quel momento
+                  arriva il Gondoliere, dicendo a Monsieur che Pantalone e la sua famiglia gli
+                  vogliono rendere <pb facs="#franvene_ru_014" n="14"/> omaggio. Monsieur dice che sono
+                  benvenuti. Dopo alcuni convenevoli, Monsieur chiede alla compagnia il permesso di
+                  continuare a giocare con la sua Madame. Gondoliere dice a Monsieur che due nobili
+                  stranieri gli chiedono il permesso di poter entrare. Il Monsieur dice di esserne
+                  molto felice. Il Gondoliere dice piano a Pantalone che quei due sono degli
+                  imbroglioni. Esce e torna con Brighella e Arlecchino vestiti da nobili tedeschi,
+                  che dopo molti scherzi teatrali, iniziano la partita a carte. Monsieur perde quasi
+                  tutto e scommette il suo vestito. Pantalone e il Gondoliere, vedendo che il
+                  francese sta per perdere tutto, catturano i due birboni, i quali capiscono di
+                  essere stati scoperti e confessano tutto, rivelando anche сhe Smeraldina non è una
+                  nobildonna. Smeraldina è molto triste. Monsieur, vergognandosi di essere stato
+                  ingannato, dice di aver imparato la lezione e lascia quello che ha perso nel gioco
+                  a Smeraldina in dote. Pantalone gli promette di dargli il denaro rimanente della
+                  cambiale, di cui la metà è stata incassata da Brighella, e lo invita a stare a
+                  casa sua fino a quando non riceverà un altro ordine da suo padre. Monsieur è
+                  d’accordo. Il vecchio conferma il matrimonio delle sue figlie, e così finisce</p>
+               <p rend="indent">la commedia.</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

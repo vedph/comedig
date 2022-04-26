@@ -1,0 +1,1132 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Gazzetta, ovvero le Notizie</title>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>Alice Pieroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisions of translation and enconding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La Gazzetta ovvero le notizie fu allestita dai comici italiani a San Pietroburgo
+                    nel 1733. La trama della commedia non presenta elementi di particolare
+                    originalità, ma non per questo manca d’interesse. Spicca in questo canovaccio il
+                    frenetico trasformismo di Arlecchino. Lo zanni si veste da cacciatore, poi
+                    compare in coppia con Brighella camuffato da zingaro, i due eseguono una serie
+                    di lazzi cantati e ballati, infine diventa un venditore di giornali che ripete
+                    per tutto lo spettacolo l’ossessivo ritornello “vendo notizie”. Si traveste
+                    inoltre da Capitano, da gigante e da levatrice, ma Arlecchino diventa anche un
+                    maiale che si fa carezzare da Smeraldina e le ruba il cibo. L’esercizio
+                    contorsionistico di Arlecchino che, dopo uno scambio replicato di bastonate con
+                    Pantalone, si rinchiudeva in un baule e si faceva inserire dentro a un lampione,
+                    da cui ancora una volta annuncia la vendita delle gazzette, permette di
+                    ipotizzare che il ruolo di Arlecchino fosse affidato a Ferdinando Colombo.
+                    Interessante è notare anche l’espansione della parte di Smeraldina, non soltanto
+                    una semplice servetta, ma un’astuta locandiera, complice degli intrighi di
+                    Brighella e Arlecchino.</p> 
+                    <p>Nel rendiconto amministrativo di Avolio sono indicate le
+                    spese per la commedia della Tartana, allestita il 18 maggio 1734, il titolo non
+                    trova riscontro negli scenari preservati. Dato che a Venezia la Tartana era una
+                    rivista a stampa e tra le “robbe” necessarie all’allestimento vengono menzionati
+                    i vestiti da gigante di Brighella e Arlecchino e la frutta degli alberi di
+                    melarancio per i vasi in cui si nascondeva Arlecchino, si può ipotizzare che si
+                    tratti della ripresa della commedia (Pieroni, 154)</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Газета, или Ведомости</title>
+                    <respStmt>
+                        <resp>Transcription by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (15b)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="12">12 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="gazznoti_ru_001" url="/img/gazznoti_ru_001.jpg"/>
+                <graphic xml:id="gazznoti_ru_002" url="/img/gazznoti_ru_002.jpg"/>
+                <graphic xml:id="gazznoti_ru_003" url="/img/gazznoti_ru_003.jpg"/>
+                <graphic xml:id="gazznoti_ru_004" url="/img/gazznoti_ru_004.jpg"/>
+                <graphic xml:id="gazznoti_ru_005" url="/img/gazznoti_ru_005.jpg"/>
+                <graphic xml:id="gazznoti_ru_006" url="/img/gazznoti_ru_006.jpg"/>
+                <graphic xml:id="gazznoti_ru_007" url="/img/gazznoti_ru_007.jpg"/>
+                <graphic xml:id="gazznoti_ru_008" url="/img/gazznoti_ru_008.jpg"/>
+                <graphic xml:id="gazznoti_ru_009" url="/img/gazznoti_ru_009.jpg"/>
+                <graphic xml:id="gazznoti_ru_010" url="/img/gazznoti_ru_010.jpg"/>
+                <graphic xml:id="gazznoti_ru_011" url="/img/gazznoti_ru_011.jpg"/>
+                <graphic xml:id="gazznoti_ru_012" url="/img/gazznoti_ru_012.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#gazznoti_ru_001" n="1"/>
+                <head type="main">ГАЗЕТА или ВѢДОМОСТИ</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1733">1733 года.</date></head>
+                <pb facs="#gazznoti_ru_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕИ КОМЕДIИ.</head>
+                    <p rend="indent">Панталонъ обещавшися отдать обѣихъ своихъ<lb/> дочереи, большую
+                        за Графа Ансельмa, а мень-<lb/> шую за одного Капïтана драгунского,
+                        отказываетъ<lb/> отъ нихъ Сïлвïю и Одоарду, и сам уѣхалъ въ де-<lb/> ревню.
+                        Любовники въ досаду себѣ взяли тотъ ево<lb/> отказъ; и понеже весьма любили
+                        они тѣхъ девицъ:<lb/> того ради убѣждаютъ они Брïгелла и Арлекïна,<lb/>
+                        чтобъ они служили имъ въ ихъ намѣренïи, чрезъ<lb/> которыхъ ходатаиство
+                        удалось имъ на конецъ обма-<lb/> нуть старика, и жениться на своихъ
+                        невѣстахъ.</p>
+                </div>
+                <castList>
+                    <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ</role>
+                        <roleDesc>отецъ Дïаннïнъ и Аурелïинъ.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana_ru">ДIАННА и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_ru">АУРЕЛIЯ</role>
+                        </castItem>
+                        <roleDesc>дочери ево.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ru">CIЛВIИ и<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ru">ОДОАРДЪ,</role>
+                        </castItem>
+                        <roleDesc>други.</roleDesc>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="brighella_ru">БРIГЕЛЛЪ и</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="arlecchino_ru">АРЛЕКIНЪ,</role>
+                        </castItem>
+                        <roleDesc>ихъ слуги.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                        <roleDesc>вольнодомка.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_ru">ДОКТОРЪ,</role>
+                        <roleDesc>другъ панталоновъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="un_contadino_ru">ОДИНЪ МУЖИКЪ.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="facchini">НОСИЛЬНИКИ.&gt;</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="sgherri">ЗАБIЯКИ.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="soldati">СОЛДАТЫ.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Дѣиствïе это въ Пармѣ, и въ ея Окольности.</p>
+                </set>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#gazznoti_ru_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ЛѢСЪ, СЪ ОДНИМЪ<lb/> ЗАМКОМЪ.</stage>
+                    <p rend="indent">Любовники входятъ говоря Брїгеллу, что они<lb/>подъ подлогомъ
+                        охоты прибыли видѣться съ своими<lb/>невѣстами, отъ которыхъ Панталонъ ихъ
+                        отецъ<lb/>имъ отказалъ, для того что онъ ихъ обѣщалъ<lb/>отдать, какъ онъ
+                        говоритъ, одному Графу Ансельму,<lb/>а другую одному Капïтану драгунскому.
+                        Брїгеллъ<lb/>обѣщается имъ помочь, и хочетъ такъ же употре-<lb/>бить
+                        Смералдïною вольнодомкою въ тои деревнѣ,<lb/>а ему весьма дружною, въ семъ
+                        дѣлѣ. Дожидаются<lb/>они съ нетерпѣливностïю Арлекïна, которои,<lb/>конецъ,
+                        сталъ быть слышимъ, и выходитъ съ при-<lb/>боромъ охотничьимъ; сказываетъ,
+                        что онъ убилъ.<lb/>Между тѣмъ Старикъ послышался. Тѣ отошли<lb/>къ сторонѣ,
+                        и присматриваютъ. Панталонъ вы-<lb/>ходитъ изъ замка, и заперъ ворота
+                        ключомъ. Брїгеллъ<lb/>и Арлекïнъ говорятъ любовникамъ, что они
+                        хотятъ<lb/>ему насмѣшку здѣлать, да и пошли. Любовники<lb/>будто прося
+                        прощенïя у Панталона, что они прï-<lb/>ѣхали за охотою на ево землю; и
+                        требуя у него квар-<lb/>тïры, стараются украсть у него ключь.
+                        Старикъ<lb/>имѣя о томъ подозрѣнïе, бережотся. Любовники<lb/>догадались.
+                        Старикъ послѣ комплïментовъ, кото-<lb/>рыми объявлялъ, что имъ вольно быть
+                        на охотѣ,<lb/>отказалъ имъ отъ квартïры. Любовники видя, что имъ <lb/>въ
+                        томъ не удалось, пошли. Старикъ остался<lb/>говоря о ихъ дураческомъ
+                        упрямствѣ, и о любви къ<lb/>его дочерямъ. На то Смералдïна выходитъ съ
+                        Ар-<lb/>лекïномъ и Брïгелломъ, нарядившись въ цыгановъ.<lb/>Стараются они
+                        поючи и танцуючи украсть у нево <fw type="sig" place="bottom">Я 2</fw>
+                        <fw type="catch" place="bottom">ключь.</fw>
+                        <pb facs="#gazznoti_ru_004" n="4"/>
+                        <fw type="pageNum">4</fw>ключь. Послѣ многихъ игрушекъ приличныхъ
+                        те-<lb/>атру, удалося имъ въ томъ; но вмѣсто чтобъ<lb/>украсть у нево ключь
+                        отъ воротъ замка, украли<lb/>они у нево отъ погреба, да и ушли. Старикъ
+                        уви-<lb/>дѣвши, что у него украденъ ключь, погнался за ними.<lb/>Любовники
+                        любопытно желая знать, что ихъ слуги<lb/>здѣлали, дожидаются ихъ съ
+                        неперпѣливностїю.<lb/>Пришли тѣ говоря, что они испонили свое<lb/>намѣренїе,
+                        и отдаютъ тотъ ключь Любовникамъ,<lb/>которые обрадовавшись о сеи корысти,
+                        хотятъ изъ<lb/>того себѣ пользу учинить. Стараются они отпе-<lb/>реть
+                        ворота; но немогутъ того учинить. По томъ<lb/>увидѣли, что обманулись, и
+                        начали быть о томъ<lb/>весьма печальны. На конецъ даютъ они одно
+                        писмо<lb/>Брїгеллу съ приказомъ, чтобъ, какъ возможно, оное<lb/>вручить, да
+                        и пошли сами. Брїгеллъ то писмо<lb/>отдалъ Арлекїну, которои обязался
+                        отдать<lb/>оное по подписѣ. Смералдїна выходитъ говоря,<lb/>что она хочетъ
+                        поговорить съ дочерьми панта-<lb/>лоновыми, дабы ихъ увѣдомить, что ихъ
+                        Лю-<lb/>бовники здѣсь пребываютъ в окольности, и чтобъ<lb/>онѣ тѣмъ
+                        утѣшались, понеже они будутъ ста-<lb/>раться вякими мѣрами, чтобъ ихъ
+                        вырвать изъ<lb/>рукъ отца ихъ. На то Панталонъ приходитъ;<lb/>спрашиваетъ у
+                        Смералдїны, что, ктобъ она была?<lb/>Смералдїна отвечаетъ, что она
+                        вольнодомка въ тои<lb/>деревнѣ. Панталонъ ея нашолъ по своему вкусу,<lb/>и
+                        сталъ съ нею играть. На то Арлекїнъ приходитъ<lb/>въ продавцѣ календареи.
+                        Смералдїна ево узнала.<lb/>Чинятъ они многїя игрушки приличныя
+                        театру.<lb/>Cмералдїна кажетъ себя, что будто она хочетъ<lb/>у него купить
+                        одинъ календарь. Арлекїнъ говоритъ,<lb/>что онъ имѣетъ и вѣдомости.
+                        Панталонъ спраши-<lb/>
+                        <fw type="catch" place="bottom">ваетъ</fw>
+                        <pb facs="#gazznoti_ru_005" n="5"/>
+                        <fw type="pageNum">5</fw>ваетъ, чтобъ писано было новаго. Арлекїнъ
+                        ему<lb/>отвѣтствуетъ, что есть много великихъ новинъ,<lb/>и сталъ кричать:
+                        ВѢДОМОСТИ ПРОДАТЬ, прибли-<lb/>жившись къ замку. Дочери панталоновы вышли
+                        къ<lb/>решоткѣ. Арлекїнъ ихъ видя, близко подходитъ<lb/>къ нимъ, дабы имъ
+                        отдать писмо. Панталонъ то<lb/>увидѣлъ, и сталъ бить Арлекїна, которои
+                        ухо-<lb/>дитъ кричя: ВѢДОМОСТИ ПРОДАТЬ. Панталонъ<lb/>велѣлъ поити дочерям
+                        своим, такъ же отпу-<lb/>стилъ и Смералдїну. Между тѣмъ Бригеллъ
+                        при-<lb/>ходитъ, и говоритъ Панталону, чтобъ он радо-<lb/>вался, по тому что
+                        Графъ Анселмъ скоро имѣетъ<lb/>прибыть, понеже люди его уже стали
+                        прїѣжжать,<lb/>и что два человѣка изъ тѣхъ ево людеи съ бауломъ<lb/>ищутъ
+                        онаго. Панталонъ ево проситъ, чтобъ онъ<lb/>ево имъ указалъ; а Брїгеллъ и
+                        выводитъ двухъ но-<lb/>сильниковъ, которые несутъ одинъ баулъ, а въ<lb/>немъ
+                        Арлекїна. Панталонъ заплатилъ тѣмъ людямъ,<lb/>и благодаритъ Брïгеллу,
+                        которои пошолъ. Панта-<lb/>лонъ говоритъ, что онъ хочетъ призвать
+                        своихъ<lb/>слугъ, дабы отнестъ тотъ баулъ в замокъ. Сталъ<lb/>онъ сожалѣть о
+                        Докторѣ, для того что он лю-<lb/>битъ Дїанну; а прибытїе Графа Ансельма
+                        отняло у<lb/>него всю надежду, чтобъ ея получить. Арлекїнъ<lb/>изъ баула
+                        своего кричитъ: ВѢДОМОСТИ ПРОДАТЬ.<lb/>Панталонъ думая, что то продавецъ
+                        календареи,<lb/>которои слоняется около его замка, грозитъ ево<lb/>бить.
+                        Арлекїнъ сталъ кричать опять: ВѢДОМОСТИ<lb/>ПРОДАТЬ. Панталонъ слыша, что
+                        тотъ голосъ<lb/>изъ баула, открываетъ онои. Арлекїнъ выскочилъ<lb/>отъ туду,
+                        и прогналъ палкою старика. На то<lb/>Брїгеллъ и Любовника приходят. Арлекїнъ
+                        ослѣ-<lb/>пившись съ гнѣву, и ихъ такъ жѣ сталъ бить;<lb/>по томъ сталъ у
+                        нихъ прощенïя просить, и ска-<lb/>
+                        <fw type="sig" place="bottom">Я 3</fw>
+                        <fw type="catch" place="bottom">зываетъ</fw>
+                        <pb facs="#gazznoti_ru_006" n="6"/>
+                        <fw type="pageNum">6</fw>зываетъ имъ, что онъ не могъ отдать писма.<lb/>Тѣ
+                        стали быть въ великои печали. Брїгеллъ ихъ<lb/>ободряетъ, и повелъ ихъ съ
+                        собою, выдумавъ уже<lb/>другои способъ. Панталонъ выходитъ говоря
+                        Док-<lb/>тору, что буде Графъ Ансельмъ скоро не прибу-<lb/>детъ, то Дïана
+                        будетъ за нимъ, толь наипаче,<lb/>что для нея многïя ему чинятся и
+                        непрестан-<lb/>ныя насмѣшки. На то Брїгеллъ приходитъ на-<lb/>рядяся въ
+                        Сержанта и говоря, что Графъ Анселмъ<lb/>послалъ ево съ ротою Солдатъ
+                        командуе-<lb/>мою чрезъ одного Капïтана, чтобъ стеречь замокъ.<lb/>Панталонъ
+                        о томъ обрадовался. Брїгеллъ велитъ;<lb/>а выходитъ Арлекїнъ Капïтаномъ при
+                        цѣлои ротѣ<lb/>Солдатъ, и съ барабаннымъ боемъ; изъ того произ-<lb/>ходитъ
+                        игрушка превесьма смѣшная. На конѣцъ<lb/>Арлекїнъ закричалъ: ВѢДОМОСТИ
+                        ПРОДАТЬ. Пан-<lb/>талонъ ему поднялъ притворную бороду, и съ кри-<lb/>комъ
+                        окончалося</p>
+                    <p rend="indent">ДѢИСТВIЕ ПЕРВОЕ.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">Брїгеллъ выходитъ говоря Любовникам, что<lb/>Арлекїнъ испортилъ
+                        все дѣло, и вымыслъ чрезъ<lb/>проклятое свое: ВѢДОМОСТИ ПРОДАТЬ.
+                        Однако<lb/>онъ Брїгеллъ слышалъ, что старикъ дожидается<lb/>своего человѣка
+                        изъ деревни, которои долженъ ему<lb/>принесть свинью, что имѣетъ ему
+                        Брїгеллу дать<lb/>способъ къ другои хитрости. Любовники ему гово-<lb/>рятъ,
+                        что вся ихъ надежда на нево, да и пошли.<lb/>Панталонъ выходитъ улещивая
+                        Смералдїну, и спра-<lb/>шиваетъ у нея, что пошто она прïѣхала въ городъ?<lb/>
+                        <fw type="catch" place="bottom">Она</fw>
+                        <pb facs="#gazznoti_ru_007" n="7"/>
+                        <fw type="pageNum">7</fw>Она ему сказываетъ, что купить запасу, и
+                        удив-<lb/>ляется, что онъ и самъ въ городѣ. Панталонъ го-<lb/>воритъ, что
+                        онъ переѣхалъ въ городъ для того,<lb/>дабы избыть всякïя насмѣшки. На то
+                        Брïгеллъ при-<lb/>ходиъ нарядяся въ мужика крестьянина, и гово-<lb/>ритъ
+                        Панталону, что онъ ему привелъ свинью.<lb/>Панталонъ спрашиваетъ, что есть
+                        ли она жирна,<lb/>то онъ тотчасъ ея убьетъ. Брїгеллъ пошелъ; да
+                        и<lb/>возвратился съ Арлекїном, которои былъ свиньею.<lb/>Смералдїна ея
+                        испужалась; по томъ стала ту гла-<lb/>дить. Арлекїнъ чинится смирнымъ; а
+                        послѣ все<lb/>съѣлъ, что у нея ни было въ кузовкѣ. Смералдїна<lb/>ушла со
+                        страху; изъ того произходятъ многїя<lb/>игрушки приличныя театру. Панталонъ
+                        радуется,<lb/>что имѣетъ свинью ручную; и чтобъ потѣшить<lb/>своихъ дочереи,
+                        велѣлъ имъ поити в замокъ, отпу-<lb/>стивъ Брїгелла, которои остался, и
+                        тѣшитъ Лю-<lb/>бовниковъ, которые на то пришли увѣдомившись,<lb/>что
+                        Арлекїнъ въ замкѣ; а потомъ и пошли.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ.</stage>
+                    <p rend="indent">Панталонъ со свѣчою говоритъ, что онъ на-<lb/>тѣшился свиньею,
+                        и что онъ приказалъ себѣ дать<lb/>ѣсть, да и хочетъ спать. Кинулся онъ на
+                        постелю<lb/>въ всемъ платье. Послѣ нѣкоторыхъ игрушекъ<lb/>своиственныхъ
+                        театру погасилъ онъ свѣчу, и за-<lb/>снулъ. Арлекїнъ выходитъ говоря, что
+                        онъ ищетъ<lb/>женщинъ, дабы имъ отдать писмо. Разбилъ онъ<lb/>нѣсколько
+                        горшковъ. Стукомъ Панталонъ пробу-<lb/>жается, сталъ искать, кто бы то
+                        стучалъ. Арле-<lb/>кïнъ спрятался. Старикъ опять заснулъ.
+                        Арлекїнъ<lb/>вскочилъ на постелю, что принудило старика кри-<lb/>чать, и
+                        послѣ нѣкоторыхъ игрушек приличных<lb/>театру, всѣ пошли.</p>
+                    <lb/>
+                    <fw type="catch" place="bottom">ТЕАТРЪ</fw>
+                    <pb facs="#gazznoti_ru_008" n="8"/>
+                    <fw type="pageNum">8</fw>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ГОРОДЪ.</stage>
+                    <p rend="indent">Брїгеллъ говоритъ Любовникамъ, что нельзя<lb/>тому статься,
+                        чтобъ Арлекїнъ не отперъ имъ<lb/>скоро воротъ отъ замка; и когда они
+                        того<lb/>ожидали, тогда стали слышать, что Панталонъ<lb/>кричитъ въ нутри; и
+                        видѣтъ, что Арлекïнъ бѣ-<lb/>житъ въ платье своемъ свинячемъ. Сïе видя
+                        всѣ<lb/>побѣжали. Старикъ выходитъ, и говоритъ, что<lb/>уже онъ усталъ
+                        терпя. На то Докторъ приходитъ,<lb/>которому Панталонъ розсказываетъ все,
+                        что ему<lb/>случилося. Докторъ о немъ сожалѣетъ, и совѣту-<lb/>етъ ему опять
+                        убраться въ деревню, гдѣ они<lb/>могутъ придумать, что имъ должно будетъ
+                        чи-<lb/>нить. Брїгеллъ въ деревенскомъ мужикѣ выходитъ<lb/>гоняся за
+                        Смералдïною, которая кричитъ, ПОМО-<lb/>ГИТЕ. Старики стали за нея. Брїгеллъ
+                        говоритъ,<lb/>что то ево сестра, и что онъ хочетъ ея убить,<lb/>для того,
+                        что она оставила свои вольнои домъ,<lb/>дабы волочиться за нѣкоторымъ
+                        Панталономъ,<lb/>въ котораго она влюбилась; и что онъ очюнь печа-<lb/>ленъ,
+                        что онъ не знаетъ того человѣка, понеже<lb/>оно хочетъ ево убить, дабы
+                        сохранить честь своея<lb/>сестры. Панталонъ дрожжитъ со страху; но
+                        бод-<lb/>риться тѣмъ, что его тотъ мужикъ не знаетъ. На<lb/>конец Брïгеллъ
+                        ему говоритъ, что понеже видитъ<lb/>онъ, что онъ честнои человѣкъ; того ради
+                        вру-<lb/>чаетъ онъ ему свою сестру до возвращенïя съ яр-<lb/>монки, куда
+                        долженъ поѣхать для покупки ржи.<lb/>Панталонъ говоритъ, что онъ имѣетъ
+                        двухъ до-<lb/>череи, съ которыми вмѣстѣ онъ еи велитъ жить,<lb/>въ замкѣ, гд
+                        нѣчего будетъ бояться. Брïгеллъ<lb/>ему за то благодарствуетъ, да и пошолъ.
+                        Старики<lb/>пошли съ Смералдïною, которая показываетъ себя<lb/>честною.</p>
+                    <fw type="catch" place="bottom">Брïгеллъ</fw>
+                    <pb facs="#gazznoti_ru_009" n="9"/>
+                    <fw type="pageNum">9</fw>
+                    <p rend="indent">Брïгеллъ возвращается говоря Любовникамъ,<lb/>что онъ до того
+                        довелъ дѣло, что Смералдïна бу-<lb/>детъ жить съ ихъ невѣстами; и что
+                        Панталонъ<lb/>вознамѣрился возратиться въ деревню. Любовники<lb/>и Арлекïнъ,
+                        чтобъ занимъ тудажъ ѣхать, пошли.</p>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ ЛѢСЪ.</stage>
+                    <p rend="indent">Старики радуются, что они прïѣхали въ деревню.<lb/>Панталонъ
+                        велѣлъ итьти своимъ дочерямъ со Сме-<lb/>ралдïною в замокъ, да и заперъ ихъ
+                        тамъ. Докторъ<lb/>хвалитъ мѣстоположенïе замка. Между тѣмъ<lb/>одинъ
+                        деревеснскои мужикъ приходитъ, которои<lb/>говоритъ Панталону, что онъ ему
+                        принесъ два<lb/>великїя сосуда помаранцовъ. Панталонъ ему
+                        велѣлъ<lb/>принесть къ себѣ; да и видятъ людеи, которые<lb/>несутъ Арлекïна
+                        и Брïгелла въ тѣхъ сосудахъ; изъ<lb/>того произходитъ игрушка весьма
+                        смѣшная. На<lb/>конецъ Арлекïнъ кричя: ВѢДОМОСТИ ПРОДАТЬ,<lb/>изъявляетъ
+                        плутовство, и съ шумомъ кончится</p>
+                    <p rend="indent">ДѢИСТВIЕ ВТОРОЕ.</p>
+                    <fw type="catch" place="bottom">ДѢИ-</fw>
+                </div>
+                <pb facs="#gazznoti_ru_010" n="10"/>
+                <fw type="pageNum">10</fw>
+                <div type="act" n="3">
+                    <head>ДѢИСТВIЕ ТРЕТIЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ НОЧЬ.</stage>
+                    <p rend="indent">Брïгеллъ со свѣчою выходитъ говоря Арлекїну,<lb/> что онъ его
+                        хочетъ посадить въ сеи фонарь, кото-<lb/> рои освѣчаетъ улицу, отъ куду
+                        можетъ онъ уви-<lb/> дѣть дочереи паналоновыхъ, когда онѣ выдутъ<lb/>
+                        прогуливаться, и сказать имъ, чтобъ онѣ притво-<lb/> рилися немощными.
+                        Арлекïнъ обѣщается послуш-<lb/> нымъ быть. Брïгеллъ ево сажаетъ въ фонарь; а
+                        самъ<lb/> пошолъ. Старики приходятъ съ писмомъ, чрезъ<lb/> которое, говоритъ
+                        Панталонъ, что Капïтанъ, ево<lb/> будущеи зять, объявляетъ ему, что онъ
+                        прибу-<lb/> детъ весьма скоро, чтобъ жениться на Аурелïѣ.<lb/> Арлекïнъ
+                        внутри фонаря чинитъ многїя игрушки<lb/> приличныя театру; потомъ сталъ
+                        кричать: ВѢДО-<lb/> МОСТИ ПРОДАТЬ. Старикъ увидѣвъ одного чело-<lb/> вѣка въ
+                        фонарѣ, спрашиваетъ у него, ктобъ онъ<lb/> былъ, Арлекïнъ ему сказываетъ,
+                        что онъ другъ<lb/> фонарниковъ. Старики, для собранїя людеи пошли.<lb/>
+                        Арлекїнъ кличетъ женщинъ, которыя приходятъ<lb/> къ решоткѣ. Арлекïнъ имъ
+                        говоритъ, чтобъ онѣ здѣ-<lb/> лалися больными; а Смералдïнѣ, чтобъ она
+                        присовѣ-<lb/> товала Панталону сыскать двухъ бабушекъ пови-<lb/> тушекъ, и
+                        послать къ Аптекарю. Онѣ обѣщаются то<lb/> учинить, да и пошли. Старики
+                        возвращются съ<lb/> людьми; сняли они фонарь; Арлекïнъ защищаетъ себя<lb/>
+                        свѣчою, и убѣгаетъ, за которымъ погналися люди<lb/> тѣхъ стариковъ, которые
+                        осталися. Одинъ чело-<lb/> вѣкъ нарядившись въ Турка приходитъ, и
+                        говоритъ<lb/> Панталону, что онъ имѣетъ трехъ Гïгантовъ про-<lb/> дать
+                        дешевою ценою, потому что онъ имѣетъ<lb/>
+                        <fw>нужду</fw>
+                        <pb facs="#gazznoti_ru_011" n="11"/>
+                        <fw type="pageNum">11</fw> нужду въ денгахъ. Согласилися они въ цѣнѣ,
+                        тотъ<lb/> человѣкъ пошолъ, да и возвраился съ любовниками,<lb/> Брïгеллом, и
+                        Арлекïномъ, которые были Гïганта-<lb/> ми. Послѣ многихъ шутокъ надлежащихъ
+                        к те-<lb/> атру, Старики говорятъ, что будучи они толь<lb/> велики, того
+                        ради не можно имъ проити въ ворота.<lb/> Арлекїнъ говоритъ, что онъ тому
+                        наидетъ способъ,<lb/> да и бросилъ на землю Брïгелла. Старики увидѣвъ,<lb/>
+                        что то насмѣшка, принудили всехъ бѣжать; въ то<lb/> время Смералдïна изъ
+                        зарешотки съ великою гово-<lb/> ритъ боязнïю, что Аурелїя и Дïанна лежатъ
+                        при<lb/> смерти. Панталонъ въ скорости отворяетъ ворота<lb/> у замка.
+                        Смералдïна говоритъ, что хочетъ итьти<lb/> призвать двухъ бабушекъ
+                        повитушекъ, да и пошла.<lb/> Старики опечалившися бѣгутъ въ замокъ.
+                        Любовни-<lb/> ки, которые то все видѣли, радуются, что дѣло<lb/> идетъ по
+                        ихъ желанїю; а услышавъ стариковъ, от-<lb/> ходятъ прочь. Тѣ вышли изъ замка
+                        говоря, что<lb/> они желаютъ, дабы бабушки повитушки пришли<lb/> скоряе. На
+                        то Смералдïна приходитъ съ Арлекïномъ<lb/> и Брïгеллом нарядившимися въ
+                        бабушки повитушки.<lb/> А сказавши свои имена старикамъ, по приказу
+                        Пан-<lb/> талонову входятъ в замокъ, за ними такъ же и<lb/> Смералдïна.
+                        Старики говорятъ въ надѣянїи себя<lb/> быть, что имъ легче буде. Любовники
+                        все то<lb/> примѣчаютъ. Между темъ Смералдïна съ вели-<lb/> кою выходитъ
+                        радостїю говоря Панталону, что<lb/> ево дочерямъ легче стало, и выпустила
+                        изъ замка<lb/> Дïанну и Аурелїю въ платье бабушекъ повитушекъ.<lb/>
+                        Любовники по данному знаку отъ Смералдïны обняли<lb/> своихъ невѣстъ, и
+                        пошли; по томъ возвращаются<lb/> каждои ведя свою покрыту долгимъ покровомъ
+                        го-<lb/> воря, что видя они, что Панталонѣ ни малои не-<lb/>
+                        <fw type="catch" place="bottom">имѣлъ</fw>
+                        <pb facs="#gazznoti_ru_012" n="12"/>
+                        <fw type="pageNum">12</fw> имѣлъ склонности отдать своихъ дочереи за
+                        нихъ;<lb/> того ради, чтобъ его оставить въ покоѣ, они на-<lb/> мѣрилися
+                        жениться на сихъ двухъ иностраныхъ<lb/> дамахъ. Старики стали имъ
+                        привѣствовать все<lb/> благополучное. Любовники просятъ ихъ, чтобъ они<lb/>
+                        пожаловали были свидетелями сочетанїя ихъ. Тѣ<lb/> имъ отвѣтствуютъ, что отъ
+                        всего сердца. Любов-<lb/> ики женятся на своихъ невѣстахъ. Арлекïнъ съ<lb/>
+                        Брïгелломъ съ верху стѣнъ того замка видя, что<lb/> все здѣлалось, сталъ
+                        кричать: ВѢДОМОСТИ ПРОДА-<lb/> ДАТЬ. Старики осердившися стали
+                        хоробриться.<lb/> Но любовники имъ противятся. Панталонъ хочетъ <lb/> знать,
+                        гдѣбъ были ево дочери. Любовники просятъ<lb/> ихъ, чтобъ онѣ разкрылись.
+                        Панталонъ объявляетъ,<lb/> что онъ побѣжденъ; утверждаетъ сïе
+                        сочетанïе;<lb/> прощаетъ Брïгелла и Арлекïна. Тѣмъ и кончится</p>
+                    <p rend="indent">КОМЕДIЯ.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Die Zeitung</title>
+                    <respStmt>
+                        <resp>Transcription by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Encoding by</resp>
+                        <name>Alice Pieroni</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Revisions of enconding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (15a)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="8">8 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="gazznoti_ge_001" url="/img/gazznoti_ge_001.jpg"/>
+                <graphic xml:id="gazznoti_ge_002" url="/img/gazznoti_ge_002.jpg"/>
+                <graphic xml:id="gazznoti_ge_003" url="/img/gazznoti_ge_003.jpg"/>
+                <graphic xml:id="gazznoti_ge_004" url="/img/gazznoti_ge_004.jpg"/>
+                <graphic xml:id="gazznoti_ge_005" url="/img/gazznoti_ge_005.jpg"/>
+                <graphic xml:id="gazznoti_ge_006" url="/img/gazznoti_ge_006.jpg"/>
+                <graphic xml:id="gazznoti_ge_007" url="/img/gazznoti_ge_007.jpg"/>
+                <graphic xml:id="gazznoti_ge_008" url="/img/gazznoti_ge_008.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#gazznoti_ge_001" n="1"/>
+                <head type="main">Die Zeitung</head>
+                <head type="sub">welche in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> Kayſerlichen
+                    Hofe<lb/> zu St. Petersburg<lb/> aufgefuͤhret worden.<lb/>
+                    <date when="1734">1734.</date>
+                </head>
+                <pb facs="#gazznoti_ge_002" n="2"/>
+                <div type="preface">
+                    <head>Jnhalt.</head>
+                    <p rend="indent">Pantalon verſpricht ſeine beyde Toͤchter, die aͤltere an den
+                        Grafen Anſelmo und die<lb/> juͤngere an einen Dragoner Capitaine; Er
+                        verſsagt ſie Silvio und Odoardo<lb/> und begiebt ſich auf das Land. Die
+                        Liebhaber erzuͤrnen ſich hieruͤber, ſtifften derohalben<lb/> den Brighella
+                        und Arlequin an, daß ſie ihnen bey ihren Vorhaben gute Dienſte<lb/> thun,
+                        den Alten betruͤgen und ihre Heyrath zu ſtande bringen.</p>
+                </div>
+                <castList>
+                    <head>Perſonen.</head>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="pantalone_ge">Pantalon</role>
+                            <roleDesc>Vater der</roleDesc>
+                        </castItem>
+                        <castGroup>
+                            <castItem>
+                                <role xml:id="diana_ge">Diana und</role>
+                            </castItem>
+                            <castItem>
+                                <role xml:id="aureia_ge">Aurelia.</role>
+                            </castItem>
+                        </castGroup>
+                        <castGroup>
+                            <castItem>
+                                <role xml:id="silvio_ge">Silvio und</role>
+                            </castItem>
+                            <castItem>
+                                <role xml:id="odoardo_ge">Odoardo</role>
+                                <roleDesc>zwey gute Freunde.</roleDesc>
+                            </castItem>
+                        </castGroup>
+                        <castGroup>
+                            <castItem>
+                                <role xml:id="brighella_ge">Brighella und</role>
+                            </castItem>
+                            <castItem>
+                                <role xml:id="arlecchino_ge">Arlequin</role>
+                                <roleDesc>ihre Diener.</roleDesc>
+                            </castItem>
+                        </castGroup>
+                        <castItem>
+                            <role xml:id="smeraldina_ge">Smeraldina</role>
+                            <roleDesc>eine Gaſt-Wirthin.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="dottore_ge">Der Doctor</role>
+                        <roleDesc>Freund des Pantalons.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Der Schau-Platz iſt in Parma und<lb/> auf dem Lande.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#gazznoti_ge_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>Die erſte Handlung.</head>
+                    <stage>Der Schau-Platz ſtellt einen Wald mit einem Schloße vor.</stage>
+                    <p rend="indent">Die Liebhaber treten auf und ſagen zu dem Brighella, ſie
+                        waͤren,<lb/> unter dem Vorwand der Jagd, hierher gekommen, um Gele-<lb/>
+                        genheit zu ſuchen, daß ſie ihre Geliebten zuſehen bekaͤmen; Pantalon<lb/>
+                        ihr Vater, habe ſie ihnen abgeſchlagen; weil er ſie ſchon an den<lb/> Grafen
+                        Anſelmo und den Dragoner-Capitaine verſprochen.<lb/> Brighella antwortet, er
+                        wolle ſchon Rath ſchaffen, u. ſich zu dieſem<lb/> Ende der Smeraldina, einer
+                        Gaſt-Wirthin in dieſem Dorffe, die ſei-<lb/> ne gute Freundin waͤre,
+                        bedienen. Jndeſſen koͤmmt der Arlequin<lb/> mit ſeinem Jagd-Geraͤthe und
+                        erzehlet, was er indeſſen geſchoſſen.<lb/> Weil ſich der Pantalon hoͤren
+                        laßt, treten ſie bey Seite; Jener aber<lb/> gehet aus dem Schloſſe und macht
+                        die Thuͤr mit einem Schluͤſſel zu.<lb/> Brighella und Arlequin ſagen zu den
+                        Liebhabern, daß ſie ihm einen<lb/> Poſſen ſpielen wollten u. gehen fort. Die
+                        Liebhaber bitten den Al-<lb/> ten um Verzeihung, daß ſie ſich die Freyheit
+                        genommen, auf ſeinem<lb/> Land-Guthe zu jagen, verlangen, ſie zu beherbergen
+                        und ſuchen ihm<lb/> den Schluͤſſel weg zu practiciren. Der Alte, der es
+                        merckt, nimmt<lb/> ſich in acht und ſchlaͤgt ihnen ab, ſie bey ſich zu
+                        bewirthen. Wie die<lb/> Liebhaber ſehen, daß ſie nichts ausrichten koͤnnen,
+                        gehen fie weg. Der<lb/> Alte bleibt u. ſpricht von ihrer laͤcherlichen
+                        Zumuthung u. ihrer Liebe<lb/> zu ſeinen Toͤchtern. Hierauf koͤmmt die
+                        Smeraldina mit dem Arle-<lb/> quin u. Brighella, die ſich fuͤr Ziegeuner
+                        verkleidet u. ſuchen ihm un-<lb/> ter Singen und Tantzen den Schluͤſſel
+                        wegzuſtehlen. Nach einigen<lb/> Poſſen gelingt ihnen der Streich, ſie
+                        ergreiffen aber, an ſtatt den<lb/> Schluͤſſel zur Schloß-Thuͤre, den
+                        Keller-Schluͤſſel u. lauffen fort.<lb/> Der Alte merckt den Diebſtahl u.
+                        verfolget ſie. Die Liebhaber kom-<lb/> men zuruͤck u. erwarten mit Ungedult
+                        auf die Nachricht, was ihre<lb/> Bedienten fuͤr ſie ausgerichtet. Jndeſſen
+                        gelangen dieſelben an, ſa-<lb/> gen, daß ihnen der Streich gelungen u. geben
+                        den Liebhabern den<lb/> Schluͤſſel. Dieſelben freuen ſich hieruͤber u.
+                        wollen aufſchlieſſen. Wie<lb/> ſie aber den Jrrthum mercken, aͤrgern ſie
+                        ſich u. geben dem Brighella<lb/> einen Brief mit dem Befehl, ſein
+                        moͤglichſtes zu thun, um den ſelben<lb/> ihren Geliebten einzuhaͤndigen. Sie
+                        gehen ab. Brighella giebt den<lb/> Brief dem Arlequin, der ſich verbindet,
+                        ihn ſicher u. gewiß zu beſtel- <fw type="sig" place="bottom">* 2</fw><lb/>
+                        <fw type="catch" place="bottom">len.</fw>
+                        <pb facs="#gazznoti_ge_004" n="4"/>
+                        <fw type="pageNum">4</fw> len. Smeraldina koͤmmt dazu u. ſagt, ſie wollte
+                        mit Pantalons Toͤch-<lb/> tern ſprechen, u. ihnen Nachricht geben, daß ihre
+                        Liebhaber, die in<lb/> der Naͤhe waͤren, ſie aus den Haͤnden ihres Vaters
+                        erloͤſen wuͤr-<lb/> den. Pantalon trit auf u. fragt die Smeraldina, wer ſie
+                        ſey? Sme-<lb/> raldina antwortet, ſie ſey die Gaſt-Wirthin im Dorffe, u.
+                        weil ſie Pan-<lb/> talon nach ſeinem Sinn ſindet, ſchertzet er mit ihr.
+                        Jndeſſen koͤmmt<lb/> der Arlequin, als ein Calender-Verkauffer. Smeraldina
+                        kennet ihn<lb/> und will, nach allerley Poſſen, einen Calender kauffen.
+                        Arlequin<lb/> ſagt, er habe auch neue Zeitungen u. Pantalon fragt ihn, was
+                        gutes<lb/> neues paſſire. Er antwortet, er habe etwas wichtiges, ſingt die
+                        Zei-<lb/> tung ab und nahet ſich dem Schloſſe. Pantalons Toͤchter
+                        kommen<lb/> an das Gitter u. wie ſie der Arlequin gewahr wird, will er
+                        ihnen<lb/> den Brief zuſtecken; Der Alte aber merckt es u. ſchlaͤgt ihn.
+                        Arle-<lb/> quin laͤufft fort u. ſchreyt: Neue Zeitung! Neue Zeitung! u
+                        Sme-<lb/> raldina gehet auch weg. Brighella koͤmmt und ſagt zu dem
+                        Pantalon,<lb/> daß der Graf Anselmo bald hier ſeyn werde; Er habe ſeine
+                        Leute<lb/> voraus geſchickt zwey von ihnen, die einen Kuffer truͤgen,
+                        ſucheten<lb/> ſein Hauß. Pantalon bittet ihn, ſie herzuweiſen und Brighella
+                        laͤſſet<lb/> die Trager einen Kuffer herein bringen, in welchem der Arlequin
+                        <lb/> ſtecket. Pantalon bezahlet die Leute u. bedancket ſich bey dem
+                        Brig-<lb/> hella, der fortgehet. Pantalon ſagt, er wolle ſeine Diener
+                        ruffen,<lb/> die den Kuffer in das Schloß tragen ſollten; Er beklagt
+                        zugleich den<lb/> Doctor, der ſeine Tochter Diana liebe u. durch die
+                        Ankunfft des Gra-<lb/> fen Anlelmo alle Hoffnung verliehren wuͤrde, ſie zu
+                        beſitzen. Jndes-<lb/> ſen ſchreyet Arlequin in dem Kuffer: Neue Zeitung!
+                        Neue Zeitung!<lb/> Pantalon glaubt, daß es der Calender-Verkauffer ſey, der
+                        um ſein<lb/> Schloß herum gienge, u. drohet ihm mit Schlagen. Arlequin
+                        ſchreyt<lb/> abermahls: Neue Zeitung! Neue Zeitung! Pantalon merckt, daß
+                        die<lb/> Stimme aus dem Kuffer koͤmmt und oͤffnet ihn. Arlequin ſpringt<lb/>
+                        heraus u. jagt den Alten mit Schlagen weg. Brighella u. die Lieb-<lb/> haber
+                        kommen zuruͤck. Arlequin macht ſeine Entſchuldigung und<lb/> ſagt, er habe
+                        den Brief nicht anbringen koͤnnen. Jene wiſſen fuͤr<lb/> groſer Unmuth
+                        nicht, was ſie anfangen ſollen; Brighella aber ſpricht<lb/> ihnen einen Muth
+                        ein u. ſagt, ſie ſollten nur mit ihm kommen, er<lb/> habe ſchon eine andere
+                        Erfindung auf dem Tapet. Pantalon trit auf<lb/>
+                        <fw type="catch" place="bottom">u.</fw>
+                        <pb facs="#gazznoti_ge_005" n="5"/>
+                        <fw type="pageNum">5</fw>u. ſagt zu dem Doctor, woferne der Graf Anſelmo
+                        nicht bald kom-<lb/> me, ſo ſollte die Diana ſeine ſeyn; indem er die
+                        Streiche, ſo man<lb/> ihm unaufhoͤrlich ſpielete, nicht laͤnger aushalten
+                        koͤnnte; Hierzu koͤmmt<lb/> Brighella, als ein Unter-Officier, u. ſagt, der
+                        Graf Anſelmo habe ihn<lb/> mit einer Compagnie Soldaten hergeſchickt, um das
+                        Schloß zu be-<lb/> wachen. Pantalon iſt erfreut u. befiehlt dem Brighella,
+                        ſie herkom-<lb/> men zulaſſen. Arlequin, als ein Capitaine, ziehet mit
+                        ſeiner Compa-<lb/> gnie Soldaten, unter klingendem Spiele, auf. Hierauf
+                        ſolgen aller-<lb/> ley Poſſen. Zuletzt ſchreyet Arlequin: Neue Zeitung! Neue
+                        Zeitung!<lb/> Pantalon reißt ihm den falſchen Barth u. mit dieſem Lerm
+                        endi-<lb/> get ſich die erſte Handlung.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Die andere Handlung.</head>
+                    <stage>Der Schau-Platz ſtellet eine Stadt vor.</stage>
+                    <p rend="indent">Brighella trit auſ u. ſagt zu den Liebhabern, daß Arlequin
+                        alle<lb/> Anſchlaͤge, durch ſeine neuen Zeitungen, verderbt haͤtte. Allein
+                        er ha-<lb/> be gehoͤret, daß Pantalon einen Kerl vom Lande erwarte, der ihm
+                        ein<lb/> Schwein bringen ſollte, er wollte derohalben dieſes zur
+                        Gelegenheit<lb/> nehmen, eine neue Betruͤgerey zu machen. Die Liebhaber
+                        ſagen, daß ſie<lb/> alle ihre Hoffnung auf ihn ſetzeten und gehen fort.
+                        Pantalon trit auf,<lb/> macht der Smeradina allerley Careſſen u. fragt ſie,
+                        was ſie in der<lb/> Stadt mache? Sie antwortet, ſie habe etwas einzukaufen
+                        und ver-<lb/> wundere ſich gleichfals, ihn hier zu ſehen. Pantalon ſagt, er
+                        ſey in<lb/> die Stadt gekommen, um vor alle Anfalle in Sicherheit zu
+                        seyn.<lb/> Hierauf koͤmmt der Brighella, als ein Bauer gekleidet, und ſagt
+                        zu<lb/> Pantalon, er habe das Schwein gebracht. Pantalon antwortet,
+                        wenn<lb/> es fett waͤre, wollte er es ſchlachten laſſen. Brighella bringt
+                        den<lb/> Arlequin als ein Schwein, herein. Smeraldina fuͤrchtet ſich
+                        anfangs<lb/> dafuͤr, nachmahls aber ſtreichelt ſie daſſelbe. Arlequin guſcht
+                        und<lb/> frißt was ſie im Korb hat. Smeraldina laͤufft weg. Pantalon
+                        aber<lb/> freuet ſich, daß er ein Schwein hat, das ſich ſo zuthut, und,
+                        ſeinen<lb/> Toͤchtern ein Ergoͤtzen zu machen, treibet er das Schwein in
+                        das<lb/> Hauß u. fertiget den Brighella ab. Dieſer bleibt aber und
+                        erzehlet<lb/> den ankommenden Liebhabern, dar Arlequin in das Hauß ſey.
+                        Sie<lb/> gehen ab.</p>
+                    <lb/>
+                    <fw type="sig" place="bottom">* 3</fw>
+                    <fw type="catch" place="bottom">Der</fw>
+                    <pb facs="#gazznoti_ge_006" n="6"/>
+                    <fw type="pageNum">6</fw>
+                    <p rend="indent">Der Schau-Platz verwandelt ſich in ein Zimmer.</p>
+                    <p rend="indent">Pantalon, mit einem Wachs-Lichte in der Hand, ſagt, das<lb/>
+                        Schwein mache ihm viel Vergnuͤgen, er habe befohlen ihm zu freſ-<lb/> ſen zu
+                        geben u. wolle ſich nunmehro ſchlaffen legen. Er legt ſich auf<lb/> ein
+                        Bette, u. loͤſcht das Licht aus, um zu ſchlaffen. Arlequin trit herein<lb/>
+                        u. ſagt, er ſuche das Frauenzimmer um den Brief ſeiner Herren<lb/>
+                        anzubringen. Pantalon wacht auf u. ſucht wer da iſt. Arlequin legt<lb/> ſich
+                        auf das Bette u. wie Pantalon nach Huͤlffe rufft, laͤufft er fort.</p>
+                    <stage>Der Schau-Platz verwandelt ſich in eine Stad.</stage>
+                    <p rend="indent">Brighella ſagt zu den Liebhabern, er koͤnne weiter nichts
+                        thun,<lb/> woferne ihm Arlequin nicht bald die Thuͤre aufmache. Jndeßen<lb/>
+                        ſchreyet der Pantalon im Hauſe. Arlequin nimmt die Flucht und die<lb/>
+                        ubrigen begeben ſich auf die Seite. Der Alte koͤmmt heraus und ſagt,<lb/> er
+                        koͤnne es nicht laͤnger ausſtehen. Hierauf erſcheinet der Doctor,<lb/> dem
+                        der Pantalon erzehlet, was ihm begegnet. Der Doctor beklaget<lb/> ihn und
+                        giebt ihm den Rath, er ſolle wieder auf das Land ziehen,<lb/> allwo ſie
+                        beſſer ůberlegen koͤnnten, was bey der Sache zu thun ſey.<lb/> Brighella,
+                        als ein Bauer, verfolget die Smeraldina, die um Huͤlffe<lb/> ſchreyet. Die
+                        Alten nehmen ihre Parthie. Brighella ſagt, es ſey<lb/> ſeine Schweſter, und
+                        er wolle ſie umbringen, weil ſie ihren Gaſt-<lb/> Hof verlaſſen und einen
+                        gewiſſen Manne, mit Nahmen Pantalon, nach-<lb/> gelauffen waͤre, in den ſie
+                        ſich verliebt; Er kenne den Kerl nicht<lb/> und wolle ſie eher umbringen,
+                        als ihre Ehre verletzen laſſen. Pan-<lb/> talon zittert fuͤr Furcht,
+                        bekoͤmmt aber wieder Muth, weil er glaubt,<lb/> daß ihn der Bauer nicht
+                        kenne. Zuletzt ſagt der Brighella er glau-<lb/> be, daß Pantalon ein
+                        ehrlicher Mann ſey, und er wolle ihm ſeine<lb/> Schweſter ſo lange in
+                        Verwahrung geben, biß er wieder von dem<lb/> Marckte zuruͤck kaͤme, allwo er
+                        Getreide kauffen wolle. Pantalon<lb/> antwortet, er habe zwey Toͤchter, und
+                        er wolle ſie mit ihnen zu-<lb/> gleich in das Hauf ſperren, wo ſie nichts zu
+                        befuͤrchten haͤtte. Brig-<lb/> hella bedancket ſich und gehet fort. Die
+                        Alten gehen mit der Sme-<lb/> raldina gleichfals hinein. Brighella koͤmmt
+                        zuruͤck und ſagt zu den<lb/> Liehhabern, er habe die Smeraldina in das Hauß
+                        gebracht und daß<lb/> ſich Pantalon entſchloſſen, wieder auf das Land
+                        zugehen. Die Liebha-<lb/> ber und Arlequin gehen weg, um ihm nach
+                        zufolgen.</p>
+                    <lb/>
+                    <fw type="catch" place="bottom">Der</fw>
+                    <pb facs="#gazznoti_ge_007" n="7"/>
+                    <fw type="pageNum">7</fw>
+                    <stage>Der Schau-Platz ſtellet ein Wald vor.</stage>
+                    <p rend="indent">Die Alten ſind erfreuet, daß ſie gluͤcklich angekommen.
+                        Panta-<lb/> lon laͤßt ſeine Toͤchter und die Smeraldina in das Schloß gehen
+                        und<lb/> ſchlieſſet zu. Der Doctor lobt die Lage des Schloſſes. Hierauf<lb/>
+                        koͤmmt ein Bauer und ſagt zu dem Pantalon, er bringe ihm zwey<lb/> groſſe
+                        Vaſen mit Orangen-Baͤumen. Der Bauer laͤßt die Vaſen<lb/> hereinbringen, in
+                        welchen der Arlequin und Brighella ſtecken. Es<lb/> folgen allerley Poſſen
+                        u. der Arlequin ſchreyet abermahls: neue Zei-<lb/> tung! Dieſes entdecket
+                        den Betrug und beſchlieſſet die andere Hand-<lb/> lung.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Die dritte Handlung.</head>
+                    <stage>Auf dem Schau-Platz iſt Nacht.</stage>
+                    <p rend="indent">Brighella koͤmmt mit einer Laterne in der Hand und ſagt zu
+                        dem<lb/> Arlequin, er wolle ihn in dieſe Laterne ſtecken, welche die
+                        Straſe<lb/> hell machen ſollte, wenn Pantalons Toͤchter heraus kaͤmen,
+                        friſche<lb/> Lufft zu ſchoͤpffen, und da moͤchte er ihnen ſagen, ſie ſolten
+                        ſich kranck<lb/> ſtellen. Arlequin williget darein. Brighella ſteckt ihn in
+                        die Laterne<lb/> und gehet fort. Die Alten treten auf, haben einen Brief und
+                        Pan-<lb/> talon ſagt, daß ihm ſein Schwager der Capitaine berichte, wie
+                        er<lb/> bald kommen werde, die Aurelia zu heyrathen. Arlequin macht al-<lb/>
+                        lerley Poſſen in der Laterne und ſchreyt abermahls: neue Zeitung!<lb/> Die
+                        Alten mercken, daß ein Menſch in der Laterne ſtecken muſſe und<lb/> fragen,
+                        wer er ſey? Arlequin antwortet, er ſey die Seele des La-<lb/>
+                        ternen-Traͤgers. Die Alten gehen weg, um Leute zu hohlen, Arle-<lb/> quin
+                        rufft das Frauen-Zimmer, welches insgeſammt an das Fenſter-<lb/> Gitter
+                        koͤmmt. Arlequin ſagt zu Pantalons Toͤchtern, ſie moͤchten ſich<lb/> kranck
+                        ſtellen und Smeraldina dem Pantalon den Rath geben, daß<lb/> er zwey
+                        Weh-Mutter kommen ließe und nach der Apothecker ſchicke.<lb/> Sie
+                        verſprechen ſolches zuthun und gehen von dem Fenſter weg.<lb/> Die Alten
+                        kommen mit Leuten zuruͤck, die in die Laterne ſteigen<lb/> wollen. Arlequin
+                        vertheidiget ſich mit dem Lichte und laufft fort.<lb/> Die Bedienten
+                        verfolgen ihn, die Alten aber bleiben. Hierauf<lb/> koͤmmt ein Kerl, der als
+                        ein Tuͤrcke angekleidet iſt, und ſagt zu dem<lb/> Pantalon er habe drey
+                        Rieſen, und weil er Geld brauche, wolle er<lb/> ſie mit guter Bedingung
+                        verkauffen. Sie werden eines um den<lb/> Preiß. Der Tuͤrcke gehet hinaus und
+                        koͤmmt mit den Liebhabern,<lb/> dem Brighella und dem Arlequin wieder
+                        herein, ſo zuſammen die<lb/>
+                        <fw type="catch" place="bottom">drey</fw>
+                        <pb facs="#gazznoti_ge_008" n="8"/>
+                        <fw type="pageNum">8</fw>drey Rieſen vorſtellen. Nach einigen Poſſen, ſagen
+                        die Alten, ſie<lb/> waͤren ſo groß, daff ſie nicht zur Thuͤre hinein gehen
+                        wuͤrden. Arle-<lb/> quin antwortet, er wiſſe ſchon Rath hiervor und wirfft
+                        den Brighella<lb/> zur Erde. Die Alten mercken, daß man ihnen Poſſen ſpielet
+                        und<lb/> jagen alles fort. Jndeſſen koͤmmt die Smeraldina an das
+                        Fenſter-<lb/> Gitter, thut gantz betruͤbt und ſagt, daß Diana u. Aurelia
+                        ſterben<lb/> Gitter, thut gantz betruͤbt und ſagt, daß Diana u. Aurelia
+                        ſterben<lb/> raldina ſagt, ſie wolle zwey Weh-Muͤtter hohlen und gehet fort.
+                        <lb/> Die Alten lauffen in voller Betruͤbniß in das Schloß. Die Liebha-<lb/>
+                        ber ſo echt gegeben, bezeigen ſich erfreuet, daß ihnen der Streich ſo
+                        wohl<lb/> von ſtatten gehet. Die Alten kommen wieder aus dem Schloſſe
+                        und<lb/> wuͤnſchen, daß die Weh-Muͤtter bald kommen moͤchten. Hierauf<lb/>
+                        koͤmmt Smeraldina mit dem Brighella und Arlequin zuruͤck, die ſich als<lb/>
+                        2. Weh-Muͤtter verkleidet und nachdem ſie den Alten ihre Nahmen<lb/> geſagt,
+                        gehen ſie, auf Pantalons Befehl, in das Schloß und werden <lb/> von der
+                        Smeraldina begleitet. Die ſagen, ſie wuͤrden ſich nun bald<lb/> beſſer
+                        befinden. Die Liebhaber haben auf alles acht; Smeraldina aber<lb/> koͤmmt
+                        gantz erfreut zuruͤck und ſagt zu dem Pantalon, ſeine Toͤchter<lb/>
+                        befaͤnden ſich wohl und fuͤhret die Diana u. Aurelia, die ſich in die<lb/>
+                        Kleider der Weh-Muͤtter geſtecket, heraus. Auf das Zeichen der<lb/>
+                        Smeraldina umfaſſen die Liebhaber ihre geliebten und gehen fort, kom-<lb/>
+                        men aber mit ihnen wieder zuruͤck. Ein jeder hat die ſeinige an der<lb/> men
+                        aber mit ihnen wieder zuruͤck. Ein jeder hat die ſeinige an der<lb/> talon,
+                        weil er ſo wenig Luft bezeiget, ihnen ſeine Toͤchter zu geben,<lb/> ſo
+                        haͤtten ſie, ihren Geiſt in Ruhe zu ſtellen, dieſe beyden fremden<lb/> Damen
+                        geheyrathet. Die Alten wuͤnſchen ihnen Gluͤck und die<lb/> Liebhaber bitten
+                        ſie, die Zeugen von ihrer Verehligung zu ſeyn. Sie<lb/> anworten, daß es
+                        gerne geſchehen ſollte. Die Liebhaber heyrathen<lb/> Pantalons Toͤchter und
+                        wie Brighella und Arlequin ſehen, daß die<lb/> Sache ihre Richtigkeit hat,
+                        schreyen ſie von der Mauer des-<lb/> ſes: neue Zeitung! neue Zeitung! die
+                        Alten werden beſtuͤrtzt u. wol-<lb/> len ſie umbringen. Die Liebhaber
+                        wiederſetzen ſich ihnen. Pantalon<lb/> will wiſſen, wo ſeine Toͤchter ſind.
+                        Die Liebhaber bitten dieſelben, <lb/> will wiſſen, wo ſeine Toͤchter ſind.
+                        Die Liebhaber bitten dieſelben, <lb/> ſtaͤtiget er die Heyrath und
+                        pardonniret den Brighella u. Arlequin;<lb/> welches der Beſchluß des gantzen
+                        Schau-Spieles iſt.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La gazzetta ovvero le notizie</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#gazznoti_ru_001" n="1"/>
+                <head type="main">LA GAZZETTA OVVERO LE NOTIZIE</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/><date when="1733">nell'anno 1733.</date></head>
+                <pb facs="#gazznoti_ru_002" n="2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">PANTALONE, avendo promesso di dare le figlie in sposa, la
+                        maggiore al conte Anselmo e la minore a un capitano dei dragoni, respinge le
+                        proposte di Silvio e Odoardo e se ne va in campagna. I giovani, molto offesi
+                        dal rifiuto e molto innamorati, convincono Brighella e Arlecchino ad
+                        aiutarli. Grazie alla mediazione dei servitori, alla fine riescono ad
+                        ingannare il vecchio e sposare le loro amate.</p>
+                </div>
+                <pb facs="#gaze-3" n="3"/>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE,</role>
+                        <roleDesc>padre di Diana e Aurelia.</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="diana">DIANA e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="aurelia_it">AURELIA,</role>
+                            <roleDesc>sue figlie.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_it">SILVIO e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_it">ODOARDO,</role>
+                            <roleDesc>amici.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="brighella_it">BRIGHELLA e</role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                            <roleDesc>loro servitori.</roleDesc>
+                        </castItem>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>locandiera.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="dottore_it">IL DOTTORE,</role>
+                        <roleDesc>amico di Pantalone.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="contadino_it">UN CONTADINO.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="facchini_it">FACCHINI.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="sgherri_it">SGHERRI.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="soldati_it">SOLDATI.</role>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Parma e nei suoi dintorni.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#gazet-3" n="3"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <stage>LA SCENA MOSTRA UN BOSCO CON UN CASTELLO.</stage>
+                    <p rend="indent">Entrano gli innamorati raccontando a Brighella che, con il
+                        pretesto della caccia, sono venuti a trovare le loro fidanzate. Il padre
+                        delle fanciulle, Pantalone, ha rifiutato la loro proposta di<lb/> matrimonio
+                        perché vuole darle in sposa una al conte Anselmo e l’altra al capitano dei
+                        dragoni. Brighella promette di aiutare Silvio e Odoardo ma vuole ricorrere
+                        anche all’aiuto di Smeraldina, una locandiera in quel villaggio e sua amica.
+                        Aspettano tutti con impazienza Arlecchino e alla fine lo sentono
+                        avvicinarsi. Arlecchino entra con l’attrezzatura per la caccia e racconta di
+                        aver ucciso qualcosa. Nel mentre si sente la voce del vecchio. Tutti si
+                        mettono in disparte e osservano. Pantalone esce dal castello e chiude a
+                        chiave il portone. Brighella e Arlecchino dicono agli innamorati che
+                        vogliono burlarsi di lui ed escono. Gli innamorati fingono di chiedere scusa
+                        a Pantalone per essere venuti a cacciare nella sua tenuta, gli domandano il
+                        permesso e gli chiedono di poter alloggiare a casa sua, intanto tentano di
+                        sottrargli la chiave. Il vecchio sospetta che i giovani lo vogliano
+                        imbrogliare. Gli innamorati se ne accorgono. Dopo alcuni complimenti il
+                        vecchio dà loro il permesso di cacciare nel terreno del suo castello ma nega
+                        a loro l’ospitalità. Gli innamorati si accorgono di non essere riusciti a
+                        raggirarlo ed escono. Il vecchio rimane, afferma che Silvio e Odoardo sono
+                        due sciocchi testardi perché continuano ad amare le sue figlie. Nel
+                        frattempo, entra Smeraldina con Arlecchino e Brighella vestiti da zingari.
+                        Cantando e ballando cercano di sottrarre al vecchio <pb facs="#gazet-4" n="4"/>la chiave. Dopo molti lazzi riescono nell’impresa ma per errore
+                        rubano la chiave della cantina, non quella della porta del castello, ed
+                        escono. Il vecchio dopo essersi accorto del furto della chiave li insegue.
+                        Gli innamorati attendono con impazienza notizie dai loro servitori.
+                        Brighella e Arlecchino tornano e consegnano la chiave agli innamorati che,
+                        molto felici, vogliono subito utilizzarla. I giovani tentano di aprire il
+                        portone ma, non riuscendoci, comprendono che si sono sbagliati e si
+                        rattristano. Silvio e Odoardo consegnano una lettera a Brighella, gli
+                        ordinano di recapitarla ed escono. Brighella consegna la lettera ad
+                        Arlecchino, che si impegna a recapitarla ai destinatari. Sopragiunge
+                        Smeraldina dicendo di voler parlare con le figlie di Pantalone per metterle
+                        al corrente che i loro innamorati sono nelle vicinanze e rassicurarle che
+                        faranno di tutto per strapparle dalle grinfie del padre. Nel frattempo,
+                        arriva Pantalone, chiede a Smeraldina chi è. Smeraldina risponde che è la
+                        locandiera di quel villaggio. Pantalone si invaghisce della ragazza e
+                        comincia a corteggiarla. Intanto entra Arlecchino vestito come un venditore
+                        di calendari. Smeraldina lo riconosce e fanno molti lazzi. Smeraldina fa
+                        come se volessi comprarne uno. Arlecchino dice di avere anche le notizie.
+                        Pantalone gli domanda <pb facs="#gaze-5" n="5"/>cosa c’è di nuovo.
+                        Arlecchino risponde che ci sono molte grandi novità e urla: VENDO NOTIZIE,
+                        avvicinandosi a poco a poco al<lb/> castello. Le figlie di Pantalone si
+                        avvicinano al cancello. Arlecchino vedendole si avvicina ancora per
+                        consegnare la lettera. Pantalone se ne avvede e si mette a bastonare
+                        Arlecchino che fugge gridando: VENDO NOTIZIE. Pantalone intima alle figlie
+                        di rientrare, poi saluta Smeraldina. Intanto entra Brighella, dice a
+                        Pantalone che deve rallegrarsi perché a breve arriverà il conte Anselmo
+                        perché la sua gente sta già arrivando e due giovani con un baule sono già là
+                        e lo stanno cercando. Pantalone chiede a Brighella di accompagnarlo da
+                        quelle persone. Brighella porta da lui due facchini che trasportano un
+                        baule, dentro al quale è nascosto Arlecchino. Pantalone paga gli uomini e
+                        ringrazia Brighella che esce. Pantalone dice di voler chiamare i suoi
+                        servitori per portare quel baule nel castello. Poi inizia a dispiacersi per
+                        il Dottore, che è innamorato di Diana, ma l’arrivo del conte Anselmo ha
+                        vanificato ogni sua speranza di ottenerla. Arlecchino comincia ad urlare dal
+                        baule: VENDO NOTIZIE. Pantalone pensa che quel venditore di calendari si
+                        aggiri nei pressi del castello e minaccia di bastonarlo. Arlecchino continua
+                        ad urlare: VENDO NOTIZIE. Pantalone ascolta, capisce che la voce proviene
+                        dal baule e lo apre. Arlecchino salta fuori dal baule e caccia il vecchio a
+                        bastonate. Arrivano Brighella e gli innamorati. Arlecchino è accecato dal
+                        furore, colpisce anche loro, appena si ravvede chiede scusa <pb facs="#gazet-6" n="6"/>e dice che non è riuscito a consegnare la
+                        lettera. Gli innamorati si lasciano prendere da una grande tristezza.
+                        Brighella li rincuora, dicendo loro che troverà un altro modo per
+                        intrufolarsi nel castello. Entra Pantalone parlando con il Dottore. Gli dice
+                        che se il conte Anselmo non arriva presto Diana sarà sua perché, per colpa
+                        della figlia, viene preso in giro. Arriva Brighella vestito da sergente,
+                        riferisce che il conte Anselmo l’ha inviato con un reggimento di soldati
+                        comandato da un capitano per fare la guardia al castello. Pantalone è felice
+                        di ciò. Brighella impartisce gli ordini ed entra Arlecchino vestito da
+                        capitano con molti soldati e accompagnato da un battito di tamburo. Da ciò
+                        nasce un lazzo molto divertente. Alla fine,<lb/> Arlecchino grida: VENDO
+                        NOTIZIE. Pantalone gli strappa la barba finta e così finisce il</p>
+                    <p rend="indent">PRIMO ATTO.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">Arriva BRIGHELLA dicendo agli Innamorati che Arlecchino ha
+                        rovinato tutto perché ha urlato quel suo maledetto: VENDO NOTIZIE. Egli però
+                        ha sentito dire che il vecchio sta aspettando un contadino che gli deve
+                        portare un maiale e quello gli ha fornito lo spunto per un altro imbroglio.
+                        Gli innamorati dicono di confidare pienamente in lui ed escono. Entra
+                        Pantalone corteggiando Smeraldina e le chiede perché è arrivata in città.
+                            <pb facs="#gazet-7" n="7"/>Smeraldina gli risponde che vuole far compere
+                        ed è a sua volta sorpresa di vedere Pantalone in città. Pantalone risponde
+                        che si è trasferito in città per non subire più angherie. Entra Brighella
+                        vestito da contadino, riferisce a Pantalone di avergli portato il maiale.
+                        Pantalone risponde che se il maiale è grasso lo ucciderà subito. Brighella
+                        esce, torna con Arlecchino travestito da maiale. Smeraldina all’inizio si
+                        spaventa, poi comincia ad accarezzarlo. Arlecchino finge di essere un maiale
+                        ammaestrato, poi di nascosto inizia a mangiare tutto quello che lei ha nel
+                        cesto. Smeraldina va via spaventata, da ciò nascono molti lazzi. Pantalone è
+                        felice di possedere un maiale ammaestrato e vuole condurlo al castello per
+                        far divertire le figlie. Così congeda Brighella che rimane e racconta
+                        l’accaduto agli innamorati, giunti dopo aver saputo che Arlecchino è
+                        riuscito ad entrare nel castello. Poi tutti escono.</p>
+                    <stage>LA SCENA MOSTRA UNA CAMERA.</stage>
+                    <p rend="indent">PANTALONE con una candela dice di essersi molto divertito con
+                        il maiale e che ha ordinato da mangiare e vuole andare a letto. Si butta sul
+                        letto senza spogliarsi. Dopo qualche lazzo spegne la candela e si
+                        addormenta. Arlecchino entra dicendo che sta cercando le ragazze per
+                        consegnare la lettera. Mentre le cerca, rompe dei vasi. A causa del rumore
+                        si sveglia Pantalone e comincia a cercare il responsabile. Arlecchino si
+                        nasconde. Il vecchio si addormenta di nuovo. Arlecchino salta sul letto dove
+                        dorme Pantalone. Il vecchio si mette a gridare e, dopo alcuni lazzi, escono
+                        tutti.</p>
+                    <pb facs="#gazet-8" n="8"/>
+                    <stage>LA SCENA MOSTRA UNA CITTÀ.</stage>
+                    <p rend="indent">BRIGHELLA dice agli Innamorati che presto Arlecchino aprirà
+                        loro il cancello del castello e mentre aspettano sentono le urla di
+                        Pantalone e vedono correre Arlecchino vestito da maiale. Appena lo vedono
+                        scappano tutti. Entra il vecchio, dice di essere stanco di sopportare tutto
+                        quello. Nel frattempo, entra il Dottore a cui Pantalone racconta tutto
+                        quello che è capitato. Il Dottore dice di essere dispiaciuto, consiglia a
+                        Pantalone di tornare in campagna, dove potranno inventarsi qualcosa. Entra
+                        Brighella vestito da contadino, finge di inseguire Smeraldina che grida:
+                        AIUTO. I vecchi vogliono difenderla. Brighella dice che quella è sua
+                        sorella, vuole ucciderla per aver lasciato la locanda per cercare un certo
+                        Pantalone, di cui si è innamorata. Brighella è dispiaciuto di non conoscere
+                        quell’uomo perché vorrebbe ucciderlo per difendere l’onore della sorella.
+                        Pantalone trema per la paura ma poi si calma perché quel contadino non lo
+                        conosce. Brighella in fine dice che vede che Pantalone è un uomo perbene e
+                        per questo gli vuole affidare sua sorella fino al suo ritorno dalla fiera,
+                        dove si reca per comprare della segale. Pantalone gli comunica di avere due
+                        figlie e Smeraldina potrà vivere con loro senza avere alcun timore.
+                        Brighella lo ringrazia e va via. I vecchi vanno via con Smeraldina che finge
+                        di essere una persona onesta. <pb facs="#gazet-9" n="9"/>Brighella torna a
+                        dire agli innamorati che è riuscito a far entrare Smeraldina dalle fanciulle
+                        e che Pantalone è intenzionato a tornare in campagna. Gli Innamorati e
+                        Arlecchino escono per seguire il vecchio.</p>
+                    <stage>LA SCENA MOSTRA UN BOSCO.</stage>
+                    <p rend="indent">I vecchi si rallegrano per essere tornati in campagna.
+                        Pantalone dice alle figlie di entrare nel castello con Smeraldina, poi le
+                        chiude dentro. Il Dottore loda la posizione del castello. Nel frattempo,
+                        entra un contadino che dice a Pantalone di avergli portato due grandi vasi
+                        di melaranci. Pantalone dice che può portare i vasi dentro, poi vede degli
+                        uomini portare Arlecchino e Brighella dentro a quei vasi, per quello accade
+                        un lazzo molto divertente. Alla fine, Arlecchino urla: VENDO NOTIZIE e nel
+                        fracasso si conclude il</p>
+                    <p rend="indent">SECONDO ATTO.</p>
+                </div>
+                <pb facs="#gazet-10" n="10"/>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <stage>LA SCENA MOSTRA LA NOTTE.</stage>
+                    <p rend="indent">BRIGHELLA, con una candela, dice ad Arlecchino che vuole
+                        metterlo dentro un lampione che illumina la strada e da dove potrà vedere le
+                        figlie di Pantalone quando usciranno a fare la passeggiata e dire a loro di
+                        fingersi malate. Arlecchino promette di obbedire. Brighella lo mette dentro
+                        al lampione ed esce. Arrivano i vecchi con una lettera, nella quale, dice
+                        Pantalone, il capitano lo informa del suo imminente arrivo per sposare
+                        Aurelia. Arlecchino, chiuso nel lampione, fa molti lazzi e dopo inizia a
+                        gridare: VENDO NOTIZIE. Il vecchio, dopo aver visto quell’uomo dentro al
+                        lampione, chiede chi è, Arlecchino gli risponde che è un amico dei
+                        lampionisti. I vecchi escono per andare a chiamare degli uomini. Arlecchino
+                        chiama le ragazze che si avvicinano all’inferriata. Arlecchino consiglia
+                        loro di fingersi malate e a Smeraldina dice di consigliare a Pantalone di
+                        trovare due levatrici e mandarle dal farmacista. Le ragazze promettono di
+                        obbedire ed escono. I vecchi tornano con degli uomini che smontano il
+                        lampione. Arlecchino si difende con la candela e scappa, inseguito dagli
+                        uomini dei vecchi, mentre i vecchi rimangono. Arriva un uomo vestito da
+                        turco, dice a Pantalone di possedere tre giganti che vorrebbe vendere a un
+                        prezzo scontato, <pb facs="#gazet-11" n="11"/>perché ha bisogno di soldi. Si
+                        accordano sul prezzo, l’uomo esce e torna con gli innamorati, Brighella e
+                        Arlecchino vestiti da giganti. Dopo molti lazzi, i vecchi dicono che sono
+                        troppo grandi e non potranno entrare dalla porta. Arlecchino dice che
+                        troverà il modo di entrare e butta a terra Brighella. Quando i vecchi si
+                        accorgono della beffa e li costringono a scappare. In quel momento
+                        Smeraldina, da dietro l’inferriata, comunica che Aurelia e Diana sono in
+                        punto di morte. Pantalone apre la porta del castello. Smeraldina dice di
+                        chiamare due levatrici ed esce. I vecchi sono molto preoccupati, corrono
+                        dentro al castello. Gli innamorati, che hanno assistito a tutto, sono molto
+                        contenti, ma sentono i vecchi tornare ed escono. I vecchi vorrebbero che le
+                        levatrici arrivassero il prima possibile. Nel frattempo, arriva Smeraldina
+                        con Arlecchino e Brighella vestiti da levatrici. Si presentano a Pantalone
+                        ed entrano nel castello con Smeraldina. I vecchi sperano che siano d’aiuto
+                        per le ragazze. Gli innamorati osservano tutto. Intanto esce Smeraldina
+                        gioiosa, dice a Pantalone che le figlie stanno meglio e lascia uscire dal
+                        castello le ragazze che indossano i vestiti delle levatrici. Gli innamorati,
+                        dopo aver ricevuto un cenno segreto da Smeraldina, abbracciano le fidanzate
+                        e vanno via. Poi tornano ciascuno portando la propria innamorata coperta da
+                        un lungo velo e dicono a Pantalone che, siccome <pb facs="#gazet-12" n="12"/>non voleva concedergli le sue figlie in sposa, hanno deciso di desistere e
+                        sposare quelle due dame straniere. I vecchi ne sono contenti e augurano loro
+                        tutto il bene. Gli innamorati dicono di volere che i due vecchi facciano da
+                        testimoni di nozze. I vecchi acconsentono con tutto il cuore. Così gli
+                        innamorati sposano le fidanzate. Arlecchino, che osserva tutto dalle mura
+                        del castello con Brighella, si mette a gridare: VENDIAMO NOTIZIE. I vecchi
+                        si infuriano. Gli innamorati gli impediscono di entrare nel castello e
+                        punire i servitori. Pantalone vuole sapere dove sono le sue figlie. Gli
+                        innamorati dicono alle ragazze di scoprirsi. Pantalone si dichiara
+                        sconfitto, conferma il matrimonio e perdona Brighella e Arlecchino. Così
+                        finisce</p>
+                    <p rend="indent">LA COMMEDIA.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

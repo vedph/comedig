@@ -1,0 +1,1037 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La lavandaia nobile</title>
+                <respStmt>
+                    <resp>Transcription, translation, and encoding by</resp>
+                    <name>Tatiana Korneeva</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical coordination, metadata curation, programming by</resp>
+                    <name>Tiziana Mancinelli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                <date>December 2021</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La lavandaia nobile. Stando al rendiconto amministrativo di Giuseppe Avolio, che
+                    riporta annotazioni relative all’allestimento della “commedia della lavandaia”,
+                    l’opera fu messa in scena a San Pietroburgo l’11 giugno 1734. Ferrazzi
+                    identifica il possibile originale dello scenario nel canovaccio Arlequin mari de
+                    la femme de son maître, ou La cameriera nobile, rappresentato a Parigi il 15
+                    giugno 1716 (Ferrazzi, 137; cfr. inoltre Parfaict, Dict., I, 254 e VII, 377). Il
+                    ruolo della scaltra lavandaia Smeraldina, che accompagnava l’amica Diana a Pavia
+                    a cercare il padre di quest’ultima e, per sopravvivere, si metteva a fare la
+                    lavandaia, era uno dei cavalli di battaglia di Adriana Sacco. L’attrice
+                    interpretò questa parte anche in un’altra commedia della raccolta
+                    pietroburghese, Gli amanti rivali con Arlecchino finto pascià, e inoltre, al suo
+                    rientro a Venezia, nel Momolo cortesan di Carlo Goldoni, commedia che aprì la
+                    stagione del 1738-1739 del teatro San Samuele.</p>
+                <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso
+                    le diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei
+                    facsimili per ogni versione.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>ПОРТОМАЯ ДВОРЯНКА</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Goettingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia - VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (20b)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="12">12 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ru">Russian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ru">
+                <graphic xml:id="lavanobi_ru_001" url="/img/lavanobi_ru_001.jpg"/>
+                <graphic xml:id="lavanobi_ru_002" url="/img/lavanobi_ru_002.jpg"/>
+                <graphic xml:id="lavanobi_ru_003" url="/img/lavanobi_ru_003.jpg"/>
+                <graphic xml:id="lavanobi_ru_004" url="/img/lavanobi_ru_004.jpg"/>
+                <graphic xml:id="lavanobi_ru_005" url="/img/lavanobi_ru_005.jpg"/>
+                <graphic xml:id="lavanobi_ru_006" url="/img/lavanobi_ru_006.jpg"/>
+                <graphic xml:id="lavanobi_ru_007" url="/img/lavanobi_ru_007.jpg"/>
+                <graphic xml:id="lavanobi_ru_008" url="/img/lavanobi_ru_008.jpg"/>
+                <graphic xml:id="lavanobi_ru_009" url="/img/lavanobi_ru_009.jpg"/>
+                <graphic xml:id="lavanobi_ru_010" url="/img/lavanobi_ru_010.jpg"/>
+                <graphic xml:id="lavanobi_ru_011" url="/img/lavanobi_ru_011.jpg"/>
+                <graphic xml:id="lavanobi_ru_012" url="/img/lavanobi_ru_012.jpg"/>
+            </surface>
+            <!-- Il facsimile può essere aggiunto solo nelle trascrizioni in tedesco e in russo -->
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#lavanobi_ru_001" n="1"/>
+                <head type="main">ПОРТОМАЯ ДВОРЯНКА</head>
+                <head type="sub">КОМЕДIЯ IТАЛIЯНСКАЯ<lb/> ВЪ САНКТПЕТЕРБУРГѢ<lb/>
+                    <date when="1734">1734 года.</date></head>
+                <pb facs="#lavanobi_ru_002" n="2"/>
+                <fw type="pageNum">2</fw>
+                <div type="preface">
+                    <head>ПЕРЕЧЕНЬ ВСЕЯ КОМЕДIИ.</head>
+                    <p rend="indent">САБАДIНЪ будучи принужденъ выѣхать изъ своего<lb/> отечества,
+                        оставилъ свою дочь Дïану подъ охра-<lb/> ненïемъ Кассандра брата своего,
+                        которая имѣла<lb/> четыри года, а самъ онъ преселился въ Павïю. Дïанa<lb/>
+                        взросла, и влюбилась въ одного Студента. И какъ<lb/> она съ онымъ
+                        разговаривала, тогда дядя ея подо-<lb/> шолъ, и убилъ того Студента, что
+                        принудило<lb/> племянницу его убѣжать, и скрыться у Смералдïны<lb/> другини
+                        своеи, у которои будучи уговорила оную,<lb/> чтобъ вмѣстѣ съ нею поѣхать въ
+                        Павïю для исканïя<lb/> своего отца, котораго она, говорить, что
+                        незнаетъ.<lb/> Смералдïна на то согласилась, для того что Брï-<lb/> геллъ
+                        старои ея Любовникъ въ томъ же сталъ жить<lb/> городѣ. Но не хотя быть однѣ
+                        въ дорогѣ, проситъ<lb/> Смералдïна Арлекïна, чтобъ онъ съ ними тудажъ<lb/>
+                        поѣхалъ. Арлекïнъ влюбившися въ Смералдïну на<lb/> то далъ руку; а прïѣхавши
+                        въ Павïю намѣрились для<lb/> пропитанïя своего быть портомоями, называя
+                        Сме-<lb/> ралдïна дочерью своею Дïану, а Арлекïна отцомъ ея.<lb/> По сему то
+                        случаю Сабадïнъ не зная своеи дочери<lb/> влюбился въ оную, такъ же и
+                        Панталонъ, которыхъ<lb/> своячество чинить всю завязку комедïи.</p>
+                </div>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+                <pb facs="#lavanobi_ru_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <castList>
+                    <head>ДѢИСТВУЮЩІЯ ЛИЦА.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ru">ПАНТАЛОНЪ.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="sabbadino_ru">САБАДÏНЪ,</role>
+                        <roleDesc>отецъ Дïаннинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_ru">ДIАНА.</role>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ru">СІЛВІИ, и<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ru">ОДОАРДЪ.</role>
+                        </castItem>
+                        <roleDesc>друзья.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ru">СМЕРАЛДIНА,</role>
+                        <roleDesc>мнимая мать Дïанина.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ru">АРЛЕКІНЪ,</role>
+                        <roleDesc>мнимои мужъ Смералдïнинъ.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ru">БРIГЕЛЛЪ,</role>
+                        <roleDesc>вольнодомецъ.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Дѣиствïе это въ Павïи.</p>
+                </set>
+                <fw type="sig" place="bottom">A 2</fw>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+            </front>
+            <body>
+                <pb facs="#lavanobi_ru_004" n="4"/>
+                <fw type="pageNum">4</fw>
+                <div type="act" n="1">
+                    <head>ДѢИСТВІЕ ПЕРВОЕ.</head>
+                    <p rend="indent">Старики выходятъ говоря о старои своеи друж-<lb/> бѣ; послѣ
+                        чего Панталонъ сказываетъ Сабадïну о<lb/> своеи любви къ молодои Портомоѣ.
+                        Сабадïнъ, ко-<lb/> торои такъ же ея любитъ, притворился удивляю-<lb/> щимся,
+                        и говоритъ Панталону, что любовь не при-<lb/> лична ему въ такои старости, и
+                        называетъ ту въ<lb/> немъ слабостïю разума, которую онъ Сабадïнъ при-<lb/>
+                        нужденъ въ немъ лѣчить, какъ докторъ души, чрезъ<lb/> свои разсужденïя.
+                        Панталонъ притворился быть<lb/> уговоренъ, и обѣщается ему покинуть ту
+                        страсть.<lb/> Сабадïнъ старается ево утвердить больше въ томъ<lb/>
+                        намѣренïи. Панталонъ отходить прочь; Сабадïнъ<lb/> остался, и говоритъ, что
+                        ему то очюнь печально,<lb/> что онъ имѣетъ Панталона друга своего за
+                        про-<lb/> тивника въ своеи любви. Сталъ онъ радоваться,<lb/> что онъ ему
+                        присовѣтовалъ покинуть ту страсть,<lb/> и намѣряется самъ искать своего
+                        щастïя при своеи<lb/> метресѣ. На то Брïгеллъ приходить. Сабадïнъ<lb/> по
+                        показанïи нѣкоторыя ему дружбы просить его,<lb/> чтобъ онъ ему помогъ въ ея
+                        любви, которую онъ<lb/> имѣетъ къ Портомоѣ. Брïгеллъ ему то обѣщаетъ<lb/> и
+                        совѣтуетъ, чтобъ онъ нарядился чисто, и пода-<lb/> рилъ бы чѣмъ нибудь свою
+                        любимую. Сабадïнъ го-<lb/> воритъ, что онъ то учинить, да и пошолъ
+                        прочь<lb/> самъ. Брïгеллъ остался, и сталъ бранить дура-<lb/> чество
+                        стариково. Смералдïна приходить очюнь ра-<lb/> достна, что его увидѣла.
+                        Брïгеллъ думая, что<lb/> она жена Арлекïнова укоряетъ еи невѣрностïю
+                        ея.<lb/> Она ему сказываетъ, что Арлекïнъ ея не мужъ, и<lb/> что она нарошно
+                        ево такъ называетъ для благочи-<lb/> нïя, пока Дïана наидетъ своего отца.
+                        Послѣ чего<lb/> обѣщается она ему оставить Арлекïна, и вытьти<lb/>
+                        <fw type="catch" place="bottom">за</fw>
+                        <pb facs="#lavanobi_ru_005" n="5"/>
+                        <fw type="pageNum">5</fw> за него. Брïгеллъ повѣривши еи сталъ говорить<lb/>
+                        о любви Сабадïновои къ Дïанѣ, и совѣтуетъ еи, чтобъ<lb/> она научила мнимую
+                        свою дочь льстить ему Саба-<lb/> дïну, дабы его тѣмъ вычистить карманы. Она
+                        ему<lb/> обѣщается то учинить, и стали они оба обнимать-<lb/> ся. На то
+                        Арлекïнъ выходитъ, и чинитъ многïя<lb/> игрушки приличныя театру ревнуя къ
+                        Брïгеллу,<lb/> которои его видя сталъ ево бранить. Арлекïнъ такъ<lb/> же, и
+                        начали биться; по томъ Брïгеллъ пошолъ прочь.<lb/> Арлекïнъ бранитъ
+                        Смералдïну, которая притвори-<lb/> лась быть тѣмъ обезчещена, и стала будто
+                        пла-<lb/> кать. Арлекïнъ умягчился, да и по мирился съ нею;<lb/> а послѣ и
+                        пошолъ. Смералдïна кличет Дïану, и при-<lb/> казываетъ еи не переставать
+                        дѣлать дѣло свое;<lb/> при томъ же и сказываетъ еи о любви Сабадïновои;
+                        со-<lb/> вѣтуетъ еи, чтобъ она ему льстила для денегъ.<lb/> Дïана не хочетъ
+                        того дѣлать, для любви къ неи<lb/> сïлвïевои. Смералдïна еи обѣщаетъ, что
+                        она бу-<lb/> детъ за Сïлвïемъ. Послѣ чего стали они работать.<lb/> Между
+                        тѣмъ приходить Сабадïнъ нарядяся чисто,<lb/> и сталъ чинить имъ комплïменты.
+                        Онѣ тожъ стали<lb/> дѣлать, и посадили ево въ срединѣ. Сабадïнъ<lb/> радъ
+                        сталь быть о томъ, да и объявилъ любовь<lb/> свою къ Дïанѣ. На то приходить
+                        Панталонъ, и<lb/> началъ весьма удивляться, что Сабадïнъ въ такомъ<lb/>
+                        нарядѣ сидитъ между Смералдïною и Дïаною; такъ<lb/> же и сталъ ему смѣяться
+                        надъ ево именемъ Доктора<lb/> души; а по томъ почали между собою
+                        браниться<lb/> взаимно. Женьщины прочь пошли. Сабадïнъ съ гнѣ-<lb/> вомъ
+                        пошолъ же. Панталонъ говоритъ, что, дабы<lb/> больше ему досадить, хочетъ
+                        онъ и самъ такъ же<lb/> нарядиться, и показать себя не скупымъ. Послѣ<lb/>
+                        чего онъ пошолъ.</p>
+                    <p rend="indent">CМЕРАЛДIНА и Дïана возвращаяся говорятъ, что <fw type="sig" place="bottom">А 3</fw>
+                        <fw type="catch" place="bottom">онѣ</fw>
+                        <pb facs="#lavanobi_ru_006" n="6"/>
+                        <fw type="pageNum">6</fw> онѣ очюнь печальны, для того что изъ обоихъ
+                        ста-<lb/> риковъ каждои другому противень; Однакожъ онѣ<lb/> въ свою прибыль
+                        поворотятъ дураческую обоихъ<lb/> ихъ страсть. На то Сïлвïи приходить съ
+                        Одоар-<lb/> домъ, которому онъ показываетъ свою любимую.<lb/> Одоардъ ему
+                        привѣтствуетъ въ выборѣ его. Сïлвïи<lb/> приближается, и сталъ чинить
+                        компліменты Дïанѣ;<lb/> но Арлекïнъ тогда надходитъ; а увидѣвъ оныхъ
+                        двухъ<lb/> шляхтичевъ сталъ сердиться. Тѣ говорятъ, что<lb/> они пришли за
+                        маншетами, Арлекïнъ не перестаетъ<lb/> сердиться. Женщины пошли прочь.
+                        Сïлвïи и Одо-<lb/> ардъ стараются умягчить Арлекïна, въ чомъ имъ<lb/> и
+                        удалося обѣщая ему взять его въ вольнои домъ,<lb/> дабы онъ имъ кушать
+                        помогъ то, что они прика-<lb/> зали приготовить, понеже ихъ друзья не
+                        могутъ<lb/> къ нимъ быть, да и пошли сами.</p>
+                    <p rend="indent">СМЕРАЛДIНА и Дïана возвращаются проклиная<lb/> грубïанство
+                        арлекïново; начали онѣ опять работать.<lb/> Панталонъ къ нимъ приходить зѣло
+                        наряденъ, ко-<lb/> торои по комплïментах по срединѣ ихъ сѣлъ.<lb/> Между
+                        тѣмъ Сабадïнъ приходить туда же; а видя<lb/> Панталона сталъ такъ же надъ
+                        нимъ смѣяться. Послѣ<lb/> чего каждои старается подарить Дïану на знакъ<lb/>
+                        своея любви, что причиняетъ игрушку смѣшную.<lb/> Тогда слышенъ сталъ быть
+                        Арлекïнъ идущïи изъ<lb/> вольнаго дому. Женщины слышя его голосъ убѣ-<lb/>
+                        жали съ подаркомъ. Старики осталися, Арлекïнъ<lb/> приходитъ вполпьянъ. Изъ
+                        того произходитъ игру-<lb/> шка смѣшная между ими тремя, которою и<lb/>
+                        кончится Дѣиствïе первое.</p>
+                </div>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+                <pb facs="#lavanobi_ru_007" n="7"/>
+                <fw type="pageNum">7</fw>
+                <div type="act" n="2">
+                    <head>ДѢИСТВІЕ ВТОРОЕ.</head>
+                    <p rend="indent">АРЛЕКIНЪ выходитъ говоря Брïгеллу, что онъ<lb/> не желаетъ ево
+                        дружбы, вѣдая, что то онъ помо-<lb/> гаетъ старикамъ дѣлать любовь къ своимъ
+                        женщи-<lb/> намъ, что его принудило затворить свою лавку.<lb/> Брïгеллъ ему
+                        совѣтуетъ, чтобъ онъ не быль такъ<lb/> скоръ къ ревности, и что любовь тѣхъ
+                        стариковъ<lb/> можетъ ему быть прибыльна безъ предосужденïя<lb/> чести ево
+                        фамïлïѣ. И ежелибъ онъ хотѣлъ слѣдо-<lb/> вать по ево совѣту, тобъ онъ могъ
+                        достать денегъ,<lb/> и обмануть стариковъ. Арлекïнъ принялъ ево со-<lb/>
+                        вѣтъ. Брïгеллъ ему приказываетъ нарядиться въ<lb/> Волхва, и сказать
+                        старикамъ, что онъ можетъ ихъ<lb/> здѣлать не видимыми, чрезъ посредство
+                        двухъ<lb/> перстнеи, которые они должни надѣвать на руку.<lb/> Арлекïнъ
+                        хвалитъ вымыслъ ево; а для исполненïя<lb/> онаго и пошолъ. Брïгеллъ остался.
+                        Панталонъ при-<lb/> ходитъ, которои видя Брïгелла сталъ ево просить,<lb/>
+                        чтобъ онъ ему помощникомъ былъ въ томъ, дабы ему<lb/> какъ воити въ лавку.
+                        Брïгеллъ ему говорить, что<lb/> то трудно, понеже лавка заперта. Но ежели
+                        онъ<lb/> хочетъ нѣсколько изтратить, то онъ знаетъ<lb/> одного чародѣя,
+                        которои имѣетъ перстень; а кто<lb/> тотъ будетъ на своей рукѣ носить, то
+                        тотъ<lb/> будетъ не видимъ. Панталонъ очюнь о томъ обра-<lb/> довавшись
+                        говорить ему, что онъ будетъ<lb/> платить все что надлежитъ. Брïгеллъ
+                        притворяяся все быть<lb/> услужнымъ призываетъ Арлекïна нарядившагося
+                        въ<lb/> волхва, которои по многихъ шуткахъ приличныхъ<lb/> театру, и также
+                        по многихъ словахъ таинствен-<lb/> ныхъ далъ свои перстень Панталону,
+                        которои за-<lb/> платилъ за онои десять рублеи. Брïгеллъ ему гово-<lb/>
+                        рить, чтобъ онъ тотъ перстень отвѣдалъ. Панталонъ<lb/>
+                        <fw type="catch" place="bottom">онои</fw>
+                        <pb facs="#lavanobi_ru_008" n="8"/>
+                        <fw type="pageNum">8</fw> онои надѣлъ на руку. Брïгеллъ притворяется,
+                        что<lb/> бутто его не видитъ. Панталонъ обрадовавшись<lb/> о томъ, и по
+                        многихъ шуткахъ приличныхъ театру,<lb/> пошолъ. Брïгеллъ говоритъ, что онъ
+                        будетъ ста-<lb/> раться, чтобъ отдать другои перстень подобнои<lb/>
+                        Сабадïну, которому онъ тожъ о томъ перстнѣ на-<lb/> скажетъ, что и первому.
+                        Между тѣмъ Смералдïна<lb/> выходитъ со скоростïю; говорить она
+                        Брïгеллу,<lb/> что затворивши лавку принуждена она стала бѣ-<lb/> гать для
+                        относки бѣлья сама къ хозяевамъ. Брïгеллъ<lb/> обѣщаетъ еи помогать, и сталь
+                        еи сказывать о<lb/> мнимои невидимости стариковъ, и что она должен-<lb/>
+                        ствуетъ принимать ихъ за таковыхъ, и что Пан-<lb/> талонъ уже имѣетъ онои
+                        перстень, про которои<lb/> онъ думаетъ, что онои есть таковыя силы; но
+                        что<lb/> онъ тотчасъ поидетъ, чтобъ отдать другои пер-<lb/> стень Сабадïну,
+                        и что всѣ денги, которыя онъ<lb/> чрезъ то получить, будутъ ея. Смералдïна
+                        ему<lb/> благодарить, да и пошла. Брïгеллъ остался. Любов-<lb/> ники
+                        приходятъ, которымъ Брïгеллъ сказываетъ<lb/> тожъ о старикахъ, и что онъ
+                        поидетъ искать Саба-<lb/> дïна, дабы ему отдать другои перстень. Между<lb/>
+                        тѣмъ слышимъ сталъ быть Панталонъ. Брïгеллъ<lb/> имъ говорить, чтобъ они
+                        тѣмъ повеселились, думая<lb/> его невидимымъ. Панталонъ выходитъ говоря,
+                        что<lb/> онъ имѣетъ перстень на рукѣ. Брïгеллъ показы-<lb/> ваетъ себя, что
+                        бутто онъ только слышитъ ево<lb/> голосъ, а ево самово не видитъ. Панталонъ
+                        о томъ<lb/> весьма сталъ быть радъ. Брïгеллъ ему говоритъ,<lb/> чтобъ всегда
+                        держалъ перстень на рукѣ, и что<lb/> Сабадïнъ ево противникъ скитается по
+                        городу, какъ<lb/> пьянои. Потомъ Любовники притворяются, что<lb/> бутто
+                        ссорятся съ Брïгелломъ, и что бутто не<lb/> видятъ Панталона, того ради
+                        стали ево бить, что<lb/>
+                        <fw type="catch">чинитъ</fw>
+                        <pb facs="#lavanobi_ru_009" n="9"/>
+                        <fw type="pageNum">9</fw> чинитъ игрушку своиственную театру. Потомъ<lb/>
+                        Любовники, и Брïгеллъ пошли. Панталонъ остался<lb/> съ своею невидимостïю;
+                        Но къ нему приходитъ<lb/> Смералдïна, которая увѣдомившись оть Брïгелла<lb/>
+                        что еи надлежитъ дѣлать, притворяется, что<lb/> бутто невидитъ его, а
+                        удивляяся тому говоритъ<lb/> съ нимъ, и чинить многïя игрушки
+                        своиственныя<lb/> театру. Потомъ говорить, что она хочетъ къ себѣ<lb/> домои
+                        поити. Панталонъ за нею слѣдуеть думая,<lb/> что онъ невидимъ. Но Смералдïна
+                        заперла ворота.<lb/> Панталонъ прочь пошолъ съ намѣренïимъ сыскать<lb/>
+                        лѣсницу.</p>
+                    <p rend="indent">БРÏГЕЛЛЪ выходитъ даючи Сабадïну перстень,<lb/> которои ево
+                        можетъ здѣлать невидимымъ, и про-<lb/> ситъ у нево за тотъ денегъ
+                        надлежащихъ. Сабадïнъ<lb/> здѣлавъ опытъ надъ тѣмъ перстнемъ, и вѣря
+                        сло-<lb/> вамъ Брïгелловымъ, что онъ въ правду сталъ быть<lb/> невидимымъ,
+                        отдалъ свои кошелекъ съ денгами<lb/> Брïгеллу. Брïгеллъ ему сказываетъ, что
+                        Панта-<lb/> лонъ ходитъ по городу, какъ дурачокъ съ лѣсницею<lb/> на спинѣ,
+                        да и пошолъ самъ. Сабадïнъ оставшись<lb/> говоритъ, что онъ хочетъ отмстить
+                        своему про-<lb/> тивнику, которои сталъ быть слышимъ. Сабадïнъ<lb/> надѣлъ
+                        свои перстень. Панталонъ выходить такъ<lb/> же съ перстнемъ на рукѣ. Каждои
+                        изъ нихъ ду-<lb/> маетъ быть себя невидимымъ. Панталонъ приста-<lb/>
+                        вливаетъ лѣсницу къ окну Смералдïнïну, да и<lb/> полѣзъ. Сабадïнъ за нимъ
+                        же; что причиняетъ<lb/> игрушку смѣшную, которою и кончится дѣиствïе<lb/>
+                        второе.</p>
+                </div>
+                <fw type="sig" place="bottom">б</fw>
+                <fw type="catch" place="bottom">ДѢИ-</fw>
+                <pb facs="#lavanobi_ru_010" n="10"/>
+                <fw type="pageNum">10</fw>
+                <div type="act" n="3">
+                    <head>ДѢИСТВІЕ ТРЕТІЕ.</head>
+                    <stage>ТЕАТРЪ ПОКАЗЫВАЕТЪ КАМЕРУ СЪ БОЧКОЮ<lb/> И СЪ ЯЩИКОМЪ.</stage>
+                    <p rend="indent">СМЕРАЛДIНА и Дïана выходятъ браня Арлекïна,<lb/> что онѣ для
+                        него принуждены стали затворить<lb/> свою лавку, и чрезъ то потерять своихъ
+                        купцовъ,<lb/> а не зная какъ жить. Арлекïнъ имъ говоритъ, что<lb/> онъ
+                        хочетъ продать все, что ни есть въ домѣ. Жень-<lb/> щины ему отвѣтствуютъ,
+                        что весь ихъ пожитокъ<lb/> состоитъ въ этои бочкѣ, и въ этомъ ящикѣ.
+                        Арле-<lb/> кïнъ говоритъ, что онъ и то продастъ, да и пошолъ<lb/> искать
+                        купца. Смералдïна сказываетъ Дïанѣ о мни-<lb/> мои невидомости двухъ ея
+                        Любовниковъ Стариковъ;<lb/> чему она должна бутто вѣрить, ежелибъ онѣ<lb/>
+                        къ неи пришли. Дïана стала шить; а къ неи прихо-<lb/> дить Панталонъ,
+                        которои думая о себѣ, что бутто<lb/> онъ невидимъ, чинитъ многïя игрушки
+                        приличныя<lb/> театру. Приближился онъ къ Дïанѣ, которая бутто<lb/> его не
+                        видя пужается слышя его голосъ. Панта-<lb/> лонъ, чтобъ ея вывести изъ
+                        страха, снялъ съ своеи<lb/> руки перстень. Дïана показываетъ себя, что
+                        бутто<lb/> удивляется, и кличетъ Смералдïну, которая сердяся<lb/> говоритъ,
+                        что ежели мужъ ея Арлекïнъ придетъ, то<lb/> какое нибудь нещастïе случится.
+                        Панталонъ ихъ<lb/> изъ страха выводитъ, сказывая о силѣ своего перстня.<lb/>
+                        Смералдïна и Дïана взяли у него онои для посмотрѣ-<lb/> нïя. Между тѣмъ
+                        сталъ быть слышимъ Арлекïнъ.<lb/> Женьщины притворяются быть отчаянными.
+                        Панта-<lb/> лонъ у нихъ просить своего перстня, чтобъ ему<lb/> учиниться
+                        невидимымъ. Онѣ ему оной не отдаютъ,<lb/> и принудили его чрезъ то влѣзть въ
+                        бочку, послѣ<lb/> чего стали онѣ опять работать. Сабадïнъ прихо-<lb/> дить,
+                        и думая о себѣ такъ же, что будто онъ не-<lb/>
+                        <fw type="catch" place="bottom">видимъ,</fw>
+                        <pb facs="#lavanobi_ru_011" n="11"/>
+                        <fw type="pageNum">11</fw> видимъ,чинить многïя шутки приличныя Театру<lb/>
+                        съ женьщинами. Потомъ снялъ онъ съ руки своея<lb/> перстень. Женьщины
+                        кажутся быть изпужавшимися,<lb/> и онои у него взяли. Между тѣмъ Арлекïнъ
+                        послы-<lb/> шался. Сабадïнъ требуетъ у нихъ назадъ своего<lb/> перстня. Но
+                        женщины притворяся быть смущен-<lb/> ными, всадили его въ ящикъ, и стали
+                        опять рабо-<lb/> тать. Арлекïнъ выходить прося Брïгелла, чтобъ<lb/> онъ у
+                        него купилъ эту бочку, и этотъ ящикъ.<lb/> Брïгеллъ говоритъ, что онъ то
+                        хочетъ учинить,<lb/> только бы тѣ сосуды были въ состояніи къ угоднои<lb/>
+                        службѣ. Сталъ онъ осматривать бочку, и говоритъ,<lb/> что она пахнетъ
+                        гнилью. Арлекïнъ ему отвѣт-<lb/> ствуетъ, что онъ ея вычистить. Брïгеллъ
+                        говоритъ,<lb/> что между тѣмъ кликнетъ онъ людей, да и по-<lb/> шолъ.
+                        Панталонъ говоритъ женьщинамъ, что онъ<lb/> не хочетъ сидѣть въ бочкѣ. Между
+                        тѣмъ Арлекïнъ<lb/> возвращается съ горячею водою, и сталъ мыть боч-<lb/> ку,
+                        что причиняетъ игрушку смѣшную, послѣ<lb/> чего онъ прочь пошолъ. Панталонъ
+                        весь замоченъ<lb/> жалуется женщинамъ, что онѣ терпятъ такъ ему<lb/> обижену
+                        быть. А онѣ когда хотѣли ему извиненïе<lb/> принести, тогда сталъ быть
+                        слышимъ Брïгеллъ.<lb/> Женьщины посадили его въ ящикъ къ Сабадïну, и<lb/>
+                        тамъ его заперли. Брïгеллъ выходить съ любовни-<lb/> ками нарядившимися въ
+                        Командïровъ приказныхъ<lb/> людеи, и говоритъ, что въ этомъ домѣ имѣ-<lb/>
+                        ются воры, и что онъ имѣетъ указъ заарестовать<lb/> ихъ. Любовники
+                        притворилися быть злыми, и ве-<lb/> лѣли отпереть ящикъ онои, изъ котораго
+                        выхо-<lb/> дятъ старики бьючи другь друга кулаками. Прит-<lb/> ворные
+                        командïры спрашиваютъ, кто изъ нихъ воръ.<lb/> Старики объвиняютъ другъ
+                        друга, и каждои даетъ<lb/> мешокъ съ денгами ложнымъ командïрамъ, чтобъ<lb/>
+                        <fw type="catch" place="bottom">одного</fw>
+                        <pb facs="#lavanobi_ru_012" n="12"/>
+                        <fw type="pageNum">12</fw> одного посадить въ тюрму. Что причиняетъ
+                        игру-<lb/> шку своиственную театру. На послѣдокъ старики<lb/> стали драться
+                        между собою; на тотъ ихъ крикъ<lb/> приходитъ Арлекïнъ съ палкою, чтобъ ихъ
+                        рознять.<lb/> Любовники о себѣ объявили, и тѣмъ в стыдъ при-<lb/> вели
+                        Стариков за дураческую их страсть к ино-<lb/> страннои женщине. Смералдïна
+                        сказываетъ объ<lb/> неи, кто она такова. Сабадинъ узналъ ея быть свою<lb/>
+                        дочерïю. Сïльвïи ея беретъ за себя. Бригеллъ хочетъ<lb/> взять Смералдïну.
+                        Арлекïнъ сказывается быть ея<lb/> мужемъ. Смералдïна объявляетъ, что она
+                        назвала<lb/> ево своим мужемъ для благочинïя, а что ея сердце<lb/> для
+                        Брïгелла, которому она даетъ свою руку. И<lb/> симъ двоинымъ бракомъ
+                        кончится</p>
+                    <p rend="indent">КОМЕДIЯ.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Die adliche Waͤscherin</title>
+                    <respStmt>
+                        <resp>Transcription and encoding by</resp>
+                        <name>Tatiana Korneeva</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Digital images</resp>
+                        <name>The Göttingen State and University Library</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>Università Ca' Foscari di Venezia – VeDPH</publisher>
+                    <date>December 2021</date>
+                    <availability>
+                        <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0
+                            Unported License</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Göttingen</settlement>
+                            <repository>The Göttingen State and University Library</repository>
+                            <idno type="shelfmark">SUB Göttingen, 8 P DRAM IV, 8250 (20a)
+                                RARA</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <measure unit="pages" quantity="8">8 pages of source
+                                            material</measure>
+                                        <height unit="cm">18,9</height>
+                                        <width unit="cm">14,6</width>
+                                        <depth unit="cm">0,1</depth>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="ge">German</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <facsimile>
+            <surface type="ge">
+                <graphic xml:id="lavanobi_ge_001" url="/img/lavanobi_ge_001.jpg"/>
+                <graphic xml:id="lavanobi_ge_002" url="/img/lavanobi_ge_002.jpg"/>
+                <graphic xml:id="lavanobi_ge_003" url="/img/lavanobi_ge_003.jpg"/>
+                <graphic xml:id="lavanobi_ge_004" url="/img/lavanobi_ge_004.jpg"/>
+                <graphic xml:id="lavanobi_ge_005" url="/img/lavanobi_ge_005.jpg"/>
+                <graphic xml:id="lavanobi_ge_006" url="/img/lavanobi_ge_006.jpg"/>
+                <graphic xml:id="lavanobi_ge_007" url="/img/lavanobi_ge_007.jpg"/>
+            </surface>
+        </facsimile>
+        <text>
+            <front>
+                <pb facs="#lavanobi_ge_001" n="1"/>
+                <head type="main">Die adliche Waͤscherin</head>
+                <head type="sub">welche<lb/> in einem<lb/> Jtaliaͤniſchen Schau-Spiele<lb/> an
+                    dem<lb/> Kayſerlichen Hofe<lb/> zu St. Petersburg<lb/>
+                    <date when="1733">1734.</date><lb/> vorgeſtellet worden.</head>
+                <pb facs="#lavanobi_ge_002" n="2"/>
+                <div type="preface">
+                    <head>Jnhalt.</head>
+                    <p rend="indent">Sabadino wird genoͤthiget, ſein Vaterland zu verlaſſen; Er
+                        uͤbergiebt da-<lb/> hero ſeine vier jaͤhrige Tochter an ſeinen Bruder
+                        Cassandro zur Auf-<lb/> ſicht und geht nach Pavia, um ſich von neuem
+                        daſelbſt zu etabliren. Dia-<lb/> na wird groß, verliebt ſich in einen
+                        Studenten, und als ſie beyde zu-<lb/> gleich von ihrem Vetter getroffen
+                        werden erſticht er denſelben. Solche<lb/> Umstaͤnde zwingen die Diana, die
+                        Flucht zu ergreiffen, und ſich indeſſen bey<lb/> ihrer guten Freundin der
+                        Smeraldina verborgen zu halten. Sie bittet dieſel-<lb/> be ſie biß nach
+                        Pavia zu begleiten, allwo ſie ihren Vater, den ſie nicht<lb/> kenne,
+                        aufſuchen wolle. Smeraldina wird mit ihr eines, weil ſie ſich ebenfals<lb/>
+                        in gedachter Stadt erkundigen will, wie ſich ihr alter Liebhaber, der
+                        Bri-<lb/> ghella, befindet. Damit aber beyde die Reiſe nicht allein
+                        unternehmen und<lb/> ſich den Gefaͤhrlichkeiten ausſtellen moͤgen, erſuchen
+                        ſie den Arlequin, einen<lb/> Gefaͤhrten abzugeben. Arlequin, der in die
+                        Smeraldina verliebt iſt, williget<lb/> in ihr Verlangen und als ſie in Pavia
+                        ankommen, geben ſie ſich fuͤr<lb/> Waͤscherinnen aus, um ihren
+                        Lebens-Unterhalt zu gewinnen; da denn<lb/> Smeraldina die Mutter, Arlequin
+                        den Vater und Diana die Tochter vorſtel-<lb/> len muß. Bey ſolcher
+                        Gelegenheit wird ſowohl Sabadino, der ſeine Toch-<lb/> ter nicht kennet, als
+                        auch Pantalon, in die Diana verliebt und ihre Eifer-<lb/> ſucht macht die
+                        Verwirrung des gantzen Stuͤckes.</p>
+                </div>
+                <castList>
+                    <head>Perſonen.</head>
+                    <castItem>
+                        <role xml:id="pantalone_ge">Pantalon</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="sabbadino_ge">Sabadino</role>
+                        <roleDesc>Vater der Diana.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_ge">Diana.</role>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_ge">Silvio und<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_ge">Odoardo</role>
+                        </castItem>
+                        <roleDesc>zwey gute Freunde.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_ge">Smeraldina</role>
+                        <roleDesc>die vermeyndte Mutter der<lb/> Diana Tochter des
+                            Sabadino.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_ge">Аrlequin</role>
+                        <roleDesc>der vermeyndte Mann der Smeraldina.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_ge">Brighella</role>
+                        <roleDesc>ein Gast-Wirth.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>Der Schau-Platz iſt in Pavia</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#lavanobi_ge_003" n="3"/>
+                <fw type="pageNum">3</fw>
+                <div type="act" n="1">
+                    <head>Die erſte Handlung.</head>
+                    <p rend="indent">Die Alten treten auf, reden von ihrer Freundſchafft, und<lb/>
+                        Pantalon vertrauet dem Sabadino ſeine Liebe gegen die junge<lb/> Waͤſcherin.
+                        Sabadino, der auch in ſie verliebt iſt, thut gantz boͤſe<lb/> und ſagt zu
+                        dem Pantalon, die Liebe ſchicke ſich nicht fuͤr ſein Alter,<lb/> und nennet
+                        dieſelbe eine Schwachheit des Verſtandes, da er doch<lb/> als ein Medicus
+                        der Seelen, durch ſeine Vorſtellungen dieſelbe he-<lb/> ben ſollte. Pantalon
+                        thut, als ob er gaͤntzlich hervon uͤberzeuget<lb/> ſey, und verſpricht ihm,
+                        ſich dieſer Leidenſchafft zu entledigen.<lb/> Sabadino staͤrcket ihn in
+                        ſeinem Vorſatze und Pantalon gehet hier-<lb/> auf ab. Sabadino bleibt auf
+                        dem Schau-Platz und ſaget, er ſey<lb/> bestuͤrtzt geworden, wie er gehoͤret,
+                        daß er den Pantalon zum Ne-<lb/> benbuhler bekommen; Allein es waͤre ihm
+                        lieb, daß er ihn durch<lb/> den guten Einfall davon abgebracht und nunmehro
+                        habe er be-<lb/> ſchloſſen, ſein Gluͤck bey ſeiner neuen Geliebten zu
+                        verſuchen.<lb/> Hierauf koͤmmt Brighella und nachdem er demſelben ſeine
+                        Freund-<lb/> ſchafft verſichert, bittet er ihn, er moͤchte ihm in ſeiner
+                        Liebe be-<lb/> foͤrderlich ſeyn. Brighella verſpricht ſolches, und giebt ihm
+                        den<lb/> Rath, er ſolle ſich, ſo gut er koͤnne, ankleiden und ſeiner
+                        Ge-<lb/> liebten ein Preſent machen. Sabadino antwortet, es ſolle an<lb/>
+                        nichts fehlen und gehet ab. Brighella bleibt da und lacht, uͤber<lb/> die
+                        Schwachheit des alten Kerls. Smeraldina tritt auf, und<lb/> bezeuget ſich
+                        ſehr erfreut, ihn zu ſehen. Brighella welcher glaubet,<lb/> daß ſie
+                        Arlequins Frau ſey, verweiſet ihr ihre Untreue; Sie<lb/> aber vertraut ihm,
+                        daß Arlequin ihr Mann nicht ſey, und daß<lb/> ſie ihn nur, um des
+                        Wohlſtandes willen, ſo lange dafuͤr ausgeben<lb/> muͤſſe, biß Diana ihren
+                        Vater wieder gefunden. Sie verſpricht<lb/> zugleich, den Arlequin zu
+                        verlaſſen, und ſich mit ihm zu ver-<lb/> heyrathen. Brighella, der ſich
+                        uͤberreden laͤſſet, ſagt ihr von der<lb/> Liebe des Sabadins gegen die
+                        Diana, und giebt ihr den Rath,<lb/> ihre vermeynte Tochter dahin zu bewegen,
+                        das ſie ihm eine gu-<lb/> te Mine mache, um ihn zu berupfen. Sie verſpricht
+                        ſolches zu<lb/> thun: Beyde umfaſſen einander, woruͤber Arlequin dazu
+                        koͤmmt,<lb/> und ſeine Eiferſucht gegen der Brighella bezeiget. Beyde
+                        kom-<lb/> men zum Handgemenge, unter welchem Brighella, entwiſchet.<lb/>
+                        Arlequin schmaͤlet auf die Smeraldina, ſie aber ſtellet ſich, als<lb/> ob
+                        ſie ſelbſt von dem Brighella beleidiget worden und beklaget<lb/>
+                        <fw type="sig" place="bottom">(* 2)</fw>
+                        <fw type="catch" place="bottom">den</fw>
+                        <pb facs="#lavanobi_ge_004" n="4"/>
+                        <fw type="pageNum">4</fw> den Arlequin, worauf ſie sie wiederum vertragen.
+                        Arlequin ge-<lb/> het ab. Smeraldina rufft die Diana, befiehlet ihr, die
+                        Arbeit<lb/> fertig zu machen, ſagt ihr von der Liebe des Sabadino und
+                        giebt<lb/> ihr den Rath, ihn zu flattieren, um Geld zu gewinnen. Diana<lb/>
+                        macht allerley Schwuͤrigkeiten, wegen der Liebe die ſie gegen<lb/> den
+                        Silvio hat; Smeraldina, aber verſpricht ihr zur Belohnung, den<lb/> Silvio
+                        ſobald, als moͤglich, herbey zu ſchaffen. Nach dieſer Un-<lb/> terredung
+                        legen ſie Hand an ihre Arbeit. Sabadino, der ſich<lb/> herausgeputzet, trit
+                        auf und macht allerley laͤcherliche Compli-<lb/> menten. Beyde Frauenzimmer
+                        erweiſen ſich uͤberaus hoͤflich ge-<lb/> gen ihn und laſſen ihn zwiſchen
+                        ſich in der Mitte ſitzen. Sabadi-<lb/> no, der uͤber ſeine gute Auffnehmung
+                        gantz auſſer ſich ſelbſt iſt,<lb/> entdecket der Diana ſeine Liebe. Hierauf
+                        trit der Pantalon herein,<lb/> und da er den Sabadino ſo geputzt zwiſchen
+                        der Diana und Sme-<lb/> raldina ſitzen ſiehet, treibt er ſeinen Spott mit
+                        ihm, daß er ihn<lb/> den Nahmen eines Medici der Seelen gegeben. Beyde
+                        begegnen<lb/> einander ſehr uͤbel, und das Frauenzimmer ſchleichet ſich,
+                        unter dieſen<lb/> Zancke, weg; Und Sabadino geht im Zorn gleichfals von
+                        dem<lb/> Schau-Platze; Pantalon aber ſagt, er wolle ihm ſchon einen<lb/>
+                        Streich ſpielen, ſich auch gut ankleiden und ſeine Freygebigkeit ſe-<lb/>
+                        hen laſſen. Er gehet ab.</p>
+                    <p rend="indent">Smeraldina und Diana kommen zuruͤck und ſagen, ſie waͤ-<lb/>
+                        ren ſehr betreten, daß beyde Alten an einander gerathen, ſie woll-<lb/> ten
+                        aber ſich beyder laͤcherliche Schwachheit zu Nutze machen.<lb/> Hierauf
+                        koͤmmt Silvio mit dem Odoardo und zeiget ihm ſeine Ge-<lb/> liebte. Odoardo
+                        wuͤnſchet ihm Gluͤck zu einer ſo guten Wahl,<lb/> Silvio aber nahet ſich mit
+                        einigen Complimenten der Diana. Indeſ-<lb/> ſen trit der Arlequin herein,
+                        und iſt ſehr bestuͤrtzt, wie er die bey-<lb/> den jungen Herrn gewahr wird.
+                        Dieſe machen, den Vorwand,<lb/> ſie waͤren wegen ihrer Waͤſche hierher
+                        gekommen. Arlequin<lb/> thut gantz stoltz, das Frauenzimmer aber gehet weg.
+                        Silvio und<lb/> Odoardo ſuchen den Arlequin zu beſaͤnfftigen und wie ſie
+                        ihren<lb/> Zweck erlanget, bitten ſie ihn, mit in den Gaſthof zu gehen
+                        und<lb/> mit ihnen die Mahlheit zu verzehren, ſo ſie fuͤr etliche gute
+                        Freun-<lb/> de, die aber auſſen geblieben waͤren, zurecht machen laſſen.
+                        Sie<lb/> gehen ab.</p>
+                    <fw type="catch" place="bottom">Sme-</fw>
+                    <pb facs="#lavanobi_ge_005" n="5"/>
+                    <fw type="pageNum">5</fw>
+                    <p rend="indent">Smeraldina und Diana kommen zuruͤcke, schmaͤhlen auf die<lb/>
+                        Unhoͤfflichkeit des Arlequins und gehen wieder an ihre Arbeit.<lb/>
+                        Pantalon, der ſich geputzet, koͤmmt herein, und ſetzet ſich zwiſchen
+                        bey-<lb/> de Frauenzimmer. Sabadino koͤmmt gleichfals, und wie er den<lb/>
+                        Pantalon gewahr wird, lacht er ihn aus, worauf beyde ſich Muͤ-<lb/> he
+                        geben, ihre Geſchencke bey der Diana anzubringen. Inzwiſchen<lb/> koͤmmt
+                        Arlequin aus dem Gaſthof zuruͤck, und wie die Frauen-<lb/> zimmer ſeine
+                        Stimme hoͤren, gehen ſie eiligſt mit den Geſchencken<lb/> fort. Arlequin
+                        macht mit den zwey Alten allerley Poſſen, mit<lb/> welchen ſich die erſte
+                        Handlung beſchließet.</p>
+                </div>
+                <div type="act" n="2">
+                    <head>Die andere Handlung.</head>
+                    <p rend="indent">Arlequin trit auf und ſagt zu dem Brighella, er wolle<lb/>
+                        nichts mehr von ſeiner Freundſchafft hoͤren, weil er Urheber waͤre,<lb/> das
+                        die Alten in ſein Frauenzimmer verliebt geworden, wel-<lb/> ches ihn
+                        noͤthigte ſeine Bude zu zuſchlieſſen. Brighella troͤſtet ihn<lb/> und ſagt,
+                        er ſolle nicht eiferſuͤchtig ſeyn; Die Liebe der Alten waͤre<lb/> ja ſein
+                        Gluͤck, ohne der Ehre ſeiner Familie tort zu thun; Wenn er<lb/> ſeinem Rathe
+                        folgen wolle, ſo koͤnne er viel Geld gewinnen und<lb/> mit den Alten ſeinen
+                        Spaß treiben. Arlequin laͤſſet ſich uͤberreden<lb/> und Brighella giebt ihm
+                        den Rath, er ſolle ſich wie einen Zauberer<lb/> ankleiden und bey den Alten
+                        vorgeben, er koͤnne ſie mit zwey Ringen<lb/> unſichtbar machen, wenn ſie
+                        ſelbige an den Fingern truͤgen. Ar-<lb/> lequin faͤllt ihm bey und gehet
+                        fort, die Sache in das Werck zu-<lb/> richten. Brighella bleibt und als der
+                        Pantalon koͤmmt bittet ihn<lb/> derſelbe zu erlauben, daß er dem
+                        Frauenzimmer ſeine Aufwartung<lb/> machen koͤnnte. Brighella antwortet, es
+                        ſey ſolches ſehr ſchwer,<lb/> weil die Bude bereits zugeſchloſſen, wenn er
+                        aber etwas daran wen-<lb/> den wollte, ſo kenne er einen Zauberer, der,
+                        mittelſt eines Rin-<lb/> ges die Leute unſichtbar machen koͤnnte. Pantalon
+                        iſt erfreuet und<lb/> ſagt, er wolle alles erfoderliche bezahlen. Brighella
+                        ſtellet ſich, als<lb/> ob er viel Geſchaͤffte habe und rufft den Arlequin.
+                        Dieſer trit, als<lb/> ein Zauberer, herein, redet viel unverstaͤndliche
+                        Worte und giebt<lb/> dem Pantalon 10 Rubel fuͤr den Ring. Brighella ſagt, er
+                        ſolle die Probe<lb/> machen, und wie Pantalon den Ring an den Finger
+                        ſtecket, ſtellet er<lb/> ſich, als ob er ihn nicht ſehe. Pantalon freuet
+                        ſich uͤber den Streich<lb/> und gehet fort. Brighella ſagt, er wolle Sorge
+                        tragen, daß der<lb/> andere Ring, auf gleiche Art, bey dem Sabadino
+                        angebracht wuͤrde;<lb/> woruͤber die Smeraldina auftrit und ſaget, ſie
+                        muͤſſe numehro, da<lb/>
+                        <fw type="sig" place="bottom">(* 3)</fw>
+                        <fw type="catch" place="bottom">ihre</fw>
+                        <pb facs="#lavanobi_ge_006" n="6"/>
+                        <fw type="pageNum">6</fw> ihre Bude zugemacht worden, die Waͤſche an
+                        diejenigen wiederbrin-<lb/> gen, denen ſie gehoͤre. Brighella verſpricht
+                        ihr, huͤlffliche Hand<lb/> zuleiſten, erzehlet ihr, was er wegen der
+                        Unſichtbarkeit der Alten<lb/> veranſtaltet und bittet ſie, ſie moͤchte ſich
+                        ſtellen, als ob ſie ſolche<lb/> ebenfals glaube; Er waͤre im Begriff den
+                        andern Ring dem Saba-<lb/> dino beyzubringen und alles Geld, ſo ſie zoͤgen,
+                        ſollte allein ihre ſeyn.<lb/> Smeraldina bedancket ſich und gehet weg. Die
+                        Liebhaber treten auf<lb/> und Brighella erzehlet ihnen, was er wegen der
+                        Alten fuͤr Anſtal-<lb/> ten gemacht, und daß er den Sabadino aufſuchen
+                        wolle, um ihm den<lb/> andern Ring zugeben. Immittelſt hoͤrt man den
+                        Pantalon. Bri-<lb/> ghella ſagt zu den Liebhabern, ſie ſollten ſich ſtellen,
+                        als ob ſie glau-<lb/> ben, daß er unſichtbar ſey. Pantalon trit auf und
+                        ſaget, er habe den<lb/> Ring an dem Finger. Brighella thut als ob er ſeine
+                        Stimme zwar<lb/> hoͤre, ihn aber nicht ſehen, koͤnnte. Pantalon freuet ſich
+                        hieruͤber.<lb/> Brighella ſagt, er ſolle den Ring am Finger behalten; ſein
+                        Rival<lb/> Sabadino ſuche ihn in der gantzen Stadt auf. Hierauf ſtellen
+                        ſich<lb/> die Liebhaber, als ob ſie Streit mit dem Brighella haͤtten, und
+                        bey<lb/> dieſer Gelegenheit geben ſie dem Pantalon einen Schlag nach dem
+                        an-<lb/> dern, und gehen mit dem Brighella fort. Pantalon bleibt und als
+                        die<lb/> Smeraldina herbey koͤmmt, ſtellet ſie ſich gleichfals an, als ob
+                        ſie<lb/> ihn nicht ſehe, und wie er in das Hauß gehen will, macht ſie
+                        die<lb/> Thuͤre zu. Pantalon aber gehet weg, um eine Leiter zu hohlen.</p>
+                    <p rend="indent">Brighella trit auf und giebt dem Sabadino den Ring, der ihn
+                        un-<lb/> ſichtbar machen ſoll, und wie dieſer die Probe gemacht, giebt
+                        er<lb/> jenem einen Beutel mit Gelde. Brighella ſagt zu ihm, Pantalon<lb/>
+                        lauffe, wie ein Narr, mit einer Leiter in der Stadt umher und<lb/> gehet ab.
+                        Sabadino ſagt, er wolle ſich an ſeinem Neben-Buhler<lb/> raͤchen und ſo bald
+                        er kommen wuͤrde, den Ring an den Finger<lb/> ſtecken. Pantalon erſcheinet
+                        mit ſeinem Ringe. Ein jeder von den<lb/> Alten glaubet, er ſey unſichtbar
+                        und wie beyde auf der Lei-<lb/> ter in das Hauß wollen, verhindert ſie die
+                        Smeraldina; mit welchen<lb/> Poſſen ſich die andere Handlung endiget.</p>
+                </div>
+                <div type="act" n="3">
+                    <head>Die dritte Handlung.</head>
+                    <stage>Der Schau-Platz ſtellet ein Zimmer vor, in welchen<lb/> ein Faß und ein
+                        Kaſten ſtehet.</stage>
+                    <p rend="indent">Smeraldina und Diana treten auf und beklagen ſich uͤber den
+                        Ar-<lb/> lequin, der ſie genoͤthige, ihre Bude zu zuschlieſſen, woruͤber
+                        ſie<lb/> ihre Kunden verlohren und numehro nicht wuͤſten, wie ſie ihr leben<lb/>
+                        <fw type="catch" place="bottom">hin-</fw>
+                        <pb facs="#lavanobi_ge_007" n="7"/>
+                        <fw type="pageNum">7</fw> hinbringen ſollte. Arlequin antwortet, er wolle
+                        alles verkauffen, was<lb/> in dem Hauſe waͤre. Die Frauen-Zimmer erwiedern,
+                        daß ihr<lb/> gantzer Haußrath in dieſem Faſſe und den Kaſten bestuͤnde.
+                        Arle-<lb/> quin ſagt, er wolle beydes verkauffen und gehet fort, einen
+                        Kaͤuffer<lb/> zu ſuchen. Smeraldina ſagt der Diana von der vermeynten
+                        Unſicht-<lb/> barkeit der beyden Alten und wenn ſie kaͤmen, ſollte ſie ſich
+                        ſtel-<lb/> len, als ob ſie ebenfals von derſelben uͤberzeuget waͤre. Sie
+                        gehet<lb/> ab. Diana ſetzet ſich nieder und faͤngt an zu nehen, indeſſen
+                        trit<lb/> der Pantalon herein, und weil er glaubet, daß er unſichtbar ſey,
+                        macht<lb/> er allerley Poſſen und nahet ſich der Diana, welche, verſtelleter
+                        Weiſe,<lb/> ihr Erſtaunen bezeiget, daß ſie ſeine Stimme hoͤre und ihn
+                        gleich-<lb/> wohl nicht ſehe. Um ſie der Furcht zu entledigen nimmt Pantalon
+                        den<lb/> Ring ab. Diana ſtellet ſich gantz erſchrecken und rufft die
+                        Smeral-<lb/> dina, welche boͤſe thut und ſagt wenn Arlequin ihr Mann
+                        dazukom-<lb/> men ſollte, wuͤrden ſie ungluͤklich ſeyn. Pantalon ſucht ſie
+                        zu frie-<lb/> den zu ſtellen und erzehlet die Tugend von ſeinem Ringe.
+                        Smeral-<lb/> dina und Diana nehmen den Ring auf die Probe. Indeſſen
+                        hoͤren<lb/> die Frauenzimmer den Arlequin und ſtellen ſich, als ob ſie in
+                        Ver-<lb/> zweiffelung gerethen. Pantalon fodert ſeinen Ring wieder, um
+                        ſich<lb/> unſichtbar zu machen; Sie aber ſchlagen es ihm ab, noͤthigen ihn,
+                        in<lb/> das Faß zuſteigen und gehen an ihre Arbeit. Sabadino trit auf<lb/>
+                        und weil er ſich ebenfals unſichtbar zu ſeyn glaubet, macht er erſt<lb/>
+                        allerley Poſſen mit dem Frauenzimmer und ziehet alsdenn den Ring<lb/> auch
+                        ab. Die Frauenzimmer thun bestuͤrtzt und nehmen ihm den-<lb/> ſelben weg.
+                        Arlequin laͤſſet ſich hoͤren. Sabadino will ſeinen Ring.<lb/> Alle in die
+                        Frauenzimmer ſtellen ſich gantz verwirrt ſperren ihn in<lb/> den Kaſten und
+                        ſetzen ſich wieder nieder zu nehen. Arlequin koͤmmt<lb/> herein und bittet
+                        den Brighella das Faß und den Kaſten zu kauffen.<lb/> Brighella antwortet er
+                        wolle zu ſehen, daß er ihnen dienen koͤnnte.<lb/> Er beſiehet das Faß und
+                        ſagt, es waͤre gantz verſchimmelt. Arle-<lb/> quin antwortet, er wolle
+                        veranſtalten, daß es rein gemacht wuͤrde.<lb/> Brighella ſagt er wolle Leute
+                        hohlen und gehet fort. Pantalon<lb/> erklaͤret ſich gegen das Frauenzimmer,
+                        er koͤnne nicht laͤnger in dem<lb/> Faſſe bleiben. Inmittelſt koͤmmt der
+                        Arlequin mit Waſſer zuruͤck;<lb/> um das Faß auszuſpuͤlen, und nachdem er
+                        allerley Poſſen gemacht,<lb/> gehet er weg. Pantalon, der uͤber und uͤber
+                        naß geworden, beklaget<lb/> ſich gegen das Frauenzimmer, daß ſie zulieſſen,
+                        daß man mit ihm<lb/> auf dieſe Art verfuͤhre, und indem ſie ſich
+                        entſchuldigen wollen,<lb/>
+                        <fw type="catch" place="bottom">hoͤ-</fw>
+                        <pb facs="#adlw-8" n="8"/>
+                        <fw type="pageNum">8</fw> hoͤren ſie, daß Brighella koͤmmt. Die Frauenzimmer
+                        ſtecken den<lb/> Pantalon in den Kaſten zu den Sabadino und machen ihm zu.
+                        Bri-<lb/> ghella koͤmmt mit den Liebhabern zuruͤck, und ſich als
+                        Gerichts-Die-<lb/> ner verkleidet und ſagt, er habe gehoͤret, daß in dieſem
+                        Hauſe Diebe<lb/> waͤren und er ſey mit Befehl verſehen, dieſelben
+                        aufzuſuchen und in<lb/> Arreſt zu nehmen. Die Liebhaber machen den Kaſten
+                        auf, und als<lb/> die Alten herausſteigen, fragen ſie die verſtellten
+                        Gerichts-Diener,<lb/> welcher von beyden der Dieb ſey? Einer giebt den
+                        andern dafuͤr<lb/> aus und jeder reicht ſeinen Geld-Beutel hin, um den
+                        andern in Ar-<lb/> reſt nehmen zu laſſen. Zuletzt gerathen die Alten ſelbſt
+                        in ein Hand-<lb/> gemenge und Arlequin bringt ſie mit Stock-Schlaͤgen von
+                        einander.<lb/> Die Liebhaber geben ſich zu erkennen und lachen uͤber die
+                        Schwach-<lb/> heit der Alten. Diana ſagt wer ſie ſey. Sabadino erkennet ſie
+                        fuͤr<lb/> ſeine Tochte und Silvio heyrathet ſie. Brighella will die
+                        Smeraldina<lb/> haben; Arlequin aber ſagt, er ſey ihr Mann. Smeraldina
+                        antwor-<lb/> tet, ſie habe ihn nur, um des Wohlſtandes, will fuͤr ihren
+                        Mann<lb/> ausgegeben, ihre Neigung aber waͤre auf den Brighella
+                        gerichtet;<lb/> worauf ſie ihm die Hand giebt, und mit dieſer doppelten
+                        Heyrath<lb/> wird der Beſchluß des gantzes Schau-Spieles gemacht.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La lavandaia nobile</title>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>La traduzione ha preso in considerazione la versione in lingua russa.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italian</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <front>
+                <pb facs="#dvor-1" n="1"/>
+                <head type="main">LA LAVANDAIA NOBILE</head>
+                <head type="sub">COMMEDIA ITALIANA<lb/> RAPPRESENTATA A SAN PIETROBURGO<lb/><date when="1734">nell'anno 1734.</date></head>
+                <pb facs="#dvor-2"/>
+                <div type="preface">
+                    <head>ARGOMENTO.</head>
+                    <p rend="indent">SABADINO, costretto a lasciare la sua patria, affida la figlia
+                        Diana di quattro anni al fratello Cassandro e si trasferisce a Pavia.
+                        Diventata grande, Diana si innamora di studente. Mentre parla con lui, lo
+                        zio entra e uccide il ragazzo. Ciò induce la nipote a fuggire e a
+                        nascondersi presso l’amica Smeraldina, che convince a partire insieme a lei
+                        per Pavia alla ricerca del padre che non conosce. Smeraldina acconsente
+                        perché Brighella, suo antico innamorato, è andato a vivere in quella città.
+                        Poiché non vogliono viaggiare da sole, Smeraldina chiede ad Arlecchino di
+                        accompagnarle. Innamorato di Smeraldina, Arlecchino acconsente. Giunti a
+                        Pavia, Smeraldina si finge la madre di Diana e Arlecchino suo padre; le due
+                        donne per sopravvivere cominciano a fare le lavandaie. In questa occasione,
+                        Sabadino, non riconoscendo in Diana la propria figlia, si innamora di lei,
+                        come anche Pantalone. La rivalità dei vecchi costituisce l’intreccio della
+                        commedia.</p>
+                </div>
+                <pb facs="#dvor-3"/>
+                <castList>
+                    <head>PERSONAGGI.</head>
+                    <castItem>
+                        <role xml:id="pantalone_it">PANTALONE.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="sabbadino_it">SABADINO,</role>
+                        <roleDesc>padre di Diana.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="diana_it">Diana.</role>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role xml:id="silvio_it">SILVIO, e<lb/></role>
+                        </castItem>
+                        <castItem>
+                            <role xml:id="odoardo_it">ODOARDO.</role>
+                        </castItem>
+                        <roleDesc>друзья.</roleDesc>
+                    </castGroup>
+                    <castItem>
+                        <role xml:id="smeraldina_it">SMERALDINA,</role>
+                        <roleDesc>finta madre di Diana.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="arlecchino_it">ARLECCHINO,</role>
+                        <roleDesc>finto marito di Smeraldina.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="brighella_it">BRIGHELLA,</role>
+                        <roleDesc>servitore in una locanda.</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>L’azione si svolge a Pavia.</p>
+                </set>
+            </front>
+            <body>
+                <pb facs="#dvor-4" n="4"/>
+                <div type="act" n="1">
+                    <head>ATTO PRIMO.</head>
+                    <p rend="indent">I vecchi entrano parlando della loro amicizia di vecchia data e
+                        Pantalone racconta a Sabadino del suo amore per una giovane lavandaia.
+                        Sabadino, anche lui innamorato della stessa ragazza, finge di essere
+                        sorpreso. Risponde che Pantalone è troppo vecchio per innamorarsi e che la
+                        sua infatuazione è soltanto una debolezza della mente che egli, essendo un
+                        dottore dell’anima, è costretto a curare con i suoi ragionamenti. Pantalone
+                        finge di essere stato convinto dalle parole di Sabadino e gli promette di
+                        liberarsi della sua passione. Nonostante questa promessa, Sabadino continua
+                        a insistere. Pantalone esce; Sabadino rimane e dice di essere molto triste
+                        che il suo amico sia diventato il suo rivale in amore. Si mostra però
+                        contento di essere riuscito a persuaderlo ad abbandonare la sua passione e
+                        dice di volerci provare con la ragazza. Entra Brighella e Sabadino, dopo
+                        aver scambiato dei segni di amicizia, chiede Brighella di aiutarlo nel
+                        conquistare l’amore della lavandaia. Brighella glielo promette e gli
+                        consiglia di indossare i vestiti puliti e di fare un regalo alla sua amata.
+                        Sabadino risponde che lo farà e se ne va. Brighella rimane e rimprovera la
+                        stupidità del vecchio. Entra Smeraldina molto felice di vedere Brighella.
+                        Brighella, pensando che Smeraldina sia sposata con Arlecchino, le rimprovera
+                        la sua infedeltà. Smeraldina gli racconta che Arlecchino non è suo marito e
+                        che lei finge di essere sposata per ragioni di decoro finché Diana non trova
+                        il padre. Gli promette poi di lasciare Arlecchino e diventare <pb facs="#dvor-5" n="5"/> sua moglie. Egli le crede e la mette al corrente
+                        dell’amore di Sabadino per Diana, le consiglia di insegnare alla ragazza
+                        come deve comportarsi con Sabadino per svuotargli le tasche. Smeraldina
+                        glielo promette e i due si abbracciano. In quel momento arriva Arlecchino e,
+                        geloso di Brighella, fa molti lazzi teatrali. Brighella comincia a
+                        provocarlo e così fa anche Arlecchino. I due litigano, dopodiché Brighella
+                        esce. Arlecchino litiga anche con Smeraldina che finge di essere disonorata
+                        e comincia a piangere. Arlecchino si calma, fanno pace e Arlecchino esce.
+                        Smeraldina chiama Diana e le ordina di non smettere di fare le sue faccende
+                        e intanto le racconta dell’infatuazione di Sabadino consigliandole di
+                        fingere di lusingarlo per spennarlo. Diana rifiuta perché ama Silvio.
+                        Smeraldina le promette che alla fine starà con Silvio. Cominciano a
+                        lavorare. In quel momento arriva Sabadino con un vestito pulito e fa i
+                        complimenti alle ragazze. Anche loro lo lusingano e lo fanno sedere in mezzo
+                        a loro. Molto contento, Sabadino dichiara il suo amore per Diana. Entra
+                        Pantalone e si sorprende nel vedere Sabadino vestito in quel modo e seduto
+                        tra Diana e Smeraldina. Lo prende in giro per avere detto di essere il
+                        dottore dell’anima e i due cominciano a litigare. Le ragazze escono.
+                        Furibondo, va via anche Sabadino. Pantalone dice di voler far arrabbiare
+                        Sabadino ancora di più vestendosi anche lui nello stesso modo e mostrandosi
+                        generoso ed esce.</p>
+                    <p rend="indent">SMERALDINA e Diana, tornando, dicono <pb facs="#dvor-6" n="6"/>
+                        di essere dispiaciute per la rivalità tra i due vecchi, vogliono tuttavia
+                        approfittare della loro ridicola passione. In questo momento entra Silvio
+                        per mostrare la sua amata a Odoardo che approva la scelta dell’amico. Silvio
+                        si avvicina e fa i complimenti a Diana. Arriva Arlecchino che, vedendo i due
+                        giovani nobili, si arrabbia. I due dicono di essere venuti per ritirare i
+                        polsini, ma Arlecchino non si calma. Le ragazze escono. Silvio e Odoardo
+                        cercano di placarlo e ci riescono promettendogli di portarlo alla locanda
+                        per aiutarli a mangiare quello che avevano ordinato giacché i loro amici non
+                        possono venire. Silvio e Odoardo escono.</p>
+                    <p rend="indent">SMERALDINA e Diana ritornano imprecando contro la maleducazione
+                        di Arlecchino e si mettono a lavorare. Entra di nuovo Pantalone vestito di
+                        tutto punto, fa i complimenti e si siede in mezzo a loro. Nel frattempo
+                        arriva Sabadino e, vedendo Pantalone, comincia a prenderlo in giro. Poi
+                        ognuno dei vecchi cerca di consegnare a Diana il suo regalo come pegno
+                        d’amore, il che dà il via a uno scherzo scenico divertente. Si sente
+                        Arlecchino tornare dalla locanda. Sentendo la sua voce, le ragazze scappano
+                        con i regali. I vecchi rimangono ed entra Arlecchino mezzo ubriaco. Da
+                        questo nasce un lazzo divertente con cui si chiude il primo atto.</p>
+                </div>
+                <pb facs="#dvor-7" n="7"/>
+                <div type="act" n="2">
+                    <head>ATTO SECONDO.</head>
+                    <p rend="indent">Entra ARLECCHINO dicendo a Brighella di non aver più bisogno
+                        della sua amicizia perché sa che Brighella sta aiutando i vecchi a
+                        conquistare l’amore delle sue donne e per questo è stato costretto a
+                        chiudere la sua bottega. Brighella gli risponde di non essere geloso anzi
+                        tempo perché l’amore dei vecchi potrebbe diventare un affare redditizio
+                        senza danneggiare l’onore della sua famiglia. Aggiunge che, se Arlecchino
+                        vorrà seguire i suoi consigli, potrà ricavare dei soldi ingannando i vecchi.
+                        Arlecchino accetta il consiglio. Brighella gli ordina di vestirsi da mago e
+                        di dire ai vecchi che può renderli invisibili con l’aiuto di due anelli che
+                        loro dovranno mettere al dito. Arlecchino trova ottima la sua idea ed esce
+                        per metterla in pratica. Arriva Pantalone e, vedendo Brighella, gli chiede
+                        aiuto per entrare nella bottega. Brighella risponde che è difficile perché
+                        la bottega è chiusa, ma, se Pantalone è disposto a spendere un po’ di soldi,
+                        conosce un mago che possiede un anello magico che, se indossato, rende
+                        invisibili. Pantalone è entusiasta e risponde che sarebbe pronto a pagare
+                        qualsiasi cosa. Brighella fingendo di essere molto servile, chiama
+                        Arlecchino. Vestito da mago, Arlecchino, dopo aver eseguito molti scherzi
+                        scenici e pronunciato molte parole misteriose, concede il suo anello a
+                        Pantalone per dieci rubli. Brighella invita Pantalone a provarlo. Pantalone
+                            <pb facs="#dvor-8" n="8"/> lo indossa e Brighella finge di non vederlo.
+                        Pantalone è contento e dopo molti lazzi esce. Brighella dice che proverà a
+                        consegnare l’altro anello a Sabadino e gli dirà la stessa cosa che ha detto
+                        a Pantalone. Entra Smeraldina in tutta fretta e dice di aver dovuto chiudere
+                        la bottega per correre a consegnare il bucato ai padroni. Brighella promette
+                        di aiutarla e le racconta della falsa invisibilità dei vecchi; le dice che
+                        la ragazza deve fingere di non vederli. Pantalone ha già l’anello che pensa
+                        sia magico e ora lui sta andando da Sabadino a consegnargli l’altro anello.
+                        Tutti i soldi che guadagnerà con questo imbroglio saranno di Smeraldina. Lei
+                        lo ringrazia e se ne va. Brighella rimane. Entrano gli Innamorati a cui
+                        Brighella racconta tutto sui vecchi e che sta andando da Sabadino per
+                        portargli l’anello. Nel frattempo si sente la voce di Pantalone, e Brighella
+                        dice agli Innamorati che per divertirsi devono fingere di non vederlo. Entra
+                        Pantalone dicendo di aver indossato l’anello. Brighella finge di sentire
+                        soltanto la sua voce. Pantalone ne è molto contento. Brighella gli dice di
+                        indossare sempre quell’anello e gli racconta che il suo rivale sta girando
+                        per la città come un ubriaco. Gli Innamorati fingono di litigare con
+                        Brighella perché non riescono a vedere il vecchio e cominciano a picchiarlo,
+                            <pb facs="#dvor-9" n="9"/> il che crea un lazzo divertente. Dopodiché
+                        gli Innamorati e Brighella escono. Pantalone rimane credendosi invisibile.
+                        Arriva Smeraldina che, informata da Brighella su cosa bisogna fare, finge di
+                        essere sorpresa di parlare con il vecchio senza vederlo e fa molti scherzi
+                        scenici. Poi dice che vuole andare a casa sua. Pantalone la segue pensando
+                        sempre di essere invisibile. Ma Smeraldina gli sbatte il portone in faccia.
+                        Pantalone si allontana con l’intenzione di trovare una scala. Entra
+                        BRIGHELLA e consegna a Sabadino l’anello che rende invisibili e gli chiede i
+                        soldi. Credendo a Brighella, Sabadino prova l’anello e gli consegna il
+                        portafoglio con i soldi. Brighella gli racconta che Pantalone sta girando
+                        per la città come un pazzo con una scala sulla schiena ed esce. Sabadino
+                        rimane e dice di volere vendicarsi del suo rivale di cui nel frattempo si
+                        sente la voce. Sabadino indossa l’anello. Entra Pantalone con l’anello sul
+                        dito. Ognuno si crede invisibile. Pantalone mette la scala davanti alla
+                        finestra di Smeraldina e comincia a salire. Sabadino lo segue; ciò crea un
+                        lazzo divertente con cui finisce il secondo atto.</p>
+                </div>
+                <pb facs="#dvor-10" n="10"/>
+                <div type="act" n="3">
+                    <head>ATTO TERZO.</head>
+                    <stage>LA SCENA MOSTRA UNA CAMERA CON UNA BOTTE E UNA CASSA DI LEGNO.</stage>
+                    <p rend="indent">SMERALDINA e Diana entrano rimproverando Arlecchino perché per
+                        colpa sua sono state costrette a chiudere la bottega perdendo tutti i loro
+                        clienti costituiti da mercanti e ora non sanno di cosa vivere. Arlecchino
+                        dice di voler vendere tutto quello che hanno in casa. Le ragazze rispondono
+                        che tutti i loro beni consistono in una botte e una cassa. Arlecchino dice
+                        che venderà anche quelle e va a cercare un mercante. Smeraldina racconta a
+                        Diana della presunta invisibilità dei suoi due spasimanti e le chiede di
+                        fare finta di non vederli. Diana comincia a cucire. Entra Pantalone e,
+                        convinto di essere invisibile, fa molti scherzi scenici. Si avvicina a Diana
+                        che finge di prendere uno spavento sentendo la sua voce senza vederlo. Per
+                        tranquillizzarla, Pantalone si toglie l’anello. Diana finge di essere
+                        sorpresa e chiama Smeraldina, la quale, seccata, dice che, se dovesse
+                        arrivare suo marito Arlecchino e vedere un uomo nella loro camera,
+                        succederebbe qualche disgrazia. Pantalone rassicura le ragazze rivelando
+                        loro del potere del suo anello. Allora le ragazze lo prendono per guardarlo.
+                        Si sente la voce di Arlecchino e le ragazze fingono di essere disperate.
+                        Pantalone chiede indietro il suo anello per diventare invisibile, ma le
+                        ragazze non glielo restituiscono, costringendo il vecchio a entrare nella
+                        botte, e riprendono a lavorare. Arriva Sabadino, anche lui convinto di
+                        essere invisibile, <pb facs="#dvor-11"/> e fa molti lazzi teatrali con le
+                        ragazze. Poi si toglie l’anello. Le ragazze si mostrano spaventate e gli
+                        tolgono l’anello. Nel frattempo si sente di nuovo la voce di Arlecchino.
+                        Sabadino chiede indietro il suo anello, ma le ragazze si fingono confuse,
+                        nascondono il vecchio nella cassa e riprendono a lavorare. Entra Arlecchino
+                        chiedendo a Brighella di comprare la botte e la cassa. Brighella è
+                        d’accordo, ma prima vuole assicurarsi che i recipienti siano in buone
+                        condizioni. Controlla la botte e dice che puzza di marcio. Arlecchino
+                        promette di pulirla per bene. Brighella dice che nel frattempo andrà a
+                        chiamare qualcuno perché venga a prenderla ed esce. Pantalone dice alle
+                        ragazze che non vuole stare nella botte. Nel frattempo torna Arlecchino con
+                        dell’acqua bollente e comincia a lavare la botte; ciò dà origine a uno
+                        scherzo divertente. Arlecchino se ne va. Pantalone, tutto bagnato, si
+                        lamenta con le ragazze dicendo che non può sopportare una tale offesa. Loro
+                        si scusano, e si sente la voce di Brighella. Le ragazze mettono Pantalone
+                        nella cassa di Sabadino e lo chiudono. Arriva Brighella con i due Innamorati
+                        vestiti da cancellieri criminali dicendo che in quella casa ci sono dei
+                        ladri e lui ha l’ordine di arrestarli. Gli Innamorati fingono di essere
+                        molto cattivi, comandano di aprire la cassa, dalla quale escono i due vecchi
+                        che si prendono a botte. I falsi cancellieri chiedono chi dei due sia il
+                        ladro. I vecchi si accusano a vicenda e cercano di corrompere i cancellieri
+                        porgendo loro dei sacchetti di denaro per far <pb facs="#dvor-12" n="12"/>
+                        arrestare il rivale; da ciò nasce un lazzo divertente. Alla fine cominciano
+                        a picchiarsi l’un l’atro, alle loro grida accorre Arlecchino con un bastone
+                        per separarli. Gli Innamorati si rivelano, e così facendo fanno vergognare i
+                        vecchi della loro ridicola passione per una donna sconosciuta. Smeraldina
+                        racconta chi è Diana e Sabadino la riconosce come figlia sua. Silvio la
+                        prende in moglie. Brighella vuole sposare Smeraldina, ma Arlecchino sostiene
+                        di essere lui il marito. Smeraldina rivela che lo chiamava marito per
+                        salvaguardare l’onore, ma che il suo cuore appartiene a Brighella a cui
+                        concede la sua mano. Con questo doppio matrimonio finisce la</p>
+                    <p rend="indent">COMMEDIA.</p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
