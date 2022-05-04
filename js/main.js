@@ -52,10 +52,12 @@ const Comedig = {
 
     await this.importPeople();
 
-    this.populateMenu();
+    //this.populateMenu();
 
     this.maybeShowWork();
     this.maybeShowAgent();
+
+    this.createWorksPage();
   },
 
   // Here it processes a single XML file.
@@ -111,7 +113,7 @@ const Comedig = {
   },
 
   // Let's populate the menu with the list of works.
-  populateMenu() {
+  /*populateMenu() {
     this.populateMenuWorks();
     this.populateMenuAgents();
   },
@@ -128,6 +130,22 @@ const Comedig = {
       elmA.textContent = work.title;
       elmLi.appendChild(elmA);
       elm.appendChild(elmLi);
+    }
+  },*/
+
+  createWorksPage() {
+    if (!location.pathname.startsWith("/comedig/opere.html")) {
+      return;
+    }
+    var listWorks = document.getElementById("listWorks");
+    for (let workId in this.works) {
+      const work = this.works[workId];
+      const listWorksLi = document.createElement("li");
+      const listWorksA = document.createElement("a");
+      listWorksA.setAttribute("href", "/comedig/work?id=" + workId);
+      listWorksA.textContent = work.title;
+      listWorksLi.appendChild(listWorksA);
+      listWorks.appendChild(listWorksLi);
     }
   },
 
