@@ -85,6 +85,7 @@ const Comedig = {
       url: new URL(xmlFile, window.location),
       xmlDoc,
       title: "",
+      descr: "",
       versions: [],
       facsimiles: [],
     };
@@ -94,6 +95,14 @@ const Comedig = {
     } catch (e) {
       console.error("No teiCorpus found!");
       return;
+    }
+
+    // get more descriptive metadate from TEI header
+
+    try {
+      work.descr = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:teiHeader//tei:sourceDesc", xmlDoc).iterateNext().textContent;
+    } catch (e) {
+      work.descr = "info to be added"
     }
 
     const teiResult = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:TEI", xmlDoc);
@@ -133,6 +142,9 @@ const Comedig = {
     }
   },*/
 
+
+  // Function that creates an overview page of works contained in the project
+
   createWorksPage() {
     if (!location.pathname.startsWith("/comedig/opere.html")) {
       return;
@@ -140,12 +152,50 @@ const Comedig = {
     var listWorks = document.getElementById("listWorks");
     for (let workId in this.works) {
       const work = this.works[workId];
-      const listWorksLi = document.createElement("li");
+      
+      var listWorksDiv = document.createElement("div");
+      listWorksDiv.setAttribute("class", "titleContainer");
+      
+      var workTitle = document.createElement("div");
+      workTitle.setAttribute("class", "collapsible");
+      workTitle.textContent = work.title;
+
+      var workLink = document.createElement("a");
+      workLink.setAttribute("href", "/comedig/work?id=" + workId);
+      workLink.text = "LINK";
+      workTitle.appendChild(workLink);
+
+      var descText = document.createElement("div");
+      descText.setAttribute("class", "content");
+      descText.textContent = work.descr;
+      
+      listWorksDiv.appendChild(workTitle);
+      listWorksDiv.appendChild(descText);
+      listWorks.appendChild(listWorksDiv);
+
+
+
+      /*const listWorksLi = document.createElement("li");
       const listWorksA = document.createElement("a");
       listWorksA.setAttribute("href", "/comedig/work?id=" + workId);
       listWorksA.textContent = work.title;
       listWorksLi.appendChild(listWorksA);
-      listWorks.appendChild(listWorksLi);
+      listWorks.appendChild(listWorksLi);*/
+    }
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
     }
   },
 
@@ -446,7 +496,7 @@ SELECT ?name ?seeAlso WHERE {
       elmPagination.getElementsByClassName("paginationNextButton")[0].removeAttribute("disabled");
     }
 
-    elmPagination.getElementsByClassName("pageCount")[0].innerText = `Page ${page + 1} of ${pbs.length}`;
+    elmPagination.getElementsByClassName("pageCount")[0].innerText = `Pagina ${page + 1} su ${pbs.length}`;
     pbs[page].scrollIntoView();
   }
 };
