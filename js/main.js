@@ -291,7 +291,7 @@ const Comedig = {
       button.setAttribute("role", "tab");
       button.setAttribute("aria-controls", language);
       button.setAttribute("aria-selected", "true");
-      button.textContent = `Versione in ${language}`;
+      button.textContent = `Versione in ${translateLanTags(language)}`;
       li.appendChild(button);
 
       elmTabUl.appendChild(li);
@@ -326,7 +326,7 @@ const Comedig = {
 
       for (let elm of [ elmCompareA, elmCompareB]) {
         const option = document.createElement("option");
-        option.textContent = language;
+        option.textContent = translateLanTags(language);
         option.value = `version-${pos}`;
         elm.appendChild(option);
       }
@@ -336,7 +336,7 @@ const Comedig = {
       for (let elm of [ elmCompareA, elmCompareB]) {
         if (facsimile.images.length > 0) {
           const option = document.createElement("option");
-          option.textContent = `Facsimile ${facsimile.language}`;
+          option.textContent = `Facsimile ${translateLanTags(facsimile.language)}`;
           option.value = `facsimile-${pos}`;
           elm.appendChild(option);
         }
@@ -500,6 +500,18 @@ SELECT ?name ?seeAlso WHERE {
     elmPagination.getElementsByClassName("pageCount")[0].innerText = `Pagina ${page + 1} su ${pbs.length}`;
     pbs[page].scrollIntoView();
   }
+};
+
+
+/// Function that translates langauge attributes from TEI into Italian
+function translateLanTags(lang) {
+  if (lang == "Russian") {
+    return "russo";
+  } else if(lang == "Italian") {
+    return "italiano";
+  } else if (lang == "German") {
+    return "tedesco";
+  };
 };
 
 Comedig.init();
