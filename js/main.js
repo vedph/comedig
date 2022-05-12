@@ -157,12 +157,13 @@ const Comedig = {
       listWorksDiv.setAttribute("class", "titleContainer");
       
       var workTitle = document.createElement("div");
-      workTitle.setAttribute("class", "collapsible");
+      workTitle.setAttribute("class", "accordion");
       workTitle.textContent = work.title;
 
       var workLink = document.createElement("a");
       workLink.setAttribute("href", "/comedig/work?id=" + workId);
-      workLink.text = "LINK";
+      workLink.setAttribute("class", "titleContainer");
+      workLink.text = "\t🔗";
       workTitle.appendChild(workLink);
 
       var descText = document.createElement("div");
@@ -183,7 +184,7 @@ const Comedig = {
       listWorks.appendChild(listWorksLi);*/
     }
 
-    var coll = document.getElementsByClassName("collapsible");
+    var coll = document.getElementsByClassName("accordion");
     var i;
     
     for (i = 0; i < coll.length; i++) {

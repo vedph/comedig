@@ -1,8 +1,8 @@
-.collapsible {
-  background-color: #777;
-  color: white;
+.accordion {
+  /*background-color: #777;
+  color: white;*/
   cursor: pointer;
-  padding: 18px;
+  padding: 2px;
   width: 100%;
   border: none;
   text-align: left;
@@ -10,8 +10,9 @@
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
+.accordion:hover {
+  background-color: rgb(243, 220, 220);
+  font-weight: bold;
 }
 
 .content {
