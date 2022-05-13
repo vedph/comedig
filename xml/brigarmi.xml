@@ -40,8 +40,8 @@
                banchetto improvvisato da Brighella, una delle trovate particolarmente sfruttate
                dagli interpreti della commedia dell’arte.</p>
             <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
-               diverse  biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
-               per ogni  versione.</p>
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -73,6 +73,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">8 P DRAM IV, 8250 (2b) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN1756021627</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -634,6 +635,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">8 POET DRAM IV 8250 (2a) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN687700965</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>

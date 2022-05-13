@@ -163,7 +163,7 @@ const Comedig = {
       var workLink = document.createElement("a");
       workLink.setAttribute("href", "/comedig/work?id=" + workId);
       workLink.setAttribute("class", "titleContainer");
-      workLink.text = "\t🔗";
+      workLink.text = "  🔗";
       workTitle.appendChild(workLink);
 
       var descText = document.createElement("div");

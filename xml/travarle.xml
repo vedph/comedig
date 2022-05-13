@@ -733,6 +733,7 @@
                             <settlement>Göttingen</settlement>
                             <repository>The Göttingen State and University Library</repository>
                             <idno type="shelfmark">8 POET DRAM IV 8250 (7) RARA</idno>
+                            <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN687702461</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>

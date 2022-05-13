@@ -94,8 +94,8 @@
                impostore. Diana ha invece un duplice ruolo dell’innamorata e della servetta. Anche
                il ruolo di Smeraldina non è quello della servetta bensì dell’ostessa.</p>
             <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
-               diverse  biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
-               per ogni  versione.</p>
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -126,7 +126,8 @@
                   <msIdentifier>
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
-                     <idno type="shelfmark">8 P DRAM IV, 8250 (11b) RARA </idno>
+                     <idno type="shelfmark">8 P DRAM IV, 8250 (11b) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN1757470247</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -692,7 +693,8 @@
                   <msIdentifier>
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
-                     <idno type="shelfmark">8 P DRAM IV, 8250 (11a) RARA </idno>
+                     <idno type="shelfmark">8 P DRAM IV, 8250 (11a) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN687703840</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>

@@ -89,7 +89,8 @@
                         <msIdentifier>
                             <settlement>Göttingen</settlement>
                             <repository>The Göttingen State and University Library</repository>
-                            <idno type="shelfmark">8 P DRAM IV, 8250 (37b) RARA</idno>
+                            <idno type="shelfmark">8 P DRAM IV, 8250 (37) RARA</idno>
+                            <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN175625916X</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>

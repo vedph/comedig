@@ -86,6 +86,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (18b) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN1757475958"</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -513,6 +514,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (18a) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN687705045</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>

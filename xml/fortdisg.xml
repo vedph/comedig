@@ -39,8 +39,8 @@
                mettamorfosi di Arlecchino recitato a Dresda nel carnevale del 1753 dai comici
                italiani attivi alla corte di Augusto III di Sassonia.</p>
             <p>I testi a stampa delle versioni in lingua russa e tedesca sono preservate presso le
-               diverse  biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
-               per ogni  versione.</p>
+               diverse biblioteche. Per questa edizione rimandiamo alla descrizione dei facsimili
+               per ogni versione.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -76,6 +76,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (34b) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN1756246483</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
@@ -453,6 +454,7 @@
                      <settlement>Göttingen</settlement>
                      <repository>The Göttingen State and University Library</repository>
                      <idno type="shelfmark">SUB Göttingen, 8 Poet Dram IV, 8250 (34a) RARA</idno>
+                     <idno type="URI">http://resolver.sub.uni-goettingen.de/purl?PPN690059906</idno>
                   </msIdentifier>
                   <physDesc>
                      <objectDesc>
