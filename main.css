@@ -16,6 +16,8 @@
 
 
 #toc_container {
+  margin-right: auto;
+  margin-left: 10%;
   border: 1px solid #aaa;
   display: table;
   font-size: 95%;

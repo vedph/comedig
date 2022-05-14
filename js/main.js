@@ -87,8 +87,9 @@ const Comedig = {
       title: "",
       descr: "",
       versions: [],
-      facsimiles: [],
+      facsimiles: []
     };
+
 
     try {
       work.title = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:teiHeader//tei:title", xmlDoc).iterateNext().textContent;
@@ -158,7 +159,9 @@ const Comedig = {
       
       var workTitle = document.createElement("div");
       workTitle.setAttribute("class", "accordion");
-      workTitle.textContent = work.title;
+      workTitle.textContent = "> "
+      workTitle.textContent += work.title;
+      
 
       var workLink = document.createElement("a");
       workLink.setAttribute("href", "/comedig/work?id=" + workId);
@@ -169,6 +172,27 @@ const Comedig = {
       var descText = document.createElement("div");
       descText.setAttribute("class", "content");
       descText.textContent = work.descr;
+      
+      var downloadSection = document.createElement('p');
+      descText.append(downloadSection);
+
+
+      var xmllink = document.createElement("a");
+      xmllink.setAttribute("href", work.url);
+      xmllink.setAttribute("download",work.url.pathname.substring(work.url.pathname.lastIndexOf('/')+1));
+      xmllink.innerHTML = "Scarica il file TEI-XML";
+      
+      downloadSection.appendChild(xmllink);
+
+      var leggionline = document.createElement('p');
+      var workLinka = document.createElement("a");
+      workLinka.setAttribute("href", "/comedig/work?id=" + workId);
+      workLinka.setAttribute("class", "titleContainer");
+      workLinka.text = "Leggi online"
+      leggionline.appendChild(workLinka);
+      downloadSection.appendChild(leggionline);
+    
+      
       
       listWorksDiv.appendChild(workTitle);
       listWorksDiv.appendChild(descText);
@@ -314,7 +338,7 @@ const Comedig = {
           const elm = document.createElement("p");
           elm.setAttribute("class", "pageBreak");
           elm.innerText = `- ${elt.getAttribute("n")} -`;
-          elm.setAttribute("style", "color: red");
+          //elm.setAttribute("style", "color: red");
           return elm;
          },
         }});
@@ -511,6 +535,8 @@ function translateLanTags(lang) {
     return "italiano";
   } else if (lang == "German") {
     return "tedesco";
+  } else {
+    return lang;
   };
 };
 
