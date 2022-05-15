@@ -1,41 +1,40 @@
 // List of the XML files to be processed.
 const XMLFiles = [
+  "/comedig/xml/arlesmer.xml",
+  "/comedig/xml/arlestat.xml",
+  "/comedig/xml/brigarmi.xml",
+  "/comedig/xml/colomaga.xml",
   "/comedig/xml/amanriva.xml",
-"/comedig/xml/arcainca.xml",
-"/comedig/xml/arlesmer.xml",
-"/comedig/xml/arlestat.xml",
-"/comedig/xml/brigarmi.xml",
-"/comedig/xml/colomaga.xml",
-"/comedig/xml/convsmer.xml",
-"/comedig/xml/corrbuon.xml",
-"/comedig/xml/cortones.xml",
-"/comedig/xml/disgpant.xml",
-"/comedig/xml/dispnobi.xml",
-"/comedig/xml/diveacqu.xml",
-"/comedig/xml/dottvolt.xml",
-"/comedig/xml/fortdisg.xml",
-"/comedig/xml/franvene.xml",
-"/comedig/xml/gazznoti.xml",
-"/comedig/xml/granbasi.xml",
-"/comedig/xml/ingafort.xml",
-"/comedig/xml/lavanobi.xml",
-"/comedig/xml/litiinga.xml",
-"/comedig/xml/maggglor.xml",
-"/comedig/xml/magipiet.xml",
-"/comedig/xml/metaarle.xml",
-"/comedig/xml/munimarc.xml",
-"/comedig/xml/nascarle.xml",
-"/comedig/xml/nascondi.xml",
-"/comedig/xml/onorpove.xml",
-"/comedig/xml/quatarle.xml",
-"/comedig/xml/respapol.xml",
-"/comedig/xml/sansone.xml",
-"/comedig/xml/scavstec.xml",
-"/comedig/xml/smerodia.xml",
-"/comedig/xml/smerspir.xml",
-"/comedig/xml/spergiur.xml",
-"/comedig/xml/travarle.xml",
-
+  "/comedig/xml/diveacqu.xml",
+  "/comedig/xml/corrbuon.xml",
+  "/comedig/xml/dottvolt.xml",
+  "/comedig/xml/franvene.xml",
+  "/comedig/xml/granbasi.xml",
+  "/comedig/xml/munimarc.xml",
+  "/comedig/xml/nascondi.xml",
+  "/comedig/xml/litiinga.xml",
+  "/comedig/xml/respapol.xml",
+  "/comedig/xml/quatarle.xml",
+  "/comedig/xml/travarle.xml",
+  "/comedig/xml/convsmer.xml",
+  "/comedig/xml/cortones.xml",
+  "/comedig/xml/dispnobi.xml",
+  "/comedig/xml/onorpove.xml",
+  "/comedig/xml/gazznoti.xml",
+  "/comedig/xml/lavanobi.xml",
+  "/comedig/xml/maggglor.xml",
+  "/comedig/xml/nascarle.xml",
+  "/comedig/xml/arcainca.xml",
+  "/comedig/xml/disgpant.xml",
+  "/comedig/xml/fortdisg.xml",
+  "/comedig/xml/magipiet.xml",
+  "/comedig/xml/metaarle.xml",
+  "/comedig/xml/ingafort.xml",
+  "/comedig/xml/spergiur.xml",
+  "/comedig/xml/sansone.xml",
+  "/comedig/xml/scavstec.xml",
+  "/comedig/xml/smerodia.xml",
+  "/comedig/xml/smerspir.xml"
 ];
 
 var CETEIcean;
@@ -47,6 +46,7 @@ const Comedig = {
   // everything starts here, with the processing of the XML files.
   async init() {
     for (let xmlFile of XMLFiles) {
+      console.log(xmlFile);
       await this.processXmlFile(xmlFile);
     }
 
@@ -98,10 +98,11 @@ const Comedig = {
       return;
     }
 
-    // get more descriptive metadate from TEI header
+    // get more descriptive metadata from TEI header
 
     try {
-      work.descr = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:teiHeader//tei:sourceDesc", xmlDoc).iterateNext().textContent;
+      work.descr = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:teiHeader//tei:sourceDesc", xmlDoc).iterateNext().innerHTML;
+      console.log(work.descr)
     } catch (e) {
       work.descr = "info to be added"
     }
@@ -150,6 +151,7 @@ const Comedig = {
     if (!location.pathname.startsWith("/comedig/opere.html")) {
       return;
     }
+
     var listWorks = document.getElementById("listWorks");
     for (let workId in this.works) {
       const work = this.works[workId];
@@ -161,6 +163,7 @@ const Comedig = {
       workTitle.setAttribute("class", "accordion");
       workTitle.textContent = "> "
       workTitle.textContent += work.title;
+
       
 
       var workLink = document.createElement("a");
@@ -171,7 +174,8 @@ const Comedig = {
 
       var descText = document.createElement("div");
       descText.setAttribute("class", "content");
-      descText.textContent = work.descr;
+      descText.innerHTML = work.descr;
+      console.log(work.descr)
       
       var downloadSection = document.createElement('p');
       descText.append(downloadSection);
