@@ -496,6 +496,10 @@ tei-figure {
   margin-left: auto;
   margin-right: auto;
 }
+
+tei-fw {
+  display: None;
+}
 /* g */
 tei-g {
   /* Empty Rule Set */
@@ -772,8 +776,9 @@ tei-layoutDesc {
 tei-lb {
   /* Empty Rule Set */
 }
+
 tei-lb:after {
-  content: '\a';
+  content: ' | ';
   white-space: pre;
 }
 tei-lbl {
@@ -1105,6 +1110,11 @@ tei-p {
   margin-bottom: 1em;
   text-align: justify;
 }
+
+.pageBreak {
+  text-align: center;
+}
+
 *[data-tei-rendition~="#center"] p {
   text-align: center;
 }

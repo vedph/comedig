@@ -9,3 +9,30 @@
   border-radius: 5px;
   padding: 0.3em;
 }
+
+.bib_name{
+  font-variant: small-caps;
+}
+
+
+#toc_container {
+  margin-right: auto;
+  margin-left: 10%;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  padding: 20px;
+  width: auto;
+  margin-bottom: 1em;
+  margin-top: 5em;
+  
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li {
+  list-style: outside none none !important;
+}
