@@ -58,6 +58,7 @@ const Comedig = {
     this.maybeShowAgent();
 
     this.createWorksPage();
+
   },
 
   // Here it processes a single XML file.
@@ -102,7 +103,6 @@ const Comedig = {
 
     try {
       work.descr = this.runXPath(xmlDoc, "/tei:teiCorpus/tei:teiHeader//tei:sourceDesc", xmlDoc).iterateNext().innerHTML;
-      console.log(work.descr)
     } catch (e) {
       work.descr = "info to be added"
     }
@@ -175,7 +175,9 @@ const Comedig = {
       var descText = document.createElement("div");
       descText.setAttribute("class", "content");
       descText.innerHTML = work.descr;
-      console.log(work.descr)
+
+
+      
       
       var downloadSection = document.createElement('p');
       descText.append(downloadSection);
@@ -543,5 +545,18 @@ function translateLanTags(lang) {
     return lang;
   };
 };
+
+
+
+// populate in-text references with alt text
+function addAltText(data) {
+    bibrefs = document.getElementsByTagName('bibl')
+    Array.from(bibrefs).forEach(function(element) {
+        let citekey = element.getAttribute('id');
+        console.log(data[citekey]["text"]);
+        element.setAttribute("title", data[citekey]["text"].replace(/<[^>]*>?/gm, ''));
+    });
+    
+}
 
 Comedig.init();
